@@ -1,9 +1,0 @@
-{
-  "menuLabel": "गवर्नेंस",
-  "title": "Blockchain गवर्नेंस",
-  "caption": "विकेंद्रीकृत ऑन-चेन गवर्नेंस आपकी उंगलियों पर।",
-  "subCaption": "DRep के रूप में रजिस्टर करें या DRep सूची ब्राउज़ करें। प्रस्तावों को एक्सप्लोर करें।",
-  "delegation": "DRep डेलिगेशन",
-  "proposals": "गवर्नेंस प्रस्ताव",
-  "information": "$t(common:information)"
-}

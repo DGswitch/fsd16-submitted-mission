@@ -1,9 +1,0 @@
-{
-  "title": "Centar za obavještenja",
-  "empty": "Nema obavještenja.",
-  "copy": "Kopirano u clipboard",
-  "type": {
-    "txMS": "Multi-Sig Transakcija",
-    "unknown": "Nepoznat Tip"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Impor Kunci Akun Publik",
-  "caption": "Masukkan kunci akun publik (biasanya diawali dengan 'acct_xvk' atau 'xpub1') untuk membuat wallet 'read-only'.",
-  "placeholder": "acct_xvk...",
-  "error": "Kunci akun publik tidak valid, harap verifikasi dan coba lagi."
-}

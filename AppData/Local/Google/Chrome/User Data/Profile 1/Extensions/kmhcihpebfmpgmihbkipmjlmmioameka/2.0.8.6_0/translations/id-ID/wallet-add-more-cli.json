@@ -1,9 +1,0 @@
-{
-  "title": "Impor Kunci Penandatanganan CLI",
-  "caption": "Pilih kunci pembayaran dan kunci stake (opsional) dari wallet yang dibuat oleh CLI.",
-  "payment": "Kunci pembayaran",
-  "stake": "Kunci stake",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "Kunci tidak valid, mohon verifikasi dan coba lagi!"
-}

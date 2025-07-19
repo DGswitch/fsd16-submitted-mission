@@ -1,9 +1,0 @@
-{
-  "title": "Importera CLI-signeringsnycklar",
-  "caption": "Välj betalnings- och insatsnycklar (valfritt) från en CLI-genererad wallet.",
-  "payment": "Betalningsnyckel",
-  "stake": "Insatsnyckel",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "Ogiltig nyckel, vänligen verifiera och försök igen!"
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Importa Chiave Pubblica Account",
-  "caption": "Inserisci una chiave pubblica account (solitamente inizia con 'acct_xvk' o 'xpub1') per creare un wallet 'in sola lettura'.",
-  "placeholder": "acct_xvk...",
-  "error": "Chiave pubblica account non valida, verifica e riprova."
-}

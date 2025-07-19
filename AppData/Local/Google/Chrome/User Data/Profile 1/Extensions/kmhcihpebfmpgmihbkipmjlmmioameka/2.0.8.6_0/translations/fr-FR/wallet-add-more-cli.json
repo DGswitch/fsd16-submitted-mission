@@ -1,9 +1,0 @@
-{
-  "title": "Importer les clés de signature CLI",
-  "caption": "Sélectionnez les clés de signature de paiement et de staking (facultatif) depuis un wallet généré par CLI.",
-  "payment": "Clé de paiement",
-  "stake": "Clé de staking",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "Clé invalide, veuillez vérifier et réessayer !"
-}

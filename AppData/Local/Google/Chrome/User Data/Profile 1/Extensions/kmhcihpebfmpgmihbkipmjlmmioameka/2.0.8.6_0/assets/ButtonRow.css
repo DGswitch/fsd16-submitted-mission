@@ -1,9 +1,0 @@
-/*! tailwindcss v4.1.4 | MIT License | https://tailwindcss.com */
-.button-row[data-v-93468b27] > * {
-  flex-grow: 1;
-}
-@media (min-width: 640px) {
-.button-row[data-v-93468b27] > * {
-    flex-grow: 0;
-}
-}

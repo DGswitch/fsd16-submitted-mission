@@ -1,6 +1,0 @@
-{
-  "title": "Importa la clau pública del compte",
-  "caption": "Introdueix una clau pública del compte (normalment comença amb 'acct_xvk' o 'xpub1') per crear un wallet de 'només lectura'.",
-  "placeholder": "acct_xvk...",
-  "error": "Clau pública del compte no vàlida, si us plau, verifica-la i torna-ho a provar."
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Importer offentlig kontonøgle",
-  "caption": "Indtast en offentlig kontonøgle (starter normalt med 'acct_xvk' eller 'xpub1') for at oprette en 'skrivebeskyttet' wallet.",
-  "placeholder": "acct_xvk...",
-  "error": "Ugyldig offentlig kontonøgle. Tjek den lige og prøv igen."
-}

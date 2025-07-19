@@ -1,9 +1,0 @@
-{
-  "menuLabel": "Governance",
-  "title": "Blockchain Governance",
-  "caption": "Dezentralisierte On-Chain-Governance griffbereit.",
-  "subCaption": "Als DRep registrieren oder die DRep-Liste durchsuchen. Vorschläge erkunden.",
-  "delegation": "DRep-Delegation",
-  "proposals": "Governance-Vorschläge",
-  "information": "$t(common:information)"
-}

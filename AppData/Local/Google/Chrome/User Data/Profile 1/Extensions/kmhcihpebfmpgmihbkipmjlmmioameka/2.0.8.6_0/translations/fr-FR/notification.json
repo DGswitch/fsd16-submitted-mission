@@ -1,9 +1,0 @@
-{
-  "title": "Centre de notifications",
-  "empty": "Aucune notification.",
-  "copy": "A été copié dans le presse-papiers",
-  "type": {
-    "txMS": "Transaction Multi-Signature",
-    "unknown": "Type inconnu"
-  }
-}

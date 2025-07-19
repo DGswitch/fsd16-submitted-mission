@@ -1,7 +1,0 @@
-{
-  "cardano":                  "Cardano",
-  "cardanoScript":            "Native Script",
-  "adaHandle":                "Handle",
-  "unstoppableDomains":       "UnstoppableDomains",
-  "apexFusion":               "$t(common:network.apexFusion) {{ mode }}"
-}

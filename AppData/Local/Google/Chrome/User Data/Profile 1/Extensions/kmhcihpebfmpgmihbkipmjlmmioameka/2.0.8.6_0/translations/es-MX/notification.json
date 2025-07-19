@@ -1,9 +1,0 @@
-{
-  "title": "Centro de notificaciones",
-  "empty": "No hay notificaciones.",
-  "copy": "Se ha copiado al portapapeles",
-  "type": {
-    "txMS": "Transacción Multi-Sig",
-    "unknown": "Tipo desconocido"
-  }
-}

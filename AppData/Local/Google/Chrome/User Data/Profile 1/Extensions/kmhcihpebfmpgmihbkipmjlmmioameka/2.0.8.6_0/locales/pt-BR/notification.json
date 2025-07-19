@@ -1,9 +1,0 @@
-{
-  "title": "Central de Notificações",
-  "empty": "Sem notificações.",
-  "copy": "Copiado para a área de transferência",
-  "type": {
-    "txMS": "Transação Multi-Sig",
-    "unknown": "Tipo Desconhecido"
-  }
-}

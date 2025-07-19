@@ -1,9 +1,0 @@
-{
-  "title": "CLI署名キーのインポート",
-  "caption": "CLIで生成された__GT__ウォレット__から支払いキーとステークキー（任意）の署名キーを選択します。",
-  "payment": "支払いキー",
-  "stake": "ステークキー",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "無効なキーです。確認してもう一度お試しください！"
-}

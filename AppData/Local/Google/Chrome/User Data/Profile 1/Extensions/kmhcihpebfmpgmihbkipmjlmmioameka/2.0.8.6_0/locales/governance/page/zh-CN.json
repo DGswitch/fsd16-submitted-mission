@@ -1,9 +1,0 @@
-{
-  "menuLabel": "治理",
-  "title": "__GT__區塊鏈__ 治理",
-  "caption": "去中心化鏈上治理，觸手可及。",
-  "subCaption": "註冊成為 DRep 或瀏覽 DRep 列表。探索提案。",
-  "delegation": "DRep 委託",
-  "proposals": "治理提案",
-  "information": "$t(common:information)"
-}

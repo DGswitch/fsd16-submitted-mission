@@ -1,9 +1,0 @@
-{
-  "menuLabel": "Quản trị",
-  "title": "__GT__Quản trị Blockchain",
-  "caption": "Quản trị phi tập trung on-chain trong tầm tay bạn.",
-  "subCaption": "Đăng ký làm DRep hoặc duyệt danh sách DRep. Khám phá các đề xuất.",
-  "delegation": "Ủy quyền DRep",
-  "proposals": "Đề xuất quản trị",
-  "information": "$t(common:information)"
-}

@@ -1,5 +1,0 @@
-{
-  "title": "Opret Adresse Wallet",
-  "caption": "Indtast en delegeret (base) eller ikke-delegeret (betalings) adresse for at oprette en 'skrivebeskyttet' wallet",
-  "error": "Ugyldig adresse, tjek den lige og prøv igen."
-}

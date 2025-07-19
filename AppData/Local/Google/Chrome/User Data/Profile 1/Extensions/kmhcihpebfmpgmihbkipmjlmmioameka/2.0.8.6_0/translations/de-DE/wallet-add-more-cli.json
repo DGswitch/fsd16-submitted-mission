@@ -1,9 +1,0 @@
-{
-  "title": "CLI-Signaturschlüssel importieren",
-  "caption": "Zahlungs- und (optional) Stake-Signaturschlüssel aus einer über CLI generierten wallet auswählen.",
-  "payment": "Zahlungsschlüssel",
-  "stake": "Stake-Schlüssel",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "Ungültiger Schlüssel, bitte überprüfen und erneut versuchen!"
-}

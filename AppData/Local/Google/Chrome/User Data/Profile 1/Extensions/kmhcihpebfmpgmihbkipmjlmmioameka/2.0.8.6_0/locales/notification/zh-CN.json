@@ -1,9 +1,0 @@
-{
-  "title": "通知中心",
-  "empty": "沒有通知。",
-  "copy": "已複製到剪貼簿",
-  "type": {
-    "txMS": "Multi-Sig 交易",
-    "unknown": "未知類型"
-  }
-}

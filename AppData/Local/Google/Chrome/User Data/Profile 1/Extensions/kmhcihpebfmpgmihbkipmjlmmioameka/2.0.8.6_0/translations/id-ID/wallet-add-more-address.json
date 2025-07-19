@@ -1,5 +1,0 @@
-{
-  "title": "Buat Alamat Wallet",
-  "caption": "Masukkan alamat delegated (base) atau non-delegated (payment) untuk membuat wallet 'hanya-baca'",
-  "error": "Alamat tidak valid, mohon verifikasi dan coba lagi."
-}

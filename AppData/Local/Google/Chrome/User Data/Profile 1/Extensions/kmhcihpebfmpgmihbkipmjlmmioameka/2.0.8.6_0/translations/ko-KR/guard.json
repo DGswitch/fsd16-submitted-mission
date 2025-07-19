@@ -1,8 +1,0 @@
-{
-  "warning": "Eternl 가드 경고",
-  "app": {
-    "description": "이 DApp은(는) 알려진 스캠 사이트입니다! 자금을 탈취하거나 다른 방식으로 사기를 시도할 가능성이 매우 높습니다!",
-    "description2": "이 페이지와 <span class=\"font-bold\">상호작용하지 않으시기를</span> 강력히 권고합니다!",
-    "ownRisk": "위험을 감수하고 이 사이트에 연결하십시오!"
-  }
-}

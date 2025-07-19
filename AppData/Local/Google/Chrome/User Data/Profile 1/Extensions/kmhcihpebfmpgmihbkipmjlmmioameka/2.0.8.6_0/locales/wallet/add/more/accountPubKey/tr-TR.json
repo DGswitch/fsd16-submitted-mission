@@ -1,6 +1,0 @@
-{
-  "title": "Genel Hesap Anahtarını İçe Aktar",
-  "caption": "'Salt okunur' bir __GT__cüzdan__ oluşturmak için bir genel hesap anahtarı (genellikle 'acct_xvk' veya 'xpub1' ile başlar) girin.",
-  "placeholder": "acct_xvk...",
-  "error": "Geçersiz genel hesap anahtarı, lütfen doğrulayın ve tekrar deneyin."
-}

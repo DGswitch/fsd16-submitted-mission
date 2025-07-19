@@ -1,9 +1,0 @@
-{
-  "menuLabel": "حاکمیت",
-  "title": "Blockchain حاکمیت",
-  "caption": "حاکمیت غیرمتمرکز آن‌چین در دسترس شماست.",
-  "subCaption": "به عنوان DRep ثبت‌نام کنید یا لیست DRepها را مرور کنید. پیشنهادها را کاوش کنید.",
-  "delegation": "واگذاری به DRep",
-  "proposals": "پیشنهادهای حاکمیت",
-  "information": "$t(common:information)"
-}

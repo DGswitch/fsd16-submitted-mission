@@ -1,6 +1,0 @@
-{
-  "title": "Import Public Account Key",
-  "caption": "Enter a public account key (usually starts with 'acct_xvk' or 'xpub1') to create a 'read-only' wallet.",
-  "placeholder": "acct_xvk...",
-  "error": "Invalid public account key, please verify and try again."
-}

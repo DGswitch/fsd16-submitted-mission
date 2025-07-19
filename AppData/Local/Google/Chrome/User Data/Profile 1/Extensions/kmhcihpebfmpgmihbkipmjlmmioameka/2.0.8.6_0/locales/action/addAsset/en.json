@@ -1,7 +1,0 @@
-{
-  "input": {
-
-    "label":                   "Enter {{tokenCardLabel}} amount",
-    "maxButton":               "MAX"
-  }
-}

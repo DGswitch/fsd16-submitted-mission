@@ -1,9 +1,0 @@
-{
-  "title": "CLI সাইনিং কি আমদানি করুন",
-  "caption": "একটি CLI দ্বারা তৈরি wallet থেকে পেমেন্ট এবং স্টেক (ঐচ্ছিকভাবে) সাইনিং কি নির্বাচন করুন।",
-  "payment": "পেমেন্ট কি",
-  "stake": "স্টেক কি",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "অবৈধ কি, অনুগ্রহ করে যাচাই করুন এবং আবার চেষ্টা করুন!"
-}

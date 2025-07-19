@@ -1,9 +1,0 @@
-{
-  "menuLabel": "Bestuur",
-  "title": "Blockchain Bestuur",
-  "caption": "Gedecentraliseerd on-chain bestuur binnen handbereik.",
-  "subCaption": "Registreer als DRep of blader door de DRep-lijst. Verken voorstellen.",
-  "delegation": "DRep-delegatie",
-  "proposals": "Bestuursvoorstellen",
-  "information": "$t(common:information)"
-}

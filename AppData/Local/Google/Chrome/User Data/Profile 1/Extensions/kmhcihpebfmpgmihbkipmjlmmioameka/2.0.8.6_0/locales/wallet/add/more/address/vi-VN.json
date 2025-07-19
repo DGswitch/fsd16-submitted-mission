@@ -1,5 +1,0 @@
-{
-  "title": "Tạo Địa chỉ Wallet",
-  "caption": "Nhập địa chỉ được ủy quyền (base) hoặc không được ủy quyền (payment) để tạo một wallet 'chỉ đọc'",
-  "error": "Địa chỉ không hợp lệ, vui lòng xác minh và thử lại."
-}

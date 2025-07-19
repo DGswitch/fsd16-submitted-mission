@@ -1,1 +1,0 @@
-window.addEventListener("load",()=>{const e=document.createElement("script");e.setAttribute("src","app/options.js");document.head.appendChild(e)},{once:true});

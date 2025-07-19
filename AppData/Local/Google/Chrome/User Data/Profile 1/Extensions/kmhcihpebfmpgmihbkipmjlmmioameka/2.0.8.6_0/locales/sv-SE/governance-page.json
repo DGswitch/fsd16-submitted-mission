@@ -1,9 +1,0 @@
-{
-  "menuLabel": "Styrning",
-  "title": "__GT__Blockkedjestyrning",
-  "caption": "Decentraliserad on-chain-styrning till hands.",
-  "subCaption": "Registrera dig som DRep eller bläddra i DRep-listan. Utforska förslag.",
-  "delegation": "DRep-delegering",
-  "proposals": "Styrningsförslag",
-  "information": "$t(common:information)"
-}

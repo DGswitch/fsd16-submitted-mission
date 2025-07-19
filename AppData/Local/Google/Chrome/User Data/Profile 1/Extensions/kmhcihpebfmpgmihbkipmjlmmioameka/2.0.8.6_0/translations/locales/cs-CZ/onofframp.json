@@ -1,6 +1,0 @@
-{
-  "title": "Koupit / Prodat {{currency}}",
-  "caption": "Vyber si bránu mezi FIAT měnou a Cardano.",
-  "noProvider": "Bohužel, momentálně není k dispozici žádný poskytovatel.",
-  "loading": "Načítám poskytovatele pro FIAT On / Off ramp"
-}

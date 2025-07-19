@@ -1,9 +1,0 @@
-{
-  "menuLabel": "거버넌스",
-  "title": "Blockchain 거버넌스",
-  "caption": "탈중앙화된 온체인 거버넌스를 손쉽게 이용하세요.",
-  "subCaption": "DRep으로 등록하거나 DRep 목록을 찾아보세요. 제안들을 살펴보세요.",
-  "delegation": "DRep 위임",
-  "proposals": "거버넌스 제안",
-  "information": "$t(common:information)"
-}

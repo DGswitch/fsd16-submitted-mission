@@ -1,8 +1,0 @@
-{
-  "warning": "Eternl 보안 경고",
-  "app": {
-    "description": "이 DApp은 알려진 SCAM 사이트입니다! 귀하의 자금을 탈취하거나 다른 방식으로 사기를 칠 가능성이 매우 높습니다!",
-    "description2": "이 페이지와 <span class=\"font-bold\">상호작용하지 말 것을</span> 강력히 권고합니다!",
-    "ownRisk": "이 사이트 연결은 본인의 책임하에 진행하십시오."
-  }
-}

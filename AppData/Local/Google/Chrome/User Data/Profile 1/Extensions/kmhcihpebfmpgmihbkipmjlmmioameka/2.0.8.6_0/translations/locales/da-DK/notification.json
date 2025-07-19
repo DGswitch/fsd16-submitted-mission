@@ -1,9 +1,0 @@
-{
-  "title": "Notifikationscenter",
-  "empty": "Ingen notifikationer.",
-  "copy": "Er blevet kopieret til udklipsholderen",
-  "type": {
-    "txMS": "Multi-Sig Transaktion",
-    "unknown": "Ukendt Type"
-  }
-}

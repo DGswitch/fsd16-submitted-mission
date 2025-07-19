@@ -1,9 +1,0 @@
-{
-  "menuLabel": "الحوكمة",
-  "title": "Blockchain الحوكمة",
-  "caption": "حوكمة لامركزية على البلوك تشين في متناول يدك.",
-  "subCaption": "سجل بصفتك DRep أو تصفح قائمة DRep. استكشف المقترحات.",
-  "delegation": "تفويض DRep",
-  "proposals": "مقترحات الحوكمة",
-  "information": "$t(common:information)"
-}

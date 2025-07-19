@@ -1,9 +1,0 @@
-{
-  "title": "Meldingscentrum",
-  "empty": "Geen meldingen.",
-  "copy": "Is naar het klembord gekopieerd",
-  "type": {
-    "txMS": "Multi-Sig Transactie",
-    "unknown": "Onbekend Type"
-  }
-}

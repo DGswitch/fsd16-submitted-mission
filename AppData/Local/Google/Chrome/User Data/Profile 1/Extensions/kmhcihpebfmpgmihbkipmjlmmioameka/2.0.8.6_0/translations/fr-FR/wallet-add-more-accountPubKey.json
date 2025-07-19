@@ -1,6 +1,0 @@
-{
-  "title": "Importer une Clé de Compte Publique",
-  "caption": "Entrez une clé de compte publique (commence généralement par 'acct_xvk' ou 'xpub1') pour créer un wallet en 'lecture seule'.",
-  "placeholder": "acct_xvk...",
-  "error": "Clé de compte publique invalide, veuillez vérifier et réessayer."
-}

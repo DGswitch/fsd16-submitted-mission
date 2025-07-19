@@ -1,9 +1,0 @@
-{
-  "title": "Bildirim merkezi",
-  "empty": "Bildirim yok.",
-  "copy": "Panoya kopyalandı",
-  "type": {
-    "txMS": "Multi-Sig İşlem",
-    "unknown": "Bilinmeyen Tür"
-  }
-}

@@ -1,9 +1,0 @@
-{
-  "header": "Wallet import",
-  "caption": "Restore one or multiple wallets using your Eternl JSON Backup.",
-  "drop": "Drag and drop files here to upload.",
-  "loading": "Processing uploaded file(s)",
-  "button": {
-    "selectFiles": "Select files"
-  }
-}

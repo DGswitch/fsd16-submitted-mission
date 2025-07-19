@@ -1,6 +1,0 @@
-{
-  "title": "Compra / Venda de {{currency}}",
-  "caption": "Selecciona la teva passarel·la entre FIAT i Cardano.",
-  "noProvider": "Malauradament, actualment no hi ha cap proveïdor disponible.",
-  "loading": "Carregant proveïdors d'entrada/sortida de FIAT"
-}

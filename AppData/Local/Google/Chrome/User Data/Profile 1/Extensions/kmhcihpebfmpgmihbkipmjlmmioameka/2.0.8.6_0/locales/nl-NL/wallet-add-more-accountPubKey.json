@@ -1,6 +1,0 @@
-{
-  "title": "Importeren Publieke Accountsleutel",
-  "caption": "Voer een publieke accountsleutel in (begint meestal met 'acct_xvk' of 'xpub1') om een 'alleen-lezen' wallet aan te maken.",
-  "placeholder": "acct_xvk...",
-  "error": "Ongeldige publieke accountsleutel, controleer a.u.b. en probeer opnieuw."
-}

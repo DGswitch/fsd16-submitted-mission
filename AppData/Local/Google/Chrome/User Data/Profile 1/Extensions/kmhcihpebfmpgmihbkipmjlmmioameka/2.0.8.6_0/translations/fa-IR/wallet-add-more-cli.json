@@ -1,9 +1,0 @@
-{
-  "title": "وارد کردن کلیدهای امضای CLI",
-  "caption": "کلیدهای امضای پرداخت و استیکینگ (اختیاری) را از یک wallet تولید شده توسط CLI انتخاب کنید.",
-  "payment": "کلید پرداخت",
-  "stake": "کلید استیکینگ",
-  "drop": "$t(common:importFiles.drop)",
-  "loading": "$t(common:importFiles.processing)",
-  "error": "کلید نامعتبر است، لطفاً بررسی کرده و دوباره تلاش کنید!"
-}

@@ -1,8 +1,0 @@
-{
-  "title": "Nastavení aplikace",
-  "caption": "Aktualizuj nastavení podle svých preferencí \nnebo si nech výchozí.",
-  "success": {
-    "title": "Nastavení aplikace proběhlo úspěšně",
-    "caption": "Všechno je nastaveno, pokračuj do aplikace."
-  }
-}
