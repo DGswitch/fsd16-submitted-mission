@@ -1,0 +1,1692 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica',sans-serif;
+    text-decoration: none;
+    border: none;
+    list-style-type: none;
+    
+}
+
+body {
+    display: block;
+    position: relative;
+    background: #04000e;
+    max-width: 100%;
+    height: 100%;
+}
+
+/* Header */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #170535;
+    max-height: 3.6rem;
+    padding: 0 1rem;
+}
+
+.navbar>.container>svg {
+    width: 8rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-left: 0rem;
+    fill: white;
+}
+
+.mynavbar {
+    background: #170535;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0px 10px 0px;
+}
+
+.mynavbar .nav {
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    max-height: 3rem;
+    background: transparent;
+}
+
+.nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #170535;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: #fff;
+    border-radius: 50px;
+    max-height: 2.5rem;
+    padding: 5px 15px 5px 15px;
+}
+.nav a:hover {
+    color: #fff;
+    background: #8a2be2;
+    padding: 5px 15px 5px 15px;
+    transition: all 0.3s ease-out;
+}
+
+.navbar-icon svg {
+    border: transparent;
+    background: transparent;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 1.4rem;
+    cursor: pointer;
+    letter-spacing: 1rem;
+    margin: 8px 12px 0 0;
+    fill: white;
+}
+.navbar-icon svg:hover {
+    fill: #8a2be2;
+    width: 1.6rem;
+    transition: all 0.3s ease-out;
+}
+
+.navbar>.container>.signIn {
+    color: #c09ce2;
+    font-size: 1rem;
+    padding-top: 0.4rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-right: 1rem;
+}
+
+.navbar>.container>.signIn:hover {
+    color: #8a2be2;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-out;
+}
+
+/* Hero - Headline Container */
+.hero {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.headline-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 20em;
+    overflow: hidden;
+    z-index: 0;
+}
+
+/* Headline - Slide 1 */
+/* .headline-wrapper-slide1.active {
+    opacity: 1;
+    z-index: 0;
+    transition: all 0.5s ease-out;
+} */
+
+.headline-track-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headline-wrapper-slide1 {
+    position: absolute;
+    background: url('../img/asset/who-i-am.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 20em;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.img-shadow {
+    position: absolute;
+    cursor: default;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 20em;
+    object-fit: cover;
+    z-index: 2;
+    background: linear-gradient(to left, rgba(4, 0, 14, 0), rgba(4, 0, 14, 0.65), rgba(4, 0, 14, 0.85), rgba(4, 0, 14, 0.95), rgba(4, 0, 14, 1));
+}
+
+.track-1-container {
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* .track-1 {
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+    height: 20em;
+} */
+
+.icon-volume>svg {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    z-index: 3;
+    right: 3.6rem;
+    top: 16.8rem;
+    fill: white;
+    width: 1.6rem;
+    opacity: 0.5;
+}
+
+.icon-volume>svg:hover {
+    opacity: 1;
+}
+
+
+.film-description {
+    color: #fff;
+    max-width: 55%;
+    left: 2.8rem;
+    margin-top: 3.6rem;
+    padding: 0 0 0 10px;
+    display: block;
+    font-weight: 200;
+    position: absolute;
+    z-index: 3;
+    cursor: default;
+}
+
+.film-description>h1 {
+    max-width:100%;
+    margin-bottom: 0.4rem;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
+
+.film-description>p {
+    max-width: 70%;
+    font-size: 0.9rem;
+}
+
+.tittle-wrapper {
+    display: flex;
+    max-width: 100%;
+    margin: 0.4rem 0;
+    gap: 0.9rem;
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+}
+
+.icon-duration>svg, .icon-genre>svg, .icon-year>svg {
+    margin-top: 0.4rem;
+    gap: 10px;
+    width: 0.9rem;
+    fill: white;
+}
+
+.icon-text {
+    color: #fff;
+    cursor: default;
+}
+
+.cta-wrapper {
+    border: transparent;
+    display: flex;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+.hero-btn {
+    background: transparent;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-top: 0.6rem;
+    font-weight: 600;
+    gap: 0.8rem;
+}
+
+.watchNow {
+    background: #bc071c;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    color: #fff;
+}
+.watchNow:hover {
+    padding: 6px 18px 6px 18px;
+    transition: all 0.3s ease-out;
+}
+
+.trailer {
+    background: #fff;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    color: #04000e;
+}
+.trailer:hover {
+    padding: 6px 18px 6px 18px;
+    transition: all 0.3s ease-out;
+}
+
+.more {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;
+    color: #04000e;
+}
+.more:hover {
+    padding: 6px 18px 6px 18px;
+    transition: all 0.3s ease-out;
+}
+
+/* Hero - Headline Arrow */
+.headline-arrow-container {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0 2rem;
+    align-items: center;
+    z-index: 3;
+    top: 10rem;
+    height: 3rem;
+}
+
+.btn-previous {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+    opacity: 0.05;
+}
+
+.btn-previous:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+}
+
+.btn-next {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+    opacity: 0.05;
+}
+
+.btn-next:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+}
+
+.headline-arrow2 {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    top: 5.6rem;
+    /* transform: translateY(-50%); */
+    height: 3rem;
+}
+
+.headline-arrow-container2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-previous2 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-previous2:hover {
+    transition: all 0.3s ease-out;
+} */
+
+.btn-next2 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-next2:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+} */
+
+.headline-arrow3 {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    top: 10.5rem;
+    /* transform: translateY(-50%); */
+    height: 3rem;
+}
+
+.headline-arrow-container3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-previous3 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-previous2:hover {
+    transition: all 0.3s ease-out;
+} */
+
+.btn-next3 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-next2:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+} */
+
+.headline-arrow4 {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    top:7.5rem;
+    /* transform: translateY(-50%); */
+    height: 3rem;
+}
+
+.headline-arrow-container4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-previous4 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-previous2:hover {
+    transition: all 0.3s ease-out;
+} */
+
+.btn-next4 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-next4:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+} */
+
+.headline-arrow5 {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    top: 11.5rem;
+    /* transform: translateY(-50%); */
+    height: 3rem;
+}
+
+.headline-arrow-container5 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-previous5 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-previous5:hover {
+    transition: all 0.3s ease-out;
+} */
+
+.btn-next5 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-next5:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+} */
+
+.headline-arrow6 {
+    width: 100vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    z-index: 1;
+    top: 6rem;
+    /* transform: translateY(-50%); */
+    height: 3rem;
+}
+
+.headline-arrow-container6 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-previous6 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-previous6:hover {
+    transition: all 0.3s ease-out;
+} */
+
+.btn-next6 {
+    cursor: pointer;
+    fill: white;
+    width: 32px;
+}
+
+/* .btn-next6:hover {
+    opacity: 0.75;
+    transition: all 0.3s ease-out;
+} */
+
+/* SECTION-2 */
+.section2-container {
+    /* background: #bc071c; */
+    width: 100%;
+    height: 16rem;
+    display: flex;
+    padding: 0 1.4rem;
+    overflow: hidden;
+}
+
+.continue-watching {
+    font-family: helvetica, sans-serif;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    width: 96%;
+    height: 16rem;
+    padding: 10px 5px 10px 5px;
+    border: none;
+}
+
+.continue-watching-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.continue-watching h3 {
+    padding-left: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.continue-watching .cw-btn-next {
+    cursor: pointer;
+    fill: white;
+    width: 20px;
+    opacity: 1;
+}
+
+.continue-watching-wrapper {
+    border: none;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 9rem;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.cwtrack0-wrapper {
+    display: inline-flex;
+    position: relative;
+    width: 2400px;
+    height: 100%;
+    border: none;
+    gap: 5px;
+    padding: 5px;
+}
+
+.cwtrack1-duration,
+.cwtrack2-duration,
+.cwtrack3-duration,
+.cwtrack4-duration,
+.cwtrack5-duration,
+.cwtrack6-duration,
+.cwtrack7-duration 
+{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    right: 8px;
+    bottom: 8px;
+    width: 4rem;
+    background: rgba(9, 0, 28, 0.5);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 2px;
+    cursor: default;
+}
+
+.cwtrack1-text,
+.cwtrack2-text,
+.cwtrack3-text,
+.cwtrack4-text,
+.cwtrack5-text,
+.cwtrack6-text,
+.cwtrack7-text
+{
+    padding-left: 10px;
+}
+
+.cwtrack1-wrapper,
+.cwtrack2-wrapper,
+.cwtrack3-wrapper,
+.cwtrack4-wrapper,
+.cwtrack5-wrapper,
+.cwtrack6-wrapper,
+.cwtrack7-wrapper
+{
+    display: block;
+    width: 15rem;
+    border: none;
+}
+
+.cwtrack1-text>h4,
+.cwtrack2-text>h4,
+.cwtrack3-text>h4,
+.cwtrack4-text>h4,
+.cwtrack5-text>h4,
+.cwtrack6-text>h4,
+.cwtrack7-text>h4
+{
+    letter-spacing: 0.1rem;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: default;
+}
+
+.cwtrack1-text>p,
+.cwtrack2-text>p,
+.cwtrack3-text>p,
+.cwtrack4-text>p,
+.cwtrack5-text>p,
+.cwtrack6-text>p,
+.cwtrack7-text>p
+{
+    font-weight: 400px;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: default;
+}
+
+.cwtrack1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/who-i-am.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.cwtrack2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/5cm.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.cwtrack3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/shark.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.cwtrack4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Detective-Conan-2023.jpeg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.cwtrack5 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/crows-zero.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.cwtrack6 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/inception.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+.cwtrack7 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/joker-jpg.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* SECTION-3 */
+.section3-container {
+    display: block;
+    position: relative;
+    /* background: #a29d06; */
+    width: 100%;
+    height: 40rem;
+    overflow: hidden;
+}
+
+/* top-film */
+.top-film-container {
+    /* background: #bc071c; */
+    width: 100%;
+    height: 23rem;
+    display: flex;
+    padding: 0 1.4rem;
+    overflow: hidden;
+}
+
+.top-film {
+    font-family: helvetica, sans-serif;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 96%;
+    height: 23rem;
+    padding: 10px 5px 10px 5px;
+    border: none;
+}
+
+.top-film-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top-film h3 {
+    padding-left: 1.4rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.top-film .tf-btn-next {
+    cursor: pointer;
+    fill: white;
+    width: 20px;
+    opacity: 1;
+}
+
+.top-film-wrapper {
+    /* border: #bc071c solid 2px; */
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 19.5rem;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.tftrack0-wrapper {
+    display: inline-flex;
+    position: relative;
+    width: 2400px;
+    height: 100%;
+    /* border: #fff solid 2px; */
+    gap: 15px;
+    padding: 5px;
+}
+
+.tftrack1-wrapper,
+.tftrack2-wrapper,
+.tftrack3-wrapper,
+.tftrack4-wrapper,
+.tftrack5-wrapper,
+.tftrack6-wrapper,
+.tftrack7-wrapper
+{
+    display: block;
+    width: 12rem;
+    height: 18rem;
+    /* border: #09001c solid 2px; */
+    margin-left: 1rem;
+}
+
+.tftrack1-rank, 
+.tftrack2-rank, 
+.tftrack3-rank, 
+.tftrack4-rank, 
+.tftrack5-rank, 
+.tftrack6-rank, 
+.tftrack7-rank 
+{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: -1.6rem;
+    bottom: -1.4rem;
+    color: #a564e2;
+    text-shadow: 5px 6px 7px rgba(9, 0, 28, 0.75);
+    font-size: 6rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    padding: 2px;
+    cursor: default;
+}
+
+.tftrack1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/who-am-i-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tftrack2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/joker-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tftrack3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Insidious-poster.png') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tftrack4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/shark-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tftrack5 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/5cm-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tftrack6 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Detective_Conan_Black_Iron_Submarine_Poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tftrack7 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/crows-zero-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* top-series */
+.top-series-container {
+    /* background: #bc071c; */
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    padding: 0 1.4rem;
+    overflow: hidden;
+}
+
+.top-series {
+    font-family: helvetica, sans-serif;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 96%;
+    height: 18rem;
+    padding: 10px 10px 10px 10px;
+    /* border: #fff solid 1px; */
+}
+
+.top-series-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top-series h3 {
+    padding-left: 1rem;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.top-series .ts-btn-next {
+    cursor: pointer;
+    fill: white;
+    width: 20px;
+    opacity: 1;
+}
+
+.top-series-wrapper {
+    /* border: #bc071c solid 2px; */
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 13.5rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5px;
+}
+
+.tstrack0-wrapper {
+    display: flex;
+    position: relative;
+    width: 2400px;
+    height: 100%;
+    /* border: #fff solid 2px; */
+    gap: 1rem;
+    padding: 5px;
+}
+
+.tstrack1-wrapper,
+.tstrack2-wrapper,
+.tstrack3-wrapper,
+.tstrack4-wrapper,
+.tstrack5-wrapper,
+.tstrack6-wrapper,
+.tstrack7-wrapper
+{
+    display: block;
+    position: relative;
+    width: 20rem;
+    height: 12rem;
+    /* border: #fff solid 2px; */
+}
+
+.tstrack1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/crows-zero.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tstrack2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/joker-jpg.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tstrack3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/who-i-am.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tstrack4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/shark.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tstrack5 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/insidious.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tstrack6 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/5cm.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.tstrack7 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Detective_Conan_Black_Iron_Submarine_Poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* SECTION-4 Film Trending */
+.section4-container {
+    display: flex;
+    /* background: #bc071c; */
+    width: 100%;
+    height: 24rem;
+    padding: 0 1.4rem;
+    overflow: hidden;
+}
+
+.film-trending {
+    font-family: helvetica, sans-serif;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 96%;
+    height: 24rem;
+    padding: 10px 5px 10px 5px;
+    border: none;
+}
+
+.film-trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.film-trending h3 {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.film-trending .ft-btn-next {
+    cursor: pointer;
+    fill: white;
+    width: 20px;
+    opacity: 1;
+}
+
+.film-trending-wrapper {
+    /* border: #bc071c solid 2px; */
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5px;
+}
+
+.fttrack0-wrapper {
+    display: inline-flex;
+    position: relative;
+    width: 2400px;
+    height: 100%;
+    /* border: #fff solid 2px; */
+    gap: 1rem;
+    padding: 10px;
+}
+
+.fttrack1-wrapper,
+.fttrack2-wrapper,
+.fttrack3-wrapper,
+.fttrack4-wrapper,
+.fttrack5-wrapper,
+.fttrack6-wrapper,
+.fttrack7-wrapper
+{
+    display: block;
+    position: relative;
+    width: 12rem;
+    height: 18.5rem;
+    /* border: #09001c solid 2px; */
+}
+
+.fttrack1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/shark-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.fttrack2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/who-am-i-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.fttrack3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/joker-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.fttrack4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Insidious-poster.png') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.fttrack5 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/5cm-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.fttrack6 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Detective-Conan-2023.jpeg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.fttrack7 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/crows-zero-poster.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* SECTION-5 Release Film Baru */
+.section5-container {
+    display: flex;
+    /* background: #170535; */
+    width: 100%;
+    height: 18rem;
+    padding: 0 1.4rem;
+    overflow: hidden;
+}
+
+.release-film {
+    font-family: helvetica, sans-serif;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 96%;
+    height: 16rem;
+    padding: 10px 5px 10px 5px;
+    border: none;
+}
+
+.release-film-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.release-film h3 {
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: default;
+}
+
+.release-film .rf-btn-next {
+    cursor: pointer;
+    fill: white;
+    width: 20px;
+    opacity: 1;
+}
+
+.release-film-wrapper {
+    /* border: #bc071c solid 2px; */
+    display: inline-block;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 10.5rem;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 5px;
+}
+
+.rftrack0-wrapper {
+    display: inline-flex;
+    position: relative;
+    width: 2400px;
+    height: 100%;
+    /* border: #fff solid 2px; */
+    gap: 0.5rem;
+    padding: 10px;
+}
+
+.rftrack1-wrapper,
+.rftrack2-wrapper,
+.rftrack3-wrapper,
+.rftrack4-wrapper,
+.rftrack5-wrapper,
+.rftrack6-wrapper,
+.rftrack7-wrapper
+{
+    display: block;
+    position: relative;
+    width: 16rem;
+    height: 9rem;
+    /* border: #09001c solid 2px; */
+}
+
+.rftrack1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/insidious.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.rftrack2 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/Detective-Conan-2023.jpeg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.rftrack3 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/who-i-am.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.rftrack4 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/shark.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.rftrack5 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/joker-jpg.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.rftrack6 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/inception.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+.rftrack7 {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    background: url('../img/asset/5cm.jpg') no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    justify-content: space-between, center;
+    padding: 2rem 2rem 0rem 2rem;
+    width: 100%;
+    max-height: 20rem;
+    background: #170535;
+    gap: 40px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    cursor: default;
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: default;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-container {
+    position: relative;
+    width: 100%;
+}
+
+.footer-wrapper {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.6rem;
+}
+
+.footer-info {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: -2.4rem;
+}
+
+.footer-logo svg {
+    display: flex;
+    fill: #fff;
+    width: 16rem;
+}
+
+.footer-info p {
+    font-size: 1.2rem;
+}
+
+.footer-genre ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px 5px;
+}
+
+.footer-support ul {
+    display: grid;
+    width: 100%;
+    gap: 5px 5px;
+}
+
+footer a:hover {
+    color: rgba(230, 215, 243, 1);
+    text-shadow: #170535 ;
+}
+
+/* Media Queries */
+@media (max-width: 1440px) {
+    html {
+        font-size: 100%;
+    }
+
+    .headline-container,
+    .headline-wrapper-slide1,
+    .img-shadow {
+        height: 24em;
+    }
+
+    .mynavbar {
+        padding: 18px 0 18px 0px;
+    }
+
+    .btn-next,
+    .btn-next2,
+    .btn-next3,
+    .btn-next4,
+    .btn-next5,
+    .btn-next6,
+    .btn-previous,
+    .btn-previous2,
+    .btn-previous3,
+    .btn-previous4,
+    .btn-previous5,
+    .btn-previous6
+     {
+        width: 2.8rem;
+    }
+
+    .film-description {
+        margin-top: 12rem;
+        left: 5rem;
+        max-width: 60%;
+    }
+
+    .continue-watching,
+    .top-film,
+    .top-series,
+    .film-trending,
+    .release-film {
+        width: 96%;
+    }
+
+    footer {
+        padding: 4rem 6rem 2.5rem 6rem;
+    }
+
+    .footer-wrapper {
+        left: 4rem;
+        font-size: 1.2rem;
+    }
+}
+    
+/* Laptop */
+@media (max-width: 1024px) {
+    html {
+     font-size: 90%;
+    }
+
+    .mynavbar {
+        padding: 16px 0 16px 0px;
+    }
+
+    .film-description {
+        margin-top: 12rem;
+        left: 5rem;
+        max-width: 45%;
+    }
+
+    .continue-watching,
+    .top-film,
+    .top-series,
+    .film-trending,
+    .release-film {
+        width: 94.5%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 80%;
+    }
+
+    .mynavbar {
+        padding: 14px 0 14px 0px;
+    }
+
+    .headline-container,
+    .headline-wrapper-slide1,
+    .img-shadow {
+        height: 24em;
+    }
+
+    .film-description {
+        margin-top: 12rem;
+        left: 5rem;
+        max-width: 80%;
+    }
+
+    .continue-watching,
+    .top-film,
+    .top-series,
+    .film-trending,
+    .release-film {
+        width: 93.5%;
+    }
+}
+
+
+/* Mobile Phone */
+@media (max-width: 407px) {
+    html {
+        font-size: 70%;
+    }
+
+    .headline-container,
+    .headline-wrapper-slide1,
+    .img-shadow {
+        height: 20em;
+    }
+
+    .film-description {
+        margin-top: 4rem;
+        left: 5rem;
+        max-width: 70%;
+    }
+
+    .headline-arrow-container {
+        top: 9.5rem;
+    }
+
+    .continue-watching,
+    .top-film,
+    .top-series,
+    .film-trending,
+    .release-film {
+        width: 88%;
+    }
+
+    .section2-container {
+        height: 17rem;
+    }
+
+    .continue-watching {
+        height: 20rem;
+    }
+
+    .headline-arrow2 {
+        top: 7rem;
+    }
+
+    .headline-arrow3 {
+        top: 11.5rem;
+    }
+
+    .headline-arrow4 {
+        top: 9rem;
+    }
+
+    .headline-arrow5 {
+        top: 13.5rem;
+    }
+
+    .headline-arrow6 {
+        top: 8rem;
+    }
+
+    footer {
+        padding: 2rem 0 4rem 0;
+        max-height: 50rem;
+        justify-content: left;
+    }
+
+    .footer-container {
+        width: 100%;
+        justify-content: center;
+        padding: 4rem;
+    }
+
+    .footer-wrapper {
+        top: -20px;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 1.2rem;
+    }
+}
