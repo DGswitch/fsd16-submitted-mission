@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "Все още няма записи в $t(common:addressBook).",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Приеми нов адрес"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) запис: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Импортирай $t(common:addressBook) записи",
+    "caption": "Импортирай $t(common:addressBook) записи от архивен файл."
+  },
+  "overwrite": {
+    "title": "Презапиши $t(common:addressBook) запис",
+    "caption": "Потвърди актуализацията на записа с име {{name}}."
+  },
+  "add": {
+    "title": "Добави към $t(common:addressBook)",
+    "caption": {
+      "main": "Добави запис към $t(common:addressBook).",
+      "prefilled": "Всички стойности са предварително попълнени и полетата са деактивирани."
+    },
+    "name": {
+      "label": "Име на записа",
+      "error": {
+        "length": "Името на $t(common:addressBook) записа трябва да е поне 3 и най-много 40 символа.",
+        "duplicate": "Вече съществува $t(common:addressBook) запис с това име `{{ name }}`, моля, изберете друго.",
+        "duplicateAddr": "Вече съществува $t(common:addressBook) запис с този адрес, под името {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Потвърди изтриването на записа."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "menuLabel": "إرسال",
+  "title": "إرسال أموال",
+  "caption": "هنا تقدر تحول فلوس وأي نوع من الـ token / nft اللي بيدعمها Cardano.",
+  "subCaption": "كل عملية تحويل ممكن يكون ليها أكتر من مستلم، وده بيخلي إرسال الأصول لناس مختلفة سهل ومناسب جداً.",
+  "info": {
+    "available": "$t(common:available)",
+    "txFee": "$t(common:txFee)",
+    "options": "$t(common:options)"
+  },
+  "button": {
+    "recipient": {
+      "label": "إضافة مستلم",
+      "tooltip": "ضيف مستلم/مخرج تاني للمعاملة."
+    },
+    "sign": {
+      "label": "توقيع المعاملة",
+      "tooltip": "وقع المعاملة بالمفاتيح بتاعتك."
+    },
+    "check": {
+      "label": "فحص المعاملة",
+      "tooltip": "شوف هل $t(common:appName) يقدر يبني معاملة."
+    }
+  },
+  "banner": {
+    "recipient": {
+      "title": "$t(send-page:button.recipient.label)",
+      "text": "معاملة تانية هتمسح قايمة المستلمين. دوس على الزرار اللي تحت عشان تضيف مستلم جديد."
+    }
+  }
+}

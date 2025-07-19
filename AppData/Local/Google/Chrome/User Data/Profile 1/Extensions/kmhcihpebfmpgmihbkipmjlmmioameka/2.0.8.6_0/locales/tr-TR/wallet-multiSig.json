@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig wallet",
+      "caption": "Fon harcarken veya ödülleri çekerken bir işlemi birden fazla tarafın imzalamasını gerektiren özel bir wallet türü.",
+      "create": {
+        "label": "Yeni Multi-Sig oluştur",
+        "caption": "Mevcut cüzdanlardan veya harici multi-sig anahtarları kullanarak yeni bir Multi-Sig wallet oluşturmak için"
+      },
+      "join": {
+        "label": "Bir Multi-Sig'e katıl",
+        "caption": "Keşif yoluyla veya zaten eklenmiş bir wallet'tan multi-sig açık anahtarınızı bir arkadaşınızla paylaşarak bir Multi-Sig wallet'a katılın."
+      }
+    },
+    "join": {
+      "headline": "Bir Multi-Sig'e katıl",
+      "caption": "Multi-Sig Anahtarını gösterme, Keşfetme veya dışa aktarılmış bir Multi-Sig wallet'ı içe aktarma seçeneğini seç.",
+      "key": {
+        "label": "Multi-Sig anahtarı",
+        "caption": "Multi-Sig wallet'ı oluşturmaktan sorumlu katılımcıyla paylaşmak üzere seçili wallet'ın Multi-Sig anahtarını göster"
+      },
+      "discover": {
+        "label": "Keşfet",
+        "caption": "Seçili cüzdanların Multi-Sig anahtarını içeren kayıtlı Multi-Sig cüzdanları için blockchain'i tarar"
+      },
+      "import": {
+        "label": "İçe Aktar",
+        "caption": "Oluşturulmuş ve dışa aktarılmış Multi-Sig wallet JSON dosyalarını yükle"
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet Multi-Sig anahtarı",
+      "caption": "Multi-Sig wallet oluşturucusu ile paylaşmak için.",
+      "nowallet": "Seçili wallet yok.",
+      "nopubkey": "Seçili wallet için Multi-Sig anahtarı eksik."
+    },
+    "discover": {
+      "headline": "Keşfedilen Multi-Sig cüzdanları",
+      "caption": "Eklemek için keşfedilen Multi-Sig cüzdanlarını seç.",
+      "reused": {
+        "toggle": "Yeniden kullanılan anahtarlara sahip MultiSig cüzdanlarını göster",
+        "warning": "Yeniden kullanılan anahtarlar olası bir replay attack saldırısına maruz kalabilir, dikkatli kullanın!"
+      },
+      "nowallet": "Seçili wallet yok.",
+      "empty": "Seçilen wallet için Multi-Sig cüzdan bulunamadı.",
+      "loading": "Alınıyor ve işleniyor...",
+      "details": {
+        "headline": "MultiSig Keşif Detayları",
+        "data": {
+          "headline": {
+            "date": "Oluşturuldu",
+            "name": "Ad",
+            "description": "Açıklama",
+            "hash": "Tx Hash",
+            "address": "Adres",
+            "payment": "Ödeme Script",
+            "stake": "Stake Script",
+            "drep": "DRep Script",
+            "meta": "Metadata",
+            "balance": "Bakiye"
+          },
+          "nostake": "Multi-Sig wallet'ın kayıtlı stake script'i yok",
+          "nodrep": "Multi-Sig wallet'ın kayıtlı DRep script'i yok",
+          "nometa": "Kayıtlı 1854 metadata yok",
+          "button": {
+            "showScript": "Script'i Görüntüle",
+            "showMeta": "Metadata Görüntüle"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Multi-Sig cüzdanlarını içe aktar",
+      "caption": "Oluşturulmuş ve dışa aktarılmış Multi-Sig wallet JSON dosyalarını yükle.",
+      "success": "Multi-Sig wallet başarıyla içe aktarıldı",
+      "error": {
+        "invalid": "Geçerli bir Multi-Sig dışa aktarımı değil, CSL AuxiliaryDataJSON formatına uymalıdır",
+        "noscript": "İçe aktarılan dosyanın script'leri yok",
+        "nometa": "İçe aktarılan dosyanın 1854 etiketli metadata'sı yok",
+        "invalidmeta": "Dışa aktarım geçersiz 1854 etiketli metadata içeriyor",
+        "duplicate": "Aynı script'lere sahip bir Multi-Sig wallet zaten içe aktarıldı, yinelenen dosya yok sayılıyor"
+      }
+    },
+    "create": {
+      "headline": "Multi-Sig türü",
+      "caption": "Katılımcılarınızın hepsi eşit mi yoksa grupların / tüzel kişiliklerin bir parçası mı?",
+      "simple": {
+        "label": "Basit",
+        "caption": "Tüm katılımcıların eşit olduğu bir senaryo."
+      },
+      "advanced": {
+        "label": "Gelişmiş (yakında)",
+        "caption": "Katılımcılar bireysel grupların parçasıdır ve birden çok katman oluştururlar."
+      }
+    },
+    "simple": {
+      "headline": "Multi-Sig kurulumu",
+      "caption": "Multi-Sig wallet'ınız için bir ad ve isteğe bağlı bir açıklama belirleyin.",
+      "name": {
+        "label": "Wallet Adı",
+        "placeholder": "Lütfen wallet için bir ad girin",
+        "error": "Ad gerekli"
+      },
+      "description": {
+        "label": "Açıklama",
+        "placeholder": "İsteğe bağlı bir açıklama"
+      },
+      "error": {
+        "validation": "Doğrulama hatası",
+        "length": "Maksimum 64 karakter uzunluğu aşıldı!"
+      }
+    },
+    "participants": {
+      "headline": "Katılımcı ekle",
+      "caption": "Yüklü cüzdanlardan veya multi-sig açık anahtarını girerek multi-sig'in parçası olması gereken kişileri belirtin.",
+      "new": "Başka bir katılımcı ekle",
+      "participant": {
+        "label": "Katılımcı",
+        "name": {
+          "label": "Ad",
+          "placeholder": "İsteğe bağlı katılımcı adı"
+        },
+        "pub": {
+          "label": "Multi-Sig Anahtarı",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "Basit bir multi-sig wallet oluşturmak için en az iki katılımcı gereklidir"
+      },
+      "error": {
+        "duplicate": "Aynı multi-sig anahtarına sahip bir katılımcı zaten eklendi, lütfen başka birini seçin."
+      }
+    },
+    "requiredSigners": {
+      "headline": "Gerekli İmzalayanlar",
+      "caption": "İmzalama sırasında kaç katılımcının onaylaması gerekiyor?"
+    },
+    "register": {
+      "headline": "Kaydet",
+      "caption": "Yeni oluşturulan Multi-Sig wallet'ı kaydetme veya indirme seçeneğini seçin.",
+      "anonymous": "Anonim (metadata hariç tut)",
+      "register": {
+        "label": "Kaydet",
+        "caption": "Çoklu imza wallet'ını on-chain kaydetmek için bir işlem oluşturun. Bu, katılımcılar tarafından otomatik keşfe olanak tanır ve önerilen seçenektir.",
+        "feewallet": "İşlem ücreti wallet",
+        "success": "Multi-Sig wallet başarıyla kaydedildi"
+      },
+      "download": {
+        "label": "İndir",
+        "caption": "Katılımcılarla manuel içe aktarma için paylaşılacak bir dosya indirir."
+      },
+      "error": {
+        "nofeewallet": "Multi-Sig kayıt işlemi için ücret wallet'ı olarak kullanılacak wallet bulunamadı."
+      },
+      "success": "Multi-Sig wallet başarıyla oluşturuldu",
+      "exist": "Wallet zaten mevcut, Wallet'a yönlendiriliyor"
+    }
+  },
+  "select": {
+    "placeholder": "Wallet Seç",
+    "missing": {
+      "headline": "Multi-Sig Anahtarları Oluştur",
+      "mnemonic": "Bu wallet'ta multi-sig anahtarları eksik, oluşturmak için lütfen wallet şifrenizi girin.",
+      "hardware": "Bu wallet'ta multi-sig anahtarları eksik, türetmek için lütfen imzala'ya tıklayın ve donanım cihazı talimatlarını izleyin."
+    },
+    "save": {
+      "ok": "Multi-Sig anahtarları başarıyla oluşturuldu ve wallet'a kaydedildi",
+      "error": "Multi-sig anahtarları wallet'a kaydedilemedi, lütfen tekrar deneyin!"
+    }
+  },
+  "last_signature_added": "Son imza eklendi"
+}

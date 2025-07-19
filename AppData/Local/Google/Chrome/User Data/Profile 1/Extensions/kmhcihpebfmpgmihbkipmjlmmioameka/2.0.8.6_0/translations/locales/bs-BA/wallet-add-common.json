@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Ime Wallet-a",
+    "caption": "Daj svom wallet-u prepoznatljivo ime."
+  },
+  "phrase": {
+    "title": "Mnemonička fraza"
+  },
+  "account": {
+    "title": "Broj računa",
+    "caption": "Odredi broj računa koje želiš kreirati.",
+    "suffix": "račun(a)",
+    "description": "wallet u $t(common:appName) može imati do {{accountLimit}} računa. Svaki račun može biti delegiran drugom stake pool-u. Ključevi računa se generiraju iz root ključa wallet-a.",
+    "tooltip": "Svaki dodani račun povećava vrijeme sinhronizacije, računi se mogu dodati bilo kada."
+  },
+  "create": {
+    "title": "Kreiranje wallet-a",
+    "caption": "Molimo sačekaj dok se wallet generira",
+    "password": {
+      "title": "Postavi lozinku za trošenje",
+      "caption": "Izaberi dugu lozinku. Što je duža, tvoja sredstva su sigurnija."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet uspješno dodan",
+      "created": "Wallet uspješno kreiran",
+      "restored": "Wallet uspješno vraćen",
+      "imported": "Wallet uspješno uvezen"
+    },
+    "processing": "Kreiranje wallet-a...",
+    "exists": "Wallet već postoji, preusmjeravam na wallet."
+  }
+}

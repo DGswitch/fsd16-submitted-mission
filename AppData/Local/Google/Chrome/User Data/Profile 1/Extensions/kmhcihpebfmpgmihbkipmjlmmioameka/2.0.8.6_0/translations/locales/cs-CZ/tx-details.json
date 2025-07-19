@@ -1,0 +1,164 @@
+{
+  "txId": "ID transakce",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "donation": "Dar do státní pokladny",
+  "txHash": "txHash",
+  "index": "index",
+  "credential": {
+    "payment": "Platební pověření",
+    "stake": "Stake pověření"
+  },
+  "certificate": {
+    "label_one": "Certifikát",
+    "label_other": "Certifikáty",
+    "type": {
+      "stakereg": "Registrace účtu",
+      "stakedereg": "Odregistrace účtu",
+      "stakedel": "Delegace do stake poolu",
+      "stakeregdel": "Registrace účtu & Delegace do stake poolu",
+      "stakevotedel": "Stake Pool & DRep Delegace",
+      "stakevoteregdel": "Registrace účtu & Stake Pool / DRep Delegace",
+      "votedel": "DRep Delegace",
+      "voteregdel": "Registrace účtu & DRep Delegace",
+      "drepreg": "DRep Registrace",
+      "drepupd": "DRep Aktualizace",
+      "drepdereg": "DRep Odregistrace",
+      "poolreg": "Stake Pool Registrace / Aktualizace",
+      "poolret": "Stake Pool Ukončení",
+      "genkeydel": "Delegace Genesis klíče",
+      "mircert": "Přesun okamžitých odměn",
+      "comhot": "Committee Hot Auth",
+      "comcold": "Committee Cold Resign",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Plutus Contract",
+      "unknown": "Neznámý typ"
+    },
+    "poolreg": {
+      "actepno": "Aktivní v Epoch",
+      "fixedcost": "Fixní náklady",
+      "margin": "Marže",
+      "pledge": "Pledge",
+      "rewardaddr": "Adresa pro odměny",
+      "owner": "Vlastník",
+      "relay": "Relay",
+      "metaurl": "Metadata URL",
+      "metahash": "Metadata Hash",
+      "metadata": "Off-Chain Meta"
+    },
+    "poolret": {
+      "retepno": "Ukončení Epoch"
+    },
+    "gov": {
+      "stakeCreds": "Stake pověření",
+      "drepCreds": "DRep pověření",
+      "votingCreds": "Voting pověření",
+      "poolCreds": "Pool pověření",
+      "poolParams": "Pool Parametry",
+      "poolId": "Pool Id",
+      "poolHash": "Pool Hash",
+      "deposit": "Vložit",
+      "anchor": "Ukotvit",
+      "rawData": "Nezpracovaná data",
+      "unknown": "Neznámý certifikát",
+      "hash": "Hash",
+      "isScript": "Skript",
+      "credential": "Pověření",
+      "vote": "Hlas",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "Metadata Záznam",
+    "label_other": "Metadata Záznamy",
+    "label": "$t(common:metadata.label)",
+    "key": "Popisek",
+    "value": "Hodnota",
+    "rawData": "Nezpracovaná data",
+    "block": "Číslo bloku",
+    "confirmations": "Potvrzení",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Velikost Tx"
+    },
+    "copied": {
+      "cbor": "Zkopírováno transaction cbor"
+    }
+  },
+  "withdrawal": {
+    "label_one": "Výběr",
+    "label_other": "Výběry",
+    "amount": "Částka"
+  },
+  "utxo": {
+    "collateralInputs_one": "Kolaterální vstup",
+    "collateralInputs_other": "Kolaterální vstupy",
+    "referenceInputs_one": "Referenční vstup",
+    "referenceInputs_other": "Referenční vstupy",
+    "inputs_one": "Vstup",
+    "inputs_other": "Vstupy",
+    "collateralOutput_one": "Kolaterální výstup",
+    "collateralOutput_other": "Kolaterální výstupy",
+    "outputs_one": "Výstup",
+    "outputs_other": "Výstupy"
+  },
+  "nativescript": {
+    "label": "Nativní / Multi-Sig Skript(y)",
+    "hash": "Hash",
+    "type": "Typ",
+    "witness": "Svědek",
+    "aux": "Pomocná data",
+    "json": "JSON",
+    "bytecode": "Data"
+  },
+  "plutusscript": {
+    "label": "Plutus Skript(y)",
+    "hash": "Hash",
+    "type": "Typ",
+    "size": "Velikost",
+    "bytes": "Data",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum hash",
+      "bytecode": "Plutus datum bytes",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "Účel",
+      "fee": "Poplatek za kontrakt",
+      "usteps": "Počet kroků",
+      "umem": "Paměť jednotky",
+      "dhash": "Hash dat",
+      "dvalue": "Bytecode dat",
+      "djson": "JSON dat"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus kontrakt",
+    "label_other": "Plutus kontrakty",
+    "valid": "Platný kontrakt",
+    "redeemer": "Redeemer",
+    "datum": "Datum",
+    "script": {
+      "label": "Smlouva Script",
+      "hash": "Hash",
+      "size": "$t(common:size)",
+      "bytecode": "Data"
+    },
+    "reference": {
+      "native": "Referenční skript (native)",
+      "plutus": "Referenční skript (plutus)"
+    },
+    "outdatum": "Výstupní Datum"
+  },
+  "mints": {
+    "mints": "Seznam mincovny",
+    "burns": "Seznam pálení"
+  }
+}

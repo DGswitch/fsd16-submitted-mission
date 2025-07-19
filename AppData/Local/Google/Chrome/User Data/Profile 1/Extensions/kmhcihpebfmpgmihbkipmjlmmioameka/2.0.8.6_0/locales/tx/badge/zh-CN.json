@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "已簽署",
+    "hover": "此交易已簽署，但尚未提交。"
+  },
+  "inputSigned": {
+    "label": "已簽署",
+    "hover": "此輸入的簽名已提供。"
+  },
+  "inputSignedSC": {
+    "label": "智能合約",
+    "hover": "此合約的 Redeemer 已提供。"
+  },
+  "inputUnsigned": {
+    "label": "未簽署",
+    "hover": "此輸入缺少簽名。"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Öffentlichen Kontoschlüssel importieren",
+  "caption": "Geben Sie einen öffentlichen Kontoschlüssel ein (beginnt normalerweise mit 'acct_xvk' oder 'xpub1'), um eine 'Nur-Lese'-wallet zu erstellen.",
+  "placeholder": "acct_xvk...",
+  "error": "Ungültiger öffentlicher Kontoschlüssel. Bitte überprüfen und erneut versuchen."
+}

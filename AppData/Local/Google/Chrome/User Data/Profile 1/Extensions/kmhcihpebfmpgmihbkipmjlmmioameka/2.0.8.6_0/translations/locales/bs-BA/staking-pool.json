@@ -1,0 +1,55 @@
+{
+  "spo": "vodi jedan stake pool",
+  "mpo": "vodi {{count}} stake pool-ova",
+  "retired": "Povučen u epoch {{epoch}}",
+  "retiredIn": "Povučen u epoch {{epoch}}",
+  "noRewards": "Ovaj pool NEĆE zaraditi {{adaSymbol}} nagrade.",
+  "lessRewards": "Ovaj pool će zaraditi manje nagrada nego obično.",
+  "history": "Historija nagrada",
+  "fees": "Naknade",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Zeleno: unutar optimalnog raspona. Crveno: zarađuje manje nagrada."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Zeleno: unutar normalnog raspona. Crveno: zarađuje manje nagrada."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Povrat na ulog. Performanse u proteklih 12 epoha. Zeleno: unutar normalnog raspona. ROS će više varirati za pool-ove s manje uloga."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Preuzmi nagrade",
+      "syncing": "Wallet se sinhronizuje",
+      "norewards": "Nema dostupnih nagrada"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Prošli mjesec",
+      "3months": "Zadnja 3 mjeseca",
+      "6months": "Zadnjih 6 mjeseci",
+      "year": "Zadnja godina"
+    },
+    "view-history": "Pogledaj historiju",
+    "view-graph": {
+      "stake-key": "ključ uloga računa"
+    },
+    "approx-earning": "Procijenjene nagrade u sljedećoj godini",
+    "unclaimed-ada": "Nepreuzeto {{currency}}",
+    "lifetime-earning": "Sveukupno ste zaradili",
+    "lifetime-apy": "Doživotni APY",
+    "lifetime-earned": "otkad ste počeli sa staking",
+    "epoch-ends-in": "Ova epoch završava za",
+    "search": "Unesite tiket, ime ili detalje",
+    "delegate": "Odaberi ovaj pool",
+    "openPoolList": "Otvori listu pool-ova"
+  }
+}

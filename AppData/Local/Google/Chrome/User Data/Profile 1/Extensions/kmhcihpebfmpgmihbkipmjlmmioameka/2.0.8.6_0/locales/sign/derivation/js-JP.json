@@ -1,0 +1,20 @@
+{
+  "input": {
+    "password": {
+      "label": "送金パスワード",
+      "placeholder": "パスワードの確認"
+    }
+  },
+  "dv": {
+    "signing": "アカウントキーを生成中",
+    "hw": "{{device}} デバイスでパブリックキーのエクスポートを確認してください。"
+  },
+  "error": {
+    "passwordMismatch": "入力されたパスワードが一致しません。再試行してください！",
+    "missingAppWallet": "ウォレット が設定されていません。アプリを再読み込みして、もう一度お試しください。",
+    "invalidResult": "スキャン結果が無効です。",
+    "missingRootKey": "この ウォレット はアカウントキーを派生できません（ルートキーがありません）。",
+    "deviceNotFound": "デバイスが見つかりません。",
+    "unknown": "不明なエラー: {{error}}"
+  }
+}

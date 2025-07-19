@@ -1,0 +1,34 @@
+{
+  "placeholder": "여기에 메모를 추가하세요.",
+  "copy": "거래 메모: {{note}}.",
+  "export": "메모는 가져오기 및 내보내기가 가능합니다.",
+  "add": {
+    "title": "메모 추가",
+    "caption": "이 거래에 메모를 첨부하세요. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "메모 편집",
+    "caption": "이 거래에 첨부된 메모를 편집하세요. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "메모 삭제",
+      "tooltip": "이 거래에 첨부된 메모를 삭제합니다."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "메모 삭제",
+      "caption": "거래 메모를 삭제하시겠습니까?",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

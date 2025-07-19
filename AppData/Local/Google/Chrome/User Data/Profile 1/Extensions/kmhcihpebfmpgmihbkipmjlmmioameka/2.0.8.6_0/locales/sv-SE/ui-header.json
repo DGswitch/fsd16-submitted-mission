@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Klicka för att öppna prisdiagrammet."
+  },
+  "notifications": {
+    "tooltip": "Klicka för att se dina aviseringar."
+  },
+  "hideBalance": {
+    "tooltip": "Visa/dölj saldon."
+  },
+  "logout": {
+    "tooltip": "Logga ut från appen. Kräver din PIN-kod för att logga in igen."
+  },
+  "darkMode": {
+    "tooltip": "Växla mörkt/ljust läge."
+  },
+  "settings": {
+    "tooltip": "Öppna inställningsmenyn."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Återstående tid",
+    "tooltip": "Det nuvarande epoch-numret och återstående tid till nästa."
+  }
+}

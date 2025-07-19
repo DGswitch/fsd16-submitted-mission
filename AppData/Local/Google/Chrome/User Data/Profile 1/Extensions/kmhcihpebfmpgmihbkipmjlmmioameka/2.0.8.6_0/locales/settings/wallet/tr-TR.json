@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "İsim ve Grup",
+    "caption": "__GT__Cüzdan__ veya grup adınızı güncelleyin.",
+    "setting": {
+      "caption": "$t(settings/wallet:walletName.caption)",
+      "name": "__GT__Cüzdan__ adı",
+      "group": "__GT__Cüzdan__ grubu",
+      "error": {
+        "empty": {
+          "name": "__GT__Cüzdan__ adı boş olamaz.",
+          "group": "__GT__Cüzdan__ grubu boş olamaz."
+        },
+        "duplicate": {
+          "name": "Bu isimde bir __GT__cüzdan__ zaten mevcut."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "__GT__Cüzdan__ Harcama Şifresi",
+    "caption": "__GT__Cüzdan__ harcama şifrenizi güncelleyin.",
+    "setting": {
+      "caption": "__GT__Cüzdan__ harcama şifrenizi güncelleyin. Eski şifrenizi girin, ardından yeni, uzun bir harcama şifresi girin. Şifre ne kadar uzun olursa, __GT__cüzdanınız__ o kadar güvende olur.",
+      "updated": "__GT__Cüzdan__ harcama şifresi güncellemesi.",
+      "error": "__GT__Cüzdan__ şifresi güncellenemedi."
+    }
+  },
+  "biometrics": {
+    "title": "Biyometri ile Harcama",
+    "caption": "Şifre yerine Biyometri özelliğini kullanın.",
+    "setting": {
+      "caption": "$t(settings/wallet:biometrics.caption)",
+      "activate": {
+        "label": "Biyometriyi Etkinleştir",
+        "description": "Telefonunuzun biyometri özellikleriyle harcama yapmayı etkinleştirmek için mevcut harcama şifrenizi girin."
+      },
+      "deactivate": {
+        "label": "Biyometriyi Devre Dışı Bırak",
+        "description": "Bir işlemi imzalarken, şifreniz yerine telefonunuzun Biyometri özelliğini kullanacağız."
+      }
+    }
+  },
+  "icon": {
+    "title": "__GT__Cüzdan__ Simgesi",
+    "caption": "Özel bir __GT__cüzdan__ simgesi ayarlayın veya rastgele bir __GT__cüzdan__ simgesi oluşturun.",
+    "setting": {
+      "caption": "$t(settings/wallet:icon.caption)",
+      "select": "Simge Seç",
+      "regenerateIcon": "Rastgele Oluştur",
+      "resetToDefault": "Varsayılana Sıfırla"
+    }
+  },
+  "exportWallet": {
+    "title": "__GT__Cüzdanı__ Dışa Aktar",
+    "caption": "Diğer tarayıcılarda/cihazlarda içe aktarmayı sağlayan güvenli __GT__cüzdan__ JSON dışa aktarma.",
+    "setting": {
+      "caption": "Dışa aktarılan $t(common:appName) .json yedek dosyaları, başka herhangi bir $t(common:appName) uygulamasına içe aktarılabilir.",
+      "subCaption": "Bir .json yedeği, işlem notlarını ve cüzdan/hesap ayarlarını içerir.",
+      "button": {
+        "label": "__GT__Cüzdanı__ Dışa Aktar"
+      },
+      "banner": {
+        "title": "Önemli!",
+        "text": "Sıcak cüzdanlar için dışa aktarma, şifrelenmiş özel anahtarı içerir. Dışa aktarılan dosyayı güvende tutun ve kimseyle paylaşmayın."
+      }
+    }
+  },
+  "reSync": {
+    "title": "__GT__Cüzdanı__ Yeniden Senkronize Et",
+    "caption": "Tam bir __GT__cüzdan__ yeniden senkronizasyonunu zorla.",
+    "setting": {
+      "caption": "$t(settings/wallet:reSync.caption)",
+      "subCaption": "Bu düğmeye basmak tüm __GT__cüzdan__ verilerini sıfırlayacak ve __GT__blok zincirinden__ tamamen yeniden senkronize edecektir.",
+      "button": {
+        "label": "__GT__Cüzdanı__ Yeniden Senkronize Et"
+      }
+    }
+  },
+  "verification": {
+    "title": "Kurtarma ifadesi doğrulaması",
+    "caption": "Bir __GT__cüzdan__ için doğru kurtarma ifadesini sakladığınızı doğrulayın.",
+    "setting": {
+      "caption": "$t(settings/wallet:verification.caption) Doğrulandıktan sonra, harcama şifrenizi de değiştirebilirsiniz.",
+      "start": "İfadeyi Doğrula",
+      "match": {
+        "label": "Girilen kurtarma ifadesi doğru.",
+        "spending": "Harcama şifresini değiştir"
+      },
+      "invalid": "Girilen kurtarma ifadesi bu __GT__cüzdan__ için doğru değil."
+    }
+  },
+  "deleteWallet": {
+    "title": "__GT__Cüzdanı__ Sil",
+    "caption": "__GT__Cüzdanı__ ve tüm hesaplarını kaldırın.",
+    "setting": {
+      "caption": "Bu __GT__cüzdanı__ sildiğinizde, bu $t(common:appName) uygulamasından kaldırılacak ve bu __GT__cüzdandaki__ kalan fonlara erişiminizi kaybedeceksiniz.",
+      "subCaption": "Sildikten sonra erişimi yeniden kazanmanın tek yolu, __GT__cüzdan__ kurtarma ifadenizi geri yüklemek veya önceden dışa aktarılmış bir $t(common:appName).json yedek dosyasını içe aktarmaktır.",
+      "subCaption2": "Daha kolay içe aktarma için, silmeden önce $t(common:appName).json yedeği olarak dışa aktarın.\\n\\nBu __GT__cüzdanın__ tohum ifadesinin güvenli bir şekilde saklandığından emin olun!",
+      "acknowledged": "Bu __GT__cüzdana__ yeniden erişim sağlamanın tek yolunun, __GT__cüzdan__ kurtarma ifadesini kullanarak geri yüklemek olduğunu anlıyorum.",
+      "name": "__GT__Cüzdan__ adını girin.",
+      "error": {
+        "name": "Silme işlemini onaylamak için doğru __GT__cüzdan__ adını girin.",
+        "acknowledged": "Lütfen yukarıdaki bilgileri okuyun ve onaylayın."
+      }
+    }
+  }
+}

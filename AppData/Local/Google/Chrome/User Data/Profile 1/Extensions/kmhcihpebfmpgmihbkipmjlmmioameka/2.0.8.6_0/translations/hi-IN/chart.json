@@ -1,0 +1,13 @@
+{
+  "price": {
+    "epoch": "$t(common:epoch)"
+  },
+  "rewardsHistory": {
+    "title": "$t(common:rewards) ग्राफ़",
+    "epoch": "$t(common:epoch)",
+    "invalid": "$t(common:invalid)",
+    "button": {
+      "fullHistory": "पूरा इतिहास दिखाएं"
+    }
+  }
+}

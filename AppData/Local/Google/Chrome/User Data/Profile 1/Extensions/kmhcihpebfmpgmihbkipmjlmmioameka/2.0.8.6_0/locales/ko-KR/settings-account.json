@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "활성 계정 이름",
+    "caption": "현재 계정의 계정 이름 설정",
+    "setting": {
+      "caption": "활성 계정 이름을 업데이트하거나 Ada 핸들을 선택/선택 해제하세요.",
+      "adaHandle": {
+        "select": "계정 이름 대신 표시할 Ada 핸들을 선택하세요 (이름을 표시하려면 선택 해제):"
+      },
+      "error": {
+        "empty": "계정 이름은 비워둘 수 없습니다.",
+        "duplicate": "이 지갑에는 해당 이름의 계정이 이미 있습니다."
+      }
+    }
+  },
+  "export": {
+    "title": "계정 키 내보내기",
+    "caption": "이 계정의 공개 키를 내보냅니다.",
+    "setting": {
+      "caption": "이 계정의 공개 키를 내보냅니다. 공개 키를 가져오면 서명이 비활성화된 읽기 전용 모드로 계정 기록이 복원됩니다.",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 확장 공개 키",
+        "xpub": "Ed25519-bip32 확장 공개 키",
+        "acct_vk": "Ed25519 공개 키"
+      }
+    }
+  },
+  "samMode": {
+    "title": "단일 주소 모드 (SAM)",
+    "caption": "모든 거래에 단일 주소만 사용합니다.",
+    "setting": {
+      "caption": "활성화하면 모든 자금은 기본적으로 첫 번째 수신 주소에 보관됩니다.",
+      "enabled": "$t(settings-account:samMode.title) 활성화됨",
+      "disabled": "$t(settings-account:samMode.title) 비활성화됨",
+      "customAddress": "사용자 지정 수신 주소",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "중요!",
+          "text": "사용자 지정 수신 주소를 설정하면 이 계정이 소유하지 않은 경우에도 모든 잔돈 출력 및 수신 주소가 이 주소로 전환됩니다. 올바른 주소가 설정되었는지 반드시 확인하십시오."
+        }
+      },
+      "notification": {
+        "wrongInput": "유효한 주소가 아닙니다.",
+        "wrongNetwork": "이 주소는 다른 네트워크의 주소입니다.",
+        "notOwned": "이 주소는 이 계정에 속하지 않으며 사용자 지정 수신 주소로 사용할 수 없습니다.",
+        "nonStaking": "이 수신 주소의 자금은 외부 스테이크 키로 스테이킹되었습니다. 발생되는 보상을 제어할 수 없습니다.",
+        "success": "사용자 지정 수신 주소가 설정되었습니다.",
+        "error": "사용자 지정 수신 주소 저장 실패!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "담보",
+    "caption": "Eternl 제공 담보를 사용하시겠습니까?",
+    "setting": {
+      "caption": "활성화하면 Eternl이 계정에 대한 담보를 제공합니다.",
+      "info": "스마트 계약과 상호 작용할 때 거래가 실패할 경우 담보가 필요할 수 있습니다. 적격한 UTxO가 발견되면 Eternl이 자동으로 처리합니다.",
+      "waiting": "담보 거래를 제출했습니다. 아직 확인되지 않았으니 잠시 기다려 주십시오.",
+      "foundCollateral": "이 계정에 대한 담보 UTxO가 이미 존재합니다. 스마트 계약과 상호 작용할 때 사용됩니다.",
+      "eternl": {
+        "label": "Eternl 제공 담보",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "담보 UTxO를 찾을 수 없습니다. 아래 버튼을 눌러 설정하십시오.",
+      "button": {
+        "setCollateral": {
+          "label": "담보 설정",
+          "tooltip": "이 계정에 대한 담보 UTxO를 설정합니다."
+        }
+      },
+      "error": {
+        "label": "오류:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "참고!",
+          "headline": "담보는 계정 기반 설정입니다."
+        },
+        "info": {
+          "text": "$t(common:appName)은(는) 토큰이 없고 ####minimumCollateral####와 ####maximumCollateral#### 사이의 값을 가진 모든 UTxO를 담보로 사용할 수 있습니다. 이 설정을 활성화하면 적합한 UTxO를 찾습니다. 사용 가능한 것이 없으면 설정 버튼이 표시됩니다."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "수동 동기화",
+    "caption": "수동 동기화 설정",
+    "setting": {
+      "caption": "wallet을(를) 수동으로 동기화합니다. 활성화된 경우 동기화 아이콘을 클릭하여 wallet을(를) 수동으로 동기화해야 합니다.",
+      "enabled": "$t(settings-account:manualSync.title) 활성화됨",
+      "disabled": "$t(settings-account:manualSync.title) 비활성화됨"
+    }
+  },
+  "historySync": {
+    "title": "기록 동기화",
+    "caption": "기록 동기화 설정",
+    "setting": {
+      "caption": "활성화되면 wallet은(는) 계정의 전체 거래 내역을 동기화합니다. 그렇지 않으면 마지막 1000개의 거래만 동기화됩니다. 동기화는 배치로 발생하며 기록이 많은 계정의 경우 시간이 걸릴 수 있습니다.",
+      "enabled": "$t(settings-account:historySync.title) 활성화됨",
+      "disabled": "$t(settings-account:historySync.title) 비활성화됨",
+      "syncing": "기록 동기화가 아직 실행 중입니다. {{AMOUNT}}개의 항목 동기화를 기다리는 중입니다."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "토큰 단편화 (TF)",
+    "caption": "토큰을 단편화하여 거래 수수료를 줄입니다.",
+    "fragment": {
+      "label": "토큰 번들 크기",
+      "error": "토큰 번들 크기 제한: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "각 UTxO 출력이 포함해야 하는 토큰 수를 설정합니다. 이는 낮은 거래 수수료와 wallet에 잠긴 자금 금액 간의 절충안입니다.\n작은 번들 크기 -> 낮은 수수료, 더 많은 Ada 잠김.\n큰 번들 크기 -> 높은 수수료, 더 적은 Ada 잠김."
+    },
+    "setting": {
+      "caption": "반환될 잔돈에 설정된 값보다 더 많은 토큰이 있는 경우 전송 시 토큰을 번들로 분할합니다. wallet의 UTxO/토큰 분포 및 원하는 결과에 따라 최적의 결과를 위해 값을 조정해야 할 수 있습니다.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) 활성화됨",
+      "disabled": "$t(settings-account:tokenFragmentation.title) 비활성화됨"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "고급 UTxO 관리",
+    "caption": "거래에 고급 UTxO 관리를 사용합니다.",
+    "setting": {
+      "caption": "활성화되면 $t(common:appName)은(는) 거래에 고급 UTxO 관리를 사용합니다.",
+      "subCaption": "거래의 병렬 실행을 위해 10개의 UTxO를 유지합니다. 또한 스마트 계약 상호작용을 위해 5 ADA 담보 UTxO를 유지하려고 시도합니다.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) 활성화됨",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) 비활성화됨"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "자동 인출",
+    "caption": "필요한 경우 보상을 자동으로 인출합니다.",
+    "setting": {
+      "caption": "활성화되면 거래 생성 시 필요한 경우 보상이 자동으로 인출됩니다. 비활성화되었거나 강제 수동 인출을 원하는 경우 요약 페이지의 인출 버튼을 사용하십시오.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) 활성화됨",
+      "disabled": "$t(settings-account:autoWithdrawal.title) 비활성화됨"
+    }
+  },
+  "unStake": {
+    "title": "wallet 스테이킹 해제\n(wallet 등록 취소)",
+    "caption": "현재 계정을 모든 풀에서 위임 해제하고 등록 취소 거래를 생성합니다.",
+    "setting": {
+      "caption": "이 작업은 계정 등록 취소 거래를 생성합니다. 완료되면 계정은 모든 풀에서 위임 해제되고 계정이 처음 위임되었을 때의 키 보증금이 반환됩니다.",
+      "subCaption": "참고: 풀 위임으로 인한 미수령 보상, catalyst 보상 등은 계정이 등록 취소되면 손실됩니다!",
+      "acknowledged": "저는 모든 미수령 보상이 손실될 것임을 이해합니다.",
+      "noUtxo": "{{currency}}(이)가 등록 취소 거래 수수료를 지불하는 데 필요합니다.",
+      "button": {
+        "deReg": {
+          "label": "계정 등록 취소",
+          "tooltip": "풀 위임에서 계정 등록 취소"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "DRep 등록 취소",
+    "caption": "DRep 등록 취소 거래를 생성합니다. 해당 DRep에 위임된 투표권은 손실됩니다.",
+    "setting": {
+      "caption": "이것은 DRep 등록 취소 거래를 생성합니다. 해당 DRep에 위임된 투표권은 손실됩니다.",
+      "subCaption": "staking 보상을 인출할 수 있는 기능을 다시 얻으려면 계정을 다른 DRep에 위임해야 합니다.",
+      "acknowledged": "저는 위임된 모든 투표권이 손실될 것임을 이해합니다.",
+      "noUtxo": "{{currency}}(이)가 등록 취소 거래 수수료를 지불하는 데 필요합니다.",
+      "button": {
+        "deReg": {
+          "label": "계정 등록 취소",
+          "tooltip": "풀 위임에서 계정 등록 취소"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "보고",
+    "caption": "세금 보고서 내보내기 설정."
+  }
+}

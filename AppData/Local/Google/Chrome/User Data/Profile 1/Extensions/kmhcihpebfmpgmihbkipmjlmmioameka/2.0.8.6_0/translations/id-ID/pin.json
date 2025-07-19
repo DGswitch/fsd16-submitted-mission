@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "Buat Kode PIN",
+      "confirm": "Konfirmasi Kode PIN"
+    },
+    "captionShort": "Atur kode PIN untuk mengakses $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) Ini akan diperlukan setiap kali Anda membuka $t(common:appName).",
+      "confirm": "Untuk mengonfirmasi kode PIN, masukkan PIN yang sama dengan yang baru saja Anda masukkan."
+    },
+    "hint": {
+      "enter": "Masukkan Kode PIN.",
+      "confirm": "Masukkan PIN untuk kedua kalinya untuk mengonfirmasi."
+    },
+    "confirmed": "Kode PIN yang dimasukkan cocok.",
+    "button": {
+      "label": "Aktifkan PIN"
+    },
+    "error": {
+      "confirm": "Kode PIN tidak cocok, silakan coba lagi."
+    }
+  },
+  "access": {
+    "title": "Kode PIN Akses",
+    "caption": "Masukkan Kode PIN akses.",
+    "checking": "Memeriksa Kode PIN.",
+    "confirmed": "PIN yang dimasukkan benar.",
+    "error": {
+      "confirm": "Kode PIN salah."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Masukkan Kode PIN untuk menonaktifkannya.",
+    "biometrics": "Saat Anda menghapus PIN, fitur biometrik akan dinonaktifkan secara otomatis.",
+    "button": {
+      "label": "Nonaktifkan PIN",
+      "tooltip": "Masukkan PIN saat ini untuk mengizinkan penonaktifan."
+    }
+  },
+  "biometrics": {
+    "login": "Masuk menggunakan biometrik",
+    "caption": "Silakan autentikasi menggunakan FaceID atau fitur biometrik lainnya.",
+    "fallback": "Masuk menggunakan Kode PIN",
+    "use": {
+      "ios": "Atau gunakan FaceID atau Sidik Jari untuk mengakses wallet.",
+      "android": "Atau gunakan fitur biometrik ponsel Anda untuk mengakses wallet."
+    }
+  },
+  "comment": "// Teks pin lainnya: catalyst:step.pin"
+}

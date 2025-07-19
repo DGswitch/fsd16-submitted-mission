@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Scanner le code QR",
+    "short": "QR"
+  },
+  "loading": "Initialisation de la caméra.",
+  "error": {
+    "notAllowed": "Veuillez accorder l'autorisation d'accès à la caméra.",
+    "notFound": "Aucune caméra détectée sur l'appareil.",
+    "notSupported": "Contexte sécurisé requis (HTTPS, localhost).",
+    "notReadable": "La caméra est-elle déjà utilisée ?",
+    "overconstrained": "Les caméras installées ne sont pas adaptées.",
+    "streamApiNotSupported": "L'API Stream n'est pas prise en charge par ce navigateur.",
+    "insecureContext": "L'accès à la caméra n'est autorisé que dans un contexte sécurisé. Utilisez HTTPS ou localhost plutôt que HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Ouvrez l'extension en mode plein écran pour autoriser l'accès à la caméra. Cela ne doit être fait qu'une seule fois.\n Cliquez sur ce texte pour passer en plein écran."
+  }
+}

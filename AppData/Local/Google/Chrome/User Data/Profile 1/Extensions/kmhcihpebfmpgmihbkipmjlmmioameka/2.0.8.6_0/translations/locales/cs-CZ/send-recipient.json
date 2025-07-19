@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Adresa nebo $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Nemůžeš přidat další aktiva.",
+      "text": "Tento výstup transakce nemůže obsahovat více aktiv. Vytvoř nový výstup (může mít stejnou adresu) a přidej další."
+    }
+  },
+  "mode": {
+    "tooltip": "Ručně vyber typ adresy."
+  },
+  "error": {
+    "addAddress": "Přidej adresu příjemce, kam chceš poslat prostředky."
+  }
+}

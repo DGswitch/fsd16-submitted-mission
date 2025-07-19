@@ -1,0 +1,107 @@
+{
+  "title": "শাসন প্রস্তাব",
+  "proposedEpoch": "epoch প্রস্তাবিত",
+  "expiryEpoch": "epoch মেয়াদ শেষ",
+  "enactedEpoch": "epoch এ প্রণীত",
+  "totalVotes": "মোট ভোট",
+  "yes": "$t(common:vote.yes)",
+  "govAction": {
+    "id": "শাসন কর্ম আইডি",
+    "missing": "অজানা শাসন কর্ম আইডি",
+    "summary": {
+      "voteStart": "ভোট শুরু ($t(common:epoch)/$t(common:slot))",
+      "voteEnd": "ভোট শেষ ($t(common:epoch)/বাকি সময়)",
+      "deposit": "$t(common:deposit)",
+      "depositReturnAddress": "$t(common:deposit) রিটার্ন ঠিকানা"
+    },
+    "details": {
+      "dRep": {
+        "label": "$t(governance-govActionList:voteGroup.dRep) ($t(common:dRep))",
+        "approvalThreshold": "অনুমোদন থ্রেশহোল্ড",
+        "table": {
+          "header": {
+            "votes": "ভোট",
+            "amount": "পরিমাণ",
+            "percent": "শতাংশ",
+            "count": "গণনা"
+          },
+          "rows": {
+            "yesVoteStake": "হ্যাঁ",
+            "noVoteStake": "না",
+            "abstainVoteStake": "বিরত"
+          }
+        }
+      },
+      "dRepStakeParticipation": {
+        "label": "$t(common:dRep) স্টেক অংশগ্রহণ",
+        "hasVoted": "ভোট দিয়েছেন",
+        "hasNotVoted": "ভোট দেননি"
+      },
+      "spo": {
+        "label": "$t(governance-govActionList:voteGroup.spo) ($t(common:spo))",
+        "approvalThreshold": "অনুমোদন থ্রেশহোল্ড",
+        "table": {
+          "header": {
+            "votes": "ভোট",
+            "amount": "পরিমাণ",
+            "percent": "শতাংশ",
+            "count": "গণনা"
+          },
+          "rows": {
+            "yesVoteStake": "হ্যাঁ",
+            "noVoteStake": "না",
+            "abstainVoteStake": "বিরত"
+          }
+        }
+      },
+      "spoStakeParticipation": {
+        "label": "$t(common:spo) স্টেক অংশগ্রহণ",
+        "hasVoted": "ভোট দিয়েছেন",
+        "hasNotVoted": "ভোট দেননি"
+      },
+      "cc": {
+        "label": "সাংবিধানিক কমিটি",
+        "approvalThreshold": "অনুমোদন থ্রেশহোল্ড",
+        "table": {
+          "header": {
+            "name": "নাম",
+            "status": "অবস্থা"
+          },
+          "rows": {
+            "yesVoteStake": "হ্যাঁ",
+            "noVoteStake": "না",
+            "abstainVoteStake": "বিরত"
+          }
+        }
+      }
+    },
+    "meta": {
+      "abstract": "সংক্ষিপ্তসার",
+      "motivation": "অনুপ্রেরণা",
+      "rationale": "যুক্তি",
+      "references": "রেফারেন্স"
+    }
+  },
+  "voteGroup": {
+    "currentStatus": {
+      "label": "বর্তমান অবস্থা",
+      "text": "এই প্রস্তাবটি পাশ হওয়ার জন্য, {{voteGroup}}-কে ভোট দিতে হবে"
+    },
+    "dRep": "প্রতিনিধিদের অর্পণ করা হয়েছে",
+    "spo": "স্টেক পুল অপারেটরগণ",
+    "cc": "সাংবিধানিক কমিটি",
+    "and": "$t(common:and)"
+  },
+  "tab": {
+    "summary": "সংক্ষিপ্ত বিবরণ",
+    "details": "ভোটের বিবরণ",
+    "metadata": "মেটাডেটা"
+  },
+  "filter": {
+    "search": "একটি গভর্নেন্স অ্যাকশন খুঁজুন..."
+  },
+  "select": {
+    "proposalType": "প্রস্তাবের ধরণ",
+    "proposalStatus": "প্রস্তাবের অবস্থা"
+  }
+}

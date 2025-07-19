@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Rebre",
+  "title": "Rebre Fons",
+  "caption": "Comparteix aquesta adreça per rebre pagaments.",
+  "search": {
+    "caption": "Troba una part de l'adreça, o un camí de derivació com \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" o \"0 1 32\".",
+    "placeholder": "$t(common:search) per a un $t(common:address) o un camí",
+    "noResults": "No s'han trobat resultats"
+  },
+  "current": {
+    "headline": "Adreces disponibles de wallet.",
+    "static": "Adreça de recepció.",
+    "caption": "Comparteix aquesta adreça de wallet per rebre pagaments.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Si us plau, tingues en compte que totes les teves adreces de recepció delegades inclouen la teva clau de stake. \nQuan comparteixes una adreça de recepció delegada, el destinatari pot buscar a la blockchain utilitzant la teva clau de stake per localitzar \ntotes les adreces associades amb la teva wallet i també descobrir el teu balanç i l'historial de transaccions de la teva wallet."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Adreces externes (delegades)",
+      "caption": "Aquestes adreces estan delegades a un stake pool (si tu, de fet, has delegat aquest compte)."
+    },
+    "enterprise": {
+      "headline": "Adreces externes (no delegades)",
+      "caption": "Aquestes adreces no estan delegades."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Adreces internes de canvi (delegades)",
+      "caption": "Aquestes adreces estan delegades a un stake pool (si tu, de fet, has delegat aquest compte).\nNo comparteixis adreces internes, dona sempre adreces externes."
+    },
+    "enterprise": {
+      "headline": "Adreces internes de canvi (no delegades)",
+      "caption": "Aquestes adreces no estan delegades.\nNo comparteixis adreces internes, dona sempre adreces externes."
+    }
+  }
+}

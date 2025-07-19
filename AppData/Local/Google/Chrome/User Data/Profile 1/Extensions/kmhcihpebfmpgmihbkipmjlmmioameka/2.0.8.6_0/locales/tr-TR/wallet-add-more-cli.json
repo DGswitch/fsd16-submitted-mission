@@ -1,0 +1,9 @@
+{
+  "title": "CLI İmzalama Anahtarlarını İçe Aktar",
+  "caption": "CLI tarafından oluşturulan bir wallet içinden ödeme ve (isteğe bağlı olarak) stake imzalama anahtarlarını seçin.",
+  "payment": "Ödeme anahtarı",
+  "stake": "Stake anahtarı",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Geçersiz anahtar, lütfen doğrulayın ve tekrar deneyin!"
+}

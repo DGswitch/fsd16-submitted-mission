@@ -1,0 +1,66 @@
+{
+  "title": "Dettagli asset",
+  "owns": "L'account possiede",
+  "youOwn": "possiedi",
+  "numAssets": "{{numAssets}} asset unici trovati.",
+  "tab": {
+    "details": "Dettagli",
+    "metadata": "Metadati",
+    "raw": "Dati grezzi",
+    "registry": "Registro dei token",
+    "media": "Media"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Aggiungi asset",
+      "tooltip": "Aggiungi l'asset a questo destinatario."
+    },
+    "editAsset": {
+      "label": "Modifica asset",
+      "tooltip": "Modifica l'importo."
+    },
+    "addAssets": {
+      "label": "Aggiungi asset",
+      "tooltip": "Aggiungi altri asset a questo destinatario."
+    },
+    "editAssets": {
+      "label": "Modifica asset",
+      "tooltip": "Modifica gli asset già aggiunti."
+    },
+    "removeAsset": {
+      "label": "Rimuovi asset",
+      "tooltip": "Rimuovi l'asset da questo destinatario."
+    },
+    "addCollection": {
+      "label": "Aggiungi collezione",
+      "tooltip": "Aggiungi la collezione a questo destinatario."
+    },
+    "removeCollection": {
+      "label": "Rimuovi collezione",
+      "tooltip": "Rimuovi la collezione da questo destinatario."
+    }
+  },
+  "hover": {
+    "removeAsset": "Rimuovi asset"
+  },
+  "filter": {
+    "search": "Cerca per policy, nome, fingerprint, o Metadati..."
+  },
+  "price": {
+    "unknown": "Valore token sconosciuto",
+    "value": "Valore token",
+    "avg": "Prezzo medio"
+  },
+  "media": {
+    "format": {
+      "html": "File HTML",
+      "pdf": "File PDF",
+      "image": "Immagine",
+      "video": "Video",
+      "audio": "Audio"
+    }
+  },
+  "digits": {
+    "unknown": "Decimali sconosciuti"
+  }
+}

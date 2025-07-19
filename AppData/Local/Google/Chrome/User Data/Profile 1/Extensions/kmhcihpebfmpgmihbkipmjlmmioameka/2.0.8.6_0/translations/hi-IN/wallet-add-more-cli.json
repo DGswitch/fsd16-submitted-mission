@@ -1,0 +1,9 @@
+{
+  "title": "CLI साइनिंग की इम्पोर्ट करें",
+  "caption": "CLI द्वारा जेनरेट किए गए wallet से पेमेंट और स्टेक (वैकल्पिक रूप से) साइनिंग की चुनें।",
+  "payment": "पेमेंट की",
+  "stake": "स्टेक की",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "अमान्य की, कृपया सत्यापित करें और फिर से प्रयास करें!"
+}

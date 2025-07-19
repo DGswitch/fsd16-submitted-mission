@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Hubungkan perangkat keras wallet",
+    "caption": "Jika Anda memiliki perangkat keras wallet, ini adalah tempatnya.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "Perangkat keras wallet mata uang kripto Ledger yang dibuat oleh Ledger, sebuah perusahaan yang berkantor pusat di Paris, Prancis.",
+        "models": "Stax, Flex dan Nano (X, S dan S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor berasal dari SatoshiLabs, yang berbasis di Republik Ceko.",
+        "models": "Model T dan Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "Perusahaan yang berbasis di Hong Kong yang menawarkan perangkat keras wallet komunikasi kode QR sumber terbuka 100% Air-gapped dengan layar sentuh 4 inci dan pembaca sidik jari.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "Akan ditentukan",
+        "models": "OneKey Pro terverifikasi"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "Akan ditentukan",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Hubungkan Ledger menggunakan"
+  },
+  "keystone": {
+    "qrScan": "Pindai kode QR dengan perangkat Keystone Anda",
+    "distance": "Sesuaikan jarak dan secara opsional ketuk kode QR Keystone untuk meningkatkan pemindaian"
+  },
+  "derivation": {
+    "label": "Mode Derivasi (lanjutan)",
+    "icarus": "Standar derivasi Cardano sebagaimana ditentukan oleh CIP03.",
+    "trezor": "Implementasi Trezor berdasarkan standar Icarus.",
+    "ledger": "Mengikuti standar Bitcoin sebagaimana ditentukan oleh BIP39.",
+    "default": "(default)"
+  },
+  "connect": {
+    "title": "Konfirmasi ekspor kunci publik",
+    "caption": "",
+    "info": {
+      "ledger": "Buka kunci perangkat Ledger Anda dan buka aplikasi Cardano sebelum melanjutkan. Kemudian ikuti petunjuk yang diuraikan dalam aplikasi Cardano di perangkat Ledger Anda untuk menyelesaikan proses pemasangan.",
+      "trezor": "Setelah konfirmasi, ikuti petunjuk yang diuraikan di tab browser Trezor Connect yang terbuka dan di perangkat Trezor Anda untuk menyelesaikan proses pemasangan.",
+      "keystone": "Setelah konfirmasi, pindai kode QR yang dihasilkan dengan perangkat Keystone Anda dan kemudian lanjutkan untuk memindai respons kode QR Keystone melalui Eternl.",
+      "onekey": "Pastikan bridge terinstal di komputer Anda. Hubungkan perangkat dan tunggu hingga kunci publik diekspor.",
+      "bitbox": "Setelah konfirmasi, verifikasi kode pemasangan jika perlu dan konfirmasi di perangkat."
+    }
+  }
+}

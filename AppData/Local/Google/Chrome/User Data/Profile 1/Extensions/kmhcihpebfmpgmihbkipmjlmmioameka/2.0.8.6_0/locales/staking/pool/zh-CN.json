@@ -1,0 +1,55 @@
+{
+  "spo": "營運一個權益池",
+  "mpo": "營運 {{count}} 個權益池",
+  "retired": "於 epoch {{epoch}} 退役",
+  "retiredIn": "於 epoch {{epoch}} 退役",
+  "noRewards": "此權益池將不會賺取任何 {{adaSymbol}} 獎勵。",
+  "lessRewards": "此權益池將賺取比平常少的獎勵。",
+  "history": "獎勵歷史",
+  "fees": "費用",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "綠色：在最佳範圍內。紅色：賺取較少獎勵。"
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking/pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "綠色：在正常範圍內。紅色：賺取較少獎勵。"
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "權益回報率 (Return On Stake)。過去 12 個 epochs 的表現。綠色：在正常範圍內。對於權益較少的權益池，ROS 的波動會更大。"
+  },
+  "withdrawal": {
+    "button": {
+      "label": "領取獎勵",
+      "syncing": "Wallet 正在同步",
+      "norewards": "沒有可用的獎勵"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "上個月",
+      "3months": "過去 3 個月",
+      "6months": "過去 6 個月",
+      "year": "去年"
+    },
+    "view-history": "查看歷史",
+    "view-graph": {
+      "stake-key": "帳戶 stake key"
+    },
+    "approx-earning": "預計未來一年的獎勵",
+    "unclaimed-ada": "未領取的 ADA",
+    "lifetime-earning": "您總共賺取了",
+    "lifetime-apy": "終身 APY",
+    "lifetime-earned": "自您開始 staking 以來",
+    "epoch-ends-in": "此 epoch 將於...後結束",
+    "search": "輸入 Ticker、名稱或詳細資料",
+    "delegate": "選擇此權益池",
+    "openPoolList": "開啟權益池列表"
+  }
+}

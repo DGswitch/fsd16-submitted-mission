@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "連接硬體 钱包",
+    "caption": "如果您擁有硬體 钱包，這裡就是您需要的地方。",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "由 Ledger 公司製造的 Ledger 加密貨幣硬體 钱包，該公司總部位於法國巴黎。",
+        "models": "Stax、Flex 和 Nano（X、S 和 S Plus）"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor 來自 SatoshiLabs，該公司位於捷克共和國。",
+        "models": "Model T 和 Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "一家總部位於香港的公司，提供 100% 氣隙隔離 (Air-gapped)、開源、透過 QR code 通訊的硬體 钱包，配備 4 吋觸控螢幕和指紋辨識器。",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "待定",
+        "models": "OneKey Pro 已驗證"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "待定",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "使用...連接 Ledger"
+  },
+  "keystone": {
+    "qrScan": "使用您的 Keystone 裝置掃描 QR code",
+    "distance": "調整距離，並可選擇輕觸 Keystone QR code 以改善掃描效果"
+  },
+  "derivation": {
+    "label": "派生模式（進階）",
+    "icarus": "由 CIP03 定義的 Cardano 派生標準。",
+    "trezor": "Trezor 基於 Icarus 標準的實作方式。",
+    "ledger": "遵循由 BIP39 定義的 Bitcoin 標準。",
+    "default": "（預設）"
+  },
+  "connect": {
+    "title": "確認公鑰匯出",
+    "caption": "",
+    "info": {
+      "ledger": "繼續之前，請解鎖您的 Ledger 裝置並開啟 Cardano 應用程式。然後按照您 Ledger 裝置上 Cardano 應用程式中概述的指示完成配對過程。",
+      "trezor": "確認後，請按照已開啟的 Trezor Connect 瀏覽器分頁以及您 Trezor 裝置上的指示完成配對過程。",
+      "keystone": "確認後，請使用您的 Keystone 裝置掃描產生的 QR code，然後透過 Eternl 掃描 Keystone 回應的 QR code。",
+      "onekey": "請確保 bridge 已安裝在您的電腦上。連接裝置並等待公鑰匯出。",
+      "bitbox": "確認後，如有需要請驗證配對碼，並在裝置上確認。"
+    }
+  }
+}

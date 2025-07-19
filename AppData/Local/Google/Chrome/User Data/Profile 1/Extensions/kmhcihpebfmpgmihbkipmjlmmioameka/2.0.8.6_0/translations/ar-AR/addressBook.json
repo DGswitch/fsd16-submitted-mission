@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "لا توجد إدخالات في $t(common:addressBook) بعد.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "قبول عنوان جديد"
+  },
+  "badge": {
+    "hover": "إدخال $t(common:addressBook): {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "استيراد إدخالات $t(common:addressBook)",
+    "caption": "استيراد إدخالات $t(common:addressBook) من ملف نسخة احتياطية."
+  },
+  "overwrite": {
+    "title": "الكتابة فوق إدخال $t(common:addressBook)",
+    "caption": "تأكيد تحديث الإدخال بالاسم {{name}}."
+  },
+  "add": {
+    "title": "إضافة إلى $t(common:addressBook)",
+    "caption": {
+      "main": "إضافة إدخال إلى $t(common:addressBook).",
+      "prefilled": "تم ملء جميع القيم مسبقًا والحقول معطلة."
+    },
+    "name": {
+      "label": "اسم الإدخال",
+      "error": {
+        "length": "يتطلب اسم إدخال $t(common:addressBook) 3 أحرف على الأقل و 40 حرفًا على الأكثر.",
+        "duplicate": "يوجد بالفعل إدخال $t(common:addressBook) بهذا الاسم `{{ name }}`، يرجى اختيار اسم آخر.",
+        "duplicateAddr": "يوجد بالفعل إدخال $t(common:addressBook) بهذا العنوان، تحت الاسم {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "تأكيد حذف الإدخال."
+  }
+}

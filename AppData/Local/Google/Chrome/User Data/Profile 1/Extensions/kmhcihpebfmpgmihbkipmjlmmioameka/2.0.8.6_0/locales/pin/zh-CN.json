@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "建立 PIN 碼",
+      "confirm": "確認 PIN 碼"
+    },
+    "captionShort": "設定 PIN 碼以存取 $t(common:appName)。",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) 每次開啟 $t(common:appName) 都需要輸入。",
+      "confirm": "請再次輸入剛才設定嘅 PIN 碼以作確認。"
+    },
+    "hint": {
+      "enter": "輸入 PIN 碼。",
+      "confirm": "再次輸入 PIN 碼以確認。"
+    },
+    "confirmed": "輸入嘅 PIN 碼一致。",
+    "button": {
+      "label": "啟用 PIN"
+    },
+    "error": {
+      "confirm": "PIN 碼唔匹配，請重試。"
+    }
+  },
+  "access": {
+    "title": "存取 PIN 碼",
+    "caption": "輸入存取 PIN 碼。",
+    "checking": "正在檢查 PIN 碼。",
+    "confirmed": "輸入嘅 PIN 碼正確。",
+    "error": {
+      "confirm": "PIN 碼唔正確。"
+    }
+  },
+  "deleteAccess": {
+    "caption": "輸入 PIN 碼以停用。",
+    "biometrics": "當你移除 PIN 碼時，生物識別功能將會自動停用。",
+    "button": {
+      "label": "停用 PIN",
+      "tooltip": "輸入目前嘅 PIN 碼以允許停用。"
+    }
+  },
+  "biometrics": {
+    "login": "使用生物識別登入",
+    "caption": "請使用 FaceID 或其他生物識別功能進行認證。",
+    "fallback": "使用 PIN 碼登入",
+    "use": {
+      "ios": "或使用 FaceID 或指紋辨識存取 wallet。",
+      "android": "或使用你手機嘅生物識別功能存取 wallet。"
+    }
+  },
+  "comment": "// 更多關於 PIN 嘅文字：catalyst:step.pin"
+}

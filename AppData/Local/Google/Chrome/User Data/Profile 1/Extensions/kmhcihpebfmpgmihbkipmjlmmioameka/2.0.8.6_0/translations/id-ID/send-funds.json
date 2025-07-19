@@ -1,0 +1,54 @@
+{
+  "title": "Rincian Dana Tersedia",
+  "toggleInfo": {
+    "active": "Tampilkan deskripsi",
+    "inactive": "Show breakdown"
+  },
+  "total": {
+    "label": "Dana di UTxO"
+  },
+  "selected": {
+    "label": "UTxO Terpilih",
+    "info": "Jumlah total dari semua UTxO yang dipilih secara manual."
+  },
+  "rewards": {
+    "label": "Rewards (bukan UTxO)",
+    "info": "Akumulasi rewards, yang dapat ditarik, jika akun didelegasikan ke DRep."
+  },
+  "lockedInPendingInputs": {
+    "label": "Input tertunda",
+    "info": "Dana ini sedang digunakan dalam transaksi yang tertunda."
+  },
+  "lockedByCollateral": {
+    "label": "Collateral (tidak terkunci)",
+    "info": "Dana terkunci, untuk digunakan sebagai collateral oleh $t(common:appName) - Nonaktifkan collateral di pengaturan akun agar dapat membelanjakan dana ini."
+  },
+  "lockedUtxo": {
+    "label": "UTxO Terkunci",
+    "info": "Dana terkunci, tidak untuk dibelanjakan oleh $t(common:appName) atau dapps - Pilih utxo secara manual untuk dibuka kuncinya di halaman: Akun > Daftar UTxO."
+  },
+  "lockedByTokens": {
+    "label": "Terikat pada token",
+    "info": "Di dalam Cardano, setiap token/nft memiliki sejumlah ADA yang terlampir, jumlah yang terkunci oleh token memberi tahu Anda (perkiraan) berapa jumlahnya untuk wallet Anda saat ini."
+  },
+  "lockedByTokensTF": {
+    "label": "Untuk Token Fragmentation",
+    "info": "Mengatur semua UTxO Anda menggunakan Token Fragmentation akan mengikat sejumlah ADA ini. "
+  },
+  "lockedAsRewards": {
+    "label": "Rewards Terkunci",
+    "info": "Rewards tidak dapat dibelanjakan di dapps dan harus ditarik terlebih dahulu. $t(common:appName) dapat melakukan ini secara otomatis, buka: Akun > Pengaturan Wallet > Penarikan Otomatis, dan aktifkan. Untuk itu, akun harus didelegasikan ke opsi DRep."
+  },
+  "lockedFees": {
+    "label": "Biaya transaksi",
+    "info": "Mengirimkan transaksi ke blockchain Cardano memerlukan biaya transaksi."
+  },
+  "lockedTotal": {
+    "label": "Est. locked",
+    "info": "Calculated total locked amount."
+  },
+  "available": {
+    "label": "Est. available",
+    "info": "Ini adalah dana setelah dikurangi semua dana terkunci, yang dapat dikirim."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Избери тип wallet",
+  "caption": "Ако си нов потребител, създай нов wallet.\nСвържи своя Ledger или импортирай JSON backup.",
+  "create": {
+    "label": "Нов Wallet",
+    "caption": "Генерирай чисто нов wallet"
+  },
+  "hardware": {
+    "label": "Свържи хардуер",
+    "caption": "Използвай своя Ledger, Trezor или Keystone устройство с Eternl"
+  },
+  "restore": {
+    "label": "Въведи Seed-phrase",
+    "caption": "Използвай своята seed-phrase с 24, 15 или 12 думи"
+  },
+  "multiSig": {
+    "label": "Multi-Sig Wallet",
+    "caption": "Създай или се присъедини към multi-signature wallet"
+  },
+  "more": {
+    "label": "Още",
+    "caption": "Покажи допълнителни опции за импортиране на wallet"
+  }
+}

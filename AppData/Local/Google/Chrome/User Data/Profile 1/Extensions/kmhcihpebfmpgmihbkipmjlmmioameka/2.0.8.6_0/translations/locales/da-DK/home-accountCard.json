@@ -1,0 +1,10 @@
+{
+  "button": {
+    "favorite": {
+      "tooltip": "Tilføj denne konto til dine favoritter."
+    },
+    "dapp": {
+      "tooltip": "Når du forbinder til en DApp, bliver denne konto brugt."
+    }
+  }
+}

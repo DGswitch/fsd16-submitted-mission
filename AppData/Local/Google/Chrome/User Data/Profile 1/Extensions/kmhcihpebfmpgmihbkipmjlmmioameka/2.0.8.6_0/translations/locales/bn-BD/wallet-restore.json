@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "১২ শব্দের ফ্রেজ",
+      "caption": "১২ শব্দের একটি Shelley ওয়ালেট।"
+    },
+    "15": {
+      "label": "১৫ শব্দের ফ্রেজ",
+      "caption": "উদাহরণস্বরূপ, একটি Yoroi Shelley ওয়ালেট।"
+    },
+    "24": {
+      "label": "২৪ শব্দের ফ্রেজ",
+      "caption": "একটি Shelley ওয়ালেট যা তৈরি হয়েছে, যেমন Eternl অথবা Daedalus দ্বারা।"
+    },
+    "title": "সিড ফ্রেজের ধরণ",
+    "caption": "আপনি কি ধরণের ওয়ালেট পুনরুদ্ধার করতে চান?"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "আপনার সেইভ করা সিড ফ্রেজটি প্রবেশ করুন"
+  }
+}

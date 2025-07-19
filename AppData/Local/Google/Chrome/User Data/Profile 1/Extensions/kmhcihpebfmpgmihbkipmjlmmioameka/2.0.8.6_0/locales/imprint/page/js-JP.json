@@ -1,0 +1,68 @@
+{
+  "title": "発行者情報",
+  "imprint": "発行者情報",
+  "contact": "お問い合わせ",
+  "edc": "Eternl DRep 委員会",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "DRep ID",
+    "text": "drep13d6sxkyz6st9h65qqrzd8ukpywhr8swe9f6357qntgjqye0gttd"
+  },
+  "discord": {
+    "label": "discord",
+    "text": "$t(common:appName) Discordサーバー（サポートチケットシステムあり）に参加するにはクリックしてください"
+  },
+  "telegram": {
+    "label": "telegram",
+    "text": "$t(common:appName) Telegramチャンネルに参加するにはクリックしてください。"
+  },
+  "github": {
+    "label": "github",
+    "text": "機能リクエストがある場合は、GitHub issue trackerを使用してください。クリックすると新しいページで開きます。"
+  },
+  "email": {
+    "label": "メール",
+    "text": "team@eternl.io にメールをお送りください"
+  },
+  "emaildrep": {
+    "label": "メール",
+    "text": "drep@eternl.io にメールをお送りください"
+  },
+  "address": {
+    "label": "会社所在地",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nドイツ"
+  },
+  "person": {
+    "label": "代表者",
+    "text": "Marcel Baumberg (代表取締役)"
+  },
+  "company": {
+    "label": "会社情報",
+    "text": "付加価値税登録番号 (USt-ID): DE264395179\nライプツィヒ地方裁判所商業登記: HRB 24784"
+  },
+  "legallabel": "免責事項および権利に関する注記",
+  "legal0": {
+    "label": "免責事項",
+    "text": "本オンラインサービスのコンテンツは、細心の注意を払い、当社の現在の知識に基づいて作成されていますが、情報提供のみを目的としており、法的に義務付けられた情報（例：発行者情報、プライバシーポリシー、利用規約、または消費者への義務的な指示）でない限り、法的な拘束力を持ちません。当社は、契約上の義務に影響を与えない範囲で、コンテンツの全部または一部を変更または削除する権利を留保します。すべての提供内容は、変更される可能性があり、拘束力はありません。"
+  },
+  "legal1": {
+    "label": "外部リンク",
+    "text": "当社が直接的または間接的に参照する外部ウェブサイトのコンテンツは、当社の責任範囲外であり、当社はそれらを自社のものとはみなしません。リンク先のウェブサイトで利用可能な情報の使用から生じるすべてのコンテンツおよび不利益について、当社は一切の責任を負いません。"
+  },
+  "legal2": {
+    "label": "著作権および商標権",
+    "text": "本ウェブサイトに表示されるすべてのコンテンツ（テキスト、写真、グラフィック、ブランド、商標など）は、それぞれの保護権（著作権、商標権）によって保護されています。使用、複製などは、当社の権利またはそれぞれの著作者もしくは権利管理者の権利に従います。"
+  },
+  "legal3": {
+    "label": "法的違反に関する通知",
+    "text": "当社のウェブサイト内で法的違反にお気づきの場合は、当社にご指摘くださいますようお願いいたします。違法なコンテンツおよびリンクは、認識次第、直ちに削除いたします。"
+  },
+  "button": {
+    "home": "ホーム"
+  }
+}

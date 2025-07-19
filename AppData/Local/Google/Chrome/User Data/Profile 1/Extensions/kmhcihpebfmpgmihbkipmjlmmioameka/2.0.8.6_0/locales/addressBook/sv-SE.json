@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "Inga poster i $t(common:addressBook) än.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Acceptera ny adress"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook)-post: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Importera $t(common:addressBook)-poster",
+    "caption": "Importera $t(common:addressBook)-poster från en säkerhetskopia."
+  },
+  "overwrite": {
+    "title": "Skriv över $t(common:addressBook)-post",
+    "caption": "Bekräfta uppdatering av post med namnet {{name}}."
+  },
+  "add": {
+    "title": "Lägg till i $t(common:addressBook)",
+    "caption": {
+      "main": "Lägg till en post i $t(common:addressBook).",
+      "prefilled": "Alla värden har förifyllts och inmatningsfälten är inaktiverade."
+    },
+    "name": {
+      "label": "Postnamn",
+      "error": {
+        "length": "Ett namn på en $t(common:addressBook)-post måste innehålla minst 3 och högst 40 tecken.",
+        "duplicate": "En $t(common:addressBook)-post med namnet `{{ name }}` finns redan, välj ett annat.",
+        "duplicateAddr": "En $t(common:addressBook)-post med denna adress finns redan, under namnet {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Bekräfta borttagning av post."
+  }
+}

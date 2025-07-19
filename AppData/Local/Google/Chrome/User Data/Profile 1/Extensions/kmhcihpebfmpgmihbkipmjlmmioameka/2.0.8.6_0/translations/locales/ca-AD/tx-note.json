@@ -1,0 +1,34 @@
+{
+  "placeholder": "Afegeix una nota aquí.",
+  "copy": "Nota de la transacció: {{note}}.",
+  "export": "Les notes es poden importar i exportar.",
+  "add": {
+    "title": "Afegeix una nota",
+    "caption": "Adjunta una nota a aquesta transacció. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "Edita la nota",
+    "caption": "Edita la nota adjuntada a aquesta transacció. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Suprimeix la nota",
+      "tooltip": "Suprimeix la nota adjuntada a aquesta transacció."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Suprimeix la nota",
+      "caption": "Si us plau, confirma que vols suprimir la nota de la transacció.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

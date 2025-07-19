@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - تمويل المشاريع",
+  "caption": "Catalyst بيجيب نظام الحكم على السلسلة لـ Cardano سلسلة الكتل (Selselat al-Kutal).",
+  "subCaption": "ساعد في تشكيل مستقبل Cardano عن طريق التصويت على مقترحات التمويل",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "الصندوق الجاي",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "محفظتك مع عرفت تحفظ مفتاح التصويت في مساحة التخزين. ياريت تتواصل مع الدعم عشان يساعدوك!",
+    "catalystkey": "مفتاح تصويت Catalyst مش موجود. ده المفروض ميحصلش، ياريت تتواصل مع الدعم!",
+    "api": "مش قادرين نوصل لـ Voting API، ياريت تعمل إعادة تحميل للصفحة، ولو المشكلة استمرت، كلم الدعم.",
+    "funds": "لازم يكون معاك على الأقل ###min_ada_catalyst### عشان الـ محفظة رقمية (maḥfaẓa raqamiya) بتاعتك تقدر تشارك في التصويت.",
+    "rewards": "مكافآت الـ ###rewards_amount### بتاعتك مينفعش تستخدمها في التصويت إلا لو سحبتها على الـ محفظة رقمية (maḥfaẓa raqamiya) بتاعتك.",
+    "nometadata": "حصل مشكلة مش معروفة، الـ بيانات وصفية بتاعة التسجيل مش مظبوطة، ياريت تحاول تاني، ولو المشكلة استمرت كلم الدعم."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "يرجى الملاحظة",
+      "caption": "دلوقتي، التسجيل مفتوح للصندوق رقم 10 من Catalyst. بعد كده، التصويت على الصناديق اللي جاية هيختلف. انضم لمجتمعات Catalyst عشان تعرف أكتر."
+    }
+  }
+}

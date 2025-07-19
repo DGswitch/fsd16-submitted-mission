@@ -1,0 +1,55 @@
+{
+  "spo": "opera uma única stake pool",
+  "mpo": "opera {{count}} stake pools",
+  "retired": "Retirado no epoch {{epoch}}",
+  "retiredIn": "Retirado no epoch {{epoch}}",
+  "noRewards": "Esta pool NÃO ganhará recompensas em {{adaSymbol}}.",
+  "lessRewards": "Esta pool ganhará menos recompensas do que o habitual.",
+  "history": "Histórico de Recompensas",
+  "fees": "Taxas",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Verde: dentro do intervalo ótimo. Vermelho: ganha menos recompensas."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Verde: dentro do intervalo normal. Vermelho: ganha menos recompensas."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake (Retorno sobre Stake). Desempenho dos últimos 12 epochs. Verde: dentro do intervalo normal. O ROS flutuará mais para pools com menos stake."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Reivindicar recompensas",
+      "syncing": "A Wallet está sincronizando",
+      "norewards": "Nenhuma recompensa disponível"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Último mês",
+      "3months": "Últimos 3 meses",
+      "6months": "Últimos 6 meses",
+      "year": "Último ano"
+    },
+    "view-history": "Ver Histórico",
+    "view-graph": {
+      "stake-key": "chave de stake da conta"
+    },
+    "approx-earning": "Recompensas estimadas para o próximo ano",
+    "unclaimed-ada": "ADA não reivindicados",
+    "lifetime-earning": "No total, você ganhou",
+    "lifetime-apy": "APY Vitalício",
+    "lifetime-earned": "desde que começou a fazer staking",
+    "epoch-ends-in": "Este epoch termina em",
+    "search": "Insira um ticker, nome ou detalhes",
+    "delegate": "Escolher esta pool",
+    "openPoolList": "Abrir lista de pools"
+  }
+}

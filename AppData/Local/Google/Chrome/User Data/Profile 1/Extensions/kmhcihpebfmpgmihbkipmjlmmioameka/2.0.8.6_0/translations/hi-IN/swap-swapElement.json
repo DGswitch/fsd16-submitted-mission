@@ -1,0 +1,40 @@
+{
+  "title": "Eternl मॉन्स्टर स्वैप",
+  "caption": "आपके लिए कई एग्रीगेटर्स से सर्वोत्तम मूल्य प्राप्त करता है",
+  "select": "चुनें",
+  "sell": "आप बेचते हैं",
+  "buy": "आप खरीदते हैं",
+  "balance": "स्वैप के लिए उपलब्ध",
+  "aggAndDexs": "एग्रीगेटर और DEXs:",
+  "provider": "प्रदाता",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "सभी इनपुट साफ़ करता है"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "स्वैप लेनदेन बनाएँ"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "स्वैप लेनदेन बनाया जा रहा है।"
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "बैचर और पूल वॉल्यूम शुल्क (DEXs)",
+      "tooltip": "DEXs आपके ऑर्डर को संसाधित करने के लिए शुल्क लेते हैं। यह वापस नहीं किया जा सकता है।"
+    },
+    "aggregatorFee": {
+      "label": "सेवा शुल्क",
+      "tooltip": "यह सुविधा शुल्क है। यह एग्रीगेटर और Eternl के विकास के लिए धन जुटाने में मदद करता है।"
+    },
+    "deposit": {
+      "label": "वापसी योग्य जमा",
+      "tooltip": "आपके ऑर्डर को संसाधित करने के लिए जमा राशि आवश्यक है। यह राशि आपके प्राप्त टोकन के साथ आपके wallet में वापस कर दी जाती है।"
+    }
+  }
+}

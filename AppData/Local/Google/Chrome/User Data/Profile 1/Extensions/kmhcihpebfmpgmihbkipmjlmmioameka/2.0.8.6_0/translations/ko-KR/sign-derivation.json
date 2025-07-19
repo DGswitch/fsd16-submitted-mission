@@ -1,0 +1,20 @@
+{
+  "input": {
+    "password": {
+      "label": "소비 비밀번호",
+      "placeholder": "비밀번호 확인"
+    }
+  },
+  "dv": {
+    "signing": "계정 키 생성 중",
+    "hw": "{{device}} 기기에서 공개 키 내보내기를 확인해주세요."
+  },
+  "error": {
+    "passwordMismatch": "입력한 비밀번호가 일치하지 않습니다. 다시 시도해주세요!",
+    "missingAppWallet": "Wallet이(가) 설정되지 않았습니다. 앱을 다시 로드하고 다시 시도해주세요.",
+    "invalidResult": "스캔 결과가 유효하지 않습니다.",
+    "missingRootKey": "이 wallet은(는) 계정 키를 파생할 수 없습니다 (루트 키 누락).",
+    "deviceNotFound": "기기를 찾을 수 없습니다.",
+    "unknown": "알 수 없는 오류: {{error}}"
+  }
+}

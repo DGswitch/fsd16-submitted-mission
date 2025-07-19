@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Peramban Dapp",
+  "title": "Peramban Dapp",
+  "caption": "Hubungkan ke dApps Cardano.",
+  "subCaption": "",
+  "connect": "Hubungkan ke {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Masukkan domain dapp"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Swap Instellingen",
+  "presets": "Voorinstellingen",
+  "slippage": {
+    "title": "Swap Slippage",
+    "caption": "Slippage bij swaps is het verschil tussen de verwachte en de uitgevoerde handelsprijzen.",
+    "updated": "Swap slippage bijgewerkt naar {{percentage}}",
+    "banner": {
+      "warning": {
+        "title": "Hoge Slippage",
+        "text": "Het hebben van hoge slippage bij swaps kan resulteren in aanzienlijk lagere rendementen. Lees u alstublieft in over slippage voor AMM orders voordat u doorgaat."
+      }
+    }
+  },
+  "blocklist": {
+    "title": "Ingeschakelde Protocollen",
+    "caption": "Een uitgeschakelde DEX wordt niet gebruikt voor swaps",
+    "presets": "Voorinstellingen",
+    "disableV1": "Schakel Plutus v1 uit",
+    "disableV2": "Schakel Plutus v2 uit"
+  },
+  "aggregators": {
+    "title": "Ingeschakelde Aggregators",
+    "caption": "Uitgeschakelde aggregators worden niet gebruikt voor swaps"
+  },
+  "showMonsterSwap": {
+    "title": "Toon MonsterSwap",
+    "home": "op Home",
+    "navigation": "in hoofdmenu"
+  }
+}

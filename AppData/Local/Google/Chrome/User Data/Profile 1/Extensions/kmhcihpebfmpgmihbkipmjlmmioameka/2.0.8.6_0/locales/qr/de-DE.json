@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "QR-Code scannen",
+    "short": "QR"
+  },
+  "loading": "Kamera wird initialisiert.",
+  "error": {
+    "notAllowed": "Bitte Kamerazugriff erlauben.",
+    "notFound": "Keine Kamera auf dem Gerät gefunden.",
+    "notSupported": "Sicherer Kontext erforderlich (HTTPS, localhost).",
+    "notReadable": "Wird die Kamera bereits verwendet?",
+    "overconstrained": "Installierte Kameras sind nicht geeignet.",
+    "streamApiNotSupported": "Stream API wird in diesem Browser nicht unterstützt.",
+    "insecureContext": "Kamerazugriff ist nur in einem sicheren Kontext erlaubt. Verwenden Sie HTTPS oder localhost anstelle von HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Öffnen Sie die Erweiterung im Vollbildmodus, um den Kamerazugriff zu erlauben. Dies muss nur einmalig geschehen.\n Klicken Sie auf diesen Text, um in den Vollbildmodus zu wechseln."
+  }
+}

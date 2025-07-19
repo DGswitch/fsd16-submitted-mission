@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "የዋጋ ገበታውን ለመክፈት ይጫኑ።"
+  },
+  "notifications": {
+    "tooltip": "ማሳወቂያዎችዎን ለማየት ይጫኑ።"
+  },
+  "hideBalance": {
+    "tooltip": "የሂሳብ ቀሪዎች የሚታዩበትን ይቀያይሩ።"
+  },
+  "logout": {
+    "tooltip": "ከመተግበሪያው ውጣ። ተመልሰው ለመግባት የእርስዎ ፒን ያስፈልጋል።"
+  },
+  "darkMode": {
+    "tooltip": "የጨለማ/የብርሃን ሁነታን ይቀያይሩ።"
+  },
+  "settings": {
+    "tooltip": "የቅንጅቶች ምናሌውን ይክፈቱ።"
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "የቀረው ጊዜ",
+    "tooltip": "የአሁኑ epoch ቁጥር እና ወደሚቀጥለው የቀረው ጊዜ።"
+  }
+}

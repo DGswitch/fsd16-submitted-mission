@@ -1,0 +1,5 @@
+{
+  "title": "Kreiraj Adresu Wallet",
+  "caption": "Unesi delegiranu (baznu) ili nedelegiranu (payment) adresu da kreiraš 'read-only' wallet",
+  "error": "Nevažeća adresa, provjeri i pokušaj ponovo."
+}

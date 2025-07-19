@@ -1,0 +1,58 @@
+{
+  "is": {
+    "label": "Girdi Seçimi",
+    "caption": "Hesabınızdaki belirli utxo\"ları harcayarak girdi seçimi üzerinde kontrol sahibi olun.",
+    "reset": "Girdi Seçimini Sıfırla"
+  },
+  "import": {
+    "label": "İşlemi İçe Aktar",
+    "caption": "Eternl veya diğer kaynaklardan dışa aktarılmış imzasız veya imzalı işlemleri içe aktarın.",
+    "upload": "İşlem dosyasını/dosyalarını yükleyin veya ham işlem cbor'unu yapıştırın."
+  },
+  "tf": {
+    "label": "Token Parçalama",
+    "caption": "Gelecekteki işlemler için ücretleri düşürmek amacıyla varlıklarınızı birden fazla utxo'ya yayın."
+  },
+  "cu": {
+    "label": "UTxO Toplama",
+    "caption": "Bu hesabın UTXO'larını toplayın, yani daha az sayıda UTXO'da birleştirin. Her seferinde en fazla 10 işlem oluşturulacaktır. İşlem biraz zaman alabilir."
+  },
+  "ms": {
+    "label": "Özel Toplama",
+    "label2": "Wallet İçinde Topla",
+    "caption": "Bu ms ücretli wallet'ın UTXO'larını toplayın, yani daha az sayıda UTXO'da birleştirin. Her seferinde en fazla 10 işlem oluşturulacaktır. İşlem biraz zaman alabilir."
+  },
+  "donation": {
+    "label": "$t(common:appName) gelişimini desteklemek için 1 ADA bağışlayın",
+    "caption": "Eternl'ı beğendiğinizi umuyoruz! Lütfen projemizin gelişimini desteklemek için bu işlemle birlikte 1 ADA göndermeyi düşünün."
+  },
+  "customMetadata": {
+    "label": "Özel Metadata",
+    "caption": "Spesifikasyona göre JSON formatında özel bir metadata şeması ekleyin.",
+    "placeholder": "JSON Yapıştır / Gir",
+    "urllabel": "cardano.org adresindeki metadata json formatı hakkında dokümantasyon",
+    "added": "Aşağıdaki metadata işleme eklendi:",
+    "schemainfo": {
+      "NoConversions": "JSON ve Metadata arasındaki minimum paylaşılan özellik seti arasında aslına uygun olarak dönüştürme yapar.",
+      "BasicConversions": "Bayt (hex dizeleri olarak) ve tamsayı anahtarları (dizeler olarak) için ek destek ekler.",
+      "DetailedSchema": "Ayrıntılı JSON şeması ancak metadata dönüşümü için en fazla esnekliğe sahip."
+    },
+    "banner": {
+      "error": {
+        "title": "Geçerli bir Cardano JSON genel metadata şeması değil",
+        "json": "Geçersiz JSON.",
+        "label": "Geçersiz etiket(ler).\nÜst düzey anahtarlar -(2^64 - 1) ile (2^64 - 1) aralığında benzersiz tamsayılar olmalıdır."
+      }
+    }
+  },
+  "metadata": {
+    "label": "Zincir üstü $t(common:message.label) ekle",
+    "caption": "İşleme bir mesaj/yorum/not ekleyin.\nÇok satırlı mesaj için \"ENTER\" tuşuna basın.",
+    "enableEncryption": "Şifrelemeyi etkinleştir",
+    "placeholder": "Bir işlem mesajı girin",
+    "error": {
+      "overflow": "Satır başına karakter sayısı 64 ile sınırlıdır. Yeni bir satır eklemek için Enter tuşuna basın",
+      "invalidJSON": "Geçerli bir Cardano JSON genel metadata şeması değil."
+    }
+  }
+}

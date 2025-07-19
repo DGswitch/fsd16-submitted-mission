@@ -1,0 +1,34 @@
+{
+  "placeholder": "Добави бележка тук.",
+  "copy": "Бележка за транзакцията: {{note}}.",
+  "export": "Бележките могат да бъдат импортирани и експортирани.",
+  "add": {
+    "title": "Добави бележка",
+    "caption": "Прикачи бележка към тази транзакция. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "Редактирай бележка",
+    "caption": "Редактирай бележката, прикачена към тази транзакция. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Изтрий бележка",
+      "tooltip": "Изтрий бележката, прикачена към тази транзакция."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Изтрий бележка",
+      "caption": "Моля, потвърди, че искаш да изтриеш бележката за транзакцията.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

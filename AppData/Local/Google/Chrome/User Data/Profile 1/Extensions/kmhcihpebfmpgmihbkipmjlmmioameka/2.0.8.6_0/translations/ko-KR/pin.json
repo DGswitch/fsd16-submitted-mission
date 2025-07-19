@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "PIN 코드 생성",
+      "confirm": "PIN 코드 확인"
+    },
+    "captionShort": "$t(common:appName)에 액세스하려면 PIN 코드를 설정하세요.",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) $t(common:appName)을(를) 열 때마다 필요합니다.",
+      "confirm": "PIN 코드를 확인하려면 방금 입력한 것과 동일한 PIN을 입력하세요."
+    },
+    "hint": {
+      "enter": "PIN 코드를 입력하세요.",
+      "confirm": "확인을 위해 PIN을 다시 한번 입력하세요."
+    },
+    "confirmed": "입력한 PIN 코드가 일치합니다.",
+    "button": {
+      "label": "PIN 활성화"
+    },
+    "error": {
+      "confirm": "PIN 코드가 일치하지 않습니다. 다시 시도하세요."
+    }
+  },
+  "access": {
+    "title": "액세스 PIN 코드",
+    "caption": "액세스 PIN 코드를 입력하세요.",
+    "checking": "PIN 코드 확인 중.",
+    "confirmed": "입력한 PIN 코드가 올바릅니다.",
+    "error": {
+      "confirm": "PIN 코드가 올바르지 않습니다."
+    }
+  },
+  "deleteAccess": {
+    "caption": "비활성화하려면 PIN 코드를 입력하세요.",
+    "biometrics": "PIN을 제거하면 생체 인식 기능이 자동으로 비활성화됩니다.",
+    "button": {
+      "label": "PIN 비활성화",
+      "tooltip": "비활성화를 허용하려면 현재 PIN을 입력하세요."
+    }
+  },
+  "biometrics": {
+    "login": "생체 인식을 사용하여 로그인",
+    "caption": "FaceID 또는 다른 생체 인식 기능을 사용하여 인증하세요.",
+    "fallback": "PIN 코드를 사용하여 로그인",
+    "use": {
+      "ios": "또는 FaceID나 지문을 사용하여 wallet에 액세스하세요.",
+      "android": "또는 휴대폰의 생체 인식 기능을 사용하여 wallet에 액세스하세요."
+    }
+  },
+  "comment": "// 추가 PIN 텍스트: catalyst:step.pin"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Köp / Sälj ADA",
+  "caption": "Välj din gateway mellan FIAT och Cardano.",
+  "noProvider": "Tyvärr finns det för närvarande ingen leverantör tillgänglig.",
+  "loading": "Laddar FIAT On / Off ramp-leverantörer"
+}

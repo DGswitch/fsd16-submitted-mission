@@ -1,0 +1,164 @@
+{
+  "txId": "رقم المعاملة",
+  "block": "{{GT:tx_id}}",
+  "size": "{{GT:tx_id}}",
+  "txFee": "{{GT:tx_id}}",
+  "deposit": "{{GT:tx_id}}",
+  "donation": "تبرع للخزينة",
+  "txHash": "txHash",
+  "index": "index",
+  "credential": {
+    "payment": "بيانات الدفع",
+    "stake": "بيانات الستاكينج"
+  },
+  "certificate": {
+    "label_one": "شهادة",
+    "label_other": "شهادات",
+    "type": {
+      "stakereg": "تسجيل حساب",
+      "stakedereg": "إلغاء تسجيل حساب",
+      "stakedel": "تفويض لمجمع",
+      "stakeregdel": "تسجيل حساب وتفويض لمجمع",
+      "stakevotedel": "تجميع ستاكينج وتفويض DRep",
+      "stakevoteregdel": "تسجيل حساب وتجميع ستاكينج / تفويض DRep",
+      "votedel": "تفويض DRep",
+      "voteregdel": "تسجيل حساب وتفويض DRep",
+      "drepreg": "تسجيل DRep",
+      "drepupd": "تحديث DRep",
+      "drepdereg": "إلغاء تسجيل DRep",
+      "poolreg": "تسجيل / تحديث مجمع ستاكينج",
+      "poolret": "تقاعد مجمع ستاكينج",
+      "genkeydel": "تفويض مفتاح Genesis",
+      "mircert": "نقل مكافآت فورية",
+      "comhot": "تفويض Committee Hot",
+      "comcold": "استقالة Committee Cold",
+      "script": "{{GT:tx_id}}",
+      "plutus": "عقد Plutus",
+      "unknown": "نوع غير معروف"
+    },
+    "poolreg": {
+      "actepno": "نشط في حقبة",
+      "fixedcost": "تكلفة ثابتة",
+      "margin": "هامش",
+      "pledge": "تعهد",
+      "rewardaddr": "عنوان المكافآت",
+      "owner": "المالك",
+      "relay": "Relay",
+      "metaurl": "رابط بيانات وصفية",
+      "metahash": "هاش بيانات وصفية",
+      "metadata": "بيانات وصفية خارج السلسلة"
+    },
+    "poolret": {
+      "retepno": "التقاعد في حقبة"
+    },
+    "gov": {
+      "stakeCreds": "بيانات الستاكينج",
+      "drepCreds": "بيانات DRep",
+      "votingCreds": "بيانات التصويت",
+      "poolCreds": "بيانات المجمع",
+      "poolParams": "معلمات المجمع",
+      "poolId": "Pool Id",
+      "poolHash": "Pool Hash",
+      "deposit": "إيداع",
+      "anchor": "مرساة",
+      "rawData": "بيانات خام",
+      "unknown": "شهادة غير معروفة",
+      "hash": "هاش",
+      "isScript": "سكريبت",
+      "credential": "بيانات اعتماد",
+      "vote": "تصويت",
+      "drep129": "مندوب (CIP129)",
+      "drep105": "مندوب (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "إدخال بيانات وصفية",
+    "label_other": "إدخالات بيانات وصفية",
+    "label": "$t(common:metadata.label)",
+    "key": "ملصق",
+    "value": "قيمة",
+    "rawData": "بيانات خام",
+    "block": "رقم البلوك",
+    "confirmations": "تأكيدات",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "حجم المعاملة"
+    },
+    "copied": {
+      "cbor": "تم نسخ cbor المعاملة"
+    }
+  },
+  "withdrawal": {
+    "label_one": "سحب",
+    "label_other": "عمليات سحب",
+    "amount": "المبلغ"
+  },
+  "utxo": {
+    "collateralInputs_one": "مدخل الضمان",
+    "collateralInputs_other": "مدخلات الضمان",
+    "referenceInputs_one": "مدخل مرجعي",
+    "referenceInputs_other": "مدخلات مرجعية",
+    "inputs_one": "مدخل",
+    "inputs_other": "مدخلات",
+    "collateralOutput_one": "مخرج الضمان",
+    "collateralOutput_other": "مخرجات الضمان",
+    "outputs_one": "مخرج",
+    "outputs_other": "مخرجات"
+  },
+  "nativescript": {
+    "label": "سكريبتات Native / Multi-Sig",
+    "hash": "هاش",
+    "type": "نوع",
+    "witness": "شاهد",
+    "aux": "بيانات إضافية",
+    "json": "JSON",
+    "bytecode": "بيانات"
+  },
+  "plutusscript": {
+    "label": "سكريبتات Plutus",
+    "hash": "هاش",
+    "type": "نوع",
+    "size": "حجم",
+    "bytes": "بيانات",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "هاش بيانات Plutus",
+      "bytecode": "بايتات بيانات Plutus",
+      "json": "بيانات Plutus"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "الغرض",
+      "fee": "رسوم العقد",
+      "usteps": "خطوات الوحدة",
+      "umem": "ذاكرة الوحدة",
+      "dhash": "هاش الداتوم",
+      "dvalue": "كود الداتوم البايت",
+      "djson": "داتوم JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "عقد Plutus",
+    "label_other": "عقود Plutus",
+    "valid": "عقد صالح",
+    "redeemer": "المسترد",
+    "datum": "داتوم",
+    "script": {
+      "label": "سكربت العقد",
+      "hash": "هاش",
+      "size": "$t(common:size)",
+      "bytecode": "البيانات"
+    },
+    "reference": {
+      "native": "سكربت مرجعي (أصلي)",
+      "plutus": "سكربت مرجعي (plutus)"
+    },
+    "outdatum": "داتوم الإخراج"
+  },
+  "mints": {
+    "mints": "قائمة الصك",
+    "burns": "قائمة الحرق"
+  }
+}

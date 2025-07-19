@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Wissel tussen wallets.",
+    "accounts": {
+      "select": "accounts",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Selecteer een specifieke wallet om tussen accounts te wisselen.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Wissel het actieve $t(common:dApp) account."
+    },
+    "accounts": {
+      "select": "Selecteer een account uit de lijst. Markeer een account als favoriet door op het stericoon te klikken.",
+      "manage": "Voeg accounts toe of verwijder ze, selecteer specifieke account indexen of stel accountnamen in."
+    }
+  },
+  "groups": {
+    "placeholder": "Selecteer actieve wallet groepen",
+    "favoriteAccounts": "#Favoriete accounts"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Accountnaam:",
+    "index": "Index:",
+    "limit": "Limiet:",
+    "remove": {
+      "tooltip": "Account verwijderen"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Nieuwe Accounts Toevoegen"
+  }
+}

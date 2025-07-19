@@ -1,0 +1,21 @@
+{
+  "title": "トランザクション詳細",
+  "inputsOutputs": "入力/出力",
+  "mints": "Mint",
+  "withdrawals": "Withdrawals",
+  "certificates": "Certificates",
+  "metadata": "Metadata",
+  "recipient": "受信者",
+  "scripts": "Scripts",
+  "witnesses": "Witnesses",
+  "validFor": {
+    "label": "有効期間",
+    "unlimited": "時間制限なし",
+    "expired": "期限切れのトランザクション"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Tx Hash または Raw Tx Cbor で読み込み",
+    "invalidTxHashOrCbor": "無効な Tx Hash または Raw Tx Cbor",
+    "invalidTxCbor": "無効なトランザクション Cbor です！"
+  }
+}

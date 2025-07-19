@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "ባለብዙ-ፊርማ wallet",
+      "caption": "ገንዘቦችን ለማውጣት ወይም ሽልማቶችን ለማውጣት ብዙ አካላት ግብይትን መፈረም የሚጠይቅ ልዩ የwallet አይነት ነው።",
+      "create": {
+        "label": "አዲስ ባለብዙ-ፊርማ ፍጠር",
+        "caption": "አዲስ ባለብዙ-ፊርማ wallet ከነባር የኪስ ቦርሳዎች ወይም ውጫዊ ባለብዙ-ፊርማ ቁልፎችን በመጠቀም ለመፍጠር"
+      },
+      "join": {
+        "label": "ባለብዙ-ፊርማን ተቀላቀል",
+        "caption": "በማግኘት ወይም ባለብዙ-ፊርማ የህዝብ ቁልፍዎን አስቀድሞ ከተጨመረ wallet ካለ ጓደኛዎ ጋር በማጋራት ባለብዙ-ፊርማ wallet ላይ ይሳተፉ።"
+      }
+    },
+    "join": {
+      "headline": "ባለብዙ-ፊርማን ተቀላቀል",
+      "caption": "ባለብዙ-ፊርማ ቁልፍን ለማሳየት አማራጭን ይምረጡ፣ ያግኙ ወይም የወጣ ባለብዙ-ፊርማ wallet ያስመጡ።",
+      "key": {
+        "label": "ባለብዙ-ፊርማ ቁልፍ",
+        "caption": "የተመረጠውን wallet ባለብዙ-ፊርማ ቁልፍ ባለብዙ-ፊርማ wallet በመፍጠር ኃላፊነት ላለው ተሳታፊ ለማጋራት አሳይ"
+      },
+      "discover": {
+        "label": "ፈልግ",
+        "caption": "የተመረጡ የኪስ ቦርሳዎች ባለብዙ-ፊርማ ቁልፍን ያካተቱ የተመዘገቡ ባለብዙ-ፊርማ ቦርሳዎችን blockchain ይቃኛል።"
+      },
+      "import": {
+        "label": "አስመጣ",
+        "caption": "የተፈጠሩ እና የወጡ ባለብዙ-ፊርማ wallet JSON ፋይሎችን ጫን"
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet ባለብዙ-ፊርማ ቁልፍ",
+      "caption": "ባለብዙ-ፊርማ wallet ፈጣሪ ጋር ለማጋራት።",
+      "nowallet": "ምንም wallet አልተመረጠም።",
+      "nopubkey": "የተመረጠው wallet ባለብዙ-ፊርማ ቁልፍ ጠፍቷል።"
+    },
+    "discover": {
+      "headline": "የተገኙ ባለብዙ-ፊርማ ቦርሳዎች",
+      "caption": "ለመጨመር የተገኙ ባለብዙ-ፊርማ ቦርሳዎችን ይምረጡ።",
+      "reused": {
+        "toggle": "ዳግም ጥቅም ላይ የዋሉ ቁልፎች ያላቸውን MultiSig ቦርሳዎች አሳይ",
+        "warning": "ዳግም ጥቅም ላይ የዋሉ ቁልፎች ምናልባት ለድጋሚ ጥቃት ሊጋለጡ ይችላሉ፣ በጥንቃቄ ይጠቀሙ!"
+      },
+      "nowallet": "ምንም wallet አልተመረጠም።",
+      "empty": "ለተመረጠው wallet ምንም ባለብዙ-ፊርማ ቦርሳዎች አልተገኙም።",
+      "loading": "በመጫን እና በማቀናበር ላይ...",
+      "details": {
+        "headline": "MultiSig የግኝት ዝርዝሮች",
+        "data": {
+          "headline": {
+            "date": "ተፈጥሯል",
+            "name": "ስም",
+            "description": "መግለጫ",
+            "hash": "Tx Hash",
+            "address": "አድራሻ",
+            "payment": "የክፍያ ስክሪፕት",
+            "stake": "የማስቀመጫ ስክሪፕት",
+            "drep": "DRep ስክሪፕት",
+            "meta": "Metadata",
+            "balance": "ሚዛን"
+          },
+          "nostake": "ባለብዙ-ፊርማ wallet ምንም የተቀመጠ ስክሪፕት አልተመዘገበም",
+          "nodrep": "ባለብዙ-ፊርማ wallet ምንም DRep ስክሪፕት አልተመዘገበም",
+          "nometa": "ምንም 1854 metadata አልተመዘገበም",
+          "button": {
+            "showScript": "ስክሪፕቱን ይመልከቱ",
+            "showMeta": "Metadata ይመልከቱ"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "ባለብዙ-ፊርማ ቦርሳዎችን አስመጣ",
+      "caption": "የተፈጠሩ እና የወጡ ባለብዙ-ፊርማ wallet JSON ፋይሎችን ጫን።",
+      "success": "ባለብዙ-ፊርማ wallet በተሳካ ሁኔታ አስመጣ",
+      "error": {
+        "invalid": "ልክ የሆነ ባለብዙ-ፊርማ ወደ ውጭ መላክ አይደለም፣ CSL AuxiliaryDataJSON ቅርጸትን መከተል አለበት",
+        "noscript": "የታመነ ፋይል ምንም ስክሪፕቶች የሉትም",
+        "nometa": "የታመነ ፋይል ምንም መለያ 1854 metadata የለውም",
+        "invalidmeta": "ወደ ውጭ መላክ ልክ ያልሆነ መለያ 1854 metadata ይዟል",
+        "duplicate": "ተመሳሳይ ስክሪፕቶች ያሉት ባለብዙ-ፊርማ wallet አስቀድሞ ታምኗል፣ የተባዛ ፋይልን ችላ በል"
+      }
+    },
+    "create": {
+      "headline": "ባለብዙ-ፊርማ ዓይነት",
+      "caption": "ተሳታፊዎችዎ ሁሉም እኩል ናቸው ወይስ የቡድኖች / አካላት አካል ናቸው?",
+      "simple": {
+        "label": "ቀላል",
+        "caption": "ሁሉም ተሳታፊዎች እኩል የሆኑበት ሁኔታ።"
+      },
+      "advanced": {
+        "label": "የላቀ (በቅርቡ)",
+        "caption": "ተሳታፊዎች የነጠላ ቡድኖች አካል ናቸው፣ ብዙ ንብርብሮችን ይፈጥራሉ።"
+      }
+    },
+    "simple": {
+      "headline": "ባለብዙ-ፊርማ ማዋቀር",
+      "caption": "ለባለብዙ-ፊርማ wallet ስም እና አማራጭ መግለጫ ያዘጋጁ።",
+      "name": {
+        "label": "Wallet ስም",
+        "placeholder": "ለwallet ስም ያስገቡ",
+        "error": "ስም ያስፈልጋል"
+      },
+      "description": {
+        "label": "መግለጫ",
+        "placeholder": "አማራጭ መግለጫ"
+      },
+      "error": {
+        "validation": "የማረጋገጫ ስህተት",
+        "length": "ከፍተኛው የ64 ቁምፊዎች ርዝመት አልፏል!"
+      }
+    },
+    "participants": {
+      "headline": "ተሳታፊዎችን ያክሉ",
+      "caption": "ከተጫኑ የኪስ ቦርሳዎች ወይም ባለብዙ-ፊርማ የህዝብ ቁልፍን በማስገባት የባለብዙ-ፊርማ አካል መሆን ያለባቸውን ግለሰቦች ይግለጹ።",
+      "new": "ሌላ ተሳታፊ ያክሉ",
+      "participant": {
+        "label": "ተሳታፊ",
+        "name": {
+          "label": "ስም",
+          "placeholder": "አማራጭ የተሳታፊ ስም"
+        },
+        "pub": {
+          "label": "ባለብዙ-ፊርማ ቁልፍ",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "ቀላል ባለብዙ-ፊርማ wallet ለመመስረት ቢያንስ ሁለት ተሳታፊዎች ያስፈልጋሉ።"
+      },
+      "error": {
+        "duplicate": "ተመሳሳይ ባለብዙ-ፊርማ ቁልፍ ያለው ተሳታፊ አስቀድሞ ታክሏል፣ እባክዎ ሌላ ይምረጡ።"
+      }
+    },
+    "requiredSigners": {
+      "headline": "የሚያስፈልጉ ፈራሚዎች",
+      "caption": "ሲፈርሙ ስንት ተሳታፊዎች ማረጋገጥ ያስፈልጋቸዋል?"
+    },
+    "register": {
+      "headline": "ይመዝገቡ",
+      "caption": "አዲስ የተፈጠረውን ባለብዙ-ፊርማ wallet ለመመዝገብ ወይም ለማውረድ አማራጩን ይምረጡ።",
+      "anonymous": "ስም-አልባ (metadataን ይተዉ)",
+      "register": {
+        "label": "ይመዝገቡ",
+        "caption": "ባለብዙ-ፊርማ walletን በሰንሰለት ላይ ለመመዝገብ ግብይት ይፍጠሩ። ይህ በተሳታፊዎች በራስ-ሰር እንዲገኝ ያስችለዋል እና የሚመከር አማራጭ ነው።",
+        "feewallet": "የግብይት ክፍያ wallet",
+        "success": "ባለብዙ-ፊርማ wallet በተሳካ ሁኔታ ተመዝግቧል"
+      },
+      "download": {
+        "label": "አውርድ",
+        "caption": "ለእጅ ግቤት ለተሳታፊዎች የሚጋራ ፋይል ያወርዳል።"
+      },
+      "error": {
+        "nofeewallet": "ለባለብዙ-ፊርማ ምዝገባ ግብይት እንደ ክፍያ wallet የሚያገለግል wallet አልተገኘም።"
+      },
+      "success": "ባለብዙ-ፊርማ wallet በተሳካ ሁኔታ ተፈጥሯል",
+      "exist": "Wallet አስቀድሞ አለ፣ ወደ wallet እያዞረ ነው።"
+    }
+  },
+  "select": {
+    "placeholder": "Wallet ይምረጡ",
+    "missing": {
+      "headline": "ባለብዙ-ፊርማ ቁልፎችን ይፍጠሩ",
+      "mnemonic": "ይህ wallet ባለብዙ-ፊርማ ቁልፎች የሉትም፣ እባክዎ እነሱን ለመፍጠር የwallet የይለፍ ቃልዎን ያስገቡ።",
+      "hardware": "ይህ wallet ባለብዙ-ፊርማ ቁልፎች የሉትም፣ እባክዎ ይፈርሙ የሚለውን ጠቅ ያድርጉ እና እነሱን ለማግኘት የሃርድዌር መሳሪያ መመሪያዎችን ይከተሉ።"
+    },
+    "save": {
+      "ok": "ባለብዙ-ፊርማ ቁልፎች በተሳካ ሁኔታ ተፈጥረው ወደ wallet ተቀምጠዋል",
+      "error": "ባለብዙ-ፊርማ ቁልፎችን ወደ wallet ማስቀመጥ አልተሳካም፣ እባክዎ እንደገና ይሞክሩ!"
+    }
+  },
+  "last_signature_added": "የመጨረሻው ፊርማ ተጨምሯል"
+}

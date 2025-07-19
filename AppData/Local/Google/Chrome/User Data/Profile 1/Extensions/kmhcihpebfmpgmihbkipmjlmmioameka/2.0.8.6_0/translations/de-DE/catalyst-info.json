@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "Projekt Catalyst",
+    "caption": "Lesen Sie alle Neuigkeiten zur aktuellen Finanzierungsrunde.",
+    "text": "Projekt Catalyst hat alle paar Monate Finanzierungsrunden, bei denen ein festgelegter Betrag an ada zur Verteilung auf Ideen bereitsteht.\n\nFinden Sie alle relevanten Informationen zu allen vergangenen und zukünftigen Finanzierungsrunden auf der Projekt Catalyst Webseite.",
+    "button": {
+      "label": "Seite besuchen",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "Alle Vorschläge durchsuchen",
+    "text": "Catalyst nutzt IdeaScale als kollaborative Innovationsplattform.\n\nDies geschieht durch Abstimmungen über von der Community erstellte Vorschläge, die sich auf die Lösung der Herausforderung einer bestimmten Finanzierungsrunde konzentrieren.",
+    "button": {
+      "label": "Mehr erfahren",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "Die All-in-One-Datenplattform für Catalyst",
+    "text": "Blockchain Bildung, Öffentlichkeitsarbeit und globaler Community-Aufbau:\n\nWeil die Zukunft für alle da ist!",
+    "button": {
+      "label": "Seite besuchen",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "Newsletter",
+    "caption": "Bleiben Sie auf dem Laufenden",
+    "text": "Melden Sie sich für den Projekt Catalyst Newsletter an, um keine Neuigkeiten und Updates zu verpassen.",
+    "button": {
+      "label": "Abonnieren",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "Engagieren Sie sich in der Community",
+    "text": "Treten Sie den Telegram Diskussions- und Ankündigungskanälen bei, um Ihre Ideen für zukünftige Cardano Verbesserungsvorschläge zu teilen und an einer gesunden, anregenden Diskussion teilzunehmen.",
+    "button1": {
+      "label": "Ankündigungen",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "Community-Chat",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "Town Hall",
+    "caption": "Treffen Sie die Entwickler",
+    "text": "Kommen Sie und treffen Sie die zukünftigen Entwickler von Cardano in den wöchentlichen Town Hall Meetings. Sehen Sie sich ihre Live-Präsentationen an und nehmen Sie an sinnvollen Gesprächen teil.",
+    "button": {
+      "label": "Wöchentliche Town Hall Aufzeichnungen",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "Herausforderungen anzeigen",
+      "hide": "Herausforderungen ausblenden",
+      "link": "Challenge-Webseite",
+      "allocation": "Mittelzuweisung"
+    },
+    "timeline": {
+      "caption": "Die unten angezeigte Zeitachse kann sich ändern. Bleiben Sie auf dem Laufenden, indem Sie diese Seite erneut besuchen und an den wöchentlichen Catalyst Town Hall Meetings teilnehmen.",
+      "snapshot": {
+        "label": "Stimmkraft-Snapshot",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "Abstimmungsbeginn",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "Abstimmungsende",
+        "caption": ""
+      },
+      "result": {
+        "label": "Ergebnis",
+        "caption": "± wenige Tage."
+      }
+    }
+  }
+}

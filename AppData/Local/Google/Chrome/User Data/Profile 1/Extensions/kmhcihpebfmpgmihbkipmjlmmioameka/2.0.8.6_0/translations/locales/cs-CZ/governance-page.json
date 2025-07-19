@@ -1,0 +1,64 @@
+{
+  "menuLabel": "Správa",
+  "title": "Blockchain Správa",
+  "caption": "Decentralizovaná správa přímo na blockchainu na dosah ruky.",
+  "subCaption": "Zaregistruj se jako DRep nebo si prohlédni seznam DRepů. Prozkoumej návrhy.",
+  "drep_one": "DRep",
+  "drep_other": "DRepové",
+  "delegation": {
+    "common": "Delegace DRep",
+    "current": "Aktuální delegace DRep"
+  },
+  "proposals": "Návrhy správy",
+  "totalProposals": "Celkem návrhů",
+  "information": "$t(common:information)",
+  "register": {
+    "title": "Zaregistruj se jako DRep",
+    "caption": "Registrace jako delegovaný zástupce (DRep) na Cardano ti umožní hlasovat o návrzích správy a ovlivňovat tak budoucnost blockchainu. Pro registraci je vyžadována vratná záloha 500 {{currency}}, která ti bude vrácena po zrušení registrace.\n\nPoskytnutí souboru metadata během registrace ti umožní sdílet tvé cíle a přilákat delegaci od ostatních držitelů {{currency}}, čímž se zvýší tvá hlasovací síla.",
+    "button": "Zaregistruj se jako DRep",
+    "modal": {
+      "anchorURL": {
+        "title": "Zadej URL adresu metadata anchoru (volitelné)",
+        "placeholder": "Anchor URL",
+        "error": "Zadej prosím platnou URL adresu"
+      },
+      "registration": {
+        "title": "Registrace DRep",
+        "button": "Zaregistruj se jako DRep"
+      },
+      "updateRegistration": {
+        "title": "Aktualizuj registraci DRep",
+        "button": "Aktualizuj DRep"
+      }
+    }
+  },
+  "banner": {
+    "common": {
+      "caption": "Pro výběr odměn za staking musí být tento účet delegován Delegovanému Zástupci (DRep): deleguj na DRepa, zvol zdržení se hlasování nebo vyber 'nedůvěru'. Odměny se budou nadále hromadit i bez delegace na DRepa."
+    },
+    "era": {
+      "title": "Tato síť ještě není v éře správy."
+    },
+    "notDelegated": {
+      "title": "Nedelegováno",
+      "caption": "$t(governance-page:banner.common.caption) Tento požadavek je vynucen sítí."
+    },
+    "considerDelegation": {
+      "title": "Zvaž delegaci",
+      "caption": "Zvaž delegaci DRepovi v rámci přípravy na nadcházející éru. $t(governance-page:banner.common.caption)"
+    },
+    "nodelegation": {
+      "info": "Zvaž prosím delegaci DRepovi pro akce správy. V následující éře to bude vyžadováno pro výběr odměn za staking"
+    },
+    "inactive": "Účet je delegován na správního DRepa, který je označen jako neaktivní, a proto se již nezapočítává do aktivního hlasovacího podílu"
+  },
+  "era": "Tato síť ještě není v éře správy.",
+  "delegate": "Vyber tohoto DRepa",
+  "openList": "Otevřít seznam",
+  "openDRepList": "Otevřít seznam DRepů",
+  "button": {
+    "showDRepList": "Zobrazit seznam DRepů",
+    "showDRepDetails": "Zobrazit detaily",
+    "browseDReps": "Prohlédnout DRepy"
+  }
+}

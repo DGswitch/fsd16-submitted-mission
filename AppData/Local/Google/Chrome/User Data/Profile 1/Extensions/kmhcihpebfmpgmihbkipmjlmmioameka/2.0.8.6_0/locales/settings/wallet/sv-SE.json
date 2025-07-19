@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "Namn och Grupp",
+    "caption": "Uppdatera ditt __GT__plånboks__- eller gruppnamn.",
+    "setting": {
+      "caption": "$t(settings/wallet:walletName.caption)",
+      "name": "__GT__Plånboks__namn",
+      "group": "__GT__Plånboks__grupp",
+      "error": {
+        "empty": {
+          "name": "__GT__Plånboks__namnet får inte vara tomt.",
+          "group": "__GT__Plånboks__gruppen får inte vara tom."
+        },
+        "duplicate": {
+          "name": "En __GT__plånbok__ med detta namn finns redan."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "__GT__Plånbokens__ spenderingslösenord",
+    "caption": "Uppdatera din __GT__plånboks__ spenderingslösenord.",
+    "setting": {
+      "caption": "Uppdatera din __GT__plånboks__ spenderingslösenord. Ange det gamla och ange sedan ett nytt, långt spenderingslösenord. Ju längre lösenordet är, desto säkrare är din __GT__plånbok__.",
+      "updated": "Uppdatering av __GT__plånbokens__ spenderingslösenord.",
+      "error": "__GT__Plånbokens__ lösenord kunde inte uppdateras."
+    }
+  },
+  "biometrics": {
+    "title": "Biometrisk Spendering",
+    "caption": "Använd biometrifunktionen istället för lösenordet.",
+    "setting": {
+      "caption": "$t(settings/wallet:biometrics.caption)",
+      "activate": {
+        "label": "Aktivera Biometri",
+        "description": "Ange ditt nuvarande spenderingslösenord för att aktivera spendering med telefonens biometrifunktioner."
+      },
+      "deactivate": {
+        "label": "Avaktivera Biometri",
+        "description": "När du signerar en transaktion kommer vi att använda telefonens biometrifunktion istället för ditt lösenord."
+      }
+    }
+  },
+  "icon": {
+    "title": "__GT__Plånboks__ikon",
+    "caption": "Ställ in en anpassad __GT__plånboks__ikon eller generera en slumpmässig __GT__plånboks__ikon.",
+    "setting": {
+      "caption": "$t(settings/wallet:icon.caption)",
+      "select": "Välj ikon",
+      "regenerateIcon": "Slumpa",
+      "resetToDefault": "Återställ till standard"
+    }
+  },
+  "exportWallet": {
+    "title": "Exportera __GT__Plånbok__",
+    "caption": "Säker __GT__plånboks__ JSON-export som möjliggör import i andra webbläsare/enheter.",
+    "setting": {
+      "caption": "Exporterade $t(common:appName) .json-backupfiler kan importeras i vilken annan $t(common:appName)-app som helst.",
+      "subCaption": "En .json-backup inkluderar transaktionsanteckningar och plånboks-/kontoinställningar.",
+      "button": {
+        "label": "Exportera __GT__Plånbok__"
+      },
+      "banner": {
+        "title": "Viktigt!",
+        "text": "För hot wallets inkluderar exporten den krypterade private key. Förvara den exporterade filen säkert och dela den inte med någon."
+      }
+    }
+  },
+  "reSync": {
+    "title": "Omsynkronisera __GT__plånbok__",
+    "caption": "Tvinga en fullständig __GT__plånboks__-omsynkronisering.",
+    "setting": {
+      "caption": "$t(settings/wallet:reSync.caption)",
+      "subCaption": "Att trycka på den här knappen återställer all __GT__plånboks__data och omsynkroniserar helt från blockchain.",
+      "button": {
+        "label": "Omsynkronisera __GT__Plånbok__"
+      }
+    }
+  },
+  "verification": {
+    "title": "Verifiering av recovery phrase",
+    "caption": "Verifiera att du har sparat rätt recovery phrase för en __GT__plånbok__.",
+    "setting": {
+      "caption": "$t(settings/wallet:verification.caption) När den är verifierad kan du också ändra ditt spenderingslösenord.",
+      "start": "Verifiera phrase",
+      "match": {
+        "label": "Den angivna recovery phrase är korrekt.",
+        "spending": "Ändra spenderingslösenord"
+      },
+      "invalid": "Den angivna recovery phrase är inte korrekt för denna __GT__plånbok__."
+    }
+  },
+  "deleteWallet": {
+    "title": "Ta bort __GT__Plånbok__",
+    "caption": "Ta bort __GT__plånboken__ och alla dess konton.",
+    "setting": {
+      "caption": "När du tar bort denna __GT__plånbok__ kommer den att tas bort från denna $t(common:appName)-app och du förlorar åtkomsten till eventuella kvarvarande medel i denna __GT__plånbok__.",
+      "subCaption": "Det enda sättet att återfå åtkomst efter borttagning är genom att återställa din __GT__plånboks__ recovery phrase eller genom att importera en tidigare exporterad $t(common:appName).json-backupfil.",
+      "subCaption2": "För enklare import, exportera som en $t(common:appName).json-backup innan du tar bort.\n\nSe till att denna __GT__plånboks__ seed phrase förvaras säkert!",
+      "acknowledged": "Jag förstår att det enda sättet att återfå åtkomst till denna wallet är genom att återställa den med hjälp av dess wallet återställningsfras.",
+      "name": "Ange wallet namn",
+      "error": {
+        "name": "Ange korrekt wallet namn för att bekräfta borttagning.",
+        "acknowledged": "Vänligen läs och bekräfta informationen ovan."
+      }
+    }
+  }
+}

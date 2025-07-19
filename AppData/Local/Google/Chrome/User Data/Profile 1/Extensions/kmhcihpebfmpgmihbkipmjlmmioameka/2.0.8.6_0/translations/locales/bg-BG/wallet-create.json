@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Запишете всички думи от фразата за възстановяване на вашия wallet на лист хартия в точния ред, в който са показани тук.",
+    "notice": "Не прескачайте нищо, тези думи са изключително важни!",
+    "reveal": "Покажи фразата за възстановяване",
+    "hidden": "Уверете се, че никой не може да види екрана ви"
+  },
+  "confirm": {
+    "title": "Потвърди фразата",
+    "caption": "Уверете се, че сте записали правилните думи",
+    "instruction": "Изберете ",
+    "key_one": "<b>{{count}}</b>-та дума",
+    "key_two": "<b>{{count}}</b>-та дума",
+    "key_few": "<b>{{count}}</b>-та дума",
+    "key_other": "<b>{{count}}</b>-та дума",
+    "incorrect": "Неправилно, моля, опитайте отново!"
+  },
+  "password": {
+    "title": "Задайте парола за разплащане",
+    "caption": "Задайте парола за разплащане, за да защитите вашия wallet. Сигурността се увеличава с по-дълга парола.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet създаден успешно."
+  },
+  "error": {
+    "failed": "Неуспешно създаване на wallet, моля, опитайте отново.",
+    "mnemonic": "Грешка: createWallet: mnemonic not set.",
+    "spendingPassword": "Грешка: createWallet: spending password not set.",
+    "paymentScript": "Грешка: createWallet: payment script not set.",
+    "address": "Грешка: createWallet: address not set.",
+    "paymentPrvKey": "Грешка: createWallet: payment key not set.",
+    "accountPubNotSet": "Грешка: createWallet: account pub key list or address not set.",
+    "walletName": "Грешка: createWallet: walletName not set.",
+    "account": "Не можах да получа акаунта на wallet, моля, презаредете или се свържете с поддръжката, ако проблемът продължава."
+  }
+}

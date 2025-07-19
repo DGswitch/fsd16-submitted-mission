@@ -1,0 +1,31 @@
+{
+  "title": "Bağlan: ",
+  "caption": "Yalnızca güvendiğiniz dApp'lerle etkileşim kurun! Lütfen URL'nin doğru ve güvenli (HTTPS) olduğunu onaylayın.",
+  "label": {
+    "possibleScam": "olası dolandırıcılık",
+    "notSecure": "güvenli değil",
+    "confirmRisk": "Riskleri anlıyorum",
+    "grantAccess": "Erişim izni ver"
+  },
+  "noAccount": {
+    "title": "dApp hesabı ayarlanmamış",
+    "caption": "$t(common:appName)'da ayarlanmış bir dApp hesabı yok. Tam boyutlu $t(common:appName) uygulamasına geçin ve bir wallet oluşturun veya içe aktarın.",
+    "openUI": "Uygulamayı aç"
+  },
+  "access": {
+    "url": "URL",
+    "features": "Özellikler"
+  },
+  "cip30": {
+    "title": "DApp Bağlayıcısı (CIP30)",
+    "caption": "Bakiyenizi okumaya ve işlem imzalamanızı istemeye izin verir. İmzalamadan önce işlemi inceleyebilirsiniz."
+  },
+  "cip95": {
+    "title": "Cardano Yönetişimi (CIP95)",
+    "caption": "Oy verme kimlik bilgilerinizi okumaya izin verir."
+  },
+  "cip104": {
+    "title": "Hesap Genel Anahtarı (CIP104)",
+    "caption": "Hesap genel anahtarının dışa aktarılmasına izin verir. Lütfen bunun DApp'ın bağlı hesap için herhangi bir adresi türetmesine izin vereceğini unutmayın."
+  }
+}

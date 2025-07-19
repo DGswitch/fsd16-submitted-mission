@@ -1,0 +1,70 @@
+{
+  "title": "የንብረት ዝርዝሮች",
+  "owns": "የሂሳብ ባለቤትነት",
+  "youOwn": "የእርስዎ ባለቤትነት",
+  "numAssets": "{{numAssets}} ልዩ ንብረት(ቶች) ተገኝተዋል።",
+  "tab": {
+    "details": "ዝርዝሮች",
+    "metadata": "Metadata",
+    "raw": "ጥሬ መረጃ",
+    "registry": "የቶከን መመዝገቢያ",
+    "media": "ሚዲያ"
+  },
+  "button": {
+    "addAsset": {
+      "label": "ንብረት ጨምር",
+      "tooltip": "ንብረቱን በዚህ ተቀባይ ላይ ጨምር።"
+    },
+    "editAsset": {
+      "label": "ንብረት አርትዕ",
+      "tooltip": " መጠኑን ቀይር።"
+    },
+    "addAssets": {
+      "label": "ንብረቶች ጨምር",
+      "tooltip": "ተጨማሪ ንብረት በዚህ ተቀባይ ላይ ጨምር።"
+    },
+    "editAssets": {
+      "label": "ንብረቶች አርትዕ",
+      "tooltip": "ቀድሞውኑ የታከሉትን ንብረቶች ቀይር።"
+    },
+    "removeAsset": {
+      "label": "ንብረት አስወግድ",
+      "tooltip": "ንብረቱን ከዚህ ተቀባይ ላይ አስወግድ።"
+    },
+    "addCollection": {
+      "label": "ስብስብ ጨምር",
+      "tooltip": "ስብስቡን በዚህ ተቀባይ ላይ ጨምር።"
+    },
+    "removeCollection": {
+      "label": "ስብስብ አስወግድ",
+      "tooltip": "ስብስቡን ከዚህ ተቀባይ ላይ አስወግድ።"
+    },
+    "setIcon": {
+      "label": "የWallet አዶ",
+      "tooltip": "የንብረት ምስልን እንደ wallet አዶ አድርገው ያዘጋጁ።"
+    }
+  },
+  "hover": {
+    "removeAsset": "ንብረት አስወግድ"
+  },
+  "filter": {
+    "search": "በፖሊሲ፣ በስም፣ በጣት አሻራ ወይም በmetadata ፈልግ..."
+  },
+  "price": {
+    "unknown": "ያልታወቀ የቶከን ዋጋ",
+    "value": "የቶከን ዋጋ",
+    "avg": "አማካይ ዋጋ"
+  },
+  "media": {
+    "format": {
+      "html": "HTML ፋይል",
+      "pdf": "PDF ፋይል",
+      "image": "ምስል",
+      "video": "ቪዲዮ",
+      "audio": "ድምጽ"
+    }
+  },
+  "digits": {
+    "unknown": "ያልታወቀ አስርዮሽ"
+  }
+}

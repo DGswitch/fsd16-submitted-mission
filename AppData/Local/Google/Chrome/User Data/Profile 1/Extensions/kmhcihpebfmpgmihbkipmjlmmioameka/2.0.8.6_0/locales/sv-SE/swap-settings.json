@@ -1,0 +1,31 @@
+{
+  "title": "Bytinställningar",
+  "presets": "Förinställningar",
+  "slippage": {
+    "title": "Byt Slippage",
+    "caption": "Slippage vid byten är skillnaden mellan förväntade och utförda handelspriser.",
+    "updated": "Byt slippage uppdaterad till {{percentage}}",
+    "banner": {
+      "warning": {
+        "title": "Hög Slippage",
+        "text": "Att ha hög slippage vid byten kan resultera i betydligt lägre avkastning. Vänligen läs på om slippage för AMM-ordrar innan du fortsätter."
+      }
+    }
+  },
+  "blocklist": {
+    "title": "Aktiverade Protokoll",
+    "caption": "En inaktiverad DEX kommer inte att användas för byten",
+    "presets": "Förinställningar",
+    "disableV1": "Inaktivera Plutus v1",
+    "disableV2": "Inaktivera Plutus v2"
+  },
+  "aggregators": {
+    "title": "Aktiverade Aggregatorer",
+    "caption": "Inaktiverade aggregatorer kommer inte att användas för byten"
+  },
+  "showMonsterSwap": {
+    "title": "Visa MonsterSwap",
+    "home": "på Hem",
+    "navigation": "i huvudmenyn"
+  }
+}

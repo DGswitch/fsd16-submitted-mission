@@ -1,0 +1,54 @@
+{
+  "title": "$t(common:network.label) المُبدِّل",
+  "caption": "اتصل بشبكة مختلفة على الفور.",
+  "active": "$t(common:active)",
+  "offline": "$t(common:offline)",
+  "cardano": "$t(common:network.cardano)",
+  "apexFusion": "$t(common:network.apexFusion)",
+  "mainnet": {
+    "label": "$t(common:network.cardano) $t(common:network.mainnet)",
+    "description": "شبكة Cardano الرسمية التي أطلقتها IOG في عام 2017.",
+    "link": null,
+    "icon": null
+  },
+  "preprod": {
+    "label": "ما قبل الإنتاج $t(common:network.testnet)",
+    "description": "شبكة اختبار ما قبل الإنتاج تحاكي معاملات الشبكة الرئيسية.",
+    "link": ""
+  },
+  "preview": {
+    "label": "معاينة $t(common:network.testnet)",
+    "description": "شبكة لاختبار إصدارات الشبكة الرئيسية. تسبق عمليات الـ hard fork الرئيسية بما لا يقل عن 4 أسابيع.",
+    "link": ""
+  },
+  "guild": {
+    "label": "شبكة النقابة",
+    "description": "شبكة اختبار تديرها المجموعة المجتمعية Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  },
+  "afvt": {
+    "label": "$t(common:network.apexFusion) Vector $t(common:network.testnet)",
+    "description": "شبكة اختبار تديرها المجموعة المجتمعية Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  },
+  "afvm": {
+    "label": "$t(common:network.apexFusion) Vector $t(common:network.mainnet)",
+    "description": "سلسلة مُحسَّنة الأداء برسوم منخفضة وسرعات معاملات عالية.",
+    "link": "https://apexfusion.org/"
+  },
+  "afpt": {
+    "label": "$t(common:network.apexFusion) Prime $t(common:network.testnet)",
+    "description": "شبكة اختبار تديرها المجموعة المجتمعية Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  },
+  "afpm": {
+    "label": "$t(common:network.apexFusion) Prime $t(common:network.mainnet)",
+    "description": "العمود الفقري اللامركزي لـ Apex Fusion، الذي يؤمن الطبقة الأساسية باستخدام بروتوكول إجماع Ouroboros السائل تخزين.",
+    "link": "https://apexfusion.org/"
+  },
+  "sancho": {
+    "label": "شبكة سانشو",
+    "description": "شبكة اختبار تديرها المجموعة المجتمعية Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  }
+}

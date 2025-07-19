@@ -1,0 +1,21 @@
+{
+  "title": "Chi tiết giao dịch",
+  "inputsOutputs": "Đầu vào/Đầu ra",
+  "mints": "Đúc",
+  "withdrawals": "Rút tiền",
+  "certificates": "Chứng chỉ",
+  "metadata": "Metadata",
+  "recipient": "Người nhận",
+  "scripts": "Scripts",
+  "witnesses": "Người chứng thực",
+  "validFor": {
+    "label": "Hợp lệ đến",
+    "unlimited": "Không giới hạn thời gian",
+    "expired": "Giao dịch đã hết hạn"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Tải bằng Tx Hash hoặc raw Tx Cbor",
+    "invalidTxHashOrCbor": "Tx Hash hoặc raw Tx Cbor không hợp lệ",
+    "invalidTxCbor": "Cbor giao dịch không hợp lệ!"
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "다중 서명 wallet",
+      "caption": "자금 사용 또는 보상 인출 시 여러 당사자가 트랜잭션에 서명해야 하는 특수한 유형의 wallet입니다.",
+      "create": {
+        "label": "새 다중 서명 생성",
+        "caption": "기존 지갑 또는 외부 다중 서명 키를 사용하여 새 다중 서명 wallet을 생성합니다."
+      },
+      "join": {
+        "label": "다중 서명 참여",
+        "caption": "발견 기능을 사용하거나 이미 추가된 wallet의 다중 서명 공개 키를 친구와 공유하여 다중 서명 wallet에 참여합니다."
+      }
+    },
+    "join": {
+      "headline": "다중 서명 참여",
+      "caption": "다중 서명 키 표시, 발견 또는 내보낸 다중 서명 wallet 가져오기 옵션을 선택하세요.",
+      "key": {
+        "label": "다중 서명 키",
+        "caption": "선택한 wallet의 다중 서명 키를 표시하여 다중 서명 wallet 생성을 담당하는 참여자와 공유합니다."
+      },
+      "discover": {
+        "label": "발견",
+        "caption": "선택한 지갑의 다중 서명 키를 포함하는 등록된 다중 서명 지갑을 blockchain에서 스캔합니다."
+      },
+      "import": {
+        "label": "가져오기",
+        "caption": "생성 및 내보낸 다중 서명 wallet JSON 파일을 로드합니다."
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet 다중 서명 키",
+      "caption": "다중 서명 wallet 생성자와 공유하기 위함입니다.",
+      "nowallet": "선택된 wallet이(가) 없습니다.",
+      "nopubkey": "선택한 wallet의 다중 서명 키가 없습니다."
+    },
+    "discover": {
+      "headline": "발견된 다중 서명 지갑",
+      "caption": "추가할 발견된 다중 서명 지갑을 선택하세요.",
+      "reused": {
+        "toggle": "재사용된 키가 있는 MultiSig 지갑 표시",
+        "warning": "재사용된 키는 리플레이 공격(replay attack)에 취약할 수 있으니 주의해서 사용하세요!"
+      },
+      "nowallet": "선택된 wallet이(가) 없습니다.",
+      "empty": "선택한 wallet에 대해 발견된 다중 서명 지갑이 없습니다.",
+      "loading": "가져와 처리 중...",
+      "details": {
+        "headline": "MultiSig 발견 상세 정보",
+        "data": {
+          "headline": {
+            "date": "생성됨",
+            "name": "이름",
+            "description": "설명",
+            "hash": "Tx 해시",
+            "address": "주소",
+            "payment": "지불 스크립트",
+            "stake": "스테이크 스크립트",
+            "drep": "DRep 스크립트",
+            "meta": "메타데이터",
+            "balance": "잔액"
+          },
+          "nostake": "다중 서명 wallet에 등록된 스테이크 스크립트가 없습니다.",
+          "nodrep": "다중 서명 wallet에 등록된 DRep 스크립트가 없습니다.",
+          "nometa": "등록된 1854 메타데이터가 없습니다.",
+          "button": {
+            "showScript": "스크립트 보기",
+            "showMeta": "메타데이터 보기"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "다중 서명 지갑 가져오기",
+      "caption": "생성 및 내보낸 다중 서명 wallet JSON 파일을 로드합니다.",
+      "success": "다중 서명 wallet을(를) 성공적으로 가져왔습니다.",
+      "error": {
+        "invalid": "유효한 다중 서명 내보내기 파일이 아닙니다. CSL AuxiliaryDataJSON 형식을 따라야 합니다.",
+        "noscript": "가져온 파일에 스크립트가 없습니다.",
+        "nometa": "가져온 파일에 레이블 1854 메타데이터가 없습니다.",
+        "invalidmeta": "내보내기 파일에 잘못된 레이블 1854 메타데이터가 포함되어 있습니다.",
+        "duplicate": "동일한 스크립트를 가진 다중 서명 wallet이(가) 이미 가져와졌습니다. 중복 파일을 무시합니다."
+      }
+    },
+    "create": {
+      "headline": "다중 서명 유형",
+      "caption": "참여자들이 모두 동등한가요, 아니면 그룹/엔티티의 일부인가요?",
+      "simple": {
+        "label": "단순",
+        "caption": "모든 참여자가 동등한 시나리오입니다."
+      },
+      "advanced": {
+        "label": "고급 (출시 예정)",
+        "caption": "참여자는 개별 그룹의 일부이며 여러 계층을 형성합니다."
+      }
+    },
+    "simple": {
+      "headline": "다중 서명 설정",
+      "caption": "다중 서명 wallet의 이름과 선택적 설명을 설정하세요.",
+      "name": {
+        "label": "Wallet 이름",
+        "placeholder": "wallet의 이름을 입력하세요",
+        "error": "이름은 필수입니다"
+      },
+      "description": {
+        "label": "설명",
+        "placeholder": "선택적 설명"
+      },
+      "error": {
+        "validation": "유효성 검사 오류",
+        "length": "최대 길이 64자를 초과했습니다!"
+      }
+    },
+    "participants": {
+      "headline": "참여자 추가",
+      "caption": "로드된 지갑에서 다중 서명의 일부가 될 개인을 지정하거나 다중 서명 공개 키를 입력하세요.",
+      "new": "다른 참여자 추가",
+      "participant": {
+        "label": "참여자",
+        "name": {
+          "label": "이름",
+          "placeholder": "선택적 참여자 이름"
+        },
+        "pub": {
+          "label": "Multi-Sig 키",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "단순 다중 서명 wallet을 구성하려면 최소 두 명의 참여자가 필요합니다"
+      },
+      "error": {
+        "duplicate": "동일한 다중 서명 키를 가진 참여자가 이미 추가되었습니다. 다른 참여자를 선택하세요."
+      }
+    },
+    "requiredSigners": {
+      "headline": "필수 서명자",
+      "caption": "서명 시 몇 명의 참여자 확인이 필요한가요?"
+    },
+    "register": {
+      "headline": "등록",
+      "caption": "새로 생성된 다중 서명 wallet을 등록하거나 다운로드하는 옵션을 선택하세요.",
+      "anonymous": "익명 (메타데이터 생략)",
+      "register": {
+        "label": "등록",
+        "caption": "다중 서명 wallet을 온체인에 등록하는 트랜잭션을 생성합니다. 이를 통해 참여자가 자동으로 검색할 수 있으며 권장되는 옵션입니다.",
+        "feewallet": "트랜잭션 수수료 wallet",
+        "success": "다중 서명 wallet이 성공적으로 등록되었습니다"
+      },
+      "download": {
+        "label": "다운로드",
+        "caption": "참여자와 공유하여 수동으로 가져올 파일을 다운로드합니다."
+      },
+      "error": {
+        "nofeewallet": "다중 서명 등록 트랜잭션의 수수료 wallet으로 사용할 wallet을 찾을 수 없습니다."
+      },
+      "success": "다중 서명 wallet이 성공적으로 생성되었습니다",
+      "exist": "Wallet이(가) 이미 존재합니다. wallet(으)로 리디렉션합니다."
+    }
+  },
+  "select": {
+    "placeholder": "Wallet 선택",
+    "missing": {
+      "headline": "다중 서명 키 생성",
+      "mnemonic": "이 wallet에는 다중 서명 키가 없습니다. 생성하려면 wallet 비밀번호를 입력하세요.",
+      "hardware": "이 wallet에는 다중 서명 키가 없습니다. 서명을 클릭하고 하드웨어 장치 지침에 따라 키를 생성하세요."
+    },
+    "save": {
+      "ok": "다중 서명 키가 성공적으로 생성되어 wallet에 저장되었습니다.",
+      "error": "wallet에 다중 서명 키를 저장하지 못했습니다. 다시 시도하세요!"
+    }
+  },
+  "last_signature_added": "마지막 서명 추가됨"
+}

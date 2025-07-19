@@ -1,0 +1,68 @@
+{
+  "menuLabel": "Danh sách UTxO",
+  "title": "Danh sách UTxO tài khoản",
+  "caption": "Danh sách tất cả UTXO do tài khoản này quản lý, bao gồm số lượng và danh sách token.",
+  "subCaption": "Một UTxO giống như một tờ đô la có giá trị tùy ý. Các giao dịch tiêu nó và trả lại 'tiền thừa' vào wallet của bạn.",
+  "empty": "Tài khoản này không có UTXO nào.",
+  "selectAll": "Chọn tất cả",
+  "filter": {
+    "headline": "Bộ lọc UTxO",
+    "caption": "Đặt tham số hoặc nhập chuỗi tìm kiếm để lọc danh sách utxo.",
+    "search": "Tìm kiếm theo địa chỉ, đường dẫn hoặc ID giao dịch...",
+    "more": "Xem thêm",
+    "minada": "Số lượng {{adaCurrency}} tối thiểu",
+    "maxada": "Số lượng {{adaCurrency}} tối đa",
+    "numAssets": "Tìm thấy {{numAssets}} tài sản duy nhất."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO trên {{address_count}} địa chỉ",
+    "pendingIn": {
+      "hint": "(đầu vào đang chờ xử lý, utxo đã chi tiêu)"
+    },
+    "pendingOut": {
+      "hint": "(đầu ra đang chờ xử lý, utxo đã tạo)"
+    },
+    "opkosk": {
+      "label": "Đang nhận thưởng",
+      "hint": "(khóa thanh toán tài khoản, khóa stake tài khoản)"
+    },
+    "opk": {
+      "label": "Chưa stake",
+      "hint": "(khóa thanh toán tài khoản, không có khóa stake)"
+    },
+    "opkesk": {
+      "label": "ủy quyền bên ngoài",
+      "hint": "(khóa thanh toán tài khoản, khóa stake bên ngoài)"
+    },
+    "epkosk": {
+      "label": "Quỹ bên ngoài, nhưng đang nhận thưởng",
+      "hint": "(khóa thanh toán bên ngoài, khóa stake tài khoản)"
+    },
+    "collateral": {
+      "label": "Collateral",
+      "hint": "(không phải tất cả được đặt làm collateral)"
+    },
+    "locked": {
+      "label": "UTXO bị khóa"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Chi tiết Stake",
+    "controlledStake": {
+      "label": "Stake được kiểm soát",
+      "tooltip": "Tổng số tiền đã stake vào khóa stake của tài khoản này (có thể là sở hữu, bên ngoài hoặc trong hợp đồng thông minh)."
+    },
+    "ownedStake": {
+      "label": "Stake sở hữu",
+      "tooltip": "Số lượng stake dưới sự kiểm soát trực tiếp của tài khoản này."
+    },
+    "notStaked": {
+      "label": "Chưa stake",
+      "tooltip": "ADA chưa stake, quỹ trên các địa chỉ doanh nghiệp."
+    },
+    "externallyStaked": {
+      "label": "Đã stake bên ngoài",
+      "tooltip": "ADA do tài khoản này kiểm soát - kết hợp với bất kỳ khóa staking bên ngoài nào."
+    }
+  }
+}

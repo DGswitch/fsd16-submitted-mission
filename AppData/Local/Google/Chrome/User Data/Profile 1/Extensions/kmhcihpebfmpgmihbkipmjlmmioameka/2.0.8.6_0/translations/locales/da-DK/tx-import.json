@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "Indsæt transaktions-cbor",
+  "error": {
+    "corrupted": "Den uploadede fil er korrupt, transaktionen kunne ikke importeres.",
+    "invalid": "Den uploadede fil er ikke en gyldig json-fil.",
+    "format": "Json-filen ser ikke ud til at indeholde eksporterede transaktionsdata."
+  }
+}

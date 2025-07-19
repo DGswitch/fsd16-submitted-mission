@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "Fraza od 12 riječi",
+      "caption": "Shelley wallet sa 12 riječi."
+    },
+    "15": {
+      "label": "Fraza od 15 riječi",
+      "caption": "Npr. Yoroi Shelley wallet."
+    },
+    "24": {
+      "label": "Fraza od 24 riječi",
+      "caption": "Shelley wallet kreiran pomoću, npr. Eternl ili Daedalus."
+    },
+    "title": "Vrsta seed fraze",
+    "caption": "Koju vrstu wallet želiš vratiti?"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Unesi svoju sačuvanu seed frazu"
+  }
+}

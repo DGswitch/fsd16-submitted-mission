@@ -1,0 +1,9 @@
+{
+  "title": "Importera CLI-signeringsnycklar",
+  "caption": "Välj betalnings- och stake- (valfritt) signeringsnycklar från en CLI-genererad __GT__plånbok__.",
+  "payment": "Betalningsnyckel",
+  "stake": "Stake-nyckel",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Ogiltig nyckel, vänligen verifiera och försök igen!"
+}

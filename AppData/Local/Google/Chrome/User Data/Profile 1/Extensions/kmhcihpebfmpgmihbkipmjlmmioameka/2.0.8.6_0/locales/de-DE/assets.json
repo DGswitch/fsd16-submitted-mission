@@ -1,0 +1,66 @@
+{
+  "title": "Asset-Details",
+  "owns": "Konto besitzt",
+  "youOwn": "Sie besitzen",
+  "numAssets": "{{numAssets}} einzigartige(s) Asset(s) gefunden.",
+  "tab": {
+    "details": "Details",
+    "metadata": "Metadata",
+    "raw": "Rohdaten",
+    "registry": "Token Registry",
+    "media": "Medien"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Asset hinzufügen",
+      "tooltip": "Asset diesem Empfänger hinzufügen."
+    },
+    "editAsset": {
+      "label": "Asset bearbeiten",
+      "tooltip": "Betrag ändern."
+    },
+    "addAssets": {
+      "label": "Assets hinzufügen",
+      "tooltip": "Weitere Assets diesem Empfänger hinzufügen."
+    },
+    "editAssets": {
+      "label": "Assets bearbeiten",
+      "tooltip": "Bereits hinzugefügte Assets ändern."
+    },
+    "removeAsset": {
+      "label": "Asset entfernen",
+      "tooltip": "Asset von diesem Empfänger entfernen."
+    },
+    "addCollection": {
+      "label": "Kollektion hinzufügen",
+      "tooltip": "Kollektion diesem Empfänger hinzufügen."
+    },
+    "removeCollection": {
+      "label": "Kollektion entfernen",
+      "tooltip": "Kollektion von diesem Empfänger entfernen."
+    }
+  },
+  "hover": {
+    "removeAsset": "Asset entfernen"
+  },
+  "filter": {
+    "search": "Suche nach Policy, Name, Fingerprint oder metadata..."
+  },
+  "price": {
+    "unknown": "Unbekannter Token-Wert",
+    "value": "Token-Wert",
+    "avg": "Durchschnittspreis"
+  },
+  "media": {
+    "format": {
+      "html": "HTML-Datei",
+      "pdf": "PDF-Datei",
+      "image": "Bild",
+      "video": "Video",
+      "audio": "Audio"
+    }
+  },
+  "digits": {
+    "unknown": "Unbekannte Dezimalstellen"
+  }
+}

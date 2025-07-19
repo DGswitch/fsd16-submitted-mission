@@ -1,0 +1,233 @@
+{
+  "action":                   "action",
+  "active":                   "active",
+  "address":                  "address",
+  "addressBook":              "address book",
+  "add":                      "add",
+  "added":                    "added",
+  "all":                      "all",
+  "apply":                    "apply",
+  "assetName":                "Asset Name",
+  "appName":                  "Eternl",
+  "available":                "available",
+  "back":                     "back",
+  "balance":                  "balance",
+  "beta":                     "beta",
+  "block":                    "block",
+  "bluetooth":                "bluetooth",
+  "buyAda":                   "Buy ADA",
+  "cancel":                   "cancel",
+  "choose":                   "choose",
+  "clear":                    "clear",
+  "close":                    "close",
+  "collapse":                 "collapse",
+  "collection":               "collection",
+  "companyName":              "Tastenkunst GmbH",
+  "confirm":                  "confirm",
+  "contract":                 "contract",
+  "create":                   "create",
+  "dangerZone":               "danger zone",
+  "dApp":                     "dApp",
+  "dApps":                    "dApps",
+  "delegate":                 "delegate",
+  "delete":                   "delete",
+  "deposit":                  "deposit",
+  "description":              "description",
+  "disconnect":               "disconnect",
+  "disable":                  "disable",
+  "disabled":                 "disabled",
+  "download":                 "download",
+  "edit":                     "edit",
+  "enable":                   "enable",
+  "enabled":                  "enabled",
+  "epoch":                    "epoch",
+  "export":                   "export",
+  "expand":                   "expand",
+  "favorites":                "favorites",
+  "fee":                      "fee",
+  "ft":                       "ft",
+  "fingerprint":              "fingerprint",
+  "hexname":                  "Hex name",
+  "import":                   "import",
+  "info":                     "info",
+  "information":              "information",
+  "invalid":                  "invalid",
+  "items":                    "items",
+  "key":                      "key",
+  "links":                    "links",
+  "loaded":                   "loaded",
+  "loading":                  "loading",
+  "logo":                     "logo",
+  "manage":                   "manage",
+  "more":                     "more",
+  "next":                     "next",
+  "nft":                      "nft",
+  "margin":                   "margin",
+  "noname":                   "no name",
+  "offline":                  "offline",
+  "of":                       "of",
+  "ok":                       "ok",
+  "open":                     "open",
+  "options":                  "options",
+  "pledge":                   "pledge",
+  "policyid":                 "Policy ID",
+  "pool":                     "pool",
+  "privacyNotice":            "Privacy Notice",
+  "project":                  "Eternl",
+  "promoted":                 "promoted",
+  "receive":                  "receive",
+  "receiveAddress":           "receive address",
+  "recommended":              "recommended",
+  "refresh":                  "refresh",
+  "registration":             "registration",
+  "remove":                   "remove",
+  "removeAll":                "remove all",
+  "reset":                    "reset",
+  "resolve":                  "resolve",
+  "rewards":                  "rewards",
+  "ros":                      "ROS",
+  "saturation":               "saturation",
+  "save":                     "save",
+  "saved":                    "saved",
+  "scam":                     "scam",
+  "search":                   "search",
+  "send":                     "send",
+  "select":                   "select",
+  "selected":                 "selected",
+  "share":                    "share",
+  "size":                     "size",
+  "sign":                     "sign",
+  "skip":                     "skip",
+  "soon":                     "soon",
+  "submit":                   "submit",
+  "summary":                  "summary",
+  "swap":                     "swap",
+  "totalSupply":              "Total Supply",
+  "txFee":                    "Network fee",
+  "unlock":                   "Unlock",
+  "unset":                    "unset",
+  "unused":                   "unused",
+  "used":                     "used",
+  "usb":                      "usb",
+  "wallets":                  "wallets",
+  "warning":                  "warning",
+  "website":                  "website",
+
+  "button": {
+
+    "addAccount":             "add account",
+    "addEntry":               "add entry",
+    "addWallet":              "add wallet",
+    "createTransaction":      "Create transaction",
+    "cleanUp":                "clean up",
+    "clearAll":               "clear all",
+    "connectDApp":            "Connect dApp",
+    "hideAssets":             "hide assets",
+    "hideDetails":            "Hide details",
+    "manageAccounts":         "manage accounts",
+    "openAppStore":           "open App Store",
+    "openPlayStore":          "open Google Play",
+    "acceptNewAddress":       "Accept new address",
+    "selectFiles":            "select file(s)",
+    "selectAccount":          "select account",
+    "shareAddress":           "share address",
+    "showDetails":            "Show details",
+    "showScamInfo":           "show scam token info",
+    "unlockWallet":           "Unlock Wallet",
+    "viewTransaction":        "View transaction"
+  },
+
+  "enter": {
+
+    "amount":                 "Enter amount",
+    "adaAmount":              "Enter {{currency}} amount"
+  },
+
+  "network": {
+
+    "label":                  "network",
+
+    "cardano":                "Cardano",
+    "apexFusion":             "Apex Fusion",
+
+    "mainnet":                "mainnet",
+    "mainnets":               "mainnet(s)",
+    "testnet":                "testnet",
+    "testnets":               "testnet(s)"
+  },
+
+  "importFiles": {
+
+    "processing":             "Processing uploaded file(s)",
+    "drop":                   "Drag and drop files here to upload.",
+    "imported":               "Files successfully imported."
+  },
+
+  "timestamp": {
+
+    "compact": {
+
+      "days":                 "{{days}}d ago",
+      "hours":                "{{hours}}h ago",
+      "minutes":              "{{minutes}}m ago",
+      "seconds":              "{{seconds}}s ago"
+    },
+
+    "full": {
+
+      "days":                 "{{days}} days ago",
+      "hours":                "{{hours}} hours ago",
+      "minutes":              "{{minutes}} minutes ago",
+      "seconds":              "{{seconds}} seconds ago"
+    }
+  },
+
+  "status": {
+
+    "verified":               "verified",
+    "pending":                "pending",
+    "unknown":                "unknown",
+    "signed":                 "signed",
+    "partiallysigned":        "partially signed",
+    "unsigned":               "unsigned",
+    "onchain":                "on chain",
+    "failed":                 "failed",
+    "confirmed":              "confirmed",
+    "pendingapproval":        "pending approval"
+  },
+
+  "copy": {
+
+    "address":                "Copy address",
+    "failed":                 "Copy to clipboard failed."
+  },
+
+  "copied": {
+
+    "description":            "Copied description",
+    "hash":                   "Copied hash",
+    "key":                    "Copied key",
+    "metadata":               "Copied metadata",
+    "address":                "Copied address"
+  },
+
+  "message": {
+
+    "label":                  "Message",
+
+    "encrypted": {
+
+      "label":                "- encrypted message -",
+      "tooltip":              "decrypt message"
+    }
+  },
+
+  "metadata": {
+
+    "label":                  "metadata",
+    "missing":                "No metadata"
+  },
+
+  "createdAt":                "Created at",
+  "updatedAt":                "Updated at"
+}

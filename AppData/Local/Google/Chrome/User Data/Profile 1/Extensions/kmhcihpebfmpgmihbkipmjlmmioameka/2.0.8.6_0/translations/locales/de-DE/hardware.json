@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Hardware Wallet verbinden",
+    "caption": "Wenn du ein Hardware Wallet besitzt, bist du hier genau richtig.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "Das Ledger Krypto-Hardware Wallet wird von Ledger hergestellt, einem Unternehmen mit Hauptsitz in Paris, Frankreich.",
+        "models": "Stax, Flex und Nano (X, S und S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor kommt von SatoshiLabs mit Sitz in der Tschechischen Republik.",
+        "models": "Model T und Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "Ein in Hongkong ansässiges Unternehmen, das ein 100% Air-gapped Open-Source QR-Code Kommunikations-Hardware Wallet mit einem 4-Zoll-Touchscreen und Fingerabdruckleser anbietet.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "In Arbeit",
+        "models": "OneKey Pro verifiziert"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "In Arbeit",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Ledger verbinden mit"
+  },
+  "keystone": {
+    "qrScan": "Scanne den QR-Code mit deinem Keystone-Gerät",
+    "distance": "Passe die Entfernung an und tippe optional auf den Keystone-QR-Code, um das Scannen zu verbessern"
+  },
+  "derivation": {
+    "label": "Herleitungsmodus (fortgeschritten)",
+    "icarus": "Der Cardano Herleitungsstandard, wie in CIP03 definiert.",
+    "trezor": "Trezors Implementierung basierend auf dem Icarus-Standard.",
+    "ledger": "Folgt dem Bitcoin-Standard, wie in BIP39 definiert.",
+    "default": "(Standard)"
+  },
+  "connect": {
+    "title": "Export des öffentlichen Schlüssels bestätigen",
+    "caption": "",
+    "info": {
+      "ledger": "Entsperre dein Ledger-Gerät und öffne die Cardano-App, bevor du fortfährst. Folge dann den Anweisungen in der Cardano-App auf deinem Ledger-Gerät, um den Pairing-Vorgang abzuschließen.",
+      "trezor": "Folge nach der Bestätigung den Anweisungen auf dem geöffneten Trezor Connect Browser Tab und auf deinem Trezor-Gerät, um den Pairing-Vorgang abzuschließen.",
+      "keystone": "Scanne nach der Bestätigung den generierten QR-Code mit deinem Keystone-Gerät und fahre dann fort, die Keystone QR-Code-Antwort über Eternl zu scannen.",
+      "onekey": "Stelle sicher, dass die Bridge auf deinem Computer installiert ist. Verbinde das Gerät und warte, bis die öffentlichen Schlüssel exportiert wurden.",
+      "bitbox": "Bestätige nach der Bestätigung ggf. den Pairing-Code und bestätige ihn auf dem Gerät."
+    }
+  }
+}

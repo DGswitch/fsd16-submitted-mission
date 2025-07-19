@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Forbind hardware wallet",
+    "caption": "Hvis du ejer en hardware wallet, er du kommet til det rette sted.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "Ledger cryptocurrency hardware wallet er lavet af Ledger, en virksomhed med hovedsæde i Paris, Frankrig.",
+        "models": "Stax, Flex og Nano (X, S og S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor kommer fra SatoshiLabs, der er baseret i Tjekkiet.",
+        "models": "Model T og Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "En Hong Kong-baseret virksomhed, der tilbyder en 100% Air-gapped open source QR-kode kommunikations hardware wallet med en 4-tommers touchskærm og fingeraftrykslæser.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "TBD",
+        "models": "OneKey Pro verificeret"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "TBD",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Forbind Ledger ved hjælp af"
+  },
+  "keystone": {
+    "qrScan": "Scan QR-kode med din Keystone-enhed",
+    "distance": "Juster afstanden, og tryk eventuelt på Keystone QR-koden for at forbedre scanningen"
+  },
+  "derivation": {
+    "label": "Derivation Mode (avanceret)",
+    "icarus": "Cardano derivation standarden som defineret af CIP03.",
+    "trezor": "Trezors implementering baseret på Icarus standarden.",
+    "ledger": "Følger Bitcoin standarden som defineret af BIP39.",
+    "default": "(standard)"
+  },
+  "connect": {
+    "title": "Bekræft eksport af offentlig nøgle",
+    "caption": "",
+    "info": {
+      "ledger": "Lås din Ledger-enhed op, og åbn Cardano-appen, før du fortsætter. Følg derefter anvisningerne i Cardano-appen på din Ledger-enhed for at fuldføre parringsprocessen.",
+      "trezor": "Ved bekræftelse skal du følge anvisningerne i den åbnede Trezor Connect-browserfane og på din Trezor-enhed for at fuldføre parringsprocessen.",
+      "keystone": "Ved bekræftelse skal du scanne den genererede QR-kode med din Keystone-enhed og derefter fortsætte med at scanne Keystone QR-kode svaret gennem Eternl.",
+      "onekey": "Sørg for, at broen er installeret på din computer. Tilslut enheden, og vent på, at de offentlige nøgler eksporteres.",
+      "bitbox": "Ved bekræftelse skal du verificere parringskoden, hvis det er nødvendigt, og bekræfte på enheden."
+    }
+  }
+}

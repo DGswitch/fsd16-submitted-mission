@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: Jag lämnade medvetet kvar de flesta texterna, även om bara några används.",
+  "showScamInfo": "Visa info om scam-token",
+  "guard": {
+    "label": "Eternl Guard",
+    "warning": "$t(scam:guard.label) Varning"
+  },
+  "token": {
+    "label": "SCAM",
+    "description": "Detta är en känd <span class=\"font-bold\">SCAM</span>-token!<br>Webbplatslänkar som visas här är scam!<br>Om du ansluter till dessa webbplatser och signerar en transaktion<br>kan din __GT__plånbok__ tömmas helt!",
+    "image": "Varning:\n\nInteragera inte med någon webbplats som nämns i den här bilden!",
+    "hover": "Denna transaktion innehåller en känd scam-token. Var försiktig när du interagerar med den!"
+  },
+  "app": {
+    "description": "Denna DApp är en känd SCAM-sida! Det är mycket hög risk att den kommer att stjäla dina medel eller försöka lura dig på andra sätt!",
+    "description2": "Vi avråder dig starkt från att <span class=\"font-bold\">INTERAGERA</span> med den här sidan!",
+    "ownRisk": "Anslut till denna sida på egen risk!",
+    "bannerWarning": "Denna sida finns på scam-listan. Var försiktig och ange ingen känslig information."
+  },
+  "address": {
+    "description": "Detta är en känd SCAM-adress! Det är mycket hög risk att du inte vill skicka dina medel dit!",
+    "description2": "Vi avråder dig starkt från att <span class=\"font-bold\">SKICKA</span> medel till den!",
+    "hover": "Denna adress har använts för att stjäla medel!"
+  },
+  "cleanup": {
+    "label": "Rensa __GT__plånbok__",
+    "description": "Detta skapar en rensningstransaktion som skickar iväg alla kända scam-tokens från din __GT__plånbok__ till Eternls burn address.",
+    "prepared": {
+      "label": "Förberedd transaktion för scam-rensning"
+    }
+  }
+}

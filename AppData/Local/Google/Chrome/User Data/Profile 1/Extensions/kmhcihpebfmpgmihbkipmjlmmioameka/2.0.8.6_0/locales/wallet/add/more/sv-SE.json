@@ -1,0 +1,20 @@
+{
+  "title": "Välj __GT__plånbokstyp__",
+  "caption": "Avancerat __GT__plånboksskapande__. Gå tillbaka för vanliga alternativ.",
+  "import-wallet": {
+    "title": "Importera säkerhetskopia",
+    "caption": "Återställ från Eternl JSON-säkerhetskopior"
+  },
+  "cli-skey-wallet": {
+    "title": "CLI-signeringsnycklar",
+    "caption": "Importera CLI-genererade (skey) signeringsnycklar"
+  },
+  "account-pub-wallet": {
+    "title": "Offentlig kontonyckel (skrivskyddad)",
+    "caption": "Ange exporterad offentlig kontonyckel"
+  },
+  "address-wallet": {
+    "title": "Adress (skrivskyddad)",
+    "caption": "Skapa från en bech32-adress"
+  }
+}

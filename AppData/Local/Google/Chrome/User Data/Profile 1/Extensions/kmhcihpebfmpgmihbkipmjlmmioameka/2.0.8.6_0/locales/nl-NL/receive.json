@@ -1,0 +1,95 @@
+{
+  "page": {
+    "title": "Receive",
+    "headline": "Receive funds",
+    "caption": "Share this wallet address to receive payments."
+  },
+  "search": {
+    "placeholder": "$t(common:search) for an $t(common:label.address) or a path",
+    "noResults": "No results found"
+  },
+  "button": {
+    "share": {
+      "label": "$t(common:label.share)",
+      "icon": "mdi mdi-qrcode",
+      "hover": "$t(common:label.shareAddress)",
+      "notify": "$t(common:message.copy.notify)",
+      "qr": "Show QR Code"
+    },
+    "copy": {
+      "label": "$t(common:label.copyAddress)",
+      "hover": "$t(common:label.copyAddress)",
+      "notify": "$t(common:message.copy.notify)"
+    }
+  },
+  "warning": {
+    "nonStaking": "The funds on this receive address are staked with an external stake key. You won't control the rewards that they accrue."
+  },
+  "error": {
+    "setting": "Set receiver / change address in settings not found!"
+  },
+  "advanced": {
+    "show": "Show used/additional addresses",
+    "hide": "Hide used/additional addresses"
+  },
+  "current": {
+    "headline": "Available wallet addresses",
+    "static": "$t(common:label.receiveAddress)",
+    "caption": "Share this wallet address to receive payments.",
+    "notice": {
+      "label": "$t(common:label.privacyNotice)",
+      "text": "Please note that all of your delegated receiving addresses include your stake key. \nWhen you share a delegated receive address, the recipient can search the blockchain using your stake key to locate \nall addresses associated with your wallet and also discover your wallet balance and transaction history.",
+      "icon": "mdi mdi-information-outline"
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "External addresses (delegated)",
+      "caption": "These addresses are delegated to a stake pool (if you in fact delegated this account)."
+    },
+    "enterprise": {
+      "headline": "External addresses (not delegated)",
+      "caption": "These addresses are not delegated."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Internal change addresses (delegated)",
+      "caption": "These addresses are delegated to a stake pool (if you in fact delegated this account).\nDon't share internal addresses, always give out external addresses."
+    },
+    "enterprise": {
+      "headline": "Internal change addresses (not delegated)",
+      "caption": "These addresses are not delegated.\nDon't share internal addresses, always give out external addresses."
+    }
+  },
+  "list": {
+    "headline": "$t(common:address.used)",
+    "caption": "$t(wallet:list.caption)",
+    "notstaked": "(not staked)",
+    "syncing": "Syncing receive addresses..."
+  },
+  "filter": {
+    "label": "Search specific receive addresses.",
+    "caption": "You can specify a part of the address, or a derivation path like \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" or \"0 1 32\". ",
+    "hint": "Part of address or derivation path.",
+    "toggle": {
+      "all": {
+        "label": "$t(common:label.all)",
+        "info": "Search in all addresses"
+      },
+      "used": {
+        "label": "$t(common:label.used)",
+        "info": "Only search in used addresses."
+      },
+      "unused": {
+        "label": "$t(common:label.unused)",
+        "info": "Only search in unused addresses."
+      }
+    },
+    "results": "Found ####count#### matching receive addresses.",
+    "error": {
+      "minLength": "A minimum of 2 characters needed to filter addresses.",
+      "empty": "No matching entries found."
+    }
+  }
+}

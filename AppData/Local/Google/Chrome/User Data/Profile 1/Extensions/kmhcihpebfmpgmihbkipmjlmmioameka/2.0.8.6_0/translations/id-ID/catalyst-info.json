@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "Proyek Catalyst",
+    "caption": "Baca semua berita tentang putaran pendanaan saat ini.",
+    "text": "Proyek Catalyst memiliki putaran pendanaan setiap beberapa bulan, dengan jumlah ada yang ditetapkan siap dialokasikan untuk ide-ide.\n\nTemukan semua informasi relevan dari semua pendanaan sebelumnya dan yang akan datang di situs web Proyek Catalyst.",
+    "button": {
+      "label": "Kunjungi halaman",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "Jelajahi semua Proposal",
+    "text": "Catalyst menggunakan IdeaScale sebagai platform inovasi kolaboratif.\n\nHal ini dilakukan melalui pemungutan suara pada proposal yang dihasilkan komunitas yang berfokus pada pemecahan tantangan dari dana tertentu.",
+    "button": {
+      "label": "Pelajari lebih lanjut",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "Platform data Catalyst all-in-one",
+    "text": "Edukasi Blockchain, penjangkauan, dan pembangunan komunitas global:\n\nKarena Masa Depan adalah untuk Semua Orang!",
+    "button": {
+      "label": "Kunjungi halaman",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "Newsletter",
+    "caption": "Tetap dapatkan informasi terbaru",
+    "text": "Daftar untuk Newsletter Proyek Catalyst agar tidak ketinggalan berita dan pembaruan terbaru.",
+    "button": {
+      "label": "Berlangganan",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "Libatkan komunitas",
+    "text": "Bergabunglah dengan saluran diskusi dan pengumuman Telegram untuk membagikan ide Anda tentang proposal peningkatan Cardano di masa mendatang dan nikmati diskusi yang sehat dan merangsang.",
+    "button1": {
+      "label": "Pengumuman",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "Obrolan Komunitas",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "Town Hall",
+    "caption": "Temui para pembangun",
+    "text": "Datang dan temui para pembangun masa depan Cardano dalam pertemuan Town Hall mingguan. Tonton presentasi langsung mereka dan berpartisipasilah dalam percakapan yang bermakna.",
+    "button": {
+      "label": "Rekaman Town Hall Mingguan",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "Tampilkan Tantangan",
+      "hide": "Sembunyikan Tantangan",
+      "link": "Situs Web Tantangan",
+      "allocation": "Alokasi Dana"
+    },
+    "timeline": {
+      "caption": "Linimasa yang ditampilkan di bawah ini dapat berubah. Tetap up-to-date dengan mengunjungi kembali halaman ini dan berpartisipasi dalam pertemuan town hall mingguan Catalyst.",
+      "snapshot": {
+        "label": "Snapshot Kekuatan Voting",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "Mulai Voting",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "Akhir Voting",
+        "caption": ""
+      },
+      "result": {
+        "label": "Hasil",
+        "caption": "± beberapa hari."
+      }
+    }
+  }
+}

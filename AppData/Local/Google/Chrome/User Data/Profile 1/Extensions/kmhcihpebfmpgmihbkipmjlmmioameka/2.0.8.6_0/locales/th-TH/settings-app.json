@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "โหมดโปร",
+    "simple": "โหมดง่าย",
+    "caption": "สลับระหว่างโหมดง่ายและโหมดโปร",
+    "setting": {
+      "caption": "กำหนดประสบการณ์ Eternl ของคุณ โหมดง่ายเหมาะสำหรับผู้ใช้ใหม่ โหมดโปรมีฟีเจอร์ครบครัน",
+      "openAfterSign": "เปิดตัวอย่างธุรกรรมอัตโนมัติเมื่อลงนาม",
+      "stakeKeyOnHome": "แสดง Stake Key บนหน้าหลัก"
+    }
+  },
+  "network": {
+    "title": "เครือข่าย",
+    "caption": "เลือกเครือข่ายที่ใช้งานอยู่ในปัจจุบัน"
+  },
+  "language": {
+    "title": "ภาษา",
+    "caption": "เลือกภาษาที่ต้องการ",
+    "search": "กรองรายการภาษา",
+    "setting": {
+      "caption": "เลือกภาษาที่ต้องการสำหรับแอปพลิเคชัน"
+    }
+  },
+  "formatting": {
+    "title": "การจัดรูปแบบ",
+    "caption": "การจัดรูปแบบวันที่และสกุลเงินตามภูมิภาค",
+    "setting": {
+      "caption": "เปิดใช้งานเพื่อใช้การจัดรูปแบบตามภาษาที่เลือก",
+      "enabled": "เปิดใช้งานการใช้รูปแบบตามภาษา",
+      "disabled": "ปิดใช้งานการใช้รูปแบบตามภาษา",
+      "region": "ภูมิภาคสำหรับการจัดรูปแบบ",
+      "timezone": "เขตเวลา"
+    }
+  },
+  "currency": {
+    "title": "สกุลเงิน",
+    "caption": "เลือกสกุลเงินที่ต้องการสำหรับการแปลงค่า",
+    "search": "กรองรายการสกุลเงิน",
+    "setting": {
+      "caption": "เลือกสกุลเงินที่ต้องการสำหรับการแปลงค่า"
+    }
+  },
+  "decimalPrecision": {
+    "title": "ความแม่นยำของทศนิยม",
+    "caption": "จำนวนตำแหน่งทศนิยม",
+    "setting": {
+      "caption": "เลือกจำนวนตำแหน่งทศนิยมที่จะแสดงสำหรับจำนวนเงิน"
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// ดู pin:deleteAccess และ pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "การยืนยันตัวตนด้วยไบโอเมตริกซ์",
+    "caption": "ใช้ FaceId (iOS) หรือระบบไบโอเมตริกซ์อื่น ๆ เพื่อยืนยันตัวตนของคุณ",
+    "setting": {
+      "title": {
+        "active": "เปิดใช้งานแล้ว",
+        "inactive": "ปิดใช้งานแล้ว"
+      },
+      "caption": {
+        "active": "ยืนยันตัวตนด้วยไบโอเมตริกซ์เพื่อเปิด $t(common:appName)",
+        "inactive": "การยืนยันตัวตนด้วยไบโอเมตริกซ์ถูกปิดใช้งาน",
+        "disabled": "หากต้องการเปิดใช้งานฟีเจอร์นี้ โปรดตั้งค่า PIN ก่อน"
+      }
+    }
+  },
+  "sound": {
+    "title": "เสียง",
+    "caption": "เปิดหรือปิดการแจ้งเตือนด้วยเสียง",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "การแจ้งเตือนด้วยเสียงใช้สำหรับการโต้ตอบในการ swap, ข้อผิดพลาด และเหตุการณ์สำคัญอื่น ๆ",
+      "enabled": "$t(settings-app:sound.title) เปิดใช้งานแล้ว",
+      "disabled": "$t(settings-app:sound.title) ปิดใช้งานแล้ว"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "เพิ่ม ลบ และแก้ไขรายการ $t(addressBook:title)",
+    "setting": {
+      "caption": "จัดการรายการ $t(addressBook:title) ของคุณ",
+      "comment": "// ดู addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "DApp รายการที่อนุญาต",
+    "caption": "รายการเว็บไซต์/dApps ที่ได้รับอนุญาตให้เชื่อมต่อกับแอป $t(common:appName) นี้",
+    "setting": {
+      "comment": "// ดู dapps-allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "ธุรกรรม: ส่งอัตโนมัติ",
+    "caption": "ส่งธุรกรรมโดยอัตโนมัติหลังจากการลงนาม ปิดใช้งานเพื่ออนุญาตให้ดาวน์โหลด cbor ของธุรกรรมที่ลงนามแล้ว",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "เปิดใช้งานการส่งอัตโนมัติ",
+      "disabled": "ปิดใช้งานการส่งอัตโนมัติ",
+      "enabledInfo": "ธุรกรรมที่ลงนามแล้วจะถูกส่งไปยัง blockchain โดยอัตโนมัติ",
+      "disabledInfo": "คุณต้องส่งธุรกรรมด้วยตนเองหลังจากที่ลงนามแล้ว"
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Endpoint การส่งแบบกำหนดเอง",
+    "caption": "ส่งธุรกรรมผ่าน cardano-node และ cardano-submit-api ที่กำหนดเอง",
+    "setting": {
+      "caption": "กำหนด endpoint ของ cardano-node และ cardano-submit-api ที่กำหนดเองสำหรับการส่งธุรกรรม",
+      "new_endpoint": "เพิ่ม endpoint",
+      "hint": "เพิ่ม endpoint ที่กำหนดเองใหม่",
+      "deleteConfirm": "ยืนยันการลบรายการ",
+      "deleted": "Endpoint ถูกลบแล้ว",
+      "note": {
+        "title": "โปรดทราบ!",
+        "caption": "นี่คือการตั้งค่าขั้นสูง และคุณควรใช้เฉพาะเมื่อคุณเข้าใจผลกระทบของมันอย่างถ่องแท้เท่านั้น",
+        "description": "ตรวจสอบให้แน่ใจว่า endpoint ที่กำหนดเองนั้นเชื่อถือได้และซิงค์ข้อมูลสมบูรณ์แล้ว\n\nหากไม่เป็นเช่นนั้น ผู้ดำเนินการโหนดอาจระงับการเผยแพร่ธุรกรรมของคุณเพื่อประโยชน์ส่วนตน หรือไม่เผยแพร่เลย และธุรกรรมทั้งหมดของคุณอาจล้มเหลว\n\nหากคุณไม่แน่ใจ ให้ปิดใช้งานการตั้งค่านี้เพื่อส่งธุรกรรมผ่านโครงสร้างพื้นฐานของ $t(common:appName)",
+        "cors": "นอกจากนี้ ตรวจสอบให้แน่ใจว่า endpoint ที่กำหนดเองของคุณได้ตั้งค่า CORS headers ที่ถูกต้องเพื่อยอมรับคำขอที่ $t(common:appName) กำลังส่ง"
+      },
+      "error": {
+        "url": "URL ที่ถูกต้องขึ้นต้นด้วย http(s)",
+        "oneEndpoint": "ต้องมี endpoint การส่งที่กำหนดค่าไว้อย่างน้อยหนึ่งรายการ"
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain explorer",
+    "caption": "ตั้งค่า blockchain explorer ที่ต้องการตามประเภท",
+    "setting": {
+      "caption": "เลือก blockchain explorer ที่ต้องการสำหรับแอปพลิเคชัน",
+      "block": "ตัวสำรวจบล็อก",
+      "pool": "ตัวสำรวจพูล",
+      "address": "ตัวสำรวจที่อยู่",
+      "token": "ตัวสำรวจโทเค็น",
+      "policy": "ตัวสำรวจ Policy",
+      "transaction": "ตัวสำรวจธุรกรรม",
+      "stake": "ตัวสำรวจ Stake key",
+      "DRep": "ตัวสำรวจ DRep",
+      "govProposal": "ข้อเสนอ Governance",
+      "select": "เลือก {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "การตั้งค่าทดลอง",
+    "caption": "ไม่ควรมีใครใช้การตั้งค่าทดลอง!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "ซ่อนพารามิเตอร์ url ทั้งหมด",
+        "caption": "หากเปิดใช้งาน พารามิเตอร์ url ในส่วนการตั้งค่าจะถูกซ่อน"
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "บันทึกการตั้งค่าที่ใช้ล่าสุด",
+        "caption": "หากเปิดใช้งาน การสลับไปที่การตั้งค่าจะเป็นการเลือกกลุ่มและส่วนการตั้งค่าที่ใช้ล่าสุดโดยอัตโนมัติ"
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "การตั้งค่า Slippage และ Dex สำหรับ MonsterSwap"
+  },
+  "theme": {
+    "label": "ตัวสลับธีม",
+    "caption": "เลือกธีมเพื่อทำให้ Eternl เป็นของคุณ",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "รีเซ็ตแคชของแอปพลิเคชัน",
+    "caption": "ลบข้อมูลแคชทั้งหมดเพื่อรีเซ็ตแอปพลิเคชัน",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\nซึ่งรวมถึงธุรกรรม รูปภาพโทเค็น และ metadata กระเป๋าเงิน บัญชี และการตั้งค่าของคุณจะไม่ได้รับผลกระทบ",
+      "finish": "รีเซ็ตแคชของแอปพลิเคชันสำเร็จ",
+      "inProgress": "กำลังล้างแคชของ $t(common:appName) โปรดรอสักครู่",
+      "warning": "เมื่อคุณรีเซ็ตแคชของ $t(common:appName) แอปพลิเคชันจะต้องดึงข้อมูลทั้งหมดจาก blockchain อีกครั้ง หากคุณมีกระเป๋าเงินหรือบัญชีหลายรายการ อาจใช้เวลาสักครู่",
+      "button": {
+        "label": "รีเซ็ตแคชแอปพลิเคชัน"
+      }
+    }
+  },
+  "reset": {
+    "title": "รีเซ็ตแอปพลิเคชัน",
+    "caption": "ลบ wallets ทั้งหมดและข้อมูลที่จัดเก็บไว้เพื่อรีเซ็ตแอปพลิเคชัน",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "คำเตือน!",
+          "text": "เมื่อคุณรีเซ็ตแอป คุณจะสูญเสียการเข้าถึง wallets ทั้งหมด! วิธีเดียวที่จะเข้าถึงได้อีกครั้งหลังจากการรีเซ็ตคือการกู้คืนด้วย recovery phrase ของ wallet หรือนำเข้าไฟล์ .json ของ $t(common:appName) ที่ส่งออกไว้ก่อนหน้านี้"
+        }
+      },
+      "phrase": {
+        "name": "วลียืนยัน",
+        "hint": "ป้อนวลียืนยัน",
+        "noPaste": "กรุณาพิมพ์วลียืนยันเพื่อรีเซ็ต $t(common:appName)",
+        "confirmation": "รีเซ็ต $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "ฉันเข้าใจว่าวิธีเดียวที่จะเข้าถึง wallets ของฉันได้อีกครั้งคือการกู้คืนด้วย recovery phrase ของ wallet หรือจับคู่อุปกรณ์ hardware wallet",
+          "error": "วลียืนยันไม่ตรงกัน"
+        }
+      },
+      "deleteWallets": "รีเซ็ต wallets",
+      "deleteConfig": "รีเซ็ตการกำหนดค่า",
+      "deleteFinish": "กำลังดำเนินการ...",
+      "finish": "รีเซ็ตแอปพลิเคชันสำเร็จแล้ว"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Centre de notificacions",
+  "empty": "No tens cap notificació.",
+  "copy": "S'ha copiat al porta-retalls",
+  "type": {
+    "txMS": "Transacció Multi-Sig",
+    "unknown": "Tipus desconegut"
+  }
+}

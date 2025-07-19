@@ -1,0 +1,20 @@
+{
+  "title": "__Cüzdan__ türünü seçin",
+  "caption": "Gelişmiş __cüzdan__ oluşturma. Yaygın seçenekler için geri dönün.",
+  "import-wallet": {
+    "title": "Yedeklemeyi İçe Aktar",
+    "caption": "__Eternl__ JSON yedekleme dosyalarından geri yükle"
+  },
+  "cli-skey-wallet": {
+    "title": "CLI İmzalama Anahtarları",
+    "caption": "CLI tarafından oluşturulan (skey) imzalama anahtarlarını içe aktar"
+  },
+  "account-pub-wallet": {
+    "title": "Hesap Genel Anahtarı (salt okunur)",
+    "caption": "Dışa aktarılan hesap genel anahtarını girin"
+  },
+  "address-wallet": {
+    "title": "Adres (salt okunur)",
+    "caption": "Bir bech32 adresinden oluştur"
+  }
+}

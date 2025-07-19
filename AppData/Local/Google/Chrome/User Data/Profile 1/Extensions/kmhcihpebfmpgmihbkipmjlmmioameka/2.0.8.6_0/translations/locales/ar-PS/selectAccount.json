@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "بدّل بين المحافظ.",
+    "accounts": {
+      "select": "حسابات",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "اختار wallet معينة عشان تبدّل بين الحسابات.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "بدّل حساب $t(common:dApp) النشط."
+    },
+    "accounts": {
+      "select": "اختار حساب من القائمة. ممكن تعلم حساب كمفضل بالضغط على علامة النجمة.",
+      "manage": "ضيف أو احذف حسابات، اختار أرقام حسابات معينة أو سمّي الحسابات."
+    }
+  },
+  "groups": {
+    "placeholder": "اختار مجموعات wallet النشطة",
+    "favoriteAccounts": "الحسابات المفضلة"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "اسم الحساب:",
+    "index": "الرقم التسلسلي:",
+    "limit": "الحد الأقصى:",
+    "remove": {
+      "tooltip": "إزالة الحساب"
+    }
+  },
+  "signAddAccounts": {
+    "title": "إضافة حسابات جديدة"
+  },
+  "notification": {
+    "updated": "تم تحديث قائمة الحسابات.",
+    "error": "صار في خطأ مش معروف أثناء حفظ wallet المحدثة في قاعدة البيانات.",
+    "errorRemove": "الحساب بالرقم {{accountId}} ما قدرناش نحذفه.",
+    "noWallet": "Wallet مش لاقيينها.",
+    "errorKey": "قائمة المفاتيح العامة المشتقة مش مطابقة لقائمة المسارات المطلوبة.",
+    "limit": "هذا الـwallet ما بقدر يضيف حسابات زيادة."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "phraseLength": {
+
+    "title":                  "Seed phrase type",
+    "caption":                "What kind of wallet would you like to restore?",
+
+    "12": {
+
+      "label":                "12 word phrase",
+      "caption":              "A 12 words Shelley wallet."
+    },
+
+    "15": {
+
+      "label":                "15 word phrase",
+      "caption":              "E.g. a Yoroi Shelley wallet."
+    },
+
+    "24": {
+
+      "label":                "24 word phrase",
+      "caption":              "A Shelley wallet created by, e.g. Eternl or Daedalus."
+    }
+  },
+
+  "phrase": {
+
+    "title":                  "$t(wallet/add/common:phrase.title)",
+    "caption":                "Enter your saved seed phrase"
+  }
+}

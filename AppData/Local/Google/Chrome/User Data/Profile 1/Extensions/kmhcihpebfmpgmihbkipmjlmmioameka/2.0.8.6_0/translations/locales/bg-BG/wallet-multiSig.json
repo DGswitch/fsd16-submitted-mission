@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig wallet",
+      "caption": "Специален тип wallet, който изисква няколко страни да подпишат транзакция при харчене на средства или изтегляне на награди.",
+      "create": {
+        "label": "Създай нов Multi-Sig",
+        "caption": "За да създадеш нов multi-signature wallet от съществуващи портфейли или чрез използване на външни multi-sig ключове"
+      },
+      "join": {
+        "label": "Присъедини се към Multi-Sig",
+        "caption": "Участвай в multi-signature wallet чрез откриване или споделяне на твоя multi-sig публичен ключ с приятел от вече добавен wallet."
+      }
+    },
+    "join": {
+      "headline": "Присъедини се към Multi-Sig",
+      "caption": "Избери опция за показване на Multi-Sig ключ, Откриване или импортиране на експортиран Multi-Sig wallet.",
+      "key": {
+        "label": "Multi-Sig ключ",
+        "caption": "Покажи Multi-Sig ключа на избрания wallet, за да го споделиш с участника, отговарящ за създаването на Multi-Sig wallet"
+      },
+      "discover": {
+        "label": "Открий",
+        "caption": "Сканира blockchain за регистрирани Multi-Sig портфейли, които включват Multi-Sig ключа на избраните портфейли"
+      },
+      "import": {
+        "label": "Импортирай",
+        "caption": "Зареди създадени и експортирани Multi-Sig wallet JSON файлове"
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet Multi-Sig ключ",
+      "caption": "За споделяне със създателя на Multi-Sig wallet.",
+      "nowallet": "Няма избран wallet.",
+      "nopubkey": "Липсва Multi-Sig ключ за избрания wallet."
+    },
+    "discover": {
+      "headline": "Открити Multi-Sig портфейли",
+      "caption": "Избери открити Multi-Sig портфейли за добавяне.",
+      "reused": {
+        "toggle": "Покажи MultiSig портфейли с повторно използвани ключове",
+        "warning": "Повторно използваните ключове са възможен обект на replay атака, използвайте с повишено внимание!"
+      },
+      "nowallet": "Няма избран wallet.",
+      "empty": "Не са намерени Multi-Sig портфейли за избрания wallet.",
+      "loading": "Извличане и обработка...",
+      "details": {
+        "headline": "MultiSig Детайли за откриване",
+        "data": {
+          "headline": {
+            "date": "Създаден",
+            "name": "Име",
+            "description": "Описание",
+            "hash": "Tx Hash",
+            "address": "Адрес",
+            "payment": "Payment Script",
+            "stake": "Stake Script",
+            "drep": "DRep Script",
+            "meta": "Metadata",
+            "balance": "Баланс"
+          },
+          "nostake": "Multi-Sig wallet няма регистриран stake script",
+          "nodrep": "Multi-Sig wallet няма регистриран DRep script",
+          "nometa": "Няма регистрирани 1854 metadata",
+          "button": {
+            "showScript": "Виж Script",
+            "showMeta": "Виж Metadata"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Импортирай Multi-Sig портфейли",
+      "caption": "Зареди създадени и експортирани Multi-Sig wallet JSON файлове.",
+      "success": "Multi-Sig wallet успешно импортиран",
+      "error": {
+        "invalid": "Невалиден Multi-Sig експорт, трябва да следва CSL AuxiliaryDataJSON формат",
+        "noscript": "Импортираният файл няма скриптове",
+        "nometa": "Импортираният файл няма label 1854 metadata",
+        "invalidmeta": "Експортът съдържа невалиден label 1854 metadata",
+        "duplicate": "Multi-Sig wallet със същите скриптове вече е импортиран, игнориране на дублиращ се файл"
+      }
+    },
+    "create": {
+      "headline": "Multi-Sig type",
+      "caption": "Всички участници ли са равни или са част от групи/организации?",
+      "simple": {
+        "label": "Обикновен",
+        "caption": "Сценарий, в който всички участници са равни."
+      },
+      "advanced": {
+        "label": "Разширен (скоро)",
+        "caption": "Участниците са част от отделни групи, формирайки множество нива."
+      }
+    },
+    "simple": {
+      "headline": "Multi-Sig настройка",
+      "caption": "Задайте име и незадължително описание за вашия Multi-Sig wallet.",
+      "name": {
+        "label": "Wallet Име",
+        "placeholder": "Моля, въведете име за wallet",
+        "error": "Името е задължително"
+      },
+      "description": {
+        "label": "Описание",
+        "placeholder": "Незадължително описание"
+      },
+      "error": {
+        "validation": "Грешка при валидиране",
+        "length": "Превишена е максималната дължина от 64 знака!"
+      }
+    },
+    "participants": {
+      "headline": "Добавяне на участници",
+      "caption": "Определете лицата, които трябва да бъдат част от multi-sig, от заредени портфейли или чрез въвеждане на multi-sig публичен ключ.",
+      "new": "Добавяне на друг участник",
+      "participant": {
+        "label": "Участник",
+        "name": {
+          "label": "Име",
+          "placeholder": "Незадължително име на участник"
+        },
+        "pub": {
+          "label": "Multi-Sig Ключ",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "Необходими са минимум двама участници, за да се формира обикновен multi-sig wallet"
+      },
+      "error": {
+        "duplicate": "Вече е добавен участник със същия multi-sig ключ, моля, изберете друг."
+      }
+    },
+    "requiredSigners": {
+      "headline": "Необходими Подписващи",
+      "caption": "Колко участници трябва да потвърдят при подписване?"
+    },
+    "register": {
+      "headline": "Регистрация",
+      "caption": "Изберете опцията да регистрирате или да изтеглите новосъздадения Multi-Sig wallet.",
+      "anonymous": "Анонимен (пропускане на metadata)",
+      "register": {
+        "label": "Регистрация",
+        "caption": "Създайте транзакция, за да регистрирате multi-signature wallet on-chain. Това позволява автоматично откриване от участниците и е препоръчителната опция.",
+        "feewallet": "Такса за транзакция wallet",
+        "success": "Multi-Sig wallet е регистриран успешно"
+      },
+      "download": {
+        "label": "Изтегляне",
+        "caption": "Изтегля файл, който да бъде споделен с участниците за ръчно импортиране."
+      },
+      "error": {
+        "nofeewallet": "Не е намерен wallet, който да се използва като такса wallet за транзакцията за регистрация на Multi-Sig."
+      },
+      "success": "Multi-Sig wallet е създаден успешно",
+      "exist": "Wallet вече съществува, пренасочване към wallet"
+    }
+  },
+  "select": {
+    "placeholder": "Изберете Wallet",
+    "missing": {
+      "headline": "Създаване на Multi-Sig Ключове",
+      "mnemonic": "На този wallet липсват multi-sig ключове, моля, въведете паролата на вашия wallet, за да ги създадете.",
+      "hardware": "На този wallet липсват multi-sig ключове, моля, щракнете върху „Подписване“ и следвайте инструкциите на хардуерното устройство, за да ги извлечете."
+    },
+    "save": {
+      "ok": "Multi-Sig ключовете са генерирани успешно и запазени в wallet",
+      "error": "Неуспешно запазване на multi-sig ключовете в wallet, моля, опитайте отново!"
+    }
+  },
+  "last_signature_added": "Добавен е последният подпис"
+}

@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "सक्रिय खाते का नाम",
+    "caption": "वर्तमान खाते के लिए खाते का नाम सेट करें",
+    "setting": {
+      "caption": "अपने (सक्रिय) खाते का नाम अपडेट करें या एक Ada हैंडल चुनें/अचयनित करें।",
+      "adaHandle": {
+        "select": "खाते के नाम के बजाय प्रदर्शित करने के लिए Ada हैंडल चुनें (इसके बजाय नाम प्रदर्शित करने के लिए अचयनित करें):"
+      },
+      "error": {
+        "empty": "खाते का नाम खाली नहीं हो सकता।",
+        "duplicate": "इस वॉलेट में पहले से ही उस नाम का एक खाता है।"
+      }
+    }
+  },
+  "export": {
+    "title": "खाता कुंजी निर्यात करें",
+    "caption": "इस खाते की public key निर्यात करें।",
+    "setting": {
+      "caption": "इस खाते की public key निर्यात करें। public key आयात करने से खाता इतिहास केवल-पढ़ने के मोड में पुनर्स्थापित हो जाता है जिसमें हस्ताक्षर अक्षम होता है।",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 विस्तारित public key",
+        "xpub": "Ed25519-bip32 विस्तारित public key",
+        "acct_vk": "Ed25519 public key"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Single Address Mode (SAM)",
+    "caption": "सभी लेनदेन के लिए केवल एक ही पता इस्तेमाल करें।",
+    "setting": {
+      "caption": "सक्षम होने पर, सभी फंड डिफ़ॉल्ट रूप से पहले receive address पर रखे जाएंगे।",
+      "enabled": "$t(settings-account:samMode.title) सक्षम",
+      "disabled": "$t(settings-account:samMode.title) अक्षम",
+      "customAddress": "कस्टम receive address",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "महत्वपूर्ण!",
+          "text": "कस्टम receive address सेट करने से सभी change outputs और receive address इस पते पर स्विच हो जाएंगे, भले ही यह इस खाते के स्वामित्व में न हो। कृपया सुनिश्चित करें कि सही पता सेट किया गया है।"
+        }
+      },
+      "notification": {
+        "wrongInput": "यह एक मान्य पता नहीं है।",
+        "wrongNetwork": "यह पता एक अलग नेटवर्क से है।",
+        "notOwned": "यह पता इस खाते का नहीं है और इसे कस्टम receive address के रूप में उपयोग नहीं किया जा सकता है।",
+        "nonStaking": "इस receive address पर फंड एक बाहरी stake key के साथ स्टेक किए गए हैं। आप उनके द्वारा अर्जित पुरस्कारों को नियंत्रित नहीं करेंगे।",
+        "success": "कस्टम receive address सेट।",
+        "error": "कस्टम receive address सहेजने में विफल!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Collateral",
+    "caption": "Eternl द्वारा प्रदान किया गया collateral उपयोग करें?",
+    "setting": {
+      "caption": "सक्षम होने पर, Eternl खाते के लिए collateral प्रदान करेगा।",
+      "info": "Smart contracts के साथ इंटरैक्ट करने के लिए लेनदेन विफल होने की स्थिति में collateral की आवश्यकता हो सकती है। यदि कोई योग्य UTxO पाया जाता है तो यह Eternl द्वारा स्वचालित रूप से संभाला जाएगा।",
+      "waiting": "आपने एक collateral लेनदेन सबमिट किया है। कृपया प्रतीक्षा करें, इसकी अभी पुष्टि नहीं हुई है।",
+      "foundCollateral": "इस खाते के लिए एक collateral UTxO पहले से मौजूद है। smart contracts के साथ इंटरैक्ट करते समय इसका उपयोग किया जाएगा।",
+      "eternl": {
+        "label": "Eternl द्वारा प्रदान किया गया collateral",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "कोई collateral UTxO नहीं मिला। कृपया नीचे दिए गए बटन को दबाकर एक सेट करें।",
+      "button": {
+        "setCollateral": {
+          "label": "Collateral सेट करें",
+          "tooltip": "इस खाते के लिए एक collateral UTxO सेट करें।"
+        }
+      },
+      "error": {
+        "label": "त्रुटि:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "कृपया ध्यान दें!",
+          "headline": "Collateral एक खाता आधारित सेटिंग है।"
+        },
+        "info": {
+          "text": "$t(common:appName) बिना किसी टोकन वाले और ####minimumCollateral#### तथा ####maximumCollateral#### के बीच मान वाले किसी भी UTxO को collateral के रूप में उपयोग कर सकता है। जब आप इस सेटिंग को सक्रिय करते हैं, तो यह उपयुक्त UTxO की तलाश करेगा। यदि कोई उपलब्ध नहीं है, तो एक सेट करने के लिए एक बटन दिखाया जाएगा।"
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "मैनुअल सिंक",
+    "caption": "मैनुअल सिंक सेट करें",
+    "setting": {
+      "caption": "wallet को मैन्युअल रूप से सिंक्रनाइज़ करें। यदि सक्षम किया गया है तो wallet को सिंक आइकन पर क्लिक करके मैन्युअल रूप से सिंक करने की आवश्यकता है।",
+      "enabled": "$t(settings-account:manualSync.title) सक्षम",
+      "disabled": "$t(settings-account:manualSync.title) अक्षम"
+    }
+  },
+  "historySync": {
+    "title": "हिस्ट्री सिंक",
+    "caption": "हिस्ट्री सिंक सेट करें",
+    "setting": {
+      "caption": "सक्षम होने पर, wallet खाते का पूरा लेन-देन इतिहास सिंक करेगा। अन्यथा, केवल अंतिम 1000 लेन-देन सिंक किए जाएंगे। सिंकिंग बैचों में होती है और बड़े इतिहास वाले खातों के लिए इसमें कुछ समय लग सकता है।",
+      "enabled": "$t(settings-account:historySync.title) सक्षम",
+      "disabled": "$t(settings-account:historySync.title) अक्षम",
+      "syncing": "इतिहास सिंक अभी भी चल रहा है। {{AMOUNT}} प्रविष्टियों को सिंक करने की प्रतीक्षा है।"
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Token Fragmentation (TF)",
+    "caption": "टोकन को फ्रैगमेंट करके लेन-देन शुल्क कम करें।",
+    "fragment": {
+      "label": "टोकन बंडल आकार",
+      "error": "टोकन बंडल आकार सीमा: 1-{{MAX_TOKEN_BUNDLE_SIZE}}।",
+      "info": "यह निर्धारित करता है कि प्रत्येक UTxO आउटपुट में कितने टोकन होने चाहिए। यह कम लेन-देन शुल्क और wallet में लॉक की गई धनराशि के बीच एक संतुलन है।\nछोटा बंडल आकार -> कम शुल्क, अधिक Ada लॉक।\nबड़ा बंडल आकार -> उच्च शुल्क, कम Ada लॉक।"
+    },
+    "setting": {
+      "caption": "यदि लौटाए जाने वाले चेंज में निर्धारित मान से अधिक टोकन हैं, तो भेजते समय टोकन को बंडलों में विभाजित करें। wallet UTxO/टोकन वितरण और वांछित परिणाम के आधार पर, सर्वोत्तम परिणाम के लिए मानों को समायोजित करना पड़ सकता है।",
+      "enabled": "$t(settings-account:tokenFragmentation.title) सक्षम",
+      "disabled": "$t(settings-account:tokenFragmentation.title) अक्षम"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "उन्नत UTxO प्रबंधन",
+    "caption": "अपने लेन-देन पर उन्नत UTxO प्रबंधन का उपयोग करें।",
+    "setting": {
+      "caption": "सक्षम होने पर, $t(common:appName) आपके लेन-देन पर उन्नत UTxO प्रबंधन का उपयोग करेगा।",
+      "subCaption": "यह लेन-देन के समानांतर निष्पादन के लिए 10 UTxOs रखता है। यह स्मार्ट अनुबंध इंटरैक्शन के लिए 5 ADA कोलैटरल UTxO रखने का भी प्रयास करेगा।",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) सक्षम",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) अक्षम"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "ऑटो निकासी",
+    "caption": "आवश्यकता पड़ने पर पुरस्कारों को स्वचालित रूप से निकालें।",
+    "setting": {
+      "caption": "सक्षम होने पर, लेन-देन बनाते समय आवश्यकता पड़ने पर पुरस्कार स्वचालित रूप से निकाल लिए जाएंगे। यदि अक्षम है या जबरन मैन्युअल निकासी के लिए, सारांश पृष्ठ पर निकासी बटन का उपयोग करें।",
+      "enabled": "$t(settings-account:autoWithdrawal.title) सक्षम",
+      "disabled": "$t(settings-account:autoWithdrawal.title) अक्षम"
+    }
+  },
+  "unStake": {
+    "title": "wallet को अन-स्टेक करें\n(wallet को डी-रजिस्टर करें)",
+    "caption": "वर्तमान खाते को किसी भी पूल से अन-डेलिगेट करें और डी-रजिस्ट्रेशन लेन-देन बनाएं।",
+    "setting": {
+      "caption": "यह क्रिया एक खाता डी-रजिस्ट्रेशन लेन-देन बनाती है। पूरा होने पर, खाता किसी भी पूल से अन-डेलिगेट हो जाएगा, और जब खाता पहली बार डेलिगेट किया गया था तब से कुंजी जमा वापस कर दी जाएगी।",
+      "subCaption": "कृपया ध्यान दें कि पूल डेलिगेशन से कोई भी लंबित पुरस्कार, catalyst पुरस्कार, आदि खाता डी-रजिस्टर होने पर खो जाएंगे!",
+      "acknowledged": "मैं समझता हूँ कि कोई भी लंबित पुरस्कार खो जाएगा।",
+      "noUtxo": "डी-रजिस्ट्रेशन लेन-देन शुल्क का भुगतान करने के लिए {{currency}} आवश्यक है।",
+      "button": {
+        "deReg": {
+          "label": "खाता डी-रजिस्टर करें",
+          "tooltip": "पूल डेलिगेशन से खाता डी-रजिस्टर करें"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "DRep के रूप में डीरजिस्टर करें",
+    "caption": "एक DRep डी-रजिस्ट्रेशन लेन-देन बनाएं। उस DRep को सौंपी गई वोटिंग शक्ति खो जाएगी।",
+    "setting": {
+      "caption": "यह एक DRep डी-रजिस्ट्रेशन लेन-देन बनाएगा। उस DRep को सौंपी गई वोटिंग शक्ति खो जाएगी।",
+      "subCaption": "staking पुरस्कार निकालने की क्षमता पुनः प्राप्त करने के लिए, आपको अपने खाते को एक अलग DRep को सौंपना होगा।",
+      "acknowledged": "मैं समझता हूँ कि सौंपी गई सारी वोटिंग शक्ति खो जाएगी।",
+      "noUtxo": "डी-रजिस्ट्रेशन लेन-देन शुल्क का भुगतान करने के लिए {{currency}} आवश्यक है।",
+      "button": {
+        "deReg": {
+          "label": "खाता डी-रजिस्टर करें",
+          "tooltip": "पूल डेलिगेशन से खाता डी-रजिस्टर करें"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "रिपोर्टिंग",
+    "caption": "टैक्स रिपोर्टिंग निर्यात सेटिंग्स।"
+  }
+}

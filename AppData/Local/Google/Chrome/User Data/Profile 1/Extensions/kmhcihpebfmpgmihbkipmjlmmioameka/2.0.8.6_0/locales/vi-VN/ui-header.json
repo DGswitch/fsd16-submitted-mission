@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Nhấp để mở biểu đồ giá."
+  },
+  "notifications": {
+    "tooltip": "Nhấp để xem thông báo của bạn."
+  },
+  "hideBalance": {
+    "tooltip": "Bật/tắt hiển thị số dư."
+  },
+  "logout": {
+    "tooltip": "Đăng xuất khỏi ứng dụng. Cần mã PIN của bạn để đăng nhập lại."
+  },
+  "darkMode": {
+    "tooltip": "Chuyển đổi chế độ tối/sáng."
+  },
+  "settings": {
+    "tooltip": "Mở menu cài đặt."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Thời gian còn lại",
+    "tooltip": "Số epoch hiện tại và thời gian còn lại cho đến epoch tiếp theo."
+  }
+}

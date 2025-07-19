@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet-Name",
+    "caption": "Gib deiner Wallet einen wiedererkennbaren Namen."
+  },
+  "phrase": {
+    "title": "Mnemonische Phrase"
+  },
+  "account": {
+    "title": "Anzahl der Konten",
+    "caption": "Gib die Anzahl der zu erstellenden Konten an.",
+    "suffix": "Konto(en)",
+    "description": "Eine Wallet in $t(common:appName) kann bis zu {{accountLimit}} Konten haben. Jedes Konto kann an einen anderen Stake Pool delegiert werden. Die Kontoschlüssel werden aus dem Wallet Root Key generiert.",
+    "tooltip": "Jedes hinzugefügte Konto erhöht die Synchronisierungszeit. Konten können jederzeit hinzugefügt werden."
+  },
+  "create": {
+    "title": "Erstelle Wallet",
+    "caption": "Bitte warte, während die Wallet generiert wird",
+    "password": {
+      "title": "Ausgabenpasswort festlegen",
+      "caption": "Wähle ein langes Passwort. Je länger es ist, desto sicherer sind deine Gelder."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet erfolgreich hinzugefügt",
+      "created": "Wallet erfolgreich erstellt",
+      "restored": "Wallet erfolgreich wiederhergestellt",
+      "imported": "Wallet erfolgreich importiert"
+    },
+    "processing": "Erstelle Wallet...",
+    "exists": "Wallet existiert bereits, Weiterleitung zur Wallet."
+  }
+}

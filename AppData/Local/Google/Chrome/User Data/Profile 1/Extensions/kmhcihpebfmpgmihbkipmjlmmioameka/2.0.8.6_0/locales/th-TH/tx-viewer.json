@@ -1,0 +1,21 @@
+{
+  "title": "รายละเอียดธุรกรรม",
+  "inputsOutputs": "อินพุต/เอาต์พุต",
+  "mints": "Mints",
+  "withdrawals": "การถอน",
+  "certificates": "Certificates",
+  "metadata": "Metadata",
+  "recipient": "ผู้รับ",
+  "scripts": "Scripts",
+  "witnesses": "Witnesses",
+  "validFor": {
+    "label": "ใช้ได้ถึง",
+    "unlimited": "ไม่มีกำหนดเวลา",
+    "expired": "ธุรกรรมหมดอายุ"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "โหลดด้วย Tx Hash หรือ raw Tx Cbor",
+    "invalidTxHashOrCbor": "Tx Hash หรือ raw Tx Cbor ไม่ถูกต้อง",
+    "invalidTxCbor": "Transaction cbor ไม่ถูกต้อง!"
+  }
+}

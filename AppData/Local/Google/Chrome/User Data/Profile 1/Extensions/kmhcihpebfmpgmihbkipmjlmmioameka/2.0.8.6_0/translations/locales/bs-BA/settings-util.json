@@ -1,0 +1,35 @@
+{
+  "frankenAddress": {
+    "title": "Franken Generator Adresa",
+    "caption": "Napravi novu adresu kombinovanjem bilo koje dvije adrese.",
+    "setting": {
+      "caption": "$t(settings-util:frankenAddress.caption)",
+      "info": "Dio za plaćanje se uzima iz prve adrese i kombinuje sa dijelom za ulog iz druge adrese.",
+      "payment": "Osnovna ili Adresa za plaćanje / Preduzeće",
+      "stake": "Osnovna ili Adresa za ulog",
+      "frankenAddress": "Franken Adresa"
+    }
+  },
+  "signData": {
+    "title": "Potpiši Podatke",
+    "caption": "Potpiši ili provjeri bilo koji sadržaj sa adresom / ID-om prema CIP-8 standardu.",
+    "setting": {
+      "caption": "$t(settings-util:signData.caption)",
+      "info": "Dio za plaćanje se uzima iz prve adrese i kombinuje sa dijelom za ulog iz druge adrese.",
+      "address": "Adresa ili ID (DRep, Pool Calidus)",
+      "payload": "Sadržaj (podaci za potpisivanje)",
+      "text": "$t(common:text)",
+      "json": "$t(common:json)",
+      "hex": "$t(common:hex)",
+      "verify": {
+        "valid": "Ključ i potpis su validni za unos",
+        "invalid": {
+          "key": "Nevažeći ključ",
+          "signature": "Nevažeći potpis",
+          "payload": "Nevažeći sadržaj",
+          "address": "Adresa / ID se ne podudara sa zaglavljem sadržaja"
+        }
+      }
+    }
+  }
+}

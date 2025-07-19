@@ -1,0 +1,16 @@
+{
+  "next": {
+
+    "label":                  "$t(next)"
+  },
+
+  "confirm": {
+
+    "label":                  "$t(confirm)"
+  },
+
+  "signin": {
+
+    "label":                  "$t(signin)"
+  }
+}

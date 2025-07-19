@@ -1,0 +1,8 @@
+{
+  "title": "Configuració de l'app",
+  "caption": "Actualitza la configuració a les teves preferències personals \no mantén els valors per defecte.",
+  "success": {
+    "title": "Configuració de l'app completada amb èxit",
+    "caption": "Ja estàs a punt, continua a l'app."
+  }
+}

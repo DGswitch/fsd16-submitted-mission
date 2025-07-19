@@ -1,0 +1,34 @@
+{
+  "placeholder": "أضف ملاحظة هنا.",
+  "copy": "ملاحظة المعاملة: {{note}}.",
+  "export": "يمكن استيراد وتصدير الملاحظات.",
+  "add": {
+    "title": "إضافة ملاحظة",
+    "caption": "أرفق ملاحظة بهذه المعاملة. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "تعديل الملاحظة",
+    "caption": "عدّل الملاحظة المرفقة بهذه المعاملة. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "حذف الملاحظة",
+      "tooltip": "احذف الملاحظة المرفقة بهذه المعاملة."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "حذف الملاحظة",
+      "caption": "يرجى تأكيد رغبتك في حذف ملاحظة المعاملة.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

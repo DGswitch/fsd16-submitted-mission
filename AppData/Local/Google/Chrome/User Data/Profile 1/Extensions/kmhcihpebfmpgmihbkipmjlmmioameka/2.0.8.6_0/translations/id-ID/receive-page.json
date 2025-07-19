@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Terima",
+  "title": "Terima Dana",
+  "caption": "Bagikan alamat ini untuk menerima pembayaran.",
+  "search": {
+    "caption": "Cari sebagian alamat, atau derivation path seperti \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" atau \"0 1 32\".",
+    "placeholder": "$t(common:search) untuk $t(common:address) atau path",
+    "noResults": "Tidak ada hasil yang ditemukan"
+  },
+  "current": {
+    "headline": "Alamat wallet yang tersedia.",
+    "static": "Alamat Terima.",
+    "caption": "Bagikan alamat wallet ini untuk menerima pembayaran.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Harap dicatat bahwa semua alamat penerima delegated Anda menyertakan stake key Anda. \nKetika Anda membagikan alamat penerima delegated, penerima dapat mencari di blockchain menggunakan stake key Anda untuk menemukan \nsemua alamat yang terkait dengan wallet Anda dan juga menemukan saldo wallet serta riwayat transaksi Anda."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Alamat eksternal (delegated)",
+      "caption": "Alamat-alamat ini delegated ke stake pool (jika Anda, memang, mendelegasikan akun ini)."
+    },
+    "enterprise": {
+      "headline": "Alamat eksternal (tidak delegated)",
+      "caption": "Alamat-alamat ini tidak delegated."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Alamat kembalian internal (delegated)",
+      "caption": "Alamat-alamat ini delegated ke stake pool (jika Anda, memang, mendelegasikan akun ini).\nJangan bagikan alamat internal, selalu berikan alamat eksternal."
+    },
+    "enterprise": {
+      "headline": "Alamat kembalian internal (tidak delegated)",
+      "caption": "Alamat-alamat ini tidak delegated.\nJangan bagikan alamat internal, selalu berikan alamat eksternal."
+    }
+  }
+}

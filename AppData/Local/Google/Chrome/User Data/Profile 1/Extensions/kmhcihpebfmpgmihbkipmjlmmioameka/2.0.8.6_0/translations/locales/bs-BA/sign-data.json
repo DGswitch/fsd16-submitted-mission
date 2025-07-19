@@ -1,0 +1,12 @@
+{
+  "title": "Imaš podatke za potvrditi",
+  "caption": "Potvrdi vlasništvo traženog ključa potpisivanjem dostavljenog tereta",
+  "loading": "Obrada podataka za potpisivanje",
+  "signing": "Potpisivanje tereta",
+  "hw": "Potpisivanje tereta na {{device}} uređaju",
+  "json": "JSON teret",
+  "hex": "Sirov teret",
+  "text": "Tekst",
+  "blake2b224": "Blake2b224 hash tereta",
+  "reqSign": "Potpis je zatražen: {{keyType}} ključ"
+}

@@ -1,0 +1,6 @@
+{
+  "title": "공개 계정 키 가져오기",
+  "caption": "공개 계정 키(보통 'acct_xvk' 또는 'xpub1'로 시작)를 입력하여 '읽기 전용' wallet을 생성하세요.",
+  "placeholder": "acct_xvk...",
+  "error": "잘못된 공개 계정 키입니다. 확인 후 다시 시도해 주세요."
+}

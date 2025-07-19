@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "Prebacuj se između novčanika.",
+    "accounts": {
+      "select": "računi",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Izaberi određeni wallet za prebacivanje između računa.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Promijeni aktivni $t(common:dApp) račun."
+    },
+    "accounts": {
+      "select": "Izaberi račun sa liste. Označi račun kao omiljeni klikom na ikonu zvijezde.",
+      "manage": "Dodaj ili ukloni račune, izaberi određene indekse računa ili postavi imena računa."
+    }
+  },
+  "groups": {
+    "placeholder": "Izaberi aktivne wallet grupe",
+    "favoriteAccounts": "Omiljeni računi"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Ime računa:",
+    "index": "Indeks:",
+    "limit": "Limit:",
+    "remove": {
+      "tooltip": "Ukloni račun"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Dodaj nove račune"
+  },
+  "notification": {
+    "updated": "Lista računa ažurirana.",
+    "error": "Nepoznata greška pri spremanju ažuriranog wallet u bazu podataka.",
+    "errorRemove": "Račun sa id-om {{accountId}} nije mogao biti uklonjen.",
+    "noWallet": "Wallet nije pronađen.",
+    "errorKey": "Lista izvedenih javnih ključeva ne odgovara traženoj listi putanja.",
+    "limit": "Ovaj wallet ne može dodati više računa."
+  }
+}

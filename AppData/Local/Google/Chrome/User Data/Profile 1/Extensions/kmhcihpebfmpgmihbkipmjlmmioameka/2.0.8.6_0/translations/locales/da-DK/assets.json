@@ -1,0 +1,70 @@
+{
+  "title": "Asset detaljer",
+  "owns": "Konto ejer",
+  "youOwn": "du ejer",
+  "numAssets": "{{numAssets}} unik(ke) asset(s) fundet.",
+  "tab": {
+    "details": "Detaljer",
+    "metadata": "Metadata",
+    "raw": "Rå data",
+    "registry": "Token Register",
+    "media": "Medie"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Tilføj asset",
+      "tooltip": "Tilføj asset til denne modtager."
+    },
+    "editAsset": {
+      "label": "Rediger asset",
+      "tooltip": "Ændre beløbet."
+    },
+    "addAssets": {
+      "label": "Tilføj assets",
+      "tooltip": "Tilføj flere assets til denne modtager."
+    },
+    "editAssets": {
+      "label": "Rediger assets",
+      "tooltip": "Ændre de allerede tilføjede assets."
+    },
+    "removeAsset": {
+      "label": "Fjern asset",
+      "tooltip": "Fjern asset fra denne modtager."
+    },
+    "addCollection": {
+      "label": "Tilføj samling",
+      "tooltip": "Tilføj samlingen til denne modtager."
+    },
+    "removeCollection": {
+      "label": "Fjern samling",
+      "tooltip": "Fjern samlingen fra denne modtager."
+    },
+    "setIcon": {
+      "label": "Wallet ikon",
+      "tooltip": "Sæt aktivbillede som wallet ikon."
+    }
+  },
+  "hover": {
+    "removeAsset": "Fjern asset"
+  },
+  "filter": {
+    "search": "Søg efter policy, navn, fingerprint eller metadata..."
+  },
+  "price": {
+    "unknown": "Ukendt token værdi",
+    "value": "Token værdi",
+    "avg": "Gennemsnitspris"
+  },
+  "media": {
+    "format": {
+      "html": "HTML fil",
+      "pdf": "PDF fil",
+      "image": "Billede",
+      "video": "Video",
+      "audio": "Lyd"
+    }
+  },
+  "digits": {
+    "unknown": "Ukendte decimaler"
+  }
+}

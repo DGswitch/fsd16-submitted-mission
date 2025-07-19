@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - Projektfinansiering",
+  "caption": "Catalyst bringer on-chain governance til Cardano blockchain.",
+  "subCaption": "Hjælp med at forme Cardanos fremtid ved at stemme på finansieringsforslag",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "næste fond",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "Kunne ikke gemme stemmenøglen i wallet lageret. Kontakt support for yderligere hjælp!",
+    "catalystkey": "Catalyst stemmenøgle mangler. Dette burde ikke ske, kontakt venligst support!",
+    "api": "Kan ikke forespørge voting API, genindlæs venligst eller kontakt support hvis det gentager sig.",
+    "funds": "Mindst ###min_ada_catalyst### er påkrævet for at wallet kan deltage i afstemningen.",
+    "rewards": "Dine ###rewards_amount### belønninger kan ikke bruges til at stemme, medmindre du trækker dem tilbage til din wallet.",
+    "nometadata": "Ukendt fejl, registrering metadata ikke korrekt genereret, prøv igen eller kontakt support hvis det gentager sig."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "Bemærk venligst",
+      "caption": "I øjeblikket er registrering åben for fond 10 af Catalyst. Efter denne begivenhed vil afstemning om fremtidige fonde blive håndteret anderledes. Deltag i Catalyst fællesskaberne for at lære mere."
+    }
+  }
+}

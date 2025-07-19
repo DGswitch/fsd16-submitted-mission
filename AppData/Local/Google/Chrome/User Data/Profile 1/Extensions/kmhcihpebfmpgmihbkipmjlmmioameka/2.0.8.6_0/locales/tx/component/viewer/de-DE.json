@@ -1,0 +1,21 @@
+{
+  "title": "Transaktionsdetails",
+  "inputsOutputs": "Eingaben/Ausgaben",
+  "mints": "Mints",
+  "withdrawals": "Auszahlungen",
+  "certificates": "Zertifikate",
+  "metadata": "__GT__Metadaten__",
+  "recipient": "Empfänger",
+  "scripts": "Skripte",
+  "witnesses": "Witnesses",
+  "validFor": {
+    "label": "Gültig für",
+    "unlimited": "Kein Zeitlimit",
+    "expired": "Abgelaufene Transaktion"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Laden per Tx Hash oder rohem Tx Cbor",
+    "invalidTxHashOrCbor": "Ungültiger Tx Hash oder rohes Tx Cbor",
+    "invalidTxCbor": "Ungültiges Transaktions-Cbor!"
+  }
+}

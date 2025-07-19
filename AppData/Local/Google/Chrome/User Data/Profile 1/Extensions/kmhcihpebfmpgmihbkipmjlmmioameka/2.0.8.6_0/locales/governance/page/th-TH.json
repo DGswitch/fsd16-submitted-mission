@@ -1,0 +1,9 @@
+{
+  "menuLabel": "ธรรมาภิบาล",
+  "title": "Blockchain ธรรมาภิบาล",
+  "caption": "ธรรมาภิบาลออนเชนแบบกระจายศูนย์ เพียงปลายนิ้วสัมผัส",
+  "subCaption": "ลงทะเบียนเป็น DRep หรือเรียกดูรายชื่อ DRep สำรวจข้อเสนอ",
+  "delegation": "การมอบสิทธิ์ DRep",
+  "proposals": "ข้อเสนอธรรมาภิบาล",
+  "information": "$t(common:information)"
+}

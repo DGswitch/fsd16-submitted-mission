@@ -1,0 +1,20 @@
+{
+  "title": "ウォレット タイプを選択",
+  "caption": "高度な ウォレット 作成。一般的なオプションに戻る。",
+  "import-wallet": {
+    "title": "バックアップをインポート",
+    "caption": "Eternl JSON バックアップファイルから復元"
+  },
+  "cli-skey-wallet": {
+    "title": "CLI 署名キー",
+    "caption": "CLI で生成された (skey) 署名キーをインポート"
+  },
+  "account-pub-wallet": {
+    "title": "アカウント公開鍵 (読み取り専用)",
+    "caption": "エクスポートされたアカウント公開鍵を入力"
+  },
+  "address-wallet": {
+    "title": "アドレス (読み取り専用)",
+    "caption": "bech32 アドレスから作成"
+  }
+}

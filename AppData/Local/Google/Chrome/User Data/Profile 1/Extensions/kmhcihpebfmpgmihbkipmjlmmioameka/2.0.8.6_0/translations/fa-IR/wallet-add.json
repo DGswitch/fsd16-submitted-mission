@@ -1,0 +1,24 @@
+{
+  "title": "نوع wallet را انتخاب کنید",
+  "caption": "اگر کاربر جدیدی هستید، یک wallet جدید بسازید.\nLedger خود را متصل کنید یا یک پشتیبان JSON وارد کنید.",
+  "create": {
+    "label": "Wallet جدید",
+    "caption": "یک wallet کاملاً جدید بسازید"
+  },
+  "hardware": {
+    "label": "اتصال سخت‌افزار",
+    "caption": "از دستگاه Ledger، Trezor یا Keystone خود با Eternl استفاده کنید"
+  },
+  "restore": {
+    "label": "وارد کردن Seed-phrase",
+    "caption": "از Seed-phrase ۲۴، ۱۵ یا ۱۲ کلمه‌ای خود استفاده کنید"
+  },
+  "multiSig": {
+    "label": "Multi-Sig Wallet",
+    "caption": "یک wallet multi-signature ایجاد کنید یا به آن بپیوندید"
+  },
+  "more": {
+    "label": "بیشتر",
+    "caption": "نمایش گزینه‌های اضافی وارد کردن wallet"
+  }
+}

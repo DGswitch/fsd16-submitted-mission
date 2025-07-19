@@ -1,0 +1,231 @@
+{
+  "appMode": {
+    "pro": "Pro Mod",
+    "simple": "Jednostavni Mod",
+    "caption": "Prebacuj se između Jednostavnog i Pro Moda.",
+    "setting": {
+      "caption": "Definiši svoje Eternl iskustvo. Jednostavni mod je bolji za nove korisnike. Pro mod ima sve dodatne opcije.",
+      "openAfterSign": "Automatski otvori pregled transakcije pri potpisivanju.",
+      "performance": "Omogući zahtjevne vizuelne efekte (npr. zamućene pozadine i zamućenje na grafikonima).",
+      "showButton": "Prikaži dugme za dapp konektor u zaglavlju",
+      "fixAndroid": "Omogući zaobilazno rješenje za problem Android donje navigacione trake.",
+      "home": {
+        "caption": "Dodaj ili ukloni elemente sa početne nadzorne ploče.",
+        "stakeKey": "Prikaži stake ključ računa",
+        "adaChart": "Prikaži grafikon za {{currency}}",
+        "rewardsChart": "Prikaži grafikon nagrada",
+        "stakePool": "Prikaži odabrani stake pool",
+        "monsterSwap": "Prikaži MonsterSwap",
+        "dRep": "Prikaži delegiranog predstavnika"
+      }
+    },
+    "showButton": "Prikaži dugme za dapp konektor u zaglavlju"
+  },
+  "network": {
+    "title": "Mreža",
+    "caption": "Odaberi trenutnu aktivnu mrežu."
+  },
+  "language": {
+    "title": "Jezik",
+    "caption": "Odaberi željeni jezik.",
+    "search": "Filtriraj listu jezika",
+    "setting": {
+      "caption": "Odaberi željeni jezik za aplikaciju."
+    },
+    "warning": {
+      "title": "Beta funkcija",
+      "text": "Promjena jezika je nova funkcija. Molimo te da prijaviš sve probleme koje primijetiš Eternl timu na Discordu.",
+      "button": "Prijavi na Discordu"
+    }
+  },
+  "formatting": {
+    "title": "Formatiranje",
+    "caption": "Regionalno formatiranje datuma i valute.",
+    "setting": {
+      "caption": "Omogući da pratiš formatiranje za odabrani jezik.",
+      "enabled": "Praćenje jezika omogućeno",
+      "disabled": "Praćenje jezika onemogućeno",
+      "region": "Regija formatiranja",
+      "timezone": "Vremenska zona"
+    }
+  },
+  "currency": {
+    "title": "Valuta",
+    "caption": "Odaberi željenu valutu za konverziju.",
+    "search": "Filtriraj listu valuta",
+    "setting": {
+      "caption": "Odaberi željenu valutu za konverziju."
+    }
+  },
+  "decimalPrecision": {
+    "title": "Decimalna preciznost",
+    "caption": "Broj decimalnih mjesta.",
+    "setting": {
+      "caption": "Odaberi broj decimalnih mjesta za prikaz iznosa."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// See pin:deleteAccess and pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "Biometrijska autentifikacija",
+    "caption": "Koristi FaceId (iOS) ili druge biometrijske sisteme za autentifikaciju.",
+    "setting": {
+      "title": {
+        "active": "Aktivirano",
+        "inactive": "Deaktivirano"
+      },
+      "caption": {
+        "active": "Autentifikuj se koristeći biometriju da otvoriš $t(common:appName).",
+        "inactive": "Biometrijska autentifikacija je deaktivirana.",
+        "disabled": "Da bi aktivirao/la ovu funkciju, prvo postavi PIN."
+      }
+    }
+  },
+  "sound": {
+    "title": "Zvukovi",
+    "caption": "Omogući ili onemogući zvučne obavijesti.",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "Zvučne obavijesti se koriste za swap interakcije, greške i druge važne događaje.",
+      "enabled": "$t(settings-app:sound.title) omogućeno",
+      "disabled": "$t(settings-app:sound.title) onemogućeno"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "Dodaj, obriši i uredi $t(addressBook:title) unose.",
+    "setting": {
+      "caption": "Upravljaj svojim $t(addressBook:title) unosima.",
+      "comment": "// Vidi addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "DApp Lista dozvoljenih",
+    "caption": "Lista web stranica/DAppova kojima je dozvoljeno da se povežu sa ovom $t(common:appName) aplikacijom.",
+    "setting": {
+      "comment": "// Vidi dapps-allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "Transakcije: automatsko slanje",
+    "caption": "Automatski šalji transakcije nakon potpisivanja. Onemogući da bi mogao/la preuzeti potpisanu transakciju cbor.",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "Automatsko slanje omogućeno",
+      "disabled": "Automatsko slanje onemogućeno",
+      "enabledInfo": "Potpisane transakcije će automatski biti poslane na blockchain.",
+      "disabledInfo": "Moraš ručno poslati transakciju nakon što je potpisana."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Prilagođena krajnja tačka za slanje",
+    "caption": "Šalji transakcije preko prilagođenog cardano-node i cardano-submit-api.",
+    "setting": {
+      "caption": "Definiši prilagođenu cardano-node i cardano-submit-api krajnju tačku za slanje transakcija.",
+      "new_endpoint": "Dodaj krajnju tačku",
+      "hint": "Dodaj novu prilagođenu krajnju tačku.",
+      "deleteConfirm": "Potvrdi brisanje unosa.",
+      "deleted": "Krajnja tačka je obrisana.",
+      "note": {
+        "title": "Obrati pažnju!",
+        "caption": "Ovo je napredna postavka i trebao/la bi je koristiti samo ako u potpunosti razumiješ njene implikacije.",
+        "description": "Provjeri da li je prilagođena krajnja tačka pouzdana i potpuno sinhronizovana.\n\nAko nije, operater čvora može uskratiti emitovanje tvojih transakcija za svoju korist ili ih uopšte neće emitovati, i sve tvoje transakcije bi mogle propasti.\n\nAko nisi siguran/na, onda deaktiviraj ovu postavku da šalješ transakcije preko $t(common:appName) infrastrukture.",
+        "cors": "Također, provjeri da li tvoja prilagođena krajnja tačka ima postavljene ispravne CORS headere da prihvati zahtjev koji $t(common:appName) šalje."
+      },
+      "error": {
+        "url": "Validan URL počinje sa http(s).",
+        "oneEndpoint": "Mora postojati barem jedna konfigurirana krajnja tačka za slanje."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain istraživač",
+    "caption": "Postavi željeni blockchain istraživač po tipu.",
+    "setting": {
+      "caption": "Odaberi željeni blockchain istraživač za aplikaciju.",
+      "block": "Istraživač blokova",
+      "pool": "Istraživač pool-ova",
+      "address": "Istraživač adresa",
+      "token": "Istraživač tokena",
+      "policy": "Istraživač politika",
+      "transaction": "Istraživač transakcija",
+      "stake": "Istraživač stake ključeva",
+      "DRep": "DRep istraživač",
+      "govProposal": "Prijedlog upravljanja",
+      "select": "Odaberi {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "Eksperimentalne postavke",
+    "caption": "Eksperimentalne postavke ne bi trebao/la niko koristiti!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "Sakrij sve parametre URL-a",
+        "caption": "Ako je ovo omogućeno, parametri URL-a u odjeljku postavki će biti sakriveni."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "Sačuvaj zadnju korištenu postavku",
+        "caption": "Ako je ovo omogućeno, prelazak na postavke će automatski odabrati zadnju korištenu grupu postavki i odjeljak."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "Postavke klizanja i Dex za MonsterSwap."
+  },
+  "theme": {
+    "label": "Promjena teme",
+    "caption": "Odaberi temu da Eternl bude tvoj.",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "Resetuj keš aplikacije",
+    "caption": "Ukloni sve keširane podatke da resetuješ aplikaciju.",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\nOvo uključuje transakcije, slike tokena i metadata. Tvoji novčanici, računi i postavke NEĆE biti pogođeni.",
+      "finish": "Keš aplikacije je uspješno resetovan.",
+      "inProgress": "$t(common:appName) keš se čisti, molimo te, sačekaj.",
+      "warning": "Kada resetuješ $t(common:appName) keš, aplikacija mora ponovo preuzeti sve podatke sa blockchain. Ako imaš više novčanika ili računa, ovo može potrajati.",
+      "button": {
+        "label": "Resetuj keš aplikacije"
+      }
+    }
+  },
+  "reset": {
+    "title": "Resetuj aplikaciju",
+    "caption": "Izbriši sve novčanike i pohranjene podatke da resetuješ aplikaciju.",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "Upozorenje!",
+          "text": "Kada resetuješ aplikaciju, izgubit ćeš pristup svim novčanicima! Jedini način da povratiš pristup nakon resetovanja je da obnoviš frazu za oporavak wallet ili importuješ prethodno izvezene $t(common:appName) .json datoteke."
+        }
+      },
+      "phrase": {
+        "name": "Potvrdna fraza",
+        "hint": "Unesi potvrdnu frazu.",
+        "noPaste": "Molimo te, upiši potvrdnu frazu da resetuješ $t(common:appName)",
+        "confirmation": "Resetuj $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "Razumijem da je jedini način da povratim pristup svojim novčanicima obnavljanjem pomoću fraze za oporavak wallet ili uparivanjem hardverskih wallet uređaja.",
+          "error": "Potvrdna fraza se ne podudara."
+        }
+      },
+      "deleteWallets": "Resetuj novčanike",
+      "deleteConfig": "Resetuj konfiguracije",
+      "deleteFinish": "Završavam",
+      "finish": "Aplikacija je uspješno resetovana"
+    }
+  }
+}

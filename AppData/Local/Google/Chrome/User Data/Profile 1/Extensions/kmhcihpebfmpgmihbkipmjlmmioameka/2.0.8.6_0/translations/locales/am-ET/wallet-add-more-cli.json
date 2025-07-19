@@ -1,0 +1,10 @@
+{
+  "title": "የCLI ፊርማ ቁልፎችን አስመጣ",
+  "caption": "ከCLI የመነጨውን wallet የክፍያ እና (በተጨማሪም) የአደራ ቁልፎችን ምረጥ።",
+  "payment": "የክፍያ ቁልፍ",
+  "stake": "የአደራ ቁልፍ",
+  "drep": "የDRep ቁልፍ",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "የማይሰራ ቁልፍ ነው፣ እባክዎ አረጋግጠው እንደገና ይሞክሩ!"
+}

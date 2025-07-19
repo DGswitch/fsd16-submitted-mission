@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Primi",
+  "title": "Primi Sredstva",
+  "caption": "Podijeli ovu adresu da primiš uplate.",
+  "search": {
+    "caption": "Pronađi dio adrese, ili put izvođenja kao što je \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" ili \"0 1 32\".",
+    "placeholder": "$t(common:search) za $t(common:address) ili putanju",
+    "noResults": "Nema pronađenih rezultata"
+  },
+  "current": {
+    "headline": "Dostupne wallet adrese.",
+    "static": "Adresa za primanje.",
+    "caption": "Podijeli ovu wallet adresu da primiš uplate.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Imaj na umu da sve tvoje delegirane adrese za primanje uključuju tvoj stake ključ.\nKada podijeliš delegiranu adresu za primanje, primatelj može pretraživati blockchain koristeći tvoj stake ključ da pronađe \nsve adrese povezane s tvojim wallet i također otkriti stanje tvog wallet i historiju transakcija."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Vanjske adrese (delegirane)",
+      "caption": "Ove adrese su delegirane stake pool-u (ako si, zapravo, delegirao ovaj račun)."
+    },
+    "enterprise": {
+      "headline": "Vanjske adrese (nisu delegirane)",
+      "caption": "Ove adrese nisu delegirane."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Unutrašnje adrese za promjenu (delegirane)",
+      "caption": "Ove adrese su delegirane stake pool-u (ako si, zapravo, delegirao ovaj račun).\nNe dijeli unutrašnje adrese, uvijek daj vanjske adrese."
+    },
+    "enterprise": {
+      "headline": "Unutrašnje adrese za promjenu (nisu delegirane)",
+      "caption": "Ove adrese nisu delegirane.\nNe dijeli unutrašnje adrese, uvijek daj vanjske adrese."
+    }
+  }
+}

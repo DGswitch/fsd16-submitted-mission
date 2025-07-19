@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig wallet",
+      "caption": "Спецыяльны тып wallet, які патрабуе некалькіх бакоў для падпісання транзакцыі пры расходаванні сродкаў або зняцці ўзнагарод.",
+      "create": {
+        "label": "Стварыць новы Multi-Sig",
+        "caption": "Каб стварыць новы мульты-подпісны wallet з існуючых кашалькоў або з дапамогай знешніх мульты-падпісных ключоў"
+      },
+      "join": {
+        "label": "Далучыцца да Multi-Sig",
+        "caption": "Удзельнічайце ў мульты-падпісным wallet шляхам выяўлення або абмену вашым мульты-падпісным адкрытым ключом з сябрам з ужо дададзенага wallet."
+      }
+    },
+    "join": {
+      "headline": "Далучыцца да Multi-Sig",
+      "caption": "Выберыце опцыю, каб паказаць ключ Multi-Sig, Discover, або імпартаваць экспартаваны Multi-Sig wallet.",
+      "key": {
+        "label": "Ключ Multi-Sig",
+        "caption": "Пакажыце ключ Multi-Sig абранага wallet, каб падзяліцца з удзельнікам, адказным за стварэнне Multi-Sig wallet"
+      },
+      "discover": {
+        "label": "Discover",
+        "caption": "Скануе blockchain на наяўнасць зарэгістраваных кашалькоў Multi-Sig, якія ўключаюць абраныя кашалькі з ключом Multi-Sig"
+      },
+      "import": {
+        "label": "Import",
+        "caption": "Загрузіце створаныя і экспартаваныя JSON-файлы Multi-Sig wallet"
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet ключ Multi-Sig",
+      "caption": "Каб падзяліцца са стваральнікам Multi-Sig wallet.",
+      "nowallet": "Не выбраны wallet.",
+      "nopubkey": "Адсутнічае ключ Multi-Sig для выбранага wallet."
+    },
+    "discover": {
+      "headline": "Знойдзеныя кашалькі Multi-Sig",
+      "caption": "Выберыце знойдзеныя кашалькі Multi-Sig для дадання.",
+      "reused": {
+        "toggle": "Паказаць MultiSig кашалькі з паўторна выкарыстанымі ключамі",
+        "warning": "Паўторна выкарыстаныя ключы могуць быць аб'ектам атакі прайгравання, выкарыстоўвайце з асцярожнасцю!"
+      },
+      "nowallet": "Не выбраны wallet.",
+      "empty": "Не знойдзена кашалькоў Multi-Sig для выбранага wallet.",
+      "loading": "Атрыманне і апрацоўка...",
+      "details": {
+        "headline": "MultiSig Падрабязнасці выяўлення",
+        "data": {
+          "headline": {
+            "date": "Створаны",
+            "name": "Назва",
+            "description": "Апісанне",
+            "hash": "Tx Hash",
+            "address": "Адрас",
+            "payment": "Скрыпт аплаты",
+            "stake": "Скрыпт стаўкі",
+            "drep": "DRep Script",
+            "meta": "Metadata",
+            "balance": "Баланс"
+          },
+          "nostake": "Multi-Sig wallet не мае зарэгістраванага скрыпту стаўкі",
+          "nodrep": "Multi-Sig wallet не мае зарэгістраванага DRep скрыпту",
+          "nometa": "Не зарэгістраваны 1854 metadata",
+          "button": {
+            "showScript": "Паглядзець скрыпт",
+            "showMeta": "Паглядзець Metadata"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Імпартаваць кашалькі Multi-Sig",
+      "caption": "Загрузіце створаныя і экспартаваныя JSON-файлы Multi-Sig wallet.",
+      "success": "Multi-Sig wallet паспяхова імпартаваны",
+      "error": {
+        "invalid": "Несапраўдны экспарт Multi-Sig, павінен адпавядаць фармату CSL AuxiliaryDataJSON",
+        "noscript": "Імпартаваны файл не мае скрыптоў",
+        "nometa": "Імпартаваны файл не мае пазнакі 1854 metadata",
+        "invalidmeta": "Экспарт змяшчае несапраўдную пазнаку 1854 metadata",
+        "duplicate": "Multi-Sig wallet з тымі ж скрыптамі ўжо імпартаваны, ігнарую дублікат файла"
+      }
+    },
+    "create": {
+      "headline": "Тып Multi-Sig",
+      "caption": "Ці ўсе ўдзельнікі роўныя, ці яны з'яўляюцца часткай груп/арганізацый?",
+      "simple": {
+        "label": "Проста",
+        "caption": "Сцэнар, дзе ўсе ўдзельнікі роўныя."
+      },
+      "advanced": {
+        "label": "Пашыраны (хутка)",
+        "caption": "Удзельнікі з'яўляюцца часткай асобных груп, утвараючы некалькі узроўняў."
+      }
+    },
+    "simple": {
+      "headline": "Налада Multi-Sig",
+      "caption": "Задайце назву і дадатковае апісанне для вашага Multi-Sig wallet.",
+      "name": {
+        "label": "Wallet Назва",
+        "placeholder": "Калі ласка, увядзіце назву для wallet",
+        "error": "Назва абавязковая"
+      },
+      "description": {
+        "label": "Апісанне",
+        "placeholder": "Дадатковае апісанне"
+      },
+      "error": {
+        "validation": "Памылка праверкі",
+        "length": "Перавышана максімальная даўжыня ў 64 сімвалы!"
+      }
+    },
+    "participants": {
+      "headline": "Дадаць удзельнікаў",
+      "caption": "Пакажыце асоб, якія павінны быць часткай multi-sig з загружаных кашалькоў або шляхам уводу адкрытага ключа multi-sig.",
+      "new": "Дадаць яшчэ аднаго ўдзельніка",
+      "participant": {
+        "label": "Удзельнік",
+        "name": {
+          "label": "Імя",
+          "placeholder": "Дадатковае імя ўдзельніка"
+        },
+        "pub": {
+          "label": "Multi-Sig ключ",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "Неабходна мінімум два ўдзельнікі для стварэння простага multi-sig wallet"
+      },
+      "error": {
+        "duplicate": "Удзельнік з такім жа multi-sig ключом ужо дададзены, калі ласка, выберыце іншага."
+      }
+    },
+    "requiredSigners": {
+      "headline": "Неабходныя падпісанты",
+      "caption": "Колькі ўдзельнікаў павінны пацвердзіць пры падпісанні?"
+    },
+    "register": {
+      "headline": "Зарэгістраваць",
+      "caption": "Выберыце опцыю для рэгістрацыі або загрузкі нядаўна створанага Multi-Sig wallet.",
+      "anonymous": "Ананімна (апусціць metadata)",
+      "register": {
+        "label": "Зарэгістраваць",
+        "caption": "Стварыце транзакцыю для рэгістрацыі multi-signature wallet у ланцужку. Гэта дазваляе аўтаматычнае выяўленне ўдзельнікамі і з'яўляецца рэкамендаваным варыянтам.",
+        "feewallet": "Камісія за транзакцыю wallet",
+        "success": "Multi-Sig wallet паспяхова зарэгістраваны"
+      },
+      "download": {
+        "label": "Загрузіць",
+        "caption": "Загружае файл, якім трэба падзяліцца з удзельнікамі для ручнога імпарту."
+      },
+      "error": {
+        "nofeewallet": "Не знойдзены wallet, які можна выкарыстоўваць у якасці камісіі wallet для транзакцыі рэгістрацыі Multi-Sig."
+      },
+      "success": "Multi-Sig wallet паспяхова створаны",
+      "exist": "Wallet ужо існуе, перанакіроўваем на wallet"
+    }
+  },
+  "select": {
+    "placeholder": "Выбраць Wallet",
+    "missing": {
+      "headline": "Стварыць Multi-Sig ключы",
+      "mnemonic": "У гэтага wallet адсутнічаюць multi-sig ключы, калі ласка, увядзіце пароль свайго wallet, каб стварыць іх.",
+      "hardware": "У гэтага wallet адсутнічаюць multi-sig ключы, калі ласка, націсніце «Падпісаць» і выконвайце інструкцыі апаратнай прылады, каб атрымаць іх."
+    },
+    "save": {
+      "ok": "Multi-Sig ключы паспяхова створаны і захаваны ў wallet",
+      "error": "Не атрымалася захаваць multi-sig ключы ў wallet, калі ласка, паспрабуйце яшчэ раз!"
+    }
+  },
+  "last_signature_added": "Дададзены апошні подпіс"
+}

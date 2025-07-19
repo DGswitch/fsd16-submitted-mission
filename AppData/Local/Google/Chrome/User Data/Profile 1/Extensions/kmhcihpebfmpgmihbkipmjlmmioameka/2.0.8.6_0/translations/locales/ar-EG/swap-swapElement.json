@@ -1,0 +1,44 @@
+{
+  "title": "تبديل الوحوش في Eternl",
+  "caption": "بيجيبلك أحسن سعر من كذا مكان ليك",
+  "select": "اختار",
+  "sell": "انت بتبيع",
+  "buy": "انت بتشتري",
+  "balance": "متاح للتبديل",
+  "aggAndDexs": "Agg & DEXs:",
+  "provider": "المزود",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "بيمسح كل المدخلات"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "اعمل صفقة تبديل"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "جاري بناء صفقة التبديل."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "رسوم Batcher و حجم التداول (DEXs)",
+      "tooltip": "DEXs بيحطوا رسوم عشان يعملوا طلبك. الرسوم دي مش بترجع."
+    },
+    "aggregatorFee": {
+      "label": "رسوم خدمة",
+      "tooltip": "دي رسوم تسهيل. بتساعد في تمويل تطوير المجمع و Eternl."
+    },
+    "deposit": {
+      "label": "تأمين قابل للاسترداد",
+      "tooltip": "مطلوب تأمين عشان طلبك يتعمل. المبلغ ده بيرجعلك في محفظة رقمية (maḥfaẓa raqamiya) مع التوكنز اللي هتاخدها."
+    }
+  },
+  "geo": {
+    "headline": "MonsterSwap مش متاح في منطقتك!",
+    "caption": "بسبب القوانين والتزام Eternl بالسياسات الإقليمية وجميع القوانين المعمول بها، اضطرينا نوقف MonsterSwap في منطقتك. احنا عارفين إن القوانين مش واضحة و بتتغير باستمرار، وهنعدل القيود دي على حسب التغييرات."
+  }
+}

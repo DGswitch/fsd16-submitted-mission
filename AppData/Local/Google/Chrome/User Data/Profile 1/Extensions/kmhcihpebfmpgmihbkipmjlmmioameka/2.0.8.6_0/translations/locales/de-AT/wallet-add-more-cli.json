@@ -1,0 +1,10 @@
+{
+  "title": "CLI Signing Keys importieren",
+  "caption": "Wähl' Payment- und Stake-Signing-Keys (optional) aus einem CLI-generierten wallet aus.",
+  "payment": "Payment Key",
+  "stake": "Stake Key",
+  "drep": "DRep Schlüssel",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Ungültiger Key, bitte überprüf' ihn und versuch's nochmal!"
+}

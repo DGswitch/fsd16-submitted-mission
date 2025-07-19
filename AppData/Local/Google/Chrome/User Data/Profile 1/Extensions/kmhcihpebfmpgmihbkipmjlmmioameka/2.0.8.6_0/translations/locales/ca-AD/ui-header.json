@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Fes clic per obrir el gràfic de preus."
+  },
+  "notifications": {
+    "tooltip": "Fes clic per veure les teves notificacions."
+  },
+  "hideBalance": {
+    "tooltip": "Activa o desactiva la visibilitat dels saldos."
+  },
+  "logout": {
+    "tooltip": "Tanca la sessió de l'aplicació. Necessites el teu PIN per tornar a iniciar sessió."
+  },
+  "darkMode": {
+    "tooltip": "Activa o desactiva el mode fosc/clar."
+  },
+  "settings": {
+    "tooltip": "Obre el menú de configuració."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Temps restant",
+    "tooltip": "El número d'epoch actual i el temps que queda fins a la següent."
+  }
+}

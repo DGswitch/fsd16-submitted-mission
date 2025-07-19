@@ -1,0 +1,11 @@
+{
+  "inputsOutputs":            "Inputs/Outputs",
+  "mints":                    "Mints",
+  "withdrawals":              "Withdrawals",
+  "certificates":             "Certificates",
+  "metadata":                 "Metadata",
+  "recipient":                "Recipient",
+  "scripts":                  "Scripts",
+  "witnesses":                "Witnesses"
+
+}

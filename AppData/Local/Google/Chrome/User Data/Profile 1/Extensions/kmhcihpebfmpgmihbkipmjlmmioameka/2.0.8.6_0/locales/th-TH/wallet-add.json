@@ -1,0 +1,24 @@
+{
+  "title": "เลือกประเภท wallet",
+  "caption": "หากคุณเป็นผู้ใช้ใหม่ ให้สร้าง wallet ใหม่\nเชื่อมต่อ Ledger ของคุณ หรือนำเข้าไฟล์สำรอง JSON",
+  "create": {
+    "label": "Wallet ใหม่",
+    "caption": "สร้าง wallet ใหม่เอี่ยม"
+  },
+  "hardware": {
+    "label": "เชื่อมต่อฮาร์ดแวร์",
+    "caption": "ใช้อุปกรณ์ Ledger, Trezor หรือ Keystone ของคุณกับ Eternl"
+  },
+  "restore": {
+    "label": "ป้อนวลีกู้คืน",
+    "caption": "ใช้วลีกู้คืน 24, 15 หรือ 12 คำของคุณ"
+  },
+  "multiSig": {
+    "label": "Wallet แบบหลายลายเซ็น",
+    "caption": "สร้างหรือเข้าร่วม wallet แบบหลายลายเซ็น"
+  },
+  "more": {
+    "label": "เพิ่มเติม",
+    "caption": "แสดงตัวเลือกการนำเข้า wallet เพิ่มเติม"
+  }
+}

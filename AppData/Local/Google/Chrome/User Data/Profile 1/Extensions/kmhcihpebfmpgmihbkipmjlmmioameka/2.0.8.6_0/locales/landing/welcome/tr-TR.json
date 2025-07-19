@@ -1,0 +1,12 @@
+{
+  "title": "$t(common:appName)'e Hoş Geldiniz!",
+  "caption": "çoklu platform Cardano __GT__cüzdanı__",
+  "button": {
+    "next": {
+      "label": "Kurulumu başlat"
+    },
+    "watch-tutorial": {
+      "label": "Eğitici videoyu izle"
+    }
+  }
+}

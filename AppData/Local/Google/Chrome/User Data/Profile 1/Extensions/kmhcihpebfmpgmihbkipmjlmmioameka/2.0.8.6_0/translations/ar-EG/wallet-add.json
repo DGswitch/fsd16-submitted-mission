@@ -1,0 +1,24 @@
+{
+  "title": "Select wallet type",
+  "caption": "If you are a new user, create a new wallet.\nConnect your Ledger device or import a JSON backup.",
+  "create": {
+    "label": "New Wallet",
+    "caption": "Create a new wallet"
+  },
+  "hardware": {
+    "label": "توصيل جهاز",
+    "caption": "Use your Ledger, Trezor or Keystone device with Eternl"
+  },
+  "restore": {
+    "label": "Enter Seed-phrase",
+    "caption": "Use your 24, 15 or 12 word seed-phrase"
+  },
+  "multiSig": {
+    "label": "Multi-signature Wallet",
+    "caption": "Create or join a multi-signature wallet"
+  },
+  "more": {
+    "label": "المزيد",
+    "caption": "Show additional wallet import options"
+  }
+}

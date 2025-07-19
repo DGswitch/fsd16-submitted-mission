@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig wallet",
+      "caption": "Un tipo especial de wallet que requiere que múltiples partes firmen una transacción al gastar fondos o retirar recompensas.",
+      "create": {
+        "label": "Crear nueva Multi-Sig",
+        "caption": "Para crear una nueva wallet multi-firma a partir de wallets existentes o usando claves multi-sig externas"
+      },
+      "join": {
+        "label": "Unirse a una Multi-Sig",
+        "caption": "Participar en una wallet multi-firma mediante descubrimiento o compartiendo tu clave pública multi-sig con un amigo desde una wallet ya agregada."
+      }
+    },
+    "join": {
+      "headline": "Unirse a una Multi-Sig",
+      "caption": "Selecciona la opción para mostrar la Clave Multi-Sig, Descubrir, o importar una wallet Multi-Sig exportada.",
+      "key": {
+        "label": "Clave Multi-Sig",
+        "caption": "Mostrar la clave Multi-Sig de la wallet seleccionada para compartir con el participante encargado de crear la wallet Multi-Sig"
+      },
+      "discover": {
+        "label": "Descubrir",
+        "caption": "Escanea la blockchain en busca de wallets Multi-Sig registradas que incluyan la clave Multi-Sig de la wallet seleccionada"
+      },
+      "import": {
+        "label": "Importar",
+        "caption": "Cargar archivos JSON de wallet Multi-Sig creados y exportados"
+      }
+    },
+    "pubkey": {
+      "headline": "Clave Multi-Sig de Wallet",
+      "caption": "Para compartir con el creador de la wallet Multi-Sig.",
+      "nowallet": "Ninguna wallet seleccionada.",
+      "nopubkey": "Falta la clave Multi-Sig para la wallet seleccionada."
+    },
+    "discover": {
+      "headline": "Wallets Multi-Sig descubiertas",
+      "caption": "Selecciona las wallets Multi-Sig descubiertas para agregar.",
+      "reused": {
+        "toggle": "Mostrar wallets MultiSig con claves reutilizadas",
+        "warning": "¡Las claves reutilizadas pueden estar sujetas a un ataque de repetición (replay attack), úsalas con precaución!"
+      },
+      "nowallet": "Ninguna wallet seleccionada.",
+      "empty": "No se encontraron wallets Multi-Sig para la wallet seleccionada.",
+      "loading": "Obteniendo y procesando...",
+      "details": {
+        "headline": "Detalles de Descubrimiento de MultiSig",
+        "data": {
+          "headline": {
+            "date": "Creado",
+            "name": "Nombre",
+            "description": "Descripción",
+            "hash": "Tx Hash",
+            "address": "Dirección",
+            "payment": "Script de Pago",
+            "stake": "Script de Stake",
+            "drep": "Script de DRep",
+            "meta": "Metadatos",
+            "balance": "Saldo"
+          },
+          "nostake": "La wallet Multi-Sig no tiene ningún script de stake registrado",
+          "nodrep": "La wallet Multi-Sig no tiene ningún script de DRep registrado",
+          "nometa": "No hay Metadatos de etiqueta 1854 registrados",
+          "button": {
+            "showScript": "Ver Script",
+            "showMeta": "Ver Metadatos"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Importar wallets Multi-Sig",
+      "caption": "Cargar archivos JSON de wallet Multi-Sig creados y exportados.",
+      "success": "wallet Multi-Sig importada exitosamente",
+      "error": {
+        "invalid": "No es una exportación Multi-Sig válida, debe seguir el formato CSL AuxiliaryDataJSON",
+        "noscript": "El archivo importado no tiene scripts",
+        "nometa": "El archivo importado no tiene Metadatos de etiqueta 1854",
+        "invalidmeta": "La exportación contiene Metadatos de etiqueta 1854 inválidos",
+        "duplicate": "Ya se importó una wallet Multi-Sig con los mismos scripts, ignorando archivo duplicado"
+      }
+    },
+    "create": {
+      "headline": "Tipo de Multi-Sig",
+      "caption": "¿Tus participantes son todos iguales o forman parte de grupos / entidades?",
+      "simple": {
+        "label": "Simple",
+        "caption": "Un escenario donde todos los participantes son iguales."
+      },
+      "advanced": {
+        "label": "Avanzado (próximamente)",
+        "caption": "Los participantes forman parte de grupos individuales, creando múltiples capas."
+      }
+    },
+    "simple": {
+      "headline": "Configuración Multi-Sig",
+      "caption": "Establece un nombre y una descripción opcional para tu wallet Multi-Sig.",
+      "name": {
+        "label": "Nombre de Wallet",
+        "placeholder": "Por favor, ingresa un nombre para la wallet",
+        "error": "El nombre es obligatorio"
+      },
+      "description": {
+        "label": "Descripción",
+        "placeholder": "Una descripción opcional"
+      },
+      "error": {
+        "validation": "Error de validación",
+        "length": "¡Se excedió la longitud máxima de 64 caracteres!"
+      }
+    },
+    "participants": {
+      "headline": "Agregar participantes",
+      "caption": "Especifica los individuos que deben formar parte de la multi-sig desde las wallets cargadas o ingresando la clave pública multi-sig.",
+      "new": "Agregar otro participante",
+      "participant": {
+        "label": "Participante",
+        "name": {
+          "label": "Nombre",
+          "placeholder": "Nombre opcional del participante"
+        },
+        "pub": {
+          "label": "Clave Multi-Sig",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "Se requiere un mínimo de dos participantes para formar una wallet multi-sig simple"
+      },
+      "error": {
+        "duplicate": "Ya se ha agregado un participante con la misma clave multi-sig, por favor selecciona otro."
+      }
+    },
+    "requiredSigners": {
+      "headline": "Firmantes Requeridos",
+      "caption": "¿Cuántos participantes necesitan confirmar al firmar?"
+    },
+    "register": {
+      "headline": "Registrar",
+      "caption": "Selecciona la opción para registrar o descargar la wallet Multi-Sig recién creada.",
+      "anonymous": "Anónimo (omitir Metadatos)",
+      "register": {
+        "label": "Registrar",
+        "caption": "Crea una transacción para registrar la wallet multi-sig on-chain. Esto permite el descubrimiento automático por parte de los participantes y es la opción recomendada.",
+        "feewallet": "Comisión de transacción wallet",
+        "success": "Wallet Multi-Sig registrada exitosamente"
+      },
+      "download": {
+        "label": "Descargar",
+        "caption": "Descarga un archivo para compartir con los participantes para importación manual."
+      },
+      "error": {
+        "nofeewallet": "No se encontró ninguna wallet para usar como wallet de comisión para la transacción de registro Multi-Sig."
+      },
+      "success": "Wallet Multi-Sig creada exitosamente",
+      "exist": "Wallet ya existe, redirigiendo a la wallet"
+    }
+  },
+  "select": {
+    "placeholder": "Seleccionar Wallet",
+    "missing": {
+      "headline": "Crear Claves Multi-Sig",
+      "mnemonic": "A esta wallet le faltan las claves multi-sig, por favor ingresa la contraseña de tu wallet para crearlas.",
+      "hardware": "A esta wallet le faltan las claves multi-sig, por favor haz clic en firmar y sigue las instrucciones del dispositivo hardware para derivarlas."
+    },
+    "save": {
+      "ok": "Claves Multi-Sig generadas y guardadas exitosamente en la wallet",
+      "error": "¡Error al guardar las claves multi-sig en la wallet, por favor inténtalo de nuevo!"
+    }
+  },
+  "last_signature_added": "Última firma agregada"
+}

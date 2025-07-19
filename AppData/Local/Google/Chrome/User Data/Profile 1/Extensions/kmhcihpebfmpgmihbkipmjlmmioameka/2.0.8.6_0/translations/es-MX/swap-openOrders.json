@@ -1,0 +1,15 @@
+{
+  "title": "Abiertas - Tus órdenes",
+  "caption": "Muestra las órdenes de swap abiertas on-chain que aún no se han procesado.",
+  "loading": "Cargando órdenes",
+  "noPending": "No se encontraron órdenes pendientes",
+  "time": "Hora",
+  "swap": "Swap",
+  "dexs": "Dexs",
+  "via": "Vía",
+  "types": {
+    "buy": "COMPRAR",
+    "sell": "VENDER",
+    "cancel": "CANCELAR"
+  }
+}

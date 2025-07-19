@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "Een normaal Cardano-adres.",
+    "description": "Een Cardano-adres begint met addr1 en is geen script address.",
+    "error": {
+      "invalid": "Geen geldig Cardano-adres."
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano Script",
+    "caption": "Een script address.",
+    "description": "Een Cardano script address wordt gebruikt voor smart contracts en begint met addr1 gevolgd door een specifiek patroon.",
+    "error": {
+      "invalid": "Geen geldig Cardano script address."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "Een menselijk leesbaar Cardano-adres.",
+    "description": "Een Ada Handle is een unieke, op NFT gebaseerde identifier die gebruikt kan worden als een vereenvoudigd Cardano-adres, beginnend met $.",
+    "banner": {
+      "change": {
+        "title": "Ada Handle-adres gewijzigd!",
+        "text": "Oud adres opgeslagen in adresboek:\n####OLD####\n\nNieuw adres:\n####NEW####\n\nHet adres dat wordt vertegenwoordigd door de Ada Handle ###HANDLE### is gewijzigd sinds u het aan uw adresboek heeft toegevoegd.\nDit betekent dat de Ada Handle is verplaatst naar een andere wallet of account.\n\nAls u geld verstuurt, gaat dit naar een ander adres dan wat in uw adresboek is opgeslagen.\nU heeft de optie om de huidige vermelding in het adresboek te overschrijven door op de onderstaande knop te klikken."
+      }
+    },
+    "error": {
+      "invalid": "Geen geldige Ada Handle.",
+      "resolve": "Deze Ada Handle bestaat niet.",
+      "image": "Kon Ada Handle-afbeelding niet laden.",
+      "address": {
+        "invalid": "Adres ongeldig. (Staat het misschien op een marketplace?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Een blockchain-domeinnaam.",
+    "description": "Unstoppable Domains zijn gedecentraliseerde domeinnamen die gekoppeld kunnen worden aan verschillende cryptocurrency-adressen, waaronder Cardano.",
+    "error": {
+      "invalid": "Geen geldig Unstoppable Domain.",
+      "resolve": "Dit Unstoppable Domain bestaat niet.",
+      "domain": {
+        "resolve": "Unstoppable Domain kon niet worden omgezet."
+      },
+      "address": {
+        "invalid": "Adres ongeldig. (Staat het misschien op een marketplace?)",
+        "notSet": "Voor dit Unstoppable Domain is geen Cardano-adres ingesteld."
+      }
+    }
+  }
+}

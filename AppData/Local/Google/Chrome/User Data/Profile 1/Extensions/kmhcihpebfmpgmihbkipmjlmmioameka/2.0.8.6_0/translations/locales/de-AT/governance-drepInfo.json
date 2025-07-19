@@ -1,0 +1,54 @@
+{
+  "title": "DRep Info",
+  "noInfo": "Keine Informationen verfügbar.",
+  "drepId": {
+    "label": "DRep Id (CIP129)",
+    "default": "Standard Option",
+    "missing": "fehlt"
+  },
+  "govAction": {
+    "id": "Governance Action Id",
+    "missing": "Unbekannte Governance Action Id",
+    "comment": "DRep Begründung"
+  },
+  "votingPower": "Stimmkraft",
+  "numDelegators": "Delegatoren",
+  "paymentAddress": "Zahlungsadresse",
+  "objectives": "Ziele",
+  "qualifications": "Qualifikationen",
+  "motivation": "Motivation",
+  "tab": {
+    "info": {
+      "label": "Info"
+    },
+    "votes": {
+      "label": "Stimmen",
+      "noVotesFound": "Keine Stimmen gefunden."
+    }
+  },
+  "badge": {
+    "status": {
+      "active": {
+        "label": "Aktiv",
+        "tooltip": "DRep ist aktiv und did hat kürzlich über Vorschläge abgestimmt."
+      },
+      "inactive": {
+        "label": "Inaktiv",
+        "tooltip": "DRep ist inaktiv und did hat in letzter Zeit nicht über Vorschläge abgestimmt."
+      },
+      "unregistered": {
+        "label": "Abgemeldet",
+        "tooltip": "DRep abgemeldet."
+      },
+      "selfDelegated": {
+        "label": "Selbst-delegiert",
+        "tooltip": "Dieses Konto ist an sich selbst stimmdelegiert."
+      }
+    }
+  },
+  "error": {
+    "noDRepCred": "Keine DRep Anmeldeinformationen für dieses Konto gefunden.",
+    "noDRepId": "Keine DRep Id zum Delegieren vorhanden.",
+    "invalidDRepId": "Das ist eine ungültige DRep Id"
+  }
+}

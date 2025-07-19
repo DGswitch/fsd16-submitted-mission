@@ -1,0 +1,9 @@
+{
+  "menuLabel": "Yönetişim",
+  "title": "__GT__Blokzincir__ Yönetişimi",
+  "caption": "Merkeziyetsiz on-chain yönetişim parmaklarınızın ucunda.",
+  "subCaption": "Bir DRep olarak kaydolun veya DRep listesine göz atın. Teklifleri keşfedin.",
+  "delegation": "DRep delegasyonu",
+  "proposals": "Yönetişim teklifleri",
+  "information": "$t(common:information)"
+}

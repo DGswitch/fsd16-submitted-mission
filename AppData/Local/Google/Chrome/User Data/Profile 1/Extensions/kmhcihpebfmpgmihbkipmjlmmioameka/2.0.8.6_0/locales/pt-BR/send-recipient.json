@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Endereço ou $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Não é possível adicionar mais ativos.",
+      "text": "Esta saída de transação não pode conter mais ativos. Crie uma nova saída (pode ter o mesmo endereço) para adicionar mais."
+    }
+  },
+  "mode": {
+    "tooltip": "Selecione manualmente o tipo de endereço."
+  },
+  "error": {
+    "addAddress": "Adicione um endereço de destinatário para enviar."
+  }
+}

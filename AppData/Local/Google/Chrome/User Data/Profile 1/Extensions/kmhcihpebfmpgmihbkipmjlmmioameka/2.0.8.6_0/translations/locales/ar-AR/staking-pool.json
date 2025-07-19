@@ -1,0 +1,55 @@
+{
+  "spo": "يدير مجمع حصص واحد",
+  "mpo": "يدير {{count}} مجمع حصص",
+  "retired": "تم التقاعد في epoch {{epoch}}",
+  "retiredIn": "تم التقاعد في epoch {{epoch}}",
+  "noRewards": "لن يكسب هذا المجمع أي مكافآت {{adaSymbol}}.",
+  "lessRewards": "سيكسب هذا المجمع مكافآت أقل من المعتاد.",
+  "history": "سجل المكافآت",
+  "fees": "الرسوم",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "الأخضر: ضمن النطاق الأمثل. الأحمر: يكسب مكافآت أقل."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "الأخضر: ضمن النطاق الطبيعي. الأحمر: يكسب مكافآت أقل."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "العائد على الحصة (Return On Stake). أداء آخر 12 فترة epoch. الأخضر: ضمن النطاق الطبيعي. سيتذبذب ROS بشكل أكبر للمجمعات ذات الحصة الأقل."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "المطالبة بالمكافآت",
+      "syncing": "Wallet قيد المزامنة",
+      "norewards": "لا توجد مكافآت متاحة"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "الشهر الماضي",
+      "3months": "آخر 3 أشهر",
+      "6months": "آخر 6 أشهر",
+      "year": "السنة الماضية"
+    },
+    "view-history": "عرض السجل",
+    "view-graph": {
+      "stake-key": "مفتاح تحصيص الحساب"
+    },
+    "approx-earning": "المكافآت المقدرة خلال العام القادم",
+    "unclaimed-ada": "ADA غير مُطالب بها",
+    "lifetime-earning": "إجمالاً لقد حققت",
+    "lifetime-apy": "نسبة العائد السنوي (APY) مدى الحياة",
+    "lifetime-earned": "منذ أن بدأ staking",
+    "epoch-ends-in": "تنتهي هذه epoch في",
+    "search": "أدخل رمز المجمع أو اسمه أو تفاصيله",
+    "delegate": "اختر هذا المجمع",
+    "openPoolList": "فتح قائمة المجمعات"
+  }
+}

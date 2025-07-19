@@ -1,0 +1,15 @@
+{
+  "title": "En cours - Vos ordres",
+  "caption": "Liste les ordres de swap on-chain en cours qui n'ont pas encore été traités.",
+  "loading": "Chargement des ordres...",
+  "noPending": "Aucun ordre en attente trouvé.",
+  "time": "Date",
+  "swap": "Swap",
+  "dexs": "DEX",
+  "via": "Via",
+  "types": {
+    "buy": "ACHETER",
+    "sell": "VENDRE",
+    "cancel": "ANNULER"
+  }
+}

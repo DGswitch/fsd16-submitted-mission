@@ -1,0 +1,21 @@
+{
+  "title": "交易詳情",
+  "inputsOutputs": "輸入/輸出",
+  "mints": "鑄造",
+  "withdrawals": "提取",
+  "certificates": "憑證",
+  "metadata": "__GT__元數據__",
+  "recipient": "收款人",
+  "scripts": "腳本",
+  "witnesses": "見證人",
+  "validFor": {
+    "label": "有效期至",
+    "unlimited": "無時間限制",
+    "expired": "過期交易"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "以 Tx Hash 或原始 Tx Cbor 載入",
+    "invalidTxHashOrCbor": "無效嘅 Tx Hash 或原始 Tx Cbor",
+    "invalidTxCbor": "無效嘅交易 cbor！"
+  }
+}

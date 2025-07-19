@@ -1,0 +1,56 @@
+{
+  "menuLabel": "__GT__質押__",
+  "title": "__GT__質押__儀表板",
+  "caption": "喺呢度你可以管理同埋委託你嘅 ADA 去一個 Stakepool，賺取被動收入。",
+  "subCaption": "喺 Cardano 上進行 __GT__質押__ 時，你嘅資金永遠唔會離開你嘅 __GT__錢包__，並且可以隨時使用。",
+  "staking-cta": {
+    "title": "賺取 __GT__質押__ 獎勵！",
+    "caption": "撳呢個掣嚟揀一個 stake pool。",
+    "button": "質押"
+  },
+  "poollist": {
+    "title": "可用嘅 stake pool",
+    "caption": "可用嘅 stake pool 列表。輸入池嘅 ticker 或名稱嚟篩選列表。排名會優先考慮為用戶帶嚟最佳獎勵嘅池。",
+    "filter": {
+      "search": "搜尋權益池..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "冇可用嘅權益池數據",
+      "undelegated": "未委託",
+      "delegated": "已委託",
+      "deregistered": "已撤銷註冊",
+      "registered": "已註冊",
+      "pending": "處理中",
+      "producing": "生產中"
+    },
+    "history": {
+      "label": "獎勵紀錄",
+      "caption": "按 epoch 排序嘅 __GT__質押__ 同 Catalyst 投票獎勵列表。",
+      "epoch": "$t(common:epoch)",
+      "rewards": "獎勵",
+      "refund": "權益池撤銷註冊退款",
+      "pool": "權益池",
+      "treasury": "Catalyst 投票",
+      "leader": "權益池營運者獎勵",
+      "reserves": "即時獎勵"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "請考慮委託俾 DRep 進行治理操作。喺下一個時代，需要咁做先可以提取 __GT__質押__ 獎勵。"
+      },
+      "inactive": "帳戶已委託俾一個標記為非活躍嘅治理 DRep，因此唔再計入有效投票權益。"
+    },
+    "warning": {
+      "high": {
+        "headline": "高權益池費用",
+        "caption": "呢個帳戶委託嘅權益池收取異常高嘅費用，會減少你嘅 __GT__質押__ 獎勵。如果係某種 ISPO，就冇問題。如果唔係，你應該揀過另一個收費較低嘅權益池。"
+      },
+      "complete": {
+        "headline": "99+% 權益池費用",
+        "caption": "呢個帳戶委託嘅權益池收取至少 99% 費用並收走你嘅 ADA 獎勵。如果係某種 ISPO，就冇問題。如果唔係，你應該揀過另一個收費較低嘅權益池。"
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet/add/common:phrase.title)",
+    "caption": "Schrijf alle woorden van uw wallet recovery phrase op een stuk papier in de exacte volgorde zoals hier getoond",
+    "notice": "Sla geen stappen over, deze woorden zijn cruciaal!",
+    "reveal": "Onthul recovery phrase",
+    "hidden": "Zorg ervoor dat niemand uw scherm kan zien"
+  },
+  "confirm": {
+    "title": "Bevestig recovery phrase",
+    "caption": "Controleer of u de juiste woorden heeft opgeschreven",
+    "instruction": "Selecteer het ",
+    "key_one": "<b>{{count}}</b>ste woord",
+    "key_two": "<b>{{count}}</b>de woord",
+    "key_few": "<b>{{count}}</b>de woord",
+    "key_other": "<b>{{count}}</b>de woord",
+    "incorrect": "Incorrect, probeer het opnieuw!"
+  },
+  "password": {
+    "title": "Stel spending password in",
+    "caption": "Stel een spending password in om uw wallet te beschermen. De beveiliging neemt toe met een langer wachtwoord.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet succesvol aangemaakt."
+  },
+  "error": {
+    "failed": "Aanmaken van wallet mislukt, probeer het opnieuw.",
+    "mnemonic": "Fout: createWallet: mnemonic niet ingesteld.",
+    "spendingPassword": "Fout: createWallet: spending password niet ingesteld.",
+    "paymentScript": "Fout: createWallet: payment script niet ingesteld.",
+    "address": "Fout: createWallet: address niet ingesteld.",
+    "paymentPrvKey": "Fout: createWallet: payment key niet ingesteld.",
+    "accountPubNotSet": "Fout: createWallet: account pub key list of address niet ingesteld.",
+    "walletName": "Fout: createWallet: walletName niet ingesteld.",
+    "account": "Kan wallet account niet ophalen, herlaad de pagina of neem contact op met support als dit probleem zich blijft voordoen."
+  }
+}

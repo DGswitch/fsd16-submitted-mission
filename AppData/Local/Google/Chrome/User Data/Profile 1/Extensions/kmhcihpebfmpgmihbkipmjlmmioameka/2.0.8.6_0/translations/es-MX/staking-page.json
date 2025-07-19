@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Panel de Staking",
+  "caption": "Aquí puedes administrar y delegar tu ADA a un Stakepool y obtener ingresos pasivos.",
+  "subCaption": "Tus fondos nunca salen de tu wallet al hacer staking en Cardano, y pueden gastarse en cualquier momento.",
+  "staking-cta": {
+    "title": "¡Gana recompensas de staking!",
+    "caption": "Haz clic en el botón para elegir un stake pool.",
+    "button": "Delegar"
+  },
+  "poollist": {
+    "title": "Stake pools disponibles",
+    "caption": "Una lista de stake pools disponibles. Ingresa el ticker o nombre de un pool para filtrar la lista. La clasificación prioriza las recompensas óptimas para el usuario.",
+    "filter": {
+      "search": "Buscar un pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "no hay datos de pools disponibles",
+      "undelegated": "no delegado",
+      "delegated": "delegado",
+      "deregistered": "dado de baja",
+      "registered": "registrado",
+      "pending": "pendiente",
+      "producing": "produciendo"
+    },
+    "history": {
+      "label": "Historial de Recompensas",
+      "caption": "Una lista de recompensas obtenidas por staking y votación de Catalyst ordenada por epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Recompensas",
+      "refund": "Reembolso por Baja de Pool",
+      "pool": "Pool",
+      "treasury": "Votación de Catalyst",
+      "leader": "Recompensas del Operador del Pool",
+      "reserves": "Recompensas Instantáneas"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Por favor, considera delegar a un DRep para acciones de gobernanza. Será requerido en la siguiente era para poder retirar las recompensas de staking"
+      },
+      "inactive": "La cuenta está delegada a un DRep de gobernanza que está marcado como inactivo y, por lo tanto, ya no cuenta para el stake de votación activo"
+    },
+    "warning": {
+      "high": {
+        "headline": "Tarifa de Pool Alta",
+        "caption": "El pool al que esta cuenta está delegada tiene una tarifa inusualmente alta que reducirá tus recompensas de staking. Si es algún tipo de ISPO, está bien. Si no, deberías elegir otro pool con tarifas más bajas"
+      },
+      "complete": {
+        "headline": "Tarifa de Pool del 99+%",
+        "caption": "El pool al que esta cuenta está delegada cobra al menos el 99% y recolecta tus recompensas de ADA. Si es algún tipo de ISPO, está bien. Si no, deberías elegir otro pool con tarifas más bajas"
+      }
+    }
+  }
+}

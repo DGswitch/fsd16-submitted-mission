@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Hudba z kolekce"
+  },
+  "ipfs": {
+    "loading": "Počkejte prosím, načítá se datový objekt.",
+    "error": "Chyba při načítání dat z IPFS, zkuste to prosím znovu, nebo kontaktujte podporu.",
+    "timeout": "Stahování souboru vypršelo, zkuste to prosím znovu, nebo kontaktujte podporu."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Musik från samling"
+  },
+  "ipfs": {
+    "loading": "Vänligen vänta, tillgången laddas.",
+    "error": "Fel vid laddning av data från ipfs, försök igen eller kontakta support.",
+    "timeout": "Nedladdning av filen tog för lång tid, försök igen eller kontakta support."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Pregled raspoloživih sredstava",
+  "toggleInfo": {
+    "active": "Prikaži opis",
+    "inactive": "Prikaži pregled"
+  },
+  "total": {
+    "label": "Sredstva na UTxO-ima"
+  },
+  "selected": {
+    "label": "Odabrani UTxO-i",
+    "info": "Ukupan iznos svih ručno odabranih UTxO-a."
+  },
+  "rewards": {
+    "label": "Nagrade (nije UTxO)",
+    "info": "Akumulirane nagrade, koje se mogu povući, ako je račun delegiran DRep-u."
+  },
+  "lockedInPendingInputs": {
+    "label": "Transakcije u obradi",
+    "info": "Ova sredstva se koriste u transakciji u obradi."
+  },
+  "lockedByCollateral": {
+    "label": "Kolateral (nije zaključan)",
+    "info": "Zaključana sredstva, koja će se koristiti kao kolateral od strane $t(common:appName) - Onemogući kolateral u postavkama računa da bi mogao/la koristiti ova sredstva."
+  },
+  "lockedUtxo": {
+    "label": "Zaključani UTxO-i",
+    "info": "Zaključana sredstva, koja ne mogu biti korištena od strane $t(common:appName) ili dapps - Ručno odaberi utxoe za otključavanje na stranici: Račun > UTxO Lista."
+  },
+  "lockedbytokens": {
+    "label": "Vezano za tokene",
+    "info": "Unutar Cardano, svaki token/nft ima određenu količinu {{currency}} vezanu za sebe. Iznos zaključan tokenima ti govori (otprilike) koliko je to za tvoj trenutni wallet."
+  },
+  "lockedByTokensTF": {
+    "label": "Za fragmentaciju tokena",
+    "info": "Organizovanje svih tvojih UTxO-a pomoću fragmentacije tokena bi vezalo ovoliko {{currency}}."
+  },
+  "lockedAsRewards": {
+    "label": "Zaključane Nagrade",
+    "info": "Nagrade se ne mogu koristiti u dappovima i prvo se moraju povući. $t(common:appName) to može uraditi automatski, idi na: Račun > Wallet Postavke > Automatsko Povlačenje, i omogući to. Za to račun mora biti delegiran DRep opciji."
+  },
+  "lockedFees": {
+    "label": "Naknade za transakcije",
+    "info": "Slanje transakcija na Cardano blockchain košta naknade za transakcije."
+  },
+  "lockedTotal": {
+    "label": "Procijenjeno zaključano",
+    "info": "Izračunat ukupan zaključan iznos."
+  },
+  "available": {
+    "label": "Procijenjeno raspoloživo",
+    "info": "Ovo su sredstva nakon oduzimanja svih zaključanih sredstava, koja se mogu poslati."
+  }
+}

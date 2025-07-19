@@ -1,0 +1,68 @@
+{
+  "menuLabel": "Seznam UTxO",
+  "title": "Seznam UTxO účtu",
+  "caption": "Seznam všech UTxO spravovaných tímto účtem, včetně množství a seznamu tokenů.",
+  "subCaption": "UTxO je jako bankovka libovolné hodnoty. Transakce ji utratí a vrátí 'drobné' zpět do tvé wallet.",
+  "empty": "Tento účet nemá žádné UTxO.",
+  "selectAll": "Vybrat vše",
+  "filter": {
+    "headline": "Filtr UTxO",
+    "caption": "Nastav parametry nebo zadej hledaný řetězec pro filtrování seznamu utxo.",
+    "search": "Hledat podle adresy, cesty nebo ID tx...",
+    "more": "Více",
+    "minada": "Minimální množství {{adaCurrency}}",
+    "maxada": "Maximální množství {{adaCurrency}}",
+    "numAssets": "Nalezeno {{numAssets}} unikátních assetů."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO na {{address_count}} adresách",
+    "pendingIn": {
+      "hint": "(čekající vstupy, utracené utxo)"
+    },
+    "pendingOut": {
+      "hint": "(čekající výstupy, vytvořené utxo)"
+    },
+    "opkosk": {
+      "label": "Získávání odměn",
+      "hint": "(platební klíč účtu, sázkový klíč účtu)"
+    },
+    "opk": {
+      "label": "Nestakováno",
+      "hint": "(platební klíč účtu, žádný sázkový klíč)"
+    },
+    "opkesk": {
+      "label": "delegováno externě",
+      "hint": "(platební klíč účtu, externí sázkový klíč)"
+    },
+    "epkosk": {
+      "label": "Externí prostředky, ale získávají odměny",
+      "hint": "(externí platební klíč, sázkový klíč účtu)"
+    },
+    "collateral": {
+      "label": "Kolaterál",
+      "hint": "(ne všechny jsou nastaveny jako kolaterál)"
+    },
+    "locked": {
+      "label": "uzamčené UTxO"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Rozpis stake",
+    "controlledStake": {
+      "label": "kontrolovaný stake",
+      "tooltip": "Celkové množství vsazené na sázkový klíč tohoto účtu (vlastněný, externí nebo v chytrých kontraktech)."
+    },
+    "ownedStake": {
+      "label": "Vlastněný stake",
+      "tooltip": "Množství stake pod přímou kontrolou tohoto účtu."
+    },
+    "notStaked": {
+      "label": "Nestakováno",
+      "tooltip": "{{currency}} není zastavená, prostředky jsou na podnikových adresách."
+    },
+    "externallyStaked": {
+      "label": "Externě vsazeno",
+      "tooltip": "{{currency}} kontrolovaná tímto účtem – kombinovaná s jakýmikoli externími staking klíči."
+    }
+  }
+}

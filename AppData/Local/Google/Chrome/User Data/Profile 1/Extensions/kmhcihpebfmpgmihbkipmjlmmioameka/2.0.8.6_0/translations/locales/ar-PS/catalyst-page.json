@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - تمويل المشاريع",
+  "caption": "Catalyst بتجيب نظام الحكم على السلسلة لـ Cardano blockchain.",
+  "subCaption": "ساعد في تشكيل مستقبل Cardano عن طريق التصويت على مقترحات التمويل",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "الصندوق الجاي",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "فشل حفظ مفتاح التصويت في تخزين wallet. يرجى التواصل مع الدعم للحصول على مزيد من المساعدة!",
+    "catalystkey": "مفتاح تصويت Catalyst مفقود. هذا مش لازم يصير، يرجى التواصل مع الدعم!",
+    "api": "مش قادرين نستعلم من API التصويت، يرجى إعادة التحميل أو التواصل مع الدعم إذا تكرر الأمر.",
+    "funds": "مطلوب على الأقل ###min_ada_catalyst### عشان wallet يكون مؤهل للمشاركة في التصويت.",
+    "rewards": "مكافآتك الـ ###rewards_amount### ما بتقدر تستخدمها في التصويت إلا إذا سحبتهم على wallet تبعك.",
+    "nometadata": "خطأ غير معروف، تسجيل metadata ما تكون بشكل صحيح، يرجى المحاولة مرة أخرى أو التواصل مع الدعم إذا تكرر الأمر."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "يرجى الملاحظة",
+      "caption": "حاليًا، التسجيل مفتوح للصندوق 10 من Catalyst. بعد هذا الحدث، التصويت على الصناديق المستقبلية راح يتم التعامل معه بشكل مختلف. انضم لمجتمعات Catalyst لمعرفة المزيد."
+    }
+  }
+}

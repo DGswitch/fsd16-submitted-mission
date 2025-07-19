@@ -1,0 +1,68 @@
+{
+  "title": "imprint",
+  "imprint": "Imprint",
+  "contact": "Contact",
+  "edc": "Eternl DRep Committee",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "DRep Id",
+    "text": "drep1y29h2q6cst2pvkl2sqqvf5ljcy36uv7pmy482xnczddzgqshus24w"
+  },
+  "discord": {
+    "label": "discord",
+    "text": "Націсніце, каб далучыцца да нашага discord-сервера $t(common:appName) (з сістэмай заявак у службу падтрымкі)"
+  },
+  "telegram": {
+    "label": "telegram",
+    "text": "Націсніце, каб далучыцца да нашага telegram-канала $t(common:appName)."
+  },
+  "github": {
+    "label": "github",
+    "text": "Калі ў вас ёсць прапанова па функцыянале, выкарыстоўвайце трэкер праблем GitHub. Націсніце, каб адкрыць яго на новай старонцы."
+  },
+  "email": {
+    "label": "email",
+    "text": "Напішыце нам па электроннай пошце на team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "email",
+    "text": "Напішыце нам па электроннай пошце на drep@eternl.io"
+  },
+  "address": {
+    "label": "Sitz der Gesellschaft",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nGermany"
+  },
+  "person": {
+    "label": "Vertretungsberechtigte Personen",
+    "text": "Marcel Baumberg (Geschäftsführer)"
+  },
+  "company": {
+    "label": "Angaben zum Unternehmen",
+    "text": "Umsatzsteuer Identifikationsnummer (USt-ID): DE264395179\nHandelsregister Amtsgericht Leipzig: HRB 24784"
+  },
+  "legallabel": "Haftungs- und Schutzrechtshinweise",
+  "legal0": {
+    "label": "Haftungsausschluss",
+    "text": "Змест гэтай анлайн-прапановы быў старанна створаны ў адпаведнасці з нашымі бягучымі ведамі, але ён прызначаны толькі для інфармацыі і не мае юрыдычна абавязковай сілы, за выключэннем выпадкаў, калі гэта юрыдычна абавязковая інфармацыя (напрыклад, выхадныя дадзеныя, палітыка прыватнасці, агульныя ўмовы або абавязковыя інструкцыі для спажыўцоў). Мы пакідаем за сабой права змяняць або выдаляць змест цалкам або часткова, паколькі дагаворныя абавязацельствы застаюцца некранутымі. Усе прапановы не з'яўляюцца абавязковымі."
+  },
+  "legal1": {
+    "label": "Links auf fremde Webseiten",
+    "text": "Змест знешніх вэб-сайтаў, на якія мы спасылаемся наўпрост або ўскосна, знаходзіцца па-за межамі нашай сферы адказнасці, і мы не прымаем яго як уласны. Мы не нясем ніякай адказнасці за ўвесь змест і недахопы, якія ўзнікаюць у выніку выкарыстання інфармацыі, даступнай на вэб-сайтах, на якія вядуць спасылкі."
+  },
+  "legal2": {
+    "label": "Urheberrechte und Markenrechte",
+    "text": "Увесь змест, прадстаўлены на гэтым сайце, напрыклад, тэксты, фатаграфіі, графіка, брэнды і гандлёвыя маркі, абаронены адпаведнымі правамі абароны (аўтарскія правы, правы на гандлёвыя маркі). Выкарыстанне, капіраванне і г.д. падпарадкоўваюцца нашым правам або правам адпаведных аўтараў або адміністратараў правоў."
+  },
+  "legal3": {
+    "label": "Hinweise auf Rechtsverstöße",
+    "text": "Калі вы заўважылі якія-небудзь парушэнні закона на нашым сайце, паведаміце нам пра гэта. Мы неадкладна выдалім незаконны кантэнт і спасылкі пасля таго, як даведаемся пра гэта."
+  },
+  "button": {
+    "home": "home"
+  }
+}

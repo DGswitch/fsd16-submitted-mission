@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "프로젝트 Catalyst",
+    "caption": "현재 펀딩 라운드에 대한 모든 소식을 읽어보세요.",
+    "text": "프로젝트 Catalyst는 몇 달마다 펀딩 라운드를 진행하며, 아이디어에 할당할 일정량의 ada가 준비되어 있습니다.\n\n이전 및 향후 모든 펀드에 대한 관련 정보는 프로젝트 Catalyst 웹사이트에서 확인하세요.",
+    "button": {
+      "label": "페이지 방문",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "모든 제안 찾아보기",
+    "text": "Catalyst는 협업 혁신 플랫폼으로 IdeaScale을 사용합니다.\n\n이는 특정 펀드의 과제를 해결하는 데 중점을 둔 커뮤니티 생성 제안에 대한 투표를 통해 이루어집니다.",
+    "button": {
+      "label": "더 알아보기",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "올인원 Catalyst 데이터 플랫폼",
+    "text": "Blockchain 교육, 아웃리치 및 글로벌 커뮤니티 구축:\n\n미래는 모두를 위한 것이니까요!",
+    "button": {
+      "label": "페이지 방문",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "뉴스레터",
+    "caption": "최신 정보 확인하기",
+    "text": "프로젝트 Catalyst 뉴스레터를 구독하여 최신 소식과 업데이트를 놓치지 마세요.",
+    "button": {
+      "label": "구독하기",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "커뮤니티 참여하기",
+    "text": "Telegram 토론 및 공지 채널에 참여하여 향후 Cardano 개선 제안에 대한 아이디어를 공유하고 건전하고 활발한 토론을 즐기세요.",
+    "button1": {
+      "label": "공지사항",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "커뮤니티 채팅",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "타운홀",
+    "caption": "빌더 만나보기",
+    "text": "매주 열리는 타운홀 미팅에서 Cardano의 미래 빌더들을 만나보세요. 실시간 발표를 시청하고 의미 있는 대화에 참여하세요.",
+    "button": {
+      "label": "주간 타운홀 녹화본",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "과제 표시",
+      "hide": "과제 숨기기",
+      "link": "과제 웹사이트",
+      "allocation": "펀드 할당"
+    },
+    "timeline": {
+      "caption": "아래 타임라인은 변경될 수 있습니다. 이 페이지를 다시 방문하고 Catalyst 주간 타운홀 미팅에 참여하여 최신 정보를 확인하세요.",
+      "snapshot": {
+        "label": "투표력 스냅샷",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "투표 시작",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "투표 종료",
+        "caption": ""
+      },
+      "result": {
+        "label": "결과",
+        "caption": "± 며칠"
+      }
+    }
+  }
+}

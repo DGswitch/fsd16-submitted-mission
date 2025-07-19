@@ -1,0 +1,6 @@
+{
+  "error": {
+
+    "upload":                 "Could not read uploaded file(s). You can import files containing plain cbor or transactions exported from $t('common:appName') wallet."
+  }
+}

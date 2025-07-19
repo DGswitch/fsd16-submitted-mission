@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "Zalijepi CBOR transakciju",
+  "error": {
+    "corrupted": "Učitana datoteka je oštećena, transakcija se ne može uvesti.",
+    "invalid": "Učitana datoteka nije validna JSON datoteka.",
+    "format": "Čini se da JSON datoteka ne sadrži izvezene podatke o transakciji."
+  }
+}

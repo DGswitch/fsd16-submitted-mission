@@ -1,0 +1,66 @@
+{
+  "uninitialized":              "Uninitialized",
+
+  "sent":                       "Send",
+  "received":                   "Received",
+
+  "withdrawal":                 "Withdrawal",
+  "deposit":                    "Deposit",
+  "intraWallet":                "Internal Transfer",
+  "external":                   "External Transaction",
+
+  "catalyst":                   "Catalyst Voting Registration",
+
+  "builder":                    "Builder",
+
+  "ada":                        "Funds",
+  "and":                        "and",
+  "tokens":                     "Tokens",
+
+  "unknown":                    "Unknown",
+
+  "build": {
+    "onBuiltTxCollateral":      "Collateral TX",
+    "onBuiltTxDelegation":      "Delegation TX",
+    "onBuiltTxDeregistration":  "Deregistration TX",
+    "onBuiltTxWithdrawal":      "Withdrawal",
+    "onBuiltTxCleanUpScam":     "Clean up scam tx",
+    "onBuiltTxSwap":            "Swap TX",
+    "onBuiltTxSwapCancel":      "Cancel Swap",
+    "onBuiltTxVoteReg":         "Vote Reg",
+    "onBuiltTxVoteDelegation":  "Vote Del",
+    "onBuiltTxTF":              "Token Fragmentation",
+    "doBuildTxCU":              "Collect UTXO",
+    "doBuildTxMSCU":            "Collect UTXO 2",
+    "cu":                       "UTxO Collection",
+    "mscu":                     "Collect UTxO Collection",
+    "other":                    "Sending ADA and Tokens"
+  },
+
+  "metadata": {
+    "messsage_one":             "This transaction contains a message.",
+    "messsage_other":           "This transaction contains {{count}} messages.",
+    "encMesssage":              "This transaction contains an encrypted message.",
+    "keys_one":                 "There is a metadata label present in this tx. Label: {{labels}}",
+    "keys_other":               "There are {{count}} metadata labels present in this tx. (Labels: {{labels}})",
+
+    "decrypt":                  "Decrypt message",
+    "decrypted":                "Decrypted message",
+    "error":                    "Could not decrypt message"
+  },
+
+  "type": {
+    "metadata_only": {
+      "label":                  "This is an consolidation in your wallet with attached metadata. Funds were moved inside of your wallet and only a tx fee was payed.",
+      "preview":                "The create transaction will be a consolidation inside your wallet with attached metadata. Funds will be move inside of your wallet and only a tx fee will payed."
+    },
+    "consolidation": {
+      "label":                  "This is an consolidation in your wallet that. Funds were moved inside of your wallet and only a tx fee was payed.",
+      "preview":                "The create transaction will be a consolidation inside your wallet. Funds will moved but only a tx fee will be payed."
+    },
+    "simple_send": {
+      "label":                  "Funds and/or tokens were send to an external address.",
+      "preview":                "Funds and/or tokens will be send to an external address."
+    }
+  }
+}

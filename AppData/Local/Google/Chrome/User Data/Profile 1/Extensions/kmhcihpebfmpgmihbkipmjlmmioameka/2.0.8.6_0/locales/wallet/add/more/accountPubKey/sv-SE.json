@@ -1,0 +1,6 @@
+{
+  "title": "Importera publik kontonyckel",
+  "caption": "Ange en publik kontonyckel (börjar vanligtvis med 'acct_xvk' eller 'xpub1') för att skapa en 'read-only' __GT__plånbok__.",
+  "placeholder": "acct_xvk...",
+  "error": "Ogiltig publik kontonyckel, kontrollera och försök igen."
+}

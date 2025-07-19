@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Signat",
+    "hover": "Aquesta transacció està signada però encara no s'ha enviat."
+  },
+  "inputSigned": {
+    "label": "Signat",
+    "hover": "La signatura per aquesta entrada s'ha proporcionat."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "El redemptor per aquest contracte s'ha proporcionat."
+  },
+  "inputUnsigned": {
+    "label": "Sense signar",
+    "hover": "Falta la signatura per aquesta entrada."
+  }
+}

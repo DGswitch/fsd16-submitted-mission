@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Música de la col·lecció"
+  },
+  "ipfs": {
+    "loading": "Si us plau, espera, s'està carregant l'actiu.",
+    "error": "Error en carregar dades d'ipfs, si us plau, torna-ho a provar o contacta amb el suport.",
+    "timeout": "La descàrrega del fitxer ha superat el temps límit, si us plau, torna-ho a provar o contacta amb el suport."
+  }
+}

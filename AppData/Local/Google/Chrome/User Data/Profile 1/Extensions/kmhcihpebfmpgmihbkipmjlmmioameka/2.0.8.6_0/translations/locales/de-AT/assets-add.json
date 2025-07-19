@@ -1,0 +1,11 @@
+{
+  "title": "Vermögenswerte hinzufügen",
+  "warning": {
+    "notAllAdded": "Das Hinzufügen weiterer Vermögenswerte zu dieser Ausgabe ist nicht erlaubt. Füge eine weitere Ausgabe hinzu, um weitere Vermögenswerte einzufügen. Es dürfen nur bis zu drei vollständig gefüllte Ausgaben in einer Transaktion vorhanden sein."
+  },
+  "button": {
+    "addAll": "Alle hinzufügen",
+    "addSearch": "Alle gefiltert hinzufügen",
+    "addPage": "Alle auf der Seite hinzufügen"
+  }
+}

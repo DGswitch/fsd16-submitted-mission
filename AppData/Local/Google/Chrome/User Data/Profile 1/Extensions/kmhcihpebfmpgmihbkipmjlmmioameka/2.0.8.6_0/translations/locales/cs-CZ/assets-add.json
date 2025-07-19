@@ -1,0 +1,11 @@
+{
+  "title": "Přidat aktiva",
+  "warning": {
+    "notAllAdded": "Přidávání dalších aktiv do tohoto výstupu není povoleno. Přidej další výstup, abys mohl zahrnout více aktiv. V transakci mohou být pouze tři plně vyplněné výstupy."
+  },
+  "button": {
+    "addAll": "Přidat vše",
+    "addSearch": "Přidat vše filtrované",
+    "addPage": "Přidat vše na stránce"
+  }
+}

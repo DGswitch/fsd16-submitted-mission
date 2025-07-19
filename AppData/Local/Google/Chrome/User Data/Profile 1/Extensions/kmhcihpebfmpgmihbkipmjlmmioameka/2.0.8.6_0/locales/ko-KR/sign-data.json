@@ -1,0 +1,12 @@
+{
+  "title": "확인할 데이터가 있습니다",
+  "caption": "제공된 payload에 서명하여 요청된 키의 소유권을 확인하세요",
+  "loading": "서명할 데이터 처리 중",
+  "signing": "Payload 서명 중",
+  "hw": "{{device}} 기기에서 payload 서명 중",
+  "json": "JSON payload",
+  "hex": "Raw payload",
+  "text": "텍스트",
+  "blake2b224": "Payload의 Blake2b224 해시",
+  "reqSign": "서명 요청됨: {{keyType}} 키"
+}

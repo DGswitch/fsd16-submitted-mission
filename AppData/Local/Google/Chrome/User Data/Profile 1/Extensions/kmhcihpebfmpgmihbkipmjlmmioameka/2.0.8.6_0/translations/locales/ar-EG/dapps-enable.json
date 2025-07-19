@@ -1,0 +1,36 @@
+{
+  "title": "اتصال بـ ",
+  "caption": "متعاملش غير مع الـ dApps اللي بتثق فيها! يا ريت تتأكد إن الـ URL صحيحة وإنها آمنة (HTTPS).",
+  "label": {
+    "possibleScam": "احتيال محتمل",
+    "notSecure": "غير آمن",
+    "confirmRisk": "أنا فاهم المخاطر",
+    "grantAccess": "منح الإذن"
+  },
+  "noAccount": {
+    "title": "مفيش حساب dApp متسجل",
+    "caption": "مفيش حساب dApp متسجل في $t(common:appName). حول للتطبيق $t(common:appName) الكامل واعمل أو استورد محفظة رقمية (maḥfaẓa raqamiya).",
+    "openUI": "افتح التطبيق"
+  },
+  "disabled": {
+    "title": "اتصالات Dapp معطلة",
+    "caption": "حالياً مفيش أي اتصالات dapp مسموحة. دوس على الزرار اللي تحت عشان تشغلها.",
+    "allow": "السماح باتصالات dapp"
+  },
+  "access": {
+    "url": "URL",
+    "features": "المميزات"
+  },
+  "cip30": {
+    "title": "DApp Connector (CIP30)",
+    "caption": "بتسمح بقراءة رصيدك وبتطلب توقيع المعاملات. هتقدر تراجع المعاملة قبل ما توقع."
+  },
+  "cip95": {
+    "title": "Cardano Governance (CIP95)",
+    "caption": "بتسمح بقراءة بيانات اعتماد التصويت بتاعتك."
+  },
+  "cip104": {
+    "title": "Account Public Key (CIP104)",
+    "caption": "بتسمح بتصدير المفتاح العام للحساب. يرجى ملاحظة أن ده هيسمح لـ DApp باشتقاق أي عنوان للحساب المتصل."
+  }
+}

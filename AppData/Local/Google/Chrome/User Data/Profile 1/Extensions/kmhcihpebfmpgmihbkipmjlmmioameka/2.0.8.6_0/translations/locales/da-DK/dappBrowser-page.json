@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp Browser",
+  "title": "Dapp Browser",
+  "caption": "Opret forbindelse til Cardano dApps.",
+  "subCaption": "",
+  "connect": "Opret forbindelse til {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Indtast dapp domæne"
+    }
+  }
+}

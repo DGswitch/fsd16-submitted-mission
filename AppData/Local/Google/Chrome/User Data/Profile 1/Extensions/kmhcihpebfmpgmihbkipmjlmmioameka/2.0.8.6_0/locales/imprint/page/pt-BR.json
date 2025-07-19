@@ -1,0 +1,68 @@
+{
+  "title": "Informações Legais",
+  "imprint": "Informações Legais",
+  "contact": "Contato",
+  "edc": "__GT__Comité DRep__ Eternl__",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "ID DRep",
+    "text": "drep13d6sxkyz6st9h65qqrzd8ukpywhr8swe9f6357qntgjqye0gttd"
+  },
+  "discord": {
+    "label": "Discord",
+    "text": "Clique para entrar no nosso servidor Discord $t(common:appName) (com sistema de tickets de suporte)"
+  },
+  "telegram": {
+    "label": "Telegram",
+    "text": "Clique para entrar no nosso canal do Telegram $t(common:appName)."
+  },
+  "github": {
+    "label": "GitHub",
+    "text": "Se tiver um pedido de funcionalidade, por favor use o tracker de issues do GitHub. Clique para abrir numa nova página."
+  },
+  "email": {
+    "label": "email",
+    "text": "Escreva-nos um email para team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "email",
+    "text": "Escreva-nos um email para drep@eternl.io"
+  },
+  "address": {
+    "label": "Sede da Empresa",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nAlemanha"
+  },
+  "person": {
+    "label": "Pessoas Autorizadas a Representar",
+    "text": "Marcel Baumberg (Diretor Executivo)"
+  },
+  "company": {
+    "label": "Detalhes da Empresa",
+    "text": "Número de Identificação Fiscal (USt-ID): DE264395179\nRegisto Comercial Tribunal Distrital de Leipzig: HRB 24784"
+  },
+  "legallabel": "Avisos de Responsabilidade e Direitos de Propriedade",
+  "legal0": {
+    "label": "Exoneração de Responsabilidade",
+    "text": "O conteúdo desta oferta online foi criado cuidadosamente e de acordo com o nosso conhecimento atual, mas destina-se apenas a fins informativos e não tem qualquer efeito juridicamente vinculativo, a menos que se trate de informações legalmente obrigatórias (por exemplo, as informações legais, a política de privacidade, os T&C ou instruções obrigatórias para os consumidores). Reservamo-nos o direito de alterar ou eliminar o conteúdo total ou parcialmente, desde que as obrigações contratuais permaneçam inalteradas. Todas as ofertas são sujeitas a alterações e não vinculativas."
+  },
+  "legal1": {
+    "label": "Links para Websites Externos",
+    "text": "O conteúdo de websites externos, para os quais remetemos direta ou indiretamente, está fora da nossa área de responsabilidade e não o adotamos como nosso. Não assumimos qualquer responsabilidade por todo o conteúdo e desvantagens que resultem da utilização das informações acessíveis nos websites ligados."
+  },
+  "legal2": {
+    "label": "Direitos de Autor e Direitos de Marca",
+    "text": "Todos os conteúdos apresentados neste website, tais como textos, fotografias, gráficos, marcas e marcas registadas, estão protegidos pelos respetivos direitos de proteção (direitos de autor, direitos de marca). A utilização, reprodução, etc., estão sujeitas aos nossos direitos ou aos direitos dos respetivos autores ou administradores de direitos."
+  },
+  "legal3": {
+    "label": "Avisos sobre Violações Legais",
+    "text": "Caso note alguma violação legal no nosso website, pedimos que nos informe sobre ela. Removeremos conteúdos e links ilegais imediatamente após tomarmos conhecimento."
+  },
+  "button": {
+    "home": "Início"
+  }
+}

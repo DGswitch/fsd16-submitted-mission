@@ -1,0 +1,107 @@
+{
+  "title": "Proposta de governança",
+  "proposedEpoch": "Proposat epoch",
+  "expiryEpoch": "Caducitat epoch",
+  "enactedEpoch": "Promulgat epoch",
+  "totalVotes": "Total de vots",
+  "yes": "$t(common:vote.yes)",
+  "govAction": {
+    "id": "Id d'acció de governança",
+    "missing": "Id d'acció de governança desconeguda",
+    "summary": {
+      "voteStart": "Inici de la votació ($t(common:epoch)/$t(common:slot))",
+      "voteEnd": "Final de la votació ($t(common:epoch)/temps restant)",
+      "deposit": "$t(common:deposit)",
+      "depositReturnAddress": "Adreça de retorn $t(common:deposit)"
+    },
+    "details": {
+      "dRep": {
+        "label": "$t(governance-govActionList:voteGroup.dRep) ($t(common:dRep))",
+        "approvalThreshold": "llindar d'aprovació",
+        "table": {
+          "header": {
+            "votes": "Vots",
+            "amount": "Import",
+            "percent": "Percentatge",
+            "count": "Recompte"
+          },
+          "rows": {
+            "yesVoteStake": "SÍ",
+            "noVoteStake": "NO",
+            "abstainVoteStake": "Abstenció"
+          }
+        }
+      },
+      "dRepStakeParticipation": {
+        "label": "Participació de la participació $t(common:dRep)",
+        "hasVoted": "ha votat",
+        "hasNotVoted": "no ha votat"
+      },
+      "spo": {
+        "label": "$t(governance-govActionList:voteGroup.spo) ($t(common:spo))",
+        "approvalThreshold": "llindar d'aprovació",
+        "table": {
+          "header": {
+            "votes": "Vots",
+            "amount": "Import",
+            "percent": "Percentatge",
+            "count": "Recompte"
+          },
+          "rows": {
+            "yesVoteStake": "SÍ",
+            "noVoteStake": "NO",
+            "abstainVoteStake": "Abstenció"
+          }
+        }
+      },
+      "spoStakeParticipation": {
+        "label": "Participació de la participació $t(common:spo)",
+        "hasVoted": "ha votat",
+        "hasNotVoted": "no ha votat"
+      },
+      "cc": {
+        "label": "Comitè Constitucional",
+        "approvalThreshold": "llindar d'aprovació",
+        "table": {
+          "header": {
+            "name": "Nom",
+            "status": "Estat"
+          },
+          "rows": {
+            "yesVoteStake": "SÍ",
+            "noVoteStake": "NO",
+            "abstainVoteStake": "Abstenció"
+          }
+        }
+      }
+    },
+    "meta": {
+      "abstract": "Abstracte",
+      "motivation": "Motivació",
+      "rationale": "Raonament",
+      "references": "Referències"
+    }
+  },
+  "voteGroup": {
+    "currentStatus": {
+      "label": "Estat actual",
+      "text": "Perquè aquesta proposta tiri endavant, el {{voteGroup}} ha de votar"
+    },
+    "dRep": "representants delegats",
+    "spo": "operadors de pools de staking",
+    "cc": "comitè constitucional",
+    "and": "$t(common:and)"
+  },
+  "tab": {
+    "summary": "Resum",
+    "details": "Detalls del vot",
+    "metadata": "Metadata"
+  },
+  "filter": {
+    "search": "Cerca una acció de governança..."
+  },
+  "select": {
+    "proposalType": "Tipus de proposta",
+    "proposalStatus": "Estat de la proposta"
+  }
+}

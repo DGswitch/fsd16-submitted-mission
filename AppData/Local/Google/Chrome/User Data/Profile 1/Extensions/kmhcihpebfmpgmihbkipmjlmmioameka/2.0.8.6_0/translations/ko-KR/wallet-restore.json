@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "12 단어 복구 구문",
+      "caption": "12 단어의 Shelley wallet입니다."
+    },
+    "15": {
+      "label": "15 단어 복구 구문",
+      "caption": "예: Yoroi Shelley wallet."
+    },
+    "24": {
+      "label": "24 단어 복구 구문",
+      "caption": "예: Eternl 또는 Daedalus에서 생성한 Shelley wallet입니다."
+    },
+    "title": "복구 구문 유형",
+    "caption": "어떤 종류의 wallet을(를) 복구하시겠습니까?"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "저장된 복구 구문을 입력하세요."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "is": {
+    "label": "インプット選択",
+    "caption": "アカウント内の特定の utxo を使用することで、インプット選択を制御します。",
+    "reset": "インプット選択をリセット"
+  },
+  "import": {
+    "label": "トランザクションのインポート",
+    "caption": "Eternl または他のソースからエクスポートされた、署名済みまたは未署名のトランザクションをインポートします。",
+    "upload": "トランザクションファイルをアップロードするか、未加工のトランザクションcborを貼り付けます。"
+  },
+  "tf": {
+    "label": "トークンフラグメンテーション",
+    "caption": "資産を複数の utxo に分散させて、将来のトランザクション手数料を削減します。"
+  },
+  "cu": {
+    "label": "UTxO コレクション",
+    "caption": "このアカウントの UTxO を収集し、基本的にはより少ない数に統合します。一度に最大10件のトランザクションが作成されます。処理には時間がかかる場合があります。"
+  },
+  "ms": {
+    "label": "特別コレクション",
+    "label2": "ウォレット で収集",
+    "caption": "この ms fee ウォレット の UTxO を収集し、基本的にはより少ない数に統合します。一度に最大10件のトランザクションが作成されます。処理には時間がかかる場合があります。"
+  },
+  "donation": {
+    "label": "1 ADA を寄付して $t(common:appName) の開発を支援する",
+    "caption": "Eternl を気に入っていただけましたら幸いです！このトランザクションで 1 ADA を送信し、私たちのプロジェクト開発をご支援いただけると幸いです。"
+  },
+  "customMetadata": {
+    "label": "カスタム Metadata",
+    "caption": "仕様に従って、JSON形式でカスタム metadata スキーマを追加します。",
+    "placeholder": "JSONを貼り付け / 入力",
+    "urllabel": "cardano.org の metadata json 形式に関するドキュメント",
+    "added": "以下の metadata がトランザクションに追加されました：",
+    "schemainfo": {
+      "NoConversions": "JSONと Metadata 間の最小限の共有機能セット間で忠実に変換します。",
+      "BasicConversions": "バイト（hex文字列として）および整数キー（文字列として）の追加サポートを追加します。",
+      "DetailedSchema": "冗長なJSONスキーマですが、metadata 変換のための最大の柔軟性を備えています。"
+    },
+    "banner": {
+      "error": {
+        "title": "有効な Cardano JSON 一般 metadata スキーマではありません",
+        "json": "無効なJSONです。",
+        "label": "無効なラベルです。\nトップレベルのキーは -(2^64 - 1) から (2^64 - 1) の範囲内の一意の整数である必要があります。"
+      }
+    }
+  },
+  "metadata": {
+    "label": "オンチェーン $t(common:message.label) を追加",
+    "caption": "トランザクションにメッセージ/コメント/メモを追加します。\n複数行のメッセージを入力するには「ENTER」を押してください。",
+    "enableEncryption": "暗号化を有効にする",
+    "placeholder": "トランザクションメッセージを入力",
+    "error": {
+      "overflow": "1行あたりの文字数は64文字に制限されています。Enterキーを押して新しい行を追加してください",
+      "invalidJSON": "有効な Cardano JSON 一般 metadata スキーマではありません"
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "donation": {
+    "label": "Адрес за дарения",
+    "hover": "Благодарим ви за подкрепата!"
+  },
+  "eternlburn": {
+    "label": "Изгаряне на Eternl Wallet",
+    "hover": "Адрес за изгаряне"
+  },
+  "eternlFee": {
+    "label": "Такса за Dapp Browser",
+    "hover": "Такса, която помага за поддръжката на услугите на Eternl."
+  },
+  "swapFee": {
+    "label": "Такса за услуга",
+    "hover": "Такса, която помага за поддръжката на услугите на Eternl."
+  },
+  "collateral": {
+    "label": "Eternl Collateral адрес"
+  },
+  "script": {
+    "label": "Скрипт"
+  },
+  "noscript": {
+    "label": "Не е скрипт адрес"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Етикет за докладване"
+  },
+  "ext": {
+    "label": "външен",
+    "hover": "Този адрес е непознат за Eternl."
+  },
+  "openWallet": {
+    "hover": "Кликнете, за да отворите wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Превключване към акаунт: {{name}}"
+  },
+  "contract": {
+    "hover": "Договор {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "Транзакцията съдържа регистрация за гласуване в Catalyst"
+  },
+  "multisig": {
+    "label": "Multi-Sig Reg",
+    "hover": "Транзакцията съдържа Multi-Sig wallet регистрация"
+  },
+  "metadata": {
+    "label": "Meta",
+    "hover": "Транзакцията съдържа metadata"
+  },
+  "withdrawal": {
+    "label": "Изтегляне",
+    "hover": "Транзакцията съдържа изтегляне на награди"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "Транзакцията съдържа създадени токени"
+  },
+  "burn": {
+    "label": "Изгаряне",
+    "hover": "Транзакцията съдържа изгорени токени"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Wallet / Регистрация на Stake ключ"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "Транзакцията съдържа сертификат за управление"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "Дерегистрация на Wallet"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "Делегиране към Stake pool"
+  },
+  "poolreg": {
+    "label": "Pool reg",
+    "hover": "Регистрация на Stake pool"
+  },
+  "poolupd": {
+    "label": "Pool update",
+    "hover": "Актуализация на Stake pool"
+  },
+  "poolret": {
+    "label": "Pool retire",
+    "hover": "Оттегляне на Stake pool"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Cardano native/multi-sig скрипт"
+  },
+  "plutus": {
+    "label": "Contract",
+    "hover": "Cardano Plutus договор"
+  },
+  "onchain": {
+    "label": "On-chain",
+    "hover": "Транзакцията е включена в блок"
+  },
+  "confirmed": {
+    "label": "Потвърдена",
+    "hover": "Транзакцията е подписана и готова за изпращане"
+  },
+  "pendingapproval": {
+    "label": "Чака одобрение",
+    "hover": "Транзакцията очаква допълнителни подписи от wallet(и) под твой контрол"
+  },
+  "awaitingothers": {
+    "label": "В очакване на другите",
+    "hover": "Транзакцията очаква допълнителни подписи от външни участници"
+  },
+  "invalid": {
+    "label": "Невалидна",
+    "hover": "Един от входовете на тази транзакция е бил използван в друга транзакция."
+  },
+  "pending": {
+    "label": "В очакване",
+    "hover": "Транзакцията все още чака да бъде изпълнена"
+  },
+  "staging": {
+    "label": "Неподписана",
+    "hover": "Тази транзакция все още не е подписана."
+  },
+  "signed": {
+    "label": "Подписана",
+    "hover": "Тази транзакция е подписана, но все още не е изпратена."
+  },
+  "inputSigned": {
+    "label": "Подписана",
+    "hover": "Подписът за този вход е предоставен."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Redeemer-ът за този договор е предоставен."
+  },
+  "inputUnsigned": {
+    "label": "Неподписана",
+    "hover": "Липсва подписът за този вход."
+  },
+  "validFor": {
+    "label": "Валидна до",
+    "hover": "Транзакцията ще бъде изпълнена евентуално или ще стане невалидна, ако вход utxo бъде използван от друга транзакция."
+  },
+  "unlockTimeStamp": {
+    "label": "Отключване на",
+    "hover": "Тези средства от Staking Vault ще бъдат отключени на тази дата."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Тази транзакция заключва средства в Staking Vault."
+  },
+  "unlimited": {
+    "label": "Без ограничение във времето",
+    "hover": "Транзакцията ще бъде изпълнена евентуално или ще стане невалидна, ако вход utxo бъде използван от друга транзакция."
+  },
+  "expired": {
+    "label": "Изтекла",
+    "hover": "Времето за изпълнение на транзакцията е изтекло"
+  },
+  "setTTL": {
+    "label": "Задай TTL",
+    "hover": "Задай време на живот на транзакцията"
+  },
+  "remove": {
+    "label": "Премахни",
+    "hover": "Кликни, за да премахнеш изтекла или невалидна транзакция.",
+    "hoverNote": "Премахни само ако си сигурен, че тази транзакция няма да бъде изпълнена."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Твой wallet адрес"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Външен адрес"
+  },
+  "donation_address": {
+    "label": "Дарение",
+    "hover": "$t(common:appName) адрес за дарение"
+  },
+  "swap_fee": {
+    "label": "Frontend Fee",
+    "hover": "$t(common:appName) адрес за frontend fee"
+  },
+  "eternl_fee": {
+    "label": "Frontend Fee",
+    "hover": "$t(common:appName) адрес за fee"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Staking vault timelock адрес"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "Задай име на организацията за този адрес."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Адрес на смарт договор"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Bridged Cross Chain Transaction към Milkomeda"
+  },
+  "submit": {
+    "label": "Изпрати транзакция",
+    "hover": "Транзакцията все още не е изпратена. Кликни тук, за да я изпратиш."
+  },
+  "nosubmitted": {
+    "label": "Не е изпратена",
+    "hover": "Транзакцията беше подписана, но не е изпратена."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Нормален адрес"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Разрешен Ada Handle адрес, започващ с $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Разрешен Unstoppable Domains адрес, завършващ на .clay"
+  },
+  "new": {
+    "label": "Ново",
+    "hover": "Непрочетено известие"
+  },
+  "updated": {
+    "label": "Актуализирано",
+    "hover": "Съдържанието на известието е актуализирано след последното четене"
+  },
+  "payment": {
+    "label": "Плащане",
+    "hover": "Скрипт за плащане"
+  },
+  "stake": {
+    "label": "Залог",
+    "hover": "Скрипт за залог"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "Nombre y Grupo",
+    "caption": "Actualiza el nombre de tu wallet o grupo.",
+    "setting": {
+      "caption": "$t(settings-wallet:walletName.caption)",
+      "name": "Nombre de Wallet",
+      "group": "Grupo de Wallet",
+      "error": {
+        "empty": {
+          "name": "El nombre de Wallet no puede estar vacío.",
+          "group": "El grupo de Wallet no puede estar vacío."
+        },
+        "duplicate": {
+          "name": "Ya existe una wallet con este nombre."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "Contraseña de Gasto de Wallet",
+    "caption": "Actualiza la contraseña de gasto de tu wallet.",
+    "setting": {
+      "caption": "Actualiza la contraseña de gasto de tu wallet. Ingresa la anterior, luego ingresa una nueva contraseña de gasto larga. Cuanto más larga sea la contraseña, más segura será tu wallet.",
+      "updated": "Actualización de contraseña de gasto de Wallet.",
+      "error": "No se pudo actualizar la contraseña de Wallet."
+    }
+  },
+  "biometrics": {
+    "title": "Gasto con Biométricos",
+    "caption": "Usa la función de Biométricos en lugar de la contraseña.",
+    "setting": {
+      "caption": "$t(settings-wallet:biometrics.caption)",
+      "activate": {
+        "label": "Activar Biométricos",
+        "description": "Ingresa tu contraseña de gasto actual para habilitar el gasto con las funciones biométricas de tu teléfono."
+      },
+      "deactivate": {
+        "label": "Desactivar Biométricos",
+        "description": "Al firmar una transacción, usaremos la función de Biométricos de tu teléfono en lugar de tu contraseña."
+      }
+    }
+  },
+  "icon": {
+    "title": "Ícono de Wallet",
+    "caption": "Establece un ícono personalizado para wallet o genera un ícono aleatorio para wallet.",
+    "setting": {
+      "caption": "$t(settings-wallet:icon.caption)",
+      "select": "Seleccionar Ícono",
+      "regenerateIcon": "Aleatorizar",
+      "resetToDefault": "Restablecer predeterminado"
+    }
+  },
+  "exportWallet": {
+    "title": "Exportar Wallet",
+    "caption": "Exportación JSON segura de wallet que permite la importación en otros navegadores/dispositivos.",
+    "setting": {
+      "caption": "Los archivos de respaldo .json exportados de $t(common:appName) pueden importarse en cualquier otra app de $t(common:appName).",
+      "subCaption": "Un respaldo .json incluye notas de transacción y configuraciones de wallet/cuenta.",
+      "button": {
+        "label": "Exportar Wallet"
+      },
+      "banner": {
+        "title": "¡Importante!",
+        "text": "Para hot wallets, la exportación incluye la private key encriptada. Mantén seguro el archivo exportado y no lo compartas con nadie."
+      }
+    }
+  },
+  "reSync": {
+    "title": "Resincronizar wallet",
+    "caption": "Forzar una resincronización completa de wallet.",
+    "setting": {
+      "caption": "$t(settings-wallet:reSync.caption)",
+      "subCaption": "Presionar este botón restablecerá todos los datos de wallet y la resincronizará completamente desde la blockchain.",
+      "button": {
+        "label": "Re-sincronizar Wallet"
+      }
+    }
+  },
+  "verification": {
+    "title": "Verificación de frase de recuperación",
+    "caption": "Verifica que hayas guardado la frase de recuperación correcta para una wallet.",
+    "setting": {
+      "caption": "$t(settings-wallet:verification.caption) Una vez verificada, también puedes cambiar tu contraseña de gasto.",
+      "start": "Verificar frase",
+      "match": {
+        "label": "La frase de recuperación ingresada es correcta.",
+        "spending": "Cambiar contraseña de gasto"
+      },
+      "invalid": "La frase de recuperación ingresada no es correcta para esta wallet."
+    }
+  },
+  "deleteWallet": {
+    "title": "Eliminar Wallet",
+    "caption": "Eliminar la wallet y todas sus cuentas.",
+    "setting": {
+      "caption": "Una vez que elimines esta wallet, será eliminada de esta app $t(common:appName) y perderás acceso a cualquier fondo restante en esta wallet.",
+      "subCaption": "La única forma de recuperar el acceso después de eliminarla es restaurando tu frase de recuperación de wallet o importando un archivo de respaldo $t(common:appName).json previamente exportado.",
+      "subCaption2": "Para una importación más fácil, exporta como respaldo $t(common:appName).json antes de eliminarla.\n\n¡Asegúrate de que la seed phrase de esta wallet esté guardada de forma segura!",
+      "acknowledged": "Entiendo que la única forma de recuperar el acceso a esta wallet es restaurándola usando su frase de recuperación de wallet.",
+      "name": "Ingresa el nombre de la wallet",
+      "error": {
+        "name": "Ingresa el nombre correcto de la wallet para confirmar la eliminación.",
+        "acknowledged": "Por favor, lee y acepta la información anterior."
+      }
+    }
+  }
+}

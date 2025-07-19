@@ -1,0 +1,11 @@
+{
+  "title": "Assets hinzufügen",
+  "warning": {
+    "notAllAdded": "Das Hinzufügen weiterer Assets zu diesem Output ist nicht erlaubt. Füge einen weiteren Output hinzu, um mehr Assets einzuschließen. Es können nur bis zu drei vollständig gefüllte Outputs in einer Transaktion vorhanden sein."
+  },
+  "button": {
+    "addAll": "Alle hinzufügen",
+    "addSearch": "Alle gefilterten hinzufügen",
+    "addPage": "Alle auf der Seite hinzufügen"
+  }
+}

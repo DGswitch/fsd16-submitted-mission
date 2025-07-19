@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "ተፈርሟል",
+    "hover": "ይህ ግብይት ተፈርሟል ነገር ግን ገና አልቀረበም።"
+  },
+  "inputSigned": {
+    "label": "ተፈርሟል",
+    "hover": "የዚህ ግብዓት ፊርማ ቀርቧል።"
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "የዚህ ኮንትራት አስመለሽ ቀርቧል።"
+  },
+  "inputUnsigned": {
+    "label": "ያልተፈረመ",
+    "hover": "የዚህ ግብዓት ፊርማ የለም።"
+  }
+}

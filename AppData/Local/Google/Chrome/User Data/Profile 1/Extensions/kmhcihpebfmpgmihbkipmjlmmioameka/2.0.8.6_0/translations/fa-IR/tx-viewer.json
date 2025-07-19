@@ -1,0 +1,21 @@
+{
+  "title": "جزئیات تراکنش",
+  "inputsOutputs": "ورودی‌ها/خروجی‌ها",
+  "mints": "مینت‌ها",
+  "withdrawals": "برداشت‌ها",
+  "certificates": "گواهی‌ها",
+  "metadata": "فراداده",
+  "recipient": "گیرنده",
+  "scripts": "اسکریپت‌ها",
+  "witnesses": "شاهدان",
+  "validFor": {
+    "label": "معتبر برای",
+    "unlimited": "بدون محدودیت زمانی",
+    "expired": "تراکنش منقضی شده"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "بارگذاری با هش تراکنش یا Cbor خام تراکنش",
+    "invalidTxHashOrCbor": "هش تراکنش یا Cbor خام تراکنش نامعتبر",
+    "invalidTxCbor": "Cbor تراکنش نامعتبر!"
+  }
+}

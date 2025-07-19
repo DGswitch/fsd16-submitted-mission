@@ -1,0 +1,16 @@
+{
+  "empty":                    "This account does not have any UTxOs.",
+
+  "selectall":                "Select all",
+
+  "filters": {
+
+    "headline":               "UTxO Filter",
+    "caption":                "Set parameters or enter a search string to filter utxo list.",
+    "search":                 "Search by address, path or tx id...",
+    "more":                   "More",
+    "minada":                 "Min {{adaCurrency}} amount",
+    "maxada":                 "Max {{adaCurrency}} amount",
+    "numassets":              "{{numAssets}} unique asset(s) found."
+  }
+}

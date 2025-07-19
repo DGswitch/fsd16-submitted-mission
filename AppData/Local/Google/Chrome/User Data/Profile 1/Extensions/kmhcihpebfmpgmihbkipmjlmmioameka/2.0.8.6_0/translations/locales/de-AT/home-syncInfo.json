@@ -1,0 +1,17 @@
+{
+  "idle": "Auf dem neuesten Stand",
+  "initializing": "Initialisierung läuft",
+  "queued": "In der Warteschlange",
+  "syncing": "Synchronisierung läuft",
+  "preparingFor": "wird vorbereitet für",
+  "syncingFor": "Synchronisierung läuft seit",
+  "notSyncedYet": "noch nicht synchronisiert",
+  "success": "Fertig",
+  "skipped": "Fertig",
+  "synced": "synchronisiert {{time}}",
+  "error": "Fehlgeschlagen",
+  "manual": "Manuell",
+  "update": {
+    "tooltip": "Erzwinge eine Aktualisierung des Kontos."
+  }
+}

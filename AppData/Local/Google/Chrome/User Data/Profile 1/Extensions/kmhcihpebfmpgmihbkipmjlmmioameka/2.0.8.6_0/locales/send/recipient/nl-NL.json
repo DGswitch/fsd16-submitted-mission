@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Adres of $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Kan geen assets meer toevoegen.",
+      "text": "Deze transactie-output kan geen assets meer bevatten. Maak een nieuwe output aan (kan hetzelfde adres hebben) om meer toe te voegen."
+    }
+  },
+  "mode": {
+    "tooltip": "Selecteer handmatig het adrestype."
+  },
+  "error": {
+    "addAddress": "Voeg een ontvangersadres toe om naar te verzenden."
+  }
+}

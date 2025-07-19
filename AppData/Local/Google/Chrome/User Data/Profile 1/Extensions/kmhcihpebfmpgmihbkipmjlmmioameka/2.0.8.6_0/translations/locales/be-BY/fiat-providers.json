@@ -1,0 +1,17 @@
+{
+  "mercuryo": {
+    "name": "Mercuryo",
+    "description": "З наяўных у крыпту – за 15 секунд. Ніякага складанага KYC не патрабуецца.",
+    "label": "Mercuryo FAQ"
+  },
+  "guardarian": {
+    "name": "Guardarian",
+    "description": "Guardarian прапануе зручны сэрвіс для хуткіх транзакцый з фіата ў крыпту.\n&#8226; Ключавы рэгіён: Еўропа\n&#8226; 5+ варыянтаў аплаты",
+    "label": "Guardarian FAQ"
+  },
+  "transak": {
+    "name": "Transak",
+    "description": "Даступны для 170+ крыптавалют на 75+ блокчэйнах праз карткі, банкаўскія пераводы і іншыя спосабы аплаты ў 169 краінах.",
+    "label": "Transak FAQ"
+  }
+}

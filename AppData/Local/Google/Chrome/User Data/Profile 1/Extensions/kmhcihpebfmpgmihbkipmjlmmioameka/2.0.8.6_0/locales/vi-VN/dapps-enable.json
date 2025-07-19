@@ -1,0 +1,31 @@
+{
+  "title": "Kết nối với ",
+  "caption": "Chỉ tương tác với các dApp mà bạn tin tưởng! Vui lòng xác nhận đó là URL chính xác và an toàn (HTTPS).",
+  "label": {
+    "possibleScam": "có thể lừa đảo",
+    "notSecure": "không an toàn",
+    "confirmRisk": "Tôi hiểu các rủi ro",
+    "grantAccess": "Cấp quyền truy cập"
+  },
+  "noAccount": {
+    "title": "Chưa đặt tài khoản dApp",
+    "caption": "Chưa có tài khoản dApp nào được đặt trong $t(common:appName). Chuyển sang ứng dụng $t(common:appName) kích thước đầy đủ và tạo hoặc nhập một wallet.",
+    "openUI": "Mở ứng dụng"
+  },
+  "access": {
+    "url": "URL",
+    "features": "Tính năng"
+  },
+  "cip30": {
+    "title": "DApp Connector (CIP30)",
+    "caption": "Cho phép đọc số dư của bạn và yêu cầu ký giao dịch. Bạn sẽ có thể xem lại giao dịch trước khi ký."
+  },
+  "cip95": {
+    "title": "Cardano Governance (CIP95)",
+    "caption": "Cho phép đọc thông tin xác thực bỏ phiếu của bạn."
+  },
+  "cip104": {
+    "title": "Account Public Key (CIP104)",
+    "caption": "Cho phép xuất account public key. Xin lưu ý rằng điều này sẽ cho phép DApp suy ra bất kỳ địa chỉ nào cho tài khoản được kết nối."
+  }
+}

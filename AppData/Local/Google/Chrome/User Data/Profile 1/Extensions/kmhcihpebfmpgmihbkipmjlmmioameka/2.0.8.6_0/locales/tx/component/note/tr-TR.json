@@ -1,0 +1,34 @@
+{
+  "placeholder": "Buraya bir not ekleyin.",
+  "copy": "İşlem notu: {{note}}.",
+  "export": "Notlar içe ve dışa aktarılabilir.",
+  "add": {
+    "title": "Not ekle",
+    "caption": "Bu işleme bir not ekleyin. $t(tx/component/note:export)"
+  },
+  "edit": {
+    "title": "Notu düzenle",
+    "caption": "Bu işleme eklenmiş notu düzenleyin. $t(tx/component/note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx/component/note:add.title)",
+      "tooltip": "$t(tx/component/note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx/component/note:edit.title)",
+      "tooltip": "$t(tx/component/note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Notu sil",
+      "tooltip": "Bu işleme eklenmiş notu silin."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Notu sil",
+      "caption": "Lütfen işlem notunu silmek istediğinizi onaylayın.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

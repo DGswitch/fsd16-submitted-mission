@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "Haalt de beste prijs op bij meerdere aggregators voor jou",
+  "select": "SELECTEREN",
+  "sell": "U verkoopt",
+  "buy": "U koopt",
+  "balance": "Beschikbaar voor swap",
+  "aggAndDexs": "Agg & DEXs:",
+  "provider": "Provider",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Wist alle invoervelden"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Swap transactie aanmaken"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Swap transactie wordt aangemaakt."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Batcher & Pool Volume fee (DEXs)",
+      "tooltip": "DEXs rekenen een fee aan om uw order te verwerken. Deze is niet terugbetaalbaar."
+    },
+    "aggregatorFee": {
+      "label": "Servicekosten",
+      "tooltip": "Dit zijn de gemakskosten. Ze helpen de ontwikkeling van de aggregator en Eternl te financieren."
+    },
+    "deposit": {
+      "label": "Terugbetaalbare borg",
+      "tooltip": "Een borg is vereist om uw order te verwerken. Dit bedrag wordt teruggestort naar uw wallet samen met de tokens die u ontvangt."
+    }
+  }
+}

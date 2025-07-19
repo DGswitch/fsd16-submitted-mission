@@ -1,0 +1,9 @@
+{
+  "menuLabel": "গভর্নেন্স",
+  "title": "Blockchain গভর্নেন্স",
+  "caption": "আপনার হাতের মুঠোয় বিকেন্দ্রীভূত অন-চেইন গভর্নেন্স।",
+  "subCaption": "একজন DRep হিসাবে নিবন্ধন করুন বা DRep তালিকা ব্রাউজ করুন। প্রস্তাবনাগুলো এক্সপ্লোর করুন।",
+  "delegation": "DRep ডেলেগেশন",
+  "proposals": "গভর্নেন্স প্রস্তাবনা",
+  "information": "$t(common:information)"
+}

@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "Пераключайся паміж кашалькамі.",
+    "accounts": {
+      "select": "рахункі",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Выберы канкрэтны wallet, каб пераключацца паміж рахункамі.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Пераключы актыўны рахунак $t(common:dApp)."
+    },
+    "accounts": {
+      "select": "Выберы рахунак са спісу. Адзнач рахунак як улюбёны, націснуўшы на значок зоркі.",
+      "manage": "Дадавай або выдаляй рахункі, выбірай канкрэтныя індэксы рахункаў або задавай імёны."
+    }
+  },
+  "groups": {
+    "placeholder": "Выберы актыўныя групы wallet",
+    "favoriteAccounts": "Улюбёныя рахункі"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Імя рахунку:",
+    "index": "Індэкс:",
+    "limit": "Ліміт:",
+    "remove": {
+      "tooltip": "Выдаліць рахунак"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Дадаць новыя рахункі"
+  },
+  "notification": {
+    "updated": "Спіс рахункаў абноўлены.",
+    "error": "Невядомая памылка пры захаванні абноўленага wallet ў базу дадзеных.",
+    "errorRemove": "Рахунак з ідэнтыфікатарам {{accountId}} не можа быць выдалены.",
+    "noWallet": "Wallet не знойдзены.",
+    "errorKey": "Спіс атрыманых публічных ключоў не супадае з запытаным спісам шляхоў.",
+    "limit": "Гэты wallet не можа дадаць больш рахункаў."
+  }
+}

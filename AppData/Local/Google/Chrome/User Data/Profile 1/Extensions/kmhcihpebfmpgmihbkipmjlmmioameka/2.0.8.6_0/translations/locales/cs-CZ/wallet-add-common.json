@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Název Wallet",
+    "caption": "Dejte své wallet rozpoznatelný název."
+  },
+  "phrase": {
+    "title": "Mnemotechnická fráze"
+  },
+  "account": {
+    "title": "Počet účtů",
+    "caption": "Zadejte počet účtů, které chcete vytvořit.",
+    "suffix": "účet/účty",
+    "description": "wallet v $t(common:appName) může mít až {{accountLimit}} účtů. Každý účet může být delegován do jiného stake poolu. Klíče účtu jsou generovány z kořenového klíče wallet.",
+    "tooltip": "Každý přidaný účet prodlužuje dobu synchronizace, účty lze přidat kdykoli."
+  },
+  "create": {
+    "title": "Vytváření wallet",
+    "caption": "Počkejte prosím, než se wallet vygeneruje",
+    "password": {
+      "title": "Nastavte si heslo pro utrácení",
+      "caption": "Zvolte si dlouhé heslo. Čím delší bude, tím bezpečnější budou vaše prostředky."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet úspěšně přidána",
+      "created": "Wallet úspěšně vytvořena",
+      "restored": "Wallet úspěšně obnovena",
+      "imported": "Wallet úspěšně importována"
+    },
+    "processing": "Vytváří se wallet...",
+    "exists": "Wallet již existuje, přesměrovávám na wallet."
+  }
+}

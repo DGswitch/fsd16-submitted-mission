@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "Pro Mod",
+    "simple": "Basit Mod",
+    "caption": "Basit Mod ve Pro Mod arasında geçiş yapın.",
+    "setting": {
+      "caption": "Eternl deneyiminizi tanımlayın. Basit mod yeni kullanıcılar için daha uygundur. Pro mod tüm gelişmiş özellikleri içerir.",
+      "openAfterSign": "İmzalama sırasında işlem önizlemesini otomatik olarak aç.",
+      "stakeKeyOnHome": "Ana sayfada stake anahtarını göster"
+    }
+  },
+  "network": {
+    "title": "Ağ",
+    "caption": "Mevcut aktif ağı seçin."
+  },
+  "language": {
+    "title": "Dil",
+    "caption": "Tercih edilen dili seçin.",
+    "search": "Dil listesini filtrele",
+    "setting": {
+      "caption": "Uygulama için tercih edilen dili seçin."
+    }
+  },
+  "formatting": {
+    "title": "Biçimlendirme",
+    "caption": "Bölgesel tarih ve para birimi biçimlendirmesi.",
+    "setting": {
+      "caption": "Seçili dilin biçimlendirmesini takip etmek için etkinleştirin.",
+      "enabled": "Dil takibi etkinleştirildi",
+      "disabled": "Dil takibi devre dışı bırakıldı",
+      "region": "Biçimlendirme bölgesi",
+      "timezone": "Saat dilimi"
+    }
+  },
+  "currency": {
+    "title": "Para Birimi",
+    "caption": "Dönüşüm için tercih edilen para birimini seçin.",
+    "search": "Para birimi listesini filtrele",
+    "setting": {
+      "caption": "Dönüşüm için tercih edilen para birimini seçin."
+    }
+  },
+  "decimalPrecision": {
+    "title": "Ondalık hassasiyeti",
+    "caption": "Ondalık basamak sayısı.",
+    "setting": {
+      "caption": "Tutarlar için gösterilecek ondalık basamak sayısını seçin."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// Bkz. pin:deleteAccess ve pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "Biyometrik Kimlik Doğrulama",
+    "caption": "Kendinizi doğrulamak için FaceId (iOS) veya diğer biyometrik sistemleri kullanın.",
+    "setting": {
+      "title": {
+        "active": "Etkinleştirildi",
+        "inactive": "Devre dışı bırakıldı"
+      },
+      "caption": {
+        "active": "$t(common:appName) uygulamasını açmak için Biyometrik Kimlik Doğrulama kullanın.",
+        "inactive": "Biyometrik kimlik doğrulama devre dışı bırakıldı.",
+        "disabled": "Bu özelliği etkinleştirmek için lütfen önce bir PIN ayarlayın."
+      }
+    }
+  },
+  "sound": {
+    "title": "Sesler",
+    "caption": "Sesli bildirimleri etkinleştirin veya devre dışı bırakın.",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "Sesli bildirimler takas etkileşimleri, hatalar ve diğer önemli olaylar için kullanılır.",
+      "enabled": "$t(settings-app:sound.title) etkinleştirildi",
+      "disabled": "$t(settings-app:sound.title) devre dışı bırakıldı"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "$t(addressBook:title) girişlerini ekleyin, silin ve düzenleyin.",
+    "setting": {
+      "caption": "$t(addressBook:title) girişlerinizi yönetin.",
+      "comment": "// Bkz. addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "DApp İzin Listesi",
+    "caption": "Bu $t(common:appName) uygulamasına bağlanmasına izin verilen web sitelerinin/dApp'lerin listesi.",
+    "setting": {
+      "comment": "// Bkz. dapps-allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "İşlemler: otomatik gönder",
+    "caption": "İmzaladıktan sonra işlemleri otomatik olarak gönder. İmzalı işlem cbor'unu indirmeye izin vermek için devre dışı bırak.",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "Otomatik gönderme etkin",
+      "disabled": "Otomatik gönderme devre dışı",
+      "enabledInfo": "İmzalanan işlemler otomatik olarak blockchain'e gönderilecektir.",
+      "disabledInfo": "Bir işlem imzalandıktan sonra manuel olarak göndermeniz gerekir."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Özel Gönderim Uç Noktası",
+    "caption": "İşlemleri özel bir cardano-node ve cardano-submit-api aracılığıyla gönder.",
+    "setting": {
+      "caption": "İşlem gönderimi için özel bir cardano-node ve cardano-submit-api uç noktası tanımlayın.",
+      "new_endpoint": "Uç nokta ekle",
+      "hint": "Yeni bir özel uç nokta ekle.",
+      "deleteConfirm": "Girdiyi silmeyi onayla.",
+      "deleted": "Uç nokta silindi.",
+      "note": {
+        "title": "Lütfen dikkat!",
+        "caption": "Bu gelişmiş bir ayardır ve yalnızca sonuçlarını tam olarak anlıyorsanız kullanmalısınız.",
+        "description": "Özel uç noktanın güvenilir ve tam olarak senkronize olduğundan emin olun.\n\nDeğilse, node operatörü kendi çıkarları için işlemlerinizin yayınlanmasını engelleyebilir veya hiç yayınlamayabilir ve tüm işlemleriniz başarısız olabilir.\n\nEmin değilseniz, işlemi $t(common:appName) altyapısı aracılığıyla göndermek için bu ayarı devre dışı bırakın.",
+        "cors": "Ayrıca, özel uç noktanızın $t(common:appName)'in gönderdiği isteği kabul etmek için doğru CORS başlıklarını ayarladığından emin olun."
+      },
+      "error": {
+        "url": "Geçerli bir URL http(s) ile başlar.",
+        "oneEndpoint": "Yapılandırılmış en az bir gönderim uç noktası olmalıdır."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain gezgini",
+    "caption": "Türe göre tercih edilen blockchain gezginini ayarlayın.",
+    "setting": {
+      "caption": "Uygulama için tercih edilen blockchain gezginini seçin.",
+      "block": "Blok gezgini",
+      "pool": "Havuz gezgini",
+      "address": "Adres gezgini",
+      "token": "Token gezgini",
+      "policy": "Politika gezgini",
+      "transaction": "İşlem gezgini",
+      "stake": "Stake anahtarı gezgini",
+      "DRep": "DRep gezgini",
+      "govProposal": "Yönetişim önerisi",
+      "select": "{{type}} seçin"
+    }
+  },
+  "experimental": {
+    "title": "Deneysel Ayarlar",
+    "caption": "Deneysel ayarlar kimse tarafından kullanılmamalıdır!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "Tüm url parametrelerini gizle",
+        "caption": "Bu etkinleştirilirse, ayarlar bölümündeki url parametreleri gizlenir."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "Son kullanılan ayarı kaydet",
+        "caption": "Bu etkinleştirilirse, ayarlara geçildiğinde otomatik olarak son kullanılan ayar grubu ve bölümü seçilir."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "MonsterSwap için Slippage ve Dex ayarları."
+  },
+  "theme": {
+    "label": "Tema Değiştirici",
+    "caption": "Eternl'i kendinize özel kılmak için bir tema seçin.",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "Uygulama önbelleğini sıfırla",
+    "caption": "Uygulamayı sıfırlamak için tüm önbelleğe alınmış verileri kaldırın.",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\nBu, işlemleri, token görsellerini ve metadata'yı içerir. Cüzdanlarınız, hesaplarınız ve ayarlarınız etkilenmeyecektir.",
+      "finish": "Uygulama önbelleği başarıyla sıfırlandı.",
+      "inProgress": "$t(common:appName) önbelleği temizleniyor, lütfen bekleyin.",
+      "warning": "$t(common:appName) önbelleğini sıfırladığınızda, uygulama tüm verileri tekrar blockchain'den çekmelidir. Birden fazla cüzdanınız veya hesabınız varsa, bu biraz zaman alabilir.",
+      "button": {
+        "label": "Uygulama önbelleğini sıfırla"
+      }
+    }
+  },
+  "reset": {
+    "title": "Uygulamayı sıfırla",
+    "caption": "Uygulamayı sıfırlamak için tüm cüzdanları ve depolanan verileri silin.",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "Uyarı!",
+          "text": "Uygulamayı sıfırladığınızda, tüm cüzdanlara erişiminizi kaybedeceksiniz! Sıfırlamadan sonra erişimi yeniden kazanmanın tek yolu, wallet kurtarma ifadenizi geri yüklemek veya önceden dışa aktarılmış $t(common:appName) .json dosyalarını içe aktarmaktır."
+        }
+      },
+      "phrase": {
+        "name": "Onay ifadesi",
+        "hint": "Onay ifadesini girin.",
+        "noPaste": "$t(common:appName) uygulamasını sıfırlamak için lütfen onay ifadesini yazın",
+        "confirmation": "$t(common:appName) #{{number}} uygulamasını sıfırla"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "Cüzdanlarıma erişimi yeniden kazanmanın tek yolunun, onları wallet kurtarma ifadesiyle geri yüklemek veya donanım wallet cihazlarını eşleştirmek olduğunu anlıyorum.",
+          "error": "Onay ifadesi eşleşmiyor."
+        }
+      },
+      "deleteWallets": "Cüzdanları sıfırla",
+      "deleteConfig": "Yapılandırmaları sıfırla",
+      "deleteFinish": "Tamamlanıyor",
+      "finish": "Uygulama başarıyla sıfırlandı"
+    }
+  }
+}

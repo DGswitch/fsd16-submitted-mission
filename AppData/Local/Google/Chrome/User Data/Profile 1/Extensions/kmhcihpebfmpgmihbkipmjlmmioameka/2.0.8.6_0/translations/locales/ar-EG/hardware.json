@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "وصل محفظة محفظة رقمية (maḥfaẓa raqamiya) هاردوير",
+    "caption": "لو عندك محفظة محفظة رقمية (maḥfaẓa raqamiya) هاردوير، ده المكان الصح.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "محفظة محفظة رقمية (maḥfaẓa raqamiya) الهاردوير للعملات الرقمية Ledger من شركة Ledger، اللي مقرها في باريس، فرنسا.",
+        "models": "Stax, Flex and Nano (X, S and S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor من SatoshiLabs، ومقرها في جمهورية التشيك.",
+        "models": "Model T and Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "شركة مقرها في هونج كونج بتقدم محفظة محفظة رقمية (maḥfaẓa raqamiya) هاردوير مفتوحة المصدر 100% بتقنية الـ Air-gap وبتعتمد على التواصل عن طريق رمز الاستجابة السريعة (QR code)، مع شاشة لمس 4 بوصة وقارئ بصمات.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "سيتم تحديده لاحقاً",
+        "models": "OneKey Pro تم التحقق منه"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "سيتم تحديده لاحقاً",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "وصل Ledger باستخدام"
+  },
+  "keystone": {
+    "qrScan": "إمسح رمز الاستجابة السريعة (QR code) بجهاز Keystone بتاعك",
+    "distance": "ظبط المسافة وممكن تضغط على رمز الاستجابة السريعة (QR code) بتاع Keystone لتحسين المسح"
+  },
+  "derivation": {
+    "label": "وضع الاشتقاق (متقدم)",
+    "icarus": "معيار اشتقاق Cardano زي ما هو محدد في CIP03.",
+    "trezor": "تنفيذ Trezor بناءً على معيار Icarus.",
+    "ledger": "بيتبع معيار Bitcoin زي ما هو محدد في BIP39.",
+    "default": "(افتراضي)"
+  },
+  "connect": {
+    "title": "أكد تصدير المفتاح العام",
+    "caption": "",
+    "info": {
+      "ledger": "إفتح جهاز Ledger بتاعك وإفتح تطبيق Cardano قبل ما تكمل. وبعدين اتبع التعليمات اللي في تطبيق Cardano على جهاز Ledger بتاعك عشان تكمل عملية الاقتران.",
+      "trezor": "بعد التأكيد، اتبع التعليمات اللي في تبويب متصفح Trezor Connect اللي اتفتح وعلى جهاز Trezor بتاعك عشان تكمل عملية الاقتران.",
+      "keystone": "بعد التأكيد، إمسح رمز الاستجابة السريعة (QR code) اللي اتولد بجهاز Keystone بتاعك وبعدين إمسح رد رمز الاستجابة السريعة (QR code) بتاع Keystone من خلال Eternl.",
+      "onekey": "اتاكد إن الـ bridge متثبت على جهاز الكمبيوتر بتاعك. وصل الجهاز واستنى لحد ما يتم تصدير المفاتيح العامة.",
+      "bitbox": "بعد التأكيد، تحقق من رمز الاقتران لو مطلوب وأكد على الجهاز."
+    }
+  }
+}

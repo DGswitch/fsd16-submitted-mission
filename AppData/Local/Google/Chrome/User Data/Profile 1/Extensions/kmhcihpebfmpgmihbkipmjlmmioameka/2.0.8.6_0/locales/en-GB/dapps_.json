@@ -1,0 +1,82 @@
+{
+
+  "menu": {
+
+    "favorites":                "Favorites",
+    "mint":                     "Mints",
+    "nmkr":                     "NMKR",
+    "browser":                  "DApps",
+    "connect":                  "Connect Account"
+  },
+
+  "voting": {
+
+    "key": {
+
+      "label":                  "Voting Key",
+      "caption":                "Sign to allow derivation of voting key for active DApp account. Enter the wallet spending password or sign with the hardware device to confirm.",
+
+      "info": {
+
+        "ledger":               "@:wallet.send.step.confirm.info.ledger",
+        "trezor":               "@:wallet.send.step.confirm.info.trezor",
+        "readonly":             "@:wallet.send.step.confirm.info.readonly"
+      },
+
+      "loading": {
+
+        "ledger":               "Please follow the directions in the Cardano app on your Ledger device to sign.",
+        "trezor":               "Please follow the directions outlined in the opened Trezor Connect browser tab and on your Trezor device to sign."
+      },
+
+      "ledger": {
+
+        "transport": {
+
+          "label":              "@:common.ledger.transport.label",
+          "caption":            "@:wallet.send.step.confirm.ledger.transport.caption"
+        }
+      },
+
+      "error": {
+
+        "general":              "@:wallet.summary.accounts.confirm.error.general",
+        "password":             "@:wallet.summary.accounts.confirm.error.password",
+        "nohw":                 "@:wallet.summary.accounts.confirm.error.nohw",
+        "nokey":                "@:wallet.summary.accounts.confirm.error.nokey",
+        "mismatch":             "@:wallet.summary.accounts.confirm.error.mismatch"
+      },
+
+      "button": {
+
+        "back":                 "@:common.label.back",
+        "sign":                 "@:common.label.sign",
+        "reset":                "@:common.label.reset",
+        "save":                 "@:common.label.sign"
+      }
+    },
+
+    "delegation": {
+
+      "headline":               "Governance - Voting Delegation",
+      "caption":                "Register your voting delegation on the Cardano blockchain.",
+
+      "step": {
+
+        "stepper": {
+
+          "tx":                 "Transaction",
+          "submit":             "Submit"
+        },
+
+        "tx":                   "catalyst.step.tx",
+        "submit":               "send.step.submit"
+      },
+
+      "error": {
+
+        "sign":                 "Failed to properly sign voting delegation metadata"
+      }
+    }
+  }
+}

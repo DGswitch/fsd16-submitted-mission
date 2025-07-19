@@ -1,0 +1,6 @@
+{
+  "title": "Uvezi javni ključ računa",
+  "caption": "Unesite javni ključ računa (obično počinje sa 'acct_xvk' ili 'xpub1') da biste kreirali 'samo za čitanje' wallet.",
+  "placeholder": "acct_xvk...",
+  "error": "Nevažeći javni ključ računa, provjerite i pokušajte ponovo."
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Nota per exportar l'historial de transaccions",
+  "caption": "Crea una exportació CSV del teu historial de transaccions (format antic de Eternl v1)",
+  "csv": {
+    "headline": "Exporta l'historial de transaccions",
+    "caption": "Exporta (per compte) l'historial de transaccions i recompenses com a fitxer CSV.",
+    "format": "Format",
+    "button": {
+      "label": "Exporta CSV",
+      "icon": "mdi mdi-export"
+    },
+    "csvExport": {
+      "label": "Exporta CSV",
+      "caption": "Configura la teva preconfiguració d'exportació i activa/desactiva la funcionalitat d'exportació.",
+      "exportPreset": "Preconfiguració d'exportació"
+    },
+    "notes": {
+      "label": "Notes",
+      "caption": "Exporta les notes de la transacció a la darrera columna. L'exportació concatenarà les notes de diverses línies."
+    },
+    "localTime": {
+      "label": "Exporta la marca de temps local",
+      "caption": "Activa això si vols exportar les hores de les transaccions a la teva zona horària local i format local. Altrament, les marques de temps s'exportaran com a hora UTC."
+    }
+  },
+  "noaccount": "No hi ha cap compte actiu configurat.",
+  "notx": "No hi ha transaccions per exportar."
+}

@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "اسم الحساب / الاسم المعروض",
+    "caption": "حدد اسم للحساب الحالي",
+    "setting": {
+      "caption": "عدّل اسم حسابك (اللي ظاهر) أو اختار/شيل اختيار Ada Handle.",
+      "adaHandle": {
+        "select": "اختار أي Ada Handle يظهر بدل اسم الحساب (شيل الاختيار عشان يظهر الاسم بدلًا منه):"
+      },
+      "error": {
+        "empty": "لا يمكن أن يكون اسم الحساب فارغًا.",
+        "duplicate": "هذا المحفظة بالفعل لديها حساب بهذا الاسم."
+      }
+    }
+  },
+  "export": {
+    "title": "تصدير مفتاح الحساب",
+    "caption": "تصدير المفتاح العام لهذا الحساب.",
+    "setting": {
+      "caption": "تصدير المفتاح العام لهذا الحساب. استيراد المفتاح العام يستعيد سجل الحساب في وضع القراءة فقط مع تعطيل التوقيع.",
+      "tooltip": {
+        "acct_xvk": "مفتاح عام موسع Ed25519-bip32",
+        "xpub": "مفتاح عام موسع Ed25519-bip32",
+        "acct_vk": "مفتاح عام Ed25519"
+      }
+    }
+  },
+  "samMode": {
+    "title": "وضع العنوان الواحد (SAM)",
+    "caption": "استخدم عنوان واحد فقط لجميع المعاملات.",
+    "setting": {
+      "caption": "عند التفعيل، سيتم الاحتفاظ بجميع الأموال في عنوان الاستقبال الأول بشكل افتراضي.",
+      "enabled": "$t(settings-account:samMode.title) متفعّل",
+      "disabled": "$t(settings-account:samMode.title) مقفول",
+      "customAddress": "عنوان استقبال مخصص",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "مهم!",
+          "text": "تحديد عنوان استقبال مخصص سيجعل جميع مخرجات التغيير وعنوان الاستقبال يتحول إلى هذا العنوان، حتى لو لم يكن مملوكًا لهذا الحساب. يرجى التأكد من التحقق من صحة العنوان المحدد."
+        }
+      },
+      "notification": {
+        "wrongInput": "هذا ليس عنوانًا صالحًا.",
+        "wrongNetwork": "هذا العنوان من شبكة مختلفة.",
+        "notOwned": "هذا العنوان لا ينتمي إلى هذا الحساب ولا يمكن استخدامه كعنوان استقبال مخصص.",
+        "nonStaking": "الأموال الموجودة في عنوان الاستقبال هذا مرهونة بمفتاح رهن خارجي. لن تتحكم في المكافآت التي تتراكم.",
+        "success": "تم تعيين عنوان استقبال مخصص.",
+        "error": "فشل حفظ عنوان الاستقبال المخصص!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "ضمان",
+    "caption": "بتستخدم ضمان Eternl؟",
+    "setting": {
+      "caption": "لو فعلتها، Eternl هيوفر ضمان للحساب.",
+      "info": "التفاعل مع العقود الذكية ممكن يحتاج ضمان في حالة فشل المعاملة. Eternl هيتصرف تلقائيًا لو لقى UTxO مناسب.",
+      "waiting": "لقد أرسلت معاملة ضمان. يرجى الانتظار، لم يتم تأكيدها بعد.",
+      "foundCollateral": "فيه فعلًا UTxO ضمان للحساب ده. هيتستخدم لما تتعامل مع العقود الذكية.",
+      "eternl": {
+        "label": "ضمان من Eternl",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "مالقيناش UTxO ضمان. يا ريت تحدد واحد بالضغط على الزرار اللي تحت ده.",
+      "button": {
+        "setCollateral": {
+          "label": "تعيين ضمان",
+          "tooltip": "حدد UTxO ضمان للحساب ده."
+        }
+      },
+      "error": {
+        "label": "خطأ:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "يرجى الملاحظة!",
+          "headline": "الضمان هو إعداد قائم على الحساب."
+        },
+        "info": {
+          "text": "$t(common:appName) ممكن يستخدم أي UTxO مفيهوش رموز وقيمته بين ####minimumCollateral#### و ####maximumCollateral#### كضمان. لما تفعل الخاصية دي، هيدور على UTxO مناسب. ولو مالقاش، هيظهر زرار عشان تحدد واحد."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "مزامنة يدوية",
+    "caption": "تعيين مزامنة يدوية",
+    "setting": {
+      "caption": "اعمل مزامنة لـ محفظة رقمية (maḥfaẓa raqamiya) يدويًا. لو فعلتها، لازم تعمل مزامنة لـ محفظة رقمية (maḥfaẓa raqamiya) يدويًا بالضغط على علامة المزامنة.",
+      "enabled": "$t(settings-account:manualSync.title) متفعّل",
+      "disabled": "$t(settings-account:manualSync.title) مقفول"
+    }
+  },
+  "historySync": {
+    "title": "مزامنة السجل",
+    "caption": "تعيين مزامنة السجل",
+    "setting": {
+      "caption": "لما الخاصية دي تكون متفعّلة، محفظة رقمية (maḥfaẓa raqamiya) هيعمل مزامنة لكل تاريخ المعاملات بتاع الحساب. غير كده، هيتم مزامنة آخر 1000 معاملة بس. المزامنة بتحصل على دفعات وممكن تاخد وقت مع الحسابات اللي ليها تاريخ كبير.",
+      "enabled": "$t(settings-account:historySync.title) متفعّل",
+      "disabled": "$t(settings-account:historySync.title) مش متفعّل",
+      "syncing": "المزامنة لسه شغالة. في انتظار مزامنة {{AMOUNT}} مُدخل."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "تجزئة التوكن (TF)",
+    "caption": "قلل رسوم المعاملات عن طريق تجزئة التوكنز.",
+    "fragment": {
+      "label": "حجم حزمة التوكن",
+      "error": "أقصى حجم لحزمة التوكن: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "ده بيحدد عدد التوكنز اللي المفروض كل مُخرج UTxO يحتويه. دي مُوازنة بين رسوم المعاملات القليلة وقيمة الفلوس المُقفلة في محفظة رقمية (maḥfaẓa raqamiya).\nحجم حزمة صغير -> رسوم قليلة، Ada أكتر مُقفل.\nحجم حزمة كبير -> رسوم أعلى، Ada أقل مُقفل."
+    },
+    "setting": {
+      "caption": "اقسم التوكنز لحزم عند الإرسال لو فيه توكنز في الباقي اللي هيرجع أكتر من القيمة اللي متحددة. على حسب توزيع محفظة رقمية (maḥfaẓa raqamiya) UTxO/Token والنتيجة اللي عاوزها، القيم ممكن تحتاج تتظبط عشان توصل لأفضل نتيجة.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) متفعّل",
+      "disabled": "$t(settings-account:tokenFragmentation.title) مش متفعّل"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "إدارة UTxO المتقدمة",
+    "caption": "استخدم إدارة UTxO المتقدمة في معاملاتك.",
+    "setting": {
+      "caption": "لما الخاصية دي تكون متفعّلة، $t(common:appName) هيستخدم إدارة UTxO المتقدمة في معاملاتك.",
+      "subCaption": "بيخلي حوالي 10 UTxOs عشان التنفيذ المتوازي للمعاملات. وكمان هيحاول يحافظ على 5 {{currency}} collateral UTxO عشان التعامل مع العقود الذكية.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) متفعّل",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) مش متفعّل"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "سحب تلقائي",
+    "caption": "اسحب المكافآت تلقائيًا لو احتاجت.",
+    "setting": {
+      "caption": "لما الخاصية دي متفعّلة، المكافآت هتتسحب تلقائيًا لو احتاجت عند إنشاء معاملة. لو الخاصية دي مش متفعّلة أو عشان السحب اليدوي الإجباري، استخدم زر السحب في صفحة الملخص.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) متفعّل",
+      "disabled": "$t(settings-account:autoWithdrawal.title) مش متفعّل"
+    }
+  },
+  "unStake": {
+    "title": "إلغاء تفويض محفظة رقمية (maḥfaẓa raqamiya)\n(إلغاء تسجيل محفظة رقمية (maḥfaẓa raqamiya))",
+    "caption": "إلغاء تفويض الحساب الحالي من أي مجمع وإنشاء معاملة إلغاء تسجيل.",
+    "setting": {
+      "caption": "الإجراء ده بينشئ معاملة إلغاء تسجيل حساب. بمجرد ما يكتمل، هيتم إلغاء تفويض الحساب من أي مجمع، وهيتم استرجاع مبلغ التأمين اللي اتدفع لما تم تفويض الحساب في الأول.",
+      "subCaption": "يا ريت تاخد بالك إن أي مكافآت معلقة من تفويض المجمع، مكافآت catalyst، إلخ، هتضيع لما يتم إلغاء تسجيل الحساب!",
+      "acknowledged": "أنا فاهم إن أي مكافآت معلقة هتتفقَد.",
+      "noUtxo": "{{currency}} مطلوبة عشان تدفع رسوم معاملة إلغاء التسجيل.",
+      "button": {
+        "deReg": {
+          "label": "إلغاء تسجيل الحساب",
+          "tooltip": "إلغاء تسجيل الحساب من تفويض المجمع"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "إلغاء التسجيل كـ DRep",
+    "caption": "إنشاء معاملة إلغاء تسجيل DRep. قوة التصويت المفوضة لـ DRep ده هتضيع.",
+    "setting": {
+      "caption": "ده هينشئ معاملة إلغاء تسجيل DRep. قوة التصويت المفوضة لـ DRep ده هتضيع.",
+      "subCaption": "عشان ترجع تقدر تسحب مكافآت staking، هتحتاج تفوض حسابك لـ DRep مختلف.",
+      "acknowledged": "أنا فاهم إن كل قوة التصويت المفوضة هتتفقَد.",
+      "noUtxo": "{{currency}} مطلوبة عشان تدفع رسوم معاملة إلغاء التسجيل.",
+      "button": {
+        "deReg": {
+          "label": "إلغاء تسجيل الحساب",
+          "tooltip": "إلغاء تسجيل الحساب من تفويض المجمع"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "التقارير",
+    "caption": "إعدادات تصدير التقارير الضريبية."
+  }
+}

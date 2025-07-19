@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "專業模式",
+    "simple": "簡易模式",
+    "caption": "喺簡易模式同專業模式之間切換。",
+    "setting": {
+      "caption": "定義你嘅 Eternl 體驗。簡易模式比較適合新用戶。專業模式有齊所有功能。",
+      "openAfterSign": "簽署時自動打開交易預覽。",
+      "stakeKeyOnHome": "喺主頁顯示 stake key"
+    }
+  },
+  "network": {
+    "title": "網絡",
+    "caption": "選擇目前啟用嘅網絡。"
+  },
+  "language": {
+    "title": "語言",
+    "caption": "選擇偏好嘅語言。",
+    "search": "篩選語言列表",
+    "setting": {
+      "caption": "選擇應用程式嘅偏好語言。"
+    }
+  },
+  "formatting": {
+    "title": "格式化",
+    "caption": "地區日期同貨幣格式。",
+    "setting": {
+      "caption": "啟用以跟隨所選語言嘅格式。",
+      "enabled": "已啟用跟隨語言",
+      "disabled": "已停用跟隨語言",
+      "region": "格式化地區",
+      "timezone": "時區"
+    }
+  },
+  "currency": {
+    "title": "貨幣",
+    "caption": "選擇偏好嘅換算貨幣。",
+    "search": "篩選貨幣列表",
+    "setting": {
+      "caption": "選擇偏好嘅換算貨幣。"
+    }
+  },
+  "decimalPrecision": {
+    "title": "小數位精度",
+    "caption": "小數位數目。",
+    "setting": {
+      "caption": "選擇金額要顯示嘅小數位數目。"
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// 參閱 pin:deleteAccess 同 pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "生物認證",
+    "caption": "使用 FaceId (iOS) 或其他生物認證系統嚟認證你嘅身份。",
+    "setting": {
+      "title": {
+        "active": "已啟用",
+        "inactive": "已停用"
+      },
+      "caption": {
+        "active": "使用生物認證嚟打開 $t(common:appName)。",
+        "inactive": "生物認證已停用。",
+        "disabled": "要啟用呢個功能，請先設定一個 PIN。"
+      }
+    }
+  },
+  "sound": {
+    "title": "音效",
+    "caption": "啟用或停用音效通知。",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "音效通知用於 swap 互動、錯誤同埋其他重要事件。",
+      "enabled": "$t(settings-app:sound.title) 已啟用",
+      "disabled": "$t(settings-app:sound.title) 已停用"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "新增、刪除同編輯 $t(addressBook:title) 項目。",
+    "setting": {
+      "caption": "管理你嘅 $t(addressBook:title) 項目。",
+      "comment": "// 參閱 addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "DApp 允許列表",
+    "caption": "允許連接到呢個 $t(common:appName) 應用程式嘅網站/DApps 列表。",
+    "setting": {
+      "comment": "// 參閱 dapps-allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "交易：自動提交",
+    "caption": "簽署後自動提交交易。停用以允許下載已簽署嘅交易 cbor。",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "自動提交已啟用",
+      "disabled": "自動提交已停用",
+      "enabledInfo": "已簽署嘅交易將會自動提交到 blockchain。",
+      "disabledInfo": "簽署交易後，你需要手動提交。"
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "自訂提交端點",
+    "caption": "透過自訂嘅 cardano-node 同 cardano-submit-api 傳送交易。",
+    "setting": {
+      "caption": "為交易提交定義一個自訂嘅 cardano-node 同 cardano-submit-api 端點。",
+      "new_endpoint": "新增端點",
+      "hint": "新增一個自訂端點。",
+      "deleteConfirm": "確認刪除項目。",
+      "deleted": "端點已刪除。",
+      "note": {
+        "title": "請注意！",
+        "caption": "呢個係進階設定，你應該只喺完全明白佢嘅影響下先好使用。",
+        "description": "請確保自訂端點值得信賴而且完全同步。\n\n如果唔係，節點操作員可能會為咗自己嘅利益而扣起你嘅交易廣播，或者完全唔廣播，導致你所有交易都失敗。\n\n如果你唔確定，請停用呢個設定，改為透過 $t(common:appName) 基礎設施傳送交易。",
+        "cors": "另外，請確保你嘅自訂端點已設定正確嘅 CORS 標頭，以接受 $t(common:appName) 傳送嘅請求。"
+      },
+      "error": {
+        "url": "有效嘅 URL 必須以 http(s) 開頭。",
+        "oneEndpoint": "至少需要設定一個提交端點。"
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain 瀏覽器",
+    "caption": "按類型設定偏好嘅 blockchain 瀏覽器。",
+    "setting": {
+      "caption": "為應用程式選擇偏好嘅 blockchain 瀏覽器。",
+      "block": "區塊瀏覽器",
+      "pool": "權益池瀏覽器",
+      "address": "地址瀏覽器",
+      "token": "代幣瀏覽器",
+      "policy": "策略瀏覽器",
+      "transaction": "交易瀏覽器",
+      "stake": "質押金鑰瀏覽器",
+      "DRep": "DRep 瀏覽器",
+      "govProposal": "治理提案",
+      "select": "選擇 {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "實驗性設定",
+    "caption": "任何人都唔應該使用實驗性設定！",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "隱藏所有 URL 參數",
+        "caption": "如果啟用此項，設定部分嘅 URL 參數將會被隱藏。"
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "儲存上次使用嘅設定",
+        "caption": "如果啟用此項，切換到設定時會自動選取上次使用嘅設定群組同部分。"
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "MonsterSwap 嘅滑點同 Dex 設定。"
+  },
+  "theme": {
+    "label": "主題切換器",
+    "caption": "選擇一個主題，令 Eternl 更加個人化。",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "重設應用程式快取",
+    "caption": "移除所有快取資料以重設應用程式。",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\n呢個包括交易、代幣圖片同 metadata。你嘅錢包、帳戶同設定將唔會受到影響。",
+      "finish": "應用程式快取重設成功。",
+      "inProgress": "$t(common:appName) 快取正在清除中，請稍候。",
+      "warning": "一旦你重設 $t(common:appName) 快取，應用程式必須重新由 blockchain 擷取所有資料。如果你有多個錢包或帳戶，呢個過程可能需要啲時間。",
+      "button": {
+        "label": "重設應用程式快取"
+      }
+    }
+  },
+  "reset": {
+    "title": "重設應用程式",
+    "caption": "刪除所有錢包同儲存嘅資料嚟重設應用程式。",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "警告！",
+          "text": "一旦你重設應用程式，你將會失去所有錢包嘅存取權！重設之後，唯一重新攞返存取權嘅方法係用你嘅 wallet 恢復短語嚟恢復，或者匯入之前匯出嘅 $t(common:appName) .json 檔案。"
+        }
+      },
+      "phrase": {
+        "name": "確認短語",
+        "hint": "輸入確認短語。",
+        "noPaste": "請輸入確認短語嚟重設 $t(common:appName)",
+        "confirmation": "重設 $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "我明白唯一重新攞返我啲錢包存取權嘅方法係用 wallet 恢復短語嚟恢復，或者配對硬件 wallet 裝置。",
+          "error": "確認短語唔匹配。"
+        }
+      },
+      "deleteWallets": "重設錢包",
+      "deleteConfig": "重設設定",
+      "deleteFinish": "完成中",
+      "finish": "應用程式已成功重設"
+    }
+  }
+}

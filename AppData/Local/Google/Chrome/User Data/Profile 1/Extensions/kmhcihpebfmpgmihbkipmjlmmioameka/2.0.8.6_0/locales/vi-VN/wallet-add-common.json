@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Tên Wallet",
+    "caption": "Đặt tên dễ nhận biết cho wallet của bạn."
+  },
+  "phrase": {
+    "title": "Cụm từ ghi nhớ"
+  },
+  "account": {
+    "title": "Số lượng tài khoản",
+    "caption": "Chỉ định số lượng tài khoản cần tạo.",
+    "suffix": "tài khoản",
+    "description": "Một wallet trong $t(common:appName) có thể có tối đa {{accountLimit}} tài khoản. Mỗi tài khoản có thể được ủy quyền cho một stake pool khác nhau. Các khóa tài khoản được tạo từ wallet root key.",
+    "tooltip": "Mỗi tài khoản được thêm vào sẽ làm tăng thời gian đồng bộ hóa, tài khoản có thể được thêm bất kỳ lúc nào."
+  },
+  "create": {
+    "title": "Đang tạo wallet",
+    "caption": "Vui lòng đợi trong khi wallet đang được tạo",
+    "password": {
+      "title": "Đặt mật khẩu chi tiêu",
+      "caption": "Chọn một mật khẩu dài. Mật khẩu càng dài, tiền của bạn càng an toàn."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet đã được thêm thành công",
+      "created": "Wallet đã được tạo thành công",
+      "restored": "Wallet đã được khôi phục thành công",
+      "imported": "Wallet đã được nhập thành công"
+    },
+    "processing": "Đang tạo wallet...",
+    "exists": "Wallet đã tồn tại, đang chuyển hướng đến Wallet."
+  }
+}

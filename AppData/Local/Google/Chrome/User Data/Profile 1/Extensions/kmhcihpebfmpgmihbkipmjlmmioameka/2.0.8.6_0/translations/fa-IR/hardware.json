@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "اتصال wallet سخت‌افزاری",
+    "caption": "اگر صاحب یک wallet سخت‌افزاری هستید، اینجا جای مناسبی است.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "wallet سخت‌افزاری ارز دیجیتال Ledger ساخته شده توسط Ledger، شرکتی مستقر در پاریس، فرانسه.",
+        "models": "Stax, Flex و Nano (X, S و S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor محصولی از SatoshiLabs است که در جمهوری چک مستقر است.",
+        "models": "Model T و Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "شرکتی مستقر در هنگ کنگ که یک wallet سخت‌افزاری ۱۰۰٪ Air-gapped منبع‌باز با ارتباط از طریق QR code، صفحه لمسی ۴ اینچی و حسگر اثر انگشت ارائه می‌دهد.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "به زودی",
+        "models": "OneKey Pro تأیید شده"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "به زودی",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "اتصال Ledger با استفاده از"
+  },
+  "keystone": {
+    "qrScan": "کد QR را با دستگاه Keystone خود اسکن کنید",
+    "distance": "فاصله را تنظیم کنید و در صورت تمایل روی کد QR Keystone ضربه بزنید تا اسکن بهبود یابد"
+  },
+  "derivation": {
+    "label": "حالت استخراج (پیشرفته)",
+    "icarus": "استاندارد استخراج Cardano طبق تعریف CIP03.",
+    "trezor": "پیاده‌سازی Trezor بر اساس استاندارد Icarus.",
+    "ledger": "پیروی از استاندارد بیت‌کوین طبق تعریف BIP39.",
+    "default": "(پیش‌فرض)"
+  },
+  "connect": {
+    "title": "تأیید صدور کلید عمومی",
+    "caption": "",
+    "info": {
+      "ledger": "قبل از ادامه، دستگاه Ledger خود را باز کرده و برنامه Cardano را اجرا کنید. سپس دستورالعمل‌های مشخص شده در برنامه Cardano روی دستگاه Ledger خود را دنبال کنید تا فرآیند جفت‌سازی کامل شود.",
+      "trezor": "پس از تأیید، دستورالعمل‌های مشخص شده در تب مرورگر Trezor Connect باز شده و روی دستگاه Trezor خود را دنبال کنید تا فرآیند جفت‌سازی کامل شود.",
+      "keystone": "پس از تأیید، کد QR تولید شده را با دستگاه Keystone خود اسکن کنید و سپس پاسخ کد QR Keystone را از طریق Eternl اسکن کنید.",
+      "onekey": "اطمینان حاصل کنید که bridge روی رایانه شما نصب شده است. دستگاه را متصل کرده و منتظر بمانید تا کلیدهای عمومی صادر شوند.",
+      "bitbox": "پس از تأیید، در صورت نیاز کد جفت‌سازی را بررسی کرده و روی دستگاه تأیید کنید."
+    }
+  }
+}

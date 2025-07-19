@@ -1,0 +1,10 @@
+{
+  "warning":                  "Eternl Guard Warning",
+
+  "app": {
+
+    "description":            "This DApp is a known SCAM site! There is a very high chance it will steal your funds or try to scam you in other ways!",
+    "description2":           "We strongly advise you to <span class=\"font-bold\">NOT INTERACT</span> with this page!",
+    "ownRisk":                "Connect to this site on your own risk!"
+  }
+}

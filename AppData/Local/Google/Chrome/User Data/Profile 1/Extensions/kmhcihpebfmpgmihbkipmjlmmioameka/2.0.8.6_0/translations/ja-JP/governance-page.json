@@ -1,0 +1,9 @@
+{
+  "menuLabel": "ガバナンス",
+  "title": "Blockchain ガバナンス",
+  "caption": "分散型オンチェーンガバナンスを簡単に利用できます。",
+  "subCaption": "DRepとして登録するか、DRepリストを閲覧します。提案を探索します。",
+  "delegation": "DRep委任",
+  "proposals": "ガバナンス提案",
+  "information": "$t(common:information)"
+}

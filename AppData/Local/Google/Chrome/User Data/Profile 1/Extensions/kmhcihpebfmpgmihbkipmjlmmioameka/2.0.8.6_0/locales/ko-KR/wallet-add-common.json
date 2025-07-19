@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet 이름",
+    "caption": "wallet에 식별하기 쉬운 이름을 지정하세요."
+  },
+  "phrase": {
+    "title": "니모닉 구문"
+  },
+  "account": {
+    "title": "계정 수",
+    "caption": "생성할 계정 수를 지정하세요.",
+    "suffix": "계정",
+    "description": "$t(common:appName)의 wallet은(는) 최대 {{accountLimit}}개의 계정을 가질 수 있습니다. 각 계정은 다른 스테이크 풀에 위임될 수 있습니다. 계정 키는 wallet 루트 키에서 생성됩니다.",
+    "tooltip": "추가된 각 계정은 동기화 시간을 증가시키며, 계정은 언제든지 추가할 수 있습니다."
+  },
+  "create": {
+    "title": "wallet 생성 중",
+    "caption": "wallet이(가) 생성되는 동안 잠시 기다려 주세요.",
+    "password": {
+      "title": "지출 비밀번호 설정",
+      "caption": "긴 비밀번호를 선택하세요. 길수록 자금이 더 안전해집니다."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet이(가) 성공적으로 추가되었습니다.",
+      "created": "Wallet이(가) 성공적으로 생성되었습니다.",
+      "restored": "Wallet이(가) 성공적으로 복구되었습니다.",
+      "imported": "Wallet이(가) 성공적으로 가져왔습니다."
+    },
+    "processing": "wallet 생성 중...",
+    "exists": "Wallet이(가) 이미 존재합니다. Wallet(으)로 리디렉션합니다."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "$t(settings-page:title)",
+  "search": {
+    "placeholder": "ابحث عن إعداد..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "إعدادات الحساب",
+    "caption": "إعدادات تنطبق على الحساب النشط حالياً."
+  },
+  "wallet": {
+    "title": "Wallet إعدادات",
+    "caption": "إعدادات تنطبق على الـ wallet النشطة حالياً."
+  },
+  "app": {
+    "title": "إعدادات التطبيق",
+    "caption": "إعدادات تنطبق على Eternl بشكل عام."
+  },
+  "update": {
+    "success": "تم حفظ الإعداد بنجاح.",
+    "error": "خطأ في حفظ الإعداد."
+  }
+}

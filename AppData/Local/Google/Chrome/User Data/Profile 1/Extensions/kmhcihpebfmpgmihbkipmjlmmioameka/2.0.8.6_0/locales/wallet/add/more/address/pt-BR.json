@@ -1,0 +1,5 @@
+{
+  "title": "Criar Endereço Wallet",
+  "caption": "Insira um endereço delegado (base) ou não delegado (de pagamento) para criar uma wallet 'somente leitura'.",
+  "error": "Endereço inválido, verifique e tente novamente."
+}

@@ -1,0 +1,18 @@
+{
+  "idle": "Đã cập nhật",
+  "initializing": "Đang khởi tạo",
+  "queued": "Trong hàng đợi",
+  "syncing": "Đang đồng bộ",
+  "preparingFor": "đang chuẩn bị cho",
+  "syncingFor": "Đang đồng bộ cho",
+  "notSyncedYet": "chưa đồng bộ",
+  "success": "Đã hoàn tất",
+  "skipped": "Đã hoàn tất",
+  "syncedPrefix": "(đã đồng bộ",
+  "syncedSuffix": "trước)",
+  "error": "Thất bại",
+  "manual": "Thủ công",
+  "update": {
+    "tooltip": "Buộc cập nhật tài khoản."
+  }
+}

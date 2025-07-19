@@ -1,0 +1,18 @@
+{
+  "idle": "Uppdaterad",
+  "initializing": "Initierar",
+  "queued": "Köad",
+  "syncing": "Synkroniserar",
+  "preparingFor": "förbereder för",
+  "syncingFor": "Synkroniserar i",
+  "notSyncedYet": "inte synkroniserad än",
+  "success": "Slutförd",
+  "skipped": "Slutförd",
+  "syncedPrefix": "(synkad",
+  "syncedSuffix": "sedan)",
+  "error": "Misslyckades",
+  "manual": "Manuell",
+  "update": {
+    "tooltip": "Tvinga en uppdatering av kontot."
+  }
+}

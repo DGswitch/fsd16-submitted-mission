@@ -1,0 +1,10 @@
+{
+  "button": {
+    "favorite": {
+      "tooltip": "Dodaj ovaj račun u svoje favorite."
+    },
+    "dapp": {
+      "tooltip": "Kada se povezuješ sa DApp, koristi se ovaj račun."
+    }
+  }
+}

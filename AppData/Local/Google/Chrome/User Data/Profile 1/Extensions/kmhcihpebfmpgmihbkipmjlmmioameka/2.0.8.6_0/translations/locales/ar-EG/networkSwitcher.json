@@ -1,0 +1,54 @@
+{
+  "title": "$t(common:network.label) مبدل",
+  "caption": "اتصل فورًا بشبكة مختلفة.",
+  "active": "$t(common:active)",
+  "offline": "$t(common:offline)",
+  "cardano": "$t(common:network.cardano)",
+  "apexFusion": "$t(common:network.apexFusion)",
+  "mainnet": {
+    "label": "$t(common:network.cardano) $t(common:network.mainnet)",
+    "description": "شبكة Cardano الرسمية اللي أطلقتها IOG في 2017.",
+    "link": null,
+    "icon": null
+  },
+  "preprod": {
+    "label": "مرحلة ما قبل الإنتاج $t(common:network.testnet)",
+    "description": "شبكة اختبار ما قبل الإنتاج بتحاكي معايير الشبكة الرئيسية.",
+    "link": ""
+  },
+  "preview": {
+    "label": "معاينة $t(common:network.testnet)",
+    "description": "شبكة لاختبار إصدارات الشبكة الرئيسية. بتسبق الـ hard forks للشبكة الرئيسية بـ 4 أسابيع على الأقل.",
+    "link": ""
+  },
+  "guild": {
+    "label": "شبكة Guild",
+    "description": "شبكة اختبار بتشغلها مجموعة مجتمع Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  },
+  "afvt": {
+    "label": "$t(common:network.apexFusion) Vector $t(common:network.testnet)",
+    "description": "شبكة اختبار بتشغلها مجموعة مجتمع Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  },
+  "afvm": {
+    "label": "$t(common:network.apexFusion) Vector $t(common:network.mainnet)",
+    "description": "سلسلة محسّنة للأداء برسوم قليلة وسرعات معاملات عالية.",
+    "link": "https://apexfusion.org/"
+  },
+  "afpt": {
+    "label": "$t(common:network.apexFusion) Prime $t(common:network.testnet)",
+    "description": "شبكة اختبار بتشغلها مجموعة مجتمع Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  },
+  "afpm": {
+    "label": "$t(common:network.apexFusion) Prime $t(common:network.mainnet)",
+    "description": "العمود الفقري اللامركزي لـ Apex Fusion، بيأمن الطبقة الأساسية باستخدام بروتوكول توافق الآراء السائل Ouroboros التخزين المساهم (at-takhziin al-musaahim).",
+    "link": "https://apexfusion.org/"
+  },
+  "sancho": {
+    "label": "شبكة Sancho",
+    "description": "شبكة اختبار بتشغلها مجموعة مجتمع Guild Operators مع epochs قصيرة.",
+    "link": "https://cardano-community.github.io/guild-operators/#/"
+  }
+}

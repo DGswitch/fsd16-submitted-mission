@@ -1,0 +1,31 @@
+{
+  "menuLabel": "Enviar",
+  "title": "Enviar Fundos",
+  "caption": "Aqui pode transferir fundos e qualquer tipo de token / nft que sejam suportados pela Cardano.",
+  "subCaption": "Cada transação pode ter múltiplos destinatários, tornando o envio de ativos para diferentes entidades muito fácil e acessível.",
+  "info": {
+    "available": "$t(common:available)",
+    "txFee": "$t(common:txFee)",
+    "options": "$t(common:options)"
+  },
+  "button": {
+    "recipient": {
+      "label": "Adicionar Destinatário",
+      "tooltip": "Adicionar outro destinatário/output à transação."
+    },
+    "sign": {
+      "label": "Assinar Transação",
+      "tooltip": "Assine a transação com as suas chaves."
+    },
+    "check": {
+      "label": "Verificar Transação",
+      "tooltip": "Verifique se $t(common:appName) pode construir uma transação."
+    }
+  },
+  "banner": {
+    "recipient": {
+      "title": "$t(send/page:button.recipient.label)",
+      "text": "Outra transação limpa a lista de destinatários. Clique no botão abaixo para adicionar um novo destinatário."
+    }
+  }
+}

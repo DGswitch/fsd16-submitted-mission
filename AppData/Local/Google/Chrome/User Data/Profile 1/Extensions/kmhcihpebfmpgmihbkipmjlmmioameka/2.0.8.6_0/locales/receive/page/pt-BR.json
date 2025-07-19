@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Receber",
+  "title": "Receber Fundos",
+  "caption": "Partilhe este endereço para receber pagamentos.",
+  "search": {
+    "caption": "Encontre uma parte do endereço, ou um caminho de derivação como \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" ou \"0 1 32\".",
+    "placeholder": "$t(common:search) por um $t(common:address) ou um caminho",
+    "noResults": "Nenhum resultado encontrado"
+  },
+  "current": {
+    "headline": "Endereços disponíveis da wallet.",
+    "static": "Endereço de Recebimento.",
+    "caption": "Partilhe este endereço da wallet para receber pagamentos.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Tenha em atenção que todos os seus endereços de recebimento delegados incluem a sua stake key. \nQuando partilha um endereço de recebimento delegado, o destinatário pode pesquisar na blockchain usando a sua stake key para localizar \ntodos os endereços associados à sua wallet e também descobrir o saldo e o histórico de transações da sua wallet."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Endereços externos (delegados)",
+      "caption": "Estes endereços estão delegados a uma stake pool (se, de facto, delegou esta conta)."
+    },
+    "enterprise": {
+      "headline": "Endereços externos (não delegados)",
+      "caption": "Estes endereços não estão delegados."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Endereços internos de troco (delegados)",
+      "caption": "Estes endereços estão delegados a uma stake pool (se, de facto, delegou esta conta).\nNão partilhe endereços internos, forneça sempre endereços externos."
+    },
+    "enterprise": {
+      "headline": "Endereços internos de troco (não delegados)",
+      "caption": "Estes endereços não estão delegados.\nNão partilhe endereços internos, forneça sempre endereços externos."
+    }
+  }
+}

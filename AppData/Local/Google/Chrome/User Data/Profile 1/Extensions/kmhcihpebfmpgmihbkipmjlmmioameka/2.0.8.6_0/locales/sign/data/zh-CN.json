@@ -1,0 +1,12 @@
+{
+  "title": "你有數據需要確認",
+  "caption": "透過簽署提供嘅 payload 確認所請求 key 嘅擁有權",
+  "loading": "正在處理要簽署嘅數據",
+  "signing": "正在簽署 payload",
+  "hw": "正在 {{device}} 裝置上簽署 payload",
+  "json": "JSON payload",
+  "hex": "原始 payload",
+  "text": "文字",
+  "blake2b224": "Payload 嘅 Blake2b224 hash",
+  "reqSign": "請求簽署：{{keyType}} key"
+}

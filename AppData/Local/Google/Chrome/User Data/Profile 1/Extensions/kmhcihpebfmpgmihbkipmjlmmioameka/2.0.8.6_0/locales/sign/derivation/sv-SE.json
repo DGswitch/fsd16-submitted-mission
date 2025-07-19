@@ -1,0 +1,20 @@
+{
+  "input": {
+    "password": {
+      "label": "Lösenord för utgifter",
+      "placeholder": "Bekräfta lösenord"
+    }
+  },
+  "dv": {
+    "signing": "Genererar kontonycklar",
+    "hw": "Vänligen bekräfta export av publik nyckel på {{device}}-enheten."
+  },
+  "error": {
+    "passwordMismatch": "Angivna lösenord matchar inte, försök igen!",
+    "missingAppWallet": "__GT__Plånbok__ ej angiven. Ladda om appen och försök igen.",
+    "invalidResult": "Skanningsresultat ogiltigt.",
+    "missingRootKey": "Denna __GT__plånbok__ kan inte härleda kontonycklar (saknar rotnyckel).",
+    "deviceNotFound": "Enhet hittades inte.",
+    "unknown": "Okänt fel: {{error}}"
+  }
+}

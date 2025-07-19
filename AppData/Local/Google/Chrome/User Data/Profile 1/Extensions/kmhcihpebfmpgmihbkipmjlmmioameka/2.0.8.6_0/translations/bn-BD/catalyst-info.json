@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "প্রজেক্ট Catalyst",
+    "caption": "বর্তমান ফান্ডিং রাউন্ড সম্পর্কে সমস্ত খবর পড়ুন।",
+    "text": "প্রজেক্ট Catalyst-এর প্রতি কয়েক মাস অন্তর ফান্ডিং রাউন্ড থাকে, যেখানে আইডিয়াগুলোর জন্য নির্দিষ্ট পরিমাণ ada বরাদ্দ করার জন্য প্রস্তুত থাকে।\n\nপ্রজেক্ট Catalyst ওয়েবসাইটে পূর্ববর্তী এবং ভবিষ্যতের সমস্ত ফান্ডের প্রাসঙ্গিক তথ্য খুঁজুন।",
+    "button": {
+      "label": "পেজ ভিজিট করুন",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "সমস্ত প্রস্তাব ব্রাউজ করুন",
+    "text": "Catalyst একটি সহযোগিতামূলক উদ্ভাবনী প্ল্যাটফর্ম হিসাবে IdeaScale ব্যবহার করে।\n\nএটি কমিউনিটির তৈরি করা প্রস্তাবগুলির উপর ভোট দেওয়ার মাধ্যমে করা হয়, যা একটি নির্দিষ্ট ফান্ডের চ্যালেঞ্জ সমাধানে ফোকাস করে।",
+    "button": {
+      "label": "আরও জানুন",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "অল-ইন-ওয়ান Catalyst ডেটা প্ল্যাটফর্ম",
+    "text": "Blockchain শিক্ষা, আউটরিচ, এবং বিশ্বব্যাপী কমিউনিটি তৈরি:\n\nকারণ ভবিষ্যৎ সবার জন্য!",
+    "button": {
+      "label": "পেজ ভিজিট করুন",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "নিউজলেটার",
+    "caption": "আপ টু ডেট থাকুন",
+    "text": "সর্বশেষ খবর এবং আপডেটগুলি মিস না করতে প্রজেক্ট Catalyst নিউজলেটারে সাইন আপ করুন।",
+    "button": {
+      "label": "সাবস্ক্রাইব করুন",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "কমিউনিটির সাথে যুক্ত হন",
+    "text": "ভবিষ্যৎ Cardano উন্নয়ন প্রস্তাবনা সম্পর্কে আপনার ধারণা শেয়ার করতে এবং একটি সুস্থ, উদ্দীপক আলোচনা উপভোগ করতে Telegram আলোচনা এবং ঘোষণা চ্যানেলগুলিতে যোগ দিন।",
+    "button1": {
+      "label": "ঘোষণা",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "কমিউনিটি চ্যাট",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "টাউন হল",
+    "caption": "নির্মাতাদের সাথে দেখা করুন",
+    "text": "সাপ্তাহিক টাউন হল মিটিংগুলিতে Cardano-এর ভবিষ্যৎ নির্মাতাদের সাথে দেখা করুন। তাদের লাইভ প্রেজেন্টেশন দেখুন এবং অর্থপূর্ণ আলোচনায় অংশ নিন।",
+    "button": {
+      "label": "সাপ্তাহিক টাউন হল রেকর্ডিংস",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "চ্যালেঞ্জগুলি দেখান",
+      "hide": "চ্যালেঞ্জগুলি লুকান",
+      "link": "চ্যালেঞ্জ ওয়েবসাইট",
+      "allocation": "ফান্ড বরাদ্দ"
+    },
+    "timeline": {
+      "caption": "নীচে দেখানো টাইমলাইন পরিবর্তন সাপেক্ষ। এই পেজটি পুনরায় ভিজিট করে এবং Catalyst সাপ্তাহিক টাউন হল মিটিংগুলিতে অংশগ্রহণ করে আপ-টু-ডেট থাকুন।",
+      "snapshot": {
+        "label": "ভোটিং পাওয়ার স্ন্যাপশট",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "ভোট শুরু",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "ভোট শেষ",
+        "caption": ""
+      },
+      "result": {
+        "label": "ফলাফল",
+        "caption": "± কয়েক দিন।"
+      }
+    }
+  }
+}

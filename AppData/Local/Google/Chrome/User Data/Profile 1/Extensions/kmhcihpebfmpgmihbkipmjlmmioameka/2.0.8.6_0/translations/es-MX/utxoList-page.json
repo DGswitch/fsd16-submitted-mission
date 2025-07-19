@@ -1,0 +1,68 @@
+{
+  "menuLabel": "Lista de UTxO",
+  "title": "Lista de UTxO de la cuenta",
+  "caption": "Una lista de todos los UTxOs gestionados por esta cuenta, incluyendo monto y listas de tokens.",
+  "subCaption": "Un UTxO es como un billete de valor arbitrario. Las transacciones lo gastan y devuelven 'cambio' a tu wallet.",
+  "empty": "Esta cuenta no tiene ningún UTxO.",
+  "selectAll": "Seleccionar todo",
+  "filter": {
+    "headline": "Filtro de UTxO",
+    "caption": "Establece parámetros o ingresa una cadena de búsqueda para filtrar la lista de utxo.",
+    "search": "Buscar por dirección, ruta o ID de tx...",
+    "more": "Más",
+    "minada": "Monto mínimo de {{adaCurrency}}",
+    "maxada": "Monto máximo de {{adaCurrency}}",
+    "numAssets": "{{numAssets}} activos únicos encontrados."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO en {{address_count}} direcciones",
+    "pendingIn": {
+      "hint": "(entradas pendientes, UTxOs gastados)"
+    },
+    "pendingOut": {
+      "hint": "(salidas pendientes, UTxOs creados)"
+    },
+    "opkosk": {
+      "label": "Generando recompensas",
+      "hint": "(clave de pago de la cuenta, clave de stake de la cuenta)"
+    },
+    "opk": {
+      "label": "Sin delegar",
+      "hint": "(clave de pago de la cuenta, sin clave de stake)"
+    },
+    "opkesk": {
+      "label": "delegado externamente",
+      "hint": "(clave de pago de la cuenta, clave de stake externa)"
+    },
+    "epkosk": {
+      "label": "Fondos externos, pero generando recompensas",
+      "hint": "(clave de pago externa, clave de stake de la cuenta)"
+    },
+    "collateral": {
+      "label": "Colateral",
+      "hint": "(no todos están establecidos como colateral)"
+    },
+    "locked": {
+      "label": "UTxOs bloqueados"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Desglose del stake",
+    "controlledStake": {
+      "label": "Stake controlado",
+      "tooltip": "Cantidad total delegada a la clave de stake de esta cuenta (ya sea propia, externa o en contratos inteligentes)."
+    },
+    "ownedStake": {
+      "label": "Stake propio",
+      "tooltip": "Cantidad de stake bajo el control directo de esta cuenta."
+    },
+    "notStaked": {
+      "label": "Sin delegar",
+      "tooltip": "ADA sin delegar, fondos en direcciones empresariales."
+    },
+    "externallyStaked": {
+      "label": "Delegado externamente",
+      "tooltip": "ADA controlado por esta cuenta - combinado con cualquier clave de staking externa."
+    }
+  }
+}

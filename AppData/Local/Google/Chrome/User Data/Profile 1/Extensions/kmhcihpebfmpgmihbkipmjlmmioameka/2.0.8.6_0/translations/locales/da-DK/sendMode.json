@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "En normal Cardano-adresse.",
+    "description": "En Cardano-adresse starter med addr1, og det er ikke en script-adresse.",
+    "error": {
+      "invalid": "Ikke en gyldig Cardano-adresse."
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano Script",
+    "caption": "En script-adresse.",
+    "description": "En Cardano script-adresse bruges til smart contracts og starter med addr1 efterfulgt af et bestemt mønster.",
+    "error": {
+      "invalid": "Ikke en gyldig Cardano script-adresse."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "En menneskelæsbar Cardano-adresse.",
+    "description": "En Ada Handle er en unik, NFT-baseret identifikator, der kan bruges som en forenklet Cardano-adresse, der starter med $.",
+    "banner": {
+      "change": {
+        "title": "Ada Handle-adressen er ændret!",
+        "text": "Gammel adresse gemt i adressebogen:\n####OLD####\n\nNy adresse:\n####NEW####\n\nAdressen, der er repræsenteret af Ada Handle ###HANDLE###, er ændret, siden du tilføjede den til din adressebog.\nDet betyder, at Ada Handle er blevet flyttet til en anden wallet eller konto.\n\nHvis du sender penge, vil de gå til en anden adresse end den, der er gemt i din adressebog.\nDu har mulighed for at overskrive den nuværende adressebogspost ved at klikke på knappen nedenfor."
+      }
+    },
+    "error": {
+      "invalid": "Ikke en gyldig Ada Handle.",
+      "resolve": "Denne Ada Handle findes ikke.",
+      "image": "Kunne ikke indlæse Ada Handle-billede.",
+      "address": {
+        "invalid": "Ugyldig adresse. (Måske er den noteret på en markedsplads?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Et blockchain domænenavn.",
+    "description": "Unstoppable Domains er decentraliserede domænenavne, der kan knyttes til forskellige cryptocurrency-adresser, inklusive Cardano.",
+    "error": {
+      "invalid": "Ikke et gyldigt Unstoppable Domain.",
+      "resolve": "Dette Unstoppable Domain findes ikke.",
+      "domain": {
+        "resolve": "Unstoppable Domain kunne ikke løses."
+      },
+      "address": {
+        "invalid": "Ugyldig adresse. (Måske er den noteret på en markedsplads?)",
+        "notSet": "Dette Unstoppable Domain har ingen Cardano-adresse angivet."
+      }
+    }
+  }
+}

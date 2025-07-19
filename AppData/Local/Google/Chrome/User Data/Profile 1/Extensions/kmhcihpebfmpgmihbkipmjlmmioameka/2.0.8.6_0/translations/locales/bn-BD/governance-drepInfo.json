@@ -1,0 +1,54 @@
+{
+  "title": "DRep তথ্য",
+  "noInfo": "কোনো তথ্য উপলব্ধ নেই।",
+  "drepId": {
+    "label": "DRep আইডি (CIP129)",
+    "default": "ডিফল্ট অপশন",
+    "missing": "নেই"
+  },
+  "govAction": {
+    "id": "গভর্নেন্স অ্যাকশন আইডি",
+    "missing": "অজানা গভর্নেন্স অ্যাকশন আইডি",
+    "comment": "DRep যুক্তি"
+  },
+  "votingPower": "ভোটিং পাওয়ার",
+  "numDelegators": "ডেলিগেটর",
+  "paymentAddress": "পেমেন্ট ঠিকানা",
+  "objectives": "উদ্দেশ্য",
+  "qualifications": "যোগ্যতা",
+  "motivation": "অনুপ্রেরণা",
+  "tab": {
+    "info": {
+      "label": "তথ্য"
+    },
+    "votes": {
+      "label": "ভোট",
+      "noVotesFound": "কোনো ভোট পাওয়া যায়নি।"
+    }
+  },
+  "badge": {
+    "status": {
+      "active": {
+        "label": "সক্রিয়",
+        "tooltip": "DRep সক্রিয় এবং সম্প্রতি প্রস্তাবগুলোতে did ভোট দিয়েছে।"
+      },
+      "inactive": {
+        "label": "নিষ্ক্রিয়",
+        "tooltip": "DRep নিষ্ক্রিয় এবং সম্প্রতি প্রস্তাবগুলোতে did ভোট দেয়নি।"
+      },
+      "unregistered": {
+        "label": "ডি-রেজিস্টার্ড",
+        "tooltip": "DRep ডি-রেজিস্টার্ড।"
+      },
+      "selfDelegated": {
+        "label": "সেল্ফ-ডেলিগেটেড",
+        "tooltip": "এই অ্যাকাউন্টটি নিজেকে ভোট দেওয়ার জন্য ডেলিগেট করা হয়েছে।"
+      }
+    }
+  },
+  "error": {
+    "noDRepCred": "এই অ্যাকাউন্টের জন্য কোনো DRep পরিচয়পত্র পাওয়া যায়নি।",
+    "noDRepId": "ডেলিগেট করার জন্য কোনো DRep আইডি নেই।",
+    "invalidDRepId": "এটা একটা অবৈধ DRep আইডি"
+  }
+}

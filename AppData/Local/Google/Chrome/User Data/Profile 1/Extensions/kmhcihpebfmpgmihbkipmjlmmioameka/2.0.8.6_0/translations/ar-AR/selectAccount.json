@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "التبديل بين المحافظ.",
+    "accounts": {
+      "select": "الحسابات",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "حدد wallet معينة للتبديل بين الحسابات.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "بدّل حساب $t(common:dApp) النشط."
+    },
+    "accounts": {
+      "select": "حدد حساباً من القائمة. ضع علامة على الحساب كمفضل عن طريق تبديل أيقونة النجمة.",
+      "manage": "إضافة أو إزالة الحسابات، تحديد فهارس حسابات معينة أو تعيين أسماء للحسابات."
+    }
+  },
+  "groups": {
+    "placeholder": "حدد مجموعات wallet النشطة",
+    "favoriteAccounts": "#الحسابات المفضلة"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "اسم الحساب:",
+    "index": "الفهرس:",
+    "limit": "الحد:",
+    "remove": {
+      "tooltip": "إزالة الحساب"
+    }
+  },
+  "signAddAccounts": {
+    "title": "إضافة حسابات جديدة"
+  }
+}

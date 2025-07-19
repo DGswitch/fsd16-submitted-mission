@@ -1,0 +1,15 @@
+{
+  "title": "Otvoreno - Tvoje narudžbe",
+  "caption": "Prikazuje otvorene swap narudžbe na lancu koje još nisu obrađene.",
+  "loading": "Učitavanje narudžbi",
+  "noPending": "Nema pronađenih narudžbi na čekanju",
+  "time": "Vrijeme",
+  "swap": "Swap",
+  "dexs": "Dexs",
+  "via": "Preko",
+  "types": {
+    "buy": "KUPI",
+    "sell": "PRODAJ",
+    "cancel": "OTKAŽI"
+  }
+}

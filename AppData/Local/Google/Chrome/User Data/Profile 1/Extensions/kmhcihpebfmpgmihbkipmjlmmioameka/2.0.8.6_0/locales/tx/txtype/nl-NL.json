@@ -1,0 +1,26 @@
+{
+  "unknown": "Onbekend",
+  "sent": "Verzonden",
+  "received": "Ontvangen",
+  "ada": "Tegoeden",
+  "and": "en",
+  "tokens": "Tokens",
+  "intraWallet": "Interne overboeking",
+  "external": "Externe transactie",
+  "withdrawal": "Opname",
+  "deposit": "Storting",
+  "type": {
+    "metadata_only": {
+      "label": "Dit is een consolidatie in uw wallet met bijgevoegde metadata. Tegoeden werden verplaatst binnen uw wallet en er werd alleen een tx fee betaald.",
+      "preview": "De aanmaaktransactie zal een consolidatie zijn binnen uw wallet met bijgevoegde metadata. Tegoeden zullen worden verplaatst binnen uw wallet en er zal alleen een tx fee worden betaald."
+    },
+    "consolidation": {
+      "label": "Dit is een consolidatie in uw wallet. Tegoeden werden verplaatst binnen uw wallet en er werd alleen een tx fee betaald.",
+      "preview": "De aanmaaktransactie zal een consolidatie zijn binnen uw wallet. Tegoeden zullen worden verplaatst en er zal alleen een tx fee worden betaald."
+    },
+    "simple_send": {
+      "label": "Tegoeden en/of tokens werden verzonden naar een extern adres.",
+      "preview": "Tegoeden en/of tokens zullen worden verzonden naar een extern adres."
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "title": "Eternl Monster Zamjena",
+  "caption": "Pronađi najbolju cijenu od više agregatora za tebe",
+  "select": "ODABERI",
+  "sell": "Ti prodaješ",
+  "buy": "Ti kupuješ",
+  "balance": "Dostupno za zamjenu",
+  "aggAndDexs": "Agregatori & DEX-ovi:",
+  "provider": "Provajder",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Briše sve unose"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Kreiraj transakciju zamjene"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Pravimo transakciju zamjene."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Naknada za Batcher & Volumen pool-a (DEX-ovi)",
+      "tooltip": "DEX-ovi postavljaju naknadu za obradu tvoje narudžbe. Ova naknada se ne vraća."
+    },
+    "aggregatorFee": {
+      "label": "Naknada za uslugu",
+      "tooltip": "Ovo je naknada za praktičnost. Pomaže u financiranju razvoja agregatora i Eternl."
+    },
+    "deposit": {
+      "label": "Povratni depozit",
+      "tooltip": "Depozit je potreban za obradu tvoje narudžbe. Ovaj iznos se vraća u tvoj wallet sa tokenima koje dobiješ."
+    }
+  },
+  "geo": {
+    "headline": "MonsterSwap nije dostupan u tvojoj regiji!",
+    "caption": "Zbog propisa i posvećenosti Eternl da poštuje regionalne politike i sve primjenjive zakone, morali smo onemogućiti MonsterSwap u tvojoj regiji. Svjesni smo da su zakoni nejasni i stalno se mijenjaju, i mi ćemo prilagoditi ograničenja u skladu s tim."
+  }
+}

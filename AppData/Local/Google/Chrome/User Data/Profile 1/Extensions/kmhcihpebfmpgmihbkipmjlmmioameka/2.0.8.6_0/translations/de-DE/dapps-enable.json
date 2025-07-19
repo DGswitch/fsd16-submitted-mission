@@ -1,0 +1,31 @@
+{
+  "title": "Verbinden mit ",
+  "caption": "Interagiere nur mit dApps, denen du vertraust! Bitte bestätige, dass es die korrekte URL ist und dass sie sicher ist (HTTPS).",
+  "label": {
+    "possibleScam": "möglicher Betrug",
+    "notSecure": "nicht sicher",
+    "confirmRisk": "Ich verstehe die Risiken",
+    "grantAccess": "Zugriff gewähren"
+  },
+  "noAccount": {
+    "title": "Kein dApp-Konto eingerichtet",
+    "caption": "Es ist kein dApp-Konto in $t(common:appName) eingerichtet. Wechsle zur vollständigen $t(common:appName) App und erstelle oder importiere eine wallet.",
+    "openUI": "App öffnen"
+  },
+  "access": {
+    "url": "URL",
+    "features": "Funktionen"
+  },
+  "cip30": {
+    "title": "DApp Connector (CIP30)",
+    "caption": "Ermöglicht das Lesen deines Guthabens und fordert zur Signatur von Transaktionen auf. Du kannst eine Transaktion vor dem Signieren überprüfen."
+  },
+  "cip95": {
+    "title": "Cardano Governance (CIP95)",
+    "caption": "Ermöglicht das Lesen deines Stimmrechtsnachweises."
+  },
+  "cip104": {
+    "title": "Öffentlicher Kontoschlüssel (CIP104)",
+    "caption": "Ermöglicht den Export des öffentlichen Kontoschlüssels. Bitte beachte, dass dies der DApp erlaubt, jede Adresse für das verbundene Konto abzuleiten."
+  }
+}

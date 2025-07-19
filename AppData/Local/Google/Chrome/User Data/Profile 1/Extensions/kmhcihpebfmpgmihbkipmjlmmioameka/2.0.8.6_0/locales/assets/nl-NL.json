@@ -1,0 +1,66 @@
+{
+  "title": "Asset details",
+  "owns": "Account bezit",
+  "youOwn": "u bezit",
+  "numAssets": "{{numAssets}} unieke asset(s) gevonden.",
+  "tab": {
+    "details": "Details",
+    "metadata": "Metadata",
+    "raw": "Ruwe data",
+    "registry": "Token Registry",
+    "media": "Media"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Asset toevoegen",
+      "tooltip": "Voeg de asset toe aan deze ontvanger."
+    },
+    "editAsset": {
+      "label": "Asset bewerken",
+      "tooltip": "Wijzig het bedrag."
+    },
+    "addAssets": {
+      "label": "Assets toevoegen",
+      "tooltip": "Voeg meer assets toe aan deze ontvanger."
+    },
+    "editAssets": {
+      "label": "Assets bewerken",
+      "tooltip": "Wijzig de reeds toegevoegde assets."
+    },
+    "removeAsset": {
+      "label": "Asset verwijderen",
+      "tooltip": "Verwijder de asset van deze ontvanger."
+    },
+    "addCollection": {
+      "label": "Collectie toevoegen",
+      "tooltip": "Voeg de collectie toe aan deze ontvanger."
+    },
+    "removeCollection": {
+      "label": "Collectie verwijderen",
+      "tooltip": "Verwijder de collectie van deze ontvanger."
+    }
+  },
+  "hover": {
+    "removeAsset": "Asset verwijderen"
+  },
+  "filter": {
+    "search": "Zoek op policy, naam, fingerprint of metadata..."
+  },
+  "price": {
+    "unknown": "Onbekende tokenwaarde",
+    "value": "Tokenwaarde",
+    "avg": "Gemiddelde prijs"
+  },
+  "media": {
+    "format": {
+      "html": "HTML-bestand",
+      "pdf": "PDF-bestand",
+      "image": "Afbeelding",
+      "video": "Video",
+      "audio": "Audio"
+    }
+  },
+  "digits": {
+    "unknown": "Onbekende decimalen"
+  }
+}

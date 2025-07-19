@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "Một địa chỉ Cardano thông thường.",
+    "description": "Một địa chỉ Cardano bắt đầu bằng addr1 và không phải là địa chỉ script.",
+    "error": {
+      "invalid": "Địa chỉ Cardano không hợp lệ."
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano Script",
+    "caption": "Một địa chỉ script.",
+    "description": "Một địa chỉ script Cardano được dùng cho các hợp đồng thông minh và bắt đầu bằng addr1 theo sau bởi một mẫu cụ thể.",
+    "error": {
+      "invalid": "Địa chỉ script Cardano không hợp lệ."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "Một địa chỉ Cardano mà con người có thể đọc được.",
+    "description": "Một Ada Handle là một định danh duy nhất dựa trên NFT có thể được sử dụng như một địa chỉ Cardano đơn giản hóa, bắt đầu bằng $.",
+    "banner": {
+      "change": {
+        "title": "Địa chỉ Ada Handle đã thay đổi!",
+        "text": "Địa chỉ cũ được lưu trong sổ địa chỉ:\n####OLD####\n\nĐịa chỉ mới:\n####NEW####\n\nĐịa chỉ được đại diện bởi Ada Handle ###HANDLE### đã thay đổi kể từ khi bạn thêm nó vào sổ địa chỉ của mình.\nĐiều này có nghĩa là Ada Handle đã được chuyển sang một wallet hoặc tài khoản khác.\n\nNếu bạn gửi tiền, chúng sẽ đến một địa chỉ khác với địa chỉ được lưu trong sổ địa chỉ của bạn.\nBạn có tùy chọn ghi đè mục sổ địa chỉ hiện tại bằng cách nhấp vào nút bên dưới."
+      }
+    },
+    "error": {
+      "invalid": "Ada Handle không hợp lệ.",
+      "resolve": "Ada Handle này không tồn tại.",
+      "image": "Không thể tải hình ảnh Ada Handle.",
+      "address": {
+        "invalid": "Địa chỉ không hợp lệ. (Có thể nó đang được niêm yết trên sàn giao dịch?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Một tên miền blockchain.",
+    "description": "Unstoppable Domains là các tên miền phi tập trung có thể được liên kết với nhiều địa chỉ tiền điện tử khác nhau, bao gồm cả Cardano.",
+    "error": {
+      "invalid": "Unstoppable Domain không hợp lệ.",
+      "resolve": "Unstoppable Domain này không tồn tại.",
+      "domain": {
+        "resolve": "Không thể phân giải Unstoppable Domain."
+      },
+      "address": {
+        "invalid": "Địa chỉ không hợp lệ. (Có thể nó đang được niêm yết trên sàn giao dịch?)",
+        "notSet": "Unstoppable Domain này chưa đặt địa chỉ Cardano."
+      }
+    }
+  }
+}

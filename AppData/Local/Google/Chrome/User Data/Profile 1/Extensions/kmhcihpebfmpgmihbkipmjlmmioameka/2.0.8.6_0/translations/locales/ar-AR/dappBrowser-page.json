@@ -1,0 +1,12 @@
+{
+  "menuLabel": "متصفح Dapp",
+  "title": "متصفح Dapp",
+  "caption": "اتصل بـ Cardano dApps.",
+  "subCaption": "",
+  "connect": "اتصل بـ {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "أدخل نطاق dapp"
+    }
+  }
+}

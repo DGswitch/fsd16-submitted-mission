@@ -1,0 +1,72 @@
+{
+  "is": {
+    "label": "Input Auswahl",
+    "caption": "Übernimm die Kontrolle über die Input-Auswahl, indem du bestimmte utxos in deinem Konto ausgibst.",
+    "reset": "Input Auswahl zurücksetzen"
+  },
+  "import": {
+    "label": "Transaktion importieren",
+    "caption": "Importiere eine unsignierte oder signierte Transaktion, die von Eternl oder anderen Quellen exportiert wurde.",
+    "upload": "Lade Transaktionsdateien hoch oder füge das rohe Transaktions-CBOR ein."
+  },
+  "tf": {
+    "label": "Token Fragmentierung",
+    "caption": "Verteile deine Assets auf mehrere utxos, um Gebühren für zukünftige Transaktionen zu senken.",
+    "notification": {
+      "start": "Starte den Aufbau von Token-Fragmentierungstransaktionen. Das kann eine Weile dauern.",
+      "finish": "Fertig mit dem Erstellen von Token-Fragmentierungstransaktionen. Bereite das Signieren vor.",
+      "notNecessary": "Keine Collect UTxOs notwendig.",
+      "error1": "Konnte keine Token-Fragmentierungstransaktion erstellen.",
+      "error2": "Füg mehr {{currency}} hinzu oder erhöhe die TF-Bundle-Größe und versuchs nochmal."
+    }
+  },
+  "cu": {
+    "label": "UTxO Sammlung",
+    "caption": "Sammle UTxOs dieses Kontos, im Grunde genommen werden sie zu wenigeren zusammengeführt. Es werden bis zu 10 Transaktionen gleichzeitig erstellt. Die Verarbeitung kann eine Weile dauern.",
+    "notification": {
+      "start": "Starte den Aufbau von Collect-UTxO-Transaktionen. Das kann eine Weile dauern.",
+      "finish": "Fertig mit dem Erstellen von Collect-UTxO-Transaktionen. Bereite das Signieren vor.",
+      "notNecessary": "Keine Collect UTxOs notwendig.",
+      "error1": "Konnte keine Collect-UTxO-Transaktion erstellen. (1)",
+      "error2": "Konnte keine Collect-UTxO-Transaktion erstellen. (2)"
+    }
+  },
+  "ms": {
+    "label": "Spezielle Sammlung",
+    "label2": "Sammeln in Wallet",
+    "caption": "Sammle UTxOs dieser MS-Gebühren-wallet, im Grunde genommen werden sie zu wenigeren zusammengeführt. Es werden bis zu 10 Transaktionen gleichzeitig erstellt. Die Verarbeitung kann eine Weile dauern."
+  },
+  "donation": {
+    "label": "Spende 1 {{currency}}, um die Entwicklung von $t(common:appName) zu unterstützen",
+    "caption": "Wir hoffen, Eternl gefällt dir! Bitte überleg, ob du mit dieser Transaktion 1 {{currency}} schicken möchtest, um die Entwicklung unseres Projekts zu unterstützen."
+  },
+  "customMetadata": {
+    "label": "Benutzerdefinierte Metadata",
+    "caption": "Füge ein benutzerdefiniertes metadata-Schema im JSON-Format gemäß Spezifikation hinzu.",
+    "placeholder": "JSON einfügen / eingeben",
+    "urllabel": "Dokumentation über das metadata JSON-Format auf cardano.org",
+    "added": "Folgende metadata wurde der Transaktion hinzugefügt:",
+    "schemainfo": {
+      "NoConversions": "Konvertiert zuverlässig zwischen dem minimalen gemeinsamen Funktionsumfang zwischen JSON und Metadata.",
+      "BasicConversions": "Fügt zusätzliche Unterstützung für Byte (als Hex-Strings) und Integer-Keys (als Strings) hinzu.",
+      "DetailedSchema": "Ausführliches JSON-Schema, aber mit der größten Flexibilität für die metadata-Konvertierung."
+    },
+    "banner": {
+      "error": {
+        "title": "Kein gültiges Cardano JSON allgemeines metadata Schema",
+        "json": "Ungültiges JSON.",
+        "label": "Ungültige Label.\nTop-Level-Keys müssen eindeutige Integer im Bereich von -(2^64 - 1) bis (2^64 - 1) sein."
+      }
+    }
+  },
+  "metadata": {
+    "label": "On-Chain $t(common:message.label) hinzufügen",
+    "caption": "Füge der Transaktion eine Nachricht/einen Kommentar/ein Memo hinzu.\nDrücke \"ENTER\" für eine mehrzeilige Nachricht.",
+    "enableEncryption": "Verschlüsselung aktivieren",
+    "placeholder": "Gib eine Transaktionsnachricht ein",
+    "error": {
+      "overflow": "Die Anzahl der Zeichen pro Zeile ist auf 64 begrenzt. Drücke die Eingabetaste, um eine neue Zeile hinzuzufügen",
+      "invalidJSON": "Kein gültiges Cardano JSON allgemeines metadata Schema."
+    }
+  }
+}

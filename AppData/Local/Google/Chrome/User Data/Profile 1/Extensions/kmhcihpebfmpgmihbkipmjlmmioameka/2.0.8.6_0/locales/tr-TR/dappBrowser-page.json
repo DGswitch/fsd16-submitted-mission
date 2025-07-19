@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp Tarayıcı",
+  "title": "Dapp Tarayıcı",
+  "caption": "Cardano dApp'lerine bağlanın.",
+  "subCaption": "",
+  "connect": "{{dapp}}'e Bağlan",
+  "list": {
+    "input": {
+      "domain": "dapp alan adını girin"
+    }
+  }
+}

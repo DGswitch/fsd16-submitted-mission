@@ -1,0 +1,10 @@
+{
+  "title": "$t(send/options:import.label)",
+  "caption": "$t(send/options:import.upload)",
+  "cbor": "Klistra in transaktions-cbor",
+  "error": {
+    "corrupted": "Uppladdad fil är korrupt, transaktionen kunde inte importeras.",
+    "invalid": "Uppladdad fil är inte en giltig json-fil.",
+    "format": "Json-filen verkar inte innehålla exporterad transaktionsdata."
+  }
+}

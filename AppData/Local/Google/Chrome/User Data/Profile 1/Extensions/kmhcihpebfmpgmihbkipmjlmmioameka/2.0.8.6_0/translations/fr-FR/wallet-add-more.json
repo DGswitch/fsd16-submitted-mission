@@ -1,0 +1,20 @@
+{
+  "title": "Sélectionner le type de wallet",
+  "caption": "Création avancée de wallet. Retournez en arrière pour les options courantes.",
+  "import-wallet": {
+    "title": "Importer une sauvegarde",
+    "caption": "Restaurer à partir de fichiers de sauvegarde JSON Eternl"
+  },
+  "cli-skey-wallet": {
+    "title": "Clés de signature CLI",
+    "caption": "Importer les clés de signature (skey) générées par CLI"
+  },
+  "account-pub-wallet": {
+    "title": "Clé publique de compte (lecture seule)",
+    "caption": "Saisir la clé publique de compte exportée"
+  },
+  "address-wallet": {
+    "title": "Adresse (lecture seule)",
+    "caption": "Créer à partir d'une adresse bech32"
+  }
+}

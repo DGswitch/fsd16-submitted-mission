@@ -1,0 +1,134 @@
+{
+  "tx": {
+    "label": "عندك {{tx_cnt}} معاملة (معاملات) عشان تتأكد",
+    "caption": "دوس عشان تعرض كل معاملة بالتفصيل",
+    "loading": "جاري معالجة المعاملات عشان تتوقع",
+    "signing": "جاري توقيع المعاملة <b>{{txindex}}</b> من {{txtotal}}",
+    "submitting": "جاري إرسال المعاملات",
+    "sharing": "جاري مشاركة معاملات Multi-Sig",
+    "hw": "أكد المعاملة <b>{{txindex}}</b> من {{txtotal}} على جهاز {{device}} بتاعك",
+    "keystonehash": "<b>نظراً للحجم، ممكن بس نعرض هاش جسم المعاملة على الجهاز!</b>",
+    "review": "ياريت تراجع المعاملة قبل ما تأكدها"
+  },
+  "button": {
+    "debug": {
+      "label": "نزل معلومات التصحيح"
+    }
+  },
+  "biometrics": {
+    "sign": "وقع بالبصمة"
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "partiallySigned": "$t(common:status.partiallySigned)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "تم إرسال المعاملة بنجاح",
+    "submitMultiple": "تم إرسال كل المعاملات بنجاح"
+  },
+  "account": {
+    "label": "جاري توقيع المحافظ",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "جاري التوقيع دلوقتي",
+      "unsigned": "محتاجة توقيع",
+      "signed": "موقعة",
+      "connecting": "جاري الاتصال"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send-options:tf.label)",
+      "caption": "$t(send-options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send-options:cu.label)",
+      "caption": "اجمع UTxOs بتوع الحساب ده عن طريق دمجهم في عدد أقل."
+    },
+    "send-all": {
+      "headline": "إرسال كل الأموال",
+      "caption": "المعاملة دي بتبعت كل الفلوس اللي في الحساب. ياريت تتأكد من تفاصيل عنوان الوجهة."
+    },
+    "high-fee": {
+      "headline": "رسوم أعلى من الطبيعي",
+      "caption": "تم اكتشاف رسوم معاملات أعلى من الطبيعي. ياريت تتأكد من تفاصيل المعاملة عشان تتأكد إن ده اللي أنت عايزه."
+    },
+    "withdraw": {
+      "headline": "سحب المكافآت",
+      "caption": "المكافآت بتاعتك جزء تلقائي من حصة الـ التخزين المساهم (at-takhziin al-musaahim) اللي فوضتها. مش لازم تسحب المكافآت إلا لو هتبعتها مكان تاني أو محتاجها عشان تتحسب في قوة التصويت في catalyst."
+    },
+    "pool-deleg": {
+      "headline": "تفويض المجمع",
+      "caption": "معاملة تفويض مجمع stake. شوف المعاملة عشان التفاصيل."
+    },
+    "vote-deleg": {
+      "headline": "تفويض التصويت",
+      "caption": "معاملة تفويض تصويت governance. شوف المعاملة عشان التفاصيل."
+    },
+    "ms-reg": {
+      "headline": "تسجيل Multi-Sig محفظة رقمية (maḥfaẓa raqamiya)",
+      "caption": "ده بيسجل Multi-Sig محفظة رقمية (maḥfaẓa raqamiya) على سلسلة الكتل (Selselat al-Kutal) عشان كل المشاركين يكتشفوه بسهولة."
+    },
+    "cat-reg": {
+      "headline": "تسجيل Catalyst",
+      "caption": "ده بيعمل معاملة تسجيل تصويت Catalyst. التسجيل ده صالح لقطات تمويل Catalyst اللي جاية، إلا لو تم استبداله بتسجيل أحدث."
+    },
+    "collateral": {
+      "headline": "Collateral UTxO",
+      "caption": "بينشئ UTxOs ضمانات مطلوبة أحيانًا لما تتفاعل مع DApps."
+    },
+    "stake-dereg": {
+      "headline": "إلغاء تسجيل مفتاح Stake",
+      "caption": "$t(settings-account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "إلغاء تسجيل DRep",
+      "caption": "$t(settings-account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "تنظيف الـ Scam Token",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "أمر مبادلة",
+      "caption": "معاملة أمر MonsterSwap بتوفر أفضل الطرق المتاحة."
+    },
+    "swap-cancel": {
+      "headline": "إلغاء طلب المبادلة",
+      "caption": "عملية إلغاء لطلب مبادلة تم نشره مسبقًا."
+    },
+    "donation": {
+      "headline": "تبرع",
+      "caption": "شكراً لدعمك لـ Eternl."
+    }
+  },
+  "error": {
+    "expired": "غير قادر على الإرسال! انتهت صلاحية المعاملة. يرجى إعادة إنشاء المعاملة بتاريخ انتهاء جديد (TTL).",
+    "auxDataMismatch": "يوجد عدم تطابق بين بيانات وصفية المرفقة والهاش المطلوب للتوقيع. بيانات وصفية المعروضة لهذه المعاملة ليست ما ستوقعه!",
+    "auxDataMissing": "تم إخفاء معاملة بيانات وصفية.",
+    "debug": "للحصول على مزيد من الدعم، يرجى فتح تذكرة Discord مع بيانات التصحيح التي تم تنزيلها.",
+    "unknownInputs": "غير قادر على حساب رصيد دقيق للمعاملة بسبب مدخلات غير معروفة.",
+    "doubleSpend": "قائمة معاملات غير صالحة: الإدخال utxo تم إنفاقه أكثر من مرة.\n",
+    "missingKeys": "المعاملة (المعاملات) لا تحتاج إلى أي شهود من الحساب (الحسابات) المتاحة. إذا تم التأكيد بالفعل، يرجى الإغلاق والإرسال.",
+    "locked": "تحاول المعاملة (المعاملات) إنفاق واحد أو أكثر من UTxOs المؤمنة يدويًا.",
+    "passwordMismatch": "كلمات المرور المدخلة غير متطابقة، يرجى المحاولة مرة أخرى!",
+    "dappUnsupported": "DApp غير مدعوم لـ {{device}} محفظة رقمية (maḥfaẓa raqamiya).",
+    "fixPermissionUSB": {
+      "text": "اضغط على الزر واتبع التعليمات للسماح باتصال USB.",
+      "button": "إصلاح إذن USB"
+    },
+    "fixPermissionBLE": {
+      "text": "اضغط على الزر واتبع التعليمات للسماح باتصال Bluetooth.",
+      "button": "إصلاح إذن Bluetooth"
+    },
+    "fixPermissionCamera": {
+      "text": "اضغط على الزر واتبع التعليمات للسماح بالوصول إلى الكاميرا.",
+      "button": "إصلاح إذن الكاميرا"
+    }
+  },
+  "info": {
+    "signDownload": "تم تأكيد المعاملة من قبل جميع الحسابات المتاحة.",
+    "multiSigShare": "شارك المعاملة لإعلام المشاركين في Multi-Sig wallet، أو بدلاً من ذلك قم بتنزيل المعاملة ومشاركتها يدويًا."
+  }
+}

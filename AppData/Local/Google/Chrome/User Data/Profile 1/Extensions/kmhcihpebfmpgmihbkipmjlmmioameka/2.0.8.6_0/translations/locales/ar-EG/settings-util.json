@@ -1,0 +1,35 @@
+{
+  "frankenAddress": {
+    "title": "مولد عناوين فرانكن",
+    "caption": "اعمل عنوان جديد بإنك تدمج أي عنوانين.",
+    "setting": {
+      "caption": "$t(settings-util:frankenAddress.caption)",
+      "info": "جزء الدفع هيتاخد من العنوان الأولاني و يتركب مع جزء الـ stake من العنوان التاني.",
+      "payment": "عنوان أساسي أو عنوان دفع / مؤسسة",
+      "stake": "عنوان أساسي أو عنوان Stake",
+      "frankenAddress": "عنوان فرانكن"
+    }
+  },
+  "signData": {
+    "title": "توقيع البيانات",
+    "caption": "وقع أو أتأكد من أي حمولة بيانات بالعنوان / الـ ID حسب معيار CIP-8.",
+    "setting": {
+      "caption": "$t(settings-util:signData.caption)",
+      "info": "جزء الدفع هيتاخد من العنوان الأولاني و يتركب مع جزء الـ stake من العنوان التاني.",
+      "address": "عنوان أو رقم تعريفي (DRep, Pool Calidus)",
+      "payload": "الحمولة (البيانات اللي هتتوقع)",
+      "text": "$t(common:text)",
+      "json": "$t(common:json)",
+      "hex": "$t(common:hex)",
+      "verify": {
+        "valid": "المفتاح والتوقيع صالحين للإدخال",
+        "invalid": {
+          "key": "مفتاح غير صالح",
+          "signature": "توقيع غير صالح",
+          "payload": "بيانات غير صالحة",
+          "address": "العنوان / الرقم التعريفي لا يتطابق مع رأس الحمولة"
+        }
+      }
+    }
+  }
+}

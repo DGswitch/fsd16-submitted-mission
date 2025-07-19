@@ -1,0 +1,54 @@
+{
+  "title": "Dettaglio Fondi Disponibili",
+  "toggleInfo": {
+    "active": "Mostra descrizione",
+    "inactive": "Show breakdown"
+  },
+  "total": {
+    "label": "Fondi su UTxO"
+  },
+  "selected": {
+    "label": "UTxO Selezionati",
+    "info": "Importo totale di tutti gli UTxO selezionati manualmente."
+  },
+  "rewards": {
+    "label": "Ricompense (non un UTxO)",
+    "info": "Ricompense accumulate, che possono essere prelevate se l'account è delegato a un DRep."
+  },
+  "lockedInPendingInputs": {
+    "label": "Input in sospeso",
+    "info": "Questi fondi sono utilizzati in una transazione in sospeso."
+  },
+  "lockedByCollateral": {
+    "label": "Collaterale (non bloccato)",
+    "info": "Fondi bloccati, da utilizzare come collaterale da $t(common:appName) - Disabilita il collaterale nelle impostazioni dell'account per poter spendere questi fondi."
+  },
+  "lockedUtxo": {
+    "label": "UTxO Bloccati",
+    "info": "Fondi bloccati, da non spendere da $t(common:appName) o dalle dApp - Seleziona manualmente gli utxos da sbloccare nella pagina: Account > Elenco UTxO."
+  },
+  "lockedByTokens": {
+    "label": "Vincolati ai token",
+    "info": "All'interno di Cardano, ogni token/nft ha degli ADA associati; l'importo bloccato dai token ti dice (stima) a quanto ammonta per il tuo wallet attuale."
+  },
+  "lockedByTokensTF": {
+    "label": "Per Token Fragmentation",
+    "info": "Organizzare tutti i tuoi UTxO utilizzando la Token Fragmentation vincolerebbe questa quantità di ADA."
+  },
+  "lockedAsRewards": {
+    "label": "Ricompense Bloccate",
+    "info": "Le ricompense non sono spendibili nelle dApp e devono essere prima prelevate. $t(common:appName) può farlo automaticamente, vai su: Account > Impostazioni Wallet > Prelievo Automatico, e abilitalo. Per questo l'account deve essere delegato a un DRep."
+  },
+  "lockedFees": {
+    "label": "Commissioni di transazione",
+    "info": "L'invio di transazioni alla blockchain Cardano comporta commissioni di transazione."
+  },
+  "lockedTotal": {
+    "label": "Est. locked",
+    "info": "Calculated total locked amount."
+  },
+  "available": {
+    "label": "Est. available",
+    "info": "Questi sono i fondi che possono essere inviati, dopo aver dedotto tutti i fondi bloccati."
+  }
+}

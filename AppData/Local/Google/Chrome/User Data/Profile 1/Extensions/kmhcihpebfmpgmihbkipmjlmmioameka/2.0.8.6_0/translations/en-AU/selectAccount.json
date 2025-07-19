@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Switch between wallets.",
+    "accounts": {
+      "select": "accounts",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Select a specific wallet to switch between accounts.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Switch the active $t(common:dApp) account."
+    },
+    "accounts": {
+      "select": "Select an account from the list. Mark an account as favourite by toggling the star icon.",
+      "manage": "Add or remove accounts, select specific account indexes or set account names."
+    }
+  },
+  "groups": {
+    "placeholder": "Select active wallet groups",
+    "favoriteAccounts": "#Favourite accounts"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Account name:",
+    "index": "Index:",
+    "limit": "Limit:",
+    "remove": {
+      "tooltip": "Remove account"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Add New Accounts"
+  }
+}

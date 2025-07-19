@@ -1,0 +1,9 @@
+{
+  "title": "CLI署名キーをインポート",
+  "caption": "CLIで生成されたwalletから支払い署名キーと（任意で）ステーク署名キーを選択してください。",
+  "payment": "支払いキー",
+  "stake": "ステークキー",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "無効なキーです。確認して再試行してください！"
+}

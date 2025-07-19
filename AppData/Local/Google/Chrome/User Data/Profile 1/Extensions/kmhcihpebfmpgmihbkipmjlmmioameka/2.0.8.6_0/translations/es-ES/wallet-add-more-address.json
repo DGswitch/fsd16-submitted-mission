@@ -1,0 +1,5 @@
+{
+  "title": "Crear Dirección Wallet",
+  "caption": "Introduce una dirección delegada (base) o no delegada (de pago) para crear un wallet de 'solo lectura'",
+  "error": "Dirección inválida, por favor, verifica e inténtalo de nuevo."
+}

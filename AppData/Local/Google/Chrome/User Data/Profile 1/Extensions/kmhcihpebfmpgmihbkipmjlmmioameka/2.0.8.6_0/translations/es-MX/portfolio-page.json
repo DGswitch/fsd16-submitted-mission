@@ -1,0 +1,20 @@
+{
+  "menuLabel": "Portafolio",
+  "title": "Portafolio",
+  "caption": "Resumen del valor de los activos en esta cuenta.",
+  "description": "Estos números son estimaciones del valor de los tokens en tu wallet. Los valores solo se actualizan cada 5 minutos y el precio es una agregación de diferentes exchanges descentralizados.",
+  "header": {
+    "caption": "Esta wallet tiene {{asset_count}} activos diferentes. Los saldos con valor inferior a 1 ADA están ocultos."
+  },
+  "value": "Valor del activo",
+  "estimated": "Valor total estimado",
+  "table": {
+    "header": {
+      "asset": "Activo",
+      "price": "Precio",
+      "owned": "Cantidad",
+      "percent": "% del portafolio",
+      "swaptoken": "Intercambiar token"
+    }
+  }
+}

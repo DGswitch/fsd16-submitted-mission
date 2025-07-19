@@ -1,0 +1,26 @@
+{
+  "unknown": "Tidak Diketahui",
+  "sent": "Terkirim",
+  "received": "Diterima",
+  "ada": "Dana",
+  "and": "dan",
+  "tokens": "Token",
+  "intraWallet": "Transfer Internal",
+  "external": "Transaksi Eksternal",
+  "withdrawal": "Penarikan",
+  "deposit": "Deposit",
+  "type": {
+    "metadata_only": {
+      "label": "Ini adalah konsolidasi di wallet Anda dengan metadata terlampir. Dana dipindahkan di dalam wallet Anda dan hanya biaya tx yang dibayarkan.",
+      "preview": "Transaksi yang dibuat akan menjadi konsolidasi di dalam wallet Anda dengan metadata terlampir. Dana akan dipindahkan di dalam wallet Anda dan hanya biaya tx yang akan dibayarkan."
+    },
+    "consolidation": {
+      "label": "Ini adalah konsolidasi di wallet Anda. Dana dipindahkan di dalam wallet Anda dan hanya biaya tx yang dibayarkan.",
+      "preview": "Transaksi yang dibuat akan menjadi konsolidasi di dalam wallet Anda. Dana akan dipindahkan tetapi hanya biaya tx yang akan dibayarkan."
+    },
+    "simple_send": {
+      "label": "Dana dan/atau token dikirim ke alamat eksternal.",
+      "preview": "Dana dan/atau token akan dikirim ke alamat eksternal."
+    }
+  }
+}

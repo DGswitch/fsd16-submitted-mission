@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Aktivt kontonamn",
+    "caption": "Ange kontonamn för aktuellt konto",
+    "setting": {
+      "caption": "Uppdatera ditt (aktiva) kontonamn eller välj/avmarkera ett Ada Handle.",
+      "adaHandle": {
+        "select": "Välj vilket Ada Handle som ska visas istället för kontonamnet (avmarkera för att visa namnet istället):"
+      },
+      "error": {
+        "empty": "Kontonamn får inte vara tomt.",
+        "duplicate": "Denna plånbok har redan ett konto med det namnet."
+      }
+    }
+  },
+  "export": {
+    "title": "Exportera kontonyckel",
+    "caption": "Exportera den publika nyckeln för detta konto.",
+    "setting": {
+      "caption": "Exportera den publika nyckeln för detta konto. Import av en publik nyckel återställer kontohistoriken i skrivskyddat läge med signering inaktiverad.",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 utökad publik nyckel",
+        "xpub": "Ed25519-bip32 utökad publik nyckel",
+        "acct_vk": "Ed25519 publik nyckel"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Enkeladressläge (SAM)",
+    "caption": "Använd endast en enda adress för alla transaktioner.",
+    "setting": {
+      "caption": "När aktiverat kommer alla medel som standard att hållas på den första mottagningsadressen.",
+      "enabled": "$t(settings/account:samMode.title) aktiverat",
+      "disabled": "$t(settings/account:samMode.title) inaktiverat",
+      "customAddress": "Anpassad mottagningsadress",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Viktigt!",
+          "text": "Att ställa in en anpassad mottagningsadress gör att all växel och mottagningsadresser byter till denna adress, även om den inte ägs av detta konto. Var noga med att verifiera att korrekt adress är inställd."
+        }
+      },
+      "notification": {
+        "wrongInput": "Det är inte en giltig adress.",
+        "wrongNetwork": "Denna adress är från ett annat nätverk.",
+        "notOwned": "Denna adress tillhör inte detta konto och kan inte användas som anpassad mottagningsadress.",
+        "nonStaking": "Medlen på denna mottagningsadress är stakade med en extern stake-nyckel. Du kommer inte att kontrollera belöningarna som de genererar.",
+        "success": "Anpassad mottagningsadress inställd.",
+        "error": "Misslyckades med att spara anpassad mottagningsadress!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Collateral",
+    "caption": "Använd Eternl-tillhandahållen collateral?",
+    "setting": {
+      "caption": "När aktiverat kommer Eternl att tillhandahålla collateral för kontot.",
+      "info": "Interaktion med smarta kontrakt kan kräva collateral om en transaktion misslyckas. Detta hanteras automatiskt av Eternl om en kvalificerad UTxO har hittats.",
+      "waiting": "Du har skickat en collateral-transaktion. Var god vänta, den har ännu inte bekräftats.",
+      "foundCollateral": "En collateral-UTxO för detta konto finns redan. Den kommer att användas vid interaktion med smarta kontrakt.",
+      "eternl": {
+        "label": "Eternl-tillhandahållen collateral",
+        "enabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Ingen collateral-UTxO hittades. Vänligen ställ in en genom att trycka på knappen nedan.",
+      "button": {
+        "setCollateral": {
+          "label": "Ställ in Collateral",
+          "tooltip": "Ställ in en collateral-UTxO för detta konto."
+        }
+      },
+      "error": {
+        "label": "Fel:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Observera!",
+          "headline": "Collateral är en kontobaserad inställning."
+        },
+        "info": {
+          "text": "$t(common:appName) kan använda vilken UTxO som helst utan tokens och med ett värde mellan ####minimumCollateral#### och ####maximumCollateral#### som collateral. När du aktiverar denna inställning letar den efter en lämplig UTxO. Om ingen finns tillgänglig visas en knapp för att ställa in en."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Manuell synk",
+    "caption": "Ställ in manuell synk",
+    "setting": {
+      "caption": "Synkronisera wallet manuellt. Om aktiverat måste wallet synkroniseras manuellt genom att klicka på synk-ikonen.",
+      "enabled": "$t(settings/account:manualSync.title) aktiverad",
+      "disabled": "$t(settings/account:manualSync.title) inaktiverad"
+    }
+  },
+  "historySync": {
+    "title": "Historiksynk",
+    "caption": "Ställ in historiksynk",
+    "setting": {
+      "caption": "När aktiverad kommer __GT__plånboken__ att synkronisera kontots fullständiga transaktionshistorik. Annars synkroniseras endast de senaste 1000 transaktionerna. Synkronisering sker i omgångar och kan ta ett tag för konton med en stor historik.",
+      "enabled": "$t(settings/account:historySync.title) aktiverad",
+      "disabled": "$t(settings/account:historySync.title) inaktiverad",
+      "syncing": "Historiksynkroniseringen körs fortfarande. Väntar på att synkronisera {{AMOUNT}} poster."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Token Fragmentation (TF)",
+    "caption": "Minska transaktionsavgifter genom att fragmentera tokens.",
+    "fragment": {
+      "label": "Storlek på token-paket",
+      "error": "Gräns för storlek på token-paket: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Anger antalet tokens som varje UTxO-output ska innehålla. Det är en avvägning mellan låga transaktionsavgifter och mängden medel låsta i __GT__plånboken__.\nliten paketstorlek -> låga avgifter, mer Ada låst.\nstörre paketstorlek -> högre avgifter, mindre Ada låst."
+    },
+    "setting": {
+      "caption": "Dela upp tokens i paket vid sändning om det finns fler tokens i växeln som ska returneras än det inställda värdet. Beroende på __GT__plånbokens__ UTxO/Token-distribution och önskat resultat kan värden behöva justeras för optimalt resultat.",
+      "enabled": "$t(settings/account:tokenFragmentation.title) aktiverad",
+      "disabled": "$t(settings/account:tokenFragmentation.title) inaktiverad"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Avancerad UTxO-hantering",
+    "caption": "Använd avancerad UTxO-hantering för dina transaktioner.",
+    "setting": {
+      "caption": "När aktiverad kommer $t(common:appName) att använda avancerad UTxO-hantering för dina transaktioner.",
+      "subCaption": "Den behåller 10 UTxOs tillgängliga för parallell exekvering av transaktioner. Den kommer också att försöka behålla en 5 ADA collateral-UTxO tillgänglig för interaktioner med smarta kontrakt.",
+      "enabled": "$t(settings/account:advancedUtxoManagement.title) aktiverad",
+      "disabled": "$t(settings/account:advancedUtxoManagement.title) inaktiverad"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Automatiskt uttag",
+    "caption": "Ta ut belöningar automatiskt vid behov.",
+    "setting": {
+      "caption": "När aktiverad kommer belöningar automatiskt att tas ut vid behov när en transaktion skapas. Om inaktiverad eller för påtvingat manuellt uttag, använd Uttagsknappen på Sammanfattningssidan.",
+      "enabled": "$t(settings/account:autoWithdrawal.title) aktiverad",
+      "disabled": "$t(settings/account:autoWithdrawal.title) inaktiverad"
+    }
+  },
+  "unStake": {
+    "title": "Av-staka __GT__plånboken__\n(Avregistrera __GT__plånboken__)",
+    "caption": "Avdelegera aktuellt konto från alla pooler och skapa avregistreringstransaktion.",
+    "setting": {
+      "caption": "Denna åtgärd skapar en kontoavregistreringstransaktion. När den är slutförd kommer kontot att avdelegeras från alla pooler, och nyckeldepositionen från när kontot först delegerades returneras.",
+      "subCaption": "Observera att eventuella väntande belöningar från pooldelegering, catalyst-belöningar, etc. kommer att gå förlorade när kontot avregistreras!",
+      "acknowledged": "Jag förstår att eventuella väntande belöningar kommer att gå förlorade.",
+      "noUtxo": "{{currency}} behövs för att betala avgiften för avregistreringstransaktionen.",
+      "button": {
+        "deReg": {
+          "label": "Avregistrera konto",
+          "tooltip": "Avregistrera konto från pooldelegering"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "Avregistrera som DRep",
+    "caption": "Skapa en DRep-avregistreringstransaktion. Röststyrkan som delegerats till den DRep:en kommer att gå förlorad.",
+    "setting": {
+      "caption": "Detta kommer att skapa en DRep-avregistreringstransaktion. Röststyrkan som delegerats till den DRep:en kommer att gå förlorad.",
+      "subCaption": "För att återfå möjligheten att ta ut staking-belöningar måste du delegera ditt konto till en annan DRep.",
+      "acknowledged": "Jag förstår att all delegerad röststyrka kommer att gå förlorad.",
+      "noUtxo": "{{currency}} behövs för att betala avgiften för avregistreringstransaktionen.",
+      "button": {
+        "deReg": {
+          "label": "Avregistrera konto",
+          "tooltip": "Avregistrera konto från pooldelegering"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Rapportering",
+    "caption": "Inställningar för export av skatterapportering."
+  }
+}

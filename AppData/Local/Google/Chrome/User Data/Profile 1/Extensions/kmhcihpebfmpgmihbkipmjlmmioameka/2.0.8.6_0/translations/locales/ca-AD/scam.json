@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: He deixat la majoria dels textos intencionadament, fins i tot si només se'n fan servir uns quants.",
+  "showScamInfo": "Mostra la informació del token d'estafa",
+  "guard": {
+    "label": "Eternl Guard",
+    "warning": "$t(scam:guard.label) Avís"
+  },
+  "token": {
+    "label": "ESTAFA",
+    "description": "Aquest és un token d'<span class=\"font-bold\">ESTAFA</span> conegut!<br>Els enllaços a llocs web que es mostren aquí són una estafa!<br>Si et connectes a aquests llocs web i signes una transacció,<br>el teu wallet podria quedar completament buit!",
+    "image": "Avís:\n\nNo interactuïs amb cap lloc web que s'esmenti en aquesta imatge!",
+    "hover": "Aquesta transacció conté un token d'estafa conegut. Si us plau, sigues prudent quan hi interactuïs!"
+  },
+  "app": {
+    "description": "Aquesta DApp és un lloc d'ESTAFA conegut! Hi ha una probabilitat molt alta que et robi els fons o intenti estafar-te d'altres maneres!",
+    "description2": "Et recomanem encaridament que <span class=\"font-bold\">NO INTERACTUÏS</span> amb aquesta pàgina!",
+    "ownRisk": "Connecta't a aquest lloc sota el teu propi risc!",
+    "bannerWarning": "Aquest lloc és a la llista d'estafes. Si us plau, vés amb compte i no introdueixis cap informació sensible."
+  },
+  "address": {
+    "description": "Aquesta és una adreça d'ESTAFA coneguda! Hi ha una probabilitat molt alta que no vulguis enviar-hi els teus fons!",
+    "description2": "Et recomanem encaridament que <span class=\"font-bold\">NO HI ENVIÏS</span> fons!",
+    "hover": "Aquesta adreça s'ha utilitzat per robar fons!"
+  },
+  "cleanup": {
+    "label": "Neteja el wallet",
+    "description": "Això crearà una transacció de neteja que enviarà tots els tokens d'estafa coneguts des del teu wallet a l'adreça de crema de Eternl.",
+    "prepared": {
+      "label": "Transacció de neteja d'estafes preparada"
+    }
+  }
+}

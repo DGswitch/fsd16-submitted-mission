@@ -1,0 +1,9 @@
+{
+  "title": "นำเข้าคีย์สำหรับลงนาม CLI",
+  "caption": "เลือกคีย์สำหรับลงนาม Payment และ Stake (ถ้ามี) จาก wallet ที่สร้างผ่าน CLI",
+  "payment": "คีย์ Payment",
+  "stake": "คีย์ Stake",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "คีย์ไม่ถูกต้อง โปรดตรวจสอบและลองอีกครั้ง!"
+}

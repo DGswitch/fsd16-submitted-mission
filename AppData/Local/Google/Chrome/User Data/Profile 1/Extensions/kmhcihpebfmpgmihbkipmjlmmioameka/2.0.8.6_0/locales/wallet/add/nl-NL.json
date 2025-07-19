@@ -1,0 +1,24 @@
+{
+  "title": "Selecteer wallet type",
+  "caption": "Als je een nieuwe gebruiker bent, maak dan een nieuwe wallet aan.\nVerbind je Ledger of importeer een JSON-back-up.",
+  "create": {
+    "label": "Nieuwe Wallet",
+    "caption": "Genereer een gloednieuwe wallet"
+  },
+  "hardware": {
+    "label": "Hardware Verbinden",
+    "caption": "Gebruik je Ledger-, Trezor- of Keystone-apparaat met Eternl"
+  },
+  "restore": {
+    "label": "Voer een Seed-phrase in",
+    "caption": "Gebruik je 24-, 15- of 12-woordige seed-phrase"
+  },
+  "multiSig": {
+    "label": "Multi-Sig Wallet",
+    "caption": "Maak of neem deel aan een multi-signature wallet"
+  },
+  "more": {
+    "label": "Meer",
+    "caption": "Toon extra wallet importopties"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Configuração do App",
+  "caption": "Atualize as configurações de acordo com suas preferências pessoais \nou mantenha os padrões.",
+  "success": {
+    "title": "Configuração do App concluída com sucesso",
+    "caption": "Está tudo pronto, continue para o app."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "idle": "최신 상태",
+  "initializing": "초기화 중",
+  "queued": "대기 중",
+  "syncing": "동기화 중",
+  "preparingFor": "준비 중",
+  "syncingFor": "동기화 중",
+  "notSyncedYet": "아직 동기화되지 않음",
+  "success": "완료됨",
+  "skipped": "완료됨",
+  "syncedPrefix": "(동기화됨",
+  "syncedSuffix": "전)",
+  "error": "실패",
+  "manual": "수동",
+  "update": {
+    "tooltip": "계정을 강제로 업데이트합니다."
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Skapa Adress Wallet",
+  "caption": "Ange en delegerad (base) eller icke-delegerad (payment) adress för att skapa en 'read-only' wallet",
+  "error": "Ogiltig adress, vänligen verifiera och försök igen."
+}

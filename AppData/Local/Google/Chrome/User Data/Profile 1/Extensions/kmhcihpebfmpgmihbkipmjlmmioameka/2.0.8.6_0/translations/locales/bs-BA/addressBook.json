@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "Još nema unosa u $t(common:addressBook).",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Prihvati novu adresu"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) unos: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Uvezi $t(common:addressBook) unose",
+    "caption": "Uvezi $t(common:addressBook) unose iz sigurnosne kopije datoteke."
+  },
+  "overwrite": {
+    "title": "Prepiši $t(common:addressBook) unos",
+    "caption": "Potvrdi ažuriranje unosa sa imenom {{name}}."
+  },
+  "add": {
+    "title": "Dodaj u $t(common:addressBook)",
+    "caption": {
+      "main": "Dodaj unos u $t(common:addressBook).",
+      "prefilled": "Sve vrijednosti su unaprijed popunjene i unosi su onemogućeni."
+    },
+    "name": {
+      "label": "Ime unosa",
+      "error": {
+        "length": "Ime $t(common:addressBook) unosa mora imati najmanje 3 i najviše 40 znakova.",
+        "duplicate": "$t(common:addressBook) unos sa ovim imenom `{{ name }}` već postoji, molimo odaberite drugo ime.",
+        "duplicateAddr": "$t(common:addressBook) unos sa ovom adresom već postoji, pod imenom {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Potvrdi brisanje unosa."
+  }
+}

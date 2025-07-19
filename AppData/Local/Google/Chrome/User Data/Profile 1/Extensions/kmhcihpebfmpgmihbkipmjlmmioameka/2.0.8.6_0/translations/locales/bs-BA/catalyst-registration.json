@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst Registracija",
+  "status": {
+    "wrongnetwork": {
+      "title": "Nije podržano",
+      "text": "Catalyst nije podržan na trenutno odabranoj mreži."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Nije registrovano",
+        "text": "Račun nije registrovan za staking. Delegiraj prvo na stake pool, a onda se registruj za Catalyst glasanje."
+      },
+      "nocatalyst": {
+        "title": "Nema Catalyst registracije",
+        "text": "Eternl ne prepoznaje ključ za glasanje. Račun možda nikad nije bio registrovan ili je registrovan s drugom aplikacijom."
+      },
+      "hascatalyst": {
+        "title": "Catalyst registracija",
+        "text": "Račun je registrovan za Catalyst glasanje. Catalyst ključ za glasanje je pohranjen u Eternl.",
+        "scan": "Skeniraj QR kod u Catalyst aplikaciji za glasanje i prati upute.",
+        "reveal": "Ne dijeli Catalyst ključ za glasanje i PIN s nikim. Koristi se za glasanje u Catalyst rundama finansiranja.",
+        "voteKey": "Catalyst ključ za glasanje",
+        "banner": {
+          "title": "Preuzmi QR kod",
+          "text": "Lokalna sigurnosna kopija Catalyst ključa za glasanje je pohranjena u Eternl za potrebe oporavka. Međutim, ova sigurnosna kopija je specifična za uređaj i neće biti dostupna prilikom vraćanja wallet na drugi uređaj koristeći wallet frazu. Samo wallet JSON sigurnosna kopija kreirana nakon Catalyst registracije je može vratiti. Preporučuje se da preuzmeš sliku QR koda i sigurno je pohraniš, na primjer u upravitelj lozinki."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Odaberi stake pool"
+        },
+        "register": {
+          "label": "Registruj se za Catalyst glasanje"
+        },
+        "reregister": {
+          "label": "Kreiraj novu registraciju"
+        },
+        "download": {
+          "label": "Preuzmi Catalyst ključ"
+        },
+        "reveal": {
+          "label": "Otkrij Catalyst ključ"
+        },
+        "hide": {
+          "label": "Sakrij Catalyst ključ"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Aplikacija za glasanje",
+      "caption": "Preuzmi Catalyst mobilnu aplikaciju na svoj telefon.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "Linkovi za App store!",
+          "text": "NIJE za korištenje u Catalyst mobilnoj aplikaciji!\n\nOvi QR kodovi vode do app store-ova gdje možeš preuzeti i instalirati Catalyst mobilnu aplikaciju."
+        }
+      }
+    },
+    "pin": {
+      "title": "Konfiguriraj PIN kod",
+      "caption": {
+        "enter": "Postavi PIN da osiguraš svoj Catalyst ključ za glasanje.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Zapiši PIN",
+        "text": "Obavezno zapiši PIN!\nGubitak PIN-a će zahtijevati novu registraciju ključa za glasanje."
+      }
+    },
+    "tx": {
+      "title": "Transakcija registracije glasanja",
+      "caption": "Registruj svoj Catalyst ključ za glasanje.",
+      "note": {
+        "title": "Snaga glasanja",
+        "text": "Snaga glasanja se skalira s količinom sredstava na dan snimka stanja. Veći balans povećava tvoj utjecaj tokom snimka stanja."
+      },
+      "warning": {
+        "title": "Minimalni iznos",
+        "text": "Za tvoj ključ za glasanje je potreban minimalni balans od 25 {{currency}} da bi bio uključen u snimak stanja. Bez tog minimuma, nećeš moći glasati niti primati nagrade u krugu finansiranja."
+      },
+      "success": "Catalyst registracija uspješna.",
+      "saved": "Catalyst ključ za glasanje je uspješno sačuvan u Eternl.",
+      "error": {
+        "save": "Nije uspjelo sačuvanje Catalyst ključa za glasanje u Eternl."
+      }
+    }
+  }
+}

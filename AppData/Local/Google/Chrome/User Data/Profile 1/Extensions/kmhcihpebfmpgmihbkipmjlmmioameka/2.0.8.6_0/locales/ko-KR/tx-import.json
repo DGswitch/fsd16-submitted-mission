@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "트랜잭션 cbor 붙여넣기",
+  "error": {
+    "corrupted": "업로드된 파일이 손상되어 트랜잭션을 가져올 수 없습니다.",
+    "invalid": "업로드된 파일이 유효한 json 파일이 아닙니다.",
+    "format": "json 파일에 내보낸 트랜잭션 데이터가 포함되어 있지 않은 것 같습니다."
+  }
+}

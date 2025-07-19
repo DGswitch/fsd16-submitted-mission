@@ -1,0 +1,6 @@
+{
+  "title": "Importar Chave Pública da Conta",
+  "caption": "Insira uma chave pública da conta (geralmente começa com 'acct_xvk' ou 'xpub1') para criar uma __GT__carteira__ 'somente leitura'.",
+  "placeholder": "acct_xvk...",
+  "error": "Chave pública da conta inválida, por favor verifique e tente novamente."
+}

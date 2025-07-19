@@ -1,0 +1,34 @@
+{
+  "placeholder": "Tambahkan catatan di sini.",
+  "copy": "Catatan transaksi: {{note}}.",
+  "export": "Catatan dapat diimpor dan diekspor.",
+  "add": {
+    "title": "Tambah catatan",
+    "caption": "Lampirkan catatan ke transaksi ini. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "Edit catatan",
+    "caption": "Edit catatan yang dilampirkan ke transaksi ini. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Hapus catatan",
+      "tooltip": "Hapus catatan yang dilampirkan ke transaksi ini."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Hapus catatan",
+      "caption": "Mohon konfirmasi bahwa Anda ingin menghapus catatan transaksi.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

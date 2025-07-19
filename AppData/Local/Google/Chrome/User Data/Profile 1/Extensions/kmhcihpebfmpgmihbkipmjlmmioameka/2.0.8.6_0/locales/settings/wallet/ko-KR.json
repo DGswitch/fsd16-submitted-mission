@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "이름 및 그룹",
+    "caption": "지갑 또는 그룹 이름을 업데이트하세요.",
+    "setting": {
+      "caption": "$t(settings/wallet:walletName.caption)",
+      "name": "지갑 이름",
+      "group": "지갑 그룹",
+      "error": {
+        "empty": {
+          "name": "지갑 이름은 비워둘 수 없습니다.",
+          "group": "지갑 그룹은 비워둘 수 없습니다."
+        },
+        "duplicate": {
+          "name": "이 이름을 가진 지갑이 이미 존재합니다."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "지갑 소비 비밀번호",
+    "caption": "지갑 소비 비밀번호를 업데이트하세요.",
+    "setting": {
+      "caption": "지갑 소비 비밀번호를 업데이트하세요. 이전 비밀번호를 입력한 다음, 새롭고 긴 소비 비밀번호를 입력하세요. 비밀번호가 길수록 지갑이 더 안전해집니다.",
+      "updated": "지갑 소비 비밀번호 업데이트",
+      "error": "지갑 비밀번호를 업데이트할 수 없습니다."
+    }
+  },
+  "biometrics": {
+    "title": "생체 인식 사용",
+    "caption": "비밀번호 대신 생체 인식 기능을 사용하세요.",
+    "setting": {
+      "caption": "$t(settings/wallet:biometrics.caption)",
+      "activate": {
+        "label": "생체 인식 활성화",
+        "description": "휴대폰의 생체 인식 기능으로 소비를 활성화하려면 현재 소비 비밀번호를 입력하세요."
+      },
+      "deactivate": {
+        "label": "생체 인식 비활성화",
+        "description": "거래 서명 시 비밀번호 대신 휴대폰의 생체 인식 기능을 사용합니다."
+      }
+    }
+  },
+  "icon": {
+    "title": "지갑 아이콘",
+    "caption": "사용자 지정 지갑 아이콘을 설정하거나 무작위 지갑 아이콘을 생성하세요.",
+    "setting": {
+      "caption": "$t(settings/wallet:icon.caption)",
+      "select": "아이콘 선택",
+      "regenerateIcon": "무작위 생성",
+      "resetToDefault": "기본값으로 재설정"
+    }
+  },
+  "exportWallet": {
+    "title": "지갑 내보내기",
+    "caption": "다른 브라우저/기기에서 가져올 수 있도록 안전한 지갑 JSON 내보내기",
+    "setting": {
+      "caption": "내보낸 $t(common:appName) .json 백업 파일은 다른 $t(common:appName) 앱으로 가져올 수 있습니다.",
+      "subCaption": ".json 백업에는 거래 메모와 지갑/계정 설정이 포함됩니다.",
+      "button": {
+        "label": "지갑 내보내기"
+      },
+      "banner": {
+        "title": "중요!",
+        "text": "Hot wallet의 경우 내보내기에 암호화된 private key가 포함됩니다. 내보낸 파일을 안전하게 보관하고 누구와도 공유하지 마십시오."
+      }
+    }
+  },
+  "reSync": {
+    "title": "지갑 재동기화",
+    "caption": "지갑 전체 재동기화를 강제로 실행합니다.",
+    "setting": {
+      "caption": "$t(settings/wallet:reSync.caption)",
+      "subCaption": "이 버튼을 누르면 모든 지갑 데이터가 재설정되고 blockchain에서 완전히 재동기화됩니다.",
+      "button": {
+        "label": "지갑 재동기화"
+      }
+    }
+  },
+  "verification": {
+    "title": "복구 구문 확인",
+    "caption": "지갑에 대한 올바른 복구 구문을 저장했는지 확인하세요.",
+    "setting": {
+      "caption": "$t(settings/wallet:verification.caption) 확인 후 소비 비밀번호도 변경할 수 있습니다.",
+      "start": "구문 확인",
+      "match": {
+        "label": "입력한 복구 구문이 올바릅니다.",
+        "spending": "소비 비밀번호 변경"
+      },
+      "invalid": "입력한 복구 구문이 이 지갑에 대해 올바르지 않습니다."
+    }
+  },
+  "deleteWallet": {
+    "title": "지갑 삭제",
+    "caption": "지갑과 모든 계정을 제거합니다.",
+    "setting": {
+      "caption": "이 지갑을 삭제하면 이 $t(common:appName) 앱에서 제거되며 이 지갑에 남아 있는 자금에 대한 접근 권한을 잃게 됩니다.",
+      "subCaption": "삭제 후 접근 권한을 다시 얻는 유일한 방법은 지갑 복구 구문을 복원하거나 이전에 내보낸 $t(common:appName).json 백업 파일을 가져오는 것입니다.",
+      "subCaption2": "더 쉬운 가져오기를 위해 삭제하기 전에 $t(common:appName).json 백업으로 내보내세요.\n\n이 지갑의 seed phrase를 안전하게 보관하십시오!",
+      "acknowledged": "지갑 복구 구문을 사용해야만 이 지갑에 다시 접근할 수 있음을 이해합니다.",
+      "name": "지갑 이름을 입력하세요.",
+      "error": {
+        "name": "삭제를 확인하려면 올바른 지갑 이름을 입력하세요.",
+        "acknowledged": "위 내용을 읽고 확인해 주십시오."
+      }
+    }
+  }
+}

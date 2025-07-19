@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "عنوان Cardano عادي.",
+    "description": "عنوان Cardano بيبدأ بـ addr1 وهذا مش عنوان سكريبت.",
+    "error": {
+      "invalid": "هذا مش عنوان Cardano صحيح."
+    }
+  },
+  "cardanoScript": {
+    "label": "سكريبت Cardano",
+    "caption": "عنوان سكريبت.",
+    "description": "عنوان سكريبت Cardano بيُستخدم للعقود الذكية وببدأ بـ addr1 متبوع بنمط معين.",
+    "error": {
+      "invalid": "هذا مش عنوان سكريبت Cardano صحيح."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "عنوان Cardano سهل القراءة.",
+    "description": "الـ Ada Handle هو مُعرّف فريد مبني على NFT ممكن تستخدمه كعنوان Cardano بسيط، وببدأ بـ $.",
+    "banner": {
+      "change": {
+        "title": "تم تغيير عنوان الـ Ada Handle!",
+        "text": "العنوان القديم مخزن في دفتر العناوين:\n####OLD####\n\nالعنوان الجديد:\n####NEW####\n\nالعنوان اللي بيمثله الـ Ada Handle ###HANDLE### تغير من وقت ما ضفته لدفتر عناوينك.\nهذا معناه إنه الـ Ada Handle نُقل لمحفظة wallet أو حساب ثاني.\n\nإذا بعت مصاري، رح تروح لعنوان غير العنوان اللي مخزن في دفتر عناوينك.\nعندك خيار إنك تستبدل مدخل دفتر العناوين الحالي بالضغط على الزر اللي تحت."
+      }
+    },
+    "error": {
+      "invalid": "هذا مش Ada Handle صحيح.",
+      "resolve": "هذا الـ Ada Handle مش موجود.",
+      "image": "ما قدرت أحمّل صورة الـ Ada Handle.",
+      "address": {
+        "invalid": "العنوان غير صالح. (ممكن يكون معروض على متجر؟)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "اسم نطاق blockchain.",
+    "description": "Unstoppable Domains هي أسماء نطاقات لامركزية ممكن تربطها بعناوين عملات رقمية مختلفة، بما فيها Cardano.",
+    "error": {
+      "invalid": "هذا مش Unstoppable Domain صحيح.",
+      "resolve": "هذا الـ Unstoppable Domain مش موجود.",
+      "domain": {
+        "resolve": "ما قدرت أجيب عنوان الـ Unstoppable Domain."
+      },
+      "address": {
+        "invalid": "العنوان غير صالح. (ممكن يكون معروض على متجر؟)",
+        "notSet": "هذا الـ Unstoppable Domain ما عنده عنوان Cardano محطوط."
+      }
+    }
+  }
+}

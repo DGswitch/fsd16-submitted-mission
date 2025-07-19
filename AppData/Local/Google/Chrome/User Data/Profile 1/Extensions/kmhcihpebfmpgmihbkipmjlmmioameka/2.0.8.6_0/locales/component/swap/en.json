@@ -1,0 +1,16 @@
+{
+  "loading":                  "Loading market orders",
+  "select":                   "Select a token pair to load market orders",
+  "empty":                    "No market orders found",
+
+  "openOrder": {
+    "loading":                "Loading orders",
+    "noPending":              "No pending orders found"
+  },
+
+  "types": {
+    "buy":                    "BUY",
+    "sell":                   "SELL",
+    "cancel":                 "CANCEL"
+  }
+}

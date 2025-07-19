@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "Pegar transaction cbor",
+  "error": {
+    "corrupted": "El archivo cargado está corrupto, la transacción no pudo ser importada.",
+    "invalid": "El archivo cargado no es un archivo json válido.",
+    "format": "El archivo json no parece contener datos de transacción exportados."
+  }
+}

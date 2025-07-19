@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "عبارة من ١٢ كلمة",
+      "caption": "هذه Shelley محفظة تتكون من ١٢ كلمة."
+    },
+    "15": {
+      "label": "عبارة من ١٥ كلمة",
+      "caption": "مثال: Yoroi Shelley محفظة."
+    },
+    "24": {
+      "label": "عبارة من ٢٤ كلمة",
+      "caption": "هذه Shelley محفظة تم إنشاؤها بواسطة، على سبيل المثال، Eternl أو Daedalus."
+    },
+    "title": "نوع عبارة الاستعادة",
+    "caption": "ما هو نوع محفظة الذي تود استعادته؟"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "أدخل عبارة الاستعادة المحفوظة"
+  }
+}

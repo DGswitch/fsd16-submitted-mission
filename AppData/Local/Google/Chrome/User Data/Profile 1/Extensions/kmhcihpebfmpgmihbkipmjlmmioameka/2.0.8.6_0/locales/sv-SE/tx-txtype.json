@@ -1,0 +1,26 @@
+{
+  "unknown": "Okänd",
+  "sent": "Skickat",
+  "received": "Mottaget",
+  "ada": "Medel",
+  "and": "och",
+  "tokens": "Tokens",
+  "intraWallet": "Intern överföring",
+  "external": "Extern transaktion",
+  "withdrawal": "Uttag",
+  "deposit": "Insättning",
+  "type": {
+    "metadata_only": {
+      "label": "Detta är en konsolidering i din wallet med bifogad metadata. Medel flyttades inom din wallet och endast en transaktionsavgift betalades.",
+      "preview": "Transaktionen som skapas kommer att vara en konsolidering inom din wallet med bifogad metadata. Medel kommer att flyttas inom din wallet och endast en transaktionsavgift kommer att betalas."
+    },
+    "consolidation": {
+      "label": "Detta är en konsolidering i din wallet. Medel flyttades inom din wallet och endast en transaktionsavgift betalades.",
+      "preview": "Transaktionen som skapas kommer att vara en konsolidering inom din wallet. Medel kommer att flyttas men endast en transaktionsavgift kommer att betalas."
+    },
+    "simple_send": {
+      "label": "Medel och/eller tokens skickades till en extern adress.",
+      "preview": "Medel och/eller tokens kommer att skickas till en extern adress."
+    }
+  }
+}

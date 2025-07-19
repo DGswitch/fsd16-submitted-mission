@@ -1,0 +1,34 @@
+{
+  "placeholder": "喺呢度加入備註。",
+  "copy": "交易備註：{{note}}。",
+  "export": "備註可以匯入同匯出。",
+  "add": {
+    "title": "新增備註",
+    "caption": "為呢次交易附加備註。 $t(tx/component/note:export)"
+  },
+  "edit": {
+    "title": "編輯備註",
+    "caption": "編輯呢次交易附加嘅備註。 $t(tx/component/note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx/component/note:add.title)",
+      "tooltip": "$t(tx/component/note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx/component/note:edit.title)",
+      "tooltip": "$t(tx/component/note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "刪除備註",
+      "tooltip": "刪除呢次交易附加嘅備註。"
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "刪除備註",
+      "caption": "請確認你係咪想刪除呢個交易備註。",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

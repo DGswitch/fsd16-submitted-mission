@@ -1,0 +1,31 @@
+{
+  "menuLabel": "보내기",
+  "title": "자금 보내기",
+  "caption": "여기서 Cardano에서 지원하는 자금 및 모든 유형의 토큰 / 대체 불가능 토큰를 전송할 수 있습니다.",
+  "subCaption": "각 트랜잭션은 여러 수신자를 가질 수 있어, 다른 주체에게 자산을 쉽고 저렴하게 보낼 수 있습니다.",
+  "info": {
+    "available": "$t(common:available)",
+    "txFee": "$t(common:txFee)",
+    "options": "$t(common:options)"
+  },
+  "button": {
+    "recipient": {
+      "label": "수신자 추가",
+      "tooltip": "트랜잭션에 다른 수신자/출력(output)을 추가합니다."
+    },
+    "sign": {
+      "label": "트랜잭션 서명",
+      "tooltip": "키로 트랜잭션에 서명합니다."
+    },
+    "check": {
+      "label": "트랜잭션 확인",
+      "tooltip": "$t(common:appName)이(가) 트랜잭션을 생성할 수 있는지 확인합니다."
+    }
+  },
+  "banner": {
+    "recipient": {
+      "title": "$t(send-page:button.recipient.label)",
+      "text": "다른 트랜잭션은 수신자 목록을 지웁니다. 새 수신자를 추가하려면 아래 버튼을 클릭하세요."
+    }
+  }
+}

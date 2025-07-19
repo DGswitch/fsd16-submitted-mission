@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "Modo Pro",
+    "simple": "Modo Simples",
+    "caption": "Alternar entre Modo Simples e Pro.",
+    "setting": {
+      "caption": "Defina a sua experiência Eternl. O Modo Simples é mais adequado para novos utilizadores. O Modo Pro tem todas as funcionalidades avançadas.",
+      "openAfterSign": "Abrir automaticamente a pré-visualização da transação ao assinar.",
+      "stakeKeyOnHome": "Mostrar chave de stake na página inicial"
+    }
+  },
+  "network": {
+    "title": "Rede",
+    "caption": "Selecione a rede ativa atual."
+  },
+  "language": {
+    "title": "Idioma",
+    "caption": "Selecione o idioma preferido.",
+    "search": "Filtrar lista de idiomas",
+    "setting": {
+      "caption": "Selecione o idioma preferido para a aplicação."
+    }
+  },
+  "formatting": {
+    "title": "Formatação",
+    "caption": "Formatação regional de data e moeda.",
+    "setting": {
+      "caption": "Ativar para seguir a formatação do idioma selecionado.",
+      "enabled": "Seguir idioma ativado",
+      "disabled": "Seguir idioma desativado",
+      "region": "Região de formatação",
+      "timezone": "Fuso horário"
+    }
+  },
+  "currency": {
+    "title": "Moeda",
+    "caption": "Selecione a moeda preferida para conversão.",
+    "search": "Filtrar lista de moedas",
+    "setting": {
+      "caption": "Selecione a moeda preferida para conversão."
+    }
+  },
+  "decimalPrecision": {
+    "title": "Precisão decimal",
+    "caption": "Número de casas decimais.",
+    "setting": {
+      "caption": "Selecione o número de casas decimais a mostrar para os valores."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// Ver pin:deleteAccess e pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "Autenticação Biométrica",
+    "caption": "Use FaceId (iOS) ou outros sistemas biométricos para se autenticar.",
+    "setting": {
+      "title": {
+        "active": "Ativado",
+        "inactive": "Desativado"
+      },
+      "caption": {
+        "active": "Autentique-se usando Biometria para abrir $t(common:appName).",
+        "inactive": "A autenticação biométrica está desativada.",
+        "disabled": "Para ativar esta funcionalidade, defina primeiro um PIN."
+      }
+    }
+  },
+  "sound": {
+    "title": "Sons",
+    "caption": "Ativar ou desativar notificações sonoras.",
+    "setting": {
+      "caption": "$t(settings/app:sound.caption)",
+      "info": "As notificações sonoras são usadas para interações de swap, erros e outros eventos importantes.",
+      "enabled": "$t(settings/app:sound.title) ativado",
+      "disabled": "$t(settings/app:sound.title) desativado"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "Adicionar, excluir e editar entradas de $t(addressBook:title).",
+    "setting": {
+      "caption": "Gerencie as suas entradas de $t(addressBook:title).",
+      "comment": "// Ver addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "Lista de Permissões de __GT__DApps__",
+    "caption": "A lista de websites/dApps que têm permissão para se conectar a esta aplicação $t(common:appName).",
+    "setting": {
+      "comment": "// Ver dapps/allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "Transações: envio automático",
+    "caption": "Submeter transações automaticamente após assinar. Desative para permitir o download do cbor da transação assinada.",
+    "setting": {
+      "caption": "$t(settings/app:autoSubmit.caption)",
+      "enabled": "Submissão automática ativada",
+      "disabled": "Submissão automática desativada",
+      "enabledInfo": "Transações assinadas serão submetidas automaticamente para a blockchain.",
+      "disabledInfo": "Tem de submeter manualmente uma transação depois de assinada."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Endpoint de Submissão Personalizado",
+    "caption": "Enviar transações através de um cardano-node e cardano-submit-api personalizados.",
+    "setting": {
+      "caption": "Defina um endpoint personalizado de cardano-node e cardano-submit-api para a submissão de transações.",
+      "new_endpoint": "Adicionar endpoint",
+      "hint": "Adicionar um novo endpoint personalizado.",
+      "deleteConfirm": "Confirmar a eliminação da entrada.",
+      "deleted": "Endpoint foi eliminado.",
+      "note": {
+        "title": "Por favor, note!",
+        "caption": "Esta é uma configuração avançada e só deve usá-la se compreender totalmente as suas implicações.",
+        "description": "Certifique-se de que o endpoint personalizado é confiável e está totalmente sincronizado.\n\nCaso contrário, o operador do node pode reter a transmissão das suas transações para benefício próprio ou não as transmitir de todo, e todas as suas transações podem falhar.\n\nSe não tiver a certeza, desative esta configuração para enviar transações através da infraestrutura $t(common:appName).",
+        "cors": "Além disso, certifique-se de que o seu endpoint personalizado tem os cabeçalhos CORS corretos definidos para aceitar o pedido que $t(common:appName) está a enviar."
+      },
+      "error": {
+        "url": "Um URL válido começa com http(s).",
+        "oneEndpoint": "Tem de haver pelo menos um endpoint de submissão configurado."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain explorer",
+    "caption": "Definir o blockchain explorer preferido por tipo.",
+    "setting": {
+      "caption": "Selecione o blockchain explorer preferido para a aplicação.",
+      "block": "Explorador de Blocos",
+      "pool": "Explorador de Pools",
+      "address": "Explorador de Endereços",
+      "token": "Explorador de Tokens",
+      "policy": "Explorador de Policies",
+      "transaction": "Explorador de Transações",
+      "stake": "Explorador de Chaves de Staking",
+      "DRep": "Explorador de DRep",
+      "govProposal": "Proposta de Governança",
+      "select": "Selecionar {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "Configurações Experimentais",
+    "caption": "Configurações experimentais não devem ser usadas por ninguém!",
+    "setting": {
+      "caption": "$t(settings/app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "Ocultar todos os parâmetros de URL",
+        "caption": "Se isto estiver ativado, os parâmetros de URL na secção de configurações serão ocultados."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "Guardar última configuração usada",
+        "caption": "Se isto estiver ativado, ao mudar para as configurações selecionará automaticamente o último grupo e secção de configurações usados."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "Configurações de Slippage e Dex para MonsterSwap."
+  },
+  "theme": {
+    "label": "Seletor de Tema",
+    "caption": "Selecione um tema para tornar o Eternl seu.",
+    "setting": {
+      "caption": "$t(settings/app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "Repor cache da aplicação",
+    "caption": "Remover todos os dados em cache para repor a aplicação.",
+    "setting": {
+      "caption": "$t(settings/app:clearCache.caption)\nIsto inclui transações, imagens de tokens e metadata. As suas carteiras, contas e configurações NÃO serão afetadas.",
+      "finish": "Reposição da cache da aplicação bem-sucedida.",
+      "inProgress": "A cache de $t(common:appName) está a ser limpa, por favor aguarde.",
+      "warning": "Assim que repuser a cache de $t(common:appName), a aplicação terá de buscar novamente todos os dados da blockchain. Se tiver várias carteiras ou contas, isto pode demorar algum tempo.",
+      "button": {
+        "label": "Repor cache da aplicação"
+      }
+    }
+  },
+  "reset": {
+    "title": "Repor aplicação",
+    "caption": "Eliminar todas as carteiras e dados armazenados para repor a aplicação.",
+    "setting": {
+      "caption": "$t(settings/app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "Aviso!",
+          "text": "Assim que repuser a aplicação, perderá o acesso a todas as carteiras! A única forma de recuperar o acesso após a reposição é restaurando a sua frase de recuperação da wallet ou importando ficheiros .json do $t(common:appName) previamente exportados."
+        }
+      },
+      "phrase": {
+        "name": "Frase de confirmação",
+        "hint": "Introduza a frase de confirmação.",
+        "noPaste": "Por favor, digite a frase de confirmação para repor o $t(common:appName)",
+        "confirmation": "Repor $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "Compreendo que a única forma de recuperar o acesso às minhas carteiras é restaurando-as com a frase de recuperação da wallet ou emparelhando dispositivos de hardware wallet.",
+          "error": "A frase de confirmação não corresponde."
+        }
+      },
+      "deleteWallets": "Repor carteiras",
+      "deleteConfig": "Repor configurações",
+      "deleteFinish": "A finalizar",
+      "finish": "Aplicação reposta com sucesso"
+    }
+  }
+}

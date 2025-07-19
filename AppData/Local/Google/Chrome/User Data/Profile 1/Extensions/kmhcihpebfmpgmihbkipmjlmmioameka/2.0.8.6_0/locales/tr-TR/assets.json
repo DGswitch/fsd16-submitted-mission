@@ -1,0 +1,66 @@
+{
+  "title": "Varlık detayları",
+  "owns": "Hesabın sahip oldukları",
+  "youOwn": "sahip olduğunuz",
+  "numAssets": "{{numAssets}} adet benzersiz varlık bulundu.",
+  "tab": {
+    "details": "Detaylar",
+    "metadata": "Metadata",
+    "raw": "Ham Veri",
+    "registry": "Token Kaydı",
+    "media": "Medya"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Varlık ekle",
+      "tooltip": "Varlığı bu alıcıya ekleyin."
+    },
+    "editAsset": {
+      "label": "Varlığı düzenle",
+      "tooltip": "Miktarı değiştirin."
+    },
+    "addAssets": {
+      "label": "Varlıklar ekle",
+      "tooltip": "Bu alıcıya daha fazla varlık ekleyin."
+    },
+    "editAssets": {
+      "label": "Varlıkları düzenle",
+      "tooltip": "Eklenmiş varlıkları değiştirin."
+    },
+    "removeAsset": {
+      "label": "Varlığı kaldır",
+      "tooltip": "Varlığı bu alıcıdan kaldırın."
+    },
+    "addCollection": {
+      "label": "Koleksiyon ekle",
+      "tooltip": "Koleksiyonu bu alıcıya ekleyin."
+    },
+    "removeCollection": {
+      "label": "Koleksiyonu kaldır",
+      "tooltip": "Koleksiyonu bu alıcıdan kaldırın."
+    }
+  },
+  "hover": {
+    "removeAsset": "Varlığı kaldır"
+  },
+  "filter": {
+    "search": "Policy, isim, fingerprint veya metadata ile arayın..."
+  },
+  "price": {
+    "unknown": "Bilinmeyen token değeri",
+    "value": "Token değeri",
+    "avg": "Ortalama fiyat"
+  },
+  "media": {
+    "format": {
+      "html": "HTML dosyası",
+      "pdf": "PDF dosyası",
+      "image": "Görsel",
+      "video": "Video",
+      "audio": "Ses"
+    }
+  },
+  "digits": {
+    "unknown": "Bilinmeyen ondalıklar"
+  }
+}

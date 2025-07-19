@@ -1,0 +1,14 @@
+{
+  "title": "DReps المتاحة",
+  "caption": "هذه قائمة بـ DReps المتاحة. أدخل الاسم عشان تصفي القائمة.",
+  "filter": {
+    "search": "ابحث عن DRep..."
+  },
+  "select": {
+    "sort": "رتّب حسب"
+  },
+  "button": {
+    "showAll": "عرض كل DReps",
+    "showAuto": "عرض الخيارات الافتراضية"
+  }
+}

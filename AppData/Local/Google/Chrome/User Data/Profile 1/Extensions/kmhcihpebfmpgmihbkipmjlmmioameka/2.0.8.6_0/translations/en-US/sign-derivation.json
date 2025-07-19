@@ -1,0 +1,26 @@
+{
+  "input": {
+
+    "password": {
+
+      "label":                "Spending password",
+      "placeholder":          "Confirm password"
+    }
+  },
+
+  "dv": {
+
+    "signing":                "Generating account keys",
+    "hw":                     "Please confirm public key export on {{device}} device."
+  },
+
+  "error": {
+
+    "passwordMismatch":       "Entered passwords does not match, please retry!",
+    "missingAppWallet":       "Wallet not set. Please reload the app and try again.",
+    "invalidResult":          "Scan result invalid.",
+    "missingRootKey":         "This wallet cannot derive account keys (missing root key).",
+    "deviceNotFound":         "Device not found.",
+    "unknown":                "Unknown error: {{error}}"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "Alamat Cardano normal.",
+    "description": "Alamat Cardano dimulai dengan addr1 dan itu bukan alamat skrip.",
+    "error": {
+      "invalid": "Bukan alamat Cardano yang valid."
+    }
+  },
+  "cardanoScript": {
+    "label": "Skrip Cardano",
+    "caption": "Alamat skrip.",
+    "description": "Alamat skrip Cardano digunakan untuk smart contract dan dimulai dengan addr1 diikuti oleh pola tertentu.",
+    "error": {
+      "invalid": "Bukan alamat skrip Cardano yang valid."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "Alamat Cardano yang dapat dibaca manusia.",
+    "description": "Ada Handle adalah pengenal unik berbasis NFT yang dapat digunakan sebagai alamat Cardano yang disederhanakan, dimulai dengan $.",
+    "banner": {
+      "change": {
+        "title": "Alamat Ada Handle berubah!",
+        "text": "Alamat lama tersimpan di buku alamat:\n####OLD####\n\nAlamat baru:\n####NEW####\n\nAlamat yang diwakili oleh Ada Handle ###HANDLE### telah berubah sejak Anda menambahkannya ke buku alamat Anda.\nIni berarti Ada Handle dipindahkan ke wallet atau akun yang berbeda.\n\nJika Anda mengirim dana, dana tersebut akan masuk ke alamat yang berbeda dari yang tersimpan di buku alamat Anda.\nAnda memiliki opsi untuk menimpa entri buku alamat saat ini dengan mengeklik tombol di bawah."
+      }
+    },
+    "error": {
+      "invalid": "Bukan Ada Handle yang valid.",
+      "resolve": "Ada Handle ini tidak ada.",
+      "image": "Tidak dapat memuat gambar Ada Handle.",
+      "address": {
+        "invalid": "Alamat tidak valid. (Mungkin terdaftar di marketplace?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Nama domain blockchain.",
+    "description": "Unstoppable Domains adalah nama domain terdesentralisasi yang dapat ditautkan ke berbagai alamat mata uang kripto, termasuk Cardano.",
+    "error": {
+      "invalid": "Bukan Unstoppable Domain yang valid.",
+      "resolve": "Unstoppable Domain ini tidak ada.",
+      "domain": {
+        "resolve": "Unstoppable Domain tidak dapat di-resolve."
+      },
+      "address": {
+        "invalid": "Alamat tidak valid. (Mungkin terdaftar di marketplace?)",
+        "notSet": "Unstoppable Domain ini tidak memiliki alamat Cardano yang diatur."
+      }
+    }
+  }
+}

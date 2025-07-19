@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Браўзер Dapp",
+  "title": "Браўзер Dapp",
+  "caption": "Падключайся да Cardano dApps.",
+  "subCaption": "",
+  "connect": "Падключыцца да {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Увядзі дамен dapp"
+    }
+  }
+}

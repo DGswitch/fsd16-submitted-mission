@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - Financiación de Proyectos",
+  "caption": "Catalyst trae gobernanza on-chain a la blockchain de Cardano.",
+  "subCaption": "Ayuda a dar forma al futuro de Cardano votando en propuestas de financiación",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "próximo fondo",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "Error al guardar la clave de votación en el almacenamiento de wallet. ¡Por favor, contacta con soporte para obtener más ayuda!",
+    "catalystkey": "Falta la clave de votación de Catalyst. ¡Esto no debería ocurrir, por favor, contacta con soporte!",
+    "api": "No se puede consultar la API de votación, por favor recarga o contacta con soporte si el problema persiste.",
+    "funds": "Se requiere al menos ###min_ada_catalyst### para que la wallet sea elegible para participar en la votación.",
+    "rewards": "Tus recompensas de ###rewards_amount### no se pueden usar en la votación a menos que las retires a tu wallet.",
+    "nometadata": "Error desconocido, los Metadatos de registro no se generaron correctamente, por favor reintenta o contacta con soporte si el problema persiste."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "Por favor, ten en cuenta",
+      "caption": "Actualmente, el registro está abierto para el fondo 10 de Catalyst. Después de este evento, la votación en fondos futuros se gestionará de forma diferente. Únete a las comunidades de Catalyst para obtener más información."
+    }
+  }
+}

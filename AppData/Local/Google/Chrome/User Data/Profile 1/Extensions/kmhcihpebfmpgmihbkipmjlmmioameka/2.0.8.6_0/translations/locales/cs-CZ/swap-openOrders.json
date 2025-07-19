@@ -1,0 +1,15 @@
+{
+  "title": "Otevřít – Tvoje objednávky",
+  "caption": "Zobrazuje seznam otevřených swap objednávek v řetězci, které ještě nebyly zpracovány.",
+  "loading": "Načítám objednávky",
+  "noPending": "Žádné čekající objednávky nenalezeny",
+  "time": "Čas",
+  "swap": "Swap",
+  "dexs": "Dexy",
+  "via": "Přes",
+  "types": {
+    "buy": "KOUPIT",
+    "sell": "PRODAT",
+    "cancel": "ZRUŠIT"
+  }
+}

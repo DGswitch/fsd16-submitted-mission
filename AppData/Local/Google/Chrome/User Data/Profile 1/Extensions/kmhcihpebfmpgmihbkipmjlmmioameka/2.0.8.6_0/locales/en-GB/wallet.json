@@ -1,0 +1,326 @@
+{
+  "headline":                 "Welcome to $t(appName)!",
+  "caption":                  "a multi-platform Cardano wallet",
+
+  "button": {
+
+    "next": {
+
+      "label":                "Start setup"
+    }
+  },
+
+  "accountSelection": {
+
+    "error": {
+      "validNumber":          "Please enter a valid number.",
+      "minNumber":            "Number must be at least 1.",
+      "maxNumber":            "Number can not be greater then {{LIMIT}}."
+    }
+  },
+
+  "walletSelect": {
+    "label":                  "Your wallets",
+    "group": {
+      "placeholder":          "Select wallet group",
+      "all":                  "All groups"
+    },
+    "selected": {
+      "caption":              "Here you can switch between your wallets and manage funds."
+    },
+    "dapp": {
+      "caption":              "Here you can switch your dapp account."
+    },
+    "ui": {
+      "caption":              "Here you can select your account to use."
+    }
+  },
+
+  "accountSelect": {
+    "label":                  "Accounts",
+    "caption":                "Select an account from the list. You can mark an account as a favorite by clicking on the star icon."
+  },
+
+  "qr": {
+
+    "scan": {
+
+      "headline":             "Scan QR Code",
+      "short":                "QR"
+    },
+
+    "loading":                "Initializing camera",
+
+    "error": {
+
+      "notAllowed":           "Please grant camera access permission.",
+      "notFound":             "No camera detected on device.",
+      "notSupported":         "Secure context required (HTTPS, localhost).",
+      "notReadable":          "Is the camera already in use?",
+      "overconstrained":      "Installed cameras are not suitable.",
+      "streamApiNotSupported":"Stream API is not supported in this browser.",
+      "insecureContext":      "Camera access is only permitted in secure context. Use HTTPS or localhost rather than HTTP."
+    },
+
+    "bex": {
+
+      "fullscreenNotice":     "Please open the extension in fullscreen mode to allow camera access. This only has to be done once.\n Click on this text to go fullscreen."
+    }
+  },
+
+  "summary": {
+
+    "button": {
+
+      "copy": {
+
+        "icon":         "mdi mdi-content-copy",
+
+        "utxo": {
+
+          "address": {
+
+            "hover":    "$t(common:label.copyAddress)",
+            "notify":   "$t(common:message.copy.notify)"
+          },
+
+          "txhash": {
+
+            "hover":    "Copy UTxO Hash # Idx",
+            "notify":   "Copied UTxO Hash # \"Idx\": "
+          }
+        },
+
+        "token": {
+
+          "fingerprint": {
+
+            "hover":      "Copy fingerprint",
+            "notify":     "Copied \"fingerprint\": "
+          },
+
+          "policyid": {
+
+            "hover":      "Copy Policy ID",
+            "notify":     "Copied Policy \"ID\": "
+          },
+
+          "assetname": {
+
+            "hover":      "Copy Asset Name in hex format",
+            "notify":     "Copied Asset \"Name\": "
+          }
+        }
+      },
+
+      "token": {
+
+        "expand":     "$t(common:label.expand)",
+        "collapse":   "$t(common:label.collapse)",
+
+        "ipfsimg": {
+
+          "hover":      "Enlarge image"
+        }
+      }
+    },
+    "utxo": {
+
+      "headline":                   "Account UTxO List",
+      "caption":                    "A list of all UTxOs under management of this account, including amount and token lists.",
+      "subcaption":                 "A UTxO is like a Dollar bill of arbitrary value. Transactions spent it and put back change 'bills' to your wallet.",
+      "label":                      "{{utxo_count}} UTxO on {{address_count}} addresses",
+      "address":                    "$t(common:address.label)",
+      "txhash":                     "Hash # Idx",
+      "size":                       "$t(common:label.size)",
+      "balance":                    "$t(common:label.balance)",
+
+      "filter": {
+
+        "label":                    "UTxO Configure Filter",
+
+
+        "asset": {
+          "label":                  "Filter matched assets",
+          "caption":                "Filter by asset name",
+
+          "option": {
+            "all":                  "All assets shown",
+            "match":                "Matched assets shown"
+          }
+        },
+
+        "case": {
+
+          "label":                  "Match case sensitive",
+          "caption":                "",
+
+          "option": {
+            "case":                  "Case sensitive",
+            "ignore":                "Match case insensitive"
+          }
+        }
+      },
+
+      "badges": {
+
+        "pendingIn":                   {
+          "hint":                   "(pending inputs, spent utxos)"
+        },
+
+        "pendingOut": {
+          "hint":                   "(pending outputs, created utxos)"
+        },
+
+        "opkosk": {
+          "label":                  "Earning Rewards",
+          "hint":                   "(account payment key, account stake key)"
+        },
+
+        "opk": {
+          "label":                  "not staked",
+          "hint":                   "(account payment key, no stake key)"
+        },
+
+        "opkesk": {
+          "label":                  "delegated externally",
+          "hint":                   "(account payment key, external stake key)"
+        },
+
+        "epkosk": {
+
+          "label":                  "External funds, but earning rewards",
+          "hint":                   "(external payment key, account stake key)"
+        },
+
+        "collateral": {
+
+          "label":                  "Collateral",
+          "hint":                   "(not all are set as collateral)"
+        },
+
+        "locked": {
+          "label":                  "locked UTxOs"
+        }
+      }
+    },
+
+    "token": {
+
+      "headline":                   "Token list",
+      "caption":                    "Here you can see your Cardano native assets, tokens, NFTs and FTs.",
+      "count": {
+        "label":                    "###count### unique asset(s)###collections### found.",
+        "collections":              " and ###count### collection(s)"
+      },
+      "fetch":                      "Fetching metadata for tokens",
+
+      "notokens":                   "Currently this wallet does not contain any tokens. If you expect tokens, please check whether the wallet is still syncing.",
+      "filterEmpty":                "No tokens found with metadata matching search string input and selected type.",
+      "nometadata":                 "No metadata found for this token. Enable \"Detailed mode\" for basic details.",
+
+      "label":                      "@:common.assets.token",
+      "fingerprint":                "Fingerprint",
+      "policyId":                   "Policy ID",
+      "assetName":                  "Asset Name",
+      "totalSupply":                "Total Supply",
+      "noimage":                    "No Image",
+      "loadIpfs":                   "Load original image via IPFS",
+
+      "dialog": {
+
+        "onchainfile":              "@:common.message.onchainfile",
+        "onchainfiles":             "@:common.message.onchainfiles",
+        "files": {
+          "select":                 "Open ####FORMAT####",
+          "types": {
+            "gif":                  "Animation",
+            "image":                "Image",
+            "video":                "Video",
+            "file":                 "File",
+            "audio":                "Audio"
+          }
+        },
+        "ipfs": {
+          "loading":                "Please wait, the asset is being loaded.",
+          "error":                  "Error loading data from ipfs, please retry or contact support.",
+          "timeout":                "Download of file timed out, please retry or contact support."
+        }
+      },
+
+      "sectionlabel": {
+
+        "metadata":                 "Metadata",
+        "policyname":               "Policy Id & Asset Name",
+        "tokenCollection":          "Token Collection"
+      },
+
+      "hover": {
+
+        "ownedAmount":              "Wallet Balance",
+        "sendAmount":               "Amount To Send",
+        "refresh":                  "Force Refresh",
+        "onchainfile":              "@:common.message.onchainfile",
+        "lockedinsv":               "Locked in @:common.label.stakingvault",
+        "verified":                 "A MuesliSwap verified token!",
+        "nometa":                   "Loading metadata, input disabled and decimals unknown until completed!"
+      },
+
+      "search": {
+
+        "label":                    "Filter tokens",
+        "hint":                     "Search...",
+        "info":                     "Search for tokens based on policy, fingerprint, name, ticker and other metadata. Semicolon can be used as a separator to input multiple search values.",
+        "error": {
+
+          "length":                 "A minimum of 3 characters needed to filter tokens."
+        }
+      },
+
+      "messages": {
+
+        "tokenSelect":              "Token selection enabled"
+      },
+      "modal": {
+        "amountOwned":              "Amount owned",
+        "amountValue":              "Value",
+        "totalCirculation":         "Total in circulation",
+        "currentFloor":             "Current floor",
+        "avgFloor":                 "Average floor",
+        "averagePrice":             "Average price",
+        "description":              "Description",
+        "rawJSON":                  "Raw JSON",
+        "website":                  "Website",
+        "blockchainData":           "Blockchain data",
+        "priceData":                "Price information",
+        "asset":                    "Asset",
+        "priceTable": {
+          "marketplace":            "Website",
+          "price":                  "Price"
+        }
+      },
+
+      "milkomeda": {
+        "filtered":                 "\"Note\": Only tokens that can be bridged to milkomeda are shown.",
+        "noAssetsOnMainnet":        "\"Note\": Milkomeda currently does not support sending assets on mainnet.",
+        "countAddition":            " from which ###COUNT### can be bridged to milkomeda.",
+        "tokenLimit":               "A transaction to Milkomeda can only include one kind of token.",
+        "sendAll":                  "Consider moving all token but one to another address before using send all.",
+        "invalidToken":             "Your wallet includes a token that can not be bridged to Milkomeda."
+      }
+    }
+
+  },
+
+  "syncInfo": {
+
+    "idle":                   "Up-to-date",
+    "initializing":           "Initializing",
+    "queued":                 "Queued",
+    "syncing":                "Syncing",
+    "success":                "Finished",
+    "skipped":                "Finished",
+    "synced":                 "Synced",
+    "error":                  "Failed"
+  }
+}

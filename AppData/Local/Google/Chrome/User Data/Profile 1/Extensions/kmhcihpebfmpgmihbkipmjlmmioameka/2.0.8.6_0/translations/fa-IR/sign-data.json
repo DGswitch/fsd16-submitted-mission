@@ -1,0 +1,12 @@
+{
+  "title": "شما داده‌هایی برای تأیید دارید",
+  "caption": "مالکیت کلید درخواستی را با امضای payload ارائه شده تأیید کنید",
+  "loading": "در حال پردازش داده‌ها برای امضا",
+  "signing": "در حال امضای payload",
+  "hw": "در حال امضای payload روی دستگاه {{device}}",
+  "json": "payload JSON",
+  "hex": "payload خام",
+  "text": "متن",
+  "blake2b224": "هش Blake2b224 از payload",
+  "reqSign": "امضای درخواستی: کلید {{keyType}}"
+}

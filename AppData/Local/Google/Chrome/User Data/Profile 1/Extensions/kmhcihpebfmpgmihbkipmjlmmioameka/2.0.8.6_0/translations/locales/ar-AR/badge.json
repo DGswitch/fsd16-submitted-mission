@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "عنوان التبرع",
+    "hover": "شكراً لدعمكم!"
+  },
+  "burn": {
+    "label": "Eternl حرق Wallet",
+    "hover": "عنوان الحرق"
+  },
+  "eternlFee": {
+    "label": "رسوم متصفح Dapp",
+    "hover": "رسوم تساعد في الحفاظ على خدمات Eternl."
+  },
+  "swapFee": {
+    "label": "رسوم الخدمة",
+    "hover": "رسوم تساعد في الحفاظ على خدمات Eternl."
+  },
+  "collateral": {
+    "label": "عنوان الضمان Eternl"
+  },
+  "script": {
+    "label": "Script"
+  },
+  "noscript": {
+    "label": "ليس عنوان Script"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "تسمية الإبلاغ"
+  },
+  "ext": {
+    "label": "خارجي",
+    "hover": "هذا العنوان غير معروف لـ Eternl."
+  },
+  "openWallet": {
+    "hover": "انقر لفتح wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "التبديل إلى الحساب: {{name}}"
+  },
+  "contract": {
+    "hover": "عقد {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "المعاملة تحتوي على تسجيل تصويت Catalyst"
+  },
+  "multisig": {
+    "label": "تسجيل Multi-Sig",
+    "hover": "المعاملة تحتوي على تسجيل wallet Multi-Sig"
+  },
+  "metadata": {
+    "label": "Meta",
+    "hover": "المعاملة تحتوي على بيانات وصفية"
+  },
+  "withdrawal": {
+    "label": "سحب",
+    "hover": "المعاملة تحتوي على سحب للمكافآت"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "المعاملة تحتوي على token(s) تم عمل Mint لها أو حرقها"
+  },
+  "reg": {
+    "label": "تسجيل",
+    "hover": "تسجيل مفتاح Wallet / Stake"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "المعاملة تحتوي على شهادة governance"
+  },
+  "dereg": {
+    "label": "إلغاء التسجيل",
+    "hover": "إلغاء تسجيل Wallet"
+  },
+  "delegation": {
+    "label": "تفويض",
+    "hover": "تفويض مجمع Stake"
+  },
+  "poolreg": {
+    "label": "تسجيل Pool",
+    "hover": "تسجيل مجمع Stake"
+  },
+  "poolupd": {
+    "label": "تحديث Pool",
+    "hover": "تحديث مجمع Stake"
+  },
+  "poolret": {
+    "label": "إيقاف Pool",
+    "hover": "إيقاف Stake Pool"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Cardano native/multi-sig script"
+  },
+  "plutus": {
+    "label": "عقد",
+    "hover": "عقد Cardano Plutus"
+  },
+  "onchain": {
+    "label": "On-chain",
+    "hover": "تم تضمين المعاملة في كتلة"
+  },
+  "confirmed": {
+    "label": "مؤكدة",
+    "hover": "المعاملة موقعة وجاهزة للإرسال"
+  },
+  "pendingapproval": {
+    "label": "بانتظار الموافقة",
+    "hover": "المعاملة تنتظر توقيعات إضافية من wallet (المحافظ) التي تحت سيطرتك"
+  },
+  "awaitingothers": {
+    "label": "بانتظار الآخرين",
+    "hover": "المعاملة تنتظر توقيعات إضافية من مشاركين خارجيين"
+  },
+  "invalid": {
+    "label": "غير صالحة",
+    "hover": "تم إنفاق أحد مدخلات هذه المعاملة في معاملة مختلفة."
+  },
+  "pending": {
+    "label": "قيد الانتظار",
+    "hover": "المعاملة لا تزال قيد التنفيذ"
+  },
+  "staging": {
+    "label": "غير موقعة",
+    "hover": "لم يتم توقيع هذه المعاملة بعد."
+  },
+  "signed": {
+    "label": "موقعة",
+    "hover": "تم توقيع هذه المعاملة ولكن لم يتم إرسالها بعد."
+  },
+  "inputSigned": {
+    "label": "موقعة",
+    "hover": "تم تقديم التوقيع لهذا المدخل."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "تم توفير الـ redeemer لهذا العقد."
+  },
+  "inputUnsigned": {
+    "label": "غير موقعة",
+    "hover": "التوقيع لهذا المدخل مفقود."
+  },
+  "validFor": {
+    "label": "صالح لـ",
+    "hover": "سيتم تنفيذ المعاملة في النهاية أو ستصبح غير صالحة إذا تم استهلاك أحد مدخلات utxo بواسطة معاملة مختلفة."
+  },
+  "unlockTimeStamp": {
+    "label": "فتح في",
+    "hover": "سيتم فتح أموال Staking Vault هذه في ذلك التاريخ."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "تقوم هذه المعاملة بقفل الأموال في Staking Vault."
+  },
+  "unlimited": {
+    "label": "لا يوجد حد زمني",
+    "hover": "سيتم تنفيذ المعاملة في النهاية أو ستصبح غير صالحة إذا تم استهلاك أحد مدخلات utxo بواسطة معاملة مختلفة."
+  },
+  "expired": {
+    "label": "منتهية الصلاحية",
+    "hover": "انتهت صلاحية عمر المعاملة"
+  },
+  "setTTL": {
+    "label": "تعيين TTL",
+    "hover": "تعيين عمر المعاملة"
+  },
+  "remove": {
+    "label": "إزالة",
+    "hover": "انقر لإزالة معاملة منتهية الصلاحية أو غير صالحة.",
+    "hoverNote": "قم بالإزالة فقط إذا كنت تعلم أن هذه المعاملة لن تتم بعد الآن."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "عنوان wallet الخاص بك"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "عنوان خارجي"
+  },
+  "donation_address": {
+    "label": "تبرع",
+    "hover": "عنوان تبرع $t(common:appName)"
+  },
+  "swap_fee": {
+    "label": "رسوم الواجهة الأمامية",
+    "hover": "عنوان رسوم الواجهة الأمامية لـ $t(common:appName)"
+  },
+  "eternl_fee": {
+    "label": "رسوم الواجهة الأمامية",
+    "hover": "عنوان رسوم $t(common:appName)"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "عنوان timelock لـ Staking Vault"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "قم بتعيين اسم كيان لهذا العنوان."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "عنوان عقد ذكي"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "معاملة عبر السلاسل تم تحويلها إلى Milkomeda"
+  },
+  "submit": {
+    "label": "إرسال المعاملة",
+    "hover": "لم يتم إرسال المعاملة بعد. انقر هنا لإرسالها."
+  },
+  "nosubmitted": {
+    "label": "لم يتم الإرسال",
+    "hover": "تم توقيع المعاملة، ولكن لم يتم إرسالها."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "عنوان عادي"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "عنوان Ada Handle تم حله يبدأ بـ $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "عنوان Unstoppable Domains تم حله ينتهي بـ .clay"
+  },
+  "new": {
+    "label": "جديد",
+    "hover": "إشعار غير مقروء"
+  },
+  "updated": {
+    "label": "مُحدَّث",
+    "hover": "تم تحديث محتوى الإشعار منذ آخر قراءة"
+  },
+  "payment": {
+    "label": "الدفع",
+    "hover": "نص برمجي للدفع"
+  },
+  "stake": {
+    "label": "تخزين",
+    "hover": "نص برمجي لـ Stake"
+  }
+}

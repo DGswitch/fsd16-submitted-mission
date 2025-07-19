@@ -1,0 +1,15 @@
+{
+  "title": "Mở - Lệnh của bạn",
+  "caption": "Liệt kê các lệnh hoán đổi mở trên chuỗi chưa được xử lý.",
+  "loading": "Đang tải các lệnh",
+  "noPending": "Không tìm thấy lệnh nào đang chờ xử lý",
+  "time": "Thời gian",
+  "swap": "Hoán đổi",
+  "dexs": "Các DEX",
+  "via": "Qua",
+  "types": {
+    "buy": "MUA",
+    "sell": "BÁN",
+    "cancel": "HỦY"
+  }
+}

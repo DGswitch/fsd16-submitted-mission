@@ -1,0 +1,6 @@
+{
+  "title": "Importovat veřejný klíč účtu",
+  "caption": "Zadej veřejný klíč účtu (obvykle začíná na 'acct_xvk' nebo 'xpub1') pro vytvoření 'pouze pro čtení' wallet.",
+  "placeholder": "acct_xvk...",
+  "error": "Neplatný veřejný klíč účtu, zkontroluj ho a zkus to znova."
+}

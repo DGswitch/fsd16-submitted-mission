@@ -1,0 +1,20 @@
+{
+  "input": {
+    "password": {
+      "label": "Ausgabepasswort",
+      "placeholder": "Passwort bestätigen"
+    }
+  },
+  "dv": {
+    "signing": "Generiere Konto-Schlüssel",
+    "hw": "Bitte bestätige den Public-Key-Export auf deinem {{device}} Gerät."
+  },
+  "error": {
+    "passwordMismatch": "Die eingegebenen Passwörter stimmen nicht überein, bitte versuche es nochmal!",
+    "missingAppWallet": "Wallet nicht gesetzt. Bitte lade die App neu und versuche es nochmal.",
+    "invalidResult": "Scan-Ergebnis ungültig.",
+    "missingRootKey": "Dieses wallet kann keine Konto-Schlüssel ableiten (Root-Key fehlt).",
+    "deviceNotFound": "Gerät nicht gefunden.",
+    "unknown": "Unbekannter Fehler: {{error}}"
+  }
+}

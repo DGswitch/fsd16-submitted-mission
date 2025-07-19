@@ -1,0 +1,11 @@
+{
+  "title": "Agregar activos",
+  "warning": {
+    "notAllAdded": "No se permite agregar más activos a esta salida. Agrega otra salida para incluir más activos. Solo puede haber hasta tres salidas completamente llenas en una transacción."
+  },
+  "button": {
+    "addAll": "Agregar todo",
+    "addSearch": "Agregar todo lo filtrado",
+    "addPage": "Agregar todo en la página"
+  }
+}

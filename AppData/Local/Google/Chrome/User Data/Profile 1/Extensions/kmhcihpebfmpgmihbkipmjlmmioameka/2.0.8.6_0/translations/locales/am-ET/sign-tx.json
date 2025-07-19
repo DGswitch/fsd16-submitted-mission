@@ -1,0 +1,134 @@
+{
+  "tx": {
+    "label": "{{tx_cnt}} ግብይት(ዎች) ማረጋገጥ ይጠበቅብዎታል።",
+    "caption": "ተጨማሪ ዝርዝሮችን ለማየት እያንዳንዱን ግብይት ለማስፋት ይጫኑ",
+    "loading": "ለመፈረም ግብይት(ዎች) በመካሄድ ላይ",
+    "signing": "የግብይት ፊርማ <b>{{txindex}}</b> ከ {{txtotal}}",
+    "submitting": "ግብይት(ዎች) እየተላከ ነው",
+    "sharing": "ብዙ-ፊርማ ግብይት(ዎች) በመጋራት ላይ",
+    "hw": "ግብይት <b>{{txindex}}</b> ከ {{txtotal}} በመሣሪያዎ {{device}} ላይ ያረጋግጡ",
+    "keystonehash": "<b>በመጠን ምክንያት፣ የግብይቱ አካል ሃሽ በመሣሪያው ላይ ብቻ ነው የሚታየው!</b>",
+    "review": "ከማረጋገጥዎ በፊት እባክዎ ግብይቱን ይከልሱ"
+  },
+  "button": {
+    "debug": {
+      "label": "የስህተት መረጃ አውርድ"
+    }
+  },
+  "biometrics": {
+    "sign": "በባዮሜትሪክስ ይፈርሙ"
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "partiallySigned": "$t(common:status.partiallySigned)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "ግብይቱ በተሳካ ሁኔታ ተልኳል።",
+    "submitMultiple": "ሁሉም ግብይቶች በተሳካ ሁኔታ ተልከዋል።"
+  },
+  "account": {
+    "label": "የኪስ ቦርሳዎችን በመፈረም ላይ",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "በአሁኑ ጊዜ በመፈረም ላይ",
+      "unsigned": "ፊርማ ያስፈልገዋል",
+      "signed": "ተፈርሟል",
+      "connecting": "በመገናኘት ላይ"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send-options:tf.label)",
+      "caption": "$t(send-options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send-options:cu.label)",
+      "caption": "እነሱን ወደ ጥቂት በማዋሃድ የዚህን መለያ UTxOዎችን ይሰብስቡ።"
+    },
+    "send-all": {
+      "headline": "ሁሉንም ገንዘቦች በመላክ ላይ",
+      "caption": "ይህ ግብይት በሂሳቡ ውስጥ ያሉትን ሁሉንም ገንዘቦች ይልካል። እባክዎ የመድረሻ አድራሻውን ዝርዝሮች ያረጋግጡ።"
+    },
+    "high-fee": {
+      "headline": "ከተለመደው በላይ ክፍያ",
+      "caption": "ከተለመደው በላይ የሆነ የግብይት ክፍያ ተገኝቷል። ይህ የሚፈለገው ውጤት መሆኑን ለማረጋገጥ እባክዎ የግብይቱን ዝርዝሮች ያረጋግጡ።"
+    },
+    "withdraw": {
+      "headline": "ሽልማቶችን ማውጣት",
+      "caption": "ሽልማቶችዎ በራስ-ሰር በተወከለው ድርሻዎ ውስጥ ናቸው። ሌላ ቦታ ካልላኩዋቸው ወይም ለcatalyst የድምጽ አሰጣጥ ኃይል እንዲቆጠሩ ካላስፈለጓቸው በስተቀር ሽልማቶችን ማውጣት አያስፈልግም።"
+    },
+    "pool-deleg": {
+      "headline": "የፑል ውክልና",
+      "caption": "የአክሲዮን ገንዳ ውክልና ግብይት። ለዝርዝሮች ግብይቱን ይመልከቱ።"
+    },
+    "vote-deleg": {
+      "headline": "የድምጽ መስጫ ውክልና",
+      "caption": "የአስተዳደር ድምጽ መስጫ ውክልና ግብይት። ለዝርዝሮች ግብይቱን ይመልከቱ።"
+    },
+    "ms-reg": {
+      "headline": "ባለብዙ-ፊርማ Wallet ምዝገባ",
+      "caption": "ይህ በሁሉም ተሳታፊዎች በቀላሉ እንዲገኝ ባለብዙ-ፊርማ wallet በblockchain ላይ ያስመዘግባል።"
+    },
+    "cat-reg": {
+      "headline": "Catalyst ምዝገባ",
+      "caption": "ይህ Catalyst የድምጽ ምዝገባ ግብይት ይፈጥራል። ይህ ምዝገባ በአዲስ ምዝገባ ካልተተካ በስተቀር ለመጪው Catalyst የገንዘብ ድጋፍ ቅጽበታዊ እይታዎች የሚሰራ ነው።"
+    },
+    "collateral": {
+      "headline": "ዋስትና UTxO",
+      "caption": "ከDApps ጋር በሚገናኙበት ጊዜ አንዳንድ ጊዜ የሚያስፈልጉትን የዋስትና UTxOዎችን ያመነጫል።"
+    },
+    "stake-dereg": {
+      "headline": "የአክሲዮን ቁልፍ መሰረዝ",
+      "caption": "$t(settings-account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "DRep ምዝገባን መሰረዝ",
+      "caption": "$t(settings-account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "የማጭበርበሪያ ማስመሰያ ማጽዳት",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "የመለዋወጥ ትዕዛዝ",
+      "caption": "የተሻሉ መንገዶችን የሚያቀርብ የ MonsterSwap ትዕዛዝ ግብይት።"
+    },
+    "swap-cancel": {
+      "headline": "ትዕዛዝን ቀንስ",
+      "caption": "ቀደም ሲል የገባን የመቀየር ትዕዛዝን ለመሰረዝ የሚጠቅም ግብይት ነው።"
+    },
+    "donation": {
+      "headline": "ልገሳ",
+      "caption": "Eternl ስለደገፉ እናመሰግናለን።"
+    }
+  },
+  "error": {
+    "expired": "ማስገባት አልተቻለም! የግብይት ጊዜው አልፎበታል። እባክዎ አዲስ ጊዜ (TTL) በመጠቀም ግብይቱን እንደገና ይፍጠሩ።",
+    "auxDataMismatch": "ያያዝነው metadata እና ለመፈረም የጠየቁት hash አይመሳሰሉም። ለዚህ ግብይት የሚታየው metadata እርስዎ የሚፈርሙት አይደለም!",
+    "auxDataMissing": "ግብይት metadata ተደብቋል።",
+    "debug": "ተጨማሪ ድጋፍ ከፈለጉ፣ እባክዎ የወረደውን የዲበግ መረጃ በመጠቀም የDiscord ትኬት ይክፈቱ።",
+    "unknownInputs": "ያልታወቁ ግብዓቶች በመኖራቸው ትክክለኛ የግብይት ቀሪ ሂሳብን ማስላት አልተቻለም።",
+    "doubleSpend": "ልክ ያልሆነ የግብይት ዝርዝር፡ ግብዓት utxo ከአንድ ጊዜ በላይ ወጪ ተደርጓል።\n",
+    "missingKeys": "ግብይቶች(ቶች) ከሚገኙት መለያዎች ምንም ምስክር አያስፈልጋቸውም። አስቀድሞ ከተረጋገጠ፣ እባክዎ ይዝጉ እና ያስገቡ።",
+    "locked": "ግብይቶች(ቶች) በእጅ የቆለፏቸውን UTxOዎች ለማውጣት ይሞክራሉ።",
+    "passwordMismatch": "ያስገቡት የይለፍ ቃላት አይዛመዱም፣ እባክዎ እንደገና ይሞክሩ!",
+    "dappUnsupported": "DApp ለ{{device}} wallet አይደገፍም።",
+    "fixPermissionUSB": {
+      "text": "የዩኤስቢ ግንኙነትን ለመፍቀድ አዝራሩን ጠቅ ያድርጉ እና መመሪያዎቹን ይከተሉ።",
+      "button": "የዩኤስቢ ፍቃድን አስተካክል"
+    },
+    "fixPermissionBLE": {
+      "text": "የብሉቱዝ ግንኙነትን ለመፍቀድ አዝራሩን ጠቅ ያድርጉ እና መመሪያዎቹን ይከተሉ።",
+      "button": "የብሉቱዝ ፍቃድን አስተካክል"
+    },
+    "fixPermissionCamera": {
+      "text": "የካሜራ መዳረሻን ለመፍቀድ አዝራሩን ጠቅ ያድርጉ እና መመሪያዎቹን ይከተሉ።",
+      "button": "የካሜራ ፍቃድን አስተካክል"
+    }
+  },
+  "info": {
+    "signDownload": "ግብይቱ በሁሉም በሚገኙ መለያዎች ተረጋግጧል።",
+    "multiSigShare": "የብዙ-ፊርማ wallet ተሳታፊዎችን ለማሳወቅ ግብይቱን ያጋሩ፣ ወይም በአማራጭ ግብይቱን አውርደው በእጅ ያጋሩ።"
+  }
+}

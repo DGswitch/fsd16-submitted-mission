@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Skanna QR-kod",
+    "short": "QR"
+  },
+  "loading": "Initierar kamera.",
+  "error": {
+    "notAllowed": "Vänligen ge åtkomstbehörighet till kameran.",
+    "notFound": "Ingen kamera upptäckt på enheten.",
+    "notSupported": "Säker kontext krävs (HTTPS, localhost).",
+    "notReadable": "Används kameran redan?",
+    "overconstrained": "Installerade kameror är inte lämpliga.",
+    "streamApiNotSupported": "Stream API stöds inte i den här webbläsaren.",
+    "insecureContext": "Kameraåtkomst är endast tillåten i säker kontext. Använd HTTPS eller localhost istället för HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Öppna tillägget i helskärmsläge för att tillåta kameraåtkomst. Detta behöver bara göras en gång.\n Klicka på den här texten för att gå till helskärm."
+  }
+}

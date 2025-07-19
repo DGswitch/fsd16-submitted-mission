@@ -1,0 +1,23 @@
+{
+  "title": "تفاصيل المعاملة",
+  "inputsOutputs": "المدخلات/المخرجات",
+  "mints": "سك العملات/حرقها",
+  "withdrawals": "عمليات السحب",
+  "certificates": "الشهادات",
+  "metadata": "بيانات وصفية",
+  "governance": "الحوكمة",
+  "paramupdate": "تحديث المعلمات",
+  "recipient": "المتلقي",
+  "scripts": "البرامج النصية",
+  "witnesses": "الشهود",
+  "validFor": {
+    "label": "صالح لـ",
+    "unlimited": "لا يوجد حد زمني",
+    "expired": "المعاملة منتهية الصلاحية"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "تحميل بواسطة Tx Hash أو Tx Cbor الخام",
+    "invalidTxHashOrCbor": "Tx Hash أو Tx Cbor الخام غير صالح!",
+    "invalidTxCbor": "Cbor معاملة غير صالح!"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "txId": "ID на транзакцията",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "donation": "Дарение за хазната",
+  "txHash": "txHash",
+  "index": "index",
+  "credential": {
+    "payment": "Удостоверение за плащане",
+    "stake": "Удостоверение за залог"
+  },
+  "certificate": {
+    "label_one": "Сертификат",
+    "label_other": "Сертификати",
+    "type": {
+      "stakereg": "Регистрация на акаунт",
+      "stakedereg": "Дерегистрация на акаунт",
+      "stakedel": "Делегиране към Stake Pool",
+      "stakeregdel": "Регистрация на акаунт и делегиране към Stake Pool",
+      "stakevotedel": "Stake Pool и DRep делегиране",
+      "stakevoteregdel": "Регистрация на акаунт и Stake Pool / DRep делегиране",
+      "votedel": "DRep делегиране",
+      "voteregdel": "Регистрация на акаунт и DRep делегиране",
+      "drepreg": "DRep регистрация",
+      "drepupd": "DRep актуализация",
+      "drepdereg": "DRep дерегистрация",
+      "poolreg": "Stake Pool регистрация / актуализация",
+      "poolret": "Оттегляне на Stake Pool",
+      "genkeydel": "Делегиране на Genesis ключ",
+      "mircert": "Преместване на моментни награди",
+      "comhot": "Горещо удостоверяване на комитета",
+      "comcold": "Студено оттегляне на комитета",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Plutus Договор",
+      "unknown": "Неизвестен тип"
+    },
+    "poolreg": {
+      "actepno": "Активен в Epoch",
+      "fixedcost": "Фиксирана цена",
+      "margin": "Марж",
+      "pledge": "Pledge",
+      "rewardaddr": "Адрес за награди",
+      "owner": "Собственик",
+      "relay": "Реле",
+      "metaurl": "Metadata URL",
+      "metahash": "Metadata Hash",
+      "metadata": "Off-Chain Meta"
+    },
+    "poolret": {
+      "retepno": "Оттегляне Epoch"
+    },
+    "gov": {
+      "stakeCreds": "Удостоверения за залог",
+      "drepCreds": "DRep удостоверения",
+      "votingCreds": "Удостоверения за гласуване",
+      "poolCreds": "Pool удостоверения",
+      "poolParams": "Pool параметри",
+      "poolId": "Pool Id",
+      "poolHash": "Pool Hash",
+      "deposit": "Депозит",
+      "anchor": "Котва",
+      "rawData": "Сурови данни",
+      "unknown": "Неизвестен сертификат",
+      "hash": "Хаш",
+      "isScript": "Скрипт",
+      "credential": "Идентификационни данни",
+      "vote": "Глас",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "Metadata Запис",
+    "label_other": "Metadata Записи",
+    "label": "$t(common:metadata.label)",
+    "key": "Етикет",
+    "value": "Стойност",
+    "rawData": "Сурови данни",
+    "block": "Номер на блок",
+    "confirmations": "Потвърждения",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Размер на транзакцията"
+    },
+    "copied": {
+      "cbor": "Копирано transaction cbor"
+    }
+  },
+  "withdrawal": {
+    "label_one": "Изтегляне",
+    "label_other": "Изтегляния",
+    "amount": "Количество"
+  },
+  "utxo": {
+    "collateralInputs_one": "Обезпечен вход",
+    "collateralInputs_other": "Обезпечени входове",
+    "referenceInputs_one": "Референтен вход",
+    "referenceInputs_other": "Референтни входове",
+    "inputs_one": "Вход",
+    "inputs_other": "Входове",
+    "collateralOutput_one": "Обезпечен изход",
+    "collateralOutput_other": "Обезпечени изходи",
+    "outputs_one": "Изход",
+    "outputs_other": "Изходи"
+  },
+  "nativescript": {
+    "label": "Native / Multi-Sig Script(s)",
+    "hash": "Хаш",
+    "type": "Тип",
+    "witness": "Свидетелство",
+    "aux": "Допълнителни данни",
+    "json": "JSON",
+    "bytecode": "Данни"
+  },
+  "plutusscript": {
+    "label": "Plutus Script(s)",
+    "hash": "Хаш",
+    "type": "Тип",
+    "size": "Размер",
+    "bytes": "Данни",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum hash",
+      "bytecode": "Plutus datum bytes",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "Предназначение",
+      "fee": "Такса за договор",
+      "usteps": "Стъпки на единица",
+      "umem": "Памет на единица",
+      "dhash": "Хеш на Datum",
+      "dvalue": "Байткод на Datum",
+      "djson": "Datum JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus Договор",
+    "label_other": "Plutus Договори",
+    "valid": "Валиден договор",
+    "redeemer": "Redeemer",
+    "datum": "Datum",
+    "script": {
+      "label": "Договорен скрипт",
+      "hash": "Хеш",
+      "size": "$t(common:size)",
+      "bytecode": "Данни"
+    },
+    "reference": {
+      "native": "Референтен скрипт (native)",
+      "plutus": "Референтен скрипт (plutus)"
+    },
+    "outdatum": "Изходен Datum"
+  },
+  "mints": {
+    "mints": "Списък за сечене",
+    "burns": "Списък за изгаряне"
+  }
+}

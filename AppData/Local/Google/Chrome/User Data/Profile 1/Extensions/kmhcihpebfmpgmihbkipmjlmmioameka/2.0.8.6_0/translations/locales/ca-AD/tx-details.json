@@ -1,0 +1,164 @@
+{
+  "txId": "Identificador de la transacció",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "donation": "Donació al Tresor",
+  "txHash": "txHash",
+  "index": "índex",
+  "credential": {
+    "payment": "Credencial de pagament",
+    "stake": "Credencial de staking"
+  },
+  "certificate": {
+    "label_one": "Certificat",
+    "label_other": "Certificats",
+    "type": {
+      "stakereg": "Registre de compte",
+      "stakedereg": "Baixa de compte",
+      "stakedel": "Delegació a pool de staking",
+      "stakeregdel": "Registre de compte i delegació a pool de staking",
+      "stakevotedel": "Pool de staking i delegació a DRep",
+      "stakevoteregdel": "Registre de compte i delegació a pool de staking / DRep",
+      "votedel": "Delegació a DRep",
+      "voteregdel": "Registre de compte i delegació a DRep",
+      "drepreg": "Registre de DRep",
+      "drepupd": "Actualització de DRep",
+      "drepdereg": "Baixa de DRep",
+      "poolreg": "Registre / Actualització de pool de staking",
+      "poolret": "Retirada de pool de staking",
+      "genkeydel": "Delegació de clau Gènesi",
+      "mircert": "Moure recompenses instantànies",
+      "comhot": "Autenticació calenta del comitè",
+      "comcold": "Renúncia freda del comitè",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Contracte Plutus",
+      "unknown": "Tipus desconegut"
+    },
+    "poolreg": {
+      "actepno": "Actiu a Epoch",
+      "fixedcost": "Cost fix",
+      "margin": "Marge",
+      "pledge": "Pledge",
+      "rewardaddr": "Adreça de recompensa",
+      "owner": "Propietari",
+      "relay": "Relay",
+      "metaurl": "URL de Metadata",
+      "metahash": "Hash de Metadata",
+      "metadata": "Meta fora de la cadena"
+    },
+    "poolret": {
+      "retepno": "Es retira a Epoch"
+    },
+    "gov": {
+      "stakeCreds": "Credencials de staking",
+      "drepCreds": "Credencials de DRep",
+      "votingCreds": "Credencials de votació",
+      "poolCreds": "Credencials del pool",
+      "poolParams": "Paràmetres del pool",
+      "poolId": "Identificador del pool",
+      "poolHash": "Hash del pool",
+      "deposit": "Dipòsit",
+      "anchor": "Àncora",
+      "rawData": "Dades en brut",
+      "unknown": "Certificat desconegut",
+      "hash": "Hash",
+      "isScript": "Script",
+      "credential": "Credencial",
+      "vote": "Vot",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "Metadata Entry",
+    "label_other": "Metadata Entries",
+    "label": "$t(common:metadata.label)",
+    "key": "Etiqueta",
+    "value": "Valor",
+    "rawData": "Dades en brut",
+    "block": "Bloc núm.",
+    "confirmations": "Confirmacions",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Mida de la Tx"
+    },
+    "copied": {
+      "cbor": "Copiada la Tx cbor"
+    }
+  },
+  "withdrawal": {
+    "label_one": "Retirada",
+    "label_other": "Retirades",
+    "amount": "Import"
+  },
+  "utxo": {
+    "collateralInputs_one": "Entrada col·lateral",
+    "collateralInputs_other": "Entrades col·laterals",
+    "referenceInputs_one": "Entrada de referència",
+    "referenceInputs_other": "Entrades de referència",
+    "inputs_one": "Entrada",
+    "inputs_other": "Entrades",
+    "collateralOutput_one": "Sortida col·lateral",
+    "collateralOutput_other": "Sortides col·laterals",
+    "outputs_one": "Sortida",
+    "outputs_other": "Sortides"
+  },
+  "nativescript": {
+    "label": "Script(s) natiu / multi-signatura",
+    "hash": "Hash",
+    "type": "Tipus",
+    "witness": "Testimoni",
+    "aux": "Dades auxiliars",
+    "json": "JSON",
+    "bytecode": "Dades"
+  },
+  "plutusscript": {
+    "label": "Plutus Script(s)",
+    "hash": "Hash",
+    "type": "Tipus",
+    "size": "Mida",
+    "bytes": "Dades",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum hash",
+      "bytecode": "Plutus datum bytes",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "Propòsit",
+      "fee": "Comissió del Contracte",
+      "usteps": "Passos Unitat",
+      "umem": "Memòria Unitat",
+      "dhash": "Hash del Datum",
+      "dvalue": "Bytecode del Datum",
+      "djson": "Datum JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Contracte Plutus",
+    "label_other": "Contractes Plutus",
+    "valid": "Contracte vàlid",
+    "redeemer": "Redemptor",
+    "datum": "Datum",
+    "script": {
+      "label": "Script del Contracte",
+      "hash": "Hash",
+      "size": "$t(common:size)",
+      "bytecode": "Dades"
+    },
+    "reference": {
+      "native": "Script de referència (natiu)",
+      "plutus": "Script de referència (plutus)"
+    },
+    "outdatum": "Datum de Sortida"
+  },
+  "mints": {
+    "mints": "Llista de creació (mint)",
+    "burns": "Llista de destrucció (burn)"
+  }
+}

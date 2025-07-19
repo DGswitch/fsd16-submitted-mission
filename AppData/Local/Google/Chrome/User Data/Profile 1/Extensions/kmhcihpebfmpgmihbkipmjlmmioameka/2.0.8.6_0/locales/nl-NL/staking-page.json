@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Staking Dashboard",
+  "caption": "Hier kunt u uw ADA beheren en delegeren aan een Stakepool en een passief inkomen verdienen.",
+  "subCaption": "Uw tegoeden verlaten nooit uw wallet voor staking op Cardano, en kunnen op elk moment worden uitgegeven.",
+  "staking-cta": {
+    "title": "Verdien staking beloningen!",
+    "caption": "Klik op de knop om een stake pool te kiezen.",
+    "button": "Stake"
+  },
+  "poollist": {
+    "title": "Beschikbare stake pools",
+    "caption": "Een lijst met beschikbare stake pools. Voer de ticker of naam van een pool in om de lijst te filteren. De rangschikking prioriteert optimale beloningen voor de gebruiker.",
+    "filter": {
+      "search": "Zoek naar een pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "geen poolgegevens beschikbaar",
+      "undelegated": "niet gedelegeerd",
+      "delegated": "gedelegeerd",
+      "deregistered": "gederegistreerd",
+      "registered": "geregistreerd",
+      "pending": "in behandeling",
+      "producing": "produceert"
+    },
+    "history": {
+      "label": "Beloningsgeschiedenis",
+      "caption": "Een lijst met verdiende beloningen voor staking en Catalyst stemmen, gesorteerd op epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Beloningen",
+      "refund": "Terugbetaling Pool Deregistratie",
+      "pool": "Pool",
+      "treasury": "Catalyst Stemmen",
+      "leader": "Pool Operator Beloningen",
+      "reserves": "Directe Beloningen"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Overweeg te delegeren aan een DRep voor governance-acties. Dit is vereist in het volgende tijdperk om staking beloningen op te kunnen nemen"
+      },
+      "inactive": "Account is gedelegeerd aan een governance DRep die als inactief is gemarkeerd en dus niet meer meetelt voor de actieve voting stake"
+    },
+    "warning": {
+      "high": {
+        "headline": "Hoge Pool Fee",
+        "caption": "De pool waaraan dit account is gedelegeerd heeft een ongewoon hoge fee die uw staking beloningen zal verminderen. Als het een soort ISPO is, is dat prima. Zo niet, dan dient u een andere pool met lagere fees te kiezen"
+      },
+      "complete": {
+        "headline": "99+% Pool Fee",
+        "caption": "De pool waaraan dit account is gedelegeerd rekent minstens 99% aan en int uw ADA beloningen. Als het een soort ISPO is, is dat prima. Zo niet, dan dient u een andere pool met lagere fees te kiezen"
+      }
+    }
+  }
+}

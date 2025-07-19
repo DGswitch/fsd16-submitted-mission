@@ -1,0 +1,103 @@
+{
+  "menuLabel": "Yönetişim",
+  "title": "Blockchain Yönetişimi",
+  "caption": "Cardano'nun blockchain yönetişiminde, topluluk odaklı kararların dirençli ve kapsayıcı bir ekosisteme giden yolu aydınlattığı Voltaire Döneminde yol almak.",
+  "era": "Ağ henüz Voltaire (Conway) dönemine geçmedi.",
+  "credentials": "Kimlik Bilgileri",
+  "delegation": {
+    "current": {
+      "label": "Mevcut Oy Delegasyonu",
+      "undelegated": "Delege Edilmemiş",
+      "vote": "Oy",
+      "drep": "DRep",
+      "status": "Durum",
+      "active": "Aktif",
+      "inactive": "Pasif",
+      "unregistered": "Kaydedilmemiş",
+      "votepower": "Oy Gücü"
+    },
+    "new": {
+      "label": "Yeni Oy Delegasyonu",
+      "options": {
+        "own": "Kendi Hesabı",
+        "custom": "DRep Kimliğini Belirtin",
+        "abstain": "Çekimser",
+        "noconfidence": "Güvensizlik"
+      },
+      "button": {
+        "delegate": "Delege Et",
+        "governance": "Yönetişim Delegasyonu"
+      },
+      "accModal": {
+        "label": "Hesap Yönetişim Oy Delegasyonu",
+        "caption": "Oy gücünüzü delege edeceğiniz hesabı seçin. Aynı hesap ise, gerekirse otomatik olarak bir DRep kaydı yapılır, aksi takdirde seçilen hesabın zaten DRep kaydının yapılmış olması gerekir.",
+        "accounts": {
+          "headline": "Hesaplar arası oy delegasyonu"
+        },
+        "wallets": {
+          "headline": "Cüzdanlar arası oy delegasyonu",
+          "current": "mevcut __GT__cüzdan__",
+          "loading": "__GT__Cüzdan__ listesi yükleniyor..."
+        },
+        "button": {
+          "account": "Hesaba Delege Et"
+        }
+      },
+      "anchorModal": {
+        "label": "DRep Kayıt Anchor'ı (isteğe bağlı)",
+        "caption": "Hakkınızda ek bilgi içeren URL'niz. Atlamak için boş bırakın.",
+        "hint": "https://..."
+      },
+      "error": {
+        "accdrepmissing": "Hesap DRep kimlik bilgileri eksik, lütfen seçili hesabı senkronize edin!",
+        "owndrepmissing": "Kendi DRep kimlik bilgileriniz eksik, lütfen aktif hesabı senkronize edin!",
+        "invaliddrep": "Geçersiz DRep Kimliği",
+        "notregistered": "DRep Kimliği kaydedilmemiş, belirtilen DRep'e delege edilemiyor",
+        "unknown": "DRep Kimliği serileştirilirken bilinmeyen bir hata oluştu"
+      }
+    }
+  },
+  "info": {
+    "text": "Yönetişime katılmak için her stake kimlik bilgisinin bir DRep'e delege edilmesi gerekir. Ada sahipleri genellikle oy haklarını, kendi adlarına oy kullanacak kayıtlı bir DRep'e delege ederler. Ek olarak, önceden tanımlanmış iki DRep seçeneği \"mevcuttur\":",
+    "abstain": {
+      "label": "Çekimser",
+      "text": "Bir Ada sahibi Çekimser'e delege ederse, stake'i aktif olarak yönetişime katılmıyor olarak işaretlenir. Zincir üzerinde Çekimser'e delege etmenin etkisi, delege edilen stake'in aktif oy stake'inin bir parçası olarak kabul edilmemesidir. Ancak, stake teşvikler amacıyla kayıtlı olarak kabul edilecektir."
+    },
+    "noconfidence": {
+      "label": "Güvensizlik",
+      "text": "Bir Ada sahibi Güvensizlik'e delege ederse, stake'i \"güvensizlik önergesi\" dışındaki her yönetişim eyleminde hayır oyu olarak sayılır. Bu aynı zamanda mevcut anayasa komitesine güvenmediklerini de gösterir. Zincir üzerinde Güvensizlik'e delege etmenin etkisi, bu stake'in aktif oy stake'inin bir parçası olarak kabul edilmesidir. Her Güvensizlik eyleminde Evet oyu ve diğer tüm eylemlerde Hayır oyu olarak sayılacaktır. Aynı zamanda Ada sahiplerinin anayasa komitesine olan güveninin doğrudan denetlenebilir bir ölçüsü olarak hizmet eder."
+    },
+    "note": "Herhangi bir Ada sahibi, oylamaya aktif olarak katılmak isterse kendini DRep olarak kaydedebilir ve kendine delege edebilir.",
+    "govtool": {
+      "mainnet": "",
+      "guild": "",
+      "sancho": "https://sanchogov.tools/",
+      "preprod": "",
+      "preview": "",
+      "label": "GovTool",
+      "info": "Cardano yönetişimi ve ek eylemler hakkında daha fazla bilgi için ziyaret edin"
+    }
+  },
+  "key": {
+    "show": "Hesap Yönetişim Kimlik Bilgilerini Göster",
+    "hide": "Hesap Yönetişim Kimlik Bilgilerini Gizle",
+    "drep": {
+      "header": "DRep Kimliği",
+      "caption": "Conway ledger döneminde, DRep kimlik bilgileri, kayıtlı DRep'lerin zincir üstünde (on-chain), DRep kayıtlarında, emekliliklerinde, oylarında ve ada sahiplerinden gelen oy delegasyonlarında tanımlanmasını sağlar."
+    },
+    "cccold": {
+      "header": "CC Soğuk Kimlik Bilgisi",
+      "caption": "Constitutional committee üyeleri, komite güncelleme yönetişim eylemleri dahilinde soğuk kimlik bilgileriyle tanınabilir, sıcak kimlik bilgisi sertifikasını yetkilendirebilir ve soğuk anahtar sertifikalarını sonlandırabilir."
+    },
+    "cchot": {
+      "header": "CC Sıcak Kimlik Bilgisi",
+      "caption": "Constitutional committee sıcak kimlik bilgisi, sıcak anahtar sertifikasını yetkilendirme dahilinde ve oylarda gözlemlenebilir."
+    }
+  },
+  "copy": {
+    "address": {
+      "hover": "$t(common:copy.address)",
+      "notify": "$t(common:copied.address)"
+    }
+  }
+}

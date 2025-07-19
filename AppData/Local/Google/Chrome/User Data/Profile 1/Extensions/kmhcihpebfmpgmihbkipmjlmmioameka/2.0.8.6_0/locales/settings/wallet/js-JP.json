@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "名前とグループ",
+    "caption": "ウォレットまたはグループ名を更新します。",
+    "setting": {
+      "caption": "$t(settings/wallet:walletName.caption)",
+      "name": "ウォレット名",
+      "group": "ウォレットグループ",
+      "error": {
+        "empty": {
+          "name": "ウォレット名を空にすることはできません。",
+          "group": "ウォレットグループを空にすることはできません。"
+        },
+        "duplicate": {
+          "name": "この名前のウォレットは既に存在します。"
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "ウォレット 送金パスワード",
+    "caption": "ウォレットの送金パスワードを更新します。",
+    "setting": {
+      "caption": "ウォレットの送金パスワードを更新します。古いパスワードを入力し、次に新しい長い送金パスワードを入力してください。パスワードが長いほど、ウォレットはより安全になります。",
+      "updated": "ウォレット送金パスワードの更新。",
+      "error": "ウォレットパスワードを更新できませんでした。"
+    }
+  },
+  "biometrics": {
+    "title": "生体認証による送金",
+    "caption": "パスワードの代わりに生体認証機能を使用します。",
+    "setting": {
+      "caption": "$t(settings/wallet:biometrics.caption)",
+      "activate": {
+        "label": "生体認証を有効化",
+        "description": "現在の送金パスワードを入力して、お使いの携帯電話の生体認証機能による送金を有効にします。"
+      },
+      "deactivate": {
+        "label": "生体認証を無効化",
+        "description": "トランザクションに署名する際、パスワードの代わりに携帯電話の生体認証機能を使用します。"
+      }
+    }
+  },
+  "icon": {
+    "title": "ウォレットアイコン",
+    "caption": "カスタムウォレットアイコンを設定するか、ランダムなウォレットアイコンを生成します。",
+    "setting": {
+      "caption": "$t(settings/wallet:icon.caption)",
+      "select": "アイコンを選択",
+      "regenerateIcon": "ランダム化",
+      "resetToDefault": "デフォルトにリセット"
+    }
+  },
+  "exportWallet": {
+    "title": "ウォレットをエクスポート",
+    "caption": "他のブラウザ/デバイスでのインポートを可能にする、安全なウォレット JSONエクスポート。",
+    "setting": {
+      "caption": "エクスポートされた $t(common:appName) .json バックアップファイルは、他のどの $t(common:appName) アプリにもインポートできます。",
+      "subCaption": ".json バックアップには、トランザクションメモとウォレット/アカウント設定が含まれます。",
+      "button": {
+        "label": "ウォレットをエクスポート"
+      },
+      "banner": {
+        "title": "重要！",
+        "text": "ホットウォレットの場合、エクスポートには暗号化された秘密鍵 (private key) が含まれます。エクスポートされたファイルを安全に保管し、誰とも共有しないでください。"
+      }
+    }
+  },
+  "reSync": {
+    "title": "ウォレットを再同期",
+    "caption": "ウォレットの完全な再同期を強制します。",
+    "setting": {
+      "caption": "$t(settings/wallet:reSync.caption)",
+      "subCaption": "このボタンを押すと、すべてのウォレットデータがリセットされ、blockchainから完全に再同期されます。",
+      "button": {
+        "label": "ウォレットを再同期"
+      }
+    }
+  },
+  "verification": {
+    "title": "復元フレーズ (Recovery phrase) の確認",
+    "caption": "ウォレットの正しい復元フレーズ (recovery phrase) を保管していることを確認します。",
+    "setting": {
+      "caption": "$t(settings/wallet:verification.caption) 確認後、送金パスワードを変更することもできます。",
+      "start": "フレーズを確認",
+      "match": {
+        "label": "入力された復元フレーズ (recovery phrase) は正しいです。",
+        "spending": "送金パスワードを変更"
+      },
+      "invalid": "入力された復元フレーズ (recovery phrase) は、このウォレットに対して正しくありません。"
+    }
+  },
+  "deleteWallet": {
+    "title": "ウォレットを削除",
+    "caption": "ウォレットとそのすべてのアカウントを削除します。",
+    "setting": {
+      "caption": "このウォレットを削除すると、この $t(common:appName) アプリから削除され、このウォレット内の残りの資金へのアクセスを失います。",
+      "subCaption": "削除後にアクセスを回復する唯一の方法は、ウォレットの復元フレーズ (recovery phrase) を復元するか、以前にエクスポートした $t(common:appName).json バックアップファイルをインポートすることです。",
+      "subCaption2": "インポートを容易にするために、削除する前に $t(common:appName).json バックアップとしてエクスポートしてください。\n\nこのウォレットのシードフレーズ (seed phrase) が安全に保管されていることを確認してください！",
+      "acknowledged": "この__GT__ウォレット__へのアクセスを回復するには、__GT__ウォレット__のリカバリーフレーズによる復元が唯一の方法であることを理解しました。",
+      "name": "__GT__ウォレット__名を入力してください",
+      "error": {
+        "name": "削除を確認するために、正しい__GT__ウォレット__名を入力してください。",
+        "acknowledged": "上記の情報をお読みになり、確認してください。"
+      }
+    }
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "दान पता",
+    "hover": "आपके सहयोग के लिए धन्यवाद!"
+  },
+  "burn": {
+    "label": "Eternl बर्न Wallet",
+    "hover": "बर्न पता"
+  },
+  "eternlFee": {
+    "label": "Dapp ब्राउज़र शुल्क",
+    "hover": "एक शुल्क जो Eternl सेवाओं को बनाए रखने में मदद करता है।"
+  },
+  "swapFee": {
+    "label": "सेवा शुल्क",
+    "hover": "एक शुल्क जो Eternl सेवाओं को बनाए रखने में मदद करता है।"
+  },
+  "collateral": {
+    "label": "Eternl कोलैटरल पता"
+  },
+  "script": {
+    "label": "स्क्रिप्ट"
+  },
+  "noscript": {
+    "label": "स्क्रिप्ट पता नहीं है"
+  },
+  "handle": {
+    "hover": "Ada हैंडल: {{name}}"
+  },
+  "reporting": {
+    "hover": "रिपोर्टिंग लेबल"
+  },
+  "ext": {
+    "label": "बाहरी",
+    "hover": "यह पता Eternl के लिए अज्ञात है।"
+  },
+  "openWallet": {
+    "hover": "wallet खोलने के लिए क्लिक करें: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "अकाउंट पर स्विच करें: {{name}}"
+  },
+  "contract": {
+    "hover": "कॉन्ट्रैक्ट {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "लेन-देन में Catalyst वोटिंग पंजीकरण शामिल है"
+  },
+  "multisig": {
+    "label": "मल्टी-सिग Reg",
+    "hover": "लेन-देन में मल्टी-सिग wallet पंजीकरण शामिल है"
+  },
+  "metadata": {
+    "label": "मेटा",
+    "hover": "लेन-देन में मेटाडेटा शामिल है"
+  },
+  "withdrawal": {
+    "label": "निकासी",
+    "hover": "लेन-देन में रिवॉर्ड्स की निकासी शामिल है"
+  },
+  "mint": {
+    "label": "मिंट",
+    "hover": "लेन-देन में मिंट या बर्न किए गए टोकन शामिल हैं"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Wallet / स्टेक की पंजीकरण"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "लेन-देन में एक गवर्नेंस सर्टिफिकेट शामिल है"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "Wallet डी-रजिस्ट्रेशन"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "स्टेक पूल डेलिगेशन"
+  },
+  "poolreg": {
+    "label": "पूल reg",
+    "hover": "स्टेक पूल पंजीकरण"
+  },
+  "poolupd": {
+    "label": "पूल अपडेट",
+    "hover": "स्टेक पूल अपडेट"
+  },
+  "poolret": {
+    "label": "पूल रिटायर",
+    "hover": "स्टेक पूल रिटायर"
+  },
+  "nativescript": {
+    "label": "स्क्रिप्ट",
+    "hover": "Cardano नेटिव/मल्टी-सिग स्क्रिप्ट"
+  },
+  "plutus": {
+    "label": "कॉन्ट्रैक्ट",
+    "hover": "Cardano Plutus कॉन्ट्रैक्ट"
+  },
+  "onchain": {
+    "label": "ऑन-चेन",
+    "hover": "लेन-देन एक ब्लॉक में शामिल किया गया था"
+  },
+  "confirmed": {
+    "label": "पुष्टि की गई",
+    "hover": "लेन-देन हस्ताक्षरित है और सबमिट करने के लिए तैयार है"
+  },
+  "pendingapproval": {
+    "label": "अनुमोदन लंबित",
+    "hover": "लेनदेन आपके नियंत्रण में wallet(s) द्वारा अतिरिक्त हस्ताक्षरों की प्रतीक्षा कर रहा है"
+  },
+  "awaitingothers": {
+    "label": "दूसरों की प्रतीक्षा में",
+    "hover": "लेनदेन बाहरी प्रतिभागियों द्वारा अतिरिक्त हस्ताक्षरों की प्रतीक्षा कर रहा है"
+  },
+  "invalid": {
+    "label": "अमान्य",
+    "hover": "इस लेनदेन का एक इनपुट किसी अन्य लेनदेन में खर्च कर दिया गया था।"
+  },
+  "pending": {
+    "label": "लंबित",
+    "hover": "लेनदेन अभी भी निष्पादन के लिए लंबित है"
+  },
+  "staging": {
+    "label": "हस्ताक्षर रहित",
+    "hover": "इस लेनदेन पर अभी तक हस्ताक्षर नहीं किए गए हैं।"
+  },
+  "signed": {
+    "label": "हस्ताक्षरित",
+    "hover": "इस लेनदेन पर हस्ताक्षर किए गए हैं लेकिन अभी तक सबमिट नहीं किया गया है।"
+  },
+  "inputSigned": {
+    "label": "हस्ताक्षरित",
+    "hover": "इस इनपुट के लिए हस्ताक्षर प्रदान किया गया है।"
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "इस अनुबंध के लिए रिडीमर प्रदान किया गया है।"
+  },
+  "inputUnsigned": {
+    "label": "हस्ताक्षर रहित",
+    "hover": "इस इनपुट के लिए हस्ताक्षर गायब है।"
+  },
+  "validFor": {
+    "label": "इसके लिए मान्य",
+    "hover": "लेनदेन अंततः निष्पादित किया जाएगा या अमान्य हो जाएगा यदि कोई इनपुट utxo किसी भिन्न लेनदेन द्वारा उपभोग किया गया था।"
+  },
+  "unlockTimeStamp": {
+    "label": "इस समय अनलॉक करें",
+    "hover": "ये Staking Vault फंड उस तारीख को अनलॉक होंगे।"
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "यह लेनदेन Staking Vault में फंड लॉक करता है।"
+  },
+  "unlimited": {
+    "label": "कोई समय सीमा नहीं",
+    "hover": "लेनदेन अंततः निष्पादित किया जाएगा या अमान्य हो जाएगा यदि कोई इनपुट utxo किसी भिन्न लेनदेन द्वारा उपभोग किया गया था।"
+  },
+  "expired": {
+    "label": "समय सीमा समाप्त",
+    "hover": "लेनदेन की जीवन अवधि समाप्त हो गई"
+  },
+  "setTTL": {
+    "label": "TTL सेट करें",
+    "hover": "लेनदेन की जीवन अवधि सेट करें"
+  },
+  "remove": {
+    "label": "हटाएं",
+    "hover": "समय सीमा समाप्त या अमान्य लेनदेन को हटाने के लिए क्लिक करें।",
+    "hoverNote": "केवल तभी हटाएं, यदि आप जानते हैं कि यह लेनदेन अब आगे नहीं बढ़ेगा।"
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "स्वयं का wallet पता"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "बाहरी पता"
+  },
+  "donation_address": {
+    "label": "दान",
+    "hover": "$t(common:appName) दान पता"
+  },
+  "swap_fee": {
+    "label": "फ्रंटएंड शुल्क",
+    "hover": "$t(common:appName) फ्रंटएंड शुल्क पता"
+  },
+  "eternl_fee": {
+    "label": "फ्रंटएंड शुल्क",
+    "hover": "$t(common:appName) शुल्क पता"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Staking वॉल्ट टाइमलॉक पता"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "इस पते के लिए एक एंटिटी नाम सेट करें।"
+  },
+  "script_address": {
+    "label": "स्क्रिप्ट",
+    "hover": "स्मार्ट कॉन्ट्रैक्ट पता"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Milkomeda के लिए ब्रिजेड क्रॉस चेन ट्रांज़ैक्शन"
+  },
+  "submit": {
+    "label": "ट्रांज़ैक्शन सबमिट करें",
+    "hover": "ट्रांज़ैक्शन अभी सबमिट नहीं हुआ है। इसे सबमिट करने के लिए यहां क्लिक करें।"
+  },
+  "nosubmitted": {
+    "label": "सबमिट नहीं किया गया",
+    "hover": "ट्रांज़ैक्शन पर हस्ताक्षर किए गए थे, लेकिन सबमिट नहीं किया गया।"
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "एक सामान्य एड्रेस"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "हल किया गया Ada Handle एड्रेस $ से शुरू होता है"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "हल किया गया Unstoppable Domains एड्रेस .clay पर समाप्त होता है"
+  },
+  "new": {
+    "label": "नया",
+    "hover": "अपठित नोटिफिकेशन"
+  },
+  "updated": {
+    "label": "अपडेट किया गया",
+    "hover": "पिछली बार पढ़ने के बाद से नोटिफिकेशन सामग्री अपडेट की गई है"
+  },
+  "payment": {
+    "label": "भुगतान",
+    "hover": "भुगतान स्क्रिप्ट"
+  },
+  "stake": {
+    "label": "Stake",
+    "hover": "Stake स्क्रिप्ट"
+  }
+}

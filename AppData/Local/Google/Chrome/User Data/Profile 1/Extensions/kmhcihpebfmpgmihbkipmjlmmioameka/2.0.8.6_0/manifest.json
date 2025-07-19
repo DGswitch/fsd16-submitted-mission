@@ -1,0 +1,48 @@
+{
+   "action": {
+      "default_title": "Eternl"
+   },
+   "author": "Tastenkunst GmbH",
+   "background": {
+      "service_worker": "app/bg.js",
+      "type": "module"
+   },
+   "content_scripts": [ {
+      "js": [ "vendor/trezor-content-script.js" ],
+      "matches": [ "*://connect.trezor.io/*/popup.html*" ]
+   }, {
+      "all_frames": true,
+      "exclude_matches": [ "*://miro.com/*" ],
+      "js": [ "app/content.js" ],
+      "match_about_blank": true,
+      "matches": [ "https://*/*", "http://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+   },
+   "description": "Your all-in-one gateway to Cardano DeFi, DApps and NFTs.",
+   "differential_fingerprint": "1.2fab70e367e9732430df664ab6210330eb68c7963e156b7309c2c52055743fb5",
+   "externally_connectable": {
+      "matches": [ "https://connect.trezor.io/9/*" ]
+   },
+   "homepage_url": "https://eternl.io",
+   "host_permissions": [ "https://*/*", "http://*/*", "*://connect.trezor.io/9/*", "https://*.eternl.io/*", "https://*.ccvault.io/*", "https://*.trezor.io/*", "https://*.steelswap.io/*", "https://*.coingecko.com/*", "https://*.eternl.nftcdn.io/*" ],
+   "icons": {
+      "128": "icons/favicon-128x128.png",
+      "16": "icons/favicon-16x16.png",
+      "32": "icons/favicon-32x32.png",
+      "48": "icons/favicon-48x48.png",
+      "96": "icons/favicon-96x96.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhzecV1KodgbctTmi4TkDZt96UJbQrtaIss5s4seV2dDXP62HI8h8/QZviEgsGfC7VGmxmNnW2VgPuLgiYhKDpw78wZ0nTObJIa1N5/JqtCZ0CDnZMd4Jw8HplISlWwuDGT0gMScJaHq+q+mFlQi1rBzsnFyPn51RWpuoQMeRW9hLr9EGR8MuLEX6hchrZx5dn835pDSPad4OgyV0FCUeAW6+CzStRFC64dosVtk6l6KEs1e8qEvQWlRFz6bSMwcrDq78vS42NOO+bQ2qYTS4tpYhGE3mcVz+1BdN/4NCAXm/Sx7W0OchoIwMyc9Mo/iRXmLayFKWeQJO4+b/dYEnWwIDAQAB",
+   "manifest_version": 3,
+   "name": "Eternl",
+   "permissions": [ "activeTab", "offscreen", "scripting", "sidePanel", "storage", "tabs", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.8.6",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "app/dom.js" ]
+   } ]
+}

@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "PIN Kodu Oluştur",
+      "confirm": "PIN Kodunu Onayla"
+    },
+    "captionShort": "$t(common:appName) uygulamasına erişmek için bir PIN kodu ayarlayın.",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) $t(common:appName) uygulamasını her açtığınızda gerekli olacaktır.",
+      "confirm": "PIN kodunu onaylamak için az önce girdiğiniz PIN'i tekrar girin."
+    },
+    "hint": {
+      "enter": "PIN Kodunu Girin.",
+      "confirm": "Onaylamak için PIN'i ikinci kez girin."
+    },
+    "confirmed": "Girilen PIN Kodları eşleşiyor.",
+    "button": {
+      "label": "PIN'i Etkinleştir"
+    },
+    "error": {
+      "confirm": "PIN Kodu uyuşmuyor, lütfen tekrar deneyin."
+    }
+  },
+  "access": {
+    "title": "Erişim PIN Kodu",
+    "caption": "Erişim PIN Kodunu girin.",
+    "checking": "PIN Kodu kontrol ediliyor.",
+    "confirmed": "Girilen PIN doğru.",
+    "error": {
+      "confirm": "PIN Kodu yanlış."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Devre dışı bırakmak için PIN Kodunu girin.",
+    "biometrics": "PIN'i kaldırdığınızda, biyometri özelliği otomatik olarak devre dışı bırakılacaktır.",
+    "button": {
+      "label": "PIN'i Devre Dışı Bırak",
+      "tooltip": "Devre dışı bırakmaya izin vermek için mevcut PIN'i girin."
+    }
+  },
+  "biometrics": {
+    "login": "Biyometri kullanarak giriş yap",
+    "caption": "Lütfen FaceId veya başka bir biyometrik özellik kullanarak kimliğinizi doğrulayın.",
+    "fallback": "PIN Kodu kullanarak giriş yap",
+    "use": {
+      "ios": "Veya wallet cüzdanına erişmek için FaceID veya Parmak İzi kullanın.",
+      "android": "Veya wallet cüzdanına erişmek için telefonunuzun biyometrik özelliklerini kullanın."
+    }
+  },
+  "comment": "// Daha fazla pin metni: catalyst:step.pin"
+}

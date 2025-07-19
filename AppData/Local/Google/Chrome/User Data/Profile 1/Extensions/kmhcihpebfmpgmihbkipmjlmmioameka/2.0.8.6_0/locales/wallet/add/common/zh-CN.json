@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "__GT__錢包__ 名稱",
+    "caption": "為你嘅 __GT__錢包__ 改一個易於識別嘅名稱。"
+  },
+  "phrase": {
+    "title": "助記詞"
+  },
+  "account": {
+    "title": "賬戶數量",
+    "caption": "指定要創建嘅賬戶數量。",
+    "suffix": "個賬戶",
+    "description": "$t(common:appName) 內嘅一個 __GT__錢包__ 最多可以有 {{accountLimit}} 個賬戶。每個賬戶都可以委託畀唔同嘅權益池。賬戶密鑰係由 __GT__錢包__ 嘅根密鑰生成嘅。",
+    "tooltip": "每增加一個賬戶都會增加同步時間，賬戶可以隨時添加。"
+  },
+  "create": {
+    "title": "正在創建 __GT__錢包__",
+    "caption": "請稍候，正在生成 __GT__錢包__",
+    "password": {
+      "title": "設定支出密碼",
+      "caption": "請選擇一個長密碼。密碼越長，你嘅資金就越安全。"
+    }
+  },
+  "status": {
+    "success": {
+      "added": "__GT__錢包__ 已成功添加",
+      "created": "__GT__錢包__ 已成功創建",
+      "restored": "__GT__錢包__ 已成功恢復",
+      "imported": "__GT__錢包__ 已成功導入"
+    },
+    "processing": "正在創建 __GT__錢包__...",
+    "exists": "__GT__錢包__ 已存在，正在重新導向至 __GT__錢包__。"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "block":                    "Block Explorer",
+  "pool":                     "Pool Explorer",
+  "address":                  "Address Explorer",
+  "token":                    "Token Explorer",
+  "policy":                   "Policy Explorer",
+  "transaction":              "Transaction Explorer",
+  "stake":                    "Stakekey Explorer",
+  "DRep":                     "DRep Explorer",
+  "govProposal":              "Governance Proposal",
+  "select":                   "Select {{type}}"
+}

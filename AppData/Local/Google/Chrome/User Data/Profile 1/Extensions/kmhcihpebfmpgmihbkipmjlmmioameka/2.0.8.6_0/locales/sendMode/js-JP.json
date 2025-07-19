@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "通常のCardanoアドレスです。",
+    "description": "Cardanoアドレスはaddr1で始まり、スクリプトアドレスではありません。",
+    "error": {
+      "invalid": "有効なCardanoアドレスではありません。"
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardanoスクリプト",
+    "caption": "スクリプトアドレスです。",
+    "description": "Cardanoスクリプトアドレスはスマートコントラクトに使用され、addr1で始まり特定のパターンが続きます。",
+    "error": {
+      "invalid": "有効なCardanoスクリプトアドレスではありません。"
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "人間が読める形式のCardanoアドレスです。",
+    "description": "Ada Handle__は、固有のNFTベースの識別子であり、簡略化されたCardanoアドレスとして使用でき、$で始まります。",
+    "banner": {
+      "change": {
+        "title": "Ada Handle__のアドレスが変更されました！",
+        "text": "アドレス帳に保存されている古いアドレス:\n####OLD####\n\n新しいアドレス:\n####NEW####\n\nAda Handle ###HANDLE### によって表されるアドレスは、アドレス帳に追加されてから変更されました。\nこれは、Ada Handleが別のウォレットまたはアカウントに移動されたことを意味します。\n\n資金を送金すると、アドレス帳に保存されているアドレスとは異なるアドレスに送られます。\n下のボタンをクリックして、現在のアドレス帳のエントリを上書きするオプションがあります。"
+      }
+    },
+    "error": {
+      "invalid": "有効なAda Handleではありません。",
+      "resolve": "このAda Handleは存在しません。",
+      "image": "Ada Handleの画像を読み込めませんでした。",
+      "address": {
+        "invalid": "アドレスが無効です。（マーケットプレイスに出品されている可能性があります）"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "blockchainドメイン名です。",
+    "description": "Unstoppable Domainsは、Cardanoを含む様々な暗号通貨アドレスにリンクできる分散型ドメイン名です。",
+    "error": {
+      "invalid": "有効なUnstoppable Domainではありません。",
+      "resolve": "このUnstoppable Domainは存在しません。",
+      "domain": {
+        "resolve": "Unstoppable Domainを解決できませんでした。"
+      },
+      "address": {
+        "invalid": "アドレスが無効です。（マーケットプレイスに出品されている可能性があります）",
+        "notSet": "このUnstoppable DomainにはCardanoアドレスが設定されていません。"
+      }
+    }
+  }
+}

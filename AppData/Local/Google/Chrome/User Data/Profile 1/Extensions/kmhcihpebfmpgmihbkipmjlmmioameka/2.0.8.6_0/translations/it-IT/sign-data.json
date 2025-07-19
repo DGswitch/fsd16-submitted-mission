@@ -1,0 +1,12 @@
+{
+  "title": "Hai dati da confermare",
+  "caption": "Conferma la proprietà della chiave richiesta firmando il payload fornito",
+  "loading": "Elaborazione dati da firmare",
+  "signing": "Firma del payload",
+  "hw": "Firma del payload sul dispositivo {{device}}",
+  "json": "Payload JSON",
+  "hex": "Payload grezzo",
+  "text": "Testo",
+  "blake2b224": "Hash Blake2b224 del payload",
+  "reqSign": "Firma richiesta: chiave {{keyType}}"
+}

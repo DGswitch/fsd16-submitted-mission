@@ -1,0 +1,16 @@
+{
+  "title": "Pesanan pasar",
+  "caption": "Aktivitas on-chain waktu nyata.",
+  "loading": "Memuat pesanan pasar",
+  "select": "Pilih pasangan token untuk memuat pesanan pasar",
+  "empty": "Tidak ada pesanan pasar yang ditemukan",
+  "time": "Waktu",
+  "type": "Tipe",
+  "in": "Masuk",
+  "out": "Keluar",
+  "orderCount": {
+    "total": "{{total}} pesanan terakhir: ",
+    "buy": "{{buy}} Beli,",
+    "sell": " {{sell}} Jual"
+  }
+}

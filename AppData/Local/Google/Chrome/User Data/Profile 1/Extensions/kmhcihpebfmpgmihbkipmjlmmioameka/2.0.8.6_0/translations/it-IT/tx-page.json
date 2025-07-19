@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transazioni",
+  "title": "Transazioni",
+  "caption": "Questo wallet ha un totale di {{numTxTotal}} transazioni.",
+  "subCaption": "Fai clic su una transazione per vedere maggiori dettagli o imposta un filtro per restringere l'elenco.",
+  "empty": "Questo account non ha transazioni.",
+  "noMatch": "Impossibile trovare transazioni corrispondenti a quella ricerca.",
+  "updating": "Aggiornamento Transazioni",
+  "filter": {
+    "title": "Filtro Transazioni",
+    "caption": "Imposta parametri o inserisci una stringa di ricerca per filtrare l'elenco delle transazioni.",
+    "search": "Cerca per msg, ID tx o indirizzo...",
+    "more": "Altro",
+    "minada": "Importo min {{adaCurrency}}",
+    "maxada": "Importo max {{adaCurrency}}",
+    "date-range": {
+      "start": "Data Inizio",
+      "end": "Data Fine"
+    }
+  },
+  "sync": {
+    "line1": "Non tutti i dettagli delle transazioni sono stati ancora caricati.",
+    "line2": "La ricerca per intervallo di date e ID tx funzionerà per tutte le transazioni note.",
+    "loading": "Con ogni processo di sincronizzazione dell'account verrà caricata una grande quantità di dettagli.",
+    "awhile": "Potrebbe volerci un po' di tempo.",
+    "autosync": "Per filtrare su più punti dati, ad es. Metadati degli asset, abilita la sincronizzazione della cronologia dell'account.",
+    "progress": "Sincronizzazione in corso, attendere prego.",
+    "history": "Sincronizzazione cronologia"
+  },
+  "button": {
+    "history": {
+      "label": "Cronologia transazioni",
+      "tooltip": "Passa alla pagina della cronologia delle transazioni."
+    }
+  }
+}

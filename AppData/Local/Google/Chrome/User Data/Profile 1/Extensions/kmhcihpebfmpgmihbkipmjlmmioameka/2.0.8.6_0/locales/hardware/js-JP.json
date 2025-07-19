@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "ハードウェア__GT__ウォレット__を接続",
+    "caption": "ハードウェア__GT__ウォレット__をお持ちの場合は、こちらをご利用ください。",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "フランス、パリに本社を置くLedger社製のLedger暗号通貨ハードウェア__GT__ウォレット__。",
+        "models": "Stax、Flex、Nano（X、S、S Plus）"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezorは、チェコ共和国に拠点を置くSatoshiLabs社製です。",
+        "models": "Model T および Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "4インチのタッチスクリーンと指紋リーダーを備え、100%エアギャップでオープンソースのQRコード通信を行うハードウェア__GT__ウォレット__を提供する、香港に拠点を置く企業。",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "未定",
+        "models": "OneKey Pro 認証済み"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "未定",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Ledgerを接続する方法"
+  },
+  "keystone": {
+    "qrScan": "KeystoneデバイスでQRコードをスキャン",
+    "distance": "スキャン精度を向上させるために、距離を調整し、必要に応じてKeystoneのQRコードをタップしてください。"
+  },
+  "derivation": {
+    "label": "導出モード（詳細設定）",
+    "icarus": "CIP03で定義されたCardanoの導出標準。",
+    "trezor": "Icarus標準に基づいたTrezorの実装。",
+    "ledger": "BIP39で定義されたBitcoin標準に従います。",
+    "default": "（デフォルト）"
+  },
+  "connect": {
+    "title": "公開鍵のエクスポートを確認",
+    "caption": "",
+    "info": {
+      "ledger": "続行する前に、Ledgerデバイスのロックを解除し、Cardanoアプリを開いてください。その後、LedgerデバイスのCardanoアプリに表示される指示に従って、ペアリングプロセスを完了します。",
+      "trezor": "確認後、開かれたTrezor ConnectブラウザタブとTrezorデバイスに表示される指示に従って、ペアリングプロセスを完了します。",
+      "keystone": "確認後、生成されたQRコードをKeystoneデバイスでスキャンし、次にKeystoneのQRコード応答をEternl経由でスキャンします。",
+      "onekey": "ブリッジがコンピュータにインストールされていることを確認してください。デバイスを接続し、公開鍵がエクスポートされるのを待ちます。",
+      "bitbox": "確認後、必要に応じてペアリングコードを確認し、デバイスで承認します。"
+    }
+  }
+}

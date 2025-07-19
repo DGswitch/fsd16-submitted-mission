@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "የሚስጥር ቁጥር ይፍጠሩ",
+      "confirm": "የሚስጥር ቁጥሩን ያረጋግጡ"
+    },
+    "captionShort": "$t(common:appName) ለመድረስ የሚስጥር ቁጥር ያስገቡ።",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) $t(common:appName) በከፈቱ ቁጥር ያስፈልጋል።",
+      "confirm": "የሚስጥር ቁጥሩን ለማረጋገጥ, ያስገቡትን ተመሳሳይ ቁጥር ድጋሚ ያስገቡ።"
+    },
+    "hint": {
+      "enter": "የሚስጥር ቁጥር ያስገቡ።",
+      "confirm": "ለማረጋገጥ የሚስጥር ቁጥሩን ድጋሚ ያስገቡ።"
+    },
+    "confirmed": "የገቡት የሚስጥር ቁጥሮች ተመሳስለዋል።",
+    "button": {
+      "label": "የሚስጥር ቁጥርን አንቃ"
+    },
+    "error": {
+      "confirm": "የሚስጥር ቁጥሩ አልተመሳሰለም, እባክዎ እንደገና ይሞክሩ።"
+    }
+  },
+  "access": {
+    "title": "የሚስጥር ኮድ መዳረሻ",
+    "caption": "የመዳረሻ ሚስጥር ቁጥር ያስገቡ።",
+    "checking": "የሚስጥር ቁጥር በመፈተሽ ላይ።",
+    "confirmed": "የገቡት የሚስጥር ቁጥሮች ትክክል ናቸው።",
+    "error": {
+      "confirm": "የሚስጥር ቁጥሩ ትክክል አይደለም።"
+    }
+  },
+  "deleteAccess": {
+    "caption": "ለማሰናከል የሚስጥር ቁጥር ያስገቡ።",
+    "biometrics": "የሚስጥር ቁጥሩን ሲያስወግዱ, የባዮሜትሪክስ ባህሪው በራስ-ሰር ይሰናከላል።",
+    "button": {
+      "label": "የሚስጥር ቁጥርን አሰናክል",
+      "tooltip": "ማሰናከልን ለመፍቀድ የአሁኑን የሚስጥር ቁጥር ያስገቡ።"
+    }
+  },
+  "biometrics": {
+    "login": "ባዮሜትሪክ በመጠቀም ይግቡ",
+    "caption": "እባክዎ FaceId ወይም ሌላ ባዮሜትሪክ ባህሪን በመጠቀም ይረጋገጡ።",
+    "fallback": "የሚስጥር ቁጥር በመጠቀም ይግቡ",
+    "use": {
+      "ios": "ወይም wallet ለመድረስ FaceID ወይም የጣት አሻራ ይጠቀሙ።",
+      "android": "ወይም wallet ለመድረስ የስልክዎን ባዮሜትሪክ ባህሪያት ይጠቀሙ።"
+    }
+  },
+  "comment": "// More pin texts: catalyst:step.pin"
+}

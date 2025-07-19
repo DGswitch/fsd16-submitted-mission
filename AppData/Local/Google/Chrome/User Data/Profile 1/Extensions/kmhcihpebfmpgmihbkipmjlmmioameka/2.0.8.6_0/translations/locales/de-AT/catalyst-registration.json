@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst Registrierung",
+  "status": {
+    "wrongnetwork": {
+      "title": "Nicht unterstützt",
+      "text": "Catalyst wird im aktuell ausgewählten Netzwerk nicht unterstützt."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Nicht registriert",
+        "text": "Das Konto ist nicht für staking registriert. Delegiere zuerst an einen Stake Pool und registriere dich dann für die Catalyst-Abstimmung."
+      },
+      "nocatalyst": {
+        "title": "Keine Catalyst Registrierung",
+        "text": "Eternl erkennt den Abstimmungsschlüssel nicht. Das Konto wurde möglicherweise nie registriert oder mit einer anderen App registriert."
+      },
+      "hascatalyst": {
+        "title": "Catalyst Registrierung",
+        "text": "Das Konto ist für die Catalyst-Abstimmung registriert. Der Catalyst-Abstimmungsschlüssel ist in Eternl gespeichert.",
+        "scan": "Scanne den QR-Code in der Catalyst-Abstimmungs-App und folge den Anweisungen.",
+        "reveal": "Gib den Catalyst-Abstimmungsschlüssel und die PIN niemals an Dritte weiter. Er wird verwendet, um in Catalyst-Finanzierungsrunden abzustimmen.",
+        "voteKey": "Catalyst Abstimmungsschlüssel",
+        "banner": {
+          "title": "QR-Code herunterladen",
+          "text": "Ein lokales Backup des Catalyst-Abstimmungsschlüssels wird in Eternl zu Wiederherstellungszwecken gespeichert. Dieses Backup ist jedoch gerätespezifisch und steht nicht zur Verfügung, wenn die wallet auf einem anderen Gerät mithilfe der wallet-Phrase wiederhergestellt wird. Nur ein wallet-JSON-Backup, das nach der Catalyst-Registrierung erstellt wurde, kann es wiederherstellen. Es wird dringend empfohlen, das QR-Code-Bild herunterzuladen und sicher zu speichern, z. B. in einem Passwort-Manager."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Wähle einen Stake Pool"
+        },
+        "register": {
+          "label": "Für Catalyst Voting registrieren"
+        },
+        "reregister": {
+          "label": "Neue Registrierung erstellen"
+        },
+        "download": {
+          "label": "Catalyst-Schlüssel herunterladen"
+        },
+        "reveal": {
+          "label": "Catalyst-Schlüssel anzeigen"
+        },
+        "hide": {
+          "label": "Catalyst-Schlüssel ausblenden"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Voting-Applikation",
+      "caption": "Lade die Catalyst-Mobile-App auf dein Handy.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "App Store Links!",
+          "text": "NICHT für die Verwendung in der Catalyst-Mobile-App!\n\nDiese QR-Codes verlinken zu den App Stores, wo du die Catalyst-Mobile-App herunterladen und installieren kannst."
+        }
+      }
+    },
+    "pin": {
+      "title": "PIN-Code konfigurieren",
+      "caption": {
+        "enter": "Lege eine PIN fest, um deinen Catalyst-Abstimmungsschlüssel zu sichern.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Schreib die PIN auf",
+        "text": "Schreib die PIN unbedingt auf!\nWenn du die PIN verlierst, ist eine neue Abstimmungsschlüsselregistrierung erforderlich."
+      }
+    },
+    "tx": {
+      "title": "Voting Registrierungs-Transaktion",
+      "caption": "Registriere deinen Catalyst-Abstimmungsschlüssel.",
+      "note": {
+        "title": "Stimmkraft",
+        "text": "Die Stimmkraft skaliert mit der Höhe der zum Snapshot-Zeitpunkt gehaltenen Gelder. Ein höheres Guthaben erhöht deinen Einfluss während des Snapshots."
+      },
+      "warning": {
+        "title": "Mindestbetrag",
+        "text": "A Mindestguthaben von 25 {{currency}} ist erforderlich, damit dein Voting Key im Snapshot berücksichtigt wird. Ohne dieses Mindestguthaben kannst du in einer Funding-Runde weder wählen noch Belohnungen erhalten."
+      },
+      "success": "Catalyst-Registrierung erfolgreich.",
+      "saved": "Catalyst-Abstimmungsschlüssel erfolgreich in Eternl gespeichert.",
+      "error": {
+        "save": "Fehler beim Speichern des Catalyst-Abstimmungsschlüssels in Eternl."
+      }
+    }
+  }
+}

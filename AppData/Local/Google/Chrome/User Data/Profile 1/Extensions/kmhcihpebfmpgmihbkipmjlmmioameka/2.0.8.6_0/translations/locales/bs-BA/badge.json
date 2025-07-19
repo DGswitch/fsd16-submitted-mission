@@ -1,0 +1,255 @@
+{
+  "donation": {
+    "label": "Adresa za donacije",
+    "hover": "Hvala ti na podršci!"
+  },
+  "eternlburn": {
+    "label": "Eternl Spaljivanje Wallet",
+    "hover": "Adresa za spaljivanje"
+  },
+  "eternlFee": {
+    "label": "Naknada za Dapp Pretraživač",
+    "hover": "Naknada koja pomaže u održavanju Eternl usluga."
+  },
+  "swapFee": {
+    "label": "Naknada za uslugu",
+    "hover": "Naknada koja pomaže u održavanju Eternl usluga."
+  },
+  "collateral": {
+    "label": "Eternl Kolateralna Adresa"
+  },
+  "script": {
+    "label": "Skripta"
+  },
+  "noscript": {
+    "label": "Nije adresa skripte"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Oznaka za prijavljivanje"
+  },
+  "ext": {
+    "label": "vanjski",
+    "hover": "Ova adresa nije poznata Eternl."
+  },
+  "openWallet": {
+    "hover": "Klikni da otvoriš wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Prebaci se na račun: {{name}}"
+  },
+  "contract": {
+    "hover": "Ugovor {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "Transakcija sadrži registraciju glasanja za Catalyst"
+  },
+  "multisig": {
+    "label": "Multi-Sig Reg",
+    "hover": "Transakcija sadrži Multi-Sig wallet registraciju"
+  },
+  "metadata": {
+    "label": "Meta",
+    "hover": "Transakcija sadrži metadata"
+  },
+  "withdrawal": {
+    "label": "Povlačenje",
+    "hover": "Transakcija sadrži povlačenje nagrada"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "Transakcija sadrži iskovane tokene"
+  },
+  "burn": {
+    "label": "Spali",
+    "hover": "Transakcija sadrži spaljene tokene"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Wallet / Registracija stake ključa"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "Transakcija sadrži certifikat upravljanja"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "De-registracija Wallet"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "Delegiranje stake pool-a"
+  },
+  "poolreg": {
+    "label": "Pool reg",
+    "hover": "Registracija stake pool-a"
+  },
+  "poolupd": {
+    "label": "Pool update",
+    "hover": "Ažuriranje stake pool-a"
+  },
+  "poolret": {
+    "label": "Pool retire",
+    "hover": "Povlačenje stake pool-a"
+  },
+  "nativescript": {
+    "label": "Skripta",
+    "hover": "Cardano native/multi-sig skripta"
+  },
+  "plutus": {
+    "label": "Ugovor",
+    "hover": "Cardano Plutus ugovor"
+  },
+  "onchain": {
+    "label": "On-chain",
+    "hover": "Transakcija je uključena u blok"
+  },
+  "confirmed": {
+    "label": "Potvrđeno",
+    "hover": "Transakcija je potpisana i spremna za slanje"
+  },
+  "pendingapproval": {
+    "label": "Čeka se odobrenje",
+    "hover": "Transakcija čeka dodatne potpise od strane wallet(a) pod tvojom kontrolom"
+  },
+  "awaitingothers": {
+    "label": "Čeka se ostale",
+    "hover": "Transakcija čeka dodatne potpise od strane vanjskih sudionika"
+  },
+  "invalid": {
+    "label": "Nevažeće",
+    "hover": "Ulaz ove transakcije je potrošen u drugoj transakciji."
+  },
+  "pending": {
+    "label": "Na čekanju",
+    "hover": "Transakcija još uvijek čeka izvršenje"
+  },
+  "staging": {
+    "label": "Nepotpisano",
+    "hover": "Ova transakcija još nije potpisana."
+  },
+  "signed": {
+    "label": "Potpisano",
+    "hover": "Ova transakcija je potpisana, ali još nije poslana."
+  },
+  "inputSigned": {
+    "label": "Potpisano",
+    "hover": "Potpis za ovaj ulaz je osiguran."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Iskupitelj za ovaj ugovor je osiguran."
+  },
+  "inputUnsigned": {
+    "label": "Nepotpisano",
+    "hover": "Potpis za ovaj ulaz nedostaje."
+  },
+  "validFor": {
+    "label": "Važi do",
+    "hover": "Transakcija će biti izvršena eventualno ili će postati nevažeća ako je ulaz utxo potrošen od strane druge transakcije."
+  },
+  "unlockTimeStamp": {
+    "label": "Otključava se",
+    "hover": "Ova sredstva iz Staking trezora će se otključati na taj datum."
+  },
+  "stakingvault": {
+    "label": "Staking Trezor",
+    "hover": "Ova transakcija zaključava sredstva u Staking trezoru."
+  },
+  "unlimited": {
+    "label": "Nema vremenskog ograničenja",
+    "hover": "Transakcija će biti izvršena eventualno ili će postati nevažeća ako je ulaz utxo potrošen od strane druge transakcije."
+  },
+  "expired": {
+    "label": "Isteklo",
+    "hover": "Životni vijek transakcije je istekao"
+  },
+  "setTTL": {
+    "label": "Postavi TTL",
+    "hover": "Postavi vijek trajanja transakcije"
+  },
+  "remove": {
+    "label": "Ukloni",
+    "hover": "Klikni da ukloniš isteklu ili nevažeću transakciju.",
+    "hoverNote": "Ukloni samo ako znaš da ova transakcija više neće proći."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Adresa tvog wallet novčanika"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Vanjska adresa"
+  },
+  "donation_address": {
+    "label": "Donacija",
+    "hover": "Adresa za donacije $t(common:appName)"
+  },
+  "swap_fee": {
+    "label": "Naknada za Frontend",
+    "hover": "Adresa za naknade za frontend $t(common:appName)"
+  },
+  "eternl_fee": {
+    "label": "Naknada za Frontend",
+    "hover": "Adresa za naknade $t(common:appName)"
+  },
+  "sv": {
+    "label": "Staking Trezor",
+    "hover": "Adresa vremenskog zaključavanja Staking trezora"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "Postavi ime entiteta za ovu adresu."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Adresa pametnog ugovora"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Premoštena transakcija između lanaca na Milkomedu"
+  },
+  "submit": {
+    "label": "pošalji transakciju",
+    "hover": "Transakcija još nije poslana. Klikni ovdje da je pošalješ."
+  },
+  "nosubmitted": {
+    "label": "nije poslano",
+    "hover": "Transakcija je potpisana, ali nije poslana."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Normalna adresa"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Razriješena Ada Handle adresa koja počinje sa $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Razriješena Unstoppable Domains adresa koja se završava sa .clay"
+  },
+  "new": {
+    "label": "Novo",
+    "hover": "Nepročitana obavijest"
+  },
+  "updated": {
+    "label": "Ažurirano",
+    "hover": "Sadržaj obavijesti je ažuriran od zadnjeg čitanja"
+  },
+  "payment": {
+    "label": "Plaćanje",
+    "hover": "Skripta za plaćanje"
+  },
+  "stake": {
+    "label": "Ulog",
+    "hover": "Skripta za ulog"
+  }
+}

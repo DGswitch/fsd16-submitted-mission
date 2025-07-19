@@ -1,0 +1,74 @@
+/*! tailwindcss v4.1.4 | MIT License | https://tailwindcss.com */
+@layer properties {
+@supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+[data-v-dfa9bd89],[data-v-dfa9bd89]:before,[data-v-dfa9bd89]:after,[data-v-dfa9bd89]::backdrop {
+      --tw-font-weight: initial;
+}
+}
+}
+.list-entry[data-v-dfa9bd89] {
+  padding-top: calc(var(--spacing, .25rem) * 4);
+  padding-bottom: calc(var(--spacing, .25rem) * 4);
+}
+@media (min-width: 640px) {
+.list-entry[data-v-dfa9bd89] {
+    gap: calc(var(--spacing, .25rem) * 8);
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    display: grid;
+}
+}
+.entry-label[data-v-dfa9bd89] {
+  --tw-font-weight: var(--font-weight-medium, 500);
+  font-weight: var(--font-weight-medium, 500);
+}
+@media (min-width: 640px) {
+.entry-label[data-v-dfa9bd89] {
+    text-align: right;
+    grid-column: span 5 / span 5;
+}
+}
+.entry-item[data-v-dfa9bd89] {
+  margin-top: calc(var(--spacing, .25rem) * 2);
+  white-space: pre-wrap;
+}
+@media (min-width: 640px) {
+.entry-item[data-v-dfa9bd89] {
+    margin-top: calc(var(--spacing, .25rem) * 0);
+    grid-column: span 7 / span 7;
+}
+}
+h1[data-v-dfa9bd89] {
+  margin-block: calc(var(--spacing, .25rem) * 4);
+  font-size: var(--text-2xl, 1.5rem);
+  line-height: var(--tw-leading, var(--text-2xl--line-height, calc(2 / 1.5)));
+  --tw-font-weight: var(--font-weight-bold, 700);
+  font-weight: var(--font-weight-bold, 700);
+}
+h2[data-v-dfa9bd89] {
+  margin-block: calc(var(--spacing, .25rem) * 2);
+  font-size: var(--text-xl, 1.25rem);
+  line-height: var(--tw-leading, var(--text-xl--line-height, calc(1.75 / 1.25)));
+  --tw-font-weight: var(--font-weight-semibold, 600);
+  font-weight: var(--font-weight-semibold, 600);
+}
+h3[data-v-dfa9bd89] {
+  margin-block: calc(var(--spacing, .25rem) * 1);
+  font-size: var(--text-base, 1rem);
+  line-height: var(--tw-leading, var(--text-base--line-height, calc(1.5 / 1)));
+  --tw-font-weight: var(--font-weight-medium, 500);
+  font-weight: var(--font-weight-medium, 500);
+}
+ul[data-v-dfa9bd89] {
+  list-style-type: circle;
+}
+li[data-v-dfa9bd89] {
+  margin-bottom: calc(var(--spacing, .25rem) * 1);
+  margin-left: calc(var(--spacing, .25rem) * 6);
+}
+p[data-v-dfa9bd89] {
+  margin-bottom: calc(var(--spacing, .25rem) * 1);
+}
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false
+}

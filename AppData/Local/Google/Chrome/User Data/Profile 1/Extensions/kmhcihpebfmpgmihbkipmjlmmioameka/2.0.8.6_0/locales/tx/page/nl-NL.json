@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transacties",
+  "title": "Transacties",
+  "caption": "Deze wallet heeft in totaal {{numTxTotal}} transacties.",
+  "subCaption": "Klik op een transactie voor meer details of stel een filter in om de lijst te verfijnen.",
+  "empty": "Dit account heeft geen transacties.",
+  "noMatch": "Kon geen transacties vinden die overeenkomen met die zoekopdracht.",
+  "updating": "Transacties bijwerken",
+  "filter": {
+    "title": "Transactiefilter",
+    "caption": "Stel parameters in of voer een zoekterm in om de transactielijst te filteren.",
+    "search": "Zoek naar bericht, tx id of adres...",
+    "more": "Meer",
+    "minada": "Min {{adaCurrency}} bedrag",
+    "maxada": "Max {{adaCurrency}} bedrag",
+    "date-range": {
+      "start": "Startdatum",
+      "end": "Einddatum"
+    }
+  },
+  "sync": {
+    "line1": "Nog niet alle transactiedetails zijn geladen.",
+    "line2": "Zoeken op datumbereik en tx id werkt voor alle bekende transacties.",
+    "loading": "Bij elke account synchronisatie wordt een groot deel van de details geladen.",
+    "awhile": "Dit kan even duren.",
+    "autosync": "Om op meer datapunten te filteren, bijv. asset metadata, schakel account history sync in.",
+    "progress": "Synchronisatie bezig, even geduld a.u.b.",
+    "history": "Geschiedenis synchronisatie"
+  },
+  "button": {
+    "history": {
+      "label": "Transactiegeschiedenis",
+      "tooltip": "Ga naar de transactiegeschiedenis pagina."
+    }
+  }
+}

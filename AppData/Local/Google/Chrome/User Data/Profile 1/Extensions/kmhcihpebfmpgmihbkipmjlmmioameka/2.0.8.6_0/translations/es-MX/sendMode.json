@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "Una dirección normal de Cardano.",
+    "description": "Una dirección de Cardano comienza con addr1 y no es una dirección de script.",
+    "error": {
+      "invalid": "No es una dirección válida de Cardano."
+    }
+  },
+  "cardanoScript": {
+    "label": "Script de Cardano",
+    "caption": "Una dirección de script.",
+    "description": "Una dirección de script de Cardano se usa para contratos inteligentes y comienza con addr1 seguido de un patrón específico.",
+    "error": {
+      "invalid": "No es una dirección de script válida de Cardano."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "Una dirección de Cardano legible por humanos.",
+    "description": "Un Ada Handle es un identificador único basado en NFT que se puede usar como una dirección simplificada de Cardano, comenzando con $.",
+    "banner": {
+      "change": {
+        "title": "¡La dirección del Ada Handle cambió!",
+        "text": "Dirección anterior guardada en la libreta de direcciones:\n####OLD####\n\nNueva dirección:\n####NEW####\n\nLa dirección representada por el Ada Handle ###HANDLE### cambió desde que la agregaste a tu libreta de direcciones.\nEsto significa que el Ada Handle se movió a una {{GT:wallet}} o cuenta diferente.\n\nSi envías fondos, irán a una dirección diferente a la que está guardada en tu libreta de direcciones.\nTienes la opción de sobrescribir la entrada actual de la libreta de direcciones haciendo clic en el botón de abajo."
+      }
+    },
+    "error": {
+      "invalid": "No es un Ada Handle válido.",
+      "resolve": "Este Ada Handle no existe.",
+      "image": "No se pudo cargar la imagen del Ada Handle.",
+      "address": {
+        "invalid": "Dirección inválida. (¿Quizás está listada en un marketplace?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Un nombre de dominio de blockchain.",
+    "description": "Los Unstoppable Domains son nombres de dominio descentralizados que pueden vincularse a varias direcciones de criptomonedas, incluyendo Cardano.",
+    "error": {
+      "invalid": "No es un Unstoppable Domain válido.",
+      "resolve": "Este Unstoppable Domain no existe.",
+      "domain": {
+        "resolve": "No se pudo resolver el Unstoppable Domain."
+      },
+      "address": {
+        "invalid": "Dirección inválida. (¿Quizás está listada en un marketplace?)",
+        "notSet": "Este Unstoppable Domain no tiene establecida una dirección de Cardano."
+      }
+    }
+  }
+}

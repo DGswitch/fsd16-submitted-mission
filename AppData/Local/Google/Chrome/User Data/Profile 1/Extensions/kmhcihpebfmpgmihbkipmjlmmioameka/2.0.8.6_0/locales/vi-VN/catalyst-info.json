@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "Dự án Catalyst",
+    "caption": "Đọc tất cả tin tức về vòng tài trợ hiện tại.",
+    "text": "Dự án Catalyst có các vòng tài trợ vài tháng một lần, với một lượng ada định sẵn để phân bổ cho các ý tưởng.\n\nTìm tất cả thông tin liên quan về tất cả các quỹ trước đây và tương lai trên trang web Dự án Catalyst.",
+    "button": {
+      "label": "Truy cập trang",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "Duyệt tất cả Đề xuất",
+    "text": "Catalyst sử dụng IdeaScale như một nền tảng đổi mới hợp tác.\n\nĐiều này được thực hiện thông qua việc bỏ phiếu cho các đề xuất do cộng đồng tạo ra, tập trung vào việc giải quyết thách thức của một quỹ cụ thể.",
+    "button": {
+      "label": "Tìm hiểu thêm",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "Nền tảng dữ liệu Catalyst tất cả trong một",
+    "text": "Giáo dục Blockchain, tiếp cận cộng đồng và xây dựng cộng đồng toàn cầu:\n\nBởi vì Tương lai dành cho Mọi người!",
+    "button": {
+      "label": "Truy cập trang",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "Bản tin",
+    "caption": "Luôn cập nhật",
+    "text": "Đăng ký Bản tin Dự án Catalyst để không bỏ lỡ những tin tức và cập nhật mới nhất.",
+    "button": {
+      "label": "Đăng ký",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "Tương tác với cộng đồng",
+    "text": "Tham gia các kênh thảo luận và thông báo trên Telegram để chia sẻ ý tưởng của bạn về các đề xuất cải tiến Cardano trong tương lai và tận hưởng các cuộc thảo luận lành mạnh, sôi nổi.",
+    "button1": {
+      "label": "Thông báo",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "Trò chuyện Cộng đồng",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "Họp Cộng đồng",
+    "caption": "Gặp gỡ những người xây dựng",
+    "text": "Hãy đến và gặp gỡ những người xây dựng tương lai của Cardano trong các cuộc Họp Cộng đồng hàng tuần. Xem các bài thuyết trình trực tiếp của họ và tham gia vào các cuộc trò chuyện ý nghĩa.",
+    "button": {
+      "label": "Bản ghi Họp Cộng đồng Hàng tuần",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "Hiển thị Thách thức",
+      "hide": "Ẩn Thách thức",
+      "link": "Trang web Thách thức",
+      "allocation": "Phân bổ Quỹ"
+    },
+    "timeline": {
+      "caption": "Mốc thời gian hiển thị bên dưới có thể thay đổi. Luôn cập nhật bằng cách truy cập lại trang này và tham gia các cuộc họp cộng đồng Catalyst hàng tuần.",
+      "snapshot": {
+        "label": "Snapshot Quyền biểu quyết",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "Bắt đầu Bỏ phiếu",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "Kết thúc Bỏ phiếu",
+        "caption": ""
+      },
+      "result": {
+        "label": "Kết quả",
+        "caption": "± vài ngày."
+      }
+    }
+  }
+}

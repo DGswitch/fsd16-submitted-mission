@@ -1,0 +1,9 @@
+{
+  "title": "Importa chiavi di firma CLI",
+  "caption": "Seleziona le chiavi di firma di pagamento e stake (opzionale) da un wallet generato tramite CLI.",
+  "payment": "Chiave di pagamento",
+  "stake": "Chiave di stake",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Chiave non valida, verifica e riprova!"
+}

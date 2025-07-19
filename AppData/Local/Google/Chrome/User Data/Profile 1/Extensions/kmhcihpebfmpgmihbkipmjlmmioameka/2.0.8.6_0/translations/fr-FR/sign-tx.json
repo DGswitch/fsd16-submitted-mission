@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "Vous avez {{tx_cnt}} transaction(s) à confirmer",
+    "caption": "Cliquez pour développer chaque transaction afin de révéler plus de détails",
+    "loading": "Traitement de la/des transaction(s) à signer",
+    "signing": "Signature de la transaction <b>{{txindex}}</b> sur {{txtotal}}",
+    "submitting": "Soumission de la/des transaction(s)",
+    "sharing": "Partage de la/des transaction(s) Multi-Sig",
+    "hw": "Confirmez la transaction <b>{{txindex}}</b> sur {{txtotal}} sur l'appareil {{device}}",
+    "keystonehash": "<b>En raison de la taille, seul le hash du corps de la transaction peut être affiché sur l'appareil !!</b>",
+    "review": "Veuillez vérifier la transaction avant de confirmer"
+  },
+  "button": {
+    "debug": {
+      "label": "Télécharger les informations de débogage"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "Transaction soumise avec succès",
+    "submitMultiple": "Toutes les transactions ont été soumises avec succès"
+  },
+  "account": {
+    "label": "Portefeuilles signataires",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "Signature en cours",
+      "unsigned": "Signature requise",
+      "signed": "Signé",
+      "connecting": "Connexion en cours"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send-options:tf.label)",
+      "caption": "$t(send-options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send-options:cu.label)",
+      "caption": "Collectez les UTxOs de ce compte en les fusionnant en un nombre plus restreint."
+    },
+    "send-all": {
+      "headline": "Envoi de tous les fonds",
+      "caption": "Cette transaction envoie tous les fonds du compte, veuillez vérifier les détails de l'adresse de destination."
+    },
+    "high-fee": {
+      "headline": "Frais plus élevés que la normale",
+      "caption": "Des frais de transaction plus élevés que la normale ont été détectés, veuillez vérifier les détails de la transaction pour vous assurer que c'est le résultat souhaité"
+    },
+    "withdraw": {
+      "headline": "Retirer les récompenses",
+      "caption": "Vos récompenses font automatiquement partie de votre stake délégué. Il n'est pas nécessaire de retirer les récompenses, sauf pour les envoyer ailleurs ou pour qu'elles comptent pour le pouvoir de vote catalyst."
+    },
+    "pool-deleg": {
+      "headline": "Délégation à un pool",
+      "caption": "Une transaction de délégation à un stake pool. Voir la transaction pour les détails."
+    },
+    "vote-deleg": {
+      "headline": "Délégation de vote",
+      "caption": "Une transaction de délégation de vote de gouvernance. Voir la transaction pour les détails."
+    },
+    "ms-reg": {
+      "headline": "Enregistrement du Wallet Multi-Sig",
+      "caption": "Ceci enregistre le wallet Multi-Sig sur la blockchain pour une découverte facile par tous les participants."
+    },
+    "cat-reg": {
+      "headline": "Enregistrement Catalyst",
+      "caption": "Ceci crée une transaction d'enregistrement de vote Catalyst. Cet enregistrement est valide pour les prochains snapshots de fonds Catalyst, sauf s'il est remplacé par un enregistrement plus récent."
+    },
+    "collateral": {
+      "headline": "Collatéral UTxO",
+      "caption": "Génère des UTxO's de collatéral parfois nécessaires lors de l'interaction avec des DApps."
+    },
+    "stake-dereg": {
+      "headline": "Désenregistrement de la clé de stake",
+      "caption": "$t(settings-account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "Désenregistrement du DRep",
+      "caption": "$t(settings-account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "Nettoyage des tokens frauduleux",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "Ordre de Swap",
+      "caption": "Une transaction d'ordre MonsterSwap vous offrant les meilleures routes disponibles."
+    },
+    "swap-cancel": {
+      "headline": "Annuler l'ordre de Swap",
+      "caption": "Une transaction d'annulation pour un ordre de swap précédemment publié."
+    },
+    "donation": {
+      "headline": "Donation",
+      "caption": "Merci de soutenir Eternl."
+    }
+  },
+  "error": {
+    "expired": "Impossible de soumettre ! La durée de vie de la transaction a expiré. Veuillez recréer la transaction avec une nouvelle date d'expiration (TTL).",
+    "auxDataMismatch": "Il y a une incohérence entre les Métadonnées jointes et le hash demandé pour la signature. Les Métadonnées que vous voyez pour cette transaction ne sont pas celles que vous signez !",
+    "auxDataMissing": "Les Métadonnées de la transaction sont masquées.",
+    "debug": "Pour une assistance supplémentaire, veuillez ouvrir un ticket Discord avec les données de débogage téléchargées.",
+    "unknownInputs": "Impossible de calculer le solde exact de la transaction en raison d'entrées inconnues.",
+    "doubleSpend": "Liste de transactions invalide, l'entrée utxo est dépensée plus d'une 'fois':\n",
+    "missingKeys": "La (les) transaction(s) ne nécessite(nt) aucun témoin des comptes disponibles. Si déjà confirmée(s), veuillez fermer et soumettre.",
+    "locked": "La (les) transaction(s) tente(nt) de dépenser un ou plusieurs de vos UTxOs verrouillés manuellement.",
+    "passwordMismatch": "Les mots de passe saisis ne correspondent pas, veuillez réessayer !",
+    "dappUnsupported": "DApp non prise en charge pour le wallet {{device}}.",
+    "fixPermissionUSB": {
+      "text": "Cliquez sur le bouton et suivez les instructions pour autoriser la connexion USB.",
+      "button": "Corriger la permission USB"
+    },
+    "fixPermissionBLE": {
+      "text": "Cliquez sur le bouton et suivez les instructions pour autoriser la connexion Bluetooth.",
+      "button": "Corriger la permission Bluetooth"
+    },
+    "fixPermissionCamera": {
+      "text": "Cliquez sur le bouton et suivez les instructions pour autoriser l'accès à la caméra.",
+      "button": "Corriger la permission Caméra"
+    }
+  },
+  "info": {
+    "signDownload": "La transaction a été confirmée par tous les comptes disponibles.",
+    "multiSigShare": "Partagez la transaction pour notifier les participants du wallet Multi-Sig, ou téléchargez et partagez alternativement la transaction manuellement."
+  }
+}

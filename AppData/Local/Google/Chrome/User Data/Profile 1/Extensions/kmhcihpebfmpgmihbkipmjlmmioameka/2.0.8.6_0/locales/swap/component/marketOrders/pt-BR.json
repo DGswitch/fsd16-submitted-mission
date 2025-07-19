@@ -1,0 +1,16 @@
+{
+  "title": "Ordens de Mercado",
+  "caption": "Atividade on-chain em tempo real.",
+  "loading": "Carregando ordens de mercado",
+  "select": "Selecione um par de tokens para carregar as ordens de mercado",
+  "empty": "Nenhuma ordem de mercado encontrada",
+  "time": "Hora",
+  "type": "Tipo",
+  "in": "Entrada",
+  "out": "Saída",
+  "orderCount": {
+    "total": "Últimas {{total}} ordens: ",
+    "buy": "{{buy}} Compra,",
+    "sell": " {{sell}} Venda"
+  }
+}

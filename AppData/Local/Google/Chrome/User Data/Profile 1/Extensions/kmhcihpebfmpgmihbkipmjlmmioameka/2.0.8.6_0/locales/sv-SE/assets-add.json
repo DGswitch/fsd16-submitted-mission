@@ -1,0 +1,11 @@
+{
+  "title": "Lägg till tillgångar",
+  "warning": {
+    "notAllAdded": "Det är inte tillåtet att lägga till fler tillgångar till denna output. Lägg till ytterligare en output för att inkludera fler tillgångar. Det kan endast finnas upp till tre helt fyllda outputs i en transaktion."
+  },
+  "button": {
+    "addAll": "Lägg till alla",
+    "addSearch": "Lägg till alla filtrerade",
+    "addPage": "Lägg till alla på sidan"
+  }
+}

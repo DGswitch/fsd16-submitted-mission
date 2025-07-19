@@ -1,0 +1,140 @@
+{
+  "menuLabel":              "Governance",
+
+  "title":                  "Blockchain Governance",
+  "caption":                "Navigating the Voltaire Era in Cardano's blockchain governance, where community-driven decisions light the path to a resilient and inclusive ecosystem.",
+
+  "era":                        "The network has not crossed into the Voltaire (Conway) era yet.",
+
+  "credentials":                "Credentials",
+
+  "delegation": {
+
+    "current": {
+
+      "label":                  "Current Vote Delegation",
+      "undelegated":            "Undelegated",
+      "vote":                   "Vote",
+      "drep":                   "DRep",
+      "status":                 "Status",
+      "active":                 "Active",
+      "inactive":               "Inactive",
+      "unregistered":           "Unregistered",
+      "votepower":              "Vote Power"
+    },
+
+    "new": {
+
+      "label":                  "New Vote Delegation",
+
+      "options": {
+
+        "own":                  "Own Account",
+        "custom":               "Specify DRep ID",
+        "abstain":              "Abstain",
+        "noconfidence":         "No Confidence"
+      },
+
+      "button": {
+        "delegate":             "Delegate",
+        "governance":           "Governance Delegation"
+      },
+
+      "accModal": {
+
+        "label":                "Account Governance Vote Delegation",
+        "caption":              "Select the account to delegate your voting power to. If same account, a DRep registration will automatically be done if needed, else the selected account must already be DRep registered.",
+
+        "accounts": {
+
+          "headline":           "Inter-account vote delegation"
+        },
+
+        "wallets": {
+          "headline":           "Inter-wallet vote delegation",
+          "current":            "current wallet",
+          "loading":            "Loading wallet list ..."
+        },
+
+        "button": {
+
+          "account":            "Delegate to Account"
+        }
+      },
+
+      "anchorModal": {
+
+        "label":                "DRep Registration Anchor (optional)",
+        "caption":              "Your URL with extra info about you. Leave empty to omit.",
+        "hint":                 "https://..."
+      },
+
+      "error": {
+
+        "accdrepmissing":       "Account DRep credentials missing, please sync selected account!",
+        "owndrepmissing":       "Own DRep credential missing, please sync active account!",
+        "invaliddrep":          "Invalid DRep ID",
+        "notregistered":        "DRep ID not registered, unable to delegated to specified DRep",
+        "unknown":              "Unknown error occurred serializing DRep ID"
+      }
+    }
+  },
+
+  "info": {
+    "text":                     "In order to participate in governance, each stake credential must be delegated to a DRep. Ada holders will generally delegate their voting rights to a registered DRep that will vote on their behalf. In addition, two pre-defined DRep options are \"available\":",
+    "abstain": {
+      "label":                  "Abstain",
+      "text":                   "If an Ada holder delegates to Abstain, then their stake is actively marked as not participating in governance. The effect of delegating to Abstain on chain is that the delegated stake will not be considered to be a part of the active voting stake. However, the stake will be considered to be registered for the purpose of the incentives."
+    },
+    "noconfidence": {
+      "label":                  "No Confidence",
+      "text":                   "If an Ada holder delegates to No Confidence, then their stake is counted as a no vote on every governance action apart from a \"Motion of no confidence\". This also signals that they have no confidence in the existing constitutional committee. The effect of delegating to No Confidence on chain is that this stake will be considered to be a part of the active voting stake. It will count as a Yes vote on every No Confidence action and a No vote on every other action. It also serves as a directly auditable measure of the confidence of Ada holders in the constitutional committee."
+    },
+    "note":                     "Any Ada holder may register themselves as a DRep and delegate to themselves if they wish to actively participate in voting.",
+    "govtool": {
+
+      "mainnet":                "",
+      "guild":                  "",
+      "sancho":                 "https://sanchogov.tools/",
+      "preprod":                "",
+      "preview":                "",
+
+      "label":                  "GovTool",
+      "info":                   "For more information about Cardano governance and additional actions, visit"
+    }
+  },
+
+  "key": {
+
+    "show":                     "Show Account Governance Credentials",
+    "hide":                     "Hide Account Governance Credentials",
+
+    "drep": {
+
+      "header":                 "DRep ID",
+      "caption":                "In the Conway ledger era, DRep credentials allow registered DReps to be identified on-chain, in DRep registrations, retirements, votes, and in vote delegations from ada holders."
+    },
+
+    "cccold": {
+
+      "header":                 "CC Cold Credential",
+      "caption":                "Constitutional committee members can be recognized by their cold credentials within update committee governance actions, authorize hot credential certificate and resign cold key certificates."
+    },
+
+    "cchot": {
+
+      "header":                 "CC Hot Credential",
+      "caption":                "Constitutional committee hot credential can be observed within the authorize hot key certificate and votes."
+    }
+  },
+
+  "copy": {
+
+    "address": {
+
+      "hover":                  "$t(common:copy.address)",
+      "notify":                 "$t(common:copied.address)"
+    }
+  }
+}
+

@@ -1,0 +1,55 @@
+{
+  "spo": "単一のステークプールを運営しています",
+  "mpo": "{{count}} 個のステークプールを運営しています",
+  "retired": "epoch {{epoch}} に廃止",
+  "retiredIn": "epoch {{epoch}} に廃止",
+  "noRewards": "このプールは {{adaSymbol}} 報酬を獲得しません。",
+  "lessRewards": "このプールは通常よりも少ない報酬を獲得します。",
+  "history": "報酬履歴",
+  "fees": "手数料",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "緑: 最適範囲内。赤: 獲得報酬が減少。"
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "緑: 通常範囲内。赤: 獲得報酬が減少。"
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake (ステークに対するリターン)。過去12エポックのパフォーマンス。緑: 通常範囲内。ROS はステークが少ないプールほど変動が大きくなります。"
+  },
+  "withdrawal": {
+    "button": {
+      "label": "報酬を請求",
+      "syncing": "Wallet は同期中です",
+      "norewards": "利用可能な報酬はありません"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "先月",
+      "3months": "過去3か月",
+      "6months": "過去6か月",
+      "year": "昨年"
+    },
+    "view-history": "履歴を表示",
+    "view-graph": {
+      "stake-key": "アカウントステークキー"
+    },
+    "approx-earning": "今後1年間の推定報酬",
+    "unclaimed-ada": "未請求の ADA",
+    "lifetime-earning": "合計獲得額",
+    "lifetime-apy": "生涯APY",
+    "lifetime-earned": "staking を開始してから",
+    "epoch-ends-in": "この epoch は終了まで",
+    "search": "チケット、名前、または詳細を入力",
+    "delegate": "このプールを選択",
+    "openPoolList": "プールリストを開く"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "title": "تسجيل Catalyst",
+  "status": {
+    "wrongnetwork": {
+      "title": "غير مدعوم",
+      "text": "Catalyst مش مدعوم على الشبكة اللي متحددة دلوقتي."
+    },
+    "registration": {
+      "nostake": {
+        "title": "غير مسجل",
+        "text": "الحساب مش متسجل في التخزين المساهم (at-takhziin al-musaahim). فوّض لمجمع حصص الأول، وبعدين سجل عشان تصوّت في Catalyst."
+      },
+      "nocatalyst": {
+        "title": "مفيش تسجيل Catalyst",
+        "text": "Eternl مش قادر يتعرف على مفتاح التصويت. ممكن يكون الحساب متسجلش خالص أو متسجل بتطبيق تاني."
+      },
+      "hascatalyst": {
+        "title": "تسجيل Catalyst",
+        "text": "الحساب متسجل عشان يصوّت في Catalyst. مفتاح التصويت بتاع Catalyst متخزن في Eternl.",
+        "scan": "امسح رمز الاستجابة السريعة (QR code) في تطبيق التصويت بتاع Catalyst واتبع التعليمات.",
+        "reveal": "متشاركش مفتاح التصويت بتاع Catalyst والرقم السري (PIN) مع أي حد. ده بيستخدم للتصويت في جولات تمويل Catalyst.",
+        "voteKey": "مفتاح التصويت الخاص بـ Catalyst",
+        "banner": {
+          "title": "تنزيل رمز الاستجابة السريعة",
+          "text": "فيه نسخة احتياطية محلية من مفتاح التصويت بتاع Catalyst متخزنة في Eternl عشان تسترجعها لو حصل حاجة. بس النسخة دي خاصة بالجهاز ومش هتبقى متاحة لما تسترجع محفظة رقمية (maḥfaẓa raqamiya) على جهاز تاني باستخدام عبارة محفظة رقمية (maḥfaẓa raqamiya). نسخة JSON احتياطية لـ محفظة رقمية (maḥfaẓa raqamiya) اتعملت بعد تسجيل Catalyst هي اللي هتعرف تسترجعها. يفضل جدًا تنزل صورة رمز الاستجابة السريعة (QR code) وتخزنها في مكان آمن، زي برنامج إدارة كلمات المرور."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "اختر مجمع حصص"
+        },
+        "register": {
+          "label": "سجل عشان تصوّت في Catalyst"
+        },
+        "reregister": {
+          "label": "إنشاء تسجيل جديد"
+        },
+        "download": {
+          "label": "تنزيل مفتاح Catalyst"
+        },
+        "reveal": {
+          "label": "إظهار مفتاح Catalyst"
+        },
+        "hide": {
+          "label": "إخفاء مفتاح Catalyst"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "تطبيق التصويت",
+      "caption": "نزّل تطبيق Catalyst للموبايل على تليفونك.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "روابط متاجر التطبيقات!",
+          "text": "مش معمول للاستخدام في تطبيق Catalyst للموبايل!\n\nرموز الاستجابة السريعة (QR codes) دي مرتبطة بمتاجر التطبيقات اللي تقدر تنزل وتثبت منها تطبيق Catalyst للموبايل."
+        }
+      }
+    },
+    "pin": {
+      "title": "تكوين رمز PIN",
+      "caption": {
+        "enter": "عيّن رقم PIN عشان تأمّن مفتاح التصويت بتاعك في Catalyst.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "اكتب الرقم السري (PIN)",
+        "text": "متنساش تكتب الرقم السري (PIN)!\nلو ضيّعت الرقم السري (PIN)، هتحتاج تسجل مفتاح تصويت جديد."
+      }
+    },
+    "tx": {
+      "title": "معاملة تسجيل التصويت",
+      "caption": "سجل مفتاح التصويت بتاعك في Catalyst.",
+      "note": {
+        "title": "قوة التصويت",
+        "text": "تتغير قوة التصويت مع كمية الأموال الموجودة في وقت اللقطة. يزيد الرصيد الأعلى من تأثيرك خلال اللقطة."
+      },
+      "warning": {
+        "title": "الحد الأدنى للمبلغ",
+        "text": "لازم يكون عندك رصيد أدنى 25 {{currency}} علشان مفتاح التصويت بتاعك يتسجل في اللقطة. لو معندكش الحد الأدنى ده، مش هتعرف تصوت ولا تستلم مكافآت في أي جولة تمويل."
+      },
+      "success": "تم تسجيل Catalyst بنجاح.",
+      "saved": "تم حفظ مفتاح التصويت بتاع Catalyst بنجاح في Eternl.",
+      "error": {
+        "save": "فشل حفظ مفتاح التصويت بتاع Catalyst في Eternl."
+      }
+    }
+  }
+}

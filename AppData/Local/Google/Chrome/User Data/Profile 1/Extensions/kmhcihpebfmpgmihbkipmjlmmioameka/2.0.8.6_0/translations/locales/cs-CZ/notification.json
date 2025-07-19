@@ -1,0 +1,9 @@
+{
+  "title": "Centrum upozornění",
+  "empty": "Žádná upozornění.",
+  "copy": "Zkopírováno do schránky",
+  "type": {
+    "txMS": "Multi-Sig transakce",
+    "unknown": "Neznámý typ"
+  }
+}

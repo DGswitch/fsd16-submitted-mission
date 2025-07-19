@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transacciones",
+  "title": "Transacciones",
+  "caption": "Esta wallet tiene un total de {{numTxTotal}} transacciones.",
+  "subCaption": "Haz clic en una transacción para ver más detalles o establece un filtro para acotar la lista.",
+  "empty": "Esta cuenta no tiene transacciones.",
+  "noMatch": "No se encontraron transacciones que coincidan con esa búsqueda.",
+  "updating": "Actualizando Transacciones",
+  "filter": {
+    "title": "Filtro de Transacciones",
+    "caption": "Establece parámetros o introduce una cadena de búsqueda para filtrar la lista de transacciones.",
+    "search": "Buscar por mensaje, ID de tx o dirección...",
+    "more": "Más",
+    "minada": "Cantidad mínima de {{adaCurrency}}",
+    "maxada": "Cantidad máxima de {{adaCurrency}}",
+    "date-range": {
+      "start": "Fecha de inicio",
+      "end": "Fecha de fin"
+    }
+  },
+  "sync": {
+    "line1": "No todos los detalles de las transacciones se han cargado todavía.",
+    "line2": "La búsqueda por rango de fechas e ID de tx funcionará para todas las transacciones conocidas.",
+    "loading": "Con cada proceso de sincronización de la cuenta se cargará una gran parte de los detalles.",
+    "awhile": "Esto puede tardar un poco.",
+    "autosync": "Para filtrar por más puntos de datos, p. ej., Metadatos de activos, activa la sincronización del historial de la cuenta.",
+    "progress": "Sincronización en curso, por favor espera.",
+    "history": "Sincronización del historial"
+  },
+  "button": {
+    "history": {
+      "label": "Historial de transacciones",
+      "tooltip": "Cambiar a la página del historial de transacciones."
+    }
+  }
+}

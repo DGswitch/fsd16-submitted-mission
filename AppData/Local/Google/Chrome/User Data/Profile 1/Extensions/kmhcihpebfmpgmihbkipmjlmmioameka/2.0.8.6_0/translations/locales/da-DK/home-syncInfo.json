@@ -1,0 +1,17 @@
+{
+  "idle": "Opdateret",
+  "initializing": "Initialiserer",
+  "queued": "Sat i kø",
+  "syncing": "Synkroniserer",
+  "preparingFor": "forbereder til",
+  "syncingFor": "Synkroniserer for",
+  "notSyncedYet": "ikke synkroniseret endnu",
+  "success": "Færdig",
+  "skipped": "Færdig",
+  "synced": "synkroniseret {{time}}",
+  "error": "Mislykkedes",
+  "manual": "Manuel",
+  "update": {
+    "tooltip": "Tving en opdatering af kontoen."
+  }
+}

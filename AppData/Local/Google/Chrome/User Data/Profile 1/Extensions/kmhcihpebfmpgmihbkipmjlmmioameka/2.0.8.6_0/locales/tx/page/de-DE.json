@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transaktionen",
+  "title": "Transaktionen",
+  "caption": "Diese Wallet hat insgesamt {{numTxTotal}} Transaktionen.",
+  "subCaption": "Klicken Sie auf eine Transaktion, um weitere Details anzuzeigen, oder legen Sie einen Filter fest, um die Liste einzugrenzen.",
+  "empty": "Dieses Konto hat keine Transaktionen.",
+  "noMatch": "Es konnten keine Transaktionen gefunden werden, die dieser Suche entsprechen.",
+  "updating": "Transaktionen werden aktualisiert",
+  "filter": {
+    "title": "Transaktionsfilter",
+    "caption": "Legen Sie Parameter fest oder geben Sie einen Suchbegriff ein, um die Transaktionsliste zu filtern.",
+    "search": "Suche nach Nachricht, Tx-ID oder Adresse...",
+    "more": "Mehr",
+    "minada": "Min. {{adaCurrency}} Betrag",
+    "maxada": "Max. {{adaCurrency}} Betrag",
+    "date-range": {
+      "start": "Startdatum",
+      "end": "Enddatum"
+    }
+  },
+  "sync": {
+    "line1": "Noch nicht alle Transaktionsdetails sind geladen.",
+    "line2": "Datumsbereich- und Tx-ID-Suche funktioniert für alle bekannten Transaktionen.",
+    "loading": "Mit jedem Konto-Synchronisierungsprozess wird ein großer Teil der Details geladen.",
+    "awhile": "Dies kann eine Weile dauern.",
+    "autosync": "Um nach weiteren Datenpunkten zu filtern, z.B. Asset-__GT__Metadaten__, aktivieren Sie die Konto-Verlaufssynchronisierung.",
+    "progress": "Synchronisierung läuft, bitte warten.",
+    "history": "Verlaufssynchronisierung"
+  },
+  "button": {
+    "history": {
+      "label": "Transaktionsverlauf",
+      "tooltip": "Zur Transaktionsverlaufsseite wechseln."
+    }
+  }
+}

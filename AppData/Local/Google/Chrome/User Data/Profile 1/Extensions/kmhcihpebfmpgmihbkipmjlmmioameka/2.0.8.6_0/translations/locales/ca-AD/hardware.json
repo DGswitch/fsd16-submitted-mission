@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Connecta un wallet de maquinari",
+    "caption": "Si tens un wallet de maquinari, aquest és el teu lloc.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "El wallet de maquinari de criptomonedes Ledger fabricat per Ledger, una empresa amb seu a París, França.",
+        "models": "Stax, Flex i Nano (X, S i S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor prové de SatoshiLabs, amb seu a la República Txeca.",
+        "models": "Model T i Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "Una empresa amb seu a Hong Kong que ofereix un wallet de maquinari de comunicació de codi QR de codi obert 100% Air-gapped amb una pantalla tàctil de 4 polzades i un lector d'empremtes dactilars.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "TBD",
+        "models": "OneKey Pro verificat"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "TBD",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Connecta Ledger fent servir"
+  },
+  "keystone": {
+    "qrScan": "Escaneja el codi QR amb el teu dispositiu Keystone",
+    "distance": "Ajusta la distància i, opcionalment, toca el codi QR de Keystone per millorar l'escaneig"
+  },
+  "derivation": {
+    "label": "Mode de Derivació (avançat)",
+    "icarus": "L'estàndard de derivació de Cardano tal com el defineix CIP03.",
+    "trezor": "La implementació de Trezor basada en l'estàndard Icarus.",
+    "ledger": "Segueix l'estàndard de Bitcoin tal com el defineix BIP39.",
+    "default": "(per defecte)"
+  },
+  "connect": {
+    "title": "Confirma l'exportació de la clau pública",
+    "caption": "",
+    "info": {
+      "ledger": "Desbloqueja el teu dispositiu Ledger i obre l'aplicació Cardano abans de continuar. Després, segueix les instruccions que s'indiquen a l'aplicació Cardano del teu dispositiu Ledger per completar el procés d'aparellament.",
+      "trezor": "Un cop confirmat, segueix les instruccions que s'indiquen a la pestanya del navegador Trezor Connect que s'ha obert i al teu dispositiu Trezor per completar el procés d'aparellament.",
+      "keystone": "Un cop confirmat, escaneja el codi QR generat amb el teu dispositiu Keystone i després procedeix a escanejar la resposta del codi QR de Keystone a través de Eternl.",
+      "onekey": "Assegura't que el pont estigui instal·lat a l'ordinador. Connecta el dispositiu i espera que s'exportin les claus públiques.",
+      "bitbox": "Un cop confirmat, verifica el codi d'aparellament si cal i confirma-ho al dispositiu."
+    }
+  }
+}

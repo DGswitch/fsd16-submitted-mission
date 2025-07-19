@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Adresse oder $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Weitere Assets können nicht hinzugefügt werden.",
+      "text": "Dieser Transaktions-Output kann keine weiteren Assets aufnehmen. Erstelle einen neuen Output (kann dieselbe Adresse haben), um weitere hinzuzufügen."
+    }
+  },
+  "mode": {
+    "tooltip": "Wähle den Adresstyp manuell aus."
+  },
+  "error": {
+    "addAddress": "Füge eine Empfängeradresse hinzu, an die gesendet werden soll."
+  }
+}

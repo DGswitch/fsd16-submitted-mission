@@ -1,0 +1,265 @@
+{
+  "headline": "Preferences",
+  "caption": "Set your preferred app settings for language, currency etc.",
+  "language": {
+    "label": "Choose language:",
+    "list": {
+      "en": "English",
+      "de": "Deutsch"
+    }
+  },
+  "addressbook": {
+    "label": "@:setting.addressbook.label.global",
+    "caption": "@:setting.addressbook.caption"
+  },
+  "reportentities": {
+    "label": "Reporting Entities",
+    "caption": "A list of all reporting entities. \"all\" includes all wallets. Add more entities and select wallets that belong to them."
+  },
+  "localization": {
+    "label": "Currency and Regional Options",
+    "caption": "Customize formatting and regional settings.",
+    "formatting": {
+      "label": "Formatting",
+      "caption": "Set number formatting based on region.",
+      "timezone": "Use UTC instead of local timezone."
+    },
+    "timezone": {
+      "caption": "Choose your reporting timezone."
+    },
+    "currencyConversion": {
+      "label": "Currency Conversion",
+      "caption": "Select the preferred currency for conversion or \"disabled\" to hide."
+    }
+  },
+  "explorer": {
+    "label": "@:setting.explorer.label",
+    "caption": "@:setting.explorer.caption"
+  },
+  "autoSubmit": {
+    "label": "Transactions: auto submit",
+    "caption": "Automatically submit transactions after signing. Disable to allow downloading signed transaction cbor."
+  },
+  "submitApi": {
+    "label": "Custom Submit API Endpoint",
+    "caption": "Send transactions through a custom cardano-node and cardano-submit-api.",
+    "inputHint": "URL or IP",
+    "add": {
+      "label": "Add new custom submit api endpoint to the list of endpoints."
+    },
+    "note": {
+      "headline": "Please note!",
+      "caption": "This is an advanced setting and you should only use it if you fully understand its implications.",
+      "description": "Make sure the custom endpoint is trustworthy and fully synced.\n\nIf not, the node operator may withhold the broadcasting of your transactions for its gain or won\"t broadcast it at all, and all your transactions could fail.\nIf you are unsure, then deactivate this setting to send transaction through the @:common:appName infrastructure.",
+      "cors": "Also, ensure your custom endpoint has set the correct CORS header to accept the request @:common:appName is sending."
+    }
+  },
+  "storage": {
+    "label": "Persistent data",
+    "caption": "We ask you for permission to make your wallet data more persistent. Manually clearing the browser data will still remove all data from your local device.",
+    "description": {
+      "label": "Why should I persist data ?",
+      "caption": "We store a lot of blockchain data locally, eg. wallet data, cached transactions, NFT images, and more.\n\nThe browser allows us to do so without your permission. But if your device runs low on disk space, the browser might clear this data without informing you.\n\nIf the data is cleared, your wallet data and its settings will be lost. The Persistent data setting allows the application to store the data more permanently in the browser and prevents that data gets cleared, even with low disk space."
+    },
+    "quota": {
+      "label": "Storage space used:",
+      "caption": "Your currently used browser storage quote.",
+      "unkown": "not available",
+      "lowOnSpace": "You are using over ###LIMIT###% of your storage quota. <br>@:preferences.storage.quota.delete",
+      "full": "Your browser storage is full. <br>You wont be able to create new wallets and existing wallets will fail to sync. <br>@:preferences.storage.quota.delete",
+      "delete": "Consider deleting unused data from your indexedDb storage."
+    },
+    "status": {
+      "persisted": "Your storage is persisted, the browser will try to keep the wallet data intact.",
+      "notPersisted": "Storage is not persisted yet. Please click the button to allow storing data persistingly.",
+      "noSupport": "Your browser does not support persisting storage.",
+      "supportedBrowsers": "Please use one of these browsers: Chrome >=55, Chrome Android >=55, Edge >=79, Firefox >=57, Opera >=42",
+      "noActivated": "Your browser storage is nearly full. Please allow persisting storage in \"Preferences > Persistent data\" to decrease the risk of clearing wallet data."
+    },
+    "button": {
+      "label": "Set storage allowance"
+    },
+    "allow": {
+      "success": "Storage allowance successfully set.",
+      "fail": "Could not set storage allowance."
+    },
+    "chrome": {
+      "notification": {
+        "title": "Storage manager permission request!",
+        "caption": "Storage manager is now active and your wallet data is safe.",
+        "denied": "Please allow to send notifications. You will need to remove the denied permission manually."
+      },
+      "modal": {
+        "label": "Info regarding storage setting on Chrome browsers",
+        "caption": "Please read the description.",
+        "button": "Continue",
+        "info": "You are about to set the browser permission, which allows us to store your wallet data permanently.<br><br>When using the Chrome browser, the application also needs the \"Notification permission\" to access the storage permission.<br>Please select <span class=\"italic font-semibold\">\"Allow notifications\"</span> to ensure your wallet data is safe.<br><br>Rest assured that we won\"t show you any further notifications without asking for permission."
+      }
+    },
+    "brave": {
+      "modal": {
+        "label": "Info regarding storage setting on Brave browsers",
+        "caption": "Please read the description.",
+        "button": "Continue",
+        "info": "You are about to set the browser permission, which allows us to store your wallet data permanently.<br><br>When using the Brave browser, the application also needs the \"Notification permission\" to access the storage permission.<br>Once you click the \"Continue\" button, a dialog will ask you for how long you want to allow that permission.<br><br>Please select <span class=\"italic font-semibold\">\"Allow forever\"</span> to ensure your wallet data is safe.<br><br>\"Rest assured that we won\"t show you any further notifications without asking for permission."
+      }
+    }
+  },
+  "exports": {
+    "label": "Wallet export (.json)",
+    "caption": "WAIT! This option will export all wallet AS IS.\n\nIf a wallet is open, it is exported being open. Before hitting the button, make sure to lock all wallets that you want exported in a locked state.\n\nExported @:common:appName .json files can be imported in any other @:common:appName app.",
+    "button": {
+      "label": "Export All Wallets",
+      "icon": "mdi mdi-export"
+    },
+    "transactions": {
+      "modalHeader": "Export your transactions",
+      "modalSubHeader": "Export your transactions and rewards to use for book keeping",
+      "syncNote": {
+        "label": "Please enable history sync",
+        "caption": "To export the full history of this account, you have to enable the History Sync.\nPlease do so in the Account Settings or click `Sync history` below. Doing so can take some time, depending on the account\"s transaction history size.",
+        "progress": "Sync in progress, please wait.",
+        "ready": "Ready to export",
+        "button": {
+          "label": "Sync history",
+          "icon": "mdi mdi-sync"
+        }
+      }
+    }
+  },
+  "save": "Setting successfully saved to storage.",
+  "error": {
+    "networkid": "NetworkId not set, this shouldn\"t happen, contact support if recurring.",
+    "load": "Failure while loading setting from storage, please reload site and contact support if recurring.",
+    "save": "Failure while saving setting to storage, please reload site and contact support if recurring."
+  },
+  "dapp": {
+    "allowlist": {
+      "label": "DApp Allowlist",
+      "caption": "The list of websites/dApps that are allowed to connect to this @:common:appName app.",
+      "empty": "No dApps allowed yet.",
+      "type": {
+        "cip30": {
+          "label": "@:dapps.enable.access.cip30.label",
+          "caption": "",
+          "icon": "@:dapps.enable.access.cip30.icon"
+        },
+        "cip95": {
+          "label": "@:dapps.enable.access.cip95.label",
+          "caption": "",
+          "icon": "@:dapps.enable.access.cip95.icon"
+        },
+        "cip104": {
+          "label": "@:dapps.enable.access.cip104.label",
+          "caption": "",
+          "icon": "@:dapps.enable.access.cip104.icon"
+        }
+      },
+      "table": {
+        "header": {
+          "site": "Site",
+          "access": "Access",
+          "action": "@.capitalize:common.label.action"
+        }
+      },
+      "button": {
+        "remove": "Remove site access"
+      },
+      "confirm": {
+        "label": "Remove Site Access",
+        "message": "Confirm removal of###cip###access for site with url: \"###origin###\""
+      }
+    }
+  },
+  "tool": {
+    "frankenaddr": {
+      "label": "Franken Address Generator",
+      "caption": "Combine two addresses to create a new address with payment credentials from the first and stake credentials from the second.\n\nA normal (base) address consists of two parts. A payment part that controls who can spend the funds on the address, and a stake part that controls what stake pool (if any) the funds are delegated to. It\"s possible to combine the payment part of an address (base or enterprise) from one wallet with the stake part of an address (base or stake) from another wallet to form a so-called \"Franken Address\".",
+      "hint1": "Payment part (base or enterprise address)",
+      "hint2": "Stake part (base or stake address)",
+      "addr1error": "Invalid address, only base or enterprise address for current network valid.",
+      "addr2error": "Invalid address, only base or stake address for current network valid."
+    }
+  },
+  "reset": {
+    "label": "Reset application",
+    "caption": "Remove all stored data for all wallets to reset the application.",
+    "finish": "Application reset successfully",
+    "noPasting": "Please type the confirmation phrase to reset $t(common:appName)",
+    "button": {
+      "label": "Reset application",
+      "icon": "mdi mdi-delete-outline"
+    },
+    "warning": "Once you reset the $t(common:appName) app, you will lose access to all the wallets\" remaining funds. The only way to regain access after reset is by restoring your wallet recovery phrase or importing previously exported $t(common:appName) .json files.",
+    "confirmation": "Are you sure you want to reset the application?",
+    "inDelete": "@:common:appName is being reset, please stand by.",
+    "deleteConfig": "Reset configurations",
+    "deleteWallets": "Reset wallets",
+    "deleteFinish": "Finishing",
+    "phrase": {
+      "confirmation": "Reset $t(common:appName) #{{number}}",
+      "name": "Confirmation phrase",
+      "label": "$t(common:wallet.name.label)",
+      "hint": "Enter the confirmation phrase here!"
+    },
+    "toggle": {
+      "acknowledged": {
+        "label": "",
+        "text": "I understand that the only way to regain access to my wallets is by restoring them with the wallet recovery phrases.",
+        "icon": "mdi mdi-checkbox-blank-outline -mt-0.5",
+        "error": "Your confirmation phrase does not match."
+      }
+    }
+  },
+  "clearCache": {
+    "label": "Reset application cache",
+    "caption": "Remove all cached data to reset the application.\nThis includes transactions, token images and metadata. Your wallets, accounts and settings will NOT be affected.",
+    "finish": "Application cache reset successful.",
+    "inProgress": "$t(common:appName) cache is being reset, please stand by.",
+    "warning": "Once you reset the Eternl cache, the application must fetch all data from the blockchain again. If you have multiple wallets or accounts, this will take some time.",
+    "button": {
+      "label": "Reset application cache",
+      "icon": "mdi mdi-delete-outline"
+    }
+  },
+  "handleLists": {
+    "label": "ADA Handle Allow- / Blocklist",
+    "caption": "Create lists to restrict or allow the sending to specific ADA Handles.",
+    "handle": "ADA Handles",
+    "allowlist": {
+      "label": "Set ADA Handle allowlist",
+      "caption": "Send funds to ADA Handles on this list with no restrictions. For handles not in this list you\"ll get an additional check.",
+      "add": {
+        "label": "Add entry"
+      },
+      "delete": {
+        "label": "Delete entry",
+        "caption": "Do you want to delete allowlist entry for "
+      }
+    },
+    "blocklist": {
+      "label": "Set ADA Handle blocklist",
+      "caption": "You will not be able to send funds to ADA Handles on this list.",
+      "add": {
+        "label": "Add entry"
+      },
+      "delete": {
+        "label": "Delete entry",
+        "caption": "Do you want to delete blocklist entry for "
+      }
+    },
+    "error": {
+      "noHandle": "An ADA Handles must start with $",
+      "on_allowlist": "This handle is already on the allowlist, it cannot also be on the blocklist.",
+      "on_blocklist": "This handle is already on the blocklist, it cannot also be on the allowlist."
+    },
+    "button": {
+      "add": "Add entry",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    }
+  },
+  "message": {
+    "success": "App preferences updated."
+  }
+}

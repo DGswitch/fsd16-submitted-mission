@@ -1,0 +1,39 @@
+{
+  "headline":                 "Notification center",
+
+  "empty":                    "nothing here...",
+
+  "type": {
+
+    "txMS":                   "Multi-Sig Transaction",
+    "unknown":                "Unknown Type"
+  },
+
+  "button": {
+
+    "clearall":               "Clear all",
+    "reset":                  "$t(common:reset)"
+  },
+
+  "copy": {
+    "subline":                 "Has been copied to clipboard"
+  },
+
+  "multisig": {
+
+    "badge": {
+
+      "payment": {
+
+        "label":              "Payment",
+        "hover":              "Payment script"
+      },
+
+      "stake": {
+
+        "label":              "Stake",
+        "hover":              "Stake script"
+      }
+    }
+  }
+}

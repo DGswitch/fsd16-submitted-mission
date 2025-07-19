@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "สร้างรหัส PIN",
+      "confirm": "ยืนยันรหัส PIN"
+    },
+    "captionShort": "ตั้งรหัส PIN เพื่อเข้าถึง $t(common:appName)",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) รหัสนี้จำเป็นต้องใช้ทุกครั้งที่คุณเปิด $t(common:appName)",
+      "confirm": "เพื่อยืนยันรหัส PIN กรุณาป้อน PIN เดียวกันกับที่คุณเพิ่งป้อนไป"
+    },
+    "hint": {
+      "enter": "ป้อนรหัส PIN",
+      "confirm": "ป้อน PIN อีกครั้งเพื่อยืนยัน"
+    },
+    "confirmed": "รหัส PIN ที่ป้อนตรงกัน",
+    "button": {
+      "label": "เปิดใช้งาน PIN"
+    },
+    "error": {
+      "confirm": "รหัส PIN ไม่ตรงกัน กรุณาลองใหม่อีกครั้ง"
+    }
+  },
+  "access": {
+    "title": "รหัส PIN สำหรับเข้าถึง",
+    "caption": "ป้อนรหัส PIN สำหรับเข้าถึง",
+    "checking": "กำลังตรวจสอบรหัส PIN",
+    "confirmed": "PIN ที่ป้อนถูกต้อง",
+    "error": {
+      "confirm": "รหัส PIN ไม่ถูกต้อง"
+    }
+  },
+  "deleteAccess": {
+    "caption": "ป้อนรหัส PIN เพื่อปิดใช้งาน",
+    "biometrics": "เมื่อคุณลบรหัส PIN คุณสมบัติการยืนยันตัวตนด้วยไบโอเมตริกซ์จะถูกปิดใช้งานโดยอัตโนมัติ",
+    "button": {
+      "label": "ปิดใช้งาน PIN",
+      "tooltip": "ป้อน PIN ปัจจุบันเพื่ออนุญาตการปิดใช้งาน"
+    }
+  },
+  "biometrics": {
+    "login": "เข้าสู่ระบบโดยใช้ไบโอเมตริกซ์",
+    "caption": "กรุณายืนยันตัวตนโดยใช้ FaceId หรือคุณสมบัติไบโอเมตริกซ์อื่น ๆ",
+    "fallback": "เข้าสู่ระบบโดยใช้รหัส PIN",
+    "use": {
+      "ios": "หรือใช้ FaceID หรือ Fingerprint เพื่อเข้าถึง wallet",
+      "android": "หรือใช้คุณสมบัติไบโอเมตริกซ์ของโทรศัพท์เพื่อเข้าถึง wallet"
+    }
+  },
+  "comment": "// ข้อความเกี่ยวกับ pin เพิ่มเติม: catalyst:step.pin"
+}

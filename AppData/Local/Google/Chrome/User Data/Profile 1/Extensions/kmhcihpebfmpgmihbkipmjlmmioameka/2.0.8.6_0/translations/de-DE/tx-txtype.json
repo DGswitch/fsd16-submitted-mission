@@ -1,0 +1,26 @@
+{
+  "unknown": "Unbekannt",
+  "sent": "Gesendet",
+  "received": "Empfangen",
+  "ada": "Guthaben",
+  "and": "und",
+  "tokens": "Tokens",
+  "intraWallet": "Interner Transfer",
+  "external": "Externe Transaktion",
+  "withdrawal": "Auszahlung",
+  "deposit": "Einzahlung",
+  "type": {
+    "metadata_only": {
+      "label": "Dies ist eine Konsolidierung in Ihrer wallet mit angehängten metadata. Guthaben wurde innerhalb Ihrer wallet bewegt und nur eine Transaktionsgebühr wurde bezahlt.",
+      "preview": "Die erstellte Transaktion wird eine Konsolidierung innerhalb Ihrer wallet mit angehängten metadata sein. Guthaben wird innerhalb Ihrer wallet bewegt und nur eine Transaktionsgebühr wird bezahlt."
+    },
+    "consolidation": {
+      "label": "Dies ist eine Konsolidierung in Ihrer wallet. Guthaben wurde innerhalb Ihrer wallet bewegt und nur eine Transaktionsgebühr wurde bezahlt.",
+      "preview": "Die erstellte Transaktion wird eine Konsolidierung innerhalb Ihrer wallet sein. Guthaben wird bewegt, aber nur eine Transaktionsgebühr wird bezahlt."
+    },
+    "simple_send": {
+      "label": "Guthaben und/oder Tokens wurden an eine externe Adresse gesendet.",
+      "preview": "Guthaben und/oder Tokens werden an eine externe Adresse gesendet."
+    }
+  }
+}

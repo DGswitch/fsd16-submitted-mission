@@ -1,0 +1,34 @@
+{
+  "placeholder": "Дадай тут нататку.",
+  "copy": "Нататка да транзакцыі: {{note}}.",
+  "export": "Нататкі можна імпартаваць і экспартаваць.",
+  "add": {
+    "title": "Дадаць нататку",
+    "caption": "Дадай нататку да гэтай транзакцыі. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "Рэдагаваць нататку",
+    "caption": "Рэдагуй нататку, далучаную да гэтай транзакцыі. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Выдаліць нататку",
+      "tooltip": "Выдалі нататку, далучаную да гэтай транзакцыі."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Выдаліць нататку",
+      "caption": "Калі ласка, пацвердзі, што хочаш выдаліць нататку да транзакцыі.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

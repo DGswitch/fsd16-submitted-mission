@@ -1,0 +1,16 @@
+{
+  "title": "Marktorders",
+  "caption": "Realtime on-chain activiteit.",
+  "loading": "Marktorders laden",
+  "select": "Selecteer een token pair om marktorders te laden",
+  "empty": "Geen marktorders gevonden",
+  "time": "Tijd",
+  "type": "Type",
+  "in": "In",
+  "out": "Uit",
+  "orderCount": {
+    "total": "Laatste {{total}} orders: ",
+    "buy": "{{buy}} Koop,",
+    "sell": " {{sell}} Verkoop"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "idle": "À jour",
+  "initializing": "Initialisation en cours",
+  "queued": "En file d'attente",
+  "syncing": "Synchronisation en cours",
+  "preparingFor": "préparation pour",
+  "syncingFor": "Synchronisation pour",
+  "notSyncedYet": "pas encore synchronisé",
+  "success": "Terminé",
+  "skipped": "Terminé",
+  "synced": "synchronisé {{time}}",
+  "error": "Échec",
+  "manual": "Manuel",
+  "update": {
+    "tooltip": "Forcer une mise à jour du compte."
+  }
+}

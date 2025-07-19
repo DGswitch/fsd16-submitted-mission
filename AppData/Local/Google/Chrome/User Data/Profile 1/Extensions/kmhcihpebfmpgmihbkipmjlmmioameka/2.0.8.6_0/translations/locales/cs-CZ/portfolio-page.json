@@ -1,0 +1,20 @@
+{
+  "menuLabel": "Portfolio",
+  "title": "Portfolio",
+  "caption": "Přehled hodnoty aktiv v tomto účtu.",
+  "description": "Tato čísla jsou odhadované hodnoty tokenů ve vaší wallet. Hodnoty se aktualizují každých 5 minut a cena je agregací z různých decentralizovaných burz.",
+  "header": {
+    "caption": "Tahle wallet má {{asset_count}} různých aktiv. Zůstatky pod 1 {{currency}} jsou skryté."
+  },
+  "value": "Hodnota aktiva",
+  "estimated": "Odhadovaná celková hodnota",
+  "table": {
+    "header": {
+      "asset": "Aktivum",
+      "price": "Cena",
+      "owned": "Vlastněno",
+      "percent": "% z portfolia",
+      "swaptoken": "Vyměnit token"
+    }
+  }
+}

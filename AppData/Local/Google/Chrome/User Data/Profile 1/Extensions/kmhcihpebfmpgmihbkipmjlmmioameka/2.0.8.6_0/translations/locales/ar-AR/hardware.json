@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "ربط محفظة الأجهزة wallet",
+    "caption": "إذا كنت تمتلك محفظة أجهزة wallet، فهذا هو المكان المناسب لك.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "محفظة أجهزة العملات المشفرة Ledger wallet المصنوعة بواسطة Ledger، وهي شركة يقع مقرها الرئيسي في باريس، فرنسا.",
+        "models": "Stax, Flex و Nano (X, S و S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor تأتي من SatoshiLabs، ومقرها في جمهورية التشيك.",
+        "models": "Model T و Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "شركة مقرها هونغ كونغ تقدم محفظة أجهزة wallet مفتوحة المصدر ومعزولة هوائياً 100% تتصل عبر رمز QR بشاشة لمس 4 بوصات وقارئ بصمات الأصابع.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "سيتم تحديده لاحقاً",
+        "models": "تم التحقق من OneKey Pro"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "سيتم تحديده لاحقاً",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "ربط Ledger باستخدام"
+  },
+  "keystone": {
+    "qrScan": "امسح رمز QR بجهاز Keystone الخاص بك",
+    "distance": "اضبط المسافة وانقر اختيارياً على رمز QR الخاص بـ Keystone لتحسين المسح"
+  },
+  "derivation": {
+    "label": "وضع الاشتقاق (متقدم)",
+    "icarus": "معيار اشتقاق Cardano كما هو محدد بواسطة CIP03.",
+    "trezor": "تنفيذ Trezor بناءً على معيار Icarus.",
+    "ledger": "يتبع معيار Bitcoin كما هو محدد بواسطة BIP39.",
+    "default": "(افتراضي)"
+  },
+  "connect": {
+    "title": "تأكيد تصدير المفتاح العام",
+    "caption": "",
+    "info": {
+      "ledger": "افتح قفل جهاز Ledger الخاص بك وافتح تطبيق Cardano قبل المتابعة. ثم اتبع التعليمات الموضحة في تطبيق Cardano على جهاز Ledger الخاص بك لإكمال عملية الاقتران.",
+      "trezor": "عند التأكيد، اتبع التعليمات الموضحة في علامة تبويب متصفح Trezor Connect المفتوحة وعلى جهاز Trezor الخاص بك لإكمال عملية الاقتران.",
+      "keystone": "عند التأكيد، امسح رمز QR الذي تم إنشاؤه بجهاز Keystone الخاص بك ثم تابع مسح استجابة رمز QR من Keystone عبر Eternl.",
+      "onekey": "تأكد من تثبيت الـ bridge على جهاز الكمبيوتر الخاص بك. قم بتوصيل الجهاز وانتظر حتى يتم تصدير المفاتيح العامة.",
+      "bitbox": "عند التأكيد، تحقق من رمز الاقتران إذا لزم الأمر وأكّد على الجهاز."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "menuLabel": "Portofolio",
+  "title": "Portofolio",
+  "caption": "Ringkasan nilai aset di akun ini.",
+  "description": "Angka-angka ini adalah perkiraan nilai token di wallet Anda. Nilai hanya diperbarui setiap 5 Menit dan harga merupakan agregasi dari berbagai bursa terdesentralisasi.",
+  "header": {
+    "caption": "wallet ini memiliki {{asset_count}} aset berbeda. Saldo di bawah nilai 1 ADA disembunyikan."
+  },
+  "value": "Nilai Aset",
+  "estimated": "Perkiraan nilai total",
+  "table": {
+    "header": {
+      "asset": "Aset",
+      "price": "Harga",
+      "owned": "Dimiliki",
+      "percent": "% dari portofolio",
+      "swaptoken": "Tukar token"
+    }
+  }
+}

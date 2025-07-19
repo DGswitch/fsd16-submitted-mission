@@ -1,0 +1,68 @@
+{
+  "title": "Информация",
+  "imprint": "Импресум",
+  "contact": "Контакт",
+  "edc": "Eternl DRep Комитет",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "DRep Id",
+    "text": "drep1y29h2q6cst2pvkl2sqqvf5ljcy36uv7pmy482xnczddzgqshus24w"
+  },
+  "discord": {
+    "label": "discord",
+    "text": "Кликни, за да се присъединиш към нашия $t(common:appName) Discord сървър (със система за заявки)"
+  },
+  "telegram": {
+    "label": "telegram",
+    "text": "Кликни, за да се присъединиш към нашия $t(common:appName) Telegram канал."
+  },
+  "github": {
+    "label": "github",
+    "text": "Ако имаш заявка за нова функция, моля използвай GitHub issue tracker. Кликни, за да го отвориш в нова страница."
+  },
+  "email": {
+    "label": "email",
+    "text": "Пиши ни имейл на team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "email",
+    "text": "Пиши ни имейл на drep@eternl.io"
+  },
+  "address": {
+    "label": "Sitz der Gesellschaft",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nGermany"
+  },
+  "person": {
+    "label": "Vertretungsberechtigte Personen",
+    "text": "Marcel Baumberg (Geschäftsführer)"
+  },
+  "company": {
+    "label": "Angaben zum Unternehmen",
+    "text": "Umsatzsteuer Identifikationsnummer (USt-ID): DE264395179\nHandelsregister Amtsgericht Leipzig: HRB 24784"
+  },
+  "legallabel": "Haftungs- und Schutzrechtshinweise",
+  "legal0": {
+    "label": "Haftungsausschluss",
+    "text": "Съдържанието на тази онлайн оферта е създадено внимателно и според текущото ни състояние на знанията, но служи само за информация и няма правно обвързващ ефект, освен ако не е законово задължителна информация (напр. Импресум, декларация за поверителност, Общи условия или задължителни инструкции за потребителите).  Запазваме си правото да променяме или изтриваме съдържанието изцяло или частично, доколкото договорните задължения остават незасегнати. Всички оферти са необвързващи."
+  },
+  "legal1": {
+    "label": "Links auf fremde Webseiten",
+    "text": "Съдържанието на външни уебсайтове, към които препращаме пряко или непряко, е извън нашата отговорност и ние не го приемаме за наше. Ние не поемаме отговорност за цялото съдържание и недостатъци, произтичащи от използването на информацията, достъпна на свързаните уебсайтове."
+  },
+  "legal2": {
+    "label": "Urheberrechte und Markenrechte",
+    "text": "Цялото съдържание, показано на този уебсайт, като текст, снимки, графики, марки и търговски марки, е защитено от съответните права на защита (авторски права, права върху търговски марки). Използването, възпроизвеждането и т.н. са предмет на нашите права или правата на съответните автори или администратори на права."
+  },
+  "legal3": {
+    "label": "Hinweise auf Rechtsverstöße",
+    "text": "Ако забележите нарушения на закона в нашия уебсайт, молим да ни ги посочите. Ние незабавно ще премахнем незаконното съдържание и връзки след като се уведомим."
+  },
+  "button": {
+    "home": "home"
+  }
+}

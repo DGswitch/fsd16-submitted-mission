@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Música de la colección"
+  },
+  "ipfs": {
+    "loading": "Wait, the asset is loading.",
+    "error": "Error al cargar los datos desde ipfs, por favor reintente o contacte con soporte.",
+    "timeout": "File download timed out, please retry or contact support."
+  }
+}

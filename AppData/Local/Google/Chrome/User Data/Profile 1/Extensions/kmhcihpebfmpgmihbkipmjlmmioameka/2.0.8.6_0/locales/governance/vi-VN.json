@@ -1,0 +1,103 @@
+{
+  "menuLabel": "Quản trị",
+  "title": "__GT__Quản trị__ Blockchain",
+  "caption": "Điều hướng Kỷ nguyên Voltaire trong quản trị blockchain của Cardano, nơi các quyết định dựa vào cộng đồng soi sáng con đường đến một hệ sinh thái bền vững và toàn diện.",
+  "era": "Mạng lưới chưa bước vào kỷ nguyên Voltaire (Conway).",
+  "credentials": "Chứng danh",
+  "delegation": {
+    "current": {
+      "label": "Ủy quyền Bỏ phiếu Hiện tại",
+      "undelegated": "Chưa ủy quyền",
+      "vote": "Bỏ phiếu",
+      "drep": "DRep",
+      "status": "Trạng thái",
+      "active": "Hoạt động",
+      "inactive": "Không hoạt động",
+      "unregistered": "Chưa đăng ký",
+      "votepower": "Sức mạnh Bỏ phiếu"
+    },
+    "new": {
+      "label": "Ủy quyền Bỏ phiếu Mới",
+      "options": {
+        "own": "Tài khoản của bạn",
+        "custom": "Chỉ định ID DRep",
+        "abstain": "Bỏ phiếu trắng",
+        "noconfidence": "Không tín nhiệm"
+      },
+      "button": {
+        "delegate": "Ủy quyền",
+        "governance": "Ủy quyền Quản trị"
+      },
+      "accModal": {
+        "label": "Ủy quyền Bỏ phiếu Quản trị Tài khoản",
+        "caption": "Chọn tài khoản để ủy quyền sức mạnh bỏ phiếu của bạn. Nếu là cùng một tài khoản, việc đăng ký DRep sẽ tự động được thực hiện nếu cần, nếu không, tài khoản được chọn phải đã được đăng ký DRep.",
+        "accounts": {
+          "headline": "Ủy quyền bỏ phiếu giữa các tài khoản"
+        },
+        "wallets": {
+          "headline": "Ủy quyền bỏ phiếu giữa các ví",
+          "current": "__GT__ví__ hiện tại",
+          "loading": "Đang tải danh sách __GT__ví__ ..."
+        },
+        "button": {
+          "account": "Ủy quyền cho Tài khoản"
+        }
+      },
+      "anchorModal": {
+        "label": "Neo Đăng ký DRep (tùy chọn)",
+        "caption": "URL của bạn chứa thông tin thêm về bạn. Để trống để bỏ qua.",
+        "hint": "https://..."
+      },
+      "error": {
+        "accdrepmissing": "Thiếu chứng danh DRep của tài khoản, vui lòng đồng bộ hóa tài khoản đã chọn!",
+        "owndrepmissing": "Thiếu chứng danh DRep của bạn, vui lòng đồng bộ hóa tài khoản đang hoạt động!",
+        "invaliddrep": "ID DRep không hợp lệ",
+        "notregistered": "ID DRep chưa được đăng ký, không thể ủy quyền cho DRep được chỉ định",
+        "unknown": "Đã xảy ra lỗi không xác định khi tuần tự hóa ID DRep"
+      }
+    }
+  },
+  "info": {
+    "text": "Để tham gia quản trị, mỗi chứng danh stake phải được ủy quyền cho một DRep. Người nắm giữ Ada thường sẽ ủy quyền quyền bỏ phiếu của họ cho một DRep đã đăng ký để bỏ phiếu thay mặt họ. Ngoài ra, có hai tùy chọn DRep được xác định trước \"khả dụng\":",
+    "abstain": {
+      "label": "Bỏ phiếu trắng",
+      "text": "Nếu người nắm giữ Ada ủy quyền Bỏ phiếu trắng, thì stake của họ được đánh dấu là không tham gia quản trị. Ảnh hưởng của việc ủy quyền Bỏ phiếu trắng trên chuỗi là stake được ủy quyền sẽ không được coi là một phần của stake bỏ phiếu đang hoạt động. Tuy nhiên, stake đó sẽ được coi là đã đăng ký cho mục đích nhận ưu đãi."
+    },
+    "noconfidence": {
+      "label": "Không tín nhiệm",
+      "text": "Nếu người nắm giữ Ada ủy quyền Không tín nhiệm, thì stake của họ được tính là một phiếu không đồng ý cho mọi hành động quản trị ngoại trừ \"Kiến nghị bất tín nhiệm\". Điều này cũng báo hiệu rằng họ không có niềm tin vào ủy ban hiến pháp hiện tại. Ảnh hưởng của việc ủy quyền Không tín nhiệm trên chuỗi là stake này sẽ được coi là một phần của stake bỏ phiếu đang hoạt động. Nó sẽ được tính là một phiếu Đồng ý cho mọi hành động Không tín nhiệm và một phiếu Không đồng ý cho mọi hành động khác. Nó cũng đóng vai trò như một thước đo có thể kiểm toán trực tiếp về sự tín nhiệm của những người nắm giữ Ada đối với ủy ban hiến pháp."
+    },
+    "note": "Bất kỳ người nắm giữ Ada nào cũng có thể tự đăng ký làm DRep và ủy quyền cho chính mình nếu họ muốn tích cực tham gia bỏ phiếu.",
+    "govtool": {
+      "mainnet": "",
+      "guild": "",
+      "sancho": "https://sanchogov.tools/",
+      "preprod": "",
+      "preview": "",
+      "label": "GovTool",
+      "info": "Để biết thêm thông tin về quản trị Cardano và các hành động bổ sung, hãy truy cập"
+    }
+  },
+  "key": {
+    "show": "Hiển thị Chứng danh Quản trị Tài khoản",
+    "hide": "Ẩn Thông tin xác thực Quản trị Tài khoản",
+    "drep": {
+      "header": "DRep ID",
+      "caption": "Trong kỷ nguyên Conway ledger, thông tin xác thực DRep cho phép các DRep đã đăng ký được nhận dạng trên chuỗi, trong các đăng ký DRep, việc rút lui, các phiếu bầu và trong việc ủy quyền bỏ phiếu từ những người nắm giữ ada."
+    },
+    "cccold": {
+      "header": "Thông tin xác thực Lạnh CC",
+      "caption": "Thành viên Constitutional committee có thể được nhận dạng bằng thông tin xác thực lạnh của họ trong các hành động quản trị cập nhật ủy ban, ủy quyền chứng chỉ thông tin xác thực nóng và rút lui chứng chỉ khóa lạnh."
+    },
+    "cchot": {
+      "header": "Thông tin xác thực Nóng CC",
+      "caption": "Thông tin xác thực nóng của Constitutional committee có thể được quan sát trong chứng chỉ ủy quyền khóa nóng và các phiếu bầu."
+    }
+  },
+  "copy": {
+    "address": {
+      "hover": "$t(common:copy.address)",
+      "notify": "$t(common:copied.address)"
+    }
+  }
+}

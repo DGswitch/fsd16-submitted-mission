@@ -1,0 +1,6 @@
+{
+  "caption":                  "Only interact with dApps that you trust!",
+  "subCaption":               "Manage the list of websites/dApps that are allowed to connect to this $t(common:appName) app.",
+
+  "empty":                    "No dApps allowed yet."
+}

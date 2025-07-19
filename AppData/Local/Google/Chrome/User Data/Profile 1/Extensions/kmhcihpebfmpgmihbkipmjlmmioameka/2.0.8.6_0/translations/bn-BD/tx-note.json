@@ -1,0 +1,34 @@
+{
+  "placeholder": "এখানে একটি নোট যোগ করুন।",
+  "copy": "লেনদেনের নোট: {{note}}।",
+  "export": "নোট ইমপোর্ট এবং এক্সপোর্ট করা যায়।",
+  "add": {
+    "title": "নোট যোগ করুন",
+    "caption": "এই লেনদেনের সাথে একটি নোট সংযুক্ত করুন। $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "নোট সম্পাদনা করুন",
+    "caption": "এই লেনদেনের সাথে সংযুক্ত নোটটি সম্পাদনা করুন। $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "নোট মুছে ফেলুন",
+      "tooltip": "এই লেনদেনের সাথে সংযুক্ত নোটটি মুছে ফেলুন।"
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "নোট মুছে ফেলুন",
+      "caption": "অনুগ্রহ করে নিশ্চিত করুন যে আপনি লেনদেনের নোটটি মুছে ফেলতে চান।",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Klikni da otvoriš grafikon cijena."
+  },
+  "notifications": {
+    "tooltip": "Klikni da vidiš svoje obavijesti."
+  },
+  "hideBalance": {
+    "tooltip": "Uključi/isključi vidljivost stanja."
+  },
+  "logout": {
+    "tooltip": "Odjavi se iz aplikacije. Treba ti PIN da se ponovo prijaviš."
+  },
+  "darkMode": {
+    "tooltip": "Uključi/isključi tamni/svijetli način rada."
+  },
+  "settings": {
+    "tooltip": "Otvori izbornik postavki."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Preostalo vrijeme",
+    "tooltip": "Trenutni broj epoch i vrijeme preostalo do sljedećeg."
+  }
+}

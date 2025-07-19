@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "የነቃ አካውንት ስም",
+    "caption": "የአሁኑን አካውንት ስም ያዘጋጁ",
+    "setting": {
+      "caption": "የእርስዎን (የነቃ) አካውንት ስም ያዘምኑ ወይም Ada እጀታ ይምረጡ/ያሳንሱ።",
+      "adaHandle": {
+        "select": "ከአካውንት ስም ይልቅ የትኛውን Ada እጀታ ማሳየት እንደሚፈልጉ ይምረጡ (ስሙን ለማሳየት ያሳንሱ):"
+      },
+      "error": {
+        "empty": "የአካውንት ስም ባዶ መሆን የለበትም።",
+        "duplicate": "ይህ ዋሌት አስቀድሞ ያንን ስም ያለው አካውንት አለው።"
+      }
+    }
+  },
+  "export": {
+    "title": "የአካውንት ቁልፍ ላክ",
+    "caption": "የዚህን አካውንት ይፋዊ ቁልፍ ላክ።",
+    "setting": {
+      "caption": "የዚህን አካውንት ይፋዊ ቁልፍ ላክ። ይፋዊ ቁልፍን ማስገባት የአካውንቱን ታሪክ ማንበብ-ብቻ ሁነታ ላይ ፊርማ ሳይኖር ይመልሳል።",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 የተራዘመ ይፋዊ ቁልፍ",
+        "xpub": "Ed25519-bip32 የተራዘመ ይፋዊ ቁልፍ",
+        "acct_vk": "Ed25519 ይፋዊ ቁልፍ"
+      }
+    }
+  },
+  "samMode": {
+    "title": "ነጠላ አድራሻ ሁነታ (SAM)",
+    "caption": "ለሁሉም ግብይቶች አንድ ነጠላ አድራሻ ብቻ ይጠቀሙ።",
+    "setting": {
+      "caption": "ሲነቃ ሁሉም ገንዘቦች በነባሪነት በመጀመሪያው የመቀበያ አድራሻ ላይ ይቀመጣሉ።",
+      "enabled": "$t(settings-account:samMode.title) ነቅቷል",
+      "disabled": "$t(settings-account:samMode.title) ተሰናክሏል",
+      "customAddress": "ብጁ የመቀበያ አድራሻ",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "አስፈላጊ!",
+          "text": "ብጁ የመቀበያ አድራሻ ማቀናበር ሁሉም የለውጥ ውጤቶች እና የመቀበያ አድራሻ መቀያየር ወደዚህ አድራሻ እንዲቀየር ያደርጋል፣ ይህ አካውንት ባይኖረውም እንኳ። ትክክለኛው አድራሻ መዘጋጀቱን ያረጋግጡ።"
+        }
+      },
+      "notification": {
+        "wrongInput": "ይህ ትክክለኛ አድራሻ አይደለም።",
+        "wrongNetwork": "ይህ አድራሻ ከሌላ አውታረ መረብ የመጣ ነው።",
+        "notOwned": "ይህ አድራሻ የዚህ አካውንት አይደለም እና እንደ ብጁ የመቀበያ አድራሻ መጠቀም አይቻልም።",
+        "nonStaking": "በዚህ የመቀበያ አድራሻ ላይ ያሉት ገንዘቦች በውጫዊ ስቴክ ቁልፍ ተይዘዋል። የሚያገኙትን ሽልማቶች መቆጣጠር አይችሉም።",
+        "success": "ብጁ የመቀበያ አድራሻ ተቀናብሯል።",
+        "error": "ብጁ የመቀበያ አድራሻን ማስቀመጥ አልተሳካም!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "ዋስትና",
+    "caption": "Eternl ያቀረበውን ዋስትና መጠቀም ይፈልጋሉ?",
+    "setting": {
+      "caption": "ሲነቃ Eternl ለአካውንቱ ዋስትና ይሰጣል።",
+      "info": "ከብልጥ ውሎች ጋር መስተጋብር መፍጠር ግብይት ሳይሳካ ሲቀር ዋስትና ሊፈልግ ይችላል። ይህ ብቁ የሆነ UTxO ከተገኘ በEternl በራስ-ሰር ይስተናገዳል።",
+      "waiting": "የዋስትና ግብይት አስገብተዋል። እባክዎ ቆም ይበሉ፣ እስካሁን አልተረጋገጠም።",
+      "foundCollateral": "ለዚህ አካውንት የዋስትና UTxO አስቀድሞ አለ። ከብልጥ ውሎች ጋር በሚገናኙበት ጊዜ ጥቅም ላይ ይውላል።",
+      "eternl": {
+        "label": "Eternl ዋስትና ሰጥቷል",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "ምንም የዋስትና UTxO አልተገኘም። እባክዎ ከዚህ በታች ያለውን ቁልፍ በመጫን አንዱን ያዘጋጁ።",
+      "button": {
+        "setCollateral": {
+          "label": "ዋስትና ያዘጋጁ",
+          "tooltip": "ለዚህ አካውንት የዋስትና UTxO ያዘጋጁ።"
+        }
+      },
+      "error": {
+        "label": "ስህተት:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "እባክዎ ልብ ይበሉ!",
+          "headline": "ዋስትና በአካውንት ላይ የተመሠረተ ቅንብር ነው።"
+        },
+        "info": {
+          "text": "$t(common:appName) ምንም ቶከኖች የሌሉበትን እና በ####minimumCollateral#### እና ####maximumCollateral#### መካከል ያለውን ዋጋ እንደ ዋስትና መጠቀም ይችላል። ይህንን ቅንብር ሲያነቁት ተስማሚ የሆነ UTxO ይፈልጋል። አንዳቸውም የማይገኙ ከሆነ አንዱን ለማዘጋጀት አንድ ቁልፍ ይታያል።"
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "በእጅ ማመሳሰል",
+    "caption": "በእጅ ማመሳሰልን ያዘጋጁ",
+    "setting": {
+      "caption": "walletን በእጅ ያመሳስሉ። ከነቃ wallet የማመሳሰል አዶውን ጠቅ በማድረግ በእጅ መመሳሰል ያስፈልገዋል።",
+      "enabled": "$t(settings-account:manualSync.title) ነቅቷል",
+      "disabled": "$t(settings-account:manualSync.title) ተሰናክሏል"
+    }
+  },
+  "historySync": {
+    "title": "የታሪክ ማመሳሰል",
+    "caption": "የታሪክ ማመሳሰልን ያዘጋጁ",
+    "setting": {
+      "caption": "ሲበራ፣ wallet የመለያውን ሙሉ የግብይት ታሪክ ያመሳስለዋል። ካልሆነ፣ የመጨረሻዎቹን 1000 ግብይቶች ብቻ ነው የሚያመሳስለው። ማመሳሰል በቡድን ይከናወናል እና ብዙ ታሪክ ላላቸው መለያዎች የተወሰነ ጊዜ ሊወስድ ይችላል።",
+      "enabled": "$t(settings-account:historySync.title) በርቷል።",
+      "disabled": "$t(settings-account:historySync.title) ጠፍቷል።",
+      "syncing": "የታሪክ ማመሳሰል ገና በመካሄድ ላይ ነው። {{AMOUNT}} ግቤቶችን ለማመሳሰል በመጠበቅ ላይ።"
+    }
+  },
+  "tokenFragmentation": {
+    "title": "የቶከን ስባሪነት (TF)",
+    "caption": "ቶከኖችን በመስበር የግብይት ክፍያዎችን ይቀንሱ።",
+    "fragment": {
+      "label": "የቶከን ጥቅል መጠን",
+      "error": "የቶከን ጥቅል መጠን ገደብ፡ 1-{{MAX_TOKEN_BUNDLE_SIZE}}።",
+      "info": "እያንዳንዱ UTxO ውጤት ሊይዝ የሚገባውን የቶከኖች ብዛት ያስቀምጣል። ዝቅተኛ የግብይት ክፍያዎች እና በwallet ውስጥ በተቆለፉ ገንዘቦች መካከል ያለው ልውውጥ ነው።\nትንሽ ጥቅል መጠን -> ዝቅተኛ ክፍያዎች፣ ተጨማሪ Ada ተቆልፏል።\nትልቅ ጥቅል መጠን -> ከፍተኛ ክፍያዎች፣ አነስተኛ Ada ተቆልፏል።"
+    },
+    "setting": {
+      "caption": "ከተቀመጠው እሴት በላይ የሚመለሱ ቶከኖች ካሉ ቶከኖችን በሚላኩበት ጊዜ ወደ ጥቅሎች ይከፋፍሏቸው። በwallet UTxO/Token ስርጭት እና በሚፈለገው ውጤት ላይ በመመስረት፣ እሴቶቹ ለተሻለ ውጤት መስተካከል ሊያስፈልጋቸው ይችላል።",
+      "enabled": "$t(settings-account:tokenFragmentation.title) በርቷል።",
+      "disabled": "$t(settings-account:tokenFragmentation.title) ጠፍቷል።"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "የላቀ UTxO አስተዳደር",
+    "caption": "በእርስዎ ግብይቶች ላይ የላቀ UTxO አስተዳደርን ይጠቀሙ።",
+    "setting": {
+      "caption": "ሲበራ፣ $t(common:appName) በእርስዎ ግብይቶች ላይ የላቀ UTxO አስተዳደርን ይጠቀማል።",
+      "subCaption": "ግብይቶችን በትይዩ ለማስፈጸም 10 UTxOዎችን ያስቀምጣል። እንዲሁም ለስማርት ኮንትራት ግንኙነቶች 5 {{currency}} ዋስትና UTxO ለማስቀመጥ ይሞክራል።",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) በርቷል።",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) ጠፍቷል።"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "ራስ-ሰር ገንዘብ ማውጣት",
+    "caption": "አስፈላጊ ከሆነ ሽልማቶችን በራስ-ሰር ያውጡ።",
+    "setting": {
+      "caption": "ሲበራ፣ ግብይት ሲፈጥሩ አስፈላጊ ከሆነ ሽልማቶች በራስ-ሰር ይወጣሉ። ከተሰናከለ ወይም ለተገደደ በእጅ ማውጣት፣ በSummary ገጽ ላይ ያለውን የማውጣት ቁልፍ ይጠቀሙ።",
+      "enabled": "$t(settings-account:autoWithdrawal.title) በርቷል።",
+      "disabled": "$t(settings-account:autoWithdrawal.title) ጠፍቷል።"
+    }
+  },
+  "unStake": {
+    "title": "walletን አለማቆም\n(walletን አለመመዝገብ)",
+    "caption": "የአሁኑን መለያ ከማንኛውም ፑል ልዑክነትን ያስወግዱ እና የመሰረዝ ግብይት ይፍጠሩ።",
+    "setting": {
+      "caption": "ይህ እርምጃ የመለያ መሰረዝ ግብይት ይፈጥራል። አንዴ ከተጠናቀቀ መለያው ከማንኛውም ፑል ልዑክነት ይነሳል፣ እና መለያው ለመጀመሪያ ጊዜ ከተወከለበት ጊዜ ጀምሮ የቁልፍ ማስያዣው ይመለሳል።",
+      "subCaption": "እባክዎን ከመዋኛ ልዑክነት፣ catalyst ሽልማቶች፣ ወዘተ ያሉ ማንኛቸውም በመጠባበቅ ላይ ያሉ ሽልማቶች መለያው ሲሰረዝ እንደሚጠፉ ልብ ይበሉ!",
+      "acknowledged": "ማንኛቸውም በመጠባበቅ ላይ ያሉ ሽልማቶች እንደሚጠፉ ተረድቻለሁ።",
+      "noUtxo": "ለመሰረዝ የግብይት ክፍያ ለመክፈል {{currency}} ያስፈልጋል።",
+      "button": {
+        "deReg": {
+          "label": "መለያን ሰርዝ",
+          "tooltip": "መለያን ከመዋኛ ልዑክነት ሰርዝ"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "DRepን ሰርዝ",
+    "caption": "የDRep መሰረዝ ግብይት ይፍጠሩ። ለዚያ DRep የተወከለው የድምጽ አሰጣጥ ስልጣን ይጠፋል።",
+    "setting": {
+      "caption": "ይህ የDRep መሰረዝ ግብይት ይፈጥራል። ለዚያ DRep የተወከለው የድምጽ አሰጣጥ ስልጣን ይጠፋል።",
+      "subCaption": "staking ሽልማቶችን የማውጣት ችሎታን መልሶ ለማግኘት መለያዎን ለተለየ DRep ማወከል ያስፈልግዎታል።",
+      "acknowledged": "ሁሉም የተወከለው የድምጽ አሰጣጥ ስልጣን እንደሚጠፋ ተረድቻለሁ።",
+      "noUtxo": "ለመሰረዝ የግብይት ክፍያ ለመክፈል {{currency}} ያስፈልጋል።",
+      "button": {
+        "deReg": {
+          "label": "መለያን ሰርዝ",
+          "tooltip": "መለያን ከመዋኛ ልዑክነት ሰርዝ"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "ሪፖርት ማድረግ",
+    "caption": "የግብር ሪፖርት ኤክስፖርት ቅንብሮች።"
+  }
+}

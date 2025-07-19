@@ -1,0 +1,55 @@
+{
+  "spo": "оперира един стейк пул",
+  "mpo": "оперира {{count}} стейк пула",
+  "retired": "Пенсиониран през epoch {{epoch}}",
+  "retiredIn": "Пенсиониран през epoch {{epoch}}",
+  "noRewards": "Този пул НЯМА да спечели никакви {{adaSymbol}} награди.",
+  "lessRewards": "Този пул ще спечели по-малко награди от обикновено.",
+  "history": "История на наградите",
+  "fees": "Такси",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Зелено: в оптимален диапазон. Червено: печели по-малко награди."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Зелено: в нормален диапазон. Червено: печели по-малко награди."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Възвръщаемост на залога. Ефективност за последните 12 епохи. Зелено: в нормален диапазон. ROS ще варира повече за пулове с по-малко залог."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Искай награди",
+      "syncing": "Wallet се синхронизира",
+      "norewards": "Няма налични награди"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Миналия месец",
+      "3months": "Последните 3 месеца",
+      "6months": "Последните 6 месеца",
+      "year": "Миналата година"
+    },
+    "view-history": "Виж история",
+    "view-graph": {
+      "stake-key": "ключ за залог на акаунт"
+    },
+    "approx-earning": "Приблизителни награди през следващата година",
+    "unclaimed-ada": "Непотърсени {{currency}}",
+    "lifetime-earning": "Общо направихте",
+    "lifetime-apy": "APY за целия период",
+    "lifetime-earned": "откакто започнахте да staking",
+    "epoch-ends-in": "Тази epoch приключва след",
+    "search": "Въведете билет, име или детайли",
+    "delegate": "Изберете този пул",
+    "openPoolList": "Отвори списък с пулове"
+  }
+}

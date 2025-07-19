@@ -1,0 +1,55 @@
+{
+  "spo": "አንድ የውርርድ ማሰባሰቢያ ገንዳን ያስተዳድራል",
+  "mpo": "{{count}} የውርርድ ማሰባሰቢያ ገንዳዎችን ያስተዳድራል",
+  "retired": "በepoch {{epoch}} ጡረታ ወጥቷል",
+  "retiredIn": "በepoch {{epoch}} ጡረታ ወጥቷል",
+  "noRewards": "ይህ ገንዳ ምንም {{adaSymbol}} ሽልማት አያገኝም።",
+  "lessRewards": "ይህ ገንዳ ከተለመደው ያነሰ ሽልማት ያገኛል።",
+  "history": "የሽልማት ታሪክ",
+  "fees": "ክፍያዎች",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "አረንጓዴ፡ በተመቻቸ ክልል ውስጥ። ቀይ፡ አነስተኛ ሽልማቶችን ያገኛል።"
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "አረንጓዴ፡ በተለመደው ክልል ውስጥ። ቀይ፡ አነስተኛ ሽልማቶችን ያገኛል።"
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "በውርርድ ላይ መመለስ። ያለፉት 12 ወቅቶች አፈጻጸም። አረንጓዴ፡ በተለመደው ክልል ውስጥ። ROS አነስተኛ ድርሻ ላላቸው ገንዳዎች የበለጠ ይለዋወጣል።"
+  },
+  "withdrawal": {
+    "button": {
+      "label": "ሽልማቶችን ያግኙ",
+      "syncing": "Wallet እየተመሳሰለ ነው",
+      "norewards": "ምንም ሽልማቶች የሉም"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "ያለፈው ወር",
+      "3months": "ያለፉት 3 ወራት",
+      "6months": "ያለፉት 6 ወራት",
+      "year": "ያለፈው ዓመት"
+    },
+    "view-history": "ታሪክን ይመልከቱ",
+    "view-graph": {
+      "stake-key": "የመለያ ውርርድ ቁልፍ"
+    },
+    "approx-earning": "በሚቀጥለው ዓመት የሚገመት ሽልማት",
+    "unclaimed-ada": "ያልተጠየቀ {{currency}}",
+    "lifetime-earning": "በአጠቃላይ ያገኙት",
+    "lifetime-apy": "የእድሜ ልክ APY",
+    "lifetime-earned": "staking ከጀመሩ ጀምሮ",
+    "epoch-ends-in": "ይህ epoch የሚያበቃው በ",
+    "search": "ቲኬት፣ ስም ወይም ዝርዝር ያስገቡ",
+    "delegate": "ይህን ገንዳ ይምረጡ",
+    "openPoolList": "የገንዳ ዝርዝርን ይክፈቱ"
+  }
+}

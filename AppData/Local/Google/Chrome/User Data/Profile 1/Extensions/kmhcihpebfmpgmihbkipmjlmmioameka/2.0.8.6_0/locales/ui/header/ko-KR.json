@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "가격 차트를 열려면 클릭하세요."
+  },
+  "notifications": {
+    "tooltip": "알림을 보려면 클릭하세요."
+  },
+  "hideBalance": {
+    "tooltip": "잔액 표시 여부를 전환합니다."
+  },
+  "logout": {
+    "tooltip": "앱에서 로그아웃합니다. 다시 로그인하려면 PIN이 필요합니다."
+  },
+  "darkMode": {
+    "tooltip": "다크/라이트 모드를 전환합니다."
+  },
+  "settings": {
+    "tooltip": "설정 메뉴를 엽니다."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "남은 시간",
+    "tooltip": "현재 epoch 번호 및 다음 에포크까지 남은 시간."
+  }
+}

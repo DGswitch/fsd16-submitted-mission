@@ -1,0 +1,54 @@
+{
+  "title": "معلومات عن DRep",
+  "noInfo": "مفيش معلومات متاحة.",
+  "drepId": {
+    "label": "معرف DRep (CIP129)",
+    "default": "اختيار افتراضي",
+    "missing": "مفقود"
+  },
+  "govAction": {
+    "id": "معرف إجراء الحوكمة",
+    "missing": "معرف إجراء حوكمة غير معروف",
+    "comment": "مبررات DRep"
+  },
+  "votingPower": "قوة التصويت",
+  "numDelegators": "المفوضين",
+  "paymentAddress": "عنوان الدفع",
+  "objectives": "الأهداف",
+  "qualifications": "المؤهلات",
+  "motivation": "الدافع",
+  "tab": {
+    "info": {
+      "label": "معلومات"
+    },
+    "votes": {
+      "label": "الأصوات",
+      "noVotesFound": "لم يتم العثور على أي أصوات."
+    }
+  },
+  "badge": {
+    "status": {
+      "active": {
+        "label": "نشط",
+        "tooltip": "DRep نشط و معرف لامركزي صوّت مؤخرًا على المقترحات."
+      },
+      "inactive": {
+        "label": "غير نشط",
+        "tooltip": "DRep غير نشط و معرف لامركزي ما صوّتش مؤخرًا على المقترحات."
+      },
+      "unregistered": {
+        "label": "تم إلغاء التسجيل",
+        "tooltip": "تم إلغاء تسجيل DRep."
+      },
+      "selfDelegated": {
+        "label": "مفوض ذاتيًا",
+        "tooltip": "هذا الحساب مفوض للتصويت لنفسه."
+      }
+    }
+  },
+  "error": {
+    "noDRepCred": "مافيش بيانات اعتماد DRep للحساب ده.",
+    "noDRepId": "مافيش معرف DRep عشان التفويض ليه.",
+    "invalidDRepId": "ده معرف DRep مش صحيح"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Marknadsordrar",
+  "caption": "On-chain-aktivitet i realtid.",
+  "loading": "Laddar marknadsordrar",
+  "select": "Välj ett tokenpar för att ladda marknadsordrar",
+  "empty": "Inga marknadsordrar hittades",
+  "time": "Tid",
+  "type": "Typ",
+  "in": "In",
+  "out": "Ut",
+  "orderCount": {
+    "total": "Senaste {{total}} ordrarna: ",
+    "buy": "{{buy}} Köp,",
+    "sell": " {{sell}} Sälj"
+  }
+}

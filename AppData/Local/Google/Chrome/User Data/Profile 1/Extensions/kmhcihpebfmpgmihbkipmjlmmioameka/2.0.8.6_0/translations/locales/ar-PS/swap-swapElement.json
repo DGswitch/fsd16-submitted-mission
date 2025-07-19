@@ -1,0 +1,44 @@
+{
+  "title": "Eternl تبديل الوحش",
+  "caption": "بجيبلك أحسن سعر من كل المجمّعين عشانك",
+  "select": "اختار",
+  "sell": "إنتَ بتبيع",
+  "buy": "إنتَ بتشتري",
+  "balance": "متاح للتبديل",
+  "aggAndDexs": "المجمّعات والـ DEXs:",
+  "provider": "المزوّد",
+  "button": {
+    "reset": {
+      "label": "‎$t(common:reset)‎",
+      "tooltip": "بمسح كل المدخلات"
+    },
+    "swap": {
+      "label": "‎$t(common:swap)‎",
+      "tooltip": "إنشاء معاملة تبديل"
+    },
+    "loading": {
+      "label": "‎$t(common:loading)‎",
+      "tooltip": "بنجهز معاملة التبديل."
+    }
+  },
+  "details": {
+    "show": "‎$t(common:button.showDetails)‎",
+    "hide": "‎$t(common:button.hideDetails)‎",
+    "dexFees": {
+      "label": "رسوم Batcher وحجم التداول (DEXs)",
+      "tooltip": "الـ DEXs بحددوا رسوم لمعالجة طلبك. هاي الرسوم غير مستردة."
+    },
+    "aggregatorFee": {
+      "label": "رسوم الخدمة",
+      "tooltip": "هاي رسوم الراحة. بتساعد في تمويل تطوير المجمّع و Eternl."
+    },
+    "deposit": {
+      "label": "وديعة قابلة للاسترداد",
+      "tooltip": "مطلوب وديعة عشان نعالج طلبك. هذا المبلغ بيرجع لمحفظتك wallet مع الرموز اللي بتستلمها."
+    }
+  },
+  "geo": {
+    "headline": "MonsterSwap مش متوفر بمنطقتك!",
+    "caption": "عشان القوانين والتزام Eternl بالسياسات الإقليمية وكل القوانين المعمول بيها، اضطرينا نوقف MonsterSwap بمنطقتك. عارفين إنه القوانين مش واضحة وبتتغير على طول، وراح نعدل القيود حسب التغييرات."
+  }
+}

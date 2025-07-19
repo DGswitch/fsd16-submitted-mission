@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Adresa ili $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Ne možeš dodati više sredstava.",
+      "text": "Ovaj izlaz transakcije ne može držati više sredstava. Kreiraj novi izlaz (može imati istu adresu) da dodaš još."
+    }
+  },
+  "mode": {
+    "tooltip": "Ručno odaberi tip adrese."
+  },
+  "error": {
+    "addAddress": "Dodaj adresu primatelja za slanje."
+  }
+}

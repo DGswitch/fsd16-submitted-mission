@@ -1,0 +1,9 @@
+{
+  "menuLabel": "Yönetişim",
+  "title": "Blockchain Yönetişimi",
+  "caption": "Merkeziyetsiz zincir üstü yönetişim parmaklarınızın ucunda.",
+  "subCaption": "Bir DRep olarak kaydolun veya DRep listesine göz atın. Teklifleri keşfedin.",
+  "delegation": "DRep Delegasyonu",
+  "proposals": "Yönetişim teklifleri",
+  "information": "$t(common:information)"
+}

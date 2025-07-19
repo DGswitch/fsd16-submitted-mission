@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "Colar transação cbor",
+  "error": {
+    "corrupted": "O arquivo carregado está corrompido, a transação não pôde ser importada.",
+    "invalid": "O arquivo carregado não é um arquivo json válido.",
+    "format": "O arquivo json não parece conter dados de transação exportados."
+  }
+}

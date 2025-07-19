@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Staking Nadzorna ploča",
+  "caption": "Ovdje možeš upravljati i delegirati svoje {{currency}} u Stakepool i zaraditi pasivni prihod.",
+  "subCaption": "Tvoja sredstva nikada ne napuštaju tvoj wallet za staking na Cardano, i možeš ih potrošiti u bilo koje vrijeme.",
+  "staking-cta": {
+    "title": "Zaradi staking nagrade!",
+    "caption": "Klikni na dugme da izabereš stake pool.",
+    "button": "Uloži"
+  },
+  "poollist": {
+    "title": "Dostupni stake poolovi",
+    "caption": "Lista dostupnih stake poolova. Unesi ticker ili ime poola da filtriraš listu. Rangiranje daje prioritet optimalnim nagradama za korisnika.",
+    "filter": {
+      "search": "Pretraži pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "nema dostupnih podataka o poolu",
+      "undelegated": "nije delegirano",
+      "delegated": "delegirano",
+      "deregistered": "odjavljeno",
+      "registered": "registrovano",
+      "pending": "na čekanju",
+      "producing": "proizvodi"
+    },
+    "history": {
+      "label": "Historija nagrada",
+      "caption": "Lista zarađenih nagrada za staking i Catalyst glasanje sortirana po epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Nagrade",
+      "refund": "Povrat registracije poola",
+      "pool": "Pool",
+      "treasury": "Catalyst Glasanje",
+      "leader": "Nagrade operatera poola",
+      "reserves": "Trenutne nagrade"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Razmisli o delegiranju DRep-u za upravljačke radnje. Biće potrebno u sljedećoj eri da bi mogao/la povući staking nagrade"
+      },
+      "inactive": "Račun je delegiran governance DRep-u koji je označen kao neaktivan i stoga se više ne računa u aktivni ulog za glasanje"
+    },
+    "warning": {
+      "high": {
+        "headline": "Visoka naknada poola",
+        "caption": "Pool kojem je ovaj račun delegiran ima neobično visoku naknadu koja će smanjiti tvoje staking nagrade. Ako je to neka vrsta ISPO-a, u redu je. Ako nije, trebao/la bi izabrati drugi pool sa nižim naknadama"
+      },
+      "complete": {
+        "headline": "99+% Naknada poola",
+        "caption": "Pool na koji je ovaj račun delegiran naplaćuje najmanje 99% i prikuplja tvoje {{currency}} nagrade. Ako je to neka vrsta ISPO-a, u redu. Ako nije, trebao/la bi izabrati drugi pool sa nižim naknadama."
+      }
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "اسم الحساب النشط",
+    "caption": "تعيين اسم للحساب الحالي",
+    "setting": {
+      "caption": "حدّث اسم حسابك (النشط) أو اختار/ألغِ اختيار Ada Handle.",
+      "adaHandle": {
+        "select": "اختار أي Ada Handle ليتم عرضه بدلاً من اسم الحساب (ألغِ الاختيار لعرض الاسم بدلاً منه):"
+      },
+      "error": {
+        "empty": "اسم الحساب لا يمكن أن يكون فارغًا.",
+        "duplicate": "هذه المحفظة لديها بالفعل حساب بهذا الاسم."
+      }
+    }
+  },
+  "export": {
+    "title": "تصدير مفتاح الحساب",
+    "caption": "تصدير المفتاح العام لهذا الحساب.",
+    "setting": {
+      "caption": "تصدير المفتاح العام لهذا الحساب. استيراد مفتاح عام يستعيد سجل الحساب في وضع القراءة فقط مع تعطيل التوقيع.",
+      "tooltip": {
+        "acct_xvk": "مفتاح عام موسع Ed25519-bip32",
+        "xpub": "مفتاح عام موسع Ed25519-bip32",
+        "acct_vk": "مفتاح عام Ed25519"
+      }
+    }
+  },
+  "samMode": {
+    "title": "وضع العنوان الواحد (SAM)",
+    "caption": "استخدم عنوانًا واحدًا فقط لجميع المعاملات.",
+    "setting": {
+      "caption": "عند التفعيل، سيتم الاحتفاظ بجميع الأموال على أول عنوان استلام بشكل افتراضي.",
+      "enabled": "$t(settings-account:samMode.title) مُفعّل",
+      "disabled": "$t(settings-account:samMode.title) مُعطّل",
+      "customAddress": "عنوان استلام مخصص",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "هام!",
+          "text": "تعيين عنوان استلام مخصص سيجعل كل مخرجات التغيير وعنوان الاستلام تتحول إلى هذا العنوان، حتى لو لم يكن مملوكًا لهذا الحساب. يرجى التأكد من التحقق من تعيين العنوان الصحيح."
+        }
+      },
+      "notification": {
+        "wrongInput": "هذا ليس عنوانًا صالحًا.",
+        "wrongNetwork": "هذا العنوان من شبكة مختلفة.",
+        "notOwned": "هذا العنوان لا ينتمي إلى هذا الحساب ولا يمكن استخدامه كعنوان استلام مخصص.",
+        "nonStaking": "الأموال الموجودة في عنوان الاستلام هذا مربوطة (staked) بمفتاح ربط (stake key) خارجي. لن تتحكم في المكافآت التي تتراكم.",
+        "success": "تم تعيين عنوان استلام مخصص.",
+        "error": "فشل حفظ عنوان الاستلام المخصص!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "ضمان إضافي (Collateral)",
+    "caption": "هل تستخدم الضمان الإضافي (collateral) المقدم من Eternl؟",
+    "setting": {
+      "caption": "عند التفعيل، سيوفر Eternl الضمان الإضافي (collateral) للحساب.",
+      "info": "التفاعل مع العقود الذكية (smart contracts) قد يتطلب ضمانًا إضافيًا (collateral) في حالة فشل المعاملة. سيتم التعامل مع هذا تلقائيًا بواسطة Eternl إذا تم العثور على UTxO مؤهل.",
+      "waiting": "لقد قمت بإرسال معاملة ضمان إضافي (collateral). يرجى الانتظار، لم يتم تأكيدها بعد.",
+      "foundCollateral": "يوجد بالفعل ضمان إضافي UTxO (collateral UTXO) لهذا الحساب. سيتم استخدامه عند التفاعل مع العقود الذكية (smart contracts).",
+      "eternl": {
+        "label": "ضمان إضافي (collateral) مقدم من Eternl",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) مُفعّل",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) مُعطّل"
+      },
+      "noCollateral": "لم يتم العثور على ضمان إضافي UTxO (collateral UTXO). يرجى تعيين واحد بالضغط على الزر أدناه.",
+      "button": {
+        "setCollateral": {
+          "label": "تعيين ضمان إضافي (Collateral)",
+          "tooltip": "تعيين ضمان إضافي UTxO (collateral UTXO) لهذا الحساب."
+        }
+      },
+      "error": {
+        "label": "خطأ:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "يرجى الملاحظة!",
+          "headline": "الضمان الإضافي (Collateral) هو إعداد خاص بالحساب."
+        },
+        "info": {
+          "text": "$t(common:appName) يمكنه استخدام أي UTxO بدون رموز (tokens) وبقيمة تتراوح بين ####minimumCollateral#### و ####maximumCollateral#### كضمان إضافي (collateral). عند تفعيل هذا الإعداد، سيبحث عن UTxO مناسب. إذا لم يكن متاحًا، سيظهر زر لتعيين واحد."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "مزامنة يدوية",
+    "caption": "ضبط المزامنة اليدوية",
+    "setting": {
+      "caption": "مزامنة wallet يدويًا. إذا تم التفعيل، يجب مزامنة wallet يدويًا عن طريق النقر على أيقونة المزامنة.",
+      "enabled": "$t(settings-account:manualSync.title) مُفعّل",
+      "disabled": "$t(settings-account:manualSync.title) مُعطّل"
+    }
+  },
+  "historySync": {
+    "title": "مزامنة السجل",
+    "caption": "ضبط مزامنة السجل",
+    "setting": {
+      "caption": "لما تكون متفعّلة، wallet هتعمل مزامنة لتاريخ المعاملات الكامل للحساب. غير كده، آخر 1000 معاملة بس هي اللي هتتزامن. المزامنة بتحصل على دفعات وممكن تاخد وقت للحسابات اللي ليها تاريخ كبير.",
+      "enabled": "$t(settings-account:historySync.title) متفعّل",
+      "disabled": "$t(settings-account:historySync.title) غير متفعّل",
+      "syncing": "مزامنة السجل لسه شغالة. في انتظار مزامنة {{AMOUNT}} إدخال."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "تجزئة التوكن (TF)",
+    "caption": "قلل رسوم المعاملات عن طريق تجزئة التوكنز.",
+    "fragment": {
+      "label": "حجم حزمة التوكن",
+      "error": "Token bundle size limit: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Determines how many tokens each UTxO output should contain. This is a trade-off between lower transaction fees and the amount of funds locked in the wallet.\nSmall bundle size -> lower fees, more Ada locked.\nLarge bundle size -> higher fees, less Ada locked."
+    },
+    "setting": {
+      "caption": "Split tokens into bundles when sending if there are more tokens in the remainder than the specified value. Depending on the UTxO/Token distribution in your wallet and the desired outcome, you might need to adjust the values to achieve the best result.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) enabled",
+      "disabled": "$t(settings-account:tokenFragmentation.title) disabled"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Advanced UTxO Management",
+    "caption": "Use advanced UTxO management in your transactions.",
+    "setting": {
+      "caption": "When enabled, $t(common:appName) will use advanced UTxO management in your transactions.",
+      "subCaption": "Maintains 10 UTxOs for parallel transaction execution. It will also try to keep a collateral UTxO worth 5 ADA for smart contract interactions.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) enabled",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) disabled"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "السحب التلقائي",
+    "caption": "اسحب المكافآت تلقائيًا لو احتجت.",
+    "setting": {
+      "caption": "لما تكون متفعّلة، المكافآت هتتسحب تلقائيًا لو احتجت عند إنشاء معاملة. لو غير متفعّلة أو للسحب اليدوي الإجباري، استخدم زر السحب في صفحة الملخص.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) enabled",
+      "disabled": "$t(settings-account:autoWithdrawal.title) disabled"
+    }
+  },
+  "unStake": {
+    "title": "Un-stake wallet\n(De-register wallet)",
+    "caption": "Undelegate the current account from any pool and create a de-registration transaction.",
+    "setting": {
+      "caption": "This action creates a de-registration transaction for the account. Once completed, the account will be undelegated from any pool, and the key deposit made when the account was first delegated will be returned.",
+      "subCaption": "Please note that any pending rewards from pool delegation, catalyst rewards, etc., will be lost when the account is de-registered!",
+      "acknowledged": "أنا فاهم إن أي مكافآت معلقة هتضيع.",
+      "noUtxo": "مطلوب {{currency}} لدفع رسوم معاملة إلغاء التسجيل.",
+      "button": {
+        "deReg": {
+          "label": "إلغاء تسجيل الحساب",
+          "tooltip": "De-register account from pool delegation"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "إلغاء التسجيل كـ DRep",
+    "caption": "إنشاء معاملة إلغاء تسجيل DRep. قوة التصويت المفوضة لهذا الـ DRep هتضيع.",
+    "setting": {
+      "caption": "ده هينشئ معاملة إلغاء تسجيل DRep. قوة التصويت المفوضة لهذا الـ DRep هتضيع.",
+      "subCaption": "To regain the ability to withdraw staking rewards, you will need to delegate your account to a different DRep.",
+      "acknowledged": "أنا فاهم إن كل قوة التصويت المفوضة هتضيع.",
+      "noUtxo": "مطلوب {{currency}} لدفع رسوم معاملة إلغاء التسجيل.",
+      "button": {
+        "deReg": {
+          "label": "إلغاء تسجيل الحساب",
+          "tooltip": "De-register account from pool delegation"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "التقارير",
+    "caption": "إعدادات تصدير التقارير الضريبية."
+  }
+}

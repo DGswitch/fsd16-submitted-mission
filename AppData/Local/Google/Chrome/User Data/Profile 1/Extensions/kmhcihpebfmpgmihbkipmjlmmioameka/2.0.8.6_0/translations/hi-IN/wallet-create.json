@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "अपने wallet रिकवरी वाक्यांश के सभी शब्दों को कागज के टुकड़े पर ठीक उसी क्रम में लिखें जैसा यहां दिखाया गया है",
+    "notice": "कोई शॉर्टकट न अपनाएं, ये शब्द महत्वपूर्ण हैं!",
+    "reveal": "रिकवरी वाक्यांश प्रकट करें",
+    "hidden": "सुनिश्चित करें कि कोई आपकी स्क्रीन न देख सके"
+  },
+  "confirm": {
+    "title": "वाक्यांश की पुष्टि करें",
+    "caption": "सत्यापित करें कि आपने सही शब्द लिखे हैं",
+    "instruction": "चुनें ",
+    "key_one": "<b>{{count}}</b> पहला शब्द",
+    "key_two": "<b>{{count}}</b> दूसरा शब्द",
+    "key_few": "<b>{{count}}</b> तीसरा शब्द",
+    "key_other": "<b>{{count}}</b> वाँ शब्द",
+    "incorrect": "ग़लत, कृपया पुनः प्रयास करें!"
+  },
+  "password": {
+    "title": "स्पेंडिंग पासवर्ड सेट करें",
+    "caption": "अपने wallet को सुरक्षित करने के लिए एक स्पेंडिंग पासवर्ड सेट करें। लंबे पासवर्ड से सुरक्षा बढ़ती है।",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet सफलतापूर्वक बनाया गया।"
+  },
+  "error": {
+    "failed": "wallet बनाने में विफल, कृपया पुनः प्रयास करें।",
+    "mnemonic": "त्रुटि: createWallet: mnemonic सेट नहीं है।",
+    "spendingPassword": "त्रुटि: createWallet: स्पेंडिंग पासवर्ड सेट नहीं है।",
+    "paymentScript": "त्रुटि: createWallet: पेमेंट स्क्रिप्ट सेट नहीं है।",
+    "address": "त्रुटि: createWallet: एड्रेस सेट नहीं है।",
+    "paymentPrvKey": "त्रुटि: createWallet: पेमेंट की सेट नहीं है।",
+    "accountPubNotSet": "त्रुटि: createWallet: अकाउंट पब की लिस्ट या एड्रेस सेट नहीं है।",
+    "walletName": "त्रुटि: createWallet: walletName सेट नहीं है।",
+    "account": "wallet अकाउंट प्राप्त करने में असमर्थ, कृपया रीलोड करें या यदि यह बार-बार होता है तो सपोर्ट से संपर्क करें।"
+  }
+}

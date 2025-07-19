@@ -1,0 +1,80 @@
+{
+  "title":                    "Account UTxO List",
+  "menuTitle":                "UTxO List",
+
+  "caption":                    "A list of all UTxOs under management of this account, including amount and token lists.",
+  "subcaption":                 "A UTxO is like a dollar bill of arbitrary value. Transactions spend it and put back 'change bills' to your wallet.",
+
+
+  "empty":                    "This account does not have any UTxOs.",
+
+  "selectall":                "Select all",
+
+  "filters": {
+
+    "headline":               "UTxO Filter",
+    "caption":                "Set parameters or enter a search string to filter utxo list.",
+    "search":                 "Search by address, path or tx id...",
+    "more":                   "More",
+    "minada":                 "Min {{adaCurrency}} amount",
+    "maxada":                 "Max {{adaCurrency}} amount",
+    "numassets":              "{{numAssets}} unique asset(s) found."
+  },
+
+  "badges": {
+
+    "utxos":                  "{{utxo_count}} UTxO on {{address_count}} addresses",
+    "pendingIn": {
+      "hint":                 "(pending inputs, spent utxos)"
+    },
+
+    "pendingOut": {
+      "hint":                 "(pending outputs, created utxos)"
+    },
+
+    "opkosk": {
+      "label":                "Earning Rewards",
+      "hint":                 "(account payment key, account stake key)"
+    },
+
+    "opk": {
+      "label":                "$t(page/staking:notStaked)",
+      "hint":                 "(account payment key, no stake key)"
+    },
+
+    "opkesk": {
+      "label":                "delegated externally",
+      "hint":                 "(account payment key, external stake key)"
+    },
+
+    "epkosk": {
+
+      "label":                "External funds, but earning rewards",
+      "hint":                 "(external payment key, account stake key)"
+    },
+
+    "collateral": {
+
+      "label":                "Collateral",
+      "hint":                 "(not all are set as collateral)"
+    },
+
+    "locked": {
+      "label":                "locked UTxOs"
+    }
+  },
+
+  "stake": {
+    "tooltip":                "Total amount staked to the stake key of this account (either owned, external or in smart contracts).",
+    "breakdown":              "Stake breakdown",
+    "own":                    "Owned amount staked to account stake key.",
+    "owned":                  "Owned stake",
+    "enterprise":             "Amount on enterprise addresses not earning rewards.",
+    "amount":                 "Amount from this account combined with any external staking keys.",
+    "externally":             "Externally staked"
+
+
+
+  }
+}
+

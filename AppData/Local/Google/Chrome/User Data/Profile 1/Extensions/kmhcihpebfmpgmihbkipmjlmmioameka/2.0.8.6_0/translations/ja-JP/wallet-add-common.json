@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet名",
+    "caption": "walletに認識しやすい名前を付けてください。"
+  },
+  "phrase": {
+    "title": "ニーモニックフレーズ"
+  },
+  "account": {
+    "title": "アカウント数",
+    "caption": "作成するアカウント数を指定してください。",
+    "suffix": "アカウント",
+    "description": "$t(common:appName)のwalletは最大{{accountLimit}}個のアカウントを持つことができます。各アカウントは異なるステークプールに委任できます。アカウントキーはwalletのルートキーから生成されます。",
+    "tooltip": "アカウントを追加するごとに同期時間が増加します。アカウントはいつでも追加できます。"
+  },
+  "create": {
+    "title": "walletを作成中",
+    "caption": "walletが生成されるまでお待ちください",
+    "password": {
+      "title": "支払いパスワードを設定",
+      "caption": "長いパスワードを選択してください。長いほど、資金はより安全になります。"
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Walletが正常に追加されました",
+      "created": "Walletが正常に作成されました",
+      "restored": "Walletが正常に復元されました",
+      "imported": "Walletが正常にインポートされました"
+    },
+    "processing": "walletを作成中...",
+    "exists": "Walletは既に存在します。walletにリダイレクトしています。"
+  }
+}

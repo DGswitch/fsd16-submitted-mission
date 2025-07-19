@@ -1,0 +1,68 @@
+{
+  "title": "Impressum",
+  "imprint": "Impressum",
+  "contact": "Kontakt",
+  "edc": "Eternl DRep Komitee",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "DRep Id",
+    "text": "drep13d6sxkyz6st9h65qqrzd8ukpywhr8swe9f6357qntgjqye0gttd"
+  },
+  "discord": {
+    "label": "Discord",
+    "text": "Klicke hier, um unserem $t(common:appName) Discord-Server beizutreten (mit Support-Ticket-System)"
+  },
+  "telegram": {
+    "label": "Telegram",
+    "text": "Klicke hier, um unserem $t(common:appName) Telegram-Kanal beizutreten."
+  },
+  "github": {
+    "label": "GitHub",
+    "text": "Wenn du einen Feature-Request hast, nutze bitte den GitHub Issue Tracker. Klicke hier, um ihn in einer neuen Seite zu öffnen."
+  },
+  "email": {
+    "label": "E-Mail",
+    "text": "Schreibe uns eine E-Mail an team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "E-Mail",
+    "text": "Schreibe uns eine E-Mail an drep@eternl.io"
+  },
+  "address": {
+    "label": "Sitz der Gesellschaft",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nDeutschland"
+  },
+  "person": {
+    "label": "Vertretungsberechtigte Personen",
+    "text": "Marcel Baumberg (Geschäftsführer)"
+  },
+  "company": {
+    "label": "Angaben zum Unternehmen",
+    "text": "Umsatzsteuer Identifikationsnummer (USt-ID): DE264395179\nHandelsregister Amtsgericht Leipzig: HRB 24784"
+  },
+  "legallabel": "Haftungs- und Schutzrechtshinweise",
+  "legal0": {
+    "label": "Haftungsausschluss",
+    "text": "Die Inhalte dieses Onlineangebotes wurden sorgfältig und nach unserem aktuellen Kenntnisstand erstellt, dienen jedoch nur der Information und entfalten keine rechtlich bindende Wirkung, sofern es sich nicht um gesetzlich verpflichtende Informationen (z.B. das Impressum, die Datenschutzerklärung, AGB oder verpflichtende Belehrungen von Verbrauchern) handelt. Wir behalten uns vor, die Inhalte vollständig oder teilweise zu ändern oder zu löschen, soweit vertragliche Verpflichtungen unberührt bleiben. Alle Angebote sind freibleibend und unverbindlich."
+  },
+  "legal1": {
+    "label": "Links auf fremde Webseiten",
+    "text": "Die Inhalte fremder Webseiten, auf die wir direkt oder indirekt verweisen, liegen außerhalb unseres Verantwortungsbereiches und wir machen sie uns nicht zu Eigen. Für alle Inhalte und Nachteile, die aus der Nutzung der in den verlinkten Webseiten aufrufbaren Informationen entstehen, übernehmen wir keine Verantwortung."
+  },
+  "legal2": {
+    "label": "Urheberrechte und Markenrechte",
+    "text": "Alle auf dieser Website dargestellten Inhalte, wie Texte, Fotografien, Grafiken, Marken und Warenzeichen sind durch die jeweiligen Schutzrechte (Urheberrechte, Markenrechte) geschützt. Die Verwendung, Vervielfältigung usw. unterliegen unseren Rechten oder den Rechten der jeweiligen Urheber bzw. Rechteverwalter."
+  },
+  "legal3": {
+    "label": "Hinweise auf Rechtsverstöße",
+    "text": "Sollten Sie innerhalb unseres Internetauftritts Rechtsverstöße bemerken, bitten wir Sie uns auf diese hinzuweisen. Wir werden rechtswidrige Inhalte und Links nach Kenntnisnahme unverzüglich entfernen."
+  },
+  "button": {
+    "home": "Startseite"
+  }
+}

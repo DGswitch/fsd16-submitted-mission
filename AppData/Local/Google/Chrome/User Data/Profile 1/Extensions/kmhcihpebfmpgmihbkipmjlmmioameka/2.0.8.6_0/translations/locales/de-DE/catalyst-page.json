@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst – Projektfinanzierung",
+  "caption": "Catalyst bringt On-Chain-Governance zur Cardano blockchain.",
+  "subCaption": "Hilf mit, die Zukunft von Cardano mitzugestalten, indem du über Finanzierungsvorschläge abstimmst",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "nächster Fonds",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "Das Speichern des Voting-Schlüssels im Wallet Speicher ist fehlgeschlagen. Bitte kontaktiere den Support für weitere Hilfe!",
+    "catalystkey": "Catalyst Voting-Schlüssel fehlt. Das sollte nicht passieren, bitte kontaktiere den Support!",
+    "api": "Voting-API kann nicht abgefragt werden. Bitte lade die Seite neu oder kontaktiere den Support, falls das Problem weiterhin besteht.",
+    "funds": "Mindestens ###min_ada_catalyst### sind erforderlich, damit die Wallet an der Abstimmung teilnehmen kann.",
+    "rewards": "Deine ###rewards_amount### Rewards können nicht für die Abstimmung verwendet werden, es sei denn, du hebst sie auf deine Wallet ab.",
+    "nometadata": "Unbekannter Fehler, die Registrierungs-Metadata wurde nicht korrekt generiert. Bitte versuche es erneut oder kontaktiere den Support, falls das Problem weiterhin besteht."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "Bitte beachte",
+      "caption": "Aktuell ist die Registrierung für Fonds 10 von Catalyst geöffnet. Nach diesem Event wird die Abstimmung über zukünftige Fonds anders gehandhabt. Tritt den Catalyst Communities bei, um mehr zu erfahren."
+    }
+  }
+}

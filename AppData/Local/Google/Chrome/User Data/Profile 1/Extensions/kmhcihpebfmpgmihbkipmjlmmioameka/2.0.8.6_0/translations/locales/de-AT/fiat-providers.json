@@ -1,0 +1,17 @@
+{
+  "mercuryo": {
+    "name": "Mercuryo",
+    "description": "Von Bargeld zu Krypto – in 15 Sekunden. Kein erweitertes KYC erforderlich.",
+    "label": "Mercuryo FAQ"
+  },
+  "guardarian": {
+    "name": "Guardarian",
+    "description": "Guardarian bietet einen benutzerfreundlichen Fiat-zu-Krypto-Service für schnelle Transaktionen.\n&#8226; Hauptregion: Europa\n&#8226; 5+ Zahlungsoptionen",
+    "label": "Guardarian FAQ"
+  },
+  "transak": {
+    "name": "Transak",
+    "description": "Verfügbar für über 170 Kryptowährungen auf 75+ Blockchains via Karten, Banküberweisungen und andere Zahlungsmethoden in 169 Ländern.",
+    "label": "Transak FAQ"
+  }
+}

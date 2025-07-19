@@ -1,0 +1,64 @@
+{
+  "menuLabel": "Governance",
+  "title": "Blockchain Governance",
+  "caption": "Dezentrale On-Chain-Governance zum Greifen nah.",
+  "subCaption": "Registrier dich als DRep oder durchstöbere die DRep-Liste. Entdecke Vorschläge.",
+  "drep_one": "DRep",
+  "drep_other": "DReps",
+  "delegation": {
+    "common": "DRep-Delegierung",
+    "current": "Aktuelle DRep-Delegierung"
+  },
+  "proposals": "Governance-Vorschläge",
+  "totalProposals": "Anzahl der Vorschläge",
+  "information": "$t(common:information)",
+  "register": {
+    "title": "Als DRep registrieren",
+    "caption": "Wennst di ois Delegierter Repräsentant (DRep) auf Cardano registrierst, kannst bei Governance-Vorschlägen mitbestimmen und so die Zukunft der blockchain beeinflussen. Für die Registrierung brauchst a rückzahlbare Kaution von 500 {{currency}}, die dir bei der Deregistrierung wieder zruckgezahlt wird.\n\nWennst bei der Registrierung a metadata-Datei angibst, kannst deine Ziele mitteilen und so Delegationen von anderen {{currency}}-Besitzern gewinnen, wodurch dei Stimmgewicht steigt.",
+    "button": "Als DRep registrieren",
+    "modal": {
+      "anchorURL": {
+        "title": "Gib die metadata-Anker-URL ein (optional)",
+        "placeholder": "Anker-URL",
+        "error": "Bitte gib eine gültige URL ein"
+      },
+      "registration": {
+        "title": "DRep-Registrierung",
+        "button": "Als DRep registrieren"
+      },
+      "updateRegistration": {
+        "title": "DRep-Registrierung aktualisieren",
+        "button": "DRep aktualisieren"
+      }
+    }
+  },
+  "banner": {
+    "common": {
+      "caption": "Um staking-Rewards abzuheben, muss dieses Konto an einen Delegierten Repräsentanten (DRep) delegiert werden: delegiere an einen DRep, entscheide dich für Enthaltung oder wähle 'Kein Vertrauen'. Rewards werden auch ohne DRep-Delegierung weiterhin angesammelt."
+    },
+    "era": {
+      "title": "Dieses Netzwerk befindet sich noch nicht im Governance-Zeitalter."
+    },
+    "notDelegated": {
+      "title": "Nicht delegiert",
+      "caption": "$t(governance-page:banner.common.caption) Diese Anforderung wird vom Netzwerk erzwungen."
+    },
+    "considerDelegation": {
+      "title": "Delegierung in Betracht ziehen",
+      "caption": "Erwäge eine Delegierung an einen DRep als Vorbereitung auf das kommende Zeitalter. $t(governance-page:banner.common.caption)"
+    },
+    "nodelegation": {
+      "info": "Bitte erwäge, für Governance-Aktionen an einen DRep zu delegieren. Es wird im folgenden Zeitalter erforderlich sein, um staking-Rewards abheben zu können."
+    },
+    "inactive": "Das Konto ist an einen Governance-DRep delegiert, der als inaktiv markiert ist und somit nicht mehr zum aktiven Stimmanteil beiträgt"
+  },
+  "era": "Dieses Netzwerk befindet sich noch nicht im Governance-Zeitalter.",
+  "delegate": "Diesen DRep wählen",
+  "openList": "Liste öffnen",
+  "openDRepList": "DRep-Liste öffnen",
+  "button": {
+    "showDRepList": "DRep-Liste anzeigen",
+    "showDRepDetails": "Details anzeigen",
+    "browseDReps": "DReps durchsuchen"
+  }
+}

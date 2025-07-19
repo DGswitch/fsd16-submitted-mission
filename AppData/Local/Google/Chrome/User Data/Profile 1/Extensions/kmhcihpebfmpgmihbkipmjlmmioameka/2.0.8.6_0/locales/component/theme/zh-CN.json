@@ -1,0 +1,14 @@
+{
+  "eternl": {
+    "label": "Eternl 主題",
+    "caption": "我哋嘅預設 Eternl 介面風格。設計簡潔。"
+  },
+  "classic": {
+    "label": "Eternl 經典主題",
+    "caption": "我哋嘅經典 Eternl 主題，向 v1 致敬。"
+  },
+  "monochrome": {
+    "label": "單色主題",
+    "caption": "時尚單色，無干擾。"
+  }
+}

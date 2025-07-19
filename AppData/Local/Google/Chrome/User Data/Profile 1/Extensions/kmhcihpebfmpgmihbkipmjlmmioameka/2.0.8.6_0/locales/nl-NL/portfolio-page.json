@@ -1,0 +1,20 @@
+{
+  "menuLabel": "Portefeuille",
+  "title": "Portefeuille",
+  "caption": "Overzicht van de waarde van activa in dit account.",
+  "description": "Deze getallen zijn schattingen van de waarde van tokens in uw wallet. De waarden worden slechts elke 5 minuten bijgewerkt en de prijs is een aggregatie van verschillende decentrale beurzen.",
+  "header": {
+    "caption": "Deze wallet bevat {{asset_count}} verschillende activa. Saldi met een waarde lager dan 1 ADA worden verborgen."
+  },
+  "value": "Waarde Activa",
+  "estimated": "Geschatte totale waarde",
+  "table": {
+    "header": {
+      "asset": "Actief",
+      "price": "Prijs",
+      "owned": "In bezit",
+      "percent": "% van portefeuille",
+      "swaptoken": "Token omwisselen"
+    }
+  }
+}

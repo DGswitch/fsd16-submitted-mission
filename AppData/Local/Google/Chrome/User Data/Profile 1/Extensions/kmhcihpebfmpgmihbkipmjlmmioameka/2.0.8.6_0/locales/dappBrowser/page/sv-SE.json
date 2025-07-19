@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp Webbläsare",
+  "title": "Dapp Webbläsare",
+  "caption": "Anslut till Cardano dApps.",
+  "subCaption": "",
+  "connect": "Anslut till {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Ange dapp domän"
+    }
+  }
+}

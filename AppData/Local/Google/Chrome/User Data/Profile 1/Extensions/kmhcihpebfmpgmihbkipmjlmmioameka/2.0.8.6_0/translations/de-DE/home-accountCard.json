@@ -1,0 +1,10 @@
+{
+  "button": {
+    "favorite": {
+      "tooltip": "Diesen Account zu Favoriten hinzufügen."
+    },
+    "dapp": {
+      "tooltip": "Beim Verbinden mit einer DApp wird dieser Account verwendet."
+    }
+  }
+}

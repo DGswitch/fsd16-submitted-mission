@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "लेनदेन cbor पेस्ट करें",
+  "error": {
+    "corrupted": "अपलोड की गई फ़ाइल दूषित है, लेनदेन आयात नहीं किया जा सका।",
+    "invalid": "अपलोड की गई फ़ाइल एक मान्य json फ़ाइल नहीं है।",
+    "format": "ऐसा लगता है कि json फ़ाइल में निर्यातित लेनदेन डेटा नहीं है।"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "copy": {
+    "notify":                   "Copied: "
+  },
+  "add": {
+    "button": {
+      "label":                  "Add On-Chain Message"
+    }
+  },
+  "onchain":                    "On-Chain Message"
+}

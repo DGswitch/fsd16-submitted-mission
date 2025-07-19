@@ -1,0 +1,31 @@
+{
+  "title": "إعدادات الـ Swap",
+  "presets": "إعدادات مسبقة",
+  "slippage": {
+    "title": "Slippage الـ Swap",
+    "caption": "الـ Slippage في عمليات الـ Swap هو الفرق بين أسعار التداول المتوقعة والمنفذة.",
+    "updated": "تم تحديث Slippage الـ Swap إلى {{percentage}}",
+    "banner": {
+      "warning": {
+        "title": "Slippage عالي",
+        "text": "وجود slippage عالي في عمليات الـ Swap ممكن يؤدي لعوائد أقل بكتير. من فضلك اقرا عن الـ slippage لأوامر الـ AMM قبل ما تكمل."
+      }
+    }
+  },
+  "blocklist": {
+    "title": "البروتوكولات المفعلة",
+    "caption": "الـ DEX المعطل مش هيستخدم في عمليات الـ Swap",
+    "presets": "إعدادات مسبقة",
+    "disableV1": "تعطيل Plutus v1",
+    "disableV2": "تعطيل Plutus v2"
+  },
+  "aggregators": {
+    "title": "الـ Aggregators المفعلة",
+    "caption": "الـ Aggregators المعطلة مش هتستخدم في عمليات الـ Swap"
+  },
+  "showMonsterSwap": {
+    "title": "إظهار MonsterSwap",
+    "home": "في الرئيسية",
+    "navigation": "في القائمة الرئيسية"
+  }
+}

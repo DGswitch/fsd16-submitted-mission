@@ -1,0 +1,9 @@
+{
+  "menuLabel":                "Assets",
+
+  "title":                    "Assets",
+  "caption":                  "All your native assets, tokens, NFTs and FTs in one place.",
+  "subCaption":               "Use the filter options to easily find the tokens you are looking for.",
+
+  "empty":                    "No assets found."
+}

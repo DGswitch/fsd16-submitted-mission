@@ -1,0 +1,12 @@
+{
+  "title": "Добре дошъл в $t(common:appName)!",
+  "caption": "мултиплатформен Cardano wallet",
+  "button": {
+    "next": {
+      "label": "Започни настройката"
+    },
+    "watch-tutorial": {
+      "label": "Гледай наръчник"
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "title": "የአስተዳደር ሐሳብ",
+  "proposedEpoch": "የቀረበ epoch",
+  "expiryEpoch": "የማብቂያ ጊዜ epoch",
+  "enactedEpoch": "የፀደቀ epoch",
+  "totalVotes": "ጠቅላላ ድምጾች",
+  "yes": "$t(common:vote.yes)",
+  "govAction": {
+    "id": "የአስተዳደር ተግባር መለያ",
+    "missing": "ያልታወቀ የአስተዳደር ተግባር መለያ",
+    "summary": {
+      "voteStart": "የድምጽ መስጫ መጀመሪያ ($t(common:epoch)/$t(common:slot))",
+      "voteEnd": "የድምጽ መስጫ መጨረሻ ($t(common:epoch)/የቀረው ጊዜ)",
+      "deposit": "$t(common:deposit)",
+      "depositReturnAddress": "$t(common:deposit) የመመለሻ አድራሻ"
+    },
+    "details": {
+      "dRep": {
+        "label": "$t(governance-govActionList:voteGroup.dRep) ($t(common:dRep))",
+        "approvalThreshold": "የማጽደቂያ ገደብ",
+        "table": {
+          "header": {
+            "votes": "ድምጾች",
+            "amount": "ብዛት",
+            "percent": "ፐርሰንት",
+            "count": "ቁጥር"
+          },
+          "rows": {
+            "yesVoteStake": "አዎ",
+            "noVoteStake": "አይ",
+            "abstainVoteStake": "ድምጸ ተአቅቦ"
+          }
+        }
+      },
+      "dRepStakeParticipation": {
+        "label": "$t(common:dRep) የ stake ተሳትፎ",
+        "hasVoted": "ድምጽ ሰጥቷል",
+        "hasNotVoted": "ድምጽ አልሰጠም"
+      },
+      "spo": {
+        "label": "$t(governance-govActionList:voteGroup.spo) ($t(common:spo))",
+        "approvalThreshold": "የማጽደቂያ ገደብ",
+        "table": {
+          "header": {
+            "votes": "ድምጾች",
+            "amount": "ብዛት",
+            "percent": "ፐርሰንት",
+            "count": "ቁጥር"
+          },
+          "rows": {
+            "yesVoteStake": "አዎ",
+            "noVoteStake": "አይ",
+            "abstainVoteStake": "ድምጸ ተአቅቦ"
+          }
+        }
+      },
+      "spoStakeParticipation": {
+        "label": "$t(common:spo) የ Stake ተሳትፎ",
+        "hasVoted": "ድምጽ ሰጥቷል",
+        "hasNotVoted": "ድምጽ አልሰጠም"
+      },
+      "cc": {
+        "label": "የሕገ መንግሥት ኮሚቴ",
+        "approvalThreshold": "የማጽደቂያ ገደብ",
+        "table": {
+          "header": {
+            "name": "ስም",
+            "status": "ሁኔታ"
+          },
+          "rows": {
+            "yesVoteStake": "አዎ",
+            "noVoteStake": "አይ",
+            "abstainVoteStake": "ድምጸ ተአቅቦ"
+          }
+        }
+      }
+    },
+    "meta": {
+      "abstract": "ማጠቃለያ",
+      "motivation": "ምክንያት",
+      "rationale": "ምክንያታዊነት",
+      "references": "ማጣቀሻዎች"
+    }
+  },
+  "voteGroup": {
+    "currentStatus": {
+      "label": "የአሁኑ ሁኔታ",
+      "text": "ይህ ሐሳብ እንዲፀድቅ {{voteGroup}} ድምጽ መስጠት ያስፈልጋቸዋል"
+    },
+    "dRep": "የተወከሉ ተወካዮች",
+    "spo": "የማስያዣ ገንዳ ኦፕሬተሮች",
+    "cc": "ሕገ መንግስታዊ ኮሚቴ",
+    "and": "$t(common:and)"
+  },
+  "tab": {
+    "summary": "ማጠቃለያ",
+    "details": "የድምጽ ዝርዝሮች",
+    "metadata": "Metadata"
+  },
+  "filter": {
+    "search": "የአስተዳደር እርምጃ ይፈልጉ..."
+  },
+  "select": {
+    "proposalType": "የፕሮፖዛል አይነት",
+    "proposalStatus": "የፕሮፖዛል ሁኔታ"
+  }
+}

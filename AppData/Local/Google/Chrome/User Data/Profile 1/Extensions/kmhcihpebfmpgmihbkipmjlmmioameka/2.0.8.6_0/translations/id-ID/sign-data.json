@@ -1,0 +1,12 @@
+{
+  "title": "Anda memiliki data untuk dikonfirmasi",
+  "caption": "Konfirmasi kepemilikan kunci yang diminta dengan menandatangani payload yang disediakan",
+  "loading": "Memproses data untuk ditandatangani",
+  "signing": "Menandatangani payload",
+  "hw": "Menandatangani payload di perangkat {{device}}",
+  "json": "Payload JSON",
+  "hex": "Payload mentah",
+  "text": "Teks",
+  "blake2b224": "Hash Blake2b224 dari payload",
+  "reqSign": "Signature diminta: kunci {{keyType}}"
+}

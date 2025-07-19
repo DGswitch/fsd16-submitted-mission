@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "Projekt Catalyst",
+    "caption": "Läs alla nyheter om den aktuella finansieringsrundan.",
+    "text": "Projekt Catalyst har finansieringsrundor med några månaders mellanrum, med en bestämd mängd ada redo att fördelas till idéer.\n\nHitta all relevant information om alla tidigare och framtida fonder på Projekt Catalyst webbplats.",
+    "button": {
+      "label": "Besök sida",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "Bläddra bland alla förslag",
+    "text": "Catalyst använder IdeaScale som en kollaborativ innovationsplattform.\n\nDetta görs genom röstning på förslag som genererats av gemenskapen, vilka fokuserar på att lösa utmaningen för en specifik fond.",
+    "button": {
+      "label": "Läs mer",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "Allt-i-ett-dataplattformen för Catalyst",
+    "text": "Blockchain-utbildning, uppsökande verksamhet och globalt community-byggande:\n\nFör att framtiden är till för alla!",
+    "button": {
+      "label": "Besök sida",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "Nyhetsbrev",
+    "caption": "Håll dig uppdaterad",
+    "text": "Registrera dig för Projekt Catalyst nyhetsbrev för att inte missa de senaste nyheterna och uppdateringarna.",
+    "button": {
+      "label": "Prenumerera",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "Engagera gemenskapen",
+    "text": "Gå med i Telegrams diskussions- och tillkännagivandekanaler för att dela dina idéer om framtida Cardano-förbättringsförslag och delta i en sund, stimulerande diskussion.",
+    "button1": {
+      "label": "Tillkännagivanden",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "Community-chatt",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "Town Hall",
+    "caption": "Möt byggarna",
+    "text": "Kom och träffa de framtida byggarna av Cardano i de veckovisa Town Hall-mötena. Se deras livepresentationer och delta i meningsfulla konversationer.",
+    "button": {
+      "label": "Veckovisa Town Hall-inspelningar",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "Visa utmaningar",
+      "hide": "Dölj utmaningar",
+      "link": "Utmaningswebbplats",
+      "allocation": "Fondfördelning"
+    },
+    "timeline": {
+      "caption": "Tidslinjen som visas nedan kan komma att ändras. Håll dig uppdaterad genom att besöka den här sidan igen och delta i de veckovisa Catalyst Town Hall-mötena.",
+      "snapshot": {
+        "label": "Snapshot för röststyrka",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "Röstningsstart",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "Röstningsslut",
+        "caption": ""
+      },
+      "result": {
+        "label": "Resultat",
+        "caption": "± några dagar."
+      }
+    }
+  }
+}

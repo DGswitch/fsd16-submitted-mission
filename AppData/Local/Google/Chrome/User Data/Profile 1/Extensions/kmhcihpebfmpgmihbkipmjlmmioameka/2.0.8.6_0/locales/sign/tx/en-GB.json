@@ -1,0 +1,166 @@
+{
+  "tx": {
+
+    "label":                  "You have {{tx_cnt}} transaction(s) to confirm",
+    "caption":                "Click to expand each transaction to reveal more details",
+
+    "loading":                "Processing transaction(s) to sign",
+    "signing":                "Signing transaction <b>{{txindex}}</b> of {{txtotal}}",
+    "submitting":             "Submitting transaction(s)",
+    "sharing":                "Sharing Multi-Sig transaction(s)",
+    "hw":                     "Confirm transaction <b>{{txindex}}</b> of {{txtotal}} on {{device}} device",
+    "keystonehash":           "<b>Due to size, only transaction body hash can be shown on device !!</b>",
+
+    "review":                 "Please review the transaction before confirming"
+  },
+
+  "button": {
+
+    "debug": {
+
+      "label":                "Download debug info"
+    }
+  },
+
+  "status": {
+
+    "signed":                 "$t(common:status.signed)",
+    "partiallysigned":        "$t(common:status.partiallysigned)",
+    "unsigned":               "$t(common:status.unsigned)"
+  },
+
+  "notification": {
+
+    "submitSingle":           "Transaction successfully submitted",
+    "submitMultiple":         "All transactions successfully submitted"
+  },
+
+  "account": {
+
+    "label":                  "Signing wallets",
+    "caption":                " ",
+    "status": {
+
+      "unsignedActive":       "Currently signing",
+      "unsigned":             "Needs signing",
+      "signed":               "Signed",
+      "connecting":           "Connecting"
+    }
+  },
+
+  "banner": {
+
+    "tf": {
+
+      "headline":             "$t(send/options:tf.label)",
+      "caption":              "$t(send/options:tf.caption)"
+    },
+    "cu": {
+
+      "headline":             "$t(send/options:cu.label)",
+      "caption":              "Collect UTxOs of this account by merging them into fewer ones."
+    },
+    "send-all": {
+
+      "headline":             "Sending All Funds",
+      "caption":              "This transaction sends all funds in account, please verify details for destination address."
+    },
+    "high-fee": {
+
+      "headline":             "Higher Than Normal Fee",
+      "caption":              "A higher than normal transaction fee detected, please verify transaction details that this is the desired outcome"
+    },
+    "withdraw": {
+
+      "headline":             "Withdraw Rewards",
+      "caption":              "Your rewards are automatically part of your delegated stake. There is no need to withdraw rewards other than sending them away or to have them count towards catalyst voting power."
+    },
+    "pool-deleg": {
+
+      "headline":             "Pool Delegation",
+      "caption":              "A stake pool delegation transaction. View transaction for details."
+    },
+    "vote-deleg": {
+
+      "headline":             "Vote Delegation",
+      "caption":              "A governance vote delegation transaction. View transaction for details."
+    },
+    "ms-reg": {
+
+      "headline":             "Multi-Sig Wallet Registration",
+      "caption":              "This registers the Multi-Sig wallet on the blockchain for easy discovery by all participants."
+    },
+    "cat-reg": {
+
+      "headline":             "Catalyst Registration",
+      "caption":              "This creates a Catalyst vote registration transaction. This registration is valid for upcoming Catalyst fund snapshots unless overridden by a newer registration."
+    },
+    "collateral": {
+
+      "headline":             "Collateral UTxO",
+      "caption":              "Generates collateral UTxO's sometimes needed when interacting with DApps."
+    },
+    "stake-dereg": {
+
+      "headline":             "Stake Key Deregistration",
+      "caption":              "$t(settings/account:unstake.caption)"
+    },
+    "drep-dereg": {
+
+      "headline":             "DRep Deregistration",
+      "caption":              "$t(settings/account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+
+      "headline":             "Scam Token Cleanup",
+      "caption":              "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+
+      "headline":             "Swap Order",
+      "caption":              "A MonsterSwap order transaction giving you the best routes available."
+    },
+    "swap-cancel": {
+
+      "headline":             "Cancel Swap Order",
+      "caption":              "A cancellation transaction for previously posted swap order."
+    },
+    "donation": {
+
+      "headline":             "Donation",
+      "caption":              "Thank you for supporting Eternl."
+    }
+  },
+
+  "error": {
+
+    "expired":                "Unable to submit! Transaction life time has expired. Please recreate the transaction with a new expiration date (TTL).",
+    "auxDataMismatch":        "There is a mismatch between the attached metadata and the hash requested to sign. The metadata you see for this transaction is not what you sign!",
+    "auxDataMissing":         "Transaction metadata is hidden.",
+    "debug":                  "For further support, please open a Discord ticket with debug data downloaded.",
+    "unknownInputs":          "Unable to calculate accurate transaction balance due to unknown inputs.",
+    "doubleSpend":            "Invalid transaction list, input utxo is spent more than 'once':\n",
+    "missingKeys":            "Transaction(s) does not need any witnesses from available account(s). If already confirmed, please close and submit.",
+    "locked":                 "Transaction(s) attempt to spend one or more of your manually locked UTxOs.",
+    "passwordMismatch":       "Entered passwords does not match, please retry!",
+    "dappUnsupported":        "DApp unsupported for {{device}} wallet.",
+    "fixPermissionUSB":   {
+      "text":                 "Click the button and follow the instructions to allow the USB connection.",
+      "button":               "Fix USB Permission"
+    },
+    "fixPermissionBLE":   {
+      "text":                 "Click the button and follow the instructions to allow the Bluetooth connection.",
+      "button":               "Fix Bluetooth Permission"
+    },
+    "fixPermissionCamera":    {
+      "text":                 "Click the button and follow the instructions to allow the Camera access.",
+      "button":               "Fix Camera Permission"
+    }
+  },
+
+  "info": {
+
+    "signDownload":           "The transaction has been confirmed by all available accounts.",
+    "multiSigShare":          "Share the transaction to notify Multi-Sig wallet participants, or alternatively download and share the transaction manually."
+  }
+}

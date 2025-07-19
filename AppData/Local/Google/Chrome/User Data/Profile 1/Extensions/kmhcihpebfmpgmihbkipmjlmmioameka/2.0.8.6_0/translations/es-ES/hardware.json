@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Conectar wallet de hardware",
+    "caption": "Si tienes una wallet de hardware, este es el lugar.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "La wallet de hardware para criptomonedas Ledger fabricada por Ledger, una empresa con sede en París, Francia.",
+        "models": "Stax, Flex y Nano (X, S y S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor proviene de SatoshiLabs, con sede en la República Checa.",
+        "models": "Model T y Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "Una empresa con sede en Hong Kong que ofrece una wallet de hardware 100% Air-gapped de código abierto con comunicación por código QR, pantalla táctil de 4 pulgadas y lector de huellas dactilares.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "Por determinar",
+        "models": "OneKey Pro verificado"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "Por determinar",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Conectar Ledger usando"
+  },
+  "keystone": {
+    "qrScan": "Escanea el código QR con tu dispositivo Keystone",
+    "distance": "Ajusta la distancia y opcionalmente toca el código QR de Keystone para mejorar el escaneo"
+  },
+  "derivation": {
+    "label": "Modo de Derivación (avanzado)",
+    "icarus": "El estándar de derivación de Cardano según se define en CIP03.",
+    "trezor": "Implementación de Trezor basada en el estándar Icarus.",
+    "ledger": "Sigue el estándar Bitcoin según se define en BIP39.",
+    "default": "(predeterminado)"
+  },
+  "connect": {
+    "title": "Confirmar exportación de clave pública",
+    "caption": "",
+    "info": {
+      "ledger": "Desbloquea tu dispositivo Ledger y abre la aplicación Cardano antes de continuar. Luego sigue las instrucciones indicadas en la aplicación Cardano de tu dispositivo Ledger para completar el proceso de emparejamiento.",
+      "trezor": "Tras la confirmación, sigue las instrucciones indicadas en la pestaña del navegador de Trezor Connect abierta y en tu dispositivo Trezor para completar el proceso de emparejamiento.",
+      "keystone": "Tras la confirmación, escanea el código QR generado con tu dispositivo Keystone y luego procede a escanear la respuesta del código QR de Keystone a través de Eternl.",
+      "onekey": "Asegúrate de que el bridge esté instalado en tu ordenador. Conecta el dispositivo y espera a que se exporten las claves públicas.",
+      "bitbox": "Tras la confirmación, verifica el código de emparejamiento si es necesario y confirma en el dispositivo."
+    }
+  }
+}

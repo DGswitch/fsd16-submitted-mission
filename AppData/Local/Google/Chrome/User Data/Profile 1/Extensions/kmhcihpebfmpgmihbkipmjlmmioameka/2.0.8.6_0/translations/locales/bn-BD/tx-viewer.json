@@ -1,0 +1,23 @@
+{
+  "title": "লেনদেনের বিবরণ",
+  "inputsOutputs": "ইনপুট/আউটপুট",
+  "mints": "মিন্টস/বার্নস",
+  "withdrawals": "উইথড্রয়াল",
+  "certificates": "সার্টিফিকেট",
+  "metadata": "মেটাডেটা",
+  "governance": "গভর্নেন্স",
+  "paramupdate": "প্যারামিটার আপডেট",
+  "recipient": "গ্রহীতা",
+  "scripts": "স্ক্রিপ্টস",
+  "witnesses": "সাক্ষী",
+  "validFor": {
+    "label": "এর জন্য বৈধ",
+    "unlimited": "সময়সীমা নেই",
+    "expired": "লেনদেন শেষ"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Tx হ্যাশ অথবা র Tx Cbor দিয়ে লোড করুন",
+    "invalidTxHashOrCbor": "অবৈধ Tx হ্যাশ অথবা র Tx Cbor!",
+    "invalidTxCbor": "অবৈধ লেনদেন cbor!"
+  }
+}

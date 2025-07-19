@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: Ho lasciato intenzionalmente la maggior parte dei testi, anche se solo alcuni sono in uso.",
+  "showScamInfo": "Mostra info token scam",
+  "guard": {
+    "label": "Eternl Guard",
+    "warning": "$t(scam:guard.label) Attenzione"
+  },
+  "token": {
+    "label": "SCAM",
+    "description": "Questo è un token <span class=\"font-bold\">SCAM</span> noto!<br>I link ai siti web mostrati qui sono scam!<br>Se ti connetti a quei siti web e firmi una transazione<br>il tuo wallet potrebbe essere svuotato completamente!",
+    "image": "Attenzione:\n\nNon interagire con alcun sito web menzionato in questa immagine!",
+    "hover": "Questa transazione contiene un token scam noto. Fai attenzione quando interagisci con esso!"
+  },
+  "app": {
+    "description": "Questa DApp è un sito SCAM noto! C'è una probabilità molto alta che rubi i tuoi fondi o cerchi di truffarti in altri modi!",
+    "description2": "Ti consigliamo vivamente di <span class=\"font-bold\">NON INTERAGIRE</span> con questa pagina!",
+    "ownRisk": "Connettiti a questo sito a tuo rischio e pericolo!",
+    "bannerWarning": "Questo sito è nella lista scam. Fai attenzione e non inserire informazioni sensibili."
+  },
+  "address": {
+    "description": "Questo è un indirizzo SCAM noto! C'è una probabilità molto alta che tu non voglia inviare i tuoi fondi lì!",
+    "description2": "Ti consigliamo vivamente di <span class=\"font-bold\">NON INVIARE</span> fondi ad esso!",
+    "hover": "Questo indirizzo è stato usato per rubare fondi!"
+  },
+  "cleanup": {
+    "label": "Pulisci wallet",
+    "description": "Questo creerà una transazione di pulizia che invierà tutti i token scam noti dal tuo wallet all'indirizzo burn di Eternl. ",
+    "prepared": {
+      "label": "Transazione di pulizia Scam preparata"
+    }
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "donation": {
+    "label": "Donationsadresse",
+    "hover": "Tak for din støtte!"
+  },
+  "eternlburn": {
+    "label": "Eternl Brænd Wallet",
+    "hover": "Brænd adresse"
+  },
+  "eternlFee": {
+    "label": "Dapp Browser Gebyr",
+    "hover": "Et gebyr, der hjælper med at vedligeholde Eternl tjenesterne."
+  },
+  "swapFee": {
+    "label": "Servicegebyr",
+    "hover": "Et gebyr, der hjælper med at vedligeholde Eternl tjenesterne."
+  },
+  "collateral": {
+    "label": "Eternl Collateral Adresse"
+  },
+  "script": {
+    "label": "Script"
+  },
+  "noscript": {
+    "label": "Ikke en Script-adresse"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Rapporteringslabel"
+  },
+  "ext": {
+    "label": "ekstern",
+    "hover": "Denne adresse er ukendt for Eternl."
+  },
+  "openWallet": {
+    "hover": "Klik for at åbne wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Skift til konto: {{name}}"
+  },
+  "contract": {
+    "hover": "Kontrakt {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "Transaktionen indeholder Catalyst stemmeregistrering"
+  },
+  "multisig": {
+    "label": "Multi-Sig Reg",
+    "hover": "Transaktionen indeholder Multi-Sig wallet registrering"
+  },
+  "metadata": {
+    "label": "Meta",
+    "hover": "Transaktionen indeholder metadata"
+  },
+  "withdrawal": {
+    "label": "Udbetaling",
+    "hover": "Transaktionen indeholder udbetaling af belønninger"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "Transaktionen indeholder minted token(s)"
+  },
+  "burn": {
+    "label": "Brænd",
+    "hover": "Transaktionen indeholder brændte token(s)"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Wallet / Stake key registrering"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "Transaktionen indeholder et governance certifikat"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "Wallet afregistrering"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "Stake pool delegation"
+  },
+  "poolreg": {
+    "label": "Pool reg",
+    "hover": "Stake pool registrering"
+  },
+  "poolupd": {
+    "label": "Pool update",
+    "hover": "Stake pool opdatering"
+  },
+  "poolret": {
+    "label": "Pool retire",
+    "hover": "Stake pool pensionering"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Cardano native/multi-sig script"
+  },
+  "plutus": {
+    "label": "Contract",
+    "hover": "Cardano Plutus kontrakt"
+  },
+  "onchain": {
+    "label": "On-chain",
+    "hover": "Transaktionen blev inkluderet i en blok"
+  },
+  "confirmed": {
+    "label": "Bekræftet",
+    "hover": "Transaktionen er underskrevet og klar til at blive indsendt"
+  },
+  "pendingapproval": {
+    "label": "Afventer godkendelse",
+    "hover": "Transaktionen afventer yderligere signaturer fra wallet(s) under din kontrol"
+  },
+  "awaitingothers": {
+    "label": "Venter på andre",
+    "hover": "Transaktionen afventer yderligere signaturer fra eksterne deltagere"
+  },
+  "invalid": {
+    "label": "Ugyldig",
+    "hover": "En input fra denne transaktion er blevet brugt i en anden transaktion."
+  },
+  "pending": {
+    "label": "Afventer",
+    "hover": "Transaktionen afventer stadig udførelse"
+  },
+  "staging": {
+    "label": "Usigneret",
+    "hover": "Denne transaktion er endnu ikke signeret."
+  },
+  "signed": {
+    "label": "Signeret",
+    "hover": "Denne transaktion er signeret, men endnu ikke indsendt."
+  },
+  "inputSigned": {
+    "label": "Signeret",
+    "hover": "Signaturen for denne input er blevet leveret."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Redeemer for denne kontrakt er leveret."
+  },
+  "inputUnsigned": {
+    "label": "Usigneret",
+    "hover": "Signaturen for denne input mangler."
+  },
+  "validFor": {
+    "label": "Gyldig indtil",
+    "hover": "Transaktionen vil blive udført på et tidspunkt eller blive ugyldig, hvis en input utxo er blevet brugt af en anden transaktion."
+  },
+  "unlockTimeStamp": {
+    "label": "Låses op",
+    "hover": "Disse Staking Vault-midler låses op på denne dato."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Denne transaktion låser midler i Staking Vault."
+  },
+  "unlimited": {
+    "label": "Ingen tidsbegrænsning",
+    "hover": "Transaktionen vil blive udført på et tidspunkt eller blive ugyldig, hvis en input utxo er blevet brugt af en anden transaktion."
+  },
+  "expired": {
+    "label": "Udløbet",
+    "hover": "Transaktionens levetid er udløbet"
+  },
+  "setTTL": {
+    "label": "Sæt TTL",
+    "hover": "Sæt transaktionens levetid"
+  },
+  "remove": {
+    "label": "Fjern",
+    "hover": "Klik for at fjerne en udløbet eller ugyldig transaktion.",
+    "hoverNote": "Fjern kun, hvis du ved, at denne transaktion ikke længere vil gå igennem."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Egen wallet adresse"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Ekstern adresse"
+  },
+  "donation_address": {
+    "label": "Donation",
+    "hover": "$t(common:appName) donationsadresse"
+  },
+  "swap_fee": {
+    "label": "Frontend Fee",
+    "hover": "$t(common:appName) frontend fee adresse"
+  },
+  "eternl_fee": {
+    "label": "Frontend Fee",
+    "hover": "$t(common:appName) fee adresse"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Staking vault timelock adresse"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "Angiv et entitetsnavn for denne adresse."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Smart kontraktadresse"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Brokædet Cross Chain Transaktion til Milkomeda"
+  },
+  "submit": {
+    "label": "indsend transaktion",
+    "hover": "Transaktionen er ikke indsendt endnu. Klik her for at indsende den."
+  },
+  "nosubmitted": {
+    "label": "ikke indsendt",
+    "hover": "Transaktionen blev signeret, men ikke indsendt."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "En normal adresse"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Løst Ada Handle adresse der starter med $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Løst Unstoppable Domains adresse der ender på .clay"
+  },
+  "new": {
+    "label": "Ny",
+    "hover": "Ulæst notifikation"
+  },
+  "updated": {
+    "label": "Opdateret",
+    "hover": "Notifikationsindhold opdateret siden sidst læst"
+  },
+  "payment": {
+    "label": "Betaling",
+    "hover": "Betalings script"
+  },
+  "stake": {
+    "label": "Stake",
+    "hover": "Stake script"
+  }
+}

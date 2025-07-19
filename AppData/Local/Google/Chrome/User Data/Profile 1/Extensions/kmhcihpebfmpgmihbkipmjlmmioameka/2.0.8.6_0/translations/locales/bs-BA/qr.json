@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Skeniraj QR kod",
+    "short": "QR"
+  },
+  "loading": "Pokrećem kameru...",
+  "error": {
+    "notAllowed": "Molim te, odobri pristup kameri.",
+    "notFound": "Nema kamere na uređaju.",
+    "notSupported": "Potreban je siguran kontekst (HTTPS, localhost).",
+    "notReadable": "Da li je kamera već u upotrebi?",
+    "overconstrained": "Instalirane kamere nisu odgovarajuće.",
+    "streamApiNotSupported": "Stream API nije podržan u ovom pregledniku.",
+    "insecureContext": "Pristup kameri je dozvoljen samo u sigurnom kontekstu. Koristi HTTPS ili localhost umjesto HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Otvori ekstenziju u načinu cijelog ekrana da bi omogućio pristup kameri. Ovo je potrebno uraditi samo jednom.\n Klikni na ovaj tekst da pređeš u način cijelog ekrana."
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Crea Wallet da Indirizzo Wallet",
+  "caption": "Inserisci un indirizzo delegato (base) o non delegato (di pagamento) per creare un wallet 'in sola lettura'",
+  "error": "Indirizzo non valido, verifica e riprova."
+}

@@ -1,0 +1,11 @@
+{
+  "title": "加入資產",
+  "warning": {
+    "notAllAdded": "唔允許向呢個 output 加入更多資產。請加入另一個 output 以包含更多資產。一筆交易最多只能有三個完全填滿嘅 output。"
+  },
+  "button": {
+    "addAll": "加入全部",
+    "addSearch": "加入全部已篩選嘅項目",
+    "addPage": "加入此頁全部項目"
+  }
+}

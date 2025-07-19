@@ -1,0 +1,14 @@
+{
+  "eternl": {
+    "label": "Eternl テーマ",
+    "caption": "デフォルトの Eternl の外観。シンプルさを追求。"
+  },
+  "classic": {
+    "label": "Eternl クラシックテーマ",
+    "caption": "クラシックな Eternl テーマ。v1へのオマージュ。"
+  },
+  "monochrome": {
+    "label": "モノクロームテーマ",
+    "caption": "余計な装飾のない、洗練されたモノクローム。"
+  }
+}

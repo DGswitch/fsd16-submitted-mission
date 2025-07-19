@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "Normal bir Cardano adresi.",
+    "description": "Bir Cardano adresi addr1 ile başlar ve bu bir script adresi değildir.",
+    "error": {
+      "invalid": "Geçerli bir Cardano adresi değil."
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano Script",
+    "caption": "Bir script adresi.",
+    "description": "Bir Cardano script adresi akıllı sözleşmeler için kullanılır ve addr1 ile başlayıp belirli bir deseni takip eder.",
+    "error": {
+      "invalid": "Geçerli bir Cardano script adresi değil."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "İnsan tarafından okunabilir bir Cardano adresi.",
+    "description": "Bir Ada Handle, $ ile başlayan, basitleştirilmiş bir Cardano adresi olarak kullanılabilen, NFT tabanlı benzersiz bir tanımlayıcıdır.",
+    "banner": {
+      "change": {
+        "title": "Ada Handle adresi değişti!",
+        "text": "Adres defterinde kayıtlı eski adres:\n####OLD####\n\nYeni adres:\n####NEW####\n\n###HANDLE### Ada Handle'ı tarafından temsil edilen adres, adres defterinize eklediğinizden beri değişti.\nBu, Ada Handle'ın farklı bir wallet'a veya hesaba taşındığı anlamına gelir.\n\nFon gönderirseniz, adres defterinizde kayıtlı olandan farklı bir adrese gidecektir.\nAşağıdaki düğmeye tıklayarak mevcut adres defteri girişinin üzerine yazma seçeneğiniz vardır."
+      }
+    },
+    "error": {
+      "invalid": "Geçerli bir Ada Handle değil.",
+      "resolve": "Bu Ada Handle mevcut değil.",
+      "image": "Ada Handle resmi yüklenemedi.",
+      "address": {
+        "invalid": "Adres geçersiz. (Belki bir pazar yerinde listelenmiştir?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Bir blockchain alan adı.",
+    "description": "Unstoppable Domains, Cardano dahil olmak üzere çeşitli kripto para adreslerine bağlanabilen merkeziyetsiz alan adlarıdır.",
+    "error": {
+      "invalid": "Geçerli bir Unstoppable Domain değil.",
+      "resolve": "Bu Unstoppable Domain mevcut değil.",
+      "domain": {
+        "resolve": "Unstoppable Domain çözümlenemedi."
+      },
+      "address": {
+        "invalid": "Adres geçersiz. (Belki bir pazar yerinde listelenmiştir?)",
+        "notSet": "Bu Unstoppable Domain için ayarlanmış bir Cardano adresi yok."
+      }
+    }
+  }
+}

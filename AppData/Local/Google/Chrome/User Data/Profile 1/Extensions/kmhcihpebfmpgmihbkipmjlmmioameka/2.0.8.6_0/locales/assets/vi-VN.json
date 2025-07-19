@@ -1,0 +1,66 @@
+{
+  "title": "Chi tiết tài sản",
+  "owns": "Tài khoản sở hữu",
+  "youOwn": "bạn sở hữu",
+  "numAssets": "Tìm thấy {{numAssets}} tài sản duy nhất.",
+  "tab": {
+    "details": "Chi tiết",
+    "metadata": "__GT__Siêu dữ liệu__",
+    "raw": "Dữ liệu thô",
+    "registry": "Token Registry",
+    "media": "Phương tiện"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Thêm tài sản",
+      "tooltip": "Thêm tài sản này cho người nhận."
+    },
+    "editAsset": {
+      "label": "Sửa tài sản",
+      "tooltip": "Thay đổi số lượng."
+    },
+    "addAssets": {
+      "label": "Thêm tài sản",
+      "tooltip": "Thêm tài sản khác cho người nhận này."
+    },
+    "editAssets": {
+      "label": "Sửa tài sản",
+      "tooltip": "Thay đổi các tài sản đã thêm."
+    },
+    "removeAsset": {
+      "label": "Xóa tài sản",
+      "tooltip": "Xóa tài sản khỏi người nhận này."
+    },
+    "addCollection": {
+      "label": "Thêm bộ sưu tập",
+      "tooltip": "Thêm bộ sưu tập này cho người nhận."
+    },
+    "removeCollection": {
+      "label": "Xóa bộ sưu tập",
+      "tooltip": "Xóa bộ sưu tập khỏi người nhận này."
+    }
+  },
+  "hover": {
+    "removeAsset": "Xóa tài sản"
+  },
+  "filter": {
+    "search": "Tìm kiếm theo policy, tên, fingerprint, hoặc __GT__siêu dữ liệu__..."
+  },
+  "price": {
+    "unknown": "Giá trị token không xác định",
+    "value": "Giá trị token",
+    "avg": "Giá trung bình"
+  },
+  "media": {
+    "format": {
+      "html": "Tệp HTML",
+      "pdf": "Tệp PDF",
+      "image": "Hình ảnh",
+      "video": "Video",
+      "audio": "Âm thanh"
+    }
+  },
+  "digits": {
+    "unknown": "Số thập phân không xác định"
+  }
+}

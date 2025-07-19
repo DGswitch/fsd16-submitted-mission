@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "তোমার ওয়ালেটের রিকভারি ফ্রেজের সব শব্দগুলো এখানে দেখানো সঠিক ক্রমে একটা কাগজে লিখে রাখো।",
+    "notice": "কোনো শর্টকাট নয়, এই শব্দগুলো খুবই জরুরি!",
+    "reveal": "রিকভারি ফ্রেজ দেখাও",
+    "hidden": "নিশ্চিত করো যেন কেউ তোমার স্ক্রিন দেখতে না পায়"
+  },
+  "confirm": {
+    "title": "ফ্রেজ নিশ্চিত করো",
+    "caption": "যাচাই করো যে তুমি সঠিক শব্দগুলো লিখেছো",
+    "instruction": "সিলেক্ট করো ",
+    "key_one": "<b>{{count}}</b>তম শব্দ",
+    "key_two": "<b>{{count}}</b>তম শব্দ",
+    "key_few": "<b>{{count}}</b>তম শব্দ",
+    "key_other": "<b>{{count}}</b>তম শব্দ",
+    "incorrect": "ভুল হয়েছে, দয়া করে আবার চেষ্টা করো!"
+  },
+  "password": {
+    "title": "লেনদেনের পাসওয়ার্ড সেট করো",
+    "caption": "তোমার ওয়ালেট সুরক্ষিত রাখতে একটা লেনদেনের পাসওয়ার্ড সেট করো। লম্বা পাসওয়ার্ড দিলে নিরাপত্তা বাড়বে।",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "ওয়ালেট সফলভাবে তৈরি হয়েছে।"
+  },
+  "error": {
+    "failed": "ওয়ালেট তৈরি করতে সমস্যা হচ্ছে, দয়া করে আবার চেষ্টা করো।",
+    "mnemonic": "Error: createWallet: mnemonic not set.",
+    "spendingPassword": "Error: createWallet: spending password not set.",
+    "paymentScript": "Error: createWallet: payment script not set.",
+    "address": "Error: createWallet: address not set.",
+    "paymentPrvKey": "Error: createWallet: payment key not set.",
+    "accountPubNotSet": "Error: createWallet: account pub key list or address not set.",
+    "walletName": "Error: createWallet: walletName not set.",
+    "account": "ওয়ালেট অ্যাকাউন্ট পেতে সমস্যা হচ্ছে, দয়া করে রিলোড করো অথবা সমস্যা চললে সাপোর্ট-এর সাথে যোগাযোগ করো।"
+  }
+}

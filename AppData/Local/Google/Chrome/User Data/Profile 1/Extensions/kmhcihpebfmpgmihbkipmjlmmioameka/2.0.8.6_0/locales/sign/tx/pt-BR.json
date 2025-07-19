@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "Você tem {{tx_cnt}} transação(ões) para confirmar",
+    "caption": "Clique para expandir cada transação e revelar mais detalhes",
+    "loading": "Processando transação(ões) para assinar",
+    "signing": "Assinando transação <b>{{txindex}}</b> de {{txtotal}}",
+    "submitting": "Enviando transação(ões)",
+    "sharing": "Compartilhando transação(ões) Multi-Sig",
+    "hw": "Confirme a transação <b>{{txindex}}</b> de {{txtotal}} no dispositivo {{device}}",
+    "keystonehash": "<b>Devido ao tamanho, apenas o hash do corpo da transação pode ser exibido no dispositivo !!</b>",
+    "review": "Por favor, reveja a transação antes de confirmar"
+  },
+  "button": {
+    "debug": {
+      "label": "Baixar informações de depuração"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "Transação enviada com sucesso",
+    "submitMultiple": "Todas as transações enviadas com sucesso"
+  },
+  "account": {
+    "label": "Carteiras assinantes",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "Assinando atualmente",
+      "unsigned": "Precisa assinar",
+      "signed": "Assinado",
+      "connecting": "Conectando"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send/options:tf.label)",
+      "caption": "$t(send/options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send/options:cu.label)",
+      "caption": "Colete UTxOs desta conta, mesclando-os em um número menor."
+    },
+    "send-all": {
+      "headline": "Enviando Todos os Fundos",
+      "caption": "Esta transação envia todos os fundos da conta, por favor, verifique os detalhes do endereço de destino."
+    },
+    "high-fee": {
+      "headline": "Taxa Mais Alta Que o Normal",
+      "caption": "Uma taxa de transação mais alta que o normal foi detectada, por favor, verifique os detalhes da transação para confirmar que este é o resultado desejado"
+    },
+    "withdraw": {
+      "headline": "Sacar Recompensas",
+      "caption": "Suas recompensas fazem parte automaticamente do seu stake delegado. Não há necessidade de sacar as recompensas, a não ser para enviá-las ou para que contem para o poder de voto no catalyst."
+    },
+    "pool-deleg": {
+      "headline": "Delegação de Pool",
+      "caption": "Uma transação de delegação para stake pool. Veja a transação para detalhes."
+    },
+    "vote-deleg": {
+      "headline": "Delegação de Voto",
+      "caption": "Uma transação de delegação de voto de governança. Veja a transação para detalhes."
+    },
+    "ms-reg": {
+      "headline": "Registro de Wallet Multi-Sig",
+      "caption": "Isso registra a wallet Multi-Sig na blockchain para fácil descoberta por todos os participantes."
+    },
+    "cat-reg": {
+      "headline": "Registro Catalyst",
+      "caption": "Isso cria uma transação de registro de voto Catalyst. Este registro é válido para os próximos snapshots de fundos do Catalyst, a menos que seja substituído por um registro mais recente."
+    },
+    "collateral": {
+      "headline": "UTxO Colateral",
+      "caption": "Gera UTxOs colaterais, às vezes necessários ao interagir com DApps."
+    },
+    "stake-dereg": {
+      "headline": "Cancelamento de Registro da Stake Key",
+      "caption": "$t(settings/account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "Cancelamento de Registro do DRep",
+      "caption": "$t(settings/account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "Limpeza de Tokens Scam",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "Ordem de Swap",
+      "caption": "Uma transação de ordem MonsterSwap oferecendo as melhores rotas disponíveis."
+    },
+    "swap-cancel": {
+      "headline": "Cancelar Ordem de Swap",
+      "caption": "Uma transação de cancelamento para uma ordem de swap postada anteriormente."
+    },
+    "donation": {
+      "headline": "Doação",
+      "caption": "Obrigado por apoiar a Eternl."
+    }
+  },
+  "error": {
+    "expired": "Não foi possível submeter! O tempo de vida da transação expirou. Por favor, recrie a transação com uma nova data de expiração (TTL).",
+    "auxDataMismatch": "Há uma incompatibilidade entre os metadata anexados e o hash solicitado para assinar. Os metadata que você vê para esta transação não são o que você assina!",
+    "auxDataMissing": "Os metadata da transação estão ocultos.",
+    "debug": "Para suporte adicional, por favor, abra um ticket no Discord com os dados de depuração descarregados.",
+    "unknownInputs": "Não é possível calcular o saldo exato da transação devido a inputs desconhecidos.",
+    "doubleSpend": "Lista de transações inválida, o input utxo foi gasto mais de 'uma vez':\n",
+    "missingKeys": "A(s) transação(ões) não necessita(m) de testemunhas das contas disponíveis. Se já estiver confirmada, por favor, feche e submeta.",
+    "locked": "A(s) transação(ões) tenta(m) gastar um ou mais dos seus UTxOs bloqueados manualmente.",
+    "passwordMismatch": "As senhas inseridas não coincidem, por favor, tente novamente!",
+    "dappUnsupported": "DApp não suportado para {{device}} wallet.",
+    "fixPermissionUSB": {
+      "text": "Clique no botão e siga as instruções para permitir a conexão USB.",
+      "button": "Corrigir Permissão USB"
+    },
+    "fixPermissionBLE": {
+      "text": "Clique no botão e siga as instruções para permitir a conexão Bluetooth.",
+      "button": "Corrigir Permissão Bluetooth"
+    },
+    "fixPermissionCamera": {
+      "text": "Clique no botão e siga as instruções para permitir o acesso à Câmera.",
+      "button": "Corrigir Permissão da Câmera"
+    }
+  },
+  "info": {
+    "signDownload": "A transação foi confirmada por todas as contas disponíveis.",
+    "multiSigShare": "Partilhe a transação para notificar os participantes da wallet Multi-Sig ou, alternativamente, descarregue e partilhe a transação manualmente."
+  }
+}

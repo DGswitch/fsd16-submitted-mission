@@ -1,0 +1,55 @@
+{
+  "spo": "mengoperasikan satu stake pool",
+  "mpo": "mengoperasikan {{count}} stake pool",
+  "retired": "Pensiun pada epoch {{epoch}}",
+  "retiredIn": "Pensiun pada epoch {{epoch}}",
+  "noRewards": "Pool ini TIDAK akan mendapatkan imbalan {{adaSymbol}}.",
+  "lessRewards": "Pool ini akan mendapatkan imbalan lebih sedikit dari biasanya.",
+  "history": "Riwayat Imbalan",
+  "fees": "Biaya",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Hijau: dalam rentang optimal. Merah: mendapatkan imbalan lebih sedikit."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Hijau: dalam rentang normal. Merah: mendapatkan imbalan lebih sedikit."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake. Kinerja 12 epoch terakhir. Hijau: dalam rentang normal. ROS akan lebih berfluktuasi untuk pool dengan stake lebih sedikit."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Klaim imbalan",
+      "syncing": "Wallet sedang sinkronisasi",
+      "norewards": "Tidak ada imbalan yang tersedia"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Bulan lalu",
+      "3months": "3 bulan terakhir",
+      "6months": "6 bulan terakhir",
+      "year": "Tahun lalu"
+    },
+    "view-history": "Lihat Riwayat",
+    "view-graph": {
+      "stake-key": "kunci stake akun"
+    },
+    "approx-earning": "Estimasi imbalan selama setahun ke depan",
+    "unclaimed-ada": "ADA yang belum diklaim",
+    "lifetime-earning": "Secara keseluruhan Anda menghasilkan",
+    "lifetime-apy": "APY Seumur Hidup",
+    "lifetime-earned": "sejak Anda mulai staking",
+    "epoch-ends-in": "epoch ini berakhir dalam",
+    "search": "Masukkan ticker, nama atau detail",
+    "delegate": "Pilih pool ini",
+    "openPoolList": "Buka daftar pool"
+  }
+}

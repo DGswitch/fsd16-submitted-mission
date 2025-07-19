@@ -1,0 +1,78 @@
+{
+  "menuLabel":                "Staking",
+
+  "title":                    "Staking Dashboard",
+  "caption":                  "Here you can manage and delegate your ADA to a Stakepool and earn a passive income.",
+  "subCaption":               "Your funds never leave your wallet for staking on Cardano, and can be spent at any time.",
+
+  "staking-cta": {
+
+    "title":                  "Earn staking rewards!",
+    "caption":                "Click the button to choose a stake pool.",
+    "button":                 "Stake"
+  },
+
+  "poollist": {
+
+    "title":                  "Available stake pools",
+    "caption":                "A list of available stake pools. Enter the ticker or name of a pool to filter the list. The ranking prioritizes optimal rewards for the user.",
+
+    "filter": {
+
+      "search":                 "Search for a pool..."
+    }
+  },
+
+  "info": {
+
+    "delegation": {
+
+      "nodata":               "no pool data available",
+      "undelegated":          "not delegated",
+      "delegated":            "delegated",
+      "deregistered":         "deregistered",
+      "registered":           "registered",
+      "pending":              "pending",
+      "producing":            "producing"
+    },
+
+    "history": {
+
+      "label":                 "Rewards History",
+      "caption":               "A list of earned rewards for staking and Catalyst voting sorted by epoch",
+
+      "epoch":                 "$t(common:epoch)",
+      "rewards":               "Rewards",
+      "refund":                "Pool Deregistration Refund",
+      "pool":                  "Pool",
+      "treasury":              "Catalyst Voting",
+      "leader":                "Pool Operator Rewards",
+      "reserves":              "Instantaneous Rewards"
+    },
+
+    "gov": {
+
+      "nodelegation": {
+
+        "info":               "Please consider delegating to a DRep for governance actions. It will be required in the following era to be able to withdraw staking rewards"
+      },
+
+      "inactive":             "Account is delegated to a governance DRep that is marked as inactive and thus do not count towards the active voting stake anymore"
+    },
+
+    "warning": {
+
+      "high": {
+
+        "headline":           "High Pool Fee",
+        "caption":            "The pool to which this account is delegated has an unusually high fee that will reduce your staking rewards. If it's some kind of an ISPO, that's fine. If not, you should choose another pool with lower fees"
+      },
+
+      "complete": {
+
+        "headline":           "99+% Pool Fee",
+        "caption":            "The pool to which this account is delegated charges at least 99% and collect your ADA rewards. If it's some kind of an ISPO, that's fine. If not, you should choose another pool with lower fees"
+      }
+    }
+  }
+}

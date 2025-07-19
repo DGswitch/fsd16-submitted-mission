@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "በ $t(common:addressBook) ውስጥ እስካሁን ምንም ግቤቶች የሉም።",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "አዲስ አድራሻ ተቀበል"
+  },
+  "badge": {
+    "hover": "የ $t(common:addressBook) ግቤት፡ {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "$t(common:addressBook) ግቤቶችን አስመጣ",
+    "caption": "ከምትኬ ፋይል $t(common:addressBook) ግቤቶችን አስመጣ።"
+  },
+  "overwrite": {
+    "title": "$t(common:addressBook) ግቤትን ደርምስ",
+    "caption": "{{name}} የሚል ስም ያለውን ግቤት ማዘመንህን አረጋግጥ።"
+  },
+  "add": {
+    "title": "ወደ $t(common:addressBook) ጨምር",
+    "caption": {
+      "main": "ወደ $t(common:addressBook) አንድ ግቤት ጨምር።",
+      "prefilled": "ሁሉም እሴቶች አስቀድመው ተሞልተዋል ግብዓቶችም ተሰናክለዋል።"
+    },
+    "name": {
+      "label": "የግቤት ስም",
+      "error": {
+        "length": "$t(common:addressBook) የግቤት ስም ቢያንስ 3 እና ቢበዛ 40 ቁምፊዎችን ይፈልጋል።",
+        "duplicate": "ይህ ስም `{{ name }}` ያለው $t(common:addressBook) ግቤት አስቀድሞ አለ፣ እባክህ ሌላ ምረጥ።",
+        "duplicateAddr": "ይህ አድራሻ ያለው $t(common:addressBook) ግቤት አስቀድሞ አለ፣ በ {{ address }} ስር።"
+      }
+    }
+  },
+  "delete": {
+    "confirm": "ግቤትን መሰረዝህን አረጋግጥ።"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Klik untuk membuka grafik harga."
+  },
+  "notifications": {
+    "tooltip": "Klik untuk melihat notifikasi Anda."
+  },
+  "hideBalance": {
+    "tooltip": "Alihkan visibilitas saldo."
+  },
+  "logout": {
+    "tooltip": "Keluar dari aplikasi. Membutuhkan PIN Anda untuk masuk kembali."
+  },
+  "darkMode": {
+    "tooltip": "Alihkan mode gelap/terang."
+  },
+  "settings": {
+    "tooltip": "Buka menu pengaturan."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Sisa waktu",
+    "tooltip": "Nomor epoch saat ini dan sisa waktu menuju epoch berikutnya."
+  }
+}

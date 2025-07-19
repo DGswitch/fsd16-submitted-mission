@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp ማሰሻ",
+  "title": "Dapp ማሰሻ",
+  "caption": "ከCardano dApps ጋር ይገናኙ።",
+  "subCaption": "",
+  "connect": "ከ{{dapp}} ጋር ይገናኙ",
+  "list": {
+    "input": {
+      "domain": "የdapp ዶሜይን ያስገቡ"
+    }
+  }
+}

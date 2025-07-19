@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "多重簽名 wallet",
+      "caption": "一種特殊類型嘅 wallet，喺使用資金或提取獎勵時，需要多方簽署交易。",
+      "create": {
+        "label": "建立新嘅多重簽名",
+        "caption": "從現有銀包或使用外部多重簽名密鑰，建立新嘅多重簽名 wallet"
+      },
+      "join": {
+        "label": "加入多重簽名",
+        "caption": "透過發現或從已添加嘅 wallet 將你嘅多重簽名公鑰分享俾朋友，以參與多重簽名 wallet。"
+      }
+    },
+    "join": {
+      "headline": "加入多重簽名",
+      "caption": "選擇選項以顯示多重簽名密鑰、發現或匯入已匯出嘅多重簽名 wallet。",
+      "key": {
+        "label": "多重簽名密鑰",
+        "caption": "顯示所選 wallet 嘅多重簽名密鑰，以分享俾負責建立多重簽名 wallet 嘅參與者。"
+      },
+      "discover": {
+        "label": "發現",
+        "caption": "掃描 blockchain 以尋找包含所選銀包多重簽名密鑰嘅已註冊多重簽名銀包。"
+      },
+      "import": {
+        "label": "匯入",
+        "caption": "載入已建立並匯出嘅多重簽名 wallet JSON 檔案。"
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet 多重簽名密鑰",
+      "caption": "分享俾多重簽名 wallet 嘅建立者。",
+      "nowallet": "未選擇任何 wallet。",
+      "nopubkey": "所選 wallet 缺少多重簽名密鑰。"
+    },
+    "discover": {
+      "headline": "已發現嘅多重簽名銀包",
+      "caption": "選擇已發現嘅多重簽名銀包以添加。",
+      "reused": {
+        "toggle": "顯示使用重用密鑰嘅 MultiSig 銀包",
+        "warning": "重用密鑰可能遭受重放攻擊，請謹慎使用！"
+      },
+      "nowallet": "未選擇任何 wallet。",
+      "empty": "搵唔到所選 wallet 嘅多重簽名銀包。",
+      "loading": "正在擷取並處理中...",
+      "details": {
+        "headline": "MultiSig 發現詳情",
+        "data": {
+          "headline": {
+            "date": "已建立",
+            "name": "名稱",
+            "description": "描述",
+            "hash": "Tx Hash",
+            "address": "地址",
+            "payment": "付款腳本",
+            "stake": "質押腳本",
+            "drep": "DRep 腳本",
+            "meta": "Metadata",
+            "balance": "餘額"
+          },
+          "nostake": "多重簽名 wallet 未註冊任何質押腳本。",
+          "nodrep": "多重簽名 wallet 未註冊任何 DRep 腳本。",
+          "nometa": "未註冊任何 1854 metadata。",
+          "button": {
+            "showScript": "檢視腳本",
+            "showMeta": "檢視 Metadata"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "匯入多重簽名銀包",
+      "caption": "載入已建立並匯出嘅多重簽名 wallet JSON 檔案。",
+      "success": "多重簽名 wallet 已成功匯入。",
+      "error": {
+        "invalid": "唔係有效嘅多重簽名匯出檔案，應遵循 CSL AuxiliaryDataJSON 格式。",
+        "noscript": "匯入嘅檔案冇任何腳本。",
+        "nometa": "匯入嘅檔案冇標籤 1854 metadata。",
+        "invalidmeta": "匯出檔案包含無效嘅標籤 1854 metadata。",
+        "duplicate": "一個具有相同腳本嘅多重簽名 wallet 已經匯入，正在忽略重複檔案。"
+      }
+    },
+    "create": {
+      "headline": "多重簽名類型",
+      "caption": "你嘅參與者係咪全部平等，定係屬於唔同嘅群組 / 實體？",
+      "simple": {
+        "label": "簡單",
+        "caption": "所有參與者都平等嘅場景。"
+      },
+      "advanced": {
+        "label": "進階 (即將推出)",
+        "caption": "參與者屬於唔同嘅獨立群組，構成多個層級。"
+      }
+    },
+    "simple": {
+      "headline": "Multi-Sig 設定",
+      "caption": "為你嘅 Multi-Sig wallet 設定名稱同埋可選嘅描述。",
+      "name": {
+        "label": "Wallet 名稱",
+        "placeholder": "請輸入 wallet 嘅名稱",
+        "error": "必須填寫名稱"
+      },
+      "description": {
+        "label": "描述",
+        "placeholder": "可選嘅描述"
+      },
+      "error": {
+        "validation": "驗證錯誤",
+        "length": "已超過 64 個字元嘅最大長度！"
+      }
+    },
+    "participants": {
+      "headline": "新增參與者",
+      "caption": "從已載入嘅錢包指定邊啲人應該成為 multi-sig 嘅一部分，或者輸入 multi-sig 公鑰。",
+      "new": "新增另一位參與者",
+      "participant": {
+        "label": "參與者",
+        "name": {
+          "label": "名稱",
+          "placeholder": "可選嘅參與者名稱"
+        },
+        "pub": {
+          "label": "Multi-Sig Key",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "至少需要兩位參與者先可以組成一個簡單嘅 multi-sig wallet"
+      },
+      "error": {
+        "duplicate": "已經新增咗一位使用相同 multi-sig key 嘅參與者，請選擇另一位。"
+      }
+    },
+    "requiredSigners": {
+      "headline": "所需簽署者",
+      "caption": "簽署時需要幾多位參與者確認？"
+    },
+    "register": {
+      "headline": "註冊",
+      "caption": "選擇註冊或者下載新建立嘅 Multi-Sig wallet。",
+      "anonymous": "匿名 (省略 metadata)",
+      "register": {
+        "label": "註冊",
+        "caption": "建立一筆交易喺鏈上 (on-chain) 註冊 multi-signature wallet。咁樣參與者就可以自動發現，呢個係推薦嘅選項。",
+        "feewallet": "交易費用 wallet",
+        "success": "Multi-Sig wallet 成功註冊"
+      },
+      "download": {
+        "label": "下載",
+        "caption": "下載一個檔案，用嚟分享俾參與者手動匯入。"
+      },
+      "error": {
+        "nofeewallet": "搵唔到可用作 Multi-Sig 註冊交易費用嘅 wallet。"
+      },
+      "success": "Multi-Sig wallet 成功建立",
+      "exist": "Wallet 已經存在，正在重新導向到 Wallet"
+    }
+  },
+  "select": {
+    "placeholder": "選擇 Wallet",
+    "missing": {
+      "headline": "建立 Multi-Sig Keys",
+      "mnemonic": "呢個 wallet 缺少 multi-sig keys，請輸入你嘅 wallet 密碼嚟建立佢哋。",
+      "hardware": "呢個 wallet 缺少 multi-sig keys，請點擊簽署並跟隨硬件裝置指示嚟衍生佢哋。"
+    },
+    "save": {
+      "ok": "Multi-Sig keys 成功產生並儲存到 wallet",
+      "error": "無法將 multi-sig keys 儲存到 wallet，請再試一次！"
+    }
+  },
+  "last_signature_added": "已加入最後一個簽名"
+}

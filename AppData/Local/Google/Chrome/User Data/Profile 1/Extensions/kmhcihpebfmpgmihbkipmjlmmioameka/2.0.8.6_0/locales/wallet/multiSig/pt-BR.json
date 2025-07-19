@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig __GT__carteira__",
+      "caption": "Um tipo especial de __GT__carteira__ que exige que várias partes assinem uma transação ao gastar fundos ou levantar recompensas.",
+      "create": {
+        "label": "Criar nova Multi-Sig",
+        "caption": "Para criar uma nova __GT__carteira__ multi-assinatura a partir de carteiras existentes ou usando chaves multi-sig externas"
+      },
+      "join": {
+        "label": "Aderir a uma Multi-Sig",
+        "caption": "Participe numa __GT__carteira__ multi-assinatura por descoberta ou partilhando a sua chave pública multi-sig com um amigo a partir de uma __GT__carteira__ já adicionada."
+      }
+    },
+    "join": {
+      "headline": "Aderir a uma Multi-Sig",
+      "caption": "Selecione a opção para mostrar a Chave Multi-Sig, Descobrir, ou importar uma __GT__carteira__ Multi-Sig exportada.",
+      "key": {
+        "label": "Chave Multi-Sig",
+        "caption": "Mostrar chave Multi-Sig da __GT__carteira__ selecionada para partilhar com o participante responsável pela criação da __GT__carteira__ Multi-Sig"
+      },
+      "discover": {
+        "label": "Descobrir",
+        "caption": "Verifica a blockchain por carteiras Multi-Sig registadas que incluam a chave Multi-Sig da carteira selecionada"
+      },
+      "import": {
+        "label": "Importar",
+        "caption": "Carregar ficheiros JSON de __GT__carteiras__ Multi-Sig criadas e exportadas"
+      }
+    },
+    "pubkey": {
+      "headline": "__GT__Carteira__ Chave Multi-Sig",
+      "caption": "Para partilhar com o criador da __GT__carteira__ Multi-Sig.",
+      "nowallet": "Nenhuma __GT__carteira__ selecionada.",
+      "nopubkey": "Chave Multi-Sig para a __GT__carteira__ selecionada em falta."
+    },
+    "discover": {
+      "headline": "Carteiras Multi-Sig descobertas",
+      "caption": "Selecione as carteiras Multi-Sig descobertas para adicionar.",
+      "reused": {
+        "toggle": "Mostrar MultiSig carteiras com chaves reutilizadas",
+        "warning": "Chaves reutilizadas estão possivelmente sujeitas a um ataque de replay, use com cuidado!"
+      },
+      "nowallet": "Nenhuma __GT__carteira__ selecionada.",
+      "empty": "Nenhuma carteira Multi-Sig encontrada para a __GT__carteira__ selecionada.",
+      "loading": "A obter e processar...",
+      "details": {
+        "headline": "MultiSig Detalhes da Descoberta",
+        "data": {
+          "headline": {
+            "date": "Criado",
+            "name": "Nome",
+            "description": "Descrição",
+            "hash": "Tx Hash",
+            "address": "Endereço",
+            "payment": "Script de Pagamento",
+            "stake": "Script de Stake",
+            "drep": "Script DRep",
+            "meta": "__GT__Metadados__",
+            "balance": "Saldo"
+          },
+          "nostake": "A __GT__carteira__ Multi-Sig não tem nenhum script de stake registado",
+          "nodrep": "A __GT__carteira__ Multi-Sig não tem nenhum script DRep registado",
+          "nometa": "Nenhuns __GT__metadados__ 1854 registados",
+          "button": {
+            "showScript": "Ver Script",
+            "showMeta": "Ver __GT__Metadados__"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Importar carteiras Multi-Sig",
+      "caption": "Carregar ficheiros JSON de __GT__carteiras__ Multi-Sig criadas e exportadas.",
+      "success": "__GT__Carteira__ Multi-Sig importada com sucesso",
+      "error": {
+        "invalid": "Exportação Multi-Sig inválida, deve seguir o formato CSL AuxiliaryDataJSON",
+        "noscript": "O ficheiro importado não tem scripts",
+        "nometa": "O ficheiro importado não tem __GT__metadados__ com o rótulo 1854",
+        "invalidmeta": "A exportação contém __GT__metadados__ com o rótulo 1854 inválido",
+        "duplicate": "Uma __GT__carteira__ Multi-Sig com os mesmos scripts já foi importada, ignorando ficheiro duplicado"
+      }
+    },
+    "create": {
+      "headline": "Tipo Multi-Sig",
+      "caption": "Os seus participantes são todos iguais ou fazem parte de grupos/entidades?",
+      "simple": {
+        "label": "Simples",
+        "caption": "Um cenário onde todos os participantes são iguais."
+      },
+      "advanced": {
+        "label": "Avançado (em breve)",
+        "caption": "Os participantes fazem parte de grupos individuais, formando múltiplas camadas."
+      }
+    },
+    "simple": {
+      "headline": "Configuração Multi-Sig",
+      "caption": "Defina um nome e uma descrição opcional para a sua wallet Multi-Sig.",
+      "name": {
+        "label": "Nome da Wallet",
+        "placeholder": "Por favor, insira um nome para a wallet",
+        "error": "O nome é obrigatório"
+      },
+      "description": {
+        "label": "Descrição",
+        "placeholder": "Uma descrição opcional"
+      },
+      "error": {
+        "validation": "Erro de validação",
+        "length": "Comprimento máximo de 64 caracteres excedido!"
+      }
+    },
+    "participants": {
+      "headline": "Adicionar participantes",
+      "caption": "Especifique os indivíduos que devem fazer parte da multi-sig a partir de carteiras carregadas ou inserindo a chave pública multi-sig.",
+      "new": "Adicionar outro participante",
+      "participant": {
+        "label": "Participante",
+        "name": {
+          "label": "Nome",
+          "placeholder": "Nome opcional do participante"
+        },
+        "pub": {
+          "label": "Multi-Sig Key",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "É necessário um mínimo de dois participantes para formar uma wallet multi-sig simples."
+      },
+      "error": {
+        "duplicate": "Um participante com a mesma multi-sig key já foi adicionado, por favor selecione outro."
+      }
+    },
+    "requiredSigners": {
+      "headline": "Assinantes Necessários",
+      "caption": "Quantos participantes precisam de confirmar ao assinar?"
+    },
+    "register": {
+      "headline": "Registar",
+      "caption": "Selecione a opção para registar ou descarregar a wallet Multi-Sig recém-criada.",
+      "anonymous": "Anónimo (omitir metadata)",
+      "register": {
+        "label": "Registar",
+        "caption": "Crie uma transação para registar a wallet multi-assinatura on-chain. Isto permite a descoberta automática pelos participantes e é a opção recomendada.",
+        "feewallet": "wallet da taxa de transação",
+        "success": "wallet Multi-Sig registada com sucesso"
+      },
+      "download": {
+        "label": "Descarregar",
+        "caption": "Descarrega um ficheiro para ser partilhado com os participantes para importação manual."
+      },
+      "error": {
+        "nofeewallet": "Nenhuma wallet encontrada para usar como wallet de taxa para a transação de registo Multi-Sig."
+      },
+      "success": "wallet Multi-Sig criada com sucesso",
+      "exist": "Wallet já existe, a redirecionar para a Wallet"
+    }
+  },
+  "select": {
+    "placeholder": "Selecionar Wallet",
+    "missing": {
+      "headline": "Criar Multi-Sig Keys",
+      "mnemonic": "Esta wallet não possui multi-sig keys, por favor insira a palavra-passe da sua wallet para as criar.",
+      "hardware": "Esta wallet não possui multi-sig keys, por favor clique em assinar e siga as instruções do dispositivo de hardware para as derivar."
+    },
+    "save": {
+      "ok": "Multi-Sig keys geradas com sucesso e guardadas na wallet",
+      "error": "Falha ao guardar as multi-sig keys na wallet, por favor tente novamente!"
+    }
+  },
+  "last_signature_added": "Última assinatura adicionada"
+}

@@ -1,0 +1,8 @@
+{
+  "title": "Penyiapan Aplikasi",
+  "caption": "Perbarui pengaturan sesuai preferensi pribadi Anda \natau gunakan pengaturan default.",
+  "success": {
+    "title": "Penyiapan aplikasi berhasil",
+    "caption": "Anda sudah siap, lanjutkan ke aplikasi."
+  }
+}

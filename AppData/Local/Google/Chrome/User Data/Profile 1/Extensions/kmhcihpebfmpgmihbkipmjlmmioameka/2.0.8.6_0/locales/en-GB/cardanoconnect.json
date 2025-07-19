@@ -1,0 +1,96 @@
+{
+
+  "tabs": {
+    "connect":                   "Connect with CardanoConnect",
+    "manage":                    "Manage connections"
+  },
+
+  "connect": {
+
+    "identifier": {
+
+      "label":                  "CardanoConnect identifier",
+      "hint":                   "Paste connectionId"
+
+    },
+
+    "status": {
+
+      "connected":              "Connected",
+      "disconnected":           "Not connected",
+      "error":                  "Connection error",
+      "unknownError":           "Unknown error occurred.",
+      "emptyAddress":           "Please enter the Cardano Connect address.",
+      "invalidAddress":         "The input does not seem to be a valid direct connect address.",
+      "noaccount":              "Please select an account to use.",
+      "nowallets":              "Please add a wallet to use cardano connect."
+
+    },
+
+    "actions": {
+
+      "connect":                "Wallet is disconnected. Click to connect to the DApp.",
+      "disconnect":             "Wallet is connected. Click to disconnect from the DApp.",
+      "delete":                 "Delete connection",
+      "edit":                   "Change account"
+    },
+
+    "label": {
+      "connect":                "Connect",
+      "disconnect":             "Disconnect",
+      "status":                 "Connection status:"
+    },
+
+    "autoconnect":              "auto-connect",
+
+    "badge": {
+      "autoconnect":            "The wallet will try to auto connect to this DApp upon start.",
+      "connected":              "The DApp is currently connected to the wallet.",
+      "disconnected":           "The DApp is currently not connected to the wallet."
+    },
+
+    "to":                       "Connected to",
+    "from":                     "Connection ID",
+
+    "labels": {
+
+      "info":                    "Connection information:",
+      "connectedTo":             "Connected to:",
+      "name":                    "DApp name:",
+      "url":                     "DApp url:",
+      "address":                 "DApp connection id:",
+      "walletConnectionId":      "Wallet connection id:",
+      "walletId":                "Connected wallet",
+      "accountPubKey":           "Connected account",
+      "active":                  "Active connection",
+      "autoConnect":             "Auto-connect",
+      "created":                 "Created",
+      "lastActive":              "Last used"
+    },
+
+    "identicon": {
+
+      "image":                  "Identicon",
+      "description":            "This image, called identicon, is created from the connection between your wallet and the DApp.\nThe image should be identical on both sites; please compare them to ensure your connection has not been compromised."
+
+    },
+
+    "headline":                 "Connect dApp using CardanoConnect",
+    "caption":                  "You can connect to any dApp that is implementing the CIP-0045 cardano web connect protocol. \nTo do so please enter the address or scan the QR code that the dApp is showing.",
+
+    "select": {
+      "headline": "Select direct connect wallet"
+    },
+
+    "button": {
+      "enable": {
+        "label": "Use for direct connect account"
+      },
+      "disable": {
+        "label": "Selected direct connect account"
+      }
+    }
+
+  }
+
+}

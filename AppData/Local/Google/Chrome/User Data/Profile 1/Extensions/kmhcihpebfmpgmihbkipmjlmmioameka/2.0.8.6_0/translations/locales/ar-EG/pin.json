@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "اعمل رمز PIN",
+      "confirm": "أكد رمز PIN"
+    },
+    "captionShort": "عين رمز PIN علشان تدخل على $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) هيطلب منك كل مرة تفتح $t(common:appName).",
+      "confirm": "علشان تأكد رمز PIN، اكتب نفس الرمز اللي لسه مدخله."
+    },
+    "hint": {
+      "enter": "اكتب رمز PIN.",
+      "confirm": "دخل رمز PIN مرة تانية للتأكيد."
+    },
+    "confirmed": "رموز PIN اللي دخلتها متطابقة.",
+    "button": {
+      "label": "فعل رمز PIN"
+    },
+    "error": {
+      "confirm": "رموز PIN غير متطابقة، حاول تاني."
+    }
+  },
+  "access": {
+    "title": "رمز PIN للدخول",
+    "caption": "اكتب رمز PIN للدخول.",
+    "checking": "جاري فحص رمز PIN.",
+    "confirmed": "رمز PIN اللي دخلته صحيح.",
+    "error": {
+      "confirm": "رمز PIN غير صحيح."
+    }
+  },
+  "deleteAccess": {
+    "caption": "اكتب رمز PIN لتعطيله.",
+    "biometrics": "لما تشيل رمز PIN، خاصية البصمة هتتعطل تلقائيًا.",
+    "button": {
+      "label": "عطل رمز PIN",
+      "tooltip": "اكتب رمز PIN الحالي عشان تسمح بالتعطيل."
+    }
+  },
+  "biometrics": {
+    "login": "تسجيل الدخول باستخدام البصمة",
+    "caption": "لو سمحت سجل الدخول باستخدام FaceId أو أي خاصية بصمة تانية.",
+    "fallback": "تسجيل الدخول باستخدام رمز PIN",
+    "use": {
+      "ios": "أو استخدم FaceID أو بصمة صباعك علشان تدخل على محفظة رقمية (maḥfaẓa raqamiya).",
+      "android": "أو استخدم خواص البصمة اللي في تليفونك علشان تدخل على محفظة رقمية (maḥfaẓa raqamiya)."
+    }
+  },
+  "comment": "// More pin texts: catalyst:step.pin"
+}

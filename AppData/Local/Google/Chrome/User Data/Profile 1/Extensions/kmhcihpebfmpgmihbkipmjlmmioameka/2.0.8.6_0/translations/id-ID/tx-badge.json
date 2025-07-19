@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Ditandatangani",
+    "hover": "Transaksi ini sudah ditandatangani tetapi belum dikirim."
+  },
+  "inputSigned": {
+    "label": "Ditandatangani",
+    "hover": "Tanda tangan untuk input ini telah diberikan."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Redeemer untuk kontrak ini telah diberikan."
+  },
+  "inputUnsigned": {
+    "label": "Belum Ditandatangani",
+    "hover": "Tanda tangan untuk input ini tidak ada."
+  }
+}

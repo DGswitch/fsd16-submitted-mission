@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel：我特登留低咗大部分文字，就算只有少部分喺度用緊。",
+  "showScamInfo": "顯示詐騙 token 資訊",
+  "guard": {
+    "label": "Eternl 守衛",
+    "warning": "$t(scam:guard.label) 警告"
+  },
+  "token": {
+    "label": "詐騙",
+    "description": "呢個係已知嘅<span class=\"font-bold\">詐騙</span> token！<br>呢度顯示嘅網站連結都係詐騙！<br>如果你連接到嗰啲網站並簽署交易<br>你嘅 wallet 可能會被完全清空！",
+    "image": "警告：\n\n切勿同呢張圖片中提到嘅任何網站互動！",
+    "hover": "呢筆交易包含已知嘅詐騙 token。同佢互動時請務必小心！"
+  },
+  "app": {
+    "description": "呢個 DApp 係已知嘅詐騙網站！好大機會會偷取你嘅資金或用其他方式詐騙你！",
+    "description2": "我哋強烈建議你<span class=\"font-bold\">唔好同呢個頁面互動</span>！",
+    "ownRisk": "連接到此網站風險自負！",
+    "bannerWarning": "呢個網站喺詐騙名單上面。請小心，唔好輸入任何敏感資訊。"
+  },
+  "address": {
+    "description": "呢個係已知嘅詐騙 address！好大機會你唔想將資金傳送到嗰度！",
+    "description2": "我哋強烈建議你<span class=\"font-bold\">唔好傳送</span>資金過去！",
+    "hover": "呢個 address 曾經被用嚟偷取資金！"
+  },
+  "cleanup": {
+    "label": "清理 wallet",
+    "description": "呢個操作會建立一筆清理 transaction，將你 wallet 裡面所有已知嘅詐騙 tokens 傳送到 Eternl 嘅 burn address。 ",
+    "prepared": {
+      "label": "已準備詐騙清理 transaction"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "按此開啟價格圖表。"
+  },
+  "notifications": {
+    "tooltip": "按此查看你的通知。"
+  },
+  "hideBalance": {
+    "tooltip": "切換餘額顯示狀態。"
+  },
+  "logout": {
+    "tooltip": "登出應用程式。需要你的 PIN 碼才能重新登入。"
+  },
+  "darkMode": {
+    "tooltip": "切換深色/淺色模式。"
+  },
+  "settings": {
+    "tooltip": "開啟設定選單。"
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "剩餘時間",
+    "tooltip": "目前的 epoch 編號以及距離下一個 epoch 的剩餘時間。"
+  }
+}

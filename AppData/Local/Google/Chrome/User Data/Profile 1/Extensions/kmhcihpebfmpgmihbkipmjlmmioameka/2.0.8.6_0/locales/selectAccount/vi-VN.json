@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Chuyển đổi giữa các ví.",
+    "accounts": {
+      "select": "tài khoản",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Chọn một __GT__ví__ cụ thể để chuyển đổi giữa các tài khoản.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Chuyển đổi tài khoản $t(common:dApp) đang hoạt động."
+    },
+    "accounts": {
+      "select": "Chọn một tài khoản từ danh sách. Đánh dấu tài khoản là yêu thích bằng cách bật/tắt biểu tượng ngôi sao.",
+      "manage": "Thêm hoặc xóa tài khoản, chọn chỉ số tài khoản cụ thể hoặc đặt tên tài khoản."
+    }
+  },
+  "groups": {
+    "placeholder": "Chọn các nhóm __GT__ví__ đang hoạt động",
+    "favoriteAccounts": "#Tài khoản yêu thích"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Tên tài khoản:",
+    "index": "Chỉ số:",
+    "limit": "Giới hạn:",
+    "remove": {
+      "tooltip": "Xóa tài khoản"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Thêm Tài khoản Mới"
+  }
+}

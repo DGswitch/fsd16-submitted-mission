@@ -1,0 +1,72 @@
+{
+  "is": {
+    "label": "የግቤት ምርጫ",
+    "caption": "በእርስዎ አካውንት ውስጥ የተወሰኑ utxoዎችን በመጠቀም የግቤት ምርጫን ይቆጣጠሩ።",
+    "reset": "የግቤት ምርጫን ዳግም አስጀምር"
+  },
+  "import": {
+    "label": "ግብይትን አስመጣ",
+    "caption": "ከEternl ወይም ምንጮች የተላከ ያልተፈረመ ወይም የተፈረመ ግብይት አስመጣ።",
+    "upload": "የግብይት ፋይል(ዎች) ስቀል ወይም ጥሬውን ግብይት cbor ለጥፍ።"
+  },
+  "tf": {
+    "label": "ቶከን መበታተን",
+    "caption": "ለወደፊት ግብይቶች ክፍያዎችን ለመቀነስ ንብረቶችዎን በበርካታ utxoዎች ላይ ያሰራጩ።",
+    "notification": {
+      "start": "ቶከን-መበታተን ግብይቶችን መገንባት ጀምር። ይህ ትንሽ ጊዜ ሊወስድ ይችላል።",
+      "finish": "ቶከን-መበታተን ግብይቶችን መፍጠር ተጠናቋል። ፊርማ ለማዘጋጀት።",
+      "notNecessary": "ምንም የሚሰበሰብ UTxOs አያስፈልግም።",
+      "error1": "ቶከን-መበታተን ግብይት መፍጠር አልተቻለም።",
+      "error2": "ተጨማሪ {{currency}} ጨምሩ ወይም የTF ጥቅል መጠንን ጨምረው እንደገና ይሞክሩ።"
+    }
+  },
+  "cu": {
+    "label": "UTxO ስብስብ",
+    "caption": "የዚህን አካውንት UTxOዎችን ሰብስብ፣ በመሠረቱ ጥቂት ወደሆኑት በማዋሃድ። በአንድ ጊዜ እስከ 10 ግብይቶችን ይፈጥራል። ማቀናበር ትንሽ ጊዜ ሊወስድ ይችላል።",
+    "notification": {
+      "start": "የመሰብሰብያ-utxo ግብይቶችን መገንባት ጀምር። ይህ ትንሽ ጊዜ ሊወስድ ይችላል።",
+      "finish": "የመሰብሰብያ-utxo ግብይቶችን መፍጠር ተጠናቋል። ፊርማ ለማዘጋጀት።",
+      "notNecessary": "ምንም የሚሰበሰብ UTxOs አያስፈልግም።",
+      "error1": "የመሰብሰብያ-utxo ግብይት መፍጠር አልተቻለም። (1)",
+      "error2": "የመሰብሰብያ-utxo ግብይት መፍጠር አልተቻለም። (2)"
+    }
+  },
+  "ms": {
+    "label": "ልዩ ስብስብ",
+    "label2": "በWallet ውስጥ ሰብስብ",
+    "caption": "የዚህን ms ክፍያ wallet UTxOዎችን ሰብስብ፣ በመሠረቱ ጥቂት ወደሆኑት በማዋሃድ። በአንድ ጊዜ እስከ 10 ግብይቶችን ይፈጥራል። ማቀናበር ትንሽ ጊዜ ሊወስድ ይችላል።"
+  },
+  "donation": {
+    "label": "ለ$t(common:appName) ልማት ድጋፍ 1 {{currency}} ይለግሱ",
+    "caption": "Eternl እንደወደዱት ተስፋ እናደርጋለን! የፕሮጀክታችንን እድገት ለመደገፍ በዚህ ግብይት 1 {{currency}} መላክዎን ያስቡበት።"
+  },
+  "customMetadata": {
+    "label": "ብጁ Metadata",
+    "caption": "በዝርዝር መግለጫው መሠረት ብጁ metadata schema በJSON ቅርጸት ያክሉ።",
+    "placeholder": "ለጥፍ / አስገባ JSON",
+    "urllabel": "ስለ metadata json ቅርጸት በcardano.org ላይ ያለ ሰነድ",
+    "added": "የሚከተለው metadata ወደ ግብይቱ ታክሏል:",
+    "schemainfo": {
+      "NoConversions": "በ JSON እና Metadata መካከል ባለው አነስተኛ የጋራ ባህሪ ስብስብ መካከል በታማኝነት ይቀይራል።",
+      "BasicConversions": "(እንደ ሄክስ ሕብረቁምፊዎች) ባይት እና ኢንቲጀር ቁልፎች (እንደ ሕብረቁምፊዎች) ተጨማሪ ድጋፍን ያክላል።",
+      "DetailedSchema": "የቃል JSON schema ነገር ግን ለ metadata ልወጣ በጣም ተለዋዋጭነት አለው።"
+    },
+    "banner": {
+      "error": {
+        "title": "ልክ ያልሆነ Cardano JSON አጠቃላይ metadata schema",
+        "json": "ልክ ያልሆነ JSON።",
+        "label": "ልክ ያልሆኑ መለያዎች።\nከፍተኛ ደረጃ ቁልፎች በክልል -(2^64 - 1) እስከ (2^64 - 1) ውስጥ ልዩ ኢንቲጀሮች መሆን አለባቸው።"
+      }
+    }
+  },
+  "metadata": {
+    "label": "በሰንሰለት ላይ $t(common:message.label) ጨምር",
+    "caption": "ወደ ግብይቱ መልእክት/አስተያየት/ማስታወሻ ያክሉ።\nባለብዙ መስመር መልእክት ለማግኘት \"ENTER\" ን ይጫኑ።",
+    "enableEncryption": "ምስጠራን አንቃ",
+    "placeholder": "የግብይት መልእክት ያስገቡ",
+    "error": {
+      "overflow": "በመስመር ያለው የቁምፊዎች ብዛት በ 64 የተገደበ ነው። አዲስ መስመር ለመጨመር Enter ን ይጫኑ",
+      "invalidJSON": "ልክ ያልሆነ Cardano JSON አጠቃላይ metadata schema"
+    }
+  }
+}

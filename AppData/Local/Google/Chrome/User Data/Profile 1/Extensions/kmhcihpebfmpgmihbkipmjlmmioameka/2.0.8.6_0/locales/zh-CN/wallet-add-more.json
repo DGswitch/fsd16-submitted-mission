@@ -1,0 +1,20 @@
+{
+  "title": "選擇 wallet 類型",
+  "caption": "進階 wallet 建立。返回以查看常用選項。",
+  "import-wallet": {
+    "title": "匯入備份",
+    "caption": "從 Eternl JSON 備份檔案恢復"
+  },
+  "cli-skey-wallet": {
+    "title": "CLI 簽署密鑰",
+    "caption": "匯入 CLI 生成嘅 (skey) 簽署密鑰"
+  },
+  "account-pub-wallet": {
+    "title": "帳戶公鑰 (唯讀)",
+    "caption": "輸入已匯出嘅帳戶公鑰"
+  },
+  "address-wallet": {
+    "title": "地址 (唯讀)",
+    "caption": "從一個 bech32 地址建立"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Kaufen / Verkaufen ADA",
+  "caption": "Wählen Sie Ihr Gateway zwischen Fiat und Cardano.",
+  "noProvider": "Leider ist derzeit kein Anbieter verfügbar.",
+  "loading": "Lade Fiat-Ein-/Auszahlungsanbieter"
+}

@@ -1,0 +1,34 @@
+{
+  "placeholder": "เพิ่มบันทึกที่นี่",
+  "copy": "บันทึกธุรกรรม: {{note}}",
+  "export": "สามารถนำเข้าและส่งออกบันทึกได้",
+  "add": {
+    "title": "เพิ่มบันทึก",
+    "caption": "แนบบันทึกไปกับธุรกรรมนี้ $t(tx/component/note:export)"
+  },
+  "edit": {
+    "title": "แก้ไขบันทึก",
+    "caption": "แก้ไขบันทึกที่แนบไปกับธุรกรรมนี้ $t(tx/component/note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx/component/note:add.title)",
+      "tooltip": "$t(tx/component/note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx/component/note:edit.title)",
+      "tooltip": "$t(tx/component/note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "ลบบันทึก",
+      "tooltip": "ลบบันทึกที่แนบไปกับธุรกรรมนี้"
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "ลบบันทึก",
+      "caption": "โปรดยืนยันว่าคุณต้องการลบบันทึกธุรกรรม",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

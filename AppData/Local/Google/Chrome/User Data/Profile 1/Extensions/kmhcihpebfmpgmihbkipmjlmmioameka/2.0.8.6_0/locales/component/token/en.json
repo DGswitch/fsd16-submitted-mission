@@ -1,0 +1,56 @@
+{
+
+  "title":                    "Tokens",
+  "caption":                  "All your native assets, tokens, NFTs and FTs in one place.",
+  "caption2":                 "Use the filter options to easily find the tokens you are looking for.",
+  "empty":                    "No assets found.",
+
+  "collection":               "Collection",
+
+  "collections":              {
+
+    "label":                  "Collections"
+  },
+
+  "numassets":                "{{numAssets}} unique asset(s) found.",
+
+  "filters":                  {
+
+    "title":                  "Token Filters",
+    "search":                 "Search by policy, name, fingerprint, or metadata...",
+    "type":                   "Filter Tokens",
+    "collection":             "Filter by Collection",
+    "perPage":                "Tokens Per Page",
+    "viewType":               "View Type",
+    "sortBy":                 "Sort Tokens"
+
+  },
+
+  "select":                   {
+
+    "title":                  "Select an asset"
+  },
+
+  "price": {
+    "unknown":                "Unknown token value",
+    "value":                  "Token value",
+    "avg":                    "Average price"
+  },
+
+  "format": {
+
+    "html":                   "HTML Content",
+    "pdf":                    "PDF Content",
+    "image":                  "Image",
+    "video":                  "Video",
+    "audio":                  "Audio"
+  },
+
+  "assetName":                "Asset Name",
+  "totalSupply":              "Total Supply",
+  "details":                  "Token details",
+  "available":                "Available",
+  "remove": {
+    "label":                  "Remove tokens"
+  }
+}

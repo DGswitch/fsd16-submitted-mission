@@ -1,0 +1,102 @@
+{
+  "title": "Registrasi Catalyst",
+  "status": {
+    "wrongnetwork": {
+      "title": "Tidak didukung",
+      "text": "Catalyst tidak didukung pada jaringan yang sedang dipilih."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Belum terdaftar",
+        "text": "Akun belum terdaftar untuk staking. Delegasikan ke stake pool terlebih dahulu, lalu daftar untuk voting Catalyst."
+      },
+      "nocatalyst": {
+        "title": "Tidak ada registrasi Catalyst",
+        "text": "Eternl tidak mengenali voting key. Akun mungkin belum pernah terdaftar atau didaftarkan dengan aplikasi lain."
+      },
+      "hascatalyst": {
+        "title": "Registrasi Catalyst",
+        "text": "Akun terdaftar untuk voting Catalyst. Voting key Catalyst disimpan di Eternl.",
+        "scan": "Pindai kode QR di aplikasi voting Catalyst dan ikuti instruksinya.",
+        "reveal": "Jangan bagikan voting key Catalyst dan PIN kepada siapa pun. Ini digunakan untuk memilih dalam putaran pendanaan Catalyst.",
+        "voteKey": "Voting key Catalyst",
+        "banner": {
+          "title": "Unduh kode QR",
+          "text": "Cadangan lokal voting key Catalyst disimpan di Eternl untuk tujuan pemulihan. Namun, cadangan ini spesifik untuk perangkat dan tidak akan tersedia saat memulihkan wallet di perangkat lain menggunakan frasa wallet. Hanya cadangan JSON wallet yang dibuat setelah registrasi Catalyst yang dapat memulihkannya. Sangat disarankan untuk mengunduh gambar kode QR dan menyimpannya dengan aman, misalnya di pengelola kata sandi."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Pilih stake pool"
+        },
+        "register": {
+          "label": "Daftar untuk voting Catalyst"
+        },
+        "reregister": {
+          "label": "Buat registrasi baru"
+        },
+        "download": {
+          "label": "Unduh key Catalyst"
+        },
+        "reveal": {
+          "label": "Tampilkan key Catalyst"
+        },
+        "hide": {
+          "label": "Sembunyikan key Catalyst"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Aplikasi Voting",
+      "caption": "Unduh aplikasi seluler Catalyst ke ponsel Anda.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "Tautan App store!",
+          "text": "BUKAN untuk digunakan di aplikasi seluler Catalyst!\n\nKode QR ini menautkan ke app store tempat Anda dapat mengunduh dan menginstal aplikasi seluler Catalyst."
+        }
+      }
+    },
+    "pin": {
+      "title": "Konfigurasi Kode PIN",
+      "caption": {
+        "enter": "Atur PIN untuk mengamankan voting key Catalyst Anda.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Catat PIN",
+        "text": "Pastikan untuk mencatat PIN!\nKehilangan PIN akan memerlukan registrasi voting key baru."
+      }
+    },
+    "tx": {
+      "title": "Transaksi Registrasi Voting",
+      "caption": "Daftarkan voting key Catalyst Anda.",
+      "note": {
+        "title": "Voting power",
+        "text": "Voting power berskala dengan jumlah dana yang dimiliki pada waktu snapshot. Saldo yang lebih tinggi meningkatkan pengaruh Anda selama snapshot."
+      },
+      "warning": {
+        "title": "Jumlah minimum",
+        "text": "Saldo minimum 25 ADA diperlukan agar voting key Anda disertakan dalam snapshot. Tanpa minimum ini, Anda tidak akan dapat memilih atau menerima hadiah dalam putaran pendanaan."
+      },
+      "success": "Registrasi Catalyst berhasil.",
+      "saved": "Voting key Catalyst berhasil disimpan di Eternl.",
+      "error": {
+        "save": "Gagal menyimpan voting key Catalyst di Eternl."
+      }
+    }
+  }
+}

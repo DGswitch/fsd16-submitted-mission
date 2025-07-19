@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "複数のアグリゲーターから最適な価格を取得",
+  "select": "選択",
+  "sell": "売却",
+  "buy": "購入",
+  "balance": "スワップ可能",
+  "aggAndDexs": "アグリゲーター & DEXs:",
+  "provider": "プロバイダー",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "全入力をクリア"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "スワップトランザクションを作成"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "スワップトランザクションを構築中..."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "バッチャー & プールボリューム手数料 (DEXs)",
+      "tooltip": "DEXsは注文処理に手数料を設定します。この手数料は返金されません。"
+    },
+    "aggregatorFee": {
+      "label": "サービス手数料",
+      "tooltip": "これはサービス手数料です。アグリゲーターおよびEternlの開発資金となります。"
+    },
+    "deposit": {
+      "label": "返金可能なデポジット",
+      "tooltip": "注文処理にはデポジットが必要です。この金額は、受け取るトークンと共にウォレットに返金されます。"
+    }
+  }
+}

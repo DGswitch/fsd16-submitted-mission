@@ -1,0 +1,8 @@
+{
+  "title": "Configuration de l'application",
+  "caption": "Mettez à jour les paramètres selon vos préférences personnelles \nou conservez les paramètres par défaut.",
+  "success": {
+    "title": "Configuration de l'application réussie",
+    "caption": "Tout est prêt, continuez vers l'application."
+  }
+}

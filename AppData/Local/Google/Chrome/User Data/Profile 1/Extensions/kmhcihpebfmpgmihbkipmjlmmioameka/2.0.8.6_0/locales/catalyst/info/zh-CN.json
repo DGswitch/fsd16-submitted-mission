@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "项目 Catalyst",
+    "caption": "阅读所有关于当前资金轮嘅新闻。",
+    "text": "项目 Catalyst 每隔几个月就有一次资金轮，每次都会准备一定数量嘅 ada 分配畀唔同嘅构思。\n\n喺项目 Catalyst 网站上面可以搵到所有过去同未来资金嘅相关资讯。",
+    "button": {
+      "label": "浏览页面",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "浏览所有提案",
+    "text": "Catalyst 使用 IdeaScale 作为一个协作创新平台。\n\n呢个系透过对社区产生嘅提案进行投票嚟完成，呢啲提案专注喺解决特定资金嘅挑战。",
+    "button": {
+      "label": "了解更多",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "一站式 Catalyst 数据平台",
+    "text": "Blockchain 教育、外展同全球社区建设：\n\n因为未来属于每一个人！",
+    "button": {
+      "label": "浏览页面",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "电子报",
+    "caption": "紧贴最新消息",
+    "text": "订阅 Project Catalyst 电子报，以免错过最新嘅新闻同更新。",
+    "button": {
+      "label": "订阅",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "参与社区",
+    "text": "加入 Telegram 讨论同公告频道，分享你对未来 Cardano 改进提案嘅想法，并享受健康、具启发性嘅讨论。",
+    "button1": {
+      "label": "公告",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "社区聊天室",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "社群大会",
+    "caption": "认识建设者",
+    "text": "嚟参加每周嘅社群大会，认识 Cardano 未来嘅建设者。观看佢哋嘅现场演示，并参与有意义嘅对话。",
+    "button": {
+      "label": "每周社群大会录影",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "显示挑战",
+      "hide": "隐藏挑战",
+      "link": "挑战网站",
+      "allocation": "资金分配"
+    },
+    "timeline": {
+      "caption": "下面显示嘅时间表可能会有变动。请重新浏览呢个页面并参与 Catalyst 每周嘅社群大会，以保持最新状态。",
+      "snapshot": {
+        "label": "投票权快照",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "投票开始",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "投票结束",
+        "caption": ""
+      },
+      "result": {
+        "label": "结果",
+        "caption": "± 几天"
+      }
+    }
+  }
+}

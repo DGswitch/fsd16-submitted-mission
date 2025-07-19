@@ -1,0 +1,10 @@
+{
+  "button": {
+    "favorite": {
+      "tooltip": "Tambahkan akun ini ke favorit Anda."
+    },
+    "dapp": {
+      "tooltip": "Saat terhubung ke DApp, akun ini sedang digunakan."
+    }
+  }
+}

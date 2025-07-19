@@ -1,0 +1,5 @@
+{
+  "caption": "Interagera endast med dApps som du litar på!",
+  "subCaption": "Hantera listan över webbplatser/dApps som har tillåtelse att ansluta till denna $t(common:appName) app.",
+  "empty": "Inga dApps tillåtna ännu."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "$t(settings-page:title)",
+  "search": {
+    "placeholder": "Rechercher un paramètre..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "Paramètres du compte",
+    "caption": "Paramètres qui s'appliquent au compte actuellement actif."
+  },
+  "wallet": {
+    "title": "Paramètres Wallet",
+    "caption": "Paramètres qui s'appliquent au wallet actuellement actif."
+  },
+  "app": {
+    "title": "Paramètres de l'application",
+    "caption": "Paramètres qui s'appliquent à Eternl en général."
+  },
+  "update": {
+    "success": "Paramètre enregistré avec succès.",
+    "error": "Erreur lors de l'enregistrement du paramètre."
+  }
+}

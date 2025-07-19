@@ -1,0 +1,70 @@
+{
+  "title": "Detaily aktiva",
+  "owns": "Účet vlastní",
+  "youOwn": "vlastníš",
+  "numAssets": "Nalezeno {{numAssets}} unikátních aktiv.",
+  "tab": {
+    "details": "Detaily",
+    "metadata": "Metadata",
+    "raw": "Surová data",
+    "registry": "Registr tokenů",
+    "media": "Média"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Přidat aktivum",
+      "tooltip": "Přidat aktivum k tomuto příjemci."
+    },
+    "editAsset": {
+      "label": "Upravit aktivum",
+      "tooltip": "Změnit množství."
+    },
+    "addAssets": {
+      "label": "Přidat aktiva",
+      "tooltip": "Přidat další aktiva k tomuto příjemci."
+    },
+    "editAssets": {
+      "label": "Upravit aktiva",
+      "tooltip": "Změnit již přidaná aktiva."
+    },
+    "removeAsset": {
+      "label": "Odebrat aktivum",
+      "tooltip": "Odebrat aktivum od tohoto příjemce."
+    },
+    "addCollection": {
+      "label": "Přidat kolekci",
+      "tooltip": "Přidat kolekci k tomuto příjemci."
+    },
+    "removeCollection": {
+      "label": "Odebrat kolekci",
+      "tooltip": "Odebrat kolekci od tohoto příjemce."
+    },
+    "setIcon": {
+      "label": "Ikona Wallet",
+      "tooltip": "Nastavit obrázek aktiva jako ikonu wallet."
+    }
+  },
+  "hover": {
+    "removeAsset": "Odebrat aktivum"
+  },
+  "filter": {
+    "search": "Hledat podle zásady, jména, otisku prstu nebo metadata..."
+  },
+  "price": {
+    "unknown": "Neznámá hodnota tokenu",
+    "value": "Hodnota tokenu",
+    "avg": "Průměrná cena"
+  },
+  "media": {
+    "format": {
+      "html": "HTML soubor",
+      "pdf": "PDF soubor",
+      "image": "Obrázek",
+      "video": "Video",
+      "audio": "Audio"
+    }
+  },
+  "digits": {
+    "unknown": "Neznámý počet desetinných míst"
+  }
+}

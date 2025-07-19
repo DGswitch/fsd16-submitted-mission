@@ -1,0 +1,23 @@
+{
+  "title": "Детайли за транзакцията",
+  "inputsOutputs": "Входове/Изходи",
+  "mints": "Сечене/Изгаряне",
+  "withdrawals": "Изтегляния",
+  "certificates": "Сертификати",
+  "metadata": "Metadata",
+  "governance": "Управление",
+  "paramupdate": "Актуализация на параметри",
+  "recipient": "Получател",
+  "scripts": "Скриптове",
+  "witnesses": "Свидетели",
+  "validFor": {
+    "label": "Валидна за",
+    "unlimited": "Без ограничение във времето",
+    "expired": "Транзакцията е изтекла"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Зареди по Tx Hash или raw Tx Cbor",
+    "invalidTxHashOrCbor": "Невалиден Tx Hash или raw Tx Cbor",
+    "invalidTxCbor": "Невалиден transaction cbor!"
+  }
+}

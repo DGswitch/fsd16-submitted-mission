@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - تمويل المشاريع",
+  "caption": "Catalyst يجلب الحوكمة على السلسلة إلى Cardano blockchain.",
+  "subCaption": "ساعد في تشكيل مستقبل Cardano من خلال التصويت على مقترحات التمويل",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "الصندوق التالي",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "فشل حفظ مفتاح التصويت في تخزين wallet. يرجى الاتصال بالدعم للحصول على مزيد من المساعدة!",
+    "catalystkey": "مفتاح تصويت Catalyst مفقود. لا ينبغي أن يحدث هذا، يرجى الاتصال بالدعم!",
+    "api": "تعذر الاستعلام عن واجهة برمجة تطبيقات التصويت، يرجى إعادة التحميل أو الاتصال بالدعم إذا تكرر الأمر.",
+    "funds": "مطلوب ###min_ada_catalyst### على الأقل لتكون wallet مؤهلة للمشاركة في التصويت.",
+    "rewards": "لا يمكن استخدام مكافآتك البالغة ###rewards_amount### في التصويت إلا إذا قمت بسحبها إلى wallet الخاصة بك.",
+    "nometadata": "خطأ غير معروف، لم يتم إنشاء بيانات وصفية التسجيل بشكل صحيح، يرجى إعادة المحاولة أو الاتصال بالدعم إذا تكرر الأمر."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "يرجى الملاحظة",
+      "caption": "حاليًا، التسجيل مفتوح للصندوق 10 من Catalyst. بعد هذا الحدث، سيتم التعامل مع التصويت على الصناديق المستقبلية بشكل مختلف. انضم إلى مجتمعات Catalyst لمعرفة المزيد."
+    }
+  }
+}

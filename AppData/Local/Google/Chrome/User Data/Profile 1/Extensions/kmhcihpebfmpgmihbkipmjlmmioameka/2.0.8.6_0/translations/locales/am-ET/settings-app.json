@@ -1,0 +1,231 @@
+{
+  "appMode": {
+    "pro": "የላቀ ሞድ",
+    "simple": "ቀላል ሞድ",
+    "caption": "በቀላል እና የላቀ ሞድ መካከል ይቀያይሩ።",
+    "setting": {
+      "caption": "የEternl ልምድዎን ይግለጹ። ቀላል ሞድ ለአዲስ ተጠቃሚዎች የተሻለ ነው። የላቀ ሞድ ሁሉንም ደወሎች እና ፉጨቶች አሉት።",
+      "openAfterSign": "በሚፈርሙበት ጊዜ የግብይት ቅድመ እይታን በራስ-ሰር ይክፈቱ።",
+      "performance": "የሚያስፈልጉትን የእይታ ውጤቶች (ለምሳሌ የደበዘዘ ዳራ እና በገበታዎች ላይ ያለ ድብዘዛ) ያንቁ።",
+      "showButton": "በራስጌው ላይ dapp ማገናኛ ቁልፍ አሳይ",
+      "fixAndroid": "ለAndroid የታችኛው የአሰሳ አሞሌ ችግር መፍትሄን አንቃ።",
+      "home": {
+        "caption": "ከመነሻ ዳሽቦርድ ላይ ንጥረ ነገሮችን ያክሉ ወይም ያስወግዱ።",
+        "stakeKey": "የመለያ ምሰሶ ቁልፍን አሳይ",
+        "adaChart": "{{currency}} ገበታ አሳይ",
+        "rewardsChart": "የሽልማት ገበታን አሳይ",
+        "stakePool": "የተመረጠውን ምሰሶ ገንዳ አሳይ",
+        "monsterSwap": "MonsterSwapን አሳይ",
+        "dRep": "የተወከለውን ተወካይ አሳይ"
+      }
+    },
+    "showButton": "dapp ማገናኛ ቁልፍን በራስጌው ላይ አሳይ"
+  },
+  "network": {
+    "title": "ኔትዎርክ",
+    "caption": "የአሁኑን ንቁ አውታረ መረብ ይምረጡ።"
+  },
+  "language": {
+    "title": "ቋንቋ",
+    "caption": "የተመረጠውን ቋንቋ ይምረጡ።",
+    "search": "የቋንቋ ዝርዝርን ያጣሩ",
+    "setting": {
+      "caption": "ለማመልከቻው የተመረጠውን ቋንቋ ይምረጡ።"
+    },
+    "warning": {
+      "title": "ቤታ ባህሪ",
+      "text": "ቋንቋውን መቀየር አዲስ ባህሪ ነው። ያጋጠሙዎትን ማንኛውንም ችግሮች እባክዎን በ Discord ላይ ለ Eternl ቡድን ሪፖርት ያድርጉ።",
+      "button": "በ Discord ላይ ሪፖርት ያድርጉ"
+    }
+  },
+  "formatting": {
+    "title": "ቅርጸት",
+    "caption": "የክልል ቀን እና የገንዘብ ቅርጸት።",
+    "setting": {
+      "caption": "ለተመረጠው ቋንቋ ቅርጸትን ለመከተል ያንቁ።",
+      "enabled": "ቋንቋ ነቅቷል",
+      "disabled": "ቋንቋ ተሰናክሏል",
+      "region": "የቅርጸት ክልል",
+      "timezone": "የሰዓት ክልል"
+    }
+  },
+  "currency": {
+    "title": "ምንዛሬ",
+    "caption": "ለመለወጥ የተመረጠውን ምንዛሬ ይምረጡ።",
+    "search": "የምንዛሬ ዝርዝርን ያጣሩ",
+    "setting": {
+      "caption": "ለመለወጥ የተመረጠውን ምንዛሬ ይምረጡ።"
+    }
+  },
+  "decimalPrecision": {
+    "title": "የአስርዮሽ ትክክለኛነት",
+    "caption": "የአስርዮሽ ቦታዎች ብዛት።",
+    "setting": {
+      "caption": "ለ መጠኖች ለማሳየት የአስርዮሽ ቦታዎችን ቁጥር ይምረጡ።"
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// See pin:deleteAccess and pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "ባዮሜትሪክ ማረጋገጫ",
+    "caption": "እራስዎን ለማረጋገጥ FaceId (iOS) ወይም ሌሎች ባዮሜትሪክ ስርዓቶችን ይጠቀሙ።",
+    "setting": {
+      "title": {
+        "active": "ነቅቷል",
+        "inactive": "ቦዝኗል"
+      },
+      "caption": {
+        "active": "$t(common:appName) ለመክፈት ባዮሜትሪክን በመጠቀም ያረጋግጡ።",
+        "inactive": "ባዮሜትሪክ ማረጋገጫ ቦዝኗል።",
+        "disabled": "ይህን ባህሪ ለማንቃት እባክዎ በመጀመሪያ ፒን ያዘጋጁ።"
+      }
+    }
+  },
+  "sound": {
+    "title": "ድምፆች",
+    "caption": "የድምፅ ማሳወቂያዎችን አንቃ ወይም አቦዝን።",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "የድምፅ ማሳወቂያዎች ለስዋፕ ግንኙነቶች፣ ስህተቶች እና ሌሎች አስፈላጊ ክስተቶች ያገለግላሉ።",
+      "enabled": "$t(settings-app:sound.title) ነቅቷል",
+      "disabled": "$t(settings-app:sound.title) ተሰናክሏል"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "$t(addressBook:title) ግቤቶችን ጨምሩ፣ ሰርዙ እና አስተካክሉ።",
+    "setting": {
+      "caption": "$t(addressBook:title) ግቤቶችዎን ያስተዳድሩ።",
+      "comment": "// addressBook ይመልከቱ:"
+    }
+  },
+  "allowlist": {
+    "title": "DApp የተፈቀደላቸው ዝርዝር",
+    "caption": "ይህ $t(common:appName) መተግበሪያ ጋር እንዲገናኙ የተፈቀደላቸው ድረ-ገጾች/DApps ዝርዝር ነው።",
+    "setting": {
+      "comment": "// dapps-allowlist ይመልከቱ:"
+    }
+  },
+  "autoSubmit": {
+    "title": "ግብይቶች: በራስ ሰር አስገባ",
+    "caption": "ከተፈረመ በኋላ ግብይቶችን በራስ-ሰር ያስገቡ። የተፈረመ የግብይት cbor ማውረድ ለማስቻል ያሰናክሉ።",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "በራስ ሰር ማስገባት ነቅቷል",
+      "disabled": "በራስ ሰር ማስገባት ተሰናክሏል",
+      "enabledInfo": "የተፈረሙ ግብይቶች በራስ-ሰር ወደ blockchain ይላካሉ።",
+      "disabledInfo": "ከተፈረመ በኋላ ግብይትን እራስዎ ማስገባት አለብዎት።"
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "ብጁ የማስረከቢያ የመጨረሻ ነጥብ",
+    "caption": "ግብይቶችን በብጁ cardano-node እና cardano-submit-api በኩል ይላኩ።",
+    "setting": {
+      "caption": "ለግብይት ማስረከቢያ ብጁ cardano-node እና cardano-submit-api የመጨረሻ ነጥብ ይግለጹ።",
+      "new_endpoint": "የመጨረሻ ነጥብ ጨምር",
+      "hint": "አዲስ ብጁ የመጨረሻ ነጥብ ጨምር።",
+      "deleteConfirm": "መግባትን መሰረዝ ያረጋግጡ።",
+      "deleted": "የመጨረሻ ነጥብ ተሰርዟል።",
+      "note": {
+        "title": "እባክዎን ያስተውሉ!",
+        "caption": "ይህ የላቀ ቅንብር ነው እና አንድምታውን ሙሉ በሙሉ ከተረዱት ብቻ ነው መጠቀም ያለብዎት።",
+        "description": "ብጁ የመጨረሻ ነጥቡ ታማኝ እና ሙሉ በሙሉ የተመሳሰለ መሆኑን ያረጋግጡ።\n\nካልሆነ፣ የ node ኦፕሬተር የግብይቶችዎን ስርጭት ለራሳቸው ጥቅም ሊያግዱት ወይም ጨርሶ ላያሰራጩት ይችላሉ፣ እና ሁሉም ግብይቶችዎ ሊሳኩ ይችላሉ።\n\n እርግጠኛ ካልሆኑ፣ ግብይትን በ $t(common:appName) መሠረተ ልማት በኩል ለመላክ ይህንን ቅንብር ያቦዝኑት።",
+        "cors": "እንዲሁም፣ የእርስዎ ብጁ የመጨረሻ ነጥብ $t(common:appName) የሚልከውን ጥያቄ ለመቀበል ትክክለኛ የ CORS ራስጌዎችን ማዘጋጀቱን ያረጋግጡ።"
+      },
+      "error": {
+        "url": "ትክክለኛ ዩአርኤል በ http(s) ይጀምራል።",
+        "oneEndpoint": "ቢያንስ አንድ የተዋቀረ የማስረከቢያ የመጨረሻ ነጥብ መኖር አለበት።"
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain ኤክስፕሎረር",
+    "caption": "የተመረጠውን blockchain ኤክስፕሎረር በዓይነት ያዘጋጁ።",
+    "setting": {
+      "caption": "ለማመልከቻው ተመራጭ የሆነውን blockchain ኤክስፕሎረር ይምረጡ።",
+      "block": "የብሎክ ኤክስፕሎረር",
+      "pool": "የፑል ኤክስፕሎረር",
+      "address": "የአድራሻ ኤክስፕሎረር",
+      "token": "የቶከን ኤክስፕሎረር",
+      "policy": "የፖሊሲ ኤክስፕሎረር",
+      "transaction": "የግብይት ኤክስፕሎረር",
+      "stake": "የስቴክ ቁልፍ ኤክስፕሎረር",
+      "DRep": "DRep ኤክስፕሎረር",
+      "govProposal": "የአስተዳደር ሀሳብ",
+      "select": "{{type}} ይምረጡ"
+    }
+  },
+  "experimental": {
+    "title": "የሙከራ ቅንብሮች",
+    "caption": "የሙከራ ቅንብሮች በማንም ሰው መጠቀም የለባቸውም!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "ሁሉንም የዩአርኤል መለኪያዎች ደብቅ",
+        "caption": "ይህ ከነቃ፣ በቅንብሮች ክፍል ውስጥ ያሉት የዩአርኤል መለኪያዎች ይደበቃሉ።"
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "ያለፈውን ጥቅም ላይ የዋለውን ቅንብር አስቀምጥ",
+        "caption": "ይህ ከነቃ ወደ ቅንጅቶች መቀየር በራስ-ሰር ያለፈውን ጥቅም ላይ የዋለውን የቅንብር ቡድን እና ክፍል ይመርጣል።"
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "ለMonsterSwap መንሸራተት እና Dex ቅንጅቶች።"
+  },
+  "theme": {
+    "label": "ገጽታ መቀየሪያ",
+    "caption": "Eternl የራስህ ለማድረግ ገጽታ ምረጥ።",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "የመተግበሪያውን መሸጎጫ ዳግም አስጀምር",
+    "caption": "መተግበሪያውን ዳግም ለማስጀመር ሁሉንም የተቀመጡ መረጃዎች አስወግድ።",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\nይህ ግብይቶችን፣ የቶከን ምስሎችን እና metadata ያካትታል። የእርስዎ ቦርሳዎች፣ አካውንቶች እና ቅንጅቶች አይነኩም።",
+      "finish": "የመተግበሪያ መሸጎጫ ዳግም ማስጀመር ተሳክቷል።",
+      "inProgress": "$t(common:appName) መሸጎጫ እየተጸዳ ነው፣ እባክዎ ይጠብቁ።",
+      "warning": "የ$t(common:appName) መሸጎጫን ዳግም ካስጀመሩ በኋላ፣ መተግበሪያው ሁሉንም መረጃዎች ከblockchain እንደገና መጫን አለበት። ብዙ ቦርሳዎች ወይም አካውንቶች ካሉዎት፣ ይህ የተወሰነ ጊዜ ሊወስድ ይችላል።",
+      "button": {
+        "label": "የመተግበሪያውን መሸጎጫ ዳግም አስጀምር"
+      }
+    }
+  },
+  "reset": {
+    "title": "መተግበሪያውን ዳግም አስጀምር",
+    "caption": "መተግበሪያውን ዳግም ለማስጀመር ሁሉንም ቦርሳዎች እና የተቀመጡ መረጃዎች ሰርዝ።",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "ማስጠንቀቂያ!",
+          "text": "መተግበሪያውን ዳግም ካስጀመሩ በኋላ፣ ወደ ሁሉም ቦርሳዎችዎ መዳረሻ ያጣሉ! ዳግም ካስጀመሩ በኋላ መዳረሻን መልሶ ለማግኘት ብቸኛው መንገድ የwallet መልሶ ማግኛ ሀረግዎን ወደነበረበት መመለስ ወይም ቀደም ሲል የወጡ $t(common:appName) .json ፋይሎችን ማስመጣት ነው።"
+        }
+      },
+      "phrase": {
+        "name": "የማረጋገጫ ሐረግ",
+        "hint": "የማረጋገጫ ሐረጉን ያስገቡ።",
+        "noPaste": "$t(common:appName) ዳግም ለማስጀመር እባክዎ የማረጋገጫ ሐረጉን ይተይቡ",
+        "confirmation": "ዳግም አስጀምር $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "ወደ ቦርሳዎቼ መዳረሻን መልሼ ማግኘት የምችለው በwallet መልሶ ማግኛ ሐረግ እነሱን ወደነበረበት በመመለስ ወይም የሃርድዌር wallet መሣሪያዎችን በማጣመር መሆኑን ተረድቻለሁ።",
+          "error": "የማረጋገጫ ሐረጉ አይዛመድም።"
+        }
+      },
+      "deleteWallets": "ቦርሳዎችን ዳግም አስጀምር",
+      "deleteConfig": "ቅንብሮችን ዳግም አስጀምር",
+      "deleteFinish": "እየጨረስን ነው",
+      "finish": "የመተግበሪያ ዳግም ማስጀመር በተሳካ ሁኔታ ተጠናቋል"
+    }
+  }
+}

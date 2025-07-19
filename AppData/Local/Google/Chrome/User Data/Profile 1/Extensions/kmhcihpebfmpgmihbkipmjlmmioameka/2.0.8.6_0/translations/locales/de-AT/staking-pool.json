@@ -1,0 +1,55 @@
+{
+  "spo": "betreibt einen einzelnen Stake Pool",
+  "mpo": "betreibt {{count}} Stake Pools",
+  "retired": "Zurückgezogen in epoch {{epoch}}",
+  "retiredIn": "Zurückgezogen in epoch {{epoch}}",
+  "noRewards": "Dieser Pool wird KEINE {{adaSymbol}} Belohnungen verdienen.",
+  "lessRewards": "Dieser Pool wird weniger Belohnungen als üblich verdienen.",
+  "history": "Belohnungshistorie",
+  "fees": "Gebühren",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Grün: im optimalen Bereich. Rot: verdient weniger Belohnungen."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Grün: im normalen Bereich. Rot: verdient weniger Belohnungen."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake. Performance der letzten 12 Epochen. Grün: im normalen Bereich. ROS wird bei Pools mit weniger Stake stärker schwanken."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Belohnungen einfordern",
+      "syncing": "Wallet wird synchronisiert",
+      "norewards": "Keine Belohnungen verfügbar"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Letzter Monat",
+      "3months": "Letzte 3 Monate",
+      "6months": "Letzte 6 Monate",
+      "year": "Letztes Jahr"
+    },
+    "view-history": "Verlauf ansehen",
+    "view-graph": {
+      "stake-key": "Konto Stake Key"
+    },
+    "approx-earning": "Geschätzte Belohnungen im nächsten Jahr",
+    "unclaimed-ada": "Nicht beanspruchte {{currency}}",
+    "lifetime-earning": "Insgesamt hast du gemacht",
+    "lifetime-apy": "Lebenszeit-APY",
+    "lifetime-earned": "seit du mit staking begonnen hast",
+    "epoch-ends-in": "Diese epoch endet in",
+    "search": "Gib ein Ticket, einen Namen oder Details ein",
+    "delegate": "Wähle diesen Pool",
+    "openPoolList": "Pool-Liste öffnen"
+  }
+}

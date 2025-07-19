@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "ፕሮጀክት Catalyst",
+    "caption": "ስለ አሁኑ የገንዘብ ድጋፍ ዙር ዜናዎችን ሁሉ ያንብቡ።",
+    "text": "ፕሮጀክት Catalyst በየጥቂት ወራት የገንዘብ ድጋፍ ዙሮች አሉት፣ ለአስተያየቶች ለመመደብ ዝግጁ የሆነ የተወሰነ መጠን ያለው ada አለው።\n\nበፕሮጀክት Catalyst ድህረ ገጽ ላይ ስለ ቀድሞው እና ወደፊት ስለሚመጡ ገንዘቦች ሁሉንም ጠቃሚ መረጃዎች ያግኙ።",
+    "button": {
+      "label": "ገጽ ጎብኝ",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "ሁሉንም የሃሳብ ጥቆማዎች ያስሱ",
+    "text": "Catalyst IdeaScaleን እንደ የትብብር ፈጠራ መድረክ ይጠቀማል።\n\nይህ የሚደረገው የአንድን የተወሰነ ፈንድ ፈተናን ለመፍታት ላይ በሚያተኩሩ በማህበረሰብ በተፈጠሩ የሃሳብ ጥቆማዎች ላይ በመምረጥ ነው።",
+    "button": {
+      "label": "ተጨማሪ እወቅ",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "ሁሉም በአንድ ላይ Catalyst የውሂብ መድረክ",
+    "text": "Blockchain ትምህርት፣ ተደራሽነት እና ዓለም አቀፍ ማህበረሰብ ግንባታ:\n\nምክንያቱም የወደፊቱ ለሁሉም ነው!",
+    "button": {
+      "label": "ገጽ ጎብኝ",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "የዜና መጽሔት",
+    "caption": "ወቅታዊ መረጃ ይኑርዎት",
+    "text": "የቅርብ ጊዜ ዜናዎችን እና ዝመናዎችን እንዳያመልጥዎ ለፕሮጀክት Catalyst የዜና መጽሔት ይመዝገቡ።",
+    "button": {
+      "label": "ይመዝገቡ",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "ቴሌግራም",
+    "caption": "ማህበረሰቡን ያሳትፉ",
+    "text": "በመጪው Cardano የማሻሻያ ጥቆማዎች ላይ ሀሳቦችዎን ለማጋራት እና ጤናማ እና አነቃቂ ውይይት ለመደሰት የቴሌግራም የውይይት እና የማስታወቂያ ቻናሎችን ይቀላቀሉ።",
+    "button1": {
+      "label": "ማስታወቂያዎች",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "የማህበረሰብ ውይይት",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "የከተማው አዳራሽ",
+    "caption": "ገንቢዎቹን ይተዋወቁ",
+    "text": "በየሳምንቱ በሚደረጉ የከተማው አዳራሽ ስብሰባዎች ላይ የመጪውን Cardano ገንቢዎችን ይተዋወቁ። የቀጥታ አቀራረቦቻቸውን ይመልከቱ እና ትርጉም ባለው ውይይት ውስጥ ይሳተፉ።",
+    "button": {
+      "label": "ሳምንታዊ የከተማው አዳራሽ ቅጂዎች",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "ፈተናዎችን አሳይ",
+      "hide": "ፈተናዎችን ደብቅ",
+      "link": "የፈተና ድህረ ገጽ",
+      "allocation": "የፈንድ ምደባ"
+    },
+    "timeline": {
+      "caption": "ከዚህ በታች የሚታየው የጊዜ መስመር ለውጦች ሊደረጉበት ይችላል። ይህን ገጽ እንደገና በመጎብኘት እና በCatalyst ሳምንታዊ የከተማው አዳራሽ ስብሰባዎች ላይ በመሳተፍ ወቅታዊ መረጃ ይኑርዎት።",
+      "snapshot": {
+        "label": "የድምጽ መስጫ ኃይል ቅጽበታዊ እይታ",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "የድምጽ መስጫ ጅምር",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "የድምጽ መስጫ መጨረሻ",
+        "caption": ""
+      },
+      "result": {
+        "label": "ውጤት",
+        "caption": "± ጥቂት ቀናት።"
+      }
+    }
+  }
+}

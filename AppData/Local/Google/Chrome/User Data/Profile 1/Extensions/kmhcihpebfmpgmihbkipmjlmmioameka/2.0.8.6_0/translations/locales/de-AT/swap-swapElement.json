@@ -1,0 +1,44 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "Holt dir den besten Preis von verschiedenen Aggregatoren",
+  "select": "AUSWÄHLEN",
+  "sell": "Du verkaufst",
+  "buy": "Du kaufst",
+  "balance": "Verfügbar zum Tauschen",
+  "aggAndDexs": "Agg & DEXs:",
+  "provider": "Anbieter",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Löscht alle Eingaben"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Tausche Transaktion erstellen"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Erstellt die Tausch Transaktion."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Batcher & Pool Volume Gebühr (DEXs)",
+      "tooltip": "DEXs legen eine Gebühr fest, um deine Bestellung zu bearbeiten. Diese wird nicht zurückerstattet."
+    },
+    "aggregatorFee": {
+      "label": "Servicegebühr",
+      "tooltip": "Das ist die Gebühr für den Komfort. Sie hilft, die Entwicklung des Aggregators und von Eternl zu finanzieren."
+    },
+    "deposit": {
+      "label": "Rückerstattbare Einzahlung",
+      "tooltip": "Eine Einzahlung ist erforderlich, um deine Bestellung zu bearbeiten. Dieser Betrag wird mit den Token, die du erhältst, an dein wallet zurückgesendet."
+    }
+  },
+  "geo": {
+    "headline": "MonsterSwap ist in deiner Region leider nicht verfügbar!",
+    "caption": "Aufgrund von Vorschriften und dem Engagement von Eternl, regionale Richtlinien und alle geltenden Gesetze einzuhalten, mussten wir MonsterSwap in deiner Region deaktivieren. Wir wissen, dass die Gesetze sowohl unklar als auch ständig im Wandel sind, und wir werden die Einschränkungen entsprechend anpassen."
+  }
+}

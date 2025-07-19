@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "Create PIN",
+      "confirm": "Confirm PIN"
+    },
+    "captionShort": "Set a PIN to access $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) will be required each time you open $t(common:appName).",
+      "confirm": "To confirm your PIN, re-enter the same code."
+    },
+    "hint": {
+      "enter": "Enter PIN.",
+      "confirm": "Enter PIN again to confirm."
+    },
+    "confirmed": "PINs match.",
+    "button": {
+      "label": "Enable PIN"
+    },
+    "error": {
+      "confirm": "PIN mismatch, please try again."
+    }
+  },
+  "access": {
+    "title": "Access PIN",
+    "caption": "Enter Access PIN.",
+    "checking": "Verifying PIN.",
+    "confirmed": "PIN correct.",
+    "error": {
+      "confirm": "Incorrect PIN."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Enter PIN to disable.",
+    "biometrics": "Removing the PIN will also disable Biometrics.",
+    "button": {
+      "label": "Disable PIN",
+      "tooltip": "Enter current PIN to disable."
+    }
+  },
+  "biometrics": {
+    "login": "تسجيل الدخول باستخدام القياسات الحيوية",
+    "caption": "يرجى المصادقة باستخدام FaceID أو ميزة بيومترية أخرى.",
+    "fallback": "Login with PIN",
+    "use": {
+      "ios": "Or use FaceID or fingerprint to access wallet.",
+      "android": "Or use your phone's biometric features to access wallet."
+    }
+  },
+  "comment": "// More PIN texts: catalyst:step.pin"
+}

@@ -1,0 +1,35 @@
+{
+  "enter": {
+    "label": "Enter password",
+    "hint": "Enter a strong spending password",
+    "error": "The spending password requires at least 12 characters.",
+    "info": "A strong password contains lower and upper case letters, numbers, special characters and is at least 12 characters long.\n\nA password manager app (PMA) is highly recommended! Use your PMA to create unique long passwords for each wallet and\npaste them into the fields.\n\nNever reuse passwords.",
+    "weak": "This password is considered weak.",
+    "moderate": "This password is considered moderate.",
+    "strong": "This password is considered strong."
+  },
+  "repeat": {
+    "label": "Repeat password",
+    "hint": "Repeat the spending password",
+    "error": "Passwords don\"t match.",
+    "info": "Both entered passwords must match."
+  },
+  "current": {
+    "label": "Current Spending password",
+    "hint": "Enter the current spending password",
+    "error": "This password does not unlock the wallet keys. Please enter the correct password.",
+    "info": "Enter the current spending password."
+  },
+  "sign": {
+    "label": "Sign",
+    "info": "Enter the spending password of your wallet. It\"s the password you entered when you created/restored this wallet.",
+    "hint": "Enter the spending password",
+    "error": "The entered password does not match the spending password of this wallet."
+  },
+  "addAccount": {
+    "label": "Spending Password",
+    "info": "@:form.password.sign.info",
+    "hint": "Enter the spending password to add an account",
+    "error": "The entered password does not match the spending password of this wallet."
+  }
+}

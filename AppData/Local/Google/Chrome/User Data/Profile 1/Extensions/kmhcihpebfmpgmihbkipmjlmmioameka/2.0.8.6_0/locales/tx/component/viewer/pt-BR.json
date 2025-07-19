@@ -1,0 +1,21 @@
+{
+  "title": "Detalhes da transação",
+  "inputsOutputs": "Entradas/Saídas",
+  "mints": "Cunhagens",
+  "withdrawals": "Retiradas",
+  "certificates": "Certificados",
+  "metadata": "__GT__Metadados__",
+  "recipient": "Destinatário",
+  "scripts": "Scripts",
+  "witnesses": "Testemunhas",
+  "validFor": {
+    "label": "Válido por",
+    "unlimited": "Sem limite de tempo",
+    "expired": "Transação expirada"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Carregar por Tx Hash ou Tx Cbor bruto",
+    "invalidTxHashOrCbor": "Tx Hash ou Tx Cbor bruto inválido",
+    "invalidTxCbor": "Cbor de transação inválido!"
+  }
+}

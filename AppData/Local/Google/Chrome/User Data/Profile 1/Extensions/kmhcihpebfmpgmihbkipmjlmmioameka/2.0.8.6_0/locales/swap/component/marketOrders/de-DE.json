@@ -1,0 +1,16 @@
+{
+  "title": "Marktaufträge",
+  "caption": "On-Chain-Aktivität in Echtzeit.",
+  "loading": "Lade Marktaufträge",
+  "select": "Wähle ein Token-Paar, um Marktaufträge zu laden",
+  "empty": "Keine Marktaufträge gefunden",
+  "time": "Zeit",
+  "type": "Typ",
+  "in": "Ein",
+  "out": "Aus",
+  "orderCount": {
+    "total": "Letzte {{total}} Aufträge: ",
+    "buy": "{{buy}} Kaufen,",
+    "sell": " {{sell}} Verkaufen"
+  }
+}

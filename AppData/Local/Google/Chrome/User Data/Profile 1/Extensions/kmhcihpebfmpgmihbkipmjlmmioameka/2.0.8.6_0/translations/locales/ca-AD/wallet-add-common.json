@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Nom del Wallet",
+    "caption": "Dona-li un nom recognoscible al teu wallet."
+  },
+  "phrase": {
+    "title": "Frase mnemotècnica"
+  },
+  "account": {
+    "title": "Nombre de comptes",
+    "caption": "Especifica el nombre de comptes que vols crear.",
+    "suffix": "compte(s)",
+    "description": "Un wallet a $t(common:appName) pot tenir fins a {{accountLimit}} comptes. Cada compte es pot delegar a un pool de staking diferent. Les claus del compte es generen a partir de la clau arrel del wallet.",
+    "tooltip": "Cada compte afegit augmenta el temps de sincronització, però pots afegir comptes quan vulguis."
+  },
+  "create": {
+    "title": "Creant el wallet",
+    "caption": "Espera mentre es genera el wallet",
+    "password": {
+      "title": "Estableix la contrasenya de despesa",
+      "caption": "Tria una contrasenya llarga. Com més llarga sigui, més segurs estaran els teus fons."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet afegit correctament",
+      "created": "Wallet creat correctament",
+      "restored": "Wallet restaurat correctament",
+      "imported": "Wallet importat correctament"
+    },
+    "processing": "Creant el wallet...",
+    "exists": "El Wallet ja existeix, redirigint al wallet."
+  }
+}

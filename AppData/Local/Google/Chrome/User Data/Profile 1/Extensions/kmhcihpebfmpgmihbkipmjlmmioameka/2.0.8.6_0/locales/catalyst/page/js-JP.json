@@ -1,0 +1,25 @@
+{
+  "menuLabel": "__GT__カタリスト__",
+  "title": "__GT__カタリスト__ - プロジェクトファンディング",
+  "caption": "__GT__カタリスト__ は Cardano __GT__ブロックチェーン__ にオンチェーンガバナンスをもたらします。",
+  "subCaption": "資金調達提案に投票して Cardano の未来を形作りましょう",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "次のファンド",
+  "error": {
+    "syncing": "$t(home/page:syncInfo.syncing)",
+    "account": "$t(wallet/create:error.account)",
+    "save": "投票キーを __GT__ウォレット__ ストレージに保存できませんでした。サポートにお問い合わせください！",
+    "catalystkey": "__GT__カタリスト__ の投票キーが見つかりません。これは通常発生しません。サポートにお問い合わせください！",
+    "api": "投票 API を照会できません。再読み込みするか、問題が続く場合はサポートにお問い合わせください。",
+    "funds": "__GT__ウォレット__ が投票に参加資格を得るには、少なくとも ###min_ada_catalyst### が必要です。",
+    "rewards": "###rewards_amount### の報酬は、__GT__ウォレット__ に引き出さない限り投票には使用できません。",
+    "nometadata": "不明なエラーが発生しました。登録 __GT__メタデータ__ が正しく生成されませんでした。再試行するか、問題が続く場合はサポートにお問い合わせください。"
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "ご注意ください",
+      "caption": "現在、__GT__カタリスト__ のファンド10の登録を受け付けています。このイベントの後、将来のファンドへの投票は異なる方法で処理されます。詳細については、__GT__カタリスト__ のコミュニティにご参加ください。"
+    }
+  }
+}

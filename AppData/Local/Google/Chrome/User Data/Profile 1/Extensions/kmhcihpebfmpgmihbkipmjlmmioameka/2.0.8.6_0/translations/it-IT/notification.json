@@ -1,0 +1,9 @@
+{
+  "title": "Centro notifiche",
+  "empty": "Nessuna notifica.",
+  "copy": "È stato copiato negli appunti",
+  "type": {
+    "txMS": "Transazione Multi-Firma",
+    "unknown": "Tipo sconosciuto"
+  }
+}

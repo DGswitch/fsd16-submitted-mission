@@ -1,0 +1,77 @@
+{
+  "title":                    "$t(common:addressBook)",
+
+  "noEntries":                "No entries in $t(common:addressBook) yet.",
+
+  "badge": {
+    "hover":                  "$t(common:addressBook) entry: {{ name }} ({{ mode }})"
+  },
+
+  "button": {
+
+    "addEntry":               "$t(common:button.addEntry)",
+    "export":                 "$t(common:export)",
+    "import":                 "$t(common:import)",
+    "acceptNewAddress":       "$t(common:button.acceptNewAddress)",
+    "edit":                   "$t(common:edit)",
+    "send":                   "$t(common:send) to $t(common:address)",
+    "save":                   "$t(common:save)",
+    "delete":                 "$t(common:delete)",
+    "cancel":                 "$t(common:cancel)",
+    "add":                    "$t(common:add)",
+    "global":                 "Add to $t(common:addressBook)",
+    "sync":                   "Sync handle address"
+  },
+
+  "import": {
+
+    "title":                  "Import $t(common:addressBook) entries",
+    "caption":                "Import $t(common:addressBook) entries from a file."
+  },
+
+  "add": {
+
+    "title": {
+
+      "headline":             "Add to $t(common:addressBook)",
+
+      "caption": {
+
+        "main":               "Add an entry to the $t(common:addressBook)",
+        "prefilled":          "All values have been prefilled and inputs are disabled."
+      },
+
+      "success":              "Successfully added {{handle}} to $t(common:addressBook)",
+      "error":                "Could not add {{handle}} to $t(common:addressBook)"
+    },
+
+    "name": {
+
+      "label":                "Entry name",
+
+      "error": {
+
+        "length":             "An $t(common:addressBook) entry name requires at least 3 and at most 40 characters.",
+        "duplicate":          "An $t(common:addressBook) entry with this name `{{ name }}` already exist, please choose another one.",
+        "duplicateAddr":      "An $t(common:addressBook) entry with this address already exist, under the name {{ address }}."
+      }
+    },
+
+    "addr": {
+
+      "label":                "$t(common:address)",
+      "hint":                 "Enter a valid Cardano address.",
+
+      "error": {
+
+        "format":             "$t(common:address.invalid)",
+        "duplicate":          "An $t(common:addressBook) entry with the name `{{ name }}` already exist for this address, please choose another or edit/delete existing."
+      }
+    }
+  },
+
+  "delete": {
+
+    "confirm":                "Confirm deleting entry."
+  }
+}

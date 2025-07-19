@@ -1,0 +1,16 @@
+{
+  "title": "市場訂單",
+  "caption": "實時鏈上活動。",
+  "loading": "正在載入市場訂單",
+  "select": "選擇代幣對以載入市場訂單",
+  "empty": "找不到市場訂單",
+  "time": "時間",
+  "type": "類型",
+  "in": "買入",
+  "out": "賣出",
+  "orderCount": {
+    "total": "最近 {{total}} 個訂單：",
+    "buy": "{{buy}} 買入，",
+    "sell": " {{sell}} 賣出"
+  }
+}

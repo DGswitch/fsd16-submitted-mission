@@ -1,0 +1,45 @@
+{
+  "title":                    "DApp Browser",
+  "caption":                  "Connect to Cardano dApps.",
+
+  "mints":                    "mints",
+  "burns":                    "burns",
+
+  "plutus": {
+    "contract":               "Plutus Contract(s)",
+    "script":                 "Plutus Script(s)"
+  },
+
+  "native": {
+    "script":                 "Native Script(s)"
+  },
+
+  "badges": {
+    "defi": {
+      "label":                "defi",
+      "hover":                "defi hover - tbd"
+    },
+    "collectibles": {
+      "label":                "collectibles",
+      "hover":                "collectibles hover - tbd"
+    },
+    "mints": {
+      "label":                "mint",
+      "hover":                "mint hover - tbd"
+    },
+    "social": {
+      "label":                "social",
+      "hover":                "social hover - tbd"
+    },
+    "tools": {
+      "label":                "tools",
+      "hover":                "tools hover - tbd"
+    },
+    "other": {
+      "label":                "other",
+      "hover":                "other hover - tbd"
+    }
+  },
+
+  "connect":                  "Connect to {{dapp}}"
+}

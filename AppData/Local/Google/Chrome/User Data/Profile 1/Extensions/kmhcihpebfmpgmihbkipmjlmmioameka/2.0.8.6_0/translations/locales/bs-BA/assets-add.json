@@ -1,0 +1,11 @@
+{
+  "title": "Dodaj sredstva",
+  "warning": {
+    "notAllAdded": "Dodavanje više sredstava u ovaj izlaz nije dozvoljeno. Dodaj drugi izlaz da uključiš više sredstava. Može biti samo do tri potpuno popunjena izlaza u transakciji."
+  },
+  "button": {
+    "addAll": "Dodaj sve",
+    "addSearch": "Dodaj sve filtrirano",
+    "addPage": "Dodaj sve na stranici"
+  }
+}

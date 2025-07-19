@@ -1,0 +1,40 @@
+{
+  "title": "سوآپ هیولای Eternl",
+  "caption": "بهترین قیمت را از چندین تجمیع‌کننده برای شما دریافت می‌کند",
+  "select": "انتخاب",
+  "sell": "شما می‌فروشید",
+  "buy": "شما می‌خرید",
+  "balance": "موجود برای سوآپ",
+  "aggAndDexs": "تجمیع‌کننده و DEX ها:",
+  "provider": "ارائه‌دهنده",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "تمام ورودی‌ها را پاک می‌کند"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "ایجاد تراکنش سوآپ"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "در حال ساخت تراکنش سوآپ."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "کارمزد حجم استخر و Batcher (DEX ها)",
+      "tooltip": "DEX ها برای پردازش سفارش شما کارمزدی تعیین می‌کنند. این مبلغ قابل استرداد نیست."
+    },
+    "aggregatorFee": {
+      "label": "کارمزد خدمات",
+      "tooltip": "این کارمزد راحتی است. به تأمین مالی توسعه تجمیع‌کننده و Eternl کمک می‌کند."
+    },
+    "deposit": {
+      "label": "سپرده قابل استرداد",
+      "tooltip": "برای پردازش سفارش شما به یک سپرده نیاز است. این مبلغ به همراه توکن‌هایی که دریافت می‌کنید به wallet شما بازگردانده می‌شود."
+    }
+  }
+}

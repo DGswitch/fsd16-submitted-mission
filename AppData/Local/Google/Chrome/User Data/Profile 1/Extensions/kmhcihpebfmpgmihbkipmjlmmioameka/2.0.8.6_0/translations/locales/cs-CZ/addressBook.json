@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "Zatím tu nejsou žádné položky v $t(common:addressBook).",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Přijmout novou adresu"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) položka: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Importovat $t(common:addressBook) položky",
+    "caption": "Importuj $t(common:addressBook) položky ze záložního souboru."
+  },
+  "overwrite": {
+    "title": "Přepsat $t(common:addressBook) položku",
+    "caption": "Potvrdit aktualizaci položky s názvem {{name}}."
+  },
+  "add": {
+    "title": "Přidat do $t(common:addressBook)",
+    "caption": {
+      "main": "Přidej položku do $t(common:addressBook).",
+      "prefilled": "Všechny hodnoty byly předvyplněny a vstupy jsou zakázány."
+    },
+    "name": {
+      "label": "Název položky",
+      "error": {
+        "length": "Název $t(common:addressBook) položky musí mít alespoň 3 a nejvíce 40 znaků.",
+        "duplicate": "$t(common:addressBook) položka s tímto názvem `{{ name }}` už existuje, vyber si prosím jiný.",
+        "duplicateAddr": "$t(common:addressBook) položka s touto adresou už existuje pod názvem {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Potvrdit smazání položky."
+  }
+}

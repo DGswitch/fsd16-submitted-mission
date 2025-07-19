@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Cambiar entre billeteras.",
+    "accounts": {
+      "select": "cuentas",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Selecciona un wallet específico para cambiar entre cuentas.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Cambiar la cuenta $t(common:dApp) activa."
+    },
+    "accounts": {
+      "select": "Selecciona una cuenta de la lista. Marca una cuenta como favorita con el icono de estrella.",
+      "manage": "Añadir o eliminar cuentas, seleccionar índices de cuenta específicos o establecer nombres de cuenta."
+    }
+  },
+  "groups": {
+    "placeholder": "Seleccionar grupos de wallet activos.",
+    "favoriteAccounts": "#Cuentas favoritas"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Nombre de cuenta:",
+    "index": "Índice:",
+    "limit": "Límite:",
+    "remove": {
+      "tooltip": "Eliminar cuenta"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Añadir nuevas cuentas"
+  }
+}

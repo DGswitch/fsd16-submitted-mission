@@ -1,0 +1,5 @@
+{
+  "title": "Crea una adreça Wallet",
+  "caption": "Introdueix una adreça delegada (base) o no delegada (pagament) per crear una wallet de 'només lectura'",
+  "error": "Adreça no vàlida, si us plau, verifica-la i torna-ho a provar."
+}

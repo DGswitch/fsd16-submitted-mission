@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Nome da Conta Ativa",
+    "caption": "Definir nome para a conta atual",
+    "setting": {
+      "caption": "Atualize o nome da sua conta (ativa) ou selecione/desmarque um Ada Handle.",
+      "adaHandle": {
+        "select": "Selecione qual Ada Handle exibir em vez do nome da conta (desmarque para exibir o nome):"
+      },
+      "error": {
+        "empty": "O nome da conta não pode estar vazio.",
+        "duplicate": "Esta carteira já possui uma conta com esse nome."
+      }
+    }
+  },
+  "export": {
+    "title": "Exportar Chave da Conta",
+    "caption": "Exportar a chave pública desta conta.",
+    "setting": {
+      "caption": "Exportar a chave pública desta conta. Importar uma chave pública restaura o histórico da conta em modo somente leitura com a assinatura desativada.",
+      "tooltip": {
+        "acct_xvk": "Chave pública estendida Ed25519-bip32",
+        "xpub": "Chave pública estendida Ed25519-bip32",
+        "acct_vk": "Chave pública Ed25519"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Modo de Endereço Único (SAM)",
+    "caption": "Usar apenas um único endereço para todas as transações.",
+    "setting": {
+      "caption": "Quando ativado, todos os fundos serão mantidos no primeiro endereço de recebimento por padrão.",
+      "enabled": "$t(settings-account:samMode.title) ativado",
+      "disabled": "$t(settings-account:samMode.title) desativado",
+      "customAddress": "Endereço de recebimento personalizado",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Importante!",
+          "text": "Definir um endereço de recebimento personalizado fará com que todas as saídas de troco e o endereço de recebimento mudem para este endereço, mesmo que não pertença a esta conta. Certifique-se de verificar se o endereço correto está definido."
+        }
+      },
+      "notification": {
+        "wrongInput": "Não é um endereço válido.",
+        "wrongNetwork": "Este endereço pertence a uma rede diferente.",
+        "notOwned": "Este endereço não pertence a esta conta e não pode ser usado como endereço de recebimento personalizado.",
+        "nonStaking": "Os fundos neste endereço de recebimento estão em stake com uma chave de stake externa. Você não controlará as recompensas que eles acumularem.",
+        "success": "Endereço de recebimento personalizado definido.",
+        "error": "Falha ao salvar o endereço de recebimento personalizado!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Colateral",
+    "caption": "Usar colateral fornecido pela Eternl?",
+    "setting": {
+      "caption": "Quando ativado, a Eternl fornecerá colateral para a conta.",
+      "info": "Interagir com smart contracts pode exigir colateral caso uma transação falhe. Isso será tratado automaticamente pela Eternl se uma UTxO qualificada for encontrada.",
+      "waiting": "Você enviou uma transação de colateral. Por favor, aguarde, ela ainda não foi confirmada.",
+      "foundCollateral": "Uma UTxO de colateral para esta conta já existe. Ela será usada ao interagir com smart contracts.",
+      "eternl": {
+        "label": "Colateral fornecido pela Eternl",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Nenhuma UTxO de colateral encontrada. Por favor, defina uma pressionando o botão abaixo.",
+      "button": {
+        "setCollateral": {
+          "label": "Definir Colateral",
+          "tooltip": "Definir uma UTxO de colateral para esta conta."
+        }
+      },
+      "error": {
+        "label": "Erro:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Atenção!",
+          "headline": "O Colateral é uma configuração baseada na conta."
+        },
+        "info": {
+          "text": "$t(common:appName) pode usar qualquer UTxO sem tokens e com um valor entre ####minimumCollateral#### e ####maximumCollateral#### como colateral. Ao ativar esta configuração, ele procurará por uma UTxO adequada. Se nenhuma estiver disponível, um botão será exibido para definir uma."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Sincronização Manual",
+    "caption": "Definir sincronização manual",
+    "setting": {
+      "caption": "Sincronizar manualmente a wallet. Se ativado, a wallet precisará ser sincronizada manualmente clicando no ícone de sincronização.",
+      "enabled": "$t(settings-account:manualSync.title) ativado",
+      "disabled": "$t(settings-account:manualSync.title) desativado"
+    }
+  },
+  "historySync": {
+    "title": "Sincronização de Histórico",
+    "caption": "Definir sincronização de histórico",
+    "setting": {
+      "caption": "Quando ativada, a wallet sincronizará o histórico completo de transações da conta. Caso contrário, apenas as últimas 1000 transações serão sincronizadas. A sincronização ocorre em lotes e pode demorar um pouco para contas com um histórico extenso.",
+      "enabled": "$t(settings-account:historySync.title) ativado",
+      "disabled": "$t(settings-account:historySync.title) desativado",
+      "syncing": "A sincronização do histórico ainda está em execução. Aguardando para sincronizar {{AMOUNT}} entradas."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Fragmentação de Tokens (TF)",
+    "caption": "Reduza as taxas de transação fragmentando tokens.",
+    "fragment": {
+      "label": "Tamanho do pacote de tokens",
+      "error": "Limite do tamanho do pacote de tokens: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Define o número de tokens que cada saída UTxO deve conter. É um equilíbrio entre taxas de transação baixas e a quantidade de fundos bloqueados na wallet.\ntamanho de pacote pequeno -> taxas baixas, mais Ada bloqueados.\ntamanho de pacote grande -> taxas mais altas, menos Ada bloqueados."
+    },
+    "setting": {
+      "caption": "Dividir tokens em pacotes no envio se houver mais tokens no troco a ser retornado do que o valor definido. Dependendo da distribuição de UTxO/Tokens da wallet e do resultado desejado, os valores podem precisar ser ajustados para um resultado ótimo.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) ativado",
+      "disabled": "$t(settings-account:tokenFragmentation.title) desativado"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Gestão Avançada de UTxO",
+    "caption": "Use a gestão avançada de UTxO nas suas transações.",
+    "setting": {
+      "caption": "Quando ativado, o $t(common:appName) usará a gestão avançada de UTxO nas suas transações.",
+      "subCaption": "Mantém 10 UTxOs disponíveis para execução paralela de transações. Também tentará manter um UTxO de colateral de 5 ADA para interações com smart contracts.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) ativado",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) desativado"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Retirada Automática",
+    "caption": "Retirar recompensas automaticamente, se necessário.",
+    "setting": {
+      "caption": "Quando ativado, as recompensas serão retiradas automaticamente, se necessário, ao criar uma transação. Se desativado ou para retirada manual forçada, use o botão Retirada na página Resumo.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) ativado",
+      "disabled": "$t(settings-account:autoWithdrawal.title) desativado"
+    }
+  },
+  "unStake": {
+    "title": "Cancelar stake da wallet\n(Cancelar registo da wallet)",
+    "caption": "Cancelar delegação da conta atual de qualquer pool e criar transação de cancelamento de registo.",
+    "setting": {
+      "caption": "Esta ação cria uma transação de cancelamento de registo da conta. Uma vez concluída, a delegação da conta a qualquer pool será cancelada e o depósito da chave, feito quando a conta foi delegada pela primeira vez, é devolvido.",
+      "subCaption": "Tenha em atenção que quaisquer recompensas pendentes da delegação em pool, recompensas do catalyst, etc., serão perdidas quando o registo da conta for cancelado!",
+      "acknowledged": "Compreendo que quaisquer recompensas pendentes serão perdidas.",
+      "noUtxo": "{{currency}} necessários para pagar a taxa da transação de cancelamento de registo.",
+      "button": {
+        "deReg": {
+          "label": "Cancelar Registo da Conta",
+          "tooltip": "Cancelar registo da conta da delegação em pool"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "Cancelar registo como DRep",
+    "caption": "Criar uma transação de cancelamento de registo de DRep. O poder de voto delegado a esse DRep será perdido.",
+    "setting": {
+      "caption": "Isto criará uma transação de cancelamento de registo de DRep. O poder de voto delegado a esse DRep será perdido.",
+      "subCaption": "Para recuperar a capacidade de retirar recompensas de staking, precisará de delegar a sua conta a um DRep diferente.",
+      "acknowledged": "Compreendo que todo o poder de voto delegado será perdido.",
+      "noUtxo": "{{currency}} necessários para pagar a taxa da transação de cancelamento de registo.",
+      "button": {
+        "deReg": {
+          "label": "Cancelar Registo da Conta",
+          "tooltip": "Cancelar registo da conta da delegação em pool"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Relatórios",
+    "caption": "Definições de exportação de relatórios fiscais."
+  }
+}

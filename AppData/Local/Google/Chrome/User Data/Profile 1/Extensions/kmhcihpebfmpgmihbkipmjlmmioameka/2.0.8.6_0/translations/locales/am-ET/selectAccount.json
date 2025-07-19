@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "በኪስ ቦርሳዎች መካከል ይቀያይሩ።",
+    "accounts": {
+      "select": "መለያዎች",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "በመለያዎች መካከል ለመቀያየር የተወሰነ wallet ይምረጡ።",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "የነቃውን $t(common:dApp) መለያ ይቀይሩ።"
+    },
+    "accounts": {
+      "select": "ከዝርዝሩ ውስጥ አንድ መለያ ይምረጡ። የኮከብ ምልክቱን በመቀያየር አንድን መለያ እንደ ተወዳጅ ምልክት ያድርጉበት።",
+      "manage": "መለያዎችን ያክሉ ወይም ያስወግዱ፣ የተወሰኑ የመለያ መረጃ ጠቋሚዎችን ይምረጡ ወይም የመለያ ስሞችን ያዘጋጁ።"
+    }
+  },
+  "groups": {
+    "placeholder": "የነቁ wallet ቡድኖችን ይምረጡ",
+    "favoriteAccounts": "ተወዳጅ መለያዎች"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "የመለያ ስም:",
+    "index": "መረጃ ጠቋሚ:",
+    "limit": "ገደብ:",
+    "remove": {
+      "tooltip": "መለያ አስወግድ"
+    }
+  },
+  "signAddAccounts": {
+    "title": "አዲስ መለያዎችን ያክሉ"
+  },
+  "notification": {
+    "updated": "የመለያ ዝርዝር ተዘምኗል።",
+    "error": "የተዘመነ walletን ወደ ዳታቤዝ ለማስቀመጥ ያልታወቀ ስህተት ተከስቷል።",
+    "errorRemove": "መለያ በመታወቂያ {{accountId}} ማስወገድ አልተቻለም።",
+    "noWallet": "Wallet አልተገኘም።",
+    "errorKey": "የተገኘው የህዝብ ቁልፍ ዝርዝር ከተጠየቀው የዱካ ዝርዝር ጋር አይዛመድም።",
+    "limit": "ይህ wallet ተጨማሪ አካውንቶችን መጨመር አይችልም።"
+  }
+}

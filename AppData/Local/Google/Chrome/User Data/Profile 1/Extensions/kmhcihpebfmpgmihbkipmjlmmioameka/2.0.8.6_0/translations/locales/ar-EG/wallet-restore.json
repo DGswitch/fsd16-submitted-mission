@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "كلمات مفتاحية مكونة من ١٢ كلمة",
+      "caption": "دي كلمات سرية مكونة من ١٢ كلمة خاصة بمحفظة Shelley محفظة رقمية (maḥfaẓa raqamiya)."
+    },
+    "15": {
+      "label": "كلمات مفتاحية مكونة من ١٥ كلمة",
+      "caption": "زي محفظة Yoroi Shelley محفظة رقمية (maḥfaẓa raqamiya)، على سبيل المثال."
+    },
+    "24": {
+      "label": "كلمات مفتاحية مكونة من ٢٤ كلمة",
+      "caption": "دي محفظة Shelley محفظة رقمية (maḥfaẓa raqamiya) اتعملت ببرنامج زي Eternl أو Daedalus."
+    },
+    "title": "نوع الكلمات المفتاحية",
+    "caption": "إيه نوع المحفظة محفظة رقمية (maḥfaẓa raqamiya) اللي نفسك ترجعها؟"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "اكتب الكلمات المفتاحية اللي حافظها"
+  }
+}

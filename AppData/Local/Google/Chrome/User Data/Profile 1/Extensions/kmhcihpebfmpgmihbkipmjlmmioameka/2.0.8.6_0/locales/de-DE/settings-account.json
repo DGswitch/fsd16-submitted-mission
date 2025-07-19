@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Aktiver Kontoname",
+    "caption": "Kontonamen für das aktuelle Konto festlegen",
+    "setting": {
+      "caption": "Aktualisieren Sie Ihren (aktiven) Kontonamen oder wählen Sie ein Ada Handle aus/ab.",
+      "adaHandle": {
+        "select": "Wählen Sie aus, welches Ada Handle anstelle des Kontonamens angezeigt werden soll (Abwählen, um stattdessen den Namen anzuzeigen):"
+      },
+      "error": {
+        "empty": "Kontoname darf nicht leer sein.",
+        "duplicate": "Diese Wallet hat bereits ein Konto mit diesem Namen."
+      }
+    }
+  },
+  "export": {
+    "title": "Kontoschlüssel exportieren",
+    "caption": "Den öffentlichen Schlüssel dieses Kontos exportieren.",
+    "setting": {
+      "caption": "Den öffentlichen Schlüssel dieses Kontos exportieren. Das Importieren eines öffentlichen Schlüssels stellt den Kontoverlauf im schreibgeschützten Modus wieder her, wobei das Signieren deaktiviert ist.",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 erweiterter öffentlicher Schlüssel",
+        "xpub": "Ed25519-bip32 erweiterter öffentlicher Schlüssel",
+        "acct_vk": "Öffentlicher Ed25519 Schlüssel"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Einzeladressmodus (SAM)",
+    "caption": "Nur eine einzige Adresse für alle Transaktionen verwenden.",
+    "setting": {
+      "caption": "Wenn aktiviert, werden standardmäßig alle Gelder auf der ersten Empfangsadresse gehalten.",
+      "enabled": "$t(settings-account:samMode.title) aktiviert",
+      "disabled": "$t(settings-account:samMode.title) deaktiviert",
+      "customAddress": "Benutzerdefinierte Empfangsadresse",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Wichtig!",
+          "text": "Das Festlegen einer benutzerdefinierten Empfangsadresse bewirkt, dass alle Wechselgeldausgaben und Empfangsadressen auf diese Adresse umgestellt werden, auch wenn sie nicht zu diesem Konto gehört. Bitte stellen Sie sicher, dass die korrekte Adresse festgelegt ist."
+        }
+      },
+      "notification": {
+        "wrongInput": "Dies ist keine gültige Adresse.",
+        "wrongNetwork": "Diese Adresse stammt von einem anderen Netzwerk.",
+        "notOwned": "Diese Adresse gehört nicht zu diesem Konto und kann nicht als benutzerdefinierte Empfangsadresse verwendet werden.",
+        "nonStaking": "Die Gelder auf dieser Empfangsadresse sind mit einem externen Stake-Schlüssel gestaked. Sie haben keine Kontrolle über die Rewards, die sie ansammeln.",
+        "success": "Benutzerdefinierte Empfangsadresse festgelegt.",
+        "error": "Speichern der benutzerdefinierten Empfangsadresse fehlgeschlagen!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Collateral",
+    "caption": "Von Eternl bereitgestelltes Collateral verwenden?",
+    "setting": {
+      "caption": "Wenn aktiviert, stellt Eternl Collateral für das Konto bereit.",
+      "info": "Die Interaktion mit Smart Contracts kann Collateral erfordern, falls eine Transaktion fehlschlägt. Dies wird automatisch von Eternl gehandhabt, wenn ein qualifizierender UTxO gefunden wurde.",
+      "waiting": "Sie haben eine Collateral-Transaktion eingereicht. Bitte warten Sie, sie wurde noch nicht bestätigt.",
+      "foundCollateral": "Ein Collateral-UTxO für dieses Konto ist bereits vorhanden. Es wird bei der Interaktion mit Smart Contracts verwendet.",
+      "eternl": {
+        "label": "Von Eternl bereitgestelltes Collateral",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Kein Collateral-UTxO gefunden. Bitte legen Sie einen fest, indem Sie die Schaltfläche unten drücken.",
+      "button": {
+        "setCollateral": {
+          "label": "Collateral festlegen",
+          "tooltip": "Einen Collateral-UTxO für dieses Konto festlegen."
+        }
+      },
+      "error": {
+        "label": "Fehler:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Bitte beachten!",
+          "headline": "Collateral ist eine kontobasierte Einstellung."
+        },
+        "info": {
+          "text": "$t(common:appName) kann jeden UTxO ohne Token und mit einem Wert zwischen ####minimumCollateral#### und ####maximumCollateral#### als Collateral verwenden. Wenn Sie diese Einstellung aktivieren, wird nach einem geeigneten UTxO gesucht. Wenn keiner verfügbar ist, wird eine Schaltfläche angezeigt, um einen festzulegen."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Manuelle Synchronisierung",
+    "caption": "Manuelle Synchronisierung einstellen",
+    "setting": {
+      "caption": "Die Wallet manuell synchronisieren. Wenn aktiviert, muss die Wallet manuell durch Klicken auf das Synchronisierungssymbol synchronisiert werden.",
+      "enabled": "$t(settings-account:manualSync.title) aktiviert",
+      "disabled": "$t(settings-account:manualSync.title) deaktiviert"
+    }
+  },
+  "historySync": {
+    "title": "Verlaufssynchronisierung",
+    "caption": "Verlaufssynchronisierung einstellen",
+    "setting": {
+      "caption": "Wenn aktiviert, synchronisiert die Wallet den vollständigen Transaktionsverlauf des Kontos. Andernfalls werden nur die letzten 1000 Transaktionen synchronisiert. Die Synchronisierung erfolgt stapelweise und kann bei Konten mit umfangreichem Verlauf eine Weile dauern.",
+      "enabled": "$t(settings-account:historySync.title) aktiviert",
+      "disabled": "$t(settings-account:historySync.title) deaktiviert",
+      "syncing": "Die Verlaufssynchronisierung läuft noch. Warte auf die Synchronisierung von {{AMOUNT}} Einträgen."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Token-Fragmentierung (TF)",
+    "caption": "Reduzieren Sie Transaktionsgebühren durch Fragmentierung von Tokens.",
+    "fragment": {
+      "label": "Token-Bündelgröße",
+      "error": "Token-Bündelgrößenlimit: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Legt die Anzahl der Tokens fest, die jeder UTxO-Output enthalten soll. Es ist ein Kompromiss zwischen niedrigen Transaktionsgebühren und der Menge an Mitteln, die in der Wallet gesperrt sind.\nkleine Bündelgröße -> niedrige Gebühren, mehr Ada gesperrt.\ngroße Bündelgröße -> höhere Gebühren, weniger Ada gesperrt."
+    },
+    "setting": {
+      "caption": "Teilt Tokens beim Senden in Bündel auf, wenn mehr Tokens als Wechselgeld zurückgegeben werden als der eingestellte Wert. Abhängig von der Wallet UTXO/Token-Verteilung und dem gewünschten Ergebnis müssen die Werte möglicherweise für ein optimales Ergebnis angepasst werden.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) aktiviert",
+      "disabled": "$t(settings-account:tokenFragmentation.title) deaktiviert"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Erweitertes UTxO Management",
+    "caption": "Verwenden Sie erweitertes UTxO Management für Ihre Transaktionen.",
+    "setting": {
+      "caption": "Wenn aktiviert, verwendet $t(common:appName) erweitertes UTxO Management für Ihre Transaktionen.",
+      "subCaption": "Es hält 10 UTxOs für die parallele Ausführung von Transaktionen bereit. Es wird auch versucht, einen 5 ADA Collateral-UTxO für Smart Contract-Interaktionen bereitzuhalten.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) aktiviert",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) deaktiviert"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Automatische Auszahlung",
+    "caption": "Belohnungen bei Bedarf automatisch auszahlen.",
+    "setting": {
+      "caption": "Wenn aktiviert, werden Belohnungen bei Bedarf automatisch ausgezahlt, wenn eine Transaktion erstellt wird. Wenn deaktiviert oder für eine erzwungene manuelle Auszahlung, verwenden Sie die Schaltfläche 'Auszahlung' auf der Übersichtsseite.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) aktiviert",
+      "disabled": "$t(settings-account:autoWithdrawal.title) deaktiviert"
+    }
+  },
+  "unStake": {
+    "title": "Wallet Un-staken\n(Wallet De-registrieren)",
+    "caption": "Delegierung des aktuellen Kontos von jedem Pool aufheben und De-Registrierungstransaktion erstellen.",
+    "setting": {
+      "caption": "Diese Aktion erstellt eine Konto-De-Registrierungstransaktion. Nach Abschluss wird die Delegierung des Kontos von jedem Pool aufgehoben und die Schlüsseleinlage, die bei der erstmaligen Delegierung des Kontos hinterlegt wurde, wird zurückerstattet.",
+      "subCaption": "Bitte beachten Sie, dass alle ausstehenden Belohnungen aus der Pool-Delegierung, catalyst-Belohnungen usw. verloren gehen, wenn das Konto de-registriert wird!",
+      "acknowledged": "Ich verstehe, dass alle ausstehenden Belohnungen verloren gehen.",
+      "noUtxo": "{{currency}} benötigt, um die Gebühr für die De-Registrierungstransaktion zu bezahlen.",
+      "button": {
+        "deReg": {
+          "label": "Konto De-registrieren",
+          "tooltip": "Konto von Pool-Delegierung de-registrieren"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "Als DRep de-registrieren",
+    "caption": "Erstellen Sie eine DRep-De-Registrierungstransaktion. Die an diesen DRep delegierte Stimmkraft geht verloren.",
+    "setting": {
+      "caption": "Dies erstellt eine DRep-De-Registrierungstransaktion. Die an diesen DRep delegierte Stimmkraft geht verloren.",
+      "subCaption": "Um die Fähigkeit zur Auszahlung von staking-Belohnungen wiederzuerlangen, müssen Sie Ihr Konto an einen anderen DRep delegieren.",
+      "acknowledged": "Ich verstehe, dass die gesamte delegierte Stimmkraft verloren geht.",
+      "noUtxo": "{{currency}} benötigt, um die Gebühr für die De-Registrierungstransaktion zu bezahlen.",
+      "button": {
+        "deReg": {
+          "label": "Konto De-registrieren",
+          "tooltip": "Konto von Pool-Delegierung de-registrieren"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Berichterstattung",
+    "caption": "Einstellungen für den Steuerbericht-Export."
+  }
+}

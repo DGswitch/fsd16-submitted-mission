@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Podepsáno",
+    "hover": "Tato transakce je podepsaná, ale ještě nebyla odeslána."
+  },
+  "inputSigned": {
+    "label": "Podepsáno",
+    "hover": "Podpis pro tento vstup byl poskytnut."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Redeemer pro tento kontrakt byl poskytnut."
+  },
+  "inputUnsigned": {
+    "label": "Nepodepsáno",
+    "hover": "Podpis pro tento vstup chybí."
+  }
+}

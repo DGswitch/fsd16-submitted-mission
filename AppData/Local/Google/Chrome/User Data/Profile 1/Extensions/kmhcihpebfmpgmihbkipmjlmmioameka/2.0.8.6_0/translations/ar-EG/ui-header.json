@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "دوس عشان تفتح الرسم البياني للسعر."
+  },
+  "notifications": {
+    "tooltip": "دوس عشان تشوف إشعاراتك."
+  },
+  "hideBalance": {
+    "tooltip": "تبديل ظهور الأرصدة."
+  },
+  "logout": {
+    "tooltip": "سجل الخروج من التطبيق. هتحتاج الـ PIN بتاعك عشان تسجل الدخول تاني."
+  },
+  "darkMode": {
+    "tooltip": "تبديل الوضع الداكن/الفاتح."
+  },
+  "settings": {
+    "tooltip": "افتح قايمة الإعدادات."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "الوقت المتبقي",
+    "tooltip": "رقم الـ epoch الحالي والوقت المتبقي للـ epoch التالي."
+  }
+}

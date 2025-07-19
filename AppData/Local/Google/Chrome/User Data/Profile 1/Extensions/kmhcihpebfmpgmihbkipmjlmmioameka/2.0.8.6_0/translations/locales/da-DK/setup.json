@@ -1,0 +1,8 @@
+{
+  "title": "Opsætning af app",
+  "caption": "Opdater indstillingerne til dine personlige præferencer \neller hold dig til standardindstillingerne.",
+  "success": {
+    "title": "Opsætning af appen er fuldført",
+    "caption": "Du er klar, fortsæt til appen."
+  }
+}

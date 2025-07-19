@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "คุณมี {{tx_cnt}} ธุรกรรมที่ต้องยืนยัน",
+    "caption": "คลิกเพื่อขยายแต่ละธุรกรรมเพื่อดูรายละเอียดเพิ่มเติม",
+    "loading": "กำลังประมวลผลธุรกรรมเพื่อลงนาม",
+    "signing": "กำลังลงนามธุรกรรม <b>{{txindex}}</b> จาก {{txtotal}}",
+    "submitting": "กำลังส่งธุรกรรม",
+    "sharing": "กำลังแชร์ธุรกรรม Multi-Sig",
+    "hw": "ยืนยันธุรกรรม <b>{{txindex}}</b> จาก {{txtotal}} บนอุปกรณ์ {{device}}",
+    "keystonehash": "<b>เนื่องจากขนาดใหญ่ สามารถแสดงได้เฉพาะแฮชของเนื้อหาธุรกรรมบนอุปกรณ์เท่านั้น !!</b>",
+    "review": "โปรดตรวจสอบธุรกรรมก่อนยืนยัน"
+  },
+  "button": {
+    "debug": {
+      "label": "ดาวน์โหลดข้อมูลดีบัก"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "ส่งธุรกรรมสำเร็จแล้ว",
+    "submitMultiple": "ส่งธุรกรรมทั้งหมดสำเร็จแล้ว"
+  },
+  "account": {
+    "label": "Wallet ที่กำลังลงนาม",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "กำลังลงนามอยู่",
+      "unsigned": "ต้องลงนาม",
+      "signed": "ลงนามแล้ว",
+      "connecting": "กำลังเชื่อมต่อ"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send/options:tf.label)",
+      "caption": "$t(send/options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send/options:cu.label)",
+      "caption": "รวบรวม UTXO ของบัญชีนี้โดยรวมให้เหลือน้อยลง"
+    },
+    "send-all": {
+      "headline": "กำลังส่งเงินทั้งหมด",
+      "caption": "ธุรกรรมนี้จะส่งเงินทั้งหมดในบัญชี โปรดตรวจสอบรายละเอียดของที่อยู่ปลายทาง"
+    },
+    "high-fee": {
+      "headline": "ค่าธรรมเนียมสูงกว่าปกติ",
+      "caption": "ตรวจพบค่าธรรมเนียมธุรกรรมสูงกว่าปกติ โปรดตรวจสอบรายละเอียดธุรกรรมว่าเป็นผลลัพธ์ที่ต้องการ"
+    },
+    "withdraw": {
+      "headline": "ถอนรางวัล",
+      "caption": "รางวัลของคุณเป็นส่วนหนึ่งของ stake ที่คุณมอบหมายโดยอัตโนมัติ ไม่จำเป็นต้องถอนรางวัล เว้นแต่จะส่งออกไปหรือเพื่อให้ถูกนับรวมในพลังโหวตของ catalyst"
+    },
+    "pool-deleg": {
+      "headline": "การมอบหมาย Stake Pool",
+      "caption": "ธุรกรรมการมอบหมาย stake pool ดูรายละเอียดในธุรกรรม"
+    },
+    "vote-deleg": {
+      "headline": "การมอบหมายสิทธิ์โหวต",
+      "caption": "ธุรกรรมการมอบหมายสิทธิ์โหวต governance ดูรายละเอียดในธุรกรรม"
+    },
+    "ms-reg": {
+      "headline": "การลงทะเบียน Multi-Sig Wallet",
+      "caption": "นี่เป็นการลงทะเบียน Multi-Sig wallet บน blockchain เพื่อให้ผู้เข้าร่วมทุกคนค้นพบได้ง่าย"
+    },
+    "cat-reg": {
+      "headline": "การลงทะเบียน Catalyst",
+      "caption": "นี่เป็นการสร้างธุรกรรมการลงทะเบียนโหวต Catalyst การลงทะเบียนนี้มีผลสำหรับการ snapshot กองทุน Catalyst ที่กำลังจะมาถึง เว้นแต่จะถูกแทนที่ด้วยการลงทะเบียนใหม่กว่า"
+    },
+    "collateral": {
+      "headline": "Collateral UTxO",
+      "caption": "สร้าง collateral UTxO ซึ่งบางครั้งจำเป็นเมื่อโต้ตอบกับ DApps"
+    },
+    "stake-dereg": {
+      "headline": "การยกเลิกการลงทะเบียน Stake Key",
+      "caption": "$t(settings/account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "การยกเลิกการลงทะเบียน DRep",
+      "caption": "$t(settings/account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "การล้าง Scam Token",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "คำสั่ง Swap",
+      "caption": "ธุรกรรมคำสั่ง MonsterSwap ที่ให้เส้นทางที่ดีที่สุดแก่คุณ"
+    },
+    "swap-cancel": {
+      "headline": "ยกเลิกคำสั่ง Swap",
+      "caption": "ธุรกรรมการยกเลิกสำหรับคำสั่ง swap ที่โพสต์ไว้ก่อนหน้านี้"
+    },
+    "donation": {
+      "headline": "การบริจาค",
+      "caption": "ขอบคุณที่สนับสนุน Eternl"
+    }
+  },
+  "error": {
+    "expired": "ไม่สามารถส่งได้! อายุของธุรกรรมหมดอายุแล้ว กรุณาสร้างธุรกรรมใหม่พร้อมวันหมดอายุใหม่ (TTL)",
+    "auxDataMismatch": "มีความไม่ตรงกันระหว่าง metadata ที่แนบมากับแฮชที่ร้องขอให้ลงนาม metadata ที่คุณเห็นสำหรับธุรกรรมนี้ไม่ใช่สิ่งที่คุณลงนาม!",
+    "auxDataMissing": "ธุรกรรม metadata ถูกซ่อนอยู่",
+    "debug": "สำหรับการสนับสนุนเพิ่มเติม กรุณาเปิดตั๋ว Discord พร้อมข้อมูล debug ที่ดาวน์โหลดมา",
+    "unknownInputs": "ไม่สามารถคำนวณยอดคงเหลือของธุรกรรมที่ถูกต้องได้เนื่องจาก input ที่ไม่รู้จัก",
+    "doubleSpend": "รายการธุรกรรมไม่ถูกต้อง input utxo ถูกใช้ไปมากกว่า 'หนึ่งครั้ง':\n",
+    "missingKeys": "ธุรกรรมไม่ต้องการพยาน (witnesses) จากบัญชีที่พร้อมใช้งาน หากยืนยันแล้ว กรุณาปิดและส่ง",
+    "locked": "ธุรกรรมพยายามใช้ UTXO ที่คุณล็อคด้วยตนเองตั้งแต่หนึ่งรายการขึ้นไป",
+    "passwordMismatch": "รหัสผ่านที่ป้อนไม่ตรงกัน กรุณาลองใหม่อีกครั้ง!",
+    "dappUnsupported": "DApp ไม่รองรับสำหรับ {{device}} wallet",
+    "fixPermissionUSB": {
+      "text": "คลิกปุ่มและทำตามคำแนะนำเพื่ออนุญาตการเชื่อมต่อ USB",
+      "button": "แก้ไขสิทธิ์ USB"
+    },
+    "fixPermissionBLE": {
+      "text": "คลิกปุ่มและทำตามคำแนะนำเพื่ออนุญาตการเชื่อมต่อ Bluetooth",
+      "button": "แก้ไขสิทธิ์ Bluetooth"
+    },
+    "fixPermissionCamera": {
+      "text": "คลิกปุ่มและทำตามคำแนะนำเพื่ออนุญาตการเข้าถึงกล้อง",
+      "button": "แก้ไขสิทธิ์กล้อง"
+    }
+  },
+  "info": {
+    "signDownload": "ธุรกรรมได้รับการยืนยันจากทุกบัญชีที่พร้อมใช้งานแล้ว",
+    "multiSigShare": "แชร์ธุรกรรมเพื่อแจ้งเตือนผู้เข้าร่วม Multi-Sig wallet หรือดาวน์โหลดและแชร์ธุรกรรมด้วยตนเอง"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Configuración de Intercambio",
+  "presets": "Preajustes",
+  "slippage": {
+    "title": "Deslizamiento de Intercambio",
+    "caption": "El deslizamiento en los intercambios es la diferencia entre los precios esperados y los precios ejecutados de la operación.",
+    "updated": "Deslizamiento de intercambio actualizado a {{percentage}}",
+    "banner": {
+      "warning": {
+        "title": "Deslizamiento Alto",
+        "text": "Tener un deslizamiento alto en los intercambios puede resultar en rendimientos sustancialmente menores. Por favor, infórmate sobre el deslizamiento para órdenes AMM antes de continuar."
+      }
+    }
+  },
+  "blocklist": {
+    "title": "Protocolos Habilitados",
+    "caption": "Un DEX deshabilitado no se usará para intercambios",
+    "presets": "Preajustes",
+    "disableV1": "Deshabilitar Plutus v1",
+    "disableV2": "Deshabilitar Plutus v2"
+  },
+  "aggregators": {
+    "title": "Agregadores Habilitados",
+    "caption": "Los agregadores deshabilitados no se usarán para intercambios"
+  },
+  "showMonsterSwap": {
+    "title": "Mostrar MonsterSwap",
+    "home": "en Inicio",
+    "navigation": "en menú principal"
+  }
+}

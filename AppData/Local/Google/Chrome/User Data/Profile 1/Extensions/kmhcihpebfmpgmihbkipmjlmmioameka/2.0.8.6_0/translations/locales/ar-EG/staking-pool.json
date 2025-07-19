@@ -1,0 +1,56 @@
+{
+  "spo": "بيشغل بول واحدة بس للتخزين",
+  "mpo": "بيشغل {{count}} بول تخزين",
+  "retired": "هيتوقف في حقبة {{epoch}}",
+  "retiredIn": "هيتوقف في حقبة {{epoch}}",
+  "noRewards": "البول دي مش هتكسب أي مكافآت {{adaSymbol}}.",
+  "lessRewards": "البول دي هتكسب مكافآت أقل من العادة.",
+  "history": "تاريخ المكافآت",
+  "fees": "رسوم",
+  "poolId": "معرف المجمع",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "أخضر: في النطاق الأمثل. أحمر: بيكسب مكافآت أقل."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "أخضر: في النطاق الطبيعي. أحمر: بيكسب مكافآت أقل."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "العائد على التخزين. الأداء بتاع آخر 12 إيبوخ. أخضر: في النطاق الطبيعي. ROS هيتذبذب أكتر للبولز اللي فيها تخزين أقل."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "طالب بالمكافآت",
+      "syncing": "محفظة رقمية (maḥfaẓa raqamiya) بيعمل مزامنة",
+      "norewards": "مفيش مكافآت متاحة"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "الشهر اللي فات",
+      "3months": "آخر 3 شهور",
+      "6months": "آخر 6 شهور",
+      "year": "السنة اللي فاتت"
+    },
+    "view-history": "اعرض التاريخ",
+    "view-graph": {
+      "stake-key": "مفتاح تخزين الحساب"
+    },
+    "approx-earning": "المكافآت المتوقعة على مدار السنة الجاية",
+    "unclaimed-ada": "{{currency}} غير مطالب بيها",
+    "lifetime-earning": "إجمالي اللي عملته",
+    "lifetime-apy": "APY طول العمر",
+    "lifetime-earned": "من ساعة ما بدأت التخزين المساهم (at-takhziin al-musaahim)",
+    "epoch-ends-in": "الإيبوخ دي بتنتهي في",
+    "search": "اكتب تذكرة، اسم أو تفاصيل",
+    "delegate": "اختار البول دي",
+    "openPoolList": "افتح قائمة البولز"
+  }
+}

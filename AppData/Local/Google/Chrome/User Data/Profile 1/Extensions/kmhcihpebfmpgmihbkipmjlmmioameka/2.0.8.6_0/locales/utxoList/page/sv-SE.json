@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO-lista",
+  "title": "Konto UTxO-lista",
+  "caption": "En lista över alla UTxOs som hanteras av detta konto, inklusive belopp och tokenlistor.",
+  "subCaption": "En UTxO är som en sedel med godtyckligt värde. Transaktioner spenderar den och lägger tillbaka 'växel' till din wallet.",
+  "empty": "Detta konto har inga UTxOs.",
+  "selectAll": "Välj alla",
+  "filter": {
+    "headline": "UTxO-filter",
+    "caption": "Ange parametrar eller skriv in en söksträng för att filtrera utxo-listan.",
+    "search": "Sök efter adress, sökväg eller tx id...",
+    "more": "Mer",
+    "minada": "Min {{adaCurrency}}-belopp",
+    "maxada": "Max {{adaCurrency}}-belopp",
+    "numAssets": "{{numAssets}} unik(a) tillgång(ar) hittades."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO på {{address_count}} adresser",
+    "pendingIn": {
+      "hint": "(väntande inputs, spenderade utxos)"
+    },
+    "pendingOut": {
+      "hint": "(väntande outputs, skapade utxos)"
+    },
+    "opkosk": {
+      "label": "Tjänar belöningar",
+      "hint": "(kontots betalningsnyckel, kontots stake-nyckel)"
+    },
+    "opk": {
+      "label": "Inte stakad",
+      "hint": "(kontots betalningsnyckel, ingen stake-nyckel)"
+    },
+    "opkesk": {
+      "label": "delegerad externt",
+      "hint": "(kontots betalningsnyckel, extern stake-nyckel)"
+    },
+    "epkosk": {
+      "label": "Externa medel, men tjänar belöningar",
+      "hint": "(extern betalningsnyckel, kontots stake-nyckel)"
+    },
+    "collateral": {
+      "label": "Collateral",
+      "hint": "(alla är inte inställda som collateral)"
+    },
+    "locked": {
+      "label": "låsta UTxOs"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Staking-översikt",
+    "controlledStake": {
+      "label": "kontrollerad stake",
+      "tooltip": "Totalt belopp stakat till detta kontos stake-nyckel (antingen ägt, externt eller i smarta kontrakt)."
+    },
+    "ownedStake": {
+      "label": "Ägd stake",
+      "tooltip": "Mängd stake under direkt kontroll av detta konto."
+    },
+    "notStaked": {
+      "label": "Inte stakad",
+      "tooltip": "ADA inte stakad, medel på enterprise-adresser."
+    },
+    "externallyStaked": {
+      "label": "Externt stakad",
+      "tooltip": "ADA kontrollerad av detta konto - kombinerat med eventuella externa staking-nycklar."
+    }
+  }
+}

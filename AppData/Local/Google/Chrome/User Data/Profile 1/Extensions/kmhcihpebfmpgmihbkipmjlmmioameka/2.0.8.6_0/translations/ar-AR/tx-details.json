@@ -1,0 +1,159 @@
+{
+  "txId": "معرّف المعاملة",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "txHash": "txHash",
+  "index": "الفهرس",
+  "credential": {
+    "payment": "بيانات اعتماد الدفع",
+    "stake": "بيانات اعتماد التحصيص"
+  },
+  "certificate": {
+    "label_one": "الشهادة",
+    "label_other": "الشهادات",
+    "type": {
+      "stakereg": "تسجيل الحساب",
+      "stakedereg": "إلغاء تسجيل الحساب",
+      "stakedel": "تفويض مجمع التحصيص",
+      "stakeregdel": "تسجيل الحساب وتفويض مجمع التحصيص",
+      "stakevotedel": "تفويض مجمع التحصيص و DRep",
+      "stakevoteregdel": "تسجيل الحساب وتفويض مجمع التحصيص / DRep",
+      "votedel": "تفويض DRep",
+      "voteregdel": "تسجيل الحساب وتفويض DRep",
+      "drepreg": "تسجيل DRep",
+      "drepupd": "تحديث DRep",
+      "drepdereg": "إلغاء تسجيل DRep",
+      "poolreg": "تسجيل / تحديث مجمع التحصيص",
+      "poolret": "تقاعد مجمع التحصيص",
+      "genkeydel": "تفويض مفتاح Genesis",
+      "mircert": "نقل المكافآت الفورية",
+      "comhot": "تفويض اللجنة الفوري",
+      "comcold": "استقالة اللجنة الباردة",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "عقد Plutus",
+      "unknown": "نوع غير معروف"
+    },
+    "poolreg": {
+      "actepno": "نشط في Epoch",
+      "fixedcost": "التكلفة الثابتة",
+      "margin": "الهامش",
+      "pledge": "Pledge",
+      "rewardaddr": "عنوان المكافآت",
+      "owner": "المالك",
+      "relay": "Relay",
+      "metaurl": "رابط بيانات وصفية",
+      "metahash": "تجزئة بيانات وصفية",
+      "metadata": "بيانات وصفية خارج السلسلة"
+    },
+    "poolret": {
+      "retepno": "تقاعد Epoch"
+    },
+    "gov": {
+      "stakeCreds": "بيانات اعتماد التحصيص",
+      "drepCreds": "بيانات اعتماد DRep",
+      "votingCreds": "بيانات اعتماد التصويت",
+      "poolCreds": "بيانات اعتماد المجمع",
+      "poolParams": "معلمات المجمع",
+      "poolId": "Pool Id",
+      "poolHash": "Pool Hash",
+      "deposit": "الإيداع",
+      "anchor": "مرساة",
+      "rawData": "البيانات الخام",
+      "unknown": "شهادة غير معروفة",
+      "hash": "Hash",
+      "isScript": "Script",
+      "credential": "بيانات الاعتماد",
+      "vote": "تصويت",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "إدخال بيانات وصفية",
+    "label_other": "إدخالات بيانات وصفية",
+    "label": "$t(common:بيانات وصفية.label)",
+    "key": "تسمية",
+    "value": "القيمة",
+    "rawData": "البيانات الخام",
+    "block": "رقم الكتلة",
+    "confirmations": "التأكيدات",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "حجم المعاملة"
+    },
+    "copied": {
+      "cbor": "تم نسخ cbor المعاملة"
+    }
+  },
+  "withdrawal": {
+    "label_one": "سحب",
+    "label_other": "عمليات السحب",
+    "amount": "المبلغ"
+  },
+  "utxo": {
+    "collateralInputs_one": "مدخل الضمان",
+    "collateralInputs_other": "مدخلات الضمان",
+    "referenceInputs_one": "مدخل مرجعي",
+    "referenceInputs_other": "مدخلات مرجعية",
+    "inputs_one": "مدخل",
+    "inputs_other": "مدخلات",
+    "collateralOutput_one": "مخرج الضمان",
+    "collateralOutput_other": "مخرجات الضمان",
+    "outputs_one": "مخرج",
+    "outputs_other": "مخرجات"
+  },
+  "nativescript": {
+    "label": "Native / Multi-Sig Script(s)",
+    "hash": "Hash",
+    "type": "النوع",
+    "witness": "Witness",
+    "aux": "بيانات Aux",
+    "json": "JSON",
+    "bytecode": "البيانات"
+  },
+  "plutusscript": {
+    "label": "Plutus Script(s)",
+    "hash": "Hash",
+    "type": "النوع",
+    "size": "الحجم",
+    "bytes": "البيانات",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum hash",
+      "bytecode": "Plutus datum bytes",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "الغرض",
+      "fee": "رسوم العقد",
+      "usteps": "خطوات الوحدة",
+      "umem": "ذاكرة الوحدة",
+      "dhash": "Datum Hash",
+      "dvalue": "Datum Bytecode",
+      "djson": "Datum JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus عقد",
+    "label_other": "Plutus عقود",
+    "valid": "عقد صالح",
+    "redeemer": "Redeemer",
+    "datum": "Datum",
+    "script": {
+      "label": "نص العقد",
+      "hash": "الهاش",
+      "size": "$t(common:size)",
+      "bytecode": "البيانات"
+    },
+    "reference": {
+      "native": "البرنامج النصي المرجعي (أصلي)",
+      "plutus": "البرنامج النصي المرجعي (plutus)"
+    },
+    "outdatum": "Output Datum"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unknown": "Ukendt",
+  "sent": "Sendt",
+  "received": "Modtaget",
+  "ada": "Midler",
+  "and": "og",
+  "tokens": "Tokens",
+  "intraWallet": "Intern Overførsel",
+  "external": "Ekstern Transaktion",
+  "withdrawal": "Udbetaling",
+  "deposit": "Indbetaling",
+  "type": {
+    "metadata_only": {
+      "label": "Dette er en konsolidering i din wallet med vedhæftet metadata. Midler blev flyttet inden i din wallet, og der blev kun betalt et transaktionsgebyr.",
+      "preview": "Oprettelsestransaktionen vil være en konsolidering i din wallet med vedhæftet metadata. Midler vil blive flyttet inden i din wallet, og der vil kun blive betalt et transaktionsgebyr."
+    },
+    "consolidation": {
+      "label": "Dette er en konsolidering i din wallet. Midler blev flyttet inden i din wallet, og der blev kun betalt et transaktionsgebyr.",
+      "preview": "Oprettelsestransaktionen vil være en konsolidering i din wallet. Midler vil blive flyttet, men der vil kun blive betalt et transaktionsgebyr."
+    },
+    "simple_send": {
+      "label": "Midler og/eller tokens blev sendt til en ekstern adresse.",
+      "preview": "Midler og/eller tokens vil blive sendt til en ekstern adresse."
+    }
+  }
+}

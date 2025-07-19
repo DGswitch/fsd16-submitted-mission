@@ -1,0 +1,10 @@
+{
+  "button": {
+    "favorite": {
+      "tooltip": "Přidej si tenhle účet do oblíbených."
+    },
+    "dapp": {
+      "tooltip": "Při připojování k DApp se používá tenhle účet."
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Klik for at åbne kursdiagrammet."
+  },
+  "notifications": {
+    "tooltip": "Klik for at se dine notifikationer."
+  },
+  "hideBalance": {
+    "tooltip": "Slå synligheden af saldi til/fra."
+  },
+  "logout": {
+    "tooltip": "Log ud af appen. Kræver din PIN-kode for at logge ind igen."
+  },
+  "darkMode": {
+    "tooltip": "Slå mørk/lys tilstand til/fra."
+  },
+  "settings": {
+    "tooltip": "Åbn indstillingsmenuen."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Resterende tid",
+    "tooltip": "Det nuværende epoch nummer og tid tilbage til det næste."
+  }
+}

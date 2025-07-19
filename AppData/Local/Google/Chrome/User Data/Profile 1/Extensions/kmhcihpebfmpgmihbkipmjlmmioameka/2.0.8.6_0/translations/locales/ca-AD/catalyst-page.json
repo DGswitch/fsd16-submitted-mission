@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - Finançament de Projectes",
+  "caption": "Catalyst porta la governança on-chain a la Cardano blockchain.",
+  "subCaption": "Ajuda a donar forma al futur de Cardano votant propostes de finançament",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "pròxim fons",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "No s'ha pogut desar la clau de vot a l'emmagatzematge de la wallet. Si us plau, contacta amb el servei d'assistència per a més ajuda!",
+    "catalystkey": "Falta la clau de vot de Catalyst. Això no hauria de passar, si us plau, contacta amb el servei d'assistència!",
+    "api": "No es pot consultar l'API de votació, si us plau, recarrega o contacta amb el servei d'assistència si el problema persisteix.",
+    "funds": "Es requereix un mínim de ###min_ada_catalyst### perquè la wallet sigui elegible per participar en la votació.",
+    "rewards": "Les teves recompenses de ###rewards_amount### no es poden utilitzar en la votació tret que les retiris a la teva wallet.",
+    "nometadata": "Error desconegut, la metadata de registre no s'ha generat correctament, si us plau, torna-ho a provar o contacta amb el servei d'assistència si el problema persisteix."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "Si us plau, tingues en compte",
+      "caption": "Actualment, el registre està obert per al fons 10 de Catalyst. Després d'aquest esdeveniment, la votació sobre fons futurs es gestionarà de manera diferent. Uneix-te a les comunitats de Catalyst per obtenir més informació."
+    }
+  }
+}

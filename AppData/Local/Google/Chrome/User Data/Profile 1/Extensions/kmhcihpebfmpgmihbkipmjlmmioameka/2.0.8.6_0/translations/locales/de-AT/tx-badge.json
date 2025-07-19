@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Signiert",
+    "hover": "Diese Transaktion ist signiert, aber noch nicht abgeschickt."
+  },
+  "inputSigned": {
+    "label": "Signiert",
+    "hover": "Die Signatur für diese Eingabe wurde bereitgestellt."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Der Redeemer für diesen Vertrag wurde bereitgestellt."
+  },
+  "inputUnsigned": {
+    "label": "Unsigniert",
+    "hover": "Die Signatur für diese Eingabe fehlt."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet Navn",
+    "caption": "Giv din wallet et genkendeligt navn."
+  },
+  "phrase": {
+    "title": "Mnemonic sætning"
+  },
+  "account": {
+    "title": "Antal konti",
+    "caption": "Angiv antallet af konti, der skal oprettes.",
+    "suffix": "konto(er)",
+    "description": "En wallet i $t(common:appName) kan have op til {{accountLimit}} konti. Hver konto kan delegeres til en anden stake pool. Kontonøglerne genereres fra wallet rodnøglen.",
+    "tooltip": "Hver tilføjede konto øger synkroniseringstiden. Konti kan tilføjes når som helst."
+  },
+  "create": {
+    "title": "Opretter wallet",
+    "caption": "Vent venligst, mens din wallet bliver genereret",
+    "password": {
+      "title": "Indstil adgangskode til forbrug",
+      "caption": "Vælg en lang adgangskode. Jo længere den er, jo mere sikker er dine penge."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet er tilføjet",
+      "created": "Wallet er oprettet",
+      "restored": "Wallet er gendannet",
+      "imported": "Wallet er importeret"
+    },
+    "processing": "Opretter wallet...",
+    "exists": "Wallet findes allerede, omdirigerer til wallet."
+  }
+}

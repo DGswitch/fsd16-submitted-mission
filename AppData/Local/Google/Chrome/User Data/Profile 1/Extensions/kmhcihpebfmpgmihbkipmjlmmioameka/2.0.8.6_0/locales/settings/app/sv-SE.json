@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "Pro-läge",
+    "simple": "Enkelt läge",
+    "caption": "Växla mellan Enkelt och Pro-läge.",
+    "setting": {
+      "caption": "Definiera din Eternl-upplevelse. Enkelt läge passar bättre för nya användare. Pro-läget har alla finesser och funktioner.",
+      "openAfterSign": "Öppna automatiskt transaktionsförhandsgranskning vid signering.",
+      "stakeKeyOnHome": "Visa stake key på Hemsidan"
+    }
+  },
+  "network": {
+    "title": "Nätverk",
+    "caption": "Välj det aktuella aktiva nätverket."
+  },
+  "language": {
+    "title": "Språk",
+    "caption": "Välj önskat språk.",
+    "search": "Filtrera språklista",
+    "setting": {
+      "caption": "Välj önskat språk för applikationen."
+    }
+  },
+  "formatting": {
+    "title": "Formatering",
+    "caption": "Regional datum- och valutaformatering.",
+    "setting": {
+      "caption": "Aktivera för att följa formatering för valt språk.",
+      "enabled": "Följ språk aktiverat",
+      "disabled": "Följ språk inaktiverat",
+      "region": "Formateringsregion",
+      "timezone": "Tidszon"
+    }
+  },
+  "currency": {
+    "title": "Valuta",
+    "caption": "Välj önskad valuta för konvertering.",
+    "search": "Filtrera valutalista",
+    "setting": {
+      "caption": "Välj önskad valuta för konvertering."
+    }
+  },
+  "decimalPrecision": {
+    "title": "Decimalprecision",
+    "caption": "Antal decimaler.",
+    "setting": {
+      "caption": "Välj antal decimaler som ska visas för belopp."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// Se pin:deleteAccess och pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "Biometrisk autentisering",
+    "caption": "Använd Face ID (iOS) eller andra biometriska system för att autentisera dig.",
+    "setting": {
+      "title": {
+        "active": "Aktiverad",
+        "inactive": "Inaktiverad"
+      },
+      "caption": {
+        "active": "Autentisera med biometri för att öppna $t(common:appName).",
+        "inactive": "Biometrisk autentisering är inaktiverad.",
+        "disabled": "För att aktivera denna funktion, vänligen ange en PIN-kod först."
+      }
+    }
+  },
+  "sound": {
+    "title": "Ljud",
+    "caption": "Aktivera eller inaktivera ljudaviseringar.",
+    "setting": {
+      "caption": "$t(settings/app:sound.caption)",
+      "info": "Ljudaviseringar används för swap-interaktioner, fel och andra viktiga händelser.",
+      "enabled": "$t(settings/app:sound.title) aktiverat",
+      "disabled": "$t(settings/app:sound.title) inaktiverat"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "Lägg till, ta bort och redigera $t(addressBook:title)-poster.",
+    "setting": {
+      "caption": "Hantera dina $t(addressBook:title)-poster.",
+      "comment": "// Se addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "DApp Tillåtelselista",
+    "caption": "Listan över webbplatser/dApps som har tillåtelse att ansluta till denna $t(common:appName)-app.",
+    "setting": {
+      "comment": "// Se dapps/allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "Transaktioner: skicka automatiskt",
+    "caption": "Skicka transaktioner automatiskt efter signering. Inaktivera för att tillåta nedladdning av signerad transaktions-cbor.",
+    "setting": {
+      "caption": "$t(settings/app:autoSubmit.caption)",
+      "enabled": "Automatisk sändning aktiverad",
+      "disabled": "Automatisk sändning inaktiverad",
+      "enabledInfo": "Signerade transaktioner kommer automatiskt att skickas till blockchain.",
+      "disabledInfo": "Du måste manuellt skicka en transaktion efter att den har signerats."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Anpassad Submit Endpoint",
+    "caption": "Skicka transaktioner via en anpassad cardano-node och cardano-submit-api.",
+    "setting": {
+      "caption": "Definiera en anpassad cardano-node och cardano-submit-api endpoint för transaktionssändning.",
+      "new_endpoint": "Lägg till endpoint",
+      "hint": "Lägg till en ny anpassad endpoint.",
+      "deleteConfirm": "Bekräfta borttagning av post.",
+      "deleted": "Endpoint togs bort.",
+      "note": {
+        "title": "Observera!",
+        "caption": "Detta är en avancerad inställning och du bör endast använda den om du helt förstår dess konsekvenser.",
+        "description": "Se till att den anpassade endpointen är pålitlig och helt synkroniserad.\n\nOm inte, kan nodoperatören undanhålla sändningen av dina transaktioner för egen vinning eller inte sända dem alls, och alla dina transaktioner kan misslyckas.\n\nOm du är osäker, inaktivera denna inställning för att skicka transaktioner via $t(common:appName)s infrastruktur.",
+        "cors": "Se också till att din anpassade endpoint har ställt in korrekta CORS-headers för att acceptera förfrågan som $t(common:appName) skickar."
+      },
+      "error": {
+        "url": "En giltig URL börjar med http(s).",
+        "oneEndpoint": "Det måste finnas minst en konfigurerad submit endpoint."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain-utforskare",
+    "caption": "Ange föredragen blockchain-utforskare per typ.",
+    "setting": {
+      "caption": "Välj föredragen blockchain-utforskare för applikationen.",
+      "block": "Blockutforskare",
+      "pool": "Poolutforskare",
+      "address": "Adressutforskare",
+      "token": "Tokenutforskare",
+      "policy": "Policyutforskare",
+      "transaction": "Transaktionsutforskare",
+      "stake": "Stake key-utforskare",
+      "DRep": "DRep-utforskare",
+      "govProposal": "Styrningsförslag",
+      "select": "Välj {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "Experimentella inställningar",
+    "caption": "Experimentella inställningar bör inte användas av någon!",
+    "setting": {
+      "caption": "$t(settings/app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "Dölj alla URL-parametrar",
+        "caption": "Om detta är aktiverat kommer URL-parametrarna i inställningssektionen att döljas."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "Spara senast använda inställning",
+        "caption": "Om detta är aktiverat kommer byte till inställningar automatiskt att välja den senast använda inställningsgruppen och sektionen."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "Slippage och Dex-inställningar för MonsterSwap."
+  },
+  "theme": {
+    "label": "Temaväxlare",
+    "caption": "Välj ett tema för att göra Eternl ditt.",
+    "setting": {
+      "caption": "$t(settings/app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "Återställ applikationscache",
+    "caption": "Ta bort all cachad data för att återställa applikationen.",
+    "setting": {
+      "caption": "$t(settings/app:clearCache.caption)\nDetta inkluderar transaktioner, token-bilder och metadata. Dina plånböcker, konton och inställningar kommer INTE att påverkas.",
+      "finish": "Återställning av applikationscache lyckades.",
+      "inProgress": "$t(common:appName) cache rensas, vänligen vänta.",
+      "warning": "När du återställer $t(common:appName) cache, måste applikationen hämta all data från blockchain igen. Om du har flera plånböcker eller konton kan detta ta en stund.",
+      "button": {
+        "label": "Återställ applikationens cache"
+      }
+    }
+  },
+  "reset": {
+    "title": "Återställ applikationen",
+    "caption": "Radera alla wallets och lagrad data för att återställa applikationen.",
+    "setting": {
+      "caption": "$t(settings/app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "Varning!",
+          "text": "När du återställer appen kommer du att förlora åtkomsten till alla wallets! Det enda sättet att återfå åtkomst efter återställningen är genom att återställa din wallet återställningsfras eller importera tidigare exporterade $t(common:appName) .json-filer."
+        }
+      },
+      "phrase": {
+        "name": "Bekräftelsefras",
+        "hint": "Ange bekräftelsefrasen.",
+        "noPaste": "Vänligen skriv in bekräftelsefrasen för att återställa $t(common:appName)",
+        "confirmation": "Återställ $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "Jag förstår att det enda sättet att återfå åtkomst till mina wallets är genom att återställa dem med wallet återställningsfras eller para ihop hårdvaru-wallet-enheter.",
+          "error": "Bekräftelsefrasen matchar inte."
+        }
+      },
+      "deleteWallets": "Återställ wallets",
+      "deleteConfig": "Återställ konfigurationer",
+      "deleteFinish": "Slutför",
+      "finish": "Applikationen har återställts"
+    }
+  }
+}

@@ -1,0 +1,905 @@
+{
+
+  "account": {
+    "headline":                   "$t(settings:headerAccount)",
+    "caption":                    "These account settings overwrite wallet settings."
+  },
+
+  "update": {
+    "success":                "$t(common:saved)",
+    "error":                  "Error saving updated setting."
+  },
+
+  "walletEntity": {
+
+    "label":                    "Reporting",
+
+    "captionWallet":            "Set the name of the entity this wallet belongs to, e.g. a company name or \"personal.\"",
+    "captionAccount":           "Set the reporting type of this account.",
+
+    "type": {
+
+      "label":                  "Wallet type"
+    },
+
+    "isAllIncome":              "Account is \"all-income\"",
+    "isAllIncomeHover":         "All incoming funds are counted as income without asking for manual checks.",
+
+    "isPassThrough":            "Account is \"pass-through\"",
+    "isPassThroughHover":       "Not immediately counting transactions as income. If funds are sent to another account, they will be counted as income there."
+  },
+
+  "accountName": {
+
+    "label":                    "Active Account Name",
+    "caption":                  "Update your (active) account name",
+    "error": {
+      "empty":                  "Account name cannot be empty.",
+      "duplicate":              "Account with this name already exists in current wallet."
+    }
+  },
+
+  "accessPassword": {
+
+    "label":                    "Wallet Access Password",
+    "caption":                  "Set a wallet access password, update or delete a current access password.",
+
+    "labelUnlock":              "Wallet Access Password",
+    "labelUnlockGroup":         "Wallet Group Access Password",
+    "labelMigration":           "Unlock your wallet",
+
+    "captionUnlock":            "Tries to unlock the wallet using entered the access password (not the spending password).",
+    "captionUnlockGroup":       "Tries to unlock all wallets in the wallet group using the entered access password.",
+    "captionMigration":         "After unlocking your imported wallet, it will be migrated to the new syncing system.",
+
+    "captionDelete":            "Remove the wallet access password.",
+    "remove":                   "Remove",
+
+    "enter": {
+
+      "hint":                   "Enter access password"
+    },
+
+    "relock":                   "Wallet will be locked with current locking password.\n \nYou can change this under \"Setting\"",
+    "setLock":                  "Set a wallet login password (This is for accessing your wallet, not your spending password!) You can change this under settings.",
+    "enterCurrent":             "Enter current access password to remove the access password.",
+    "removeFailed":             "Failed to remove wallet access password.",
+    "removeSuccess":            "Wallet lock password removed.",
+    "updateSuccess":            "Wallet lock password updated.",
+    "pwCheckFailed":            "The old lock password you entered is not correct.",
+    "settingsNotSaved":         "Access password settings could not be saved.",
+    "noPwUpdate":               "Access password could not be updated.",
+    "locked":                   "Wallet was locked",
+    "alreadyLocked":            "Wallet is already locked.",
+    "unableToLock":             "Wallet could not be locked.",
+    "noLockSet":                "Can not lock wallet, no lock password is set.",
+
+    "unlock":                   "Unlock Wallet",
+    "message":                  "Enter the wallet access password.",
+    "wrongPassword":            "You entered a wrong wallet access password.",
+    "unlocked":                 "Wallet unlocked.",
+    "cancel":                   "$t(common:cancel)",
+
+    "current": {
+      "hint":                   "Enter access password",
+      "label":                  "Enter current access password to remove the access password."
+    }
+
+
+  },
+
+  "unlock": {
+
+    "headline":                 "$t(common:button.unlockWallet)",
+    "caption":                  "After pressing this button you are asked for the wallet login password to unlock this wallet..",
+
+    "button": {
+
+      "unlock": {
+
+        "label":                "$t(common:button.unlockWallet)",
+        "icon":                 "mdi mdi-lock-outline"
+      }
+    }
+  },
+
+  "addrbook": {
+    "label":                    "$t(settings:app.addressbook.title)",
+    "caption":                  "$t(settings:app.addressbook.caption)"
+  },
+
+  "exports":              {
+
+    "label":                      "Export Wallet",
+    "caption":                    "Options for account public key export & encrypted wallet JSON export that enables easy import in other browsers/devices or to restore the wallet at a later point.",
+
+    "json": {
+
+      "headline":                 "$t(common:appName) Wallet Backup",
+      "caption":                  "Exported $t(common:appName) .json files can be imported in any other $t(common:appName) app.",
+
+      "button": {
+
+        "label":                  "Export Wallet",
+        "icon":                   "mdi mdi-export"
+      }
+    },
+
+    "accountPub": {
+
+      "label":                    "Export Account Key",
+      "headline":                 "Account public key export",
+      "caption":                  "Export the public key of this account. Importing a public key restores the account history in a read-only mode with signing disabled.",
+      "hover":                    "Export account public key"
+    },
+
+    "csv": {
+
+      "headline":                 "Export Transaction History",
+      "caption":                  "Export (per account) the transaction and rewards history as CSV file.",
+
+      "format":                   "Format",
+
+      "button": {
+
+        "label":                  "Export CSV",
+        "icon":                   "mdi mdi-export"
+      },
+
+
+
+      "csvExport": {
+
+        "label":                    "CSV Export",
+        "caption":                  "Set your export preset and enable/disable the export functionality.",
+        "exportPreset":             "Export preset"
+      },
+
+      "notes": {
+        "label":                    "Notes",
+        "caption":                  "Export transaction notes in the last column. The export will concatenate multi-line notes."
+      },
+
+      "localTime": {
+        "label":                    "Export local timestamp",
+        "caption":                  "Enable this if you want to export the transaction times in your local timezone and local format. Otherwise the timestamps will be exported as UTC time."
+      }
+
+    },
+
+    "qr": {
+
+      "headline":                 "Wallet Export (QR-code)",
+      "caption":                  "This QR code can be scanned in any other instance of $t(common:appName) It doesn\"t export wallet settings, like the name." ,
+
+      "button": {
+
+        "label":                  "Export Wallet",
+        "icon":                   "mdi mdi-qrcode-scan"
+      }
+    }
+  },
+
+  "collateral": {
+
+    "label":            "Collateral",
+    "caption":          "Use collateral provided by Eternl or disable to set own collateral.",
+    "info":             "Interacting with smart contracts can require collateral in case a transaction fails. This will be handled automatically by Eternl if a qualifying UTxO has been found.",
+    "button":           "Set Collateral",
+    "alreadySet":       "You have already set a collateral. It can be found in this UTxO ####utxo####",
+
+    "eternl": {
+      "label":          "Eternl provided collateral",
+      "enabled":        "$t(modal/settings:collateral.eternl.label) enabled",
+      "disabled":       "$t(modal/settings:collateral.eternl.label) disabled"
+    },
+
+    "noCollateral":     "No collateral UTxO found. Please set one by pressing the button below.",
+    "foundCollateral":  "We've found a collateral UTxO for this account. It'll be used when interacting with smart contracts.",
+
+    "waiting":          "You have submitted a collateral transaction. Please stand by, it has not yet been confirmed.",
+
+    "error": {
+      "label":          "Error!",
+      "buildOutput":    "One of the outputs needs at least ####amount#### to hold the tokens.",
+      "lowFunds":       "This means you have too little funds in your wallet to set a collateral. Please add more funds and try again or contact support if recurring.",
+      "insufficient":   "Your have insufficient funds in this account to set a collateral.",
+      "icon":           "mdi mdi-alert-octagon-outline"
+    },
+
+    "warning": {
+      "fundslow": {
+        "label":          "Low funds for collateral",
+        "text":           "Setting a collateral UTxO will use more than 10% of the funds you have in you account!",
+        "icon":           "mdi mdi-alert-octagon-outline"
+      }
+    },
+
+    "multiAccount": {
+      "warning": {
+        "note":         "Please Note!",
+        "headline":     "Collateral is an account based setting."
+      },
+      "info": {
+        "line1":        "$t(common:appName) can use any UTxO with no tokens and a value between ####minimumCollateral#### and ####maximumCollateral#### as collateral. When you activate this setting, it will look for a UTxO that is suitable. If none is available, a button will be shown to set one."
+      }
+    },
+
+    "tag": {
+      "label":          "collateral",
+      "hover":          "This UTxO is valid as collateral for smart contract transactions."
+    }
+  },
+
+  "sam": {
+
+    "account": {
+      "label":        "Single Address Mode (SAM)"
+    },
+
+    "enable":        "$t(modal/settings:sam.account.label) enabled",
+    "disable":       "$t(modal/settings:sam.account.label) disabled",
+    "notice":         "When using Single Address Mode, the first receive address is used by default."
+  },
+
+  "tokenfrag": {
+
+    "label":        "Token Fragmentation (TF)",
+    "caption":      "Split tokens into bundles on send if there are more tokens in change to be returned than set value. Depending on wallet UTxO/Token distribution and desired outcome, values might have to be tweaked for optimal result.",
+
+    "fragment": {
+
+      "label":      "Token bundle size",
+      "error":      "Token bundle size limit: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info":       "Sets number of tokens each UTxO output should contain. It's a tradeoff between low transaction fees and amount of funds locked in the wallet.\nsmall bundle size -> low fees, more Ada locked.\nlarge bundle size -> higher fees, less Ada locked."
+    },
+
+    "button": {
+
+      "default":    "$t(common:default)",
+      "save":       "$t(common:save)"
+    }
+  },
+
+  "withdrawal": {
+
+    "label":        "Auto Withdrawal",
+    "caption":      "Automatically withdraw rewards if needed.",
+
+    "enable":        "$t(modal/settings:withdrawal.label) enabled",
+    "disable":       "$t(modal/settings:withdrawal.label) disabled",
+
+    "info":         "If enabled, rewards will automatically be withdrawn if needed when creating a transaction. If disabled or for forced manual withdrawal, use Withdrawal button on Summary page."
+  },
+
+  "sendall": {
+    "label":        "Send All",
+    "caption":      "Sending all funds is considered dangerous as you might accidentally send away your whole wallet content. Only enable this feature temporally and when you need it.",
+    "info":         "If disabled, the button for sending all assets will not be available. If enabled you can send all your funds(including tokens) using \"Send All\" on send page.",
+    "tooltip":      "\"Send All\" feature can be enabled on the wallet settings page.",
+
+    "enable":        "$t(modal/settings:sendall.label) enabled",
+    "disable":       "$t(modal/settings:sendall.label) disabled"
+  },
+
+  "manualsync": {
+    "label":        "Manual Sync",
+    "caption":      "Manually synchronize the wallet. If enabled the wallet needs to be synced manually by clicking the sync icon.",
+
+    "enable":        "$t(modal/settings:manualsync.label) enabled",
+    "disable":       "$t(modal/settings:manualsync.label) disabled"
+  },
+
+  "historysync": {
+    "label":        "History Sync",
+    "caption":      "Full transaction history synchronization. If enabled, when on transaction history page, all transactions of the account will start to synchronize. This can be useful for filtering to work fully but can take a long time for an account with a large history.",
+    "syncing":      "The history sync is still running. Waiting to sync {{AMOUNT}} entries.",
+
+    "enable":        "$t(modal/settings:historysync.label) enabled",
+    "disable":       "$t(modal/settings:historysync.label) disabled"
+  },
+
+  "autoCleanup": {
+    "label":        "Pending transactions: auto cleanup",
+    "caption":      "If enabled, transactions that have been successfully submitted to the blockchain will be removed from the \"Pending Transactions\" view."
+  },
+
+  "favorite": {
+    "caption": ""
+  },
+
+  "deregdrep": {
+
+    "headline":      "Deregister as DRep",
+    "caption_short": "Create a DRep de-registration transaction. The voting power delegated to that DRep will be lost.",
+    "caption":       "This will create a DRep de-registration transaction. The voting power delegated to that DRep will be lost. To regain the ability to withdraw staking rewards, you will need to delegate your account to a different DRep.",
+
+    "toggle": {
+
+      "acknowledged": {
+
+        "label":    "",
+        "text":     "I understand that all delegated voting power will be lost.",
+        "noutxo":   "Ada needed to pay for de-registration fee."
+      }
+    }
+  },
+
+  "applyToAll":               "Apply to all accounts",
+
+  "button": {
+
+    "item": {
+
+      "expand":     "$t(common:expand)",
+      "collapse":   "$t(common:collapse)"
+    }
+  },
+
+  "message": {
+
+    "unlock":                   "Unlock wallet to get access to all settings.",
+    "success":                  "Wallet settings updated.",
+    "failed":                   "Failed to save wallet setting, please retry."
+  },
+
+  "namiMessages": {
+
+    "notOwned":                 "The address you entered is not your own. Please only enter addresses that belong to the current wallet.",
+    "nonStaking":               "You entered a External addresses (not delegated). You will not be able to stake with that address."
+  },
+  "advancedUTxOManagement": {
+    "label":                    "Advanced UTxO Management",
+    "caption":                  "Enable this setting to use advanced UTxO management on your transactions by default.",
+
+    "enable":                   "$t(modal/settings:advancedUTxOManagement.label) enabled",
+    "disable":                  "$t(modal/settings:advancedUTxOManagement.label) disabled"
+
+  },
+
+  "voterData": {
+    "label":                    "Catalyst Voting",
+    "caption":                  "Saved Catalyst registration QR code.",
+    "info":                     "Scan this QR code using the Catalyst voting application and follow the instructions.",
+    "warning":                  "Please Download/Save this QR code as a backup! \nWe saved a local backup of the encrypted catalyst voting key if you lose it. But this is only a local backup, and it will not be there if you restore your wallet on another device using your wallet phrase. Only if you import from a JSON backup created after creating the Catalyst registration can it be restored. We strongly advise you to save it in a password manager.",
+    "error":                    "Failed to generate QR code, please reload browser and retry wallet voting registration or contact support if recurring.",
+    "qr":                       "QR code",
+    "password": {
+      "title":                  "Wallet spending password",
+      "caption":                "Enter spending password to access the catalyst voting information.",
+      "confirm":                "$t(common:confirm)",
+      "current": {
+        "label":                "Current wallet spending password",
+        "info":                 "Enter the current spending password for this wallet.",
+        "hint":                 "Enter the current spending password for this wallet."
+      },
+      "wrong":                  "The entered spending password is not correct."
+    },
+    "mnemonic": {
+      "info":                   "Click \"Show QR Code\" and and enter your spending password to display your saved Catalyst registration QR code."
+    },
+    "hardware": {
+      "info":                   "Connect and unlock your hardware wallet, then click \"Show QR Code\" to display your saved Catalyst registration QR code."
+    },
+    "download": {
+      "label":                  "Download QR code",
+      "hover":                  "Download QR code as a PNG image"
+    },
+    "copy": {
+      "label":                  "Copy catalyst code",
+      "notify":                 "Copied encrypted Catalyst key: "
+    },
+    "button": {
+      "showQR":                 "Show QR Code"
+    }
+  },
+  "dereg": {
+    "headline": "Un-stake wallet (De-register wallet)"
+  },
+
+  "header":                   "$t(settings:wallet.title)",
+
+  "spendingPassword":            {
+
+    "label" :                 "Wallet Spending Password",
+    "caption":                "Update your wallet spending password.",
+
+    "updated":                "Wallet spending password update.",
+    "error":                  "Wallet password could not be updated."
+
+  },
+
+  "theme": {
+
+    "label": "Theme",
+
+    "caption": "Set a custom theme and make $t(common:appName) yours."
+
+  },
+
+  "background":               {
+
+    "header": "Wallet Background",
+
+    "caption": "Set a custom wallet background based on any NFT."
+
+  },
+
+  "address-book":             "Wallet Address Book",
+
+  "single-address":           "Single Address Mode (For Nami/CNTools)",
+
+  "advanced-utxo":            "Advanced UTxO Management",
+
+  "token-fragmentation":      "Token Fragmentation (short: TF)",
+
+  "auto-withdrawal":          "Auto Withdrawal",
+
+  "enable-send-all":          "Enable \"Send All\"",
+
+  "enable-manual-sync":       "Enable \"Manual sync\"",
+
+  "delete-unstake":           {
+
+    "header": "Delete or Un-Stake Wallet",
+
+    "caption": "Once you delete this wallet it will be removed from this Eternal app and you will lose access to any remaining funds in this wallet. The only way to regain access after deleting is by restoring your wallet recovery phrase or by importing a previously exported External .json file.",
+
+    "delete-wallet-text":     "Once you delete this wallet it will be removed from this Eternal app and you will lose access to any remaining funds in this wallet. The only way to regain access after deleting is by restoring your wallet recovery phrase or by importing a previously exported External .json file. For easier import, export as Eternal .json format prior to deleting. Be sure that the seed phrase of this wallet is stored safely!",
+
+    "delete-wallet-btn":      "Delete Wallet",
+
+    "delete-checkbox":        "I understand that the only way to regain access to this wallet is by restoring it with its wallet recovery phrase.",
+
+    "deregister-wallet-text": "This action creates a wallet de-registration transaction. Once completed, the wallet will be un-delegated from any pool, and the key deposit from when the wallet was first delegated is returned. Please note that any pending rewards from pool delegation, catalyst rewards, etc will be lost when the wallet is de-registered!",
+
+    "deregister-wallet-btn":  "De-Register Wallet",
+
+    "deregister-checkbox":    "I understand that any pending rewards will be lost."
+
+  },
+
+  "wallet": {
+
+    "name":                     {
+
+      "label":                  "Name and Group",
+
+      "caption":                "Update your wallet or group name.",
+
+      "name":                   "Wallet Name",
+      "group":                  "Wallet Group",
+
+      "error": {
+        "empty": {
+          "name":               "Wallet name cannot be empty.",
+          "group":              "Group name cannot be empty."
+        },
+        "duplicate": {
+          "name":               "Wallet with this name already exists."
+        }
+      }
+
+    },
+
+    "icon":                     {
+
+      "label":                  "Wallet Icon",
+      "select":                 "Select Icon",
+      "regenerateIcon":         "Generate random icon",
+      "resetToDefault":         "Reset to default icon",
+      "caption":                "Set a custom wallet icon or generate a random wallet icon."
+
+    },
+
+    "verification": {
+
+      "label":                    "Recovery phrase verification",
+      "captionShort":             "Verify that you have stored the correct recovery phrase for a wallet.",
+      "caption":                  "$t(modal/settings:wallet.verification.captionShort) Once verified, you can also change your spending password.",
+      "start":                    "Verify phrase",
+      "match": {
+        "label":                  "The entered recovery phrase is correct.",
+        "spending":               "Change spending password"
+      },
+      "invalid": {
+        "label":                  "The entered recovery phrase is not correct for this wallet.",
+        "icon":                   "mdi mdi-alert-octagon-outline"
+      },
+      "wordLimit":                "A recovery phrase can have a maximum of 24 words.",
+
+      "recovery": {
+        "label":                  "Forgot access password ?",
+        "caption":                "If you forgot your wallet access password, restore your wallet with the same recovery seed phrase.",
+        "icon":                   "mdi mdi-lock-question",
+        "recover":                "Restore wallet",
+
+        "confirmModal": {
+          "label":                "Restore wallet from recovery phrase?\n",
+          "text":                 "You already have a wallet with the same recovery phrase. If you\"ve forgotten the access password and are locked out of your wallet, press confirm to overwrite the existing wallet.\n\nIf you confirm, the old wallet will be deleted and recreated.\n\nThis process will reset all wallet settings to default, including the wallet addressbook, icon, Single Address Mode, Token Fragmentation etc.\n\nBefore you start using the recreated wallet, make sure to edit the wallet settings. That is especially important if you used \"Single address mode\" with a custom change address or the Token Fragmentation feature.",
+          "confirm":              "Confirm",
+          "cancel":               "Cancel"
+        },
+        "unableToDelete":         "Existing wallet could not be deleted."
+      },
+
+
+      "spendingRecovery": {
+
+        "step0": "Wallet phrase",
+        "step1": "Spending password",
+
+        "label":                  "Set new spending password ?",
+        "caption":                "You can reset your spending password for this wallet if you have forgotten or lost it.",
+
+        "confirmModal": {
+          "label":                "Set new wallet spending password?\n",
+          "text":                 "Your current wallet spending password will be overwritten with the new one. Please confirm that you want to do this?",
+          "confirm":              "Confirm",
+          "cancel":               "Cancel"
+        }
+      }
+    },
+
+    "resync": {
+
+      "label":        "Wallet Synchronization",
+      "caption":      "Force a complete wallet re-synchronization.",
+
+      "info":         "By pressing this button your wallet data will be reset and fully synced from the blockchain.",
+
+      "startSync":    "Wallet sync starting",
+      "inSync":       "Wallet is syncing",
+
+      "button": {
+
+        "resync": {
+
+          "label":    "Resync Wallet",
+          "icon":     "mdi mdi-sync"
+        }
+      }
+    },
+
+    "deletewallet": {
+
+      "dangerzone":   "Danger zone",
+
+      "headline":     "Delete Wallet",
+      "captionShort": "Remove the wallet and all accounts of the current wallet.",
+      "caption":      "Once you delete this wallet it will be removed from this $t(common:appName) app and you will lose access to any remaining funds in this wallet.",
+      "caption1":      "The only way to regain access after deleting is by restoring your wallet recovery phrase or by importing a previously exported $t(common:appName).json file.\n\n",
+      "caption2":      "For easier import, export as $t(common:appName).json format prior to deleting.\n\n Be sure that the seed phrase of this wallet is stored safely!",
+
+      "button": {
+
+        "delete": {
+
+          "label":    "Delete Wallet",
+          "icon":     "mdi mdi-delete-outline"
+        }
+      },
+
+      "toggle": {
+
+        "acknowledged": {
+
+          "label":    "",
+          "text":     "I understand that the only way to regain access to this wallet is by restoring it with its wallet recovery phrase.",
+          "icon":     "mdi mdi-checkbox-blank-outline -mt-0.5",
+          "error":    "You need to acknowledged the message."
+        }
+      },
+
+      "name": {
+
+        "label":      "$t(modal/addWallet:common.name.title)",
+        "hint":       "Enter the name of this wallet",
+        "info":       "To confirm the deletion of this wallet, please enter the wallet name.",
+        "error":      "The wallet name does not match.",
+        "enter":      "Enter wallet name"
+      },
+
+
+      "deregwallet": {
+
+        "headline":     "Un-Stake / De-Register Account",
+        "caption":      "This action creates an account de-registration transaction. Once completed, the account will be un-delegated from any pool, and the key deposit from when the account was first delegated is returned.\n\nPlease note that any pending rewards from pool delegation, catalyst rewards, etc will be lost when the account is de-registered!",
+
+        "dangerzone":   "Danger zone",
+
+        "button": {
+
+          "dereg": {
+
+            "label":    "De-Register Account",
+            "icon":     "mdi mdi-clipboard-minus-outline"
+          }
+        },
+
+        "toggle": {
+
+          "acknowledged": {
+
+            "label":    "",
+            "text":     "I understand that any pending rewards will be lost.",
+            "noutxo":   "Ada needed to pay for de-registration fee.",
+            "icon":     "mdi mdi-checkbox-blank-outline -mt-0.5"
+          }
+        }
+      }
+    }
+  },
+
+  "app": {
+
+    "appMode": {
+      "pro":                  "Pro Mode",
+      "simple":               "Simple Mode",
+      "caption":              "Switch between Simple and Pro Mode.",
+
+      "description":          "Define your Eternl experience. Simple mode is better suited for new users. Pro mode has all the bells and whistles",
+
+      "openAfterSign":        "Automatically open transaction preview on sign.",
+      "stake":                "Show stake key on Home page"
+    },
+
+    "language": {
+
+      "label":                "Language",
+      "modal": {
+        "label":              "Language setting",
+        "caption":            "Select the preferred language.",
+        "search":             "Filter language list"
+
+      }
+    },
+
+    "currency": {
+
+      "label":                "Currency",
+      "modal": {
+        "label":              "Conversion currency",
+        "caption":            "Select the preferred currency for conversion.",
+        "search":             "Filter currency list"
+      }
+    },
+
+    "digits": {
+
+      "label":                "Decimal precision",
+      "caption":              "Number of decimal places to show for ADA amounts."
+    },
+
+    "pin": {
+
+      "enter": {
+
+        "headline":               "Access PIN Code",
+        "caption":                "Set a PIN code to access $t(common:appName). It will be required everytime you open $t(common:appName).",
+        "extCaption": {
+          "ios":                  "Or use FaceID or Fingerprint to access the wallet.",
+          "android":              "Or use your phones biometric features to access the wallet."
+        },
+        "shortCaption":           "Set a PIN code to access $t(common:appName).",
+
+        "input": {
+
+          "enter":                "Enter PIN Code.",
+          "checking":             "Checking PIN Code.",
+          "error":                "Wrong PIN code entered.",
+          "confirm":              "Input PIN a second time to confirm.",
+          "confirmed":            "Entered PINs match.",
+          "confirmError":         "PIN code mismatch, please retry!",
+          "confirmWarningError":  "Please confirm that you have written down the PIN in a secure place.",
+          "save":                 "Enable PIN"
+        }
+      },
+
+      "confirm": {
+
+        "headline":               "PIN Code Confirm",
+        "caption":                "To confirm the PIN code, enter the same PIN you just entered."
+      },
+
+      "login": {
+
+        "headline":               "Enter the PIN.",
+        "caption":                "Enter the PIN you selected when you set up the app.",
+        "biometrics": {
+
+          "login":                "$t(pin:biometrics.login)",
+          "caption":              "$t(pin:biometrics.caption)",
+          "fallback":             "$t(pin:biometrics.fallback)",
+
+          "ios":                    "Use FaceID",
+          "android":                "Use Biometrics"
+        }
+      },
+
+      "delete": {
+        "label":                  "Disable PIN",
+        "missingPin":             "Enter current PIN to allow disable.",
+        "biometrics":             "When you remove the PIN, the biometrics feature will be automatically disabled."
+      },
+
+      "change": {
+        "label":                  "Change PIN",
+        "missingPin":             "Enter current PIN to change PIN."
+      }
+    },
+
+    "biometrics": {
+
+      "label" :                 "Biometrics Spending",
+
+      "caption":                "Use the Biometrics feature instead of the password.",
+
+      "activate": {
+        "label":              "Activate Biometrics",
+        "description":        "Enter your current spending password to enable spending with the biometrics features of your phone."
+      },
+
+      "deactivate":             {
+
+        "label":                "Deactivate Biometrics",
+        "description":          "When signing a transaction, we will use the Biometrics feature of your phone instead of your password."
+      },
+
+      "use":                    "Authenticate with Biometrics",
+      "sign":                   "Sign with Biometrics",
+      "password":               "Try password instead",
+
+      "status": {
+        "active":                 {
+          "label":                "Activated",
+          "caption":              "You will need to use FaceID when opening the app."
+        },
+        "inactive":               {
+          "label":                "Deactivated",
+          "caption":              "FaceId is deactivated."
+        },
+        "disabled": {
+          "pin":                  "To activate this feature, please set an PIN first."
+        }
+      }
+    },
+
+    "sound": {
+
+      "label":            "Sound",
+      "caption":          "Enable or disable sound notifications.",
+      "info":             "Sound notifications are used for swap interactions, errors and other important events.",
+      "enabled":          "$t(modal/settings:app.sound.label) enabled",
+      "disabled":         "$t(modal/settings:app.sound.label) disabled"
+    },
+
+    "formatting": {
+
+      "label":                "Date and currency formatting.",
+      "caption":              "Enable to follow formatting for selected language.",
+      "follow": {
+        "enable":             "Follow language enabled",
+        "disable":            "Follow language disabled"
+      },
+      "region":               "Formatting region",
+      "timezone":             "Timezone"
+    },
+
+    "explorer": {
+      "caption":              "Select your preferred explorer for each type to be used when opening external links."
+    },
+
+    "autoSubmit": {
+
+      "label":                    "Transactions: auto submit",
+      "caption":                  "Automatically submit transactions after signing. Disable to allow downloading signed transaction cbor.",
+      "status": {
+        "active":                 {
+          "label":                "Activated",
+          "caption":              "Built transactions will be automatically submitted to the blockchain."
+        },
+        "inactive":               {
+          "label":                "Deactivated",
+          "caption":              "You have to manually submit a transaction after it has been built."
+        }
+      }
+    },
+
+    "submitApi": {
+
+      "label":                    "Custom Submit API Endpoint",
+      "caption":                  "Send transactions through a custom cardano-node and cardano-submit-api.",
+      "inputHint":                "URL or IP",
+
+      "new_endpoint":             "Add endpoint",
+      "hint":                     "Add a new custom endpoint.",
+
+      "add": {
+        "label":                  "Add new custom submit api endpoint to the list of endpoints."
+      },
+
+      "error": {
+        "url":                    "A valid URL starts with http(s).",
+        "oneEndpoint":            "There needs to be at least one configured submit endpoint."
+      },
+
+      "note": {
+
+        "headline":               "Please note!",
+        "caption":                "This is an advanced setting and you should only use it if you fully understand its implications.",
+        "description":            "Make sure the custom endpoint is trustworthy and fully synced.\n\nIf not, the node operator may withhold the broadcasting of your transactions for its gain or won\"t broadcast it at all, and all your transactions could fail.\nIf you are unsure, then deactivate this setting to send transaction through the $t(common:appName) infrastructure.",
+
+        "cors":                    "Also, ensure your custom endpoint has set the correct CORS header to accept the request $t(common:appName) is sending."
+      },
+
+      "delete": {
+        "confirm":                "$t(component/addressbook:delete.confirm)"
+      },
+
+      "deleted":                  "Endpoint was deleted."
+    },
+
+    "clearCache": {
+
+      "label":          "Reset application cache",
+      "captionShort":   "Remove all cached data to reset the application.",
+      "caption":        "$t(modal/settings:app.clearCache.captionShort)\nThis includes transactions, token images and metadata. Your wallets, accounts and settings will NOT be affected.",
+
+      "finish":         "Application cache reset successful.",
+
+      "inProgress":     "$t(common:appName) cache is being reset, please stand by.",
+
+      "warning":        "Once you reset the Eternl cache, the application must fetch all data from the blockchain again. If you have multiple wallets or accounts, this will take some time.",
+
+      "button": {
+        "label":    "Reset application cache",
+        "icon":     "mdi mdi-delete-outline"
+      }
+
+    },
+
+    "reset": {
+      "label":          "Reset application",
+      "caption":        "Remove all stored data for all wallets to reset the application.",
+
+      "finish":         "Application reset successfully",
+
+      "noPasting":      "Please type the confirmation phrase to reset $t(common:appName)",
+
+      "button": {
+        "label":    "Reset application",
+        "icon":     "mdi mdi-delete-outline"
+      },
+
+      "warning":        "Once you reset the $t(common:appName) app, you will lose access to all the wallets remaining funds. The only way to regain access after reset is by restoring your wallet recovery phrase or importing previously exported $t(common:appName) .json files.",
+
+      "confirmation":   "Are you sure you want to reset the application?",
+
+      "inDelete":       "$t(common:appName) is being reset, please stand by.",
+
+      "deleteConfig":   "Reset configurations",
+      "deleteWallets":  "Reset wallets",
+      "deleteFinish":   "Finishing",
+
+      "phrase":         {
+        "confirmation":  "Reset $t(common:appName) #{{number}}",
+        "name":       "Confirmation phrase",
+
+        "label":      "$t(common:wallet.name.label)",
+        "hint":       "Enter the confirmation phrase here!"
+      },
+
+      "toggle": {
+        "acknowledged": {
+          "label":      "",
+          "text":       "I understand that the only way to regain access to my wallets is by restoring them with the wallet recovery phrases.",
+          "icon":       "mdi mdi-checkbox-blank-outline -mt-0.5",
+          "error":      "Your confirmation phrase does not match."
+        }
+      }
+
+    }
+
+  }
+}

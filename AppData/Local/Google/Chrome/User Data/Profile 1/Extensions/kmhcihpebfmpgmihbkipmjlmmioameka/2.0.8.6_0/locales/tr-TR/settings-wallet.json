@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "Ad ve Grup",
+    "caption": "wallet veya grup adınızı güncelleyin.",
+    "setting": {
+      "caption": "$t(settings-wallet:walletName.caption)",
+      "name": "Wallet adı",
+      "group": "Wallet grubu",
+      "error": {
+        "empty": {
+          "name": "Wallet adı boş olamaz.",
+          "group": "Wallet grubu boş olamaz."
+        },
+        "duplicate": {
+          "name": "Bu ada sahip bir wallet zaten mevcut."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "Wallet Harcama Şifresi",
+    "caption": "wallet harcama şifrenizi güncelleyin.",
+    "setting": {
+      "caption": "wallet harcama şifrenizi güncelleyin. Eski şifrenizi girin, ardından yeni ve uzun bir harcama şifresi girin. Şifre ne kadar uzun olursa, wallet o kadar güvende olur.",
+      "updated": "Wallet harcama şifresi güncellemesi.",
+      "error": "Wallet şifresi güncellenemedi."
+    }
+  },
+  "biometrics": {
+    "title": "Biyometrik Harcama",
+    "caption": "Şifre yerine Biyometrik özelliğini kullanın.",
+    "setting": {
+      "caption": "$t(settings-wallet:biometrics.caption)",
+      "activate": {
+        "label": "Biyometriği Etkinleştir",
+        "description": "Telefonunuzun biyometrik özellikleriyle harcama yapmayı etkinleştirmek için mevcut harcama şifrenizi girin."
+      },
+      "deactivate": {
+        "label": "Biyometriği Devre Dışı Bırak",
+        "description": "Bir işlemi imzalarken şifreniz yerine telefonunuzun Biyometrik özelliğini kullanacağız."
+      }
+    }
+  },
+  "icon": {
+    "title": "Wallet Simgesi",
+    "caption": "Özel bir wallet simgesi ayarlayın veya rastgele bir wallet simgesi oluşturun.",
+    "setting": {
+      "caption": "$t(settings-wallet:icon.caption)",
+      "select": "Simge Seç",
+      "regenerateIcon": "Rastgeleleştir",
+      "resetToDefault": "Varsayılana sıfırla"
+    }
+  },
+  "exportWallet": {
+    "title": "Wallet Dışa Aktar",
+    "caption": "Diğer tarayıcılara/cihazlara içe aktarmayı sağlayan güvenli wallet JSON dışa aktarımı.",
+    "setting": {
+      "caption": "Dışa aktarılan $t(common:appName) .json yedekleme dosyaları, başka herhangi bir $t(common:appName) uygulamasına içe aktarılabilir.",
+      "subCaption": "Bir .json yedeği, işlem notlarını ve cüzdan/hesap ayarlarını içerir.",
+      "button": {
+        "label": "Wallet Dışa Aktar"
+      },
+      "banner": {
+        "title": "Önemli!",
+        "text": "Sıcak cüzdanlar için dışa aktarma, şifrelenmiş özel anahtarı içerir. Dışa aktarılan dosyayı güvende tutun ve kimseyle paylaşmayın."
+      }
+    }
+  },
+  "reSync": {
+    "title": "wallet Yeniden Eşitle",
+    "caption": "Tam bir wallet yeniden eşitlemesini zorla.",
+    "setting": {
+      "caption": "$t(settings-wallet:reSync.caption)",
+      "subCaption": "Bu düğmeye basmak tüm wallet verilerini sıfırlayacak ve blockchain ile tamamen yeniden eşitleyecektir.",
+      "button": {
+        "label": "Wallet Yeniden Eşitle"
+      }
+    }
+  },
+  "verification": {
+    "title": "Kurtarma ifadesi doğrulaması",
+    "caption": "Bir wallet için doğru kurtarma ifadesini sakladığınızı doğrulayın.",
+    "setting": {
+      "caption": "$t(settings-wallet:verification.caption) Doğrulandıktan sonra harcama şifrenizi de değiştirebilirsiniz.",
+      "start": "İfadeyi doğrula",
+      "match": {
+        "label": "Girilen kurtarma ifadesi doğru.",
+        "spending": "Harcama şifresini değiştir"
+      },
+      "invalid": "Girilen kurtarma ifadesi bu wallet için doğru değil."
+    }
+  },
+  "deleteWallet": {
+    "title": "Wallet Sil",
+    "caption": "wallet ve tüm hesaplarını kaldırın.",
+    "setting": {
+      "caption": "Bu wallet sildiğinizde, bu $t(common:appName) uygulamasından kaldırılacak ve bu wallet içindeki kalan fonlara erişiminizi kaybedeceksiniz.",
+      "subCaption": "Sildikten sonra erişimi yeniden kazanmanın tek yolu, wallet kurtarma ifadenizi geri yüklemek veya daha önce dışa aktarılmış bir $t(common:appName).json yedekleme dosyasını içe aktarmaktır.",
+      "subCaption2": "Daha kolay içe aktarma için, silmeden önce $t(common:appName).json yedeği olarak dışa aktarın.\n\nBu wallet tohum ifadesinin güvenli bir şekilde saklandığından emin olun!",
+      "acknowledged": "Bu wallet'a yeniden erişmenin tek yolunun, wallet kurtarma ifadesini kullanarak geri yüklemek olduğunu anlıyorum.",
+      "name": "wallet adını girin",
+      "error": {
+        "name": "Silme işlemini onaylamak için doğru wallet adını girin.",
+        "acknowledged": "Lütfen yukarıdaki bilgileri okuyun ve onaylayın."
+      }
+    }
+  }
+}

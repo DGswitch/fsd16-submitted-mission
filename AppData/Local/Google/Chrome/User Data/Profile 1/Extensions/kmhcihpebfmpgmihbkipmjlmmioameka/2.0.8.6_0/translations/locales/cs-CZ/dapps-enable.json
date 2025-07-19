@@ -1,0 +1,36 @@
+{
+  "title": "Připojit se k ",
+  "caption": "Interaguj jenom s dApps, kterým důvěřuješ! Prosím, potvrď, že je to správná URL adresa a že je bezpečná (HTTPS).",
+  "label": {
+    "possibleScam": "možný podvod",
+    "notSecure": "není zabezpečené",
+    "confirmRisk": "Rozumím rizikům",
+    "grantAccess": "Povolit přístup"
+  },
+  "noAccount": {
+    "title": "Žádný dApp účet není nastavený",
+    "caption": "V $t(common:appName) není nastavený žádný dApp účet. Přepni se do $t(common:appName) aplikace v plné velikosti a vytvoř nebo importuj wallet.",
+    "openUI": "Otevřít aplikaci"
+  },
+  "disabled": {
+    "title": "Dapp připojení jsou vypnutá",
+    "caption": "Momentálně nejsou povolená žádná dapp připojení. Klikni na tlačítko níže a povol je.",
+    "allow": "Povolit dapp připojení"
+  },
+  "access": {
+    "url": "URL",
+    "features": "Funkce"
+  },
+  "cip30": {
+    "title": "DApp Connector (CIP30)",
+    "caption": "Umožňuje číst tvůj zůstatek a zobrazovat výzvy k podepisování transakcí. Budeš mít možnost zkontrolovat transakci před jejím podepsáním."
+  },
+  "cip95": {
+    "title": "Cardano Governance (CIP95)",
+    "caption": "Umožňuje číst tvé hlasovací údaje."
+  },
+  "cip104": {
+    "title": "Account Public Key (CIP104)",
+    "caption": "Umožňuje export veřejného klíče účtu. Upozorňujeme, že to umožní DApp odvodit jakoukoli adresu pro připojený účet."
+  }
+}

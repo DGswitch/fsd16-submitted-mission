@@ -1,0 +1,9 @@
+{
+  "title": "Nhập Khóa Ký CLI",
+  "caption": "Chọn khóa ký thanh toán và khóa ký stake (tùy chọn) từ một __GT__ví__ được tạo bằng CLI.",
+  "payment": "Khóa thanh toán",
+  "stake": "Khóa stake",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Khóa không hợp lệ, vui lòng xác minh và thử lại!"
+}

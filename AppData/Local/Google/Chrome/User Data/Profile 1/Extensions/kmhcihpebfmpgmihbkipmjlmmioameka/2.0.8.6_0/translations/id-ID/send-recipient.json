@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Alamat atau $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Tidak bisa menambahkan aset lagi.",
+      "text": "Output transaksi ini tidak dapat menampung aset lagi. Buat output baru (dapat menggunakan alamat yang sama) untuk menambahkan lebih banyak."
+    }
+  },
+  "mode": {
+    "tooltip": "Pilih jenis alamat secara manual."
+  },
+  "error": {
+    "addAddress": "Tambahkan alamat penerima untuk mengirim."
+  }
+}

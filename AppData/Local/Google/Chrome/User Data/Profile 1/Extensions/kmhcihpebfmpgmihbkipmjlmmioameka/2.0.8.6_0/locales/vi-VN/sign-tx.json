@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "Bạn có {{tx_cnt}} giao dịch cần xác nhận",
+    "caption": "Nhấp để mở rộng từng giao dịch xem thêm chi tiết",
+    "loading": "Đang xử lý giao dịch để ký",
+    "signing": "Đang ký giao dịch <b>{{txindex}}</b> trên {{txtotal}}",
+    "submitting": "Đang gửi giao dịch",
+    "sharing": "Đang chia sẻ giao dịch Multi-Sig",
+    "hw": "Xác nhận giao dịch <b>{{txindex}}</b> trên {{txtotal}} trên thiết bị {{device}}",
+    "keystonehash": "<b>Do kích thước lớn, chỉ có thể hiển thị hash phần thân giao dịch trên thiết bị !!</b>",
+    "review": "Vui lòng xem lại giao dịch trước khi xác nhận"
+  },
+  "button": {
+    "debug": {
+      "label": "Tải xuống thông tin gỡ lỗi"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "Giao dịch đã được gửi thành công",
+    "submitMultiple": "Tất cả giao dịch đã được gửi thành công"
+  },
+  "account": {
+    "label": "Các ví đang ký",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "Hiện đang ký",
+      "unsigned": "Cần ký",
+      "signed": "Đã ký",
+      "connecting": "Đang kết nối"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send-options:tf.label)",
+      "caption": "$t(send-options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send-options:cu.label)",
+      "caption": "Thu thập UTXO của tài khoản này bằng cách hợp nhất chúng thành số lượng ít hơn."
+    },
+    "send-all": {
+      "headline": "Gửi Toàn Bộ Tiền",
+      "caption": "Giao dịch này gửi toàn bộ tiền trong tài khoản, vui lòng xác minh chi tiết địa chỉ đích."
+    },
+    "high-fee": {
+      "headline": "Phí Cao Hơn Bình Thường",
+      "caption": "Phát hiện phí giao dịch cao hơn bình thường, vui lòng xác minh chi tiết giao dịch xem đây có phải là kết quả mong muốn không"
+    },
+    "withdraw": {
+      "headline": "Rút Phần Thưởng",
+      "caption": "Phần thưởng của bạn tự động là một phần stake được ủy quyền. Không cần rút phần thưởng trừ khi muốn gửi chúng đi hoặc để chúng được tính vào quyền biểu quyết catalyst."
+    },
+    "pool-deleg": {
+      "headline": "Ủy Quyền Pool",
+      "caption": "Một giao dịch ủy quyền stake pool. Xem giao dịch để biết chi tiết."
+    },
+    "vote-deleg": {
+      "headline": "Ủy Quyền Biểu Quyết",
+      "caption": "Một giao dịch ủy quyền biểu quyết quản trị. Xem giao dịch để biết chi tiết."
+    },
+    "ms-reg": {
+      "headline": "Đăng Ký Wallet Multi-Sig",
+      "caption": "Thao tác này đăng ký wallet Multi-Sig trên blockchain để tất cả người tham gia dễ dàng tìm thấy."
+    },
+    "cat-reg": {
+      "headline": "Đăng Ký Catalyst",
+      "caption": "Thao tác này tạo ra một giao dịch đăng ký biểu quyết Catalyst. Đăng ký này có hiệu lực cho các snapshot quỹ Catalyst sắp tới trừ khi bị ghi đè bởi một đăng ký mới hơn."
+    },
+    "collateral": {
+      "headline": "Tài Sản Thế Chấp UTxO",
+      "caption": "Tạo ra các UTxO thế chấp đôi khi cần thiết khi tương tác với DApps."
+    },
+    "stake-dereg": {
+      "headline": "Hủy Đăng Ký Stake Key",
+      "caption": "$t(settings-account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "Hủy Đăng Ký DRep",
+      "caption": "$t(settings-account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "Dọn Dẹp Token Lừa Đảo",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "Lệnh Swap",
+      "caption": "Một giao dịch lệnh MonsterSwap cung cấp cho bạn các tuyến đường tốt nhất hiện có."
+    },
+    "swap-cancel": {
+      "headline": "Hủy Lệnh Swap",
+      "caption": "Một giao dịch hủy lệnh swap đã đăng trước đó."
+    },
+    "donation": {
+      "headline": "Quyên góp",
+      "caption": "Cảm ơn bạn đã ủng hộ Eternl."
+    }
+  },
+  "error": {
+    "expired": "Không thể gửi! Thời gian tồn tại của giao dịch đã hết hạn. Vui lòng tạo lại giao dịch với ngày hết hạn mới (TTL).",
+    "auxDataMismatch": "Có sự không khớp giữa metadata đính kèm và hash được yêu cầu ký. metadata bạn thấy cho giao dịch này không phải là thứ bạn ký!",
+    "auxDataMissing": "metadata giao dịch bị ẩn.",
+    "debug": "Để được hỗ trợ thêm, vui lòng mở một ticket Discord kèm theo dữ liệu gỡ lỗi đã tải xuống.",
+    "unknownInputs": "Không thể tính toán số dư giao dịch chính xác do các đầu vào không xác định.",
+    "doubleSpend": "Danh sách giao dịch không hợp lệ, đầu vào utxo được chi tiêu nhiều hơn 'một lần':\n",
+    "missingKeys": "Giao dịch không cần bất kỳ nhân chứng nào từ (các) tài khoản có sẵn. Nếu đã xác nhận, vui lòng đóng và gửi.",
+    "locked": "Giao dịch cố gắng chi tiêu một hoặc nhiều UTXO bị khóa thủ công của bạn.",
+    "passwordMismatch": "Mật khẩu đã nhập không khớp, vui lòng thử lại!",
+    "dappUnsupported": "DApp không được hỗ trợ cho wallet {{device}}.",
+    "fixPermissionUSB": {
+      "text": "Nhấp vào nút và làm theo hướng dẫn để cho phép kết nối USB.",
+      "button": "Sửa quyền USB"
+    },
+    "fixPermissionBLE": {
+      "text": "Nhấp vào nút và làm theo hướng dẫn để cho phép kết nối Bluetooth.",
+      "button": "Sửa quyền Bluetooth"
+    },
+    "fixPermissionCamera": {
+      "text": "Nhấp vào nút và làm theo hướng dẫn để cho phép truy cập Camera.",
+      "button": "Sửa quyền Camera"
+    }
+  },
+  "info": {
+    "signDownload": "Giao dịch đã được xác nhận bởi tất cả các tài khoản có sẵn.",
+    "multiSigShare": "Chia sẻ giao dịch để thông báo cho những người tham gia wallet Multi-Sig, hoặc tải xuống và chia sẻ giao dịch theo cách thủ công."
+  }
+}

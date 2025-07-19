@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO Liste",
+  "title": "Konto UTxO Liste",
+  "caption": "A Listn vo olle UTxOs, de von dem Konto verwaltet werdn, inklusive Betrag und Token Listen.",
+  "subCaption": "A UTxO is wia a Geldschein mit am beliebign Wert. Transaktionen gebn ihn aus und gebn 'Wechselgeld-Scheine' zruck zu deina wallet.",
+  "empty": "Des Konto hat ka UTxOs.",
+  "selectAll": "Olle auswähln",
+  "filter": {
+    "headline": "UTxO Filter",
+    "caption": "Gib Parameter ei oder a Suchbegriff, um de utxo Listn zu filtern.",
+    "search": "Suach noch Adresse, Pfad oder Tx-ID...",
+    "more": "Mehr",
+    "minada": "Min {{adaCurrency}} Betrag",
+    "maxada": "Max {{adaCurrency}} Betrag",
+    "numAssets": "{{numAssets}} einzigartige(r) Asset(s) gfundn."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO auf {{address_count}} Adressen",
+    "pendingIn": {
+      "hint": "(ausstehende Eingänge, ausgebene UTxOs)"
+    },
+    "pendingOut": {
+      "hint": "(ausstehende Ausgänge, erstöte UTxOs)"
+    },
+    "opkosk": {
+      "label": "Belohnungen verdiena",
+      "hint": "(Konto-Zahlungsschlüssel, Konto-Stake-Schlüssel)"
+    },
+    "opk": {
+      "label": "Ned gestaked",
+      "hint": "(Konto-Zahlungsschlüssel, ka Stake-Schlüssel)"
+    },
+    "opkesk": {
+      "label": "extern delegiert",
+      "hint": "(Konto-Zahlungsschlüssel, externer Stake-Schlüssel)"
+    },
+    "epkosk": {
+      "label": "Externes Kapital, verdient aba Belohnungen",
+      "hint": "(externer Zahlungsschlüssel, Konto-Stake-Schlüssel)"
+    },
+    "collateral": {
+      "label": "Sicherheit",
+      "hint": "(ned olle san ois Sicherheit festglegt)"
+    },
+    "locked": {
+      "label": "gesperrte UTxOs"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Stake Aufschlüsselung",
+    "controlledStake": {
+      "label": "kontrollierter Stake",
+      "tooltip": "Gesamtbetrag, der an den Stake-Schlüssel dieses Kontos gestaked wurde (entweder im Besitz, extern oder in Smart Contracts)."
+    },
+    "ownedStake": {
+      "label": "Besitz Stake",
+      "tooltip": "Stake-Betrag unter direkta Kontrolle dieses Kontos."
+    },
+    "notStaked": {
+      "label": "Ned gestaked",
+      "tooltip": "{{currency}} ist nicht gestaked, Guthaben befinden sich auf Enterprise Adressen."
+    },
+    "externallyStaked": {
+      "label": "Extern gestaked",
+      "tooltip": "{{currency}} wird von diesem Konto kontrolliert - kombiniert mit allen externen staking Schlüsseln."
+    }
+  }
+}

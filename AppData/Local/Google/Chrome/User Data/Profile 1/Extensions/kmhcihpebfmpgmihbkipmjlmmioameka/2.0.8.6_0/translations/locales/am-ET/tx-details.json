@@ -1,0 +1,164 @@
+{
+  "txId": "የግብይት መለያ",
+  "block": "{{GT:reference}}",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "donation": "ለግምጃ ቤት የሚደረግ ልገሳ",
+  "txHash": "txHash",
+  "index": "መረጃ ጠቋሚ",
+  "credential": {
+    "payment": "የክፍያ ምስክርነት",
+    "stake": "የማስያዣ ምስክርነት"
+  },
+  "certificate": {
+    "label_one": "ሰርተፍኬት",
+    "label_other": "ሰርተፍኬቶች",
+    "type": {
+      "stakereg": "የመለያ ምዝገባ",
+      "stakedereg": "የመለያ መሰረዝ",
+      "stakedel": "የማስያዣ ገንዳ ውክልና",
+      "stakeregdel": "የመለያ ምዝገባ እና የማስያዣ ገንዳ ውክልና",
+      "stakevotedel": "የማስያዣ ገንዳ እና የDRep ውክልና",
+      "stakevoteregdel": "የመለያ ምዝገባ እና የማስያዣ ገንዳ / DRep ውክልና",
+      "votedel": "DRep ውክልና",
+      "voteregdel": "የመለያ ምዝገባ እና የDRep ውክልና",
+      "drepreg": "DRep ምዝገባ",
+      "drepupd": "DRep ማዘመን",
+      "drepdereg": "DRep መሰረዝ",
+      "poolreg": "የማስያዣ ገንዳ ምዝገባ / ማዘመን",
+      "poolret": "የማስያዣ ገንዳ መቋረጥ",
+      "genkeydel": "የመነሻ ቁልፍ ውክልና",
+      "mircert": "ፈጣን ሽልማቶችን ማንቀሳቀስ",
+      "comhot": "የኮሚቴ ትኩስ ማረጋገጫ",
+      "comcold": "የኮሚቴ ቅዝቃዜ መልቀቂያ",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Plutus ኮንትራት",
+      "unknown": "ያልታወቀ አይነት"
+    },
+    "poolreg": {
+      "actepno": "በEpoch ውስጥ ንቁ",
+      "fixedcost": "ቋሚ ወጪ",
+      "margin": "ትርፍ",
+      "pledge": "Pledge",
+      "rewardaddr": "የሽልማት አድራሻ",
+      "owner": "ባለቤት",
+      "relay": "ማስተላለፊያ",
+      "metaurl": "Metadata ዩአርኤል",
+      "metahash": "Metadata ሃሽ",
+      "metadata": "ከሰንሰለት ውጪ ያለ ሜታ"
+    },
+    "poolret": {
+      "retepno": "ጡረታ የሚወጣ Epoch"
+    },
+    "gov": {
+      "stakeCreds": "የማስያዣ ምስክርነቶች",
+      "drepCreds": "የDRep ምስክርነቶች",
+      "votingCreds": "የድምጽ መስጫ ምስክርነቶች",
+      "poolCreds": "የገንዳ ምስክርነቶች",
+      "poolParams": "የገንዳ መለኪያዎች",
+      "poolId": "የገንዳ መለያ",
+      "poolHash": "የገንዳ ሃሽ",
+      "deposit": "ገቢ ማድረግ",
+      "anchor": "መልሕቅ",
+      "rawData": "ጥሬ መረጃ",
+      "unknown": "ያልታወቀ ሰርተፍኬት",
+      "hash": "Hash",
+      "isScript": "ስክሪፕት",
+      "credential": "ማረጋገጫ",
+      "vote": "ድምጽ",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "Metadata ግቤት",
+    "label_other": "Metadata ግቤቶች",
+    "label": "$t(common:metadata.label)",
+    "key": "መለያ",
+    "value": "እሴት",
+    "rawData": "ጥሬ መረጃ",
+    "block": "የብሎክ ቁጥር",
+    "confirmations": "ማረጋገጫዎች",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Tx መጠን"
+    },
+    "copied": {
+      "cbor": "የተገለበጠ የግብይት cbor"
+    }
+  },
+  "withdrawal": {
+    "label_one": "ማውጣት",
+    "label_other": "ማውጣቶች",
+    "amount": "መጠን"
+  },
+  "utxo": {
+    "collateralInputs_one": "Collateral Input",
+    "collateralInputs_other": "Collateral Inputs",
+    "referenceInputs_one": "Reference Input",
+    "referenceInputs_other": "Reference Inputs",
+    "inputs_one": "ግብዓት",
+    "inputs_other": "ግብዓቶች",
+    "collateralOutput_one": "Collateral Output",
+    "collateralOutput_other": "Collateral Outputs",
+    "outputs_one": "ውፅዓት",
+    "outputs_other": "ውፅዓቶች"
+  },
+  "nativescript": {
+    "label": "ቤተኛ / ብዙ-ፊርማ ስክሪፕት(ች)",
+    "hash": "Hash",
+    "type": "ዓይነት",
+    "witness": "ምስክር",
+    "aux": "ተጨማሪ መረጃ",
+    "json": "JSON",
+    "bytecode": "ዳታ"
+  },
+  "plutusscript": {
+    "label": "Plutus ስክሪፕት(ች)",
+    "hash": "Hash",
+    "type": "ዓይነት",
+    "size": "መጠን",
+    "bytes": "ዳታ",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum hash",
+      "bytecode": "Plutus datum bytes",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "ዓላማ",
+      "fee": "የውል ክፍያ",
+      "usteps": "የአሃድ እርምጃዎች",
+      "umem": "የአሃድ ማህደረ ትውስታ",
+      "dhash": "የዳቱም ሃሽ",
+      "dvalue": "የዳቱም ባይትኮድ",
+      "djson": "የዳቱም JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus ኮንትራት",
+    "label_other": "Plutus ኮንትራቶች",
+    "valid": "ትክክለኛ ኮንትራት",
+    "redeemer": "ቤዛ",
+    "datum": "ዳቱም",
+    "script": {
+      "label": "የውል ስክሪፕት",
+      "hash": "ሃሽ",
+      "size": "$t(common:size)",
+      "bytecode": "ዳታ"
+    },
+    "reference": {
+      "native": "የማጣቀሻ ስክሪፕት (ቤተኛ)",
+      "plutus": "የማጣቀሻ ስክሪፕት (plutus)"
+    },
+    "outdatum": "የውጤት ዳቱም"
+  },
+  "mints": {
+    "mints": "የማውጣት ዝርዝር",
+    "burns": "የማቃጠል ዝርዝር"
+  }
+}

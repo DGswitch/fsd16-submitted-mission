@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "Name und Gruppe",
+    "caption": "Aktualisiere deinen Wallet- oder Gruppennamen.",
+    "setting": {
+      "caption": "$t(settings-wallet:walletName.caption)",
+      "name": "Wallet-Name",
+      "group": "Wallet-Gruppe",
+      "error": {
+        "empty": {
+          "name": "Wallet-Name darf nicht leer sein.",
+          "group": "Wallet-Gruppe darf nicht leer sein."
+        },
+        "duplicate": {
+          "name": "Eine Wallet mit diesem Namen existiert bereits."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "Wallet Ausgabenpasswort",
+    "caption": "Aktualisiere dein Wallet Ausgabenpasswort.",
+    "setting": {
+      "caption": "Aktualisiere dein Wallet Ausgabenpasswort. Gib das alte ein und dann ein neues, langes Ausgabenpasswort. Je länger das Passwort, desto sicherer ist deine Wallet.",
+      "updated": "Wallet Ausgabenpasswort-Aktualisierung.",
+      "error": "Wallet Ausgabenpasswort konnte nicht aktualisiert werden."
+    }
+  },
+  "biometrics": {
+    "title": "Biometrie für Ausgaben",
+    "caption": "Nutze die Biometrie-Funktion anstelle des Passworts.",
+    "setting": {
+      "caption": "$t(settings-wallet:biometrics.caption)",
+      "activate": {
+        "label": "Biometrie aktivieren",
+        "description": "Gib dein aktuelles Ausgabenpasswort ein, um Ausgaben mit den Biometrie-Funktionen deines Telefons zu ermöglichen."
+      },
+      "deactivate": {
+        "label": "Biometrie deaktivieren",
+        "description": "Beim Signieren einer Transaktion verwenden wir die Biometrie-Funktion deines Telefons anstelle deines Passworts."
+      }
+    }
+  },
+  "icon": {
+    "title": "Wallet Icon",
+    "caption": "Lege ein benutzerdefiniertes Wallet-Icon fest oder generiere ein zufälliges Wallet-Icon.",
+    "setting": {
+      "caption": "$t(settings-wallet:icon.caption)",
+      "select": "Icon auswählen",
+      "regenerateIcon": "Zufällig auswählen",
+      "resetToDefault": "Auf Standard zurücksetzen"
+    }
+  },
+  "exportWallet": {
+    "title": "Wallet exportieren",
+    "caption": "Sicherer Wallet JSON-Export, der den Import in anderen Browsern/Geräten ermöglicht.",
+    "setting": {
+      "caption": "Exportierte $t(common:appName) .json-Back-up-Dateien können in jede andere $t(common:appName) App importiert werden.",
+      "subCaption": "Ein .json-Backup enthält Transaktionsnotizen und Wallet-/Konto-Einstellungen.",
+      "button": {
+        "label": "Wallet exportieren"
+      },
+      "banner": {
+        "title": "Wichtig!",
+        "text": "Bei Hot Wallets enthält der Export den verschlüsselten Private Key. Bewahre die exportierte Datei sicher auf und teile sie mit niemandem."
+      }
+    }
+  },
+  "reSync": {
+    "title": "Wallet neu synchronisieren",
+    "caption": "Erzwinge eine vollständige Wallet-Neusynchronisation.",
+    "setting": {
+      "caption": "$t(settings-wallet:reSync.caption)",
+      "subCaption": "Das Drücken dieser Schaltfläche setzt alle Wallet-Daten zurück und führt eine vollständige Neusynchronisation von der blockchain durch.",
+      "button": {
+        "label": "Wallet neu synchronisieren"
+      }
+    }
+  },
+  "verification": {
+    "title": "Überprüfung der Wiederherstellungsphrase",
+    "caption": "Überprüfe, ob du die korrekte Wiederherstellungsphrase für eine Wallet gespeichert hast.",
+    "setting": {
+      "caption": "$t(settings-wallet:verification.caption) Nach der Überprüfung kannst du auch dein Ausgabenpasswort ändern.",
+      "start": "Phrase überprüfen",
+      "match": {
+        "label": "Die eingegebene Wiederherstellungsphrase ist korrekt.",
+        "spending": "Ausgabenpasswort ändern"
+      },
+      "invalid": "Die eingegebene Wiederherstellungsphrase ist für diese Wallet nicht korrekt."
+    }
+  },
+  "deleteWallet": {
+    "title": "Wallet löschen",
+    "caption": "Entferne die Wallet und alle ihre Konten.",
+    "setting": {
+      "caption": "Sobald du diese Wallet löschst, wird sie aus dieser $t(common:appName) App entfernt und du verlierst den Zugriff auf alle verbleibenden Mittel in dieser Wallet.",
+      "subCaption": "Die einzige Möglichkeit, nach dem Löschen wieder Zugriff zu erhalten, besteht darin, deine Wallet Wiederherstellungsphrase wiederherzustellen oder eine zuvor exportierte $t(common:appName).json-Back-up-Datei zu importieren.",
+      "subCaption2": "Für einen einfacheren Import exportiere sie vor dem Löschen als $t(common:appName).json-Back-up.\n\nStelle sicher, dass die Seed-Phrase dieser Wallet sicher aufbewahrt wird!",
+      "acknowledged": "Ich verstehe, dass der einzige Weg, den Zugriff auf dieses Wallet wiederzuerlangen, die Wiederherstellung mithilfe seiner Wallet Wiederherstellungsphrase ist.",
+      "name": "Geben Sie den Wallet-Namen ein",
+      "error": {
+        "name": "Geben Sie den korrekten Wallet-Namen ein, um die Löschung zu bestätigen.",
+        "acknowledged": "Bitte lesen und bestätigen Sie die obigen Informationen."
+      }
+    }
+  }
+}

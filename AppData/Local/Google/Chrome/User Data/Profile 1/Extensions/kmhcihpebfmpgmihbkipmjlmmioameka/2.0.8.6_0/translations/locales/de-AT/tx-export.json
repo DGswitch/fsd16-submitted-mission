@@ -1,0 +1,28 @@
+{
+  "title": "Transaktionshistorie exportieren – Info",
+  "caption": "Erstell einen CSV-Export deiner Transaktionshistorie (altes Eternl v1 Format)",
+  "csv": {
+    "headline": "Transaktionshistorie exportieren",
+    "caption": "Exportiere (pro Konto) die Transaktions- und Belohnungshistorie als CSV-Datei.",
+    "format": "Format",
+    "button": {
+      "label": "CSV exportieren",
+      "icon": "mdi mdi-export"
+    },
+    "csvExport": {
+      "label": "CSV Export",
+      "caption": "Leg dein Export-Preset fest und aktiviere/deaktiviere die Export-Funktion.",
+      "exportPreset": "Export-Preset"
+    },
+    "notes": {
+      "label": "Notizen",
+      "caption": "Exportiere Transaktionsnotizen in der letzten Spalte. Der Export wird mehrzeilige Notizen verketten."
+    },
+    "localTime": {
+      "label": "Lokalen Zeitstempel exportieren",
+      "caption": "Aktiviere das, wennst die Transaktionszeiten in deiner lokalen Zeitzone und im lokalen Format exportieren willst. Ansonsten werden die Zeitstempel als UTC-Zeit exportiert."
+    }
+  },
+  "noaccount": "Kein aktives Konto ausgewählt.",
+  "notx": "Keine Transaktionen zum Exportieren."
+}

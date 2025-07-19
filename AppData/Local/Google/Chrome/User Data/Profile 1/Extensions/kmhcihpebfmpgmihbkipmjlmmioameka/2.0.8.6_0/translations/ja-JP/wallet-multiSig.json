@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig wallet",
+      "caption": "資金の使用や報酬の引き出し時に、トランザクションへの署名に複数の関係者を必要とする特別なタイプのwalletです。",
+      "create": {
+        "label": "新規Multi-Sigを作成",
+        "caption": "既存のウォレットから、または外部のMulti-Sig鍵を使用して、新しいMulti-Sig walletを作成します。"
+      },
+      "join": {
+        "label": "Multi-Sigに参加",
+        "caption": "ディスカバリーによって、または既に追加されたwalletから友人とあなたのMulti-Sig公開鍵を共有することによって、Multi-Sig walletに参加します。"
+      }
+    },
+    "join": {
+      "headline": "Multi-Sigに参加",
+      "caption": "Multi-Sig鍵の表示、ディスカバリー、またはエクスポートされたMulti-Sig walletのインポートのオプションを選択します。",
+      "key": {
+        "label": "Multi-Sig鍵",
+        "caption": "選択したwalletのMulti-Sig鍵を表示し、Multi-Sig walletの作成を担当する参加者と共有します。"
+      },
+      "discover": {
+        "label": "ディスカバリー",
+        "caption": "選択したウォレットのMulti-Sig鍵を含む、登録済みのMulti-Sigウォレットをblockchainでスキャンします。"
+      },
+      "import": {
+        "label": "インポート",
+        "caption": "作成およびエクスポートされたMulti-Sig walletのJSONファイルをロードします。"
+      }
+    },
+    "pubkey": {
+      "headline": "Wallet Multi-Sig鍵",
+      "caption": "Multi-Sig wallet作成者と共有するため。",
+      "nowallet": "walletが選択されていません。",
+      "nopubkey": "選択されたwalletのMulti-Sig鍵が見つかりません。"
+    },
+    "discover": {
+      "headline": "発見されたMulti-Sigウォレット",
+      "caption": "発見されたMulti-Sigウォレットを選択して追加します。",
+      "reused": {
+        "toggle": "再利用された鍵を持つMultiSigウォレットを表示",
+        "warning": "再利用された鍵はリプレイアタックの対象となる可能性があります。注意して使用してください！"
+      },
+      "nowallet": "walletが選択されていません。",
+      "empty": "選択されたwalletに対応するMulti-Sigウォレットが見つかりませんでした。",
+      "loading": "取得および処理中...",
+      "details": {
+        "headline": "MultiSig ディスカバリー詳細",
+        "data": {
+          "headline": {
+            "date": "作成日時",
+            "name": "名前",
+            "description": "説明",
+            "hash": "Tx Hash",
+            "address": "アドレス",
+            "payment": "支払いスクリプト",
+            "stake": "ステークスクリプト",
+            "drep": "DRepスクリプト",
+            "meta": "メタデータ",
+            "balance": "残高"
+          },
+          "nostake": "Multi-Sig walletにはステークスクリプトが登録されていません。",
+          "nodrep": "Multi-Sig walletにはDRepスクリプトが登録されていません。",
+          "nometa": "1854 メタデータは登録されていません。",
+          "button": {
+            "showScript": "スクリプトを表示",
+            "showMeta": "メタデータを表示"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Multi-Sigウォレットをインポート",
+      "caption": "作成およびエクスポートされたMulti-Sig walletのJSONファイルをロードします。",
+      "success": "Multi-Sig walletは正常にインポートされました。",
+      "error": {
+        "invalid": "有効なMulti-Sigエクスポートではありません。CSL AuxiliaryDataJSON形式に従う必要があります。",
+        "noscript": "インポートされたファイルにスクリプトが含まれていません。",
+        "nometa": "インポートされたファイルにラベル1854 メタデータが含まれていません。",
+        "invalidmeta": "エクスポートに無効なラベル1854 メタデータが含まれています。",
+        "duplicate": "同じスクリプトを持つMulti-Sig walletは既にインポートされています。重複ファイルを無視します。"
+      }
+    },
+    "create": {
+      "headline": "Multi-Sigタイプ",
+      "caption": "参加者はすべて同等ですか、それともグループ/エンティティの一部ですか？",
+      "simple": {
+        "label": "シンプル",
+        "caption": "すべての参加者が同等であるシナリオ。"
+      },
+      "advanced": {
+        "label": "高度 (近日公開)",
+        "caption": "参加者は個別のグループの一部であり、複数のレイヤーを形成します。"
+      }
+    },
+    "simple": {
+      "headline": "Multi-Sig セットアップ",
+      "caption": "Multi-Sig walletの名前とオプションの説明を設定します。",
+      "name": {
+        "label": "Wallet 名",
+        "placeholder": "walletの名前を入力してください",
+        "error": "名前は必須です"
+      },
+      "description": {
+        "label": "説明",
+        "placeholder": "オプションの説明"
+      },
+      "error": {
+        "validation": "検証エラー",
+        "length": "最大文字数64文字を超えました！"
+      }
+    },
+    "participants": {
+      "headline": "参加者を追加",
+      "caption": "ロードされたウォレットから、またはマルチシグ公開鍵を入力して、マルチシグに参加する個人を指定します。",
+      "new": "別の参加者を追加",
+      "participant": {
+        "label": "参加者",
+        "name": {
+          "label": "名前",
+          "placeholder": "オプションの参加者名"
+        },
+        "pub": {
+          "label": "Multi-Sig キー",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "シンプルな Multi-Sig wallet を形成するには、最低2人の参加者が必要です"
+      },
+      "error": {
+        "duplicate": "同じ Multi-Sig キーを持つ参加者は既に追加されています。別の参加者を選択してください。"
+      }
+    },
+    "requiredSigners": {
+      "headline": "必要な署名者",
+      "caption": "署名時に何人の参加者の確認が必要ですか？"
+    },
+    "register": {
+      "headline": "登録",
+      "caption": "新しく作成された Multi-Sig wallet を登録するかダウンロードするかのオプションを選択します。",
+      "anonymous": "匿名 (メタデータ を省略)",
+      "register": {
+        "label": "登録",
+        "caption": "マルチシグネチャ wallet をオンチェーンで登録するためのトランザクションを作成します。これにより、参加者による自動検出が可能になり、推奨されるオプションです。",
+        "feewallet": "トランザクション手数料 wallet",
+        "success": "Multi-Sig wallet は正常に登録されました"
+      },
+      "download": {
+        "label": "ダウンロード",
+        "caption": "手動インポートのために参加者と共有するファイルをダウンロードします。"
+      },
+      "error": {
+        "nofeewallet": "Multi-Sig 登録トランザクションの手数料 wallet として使用できる wallet が見つかりません。"
+      },
+      "success": "Multi-Sig wallet は正常に作成されました",
+      "exist": "Wallet は既に存在します。wallet にリダイレクトしています"
+    }
+  },
+  "select": {
+    "placeholder": "Wallet を選択",
+    "missing": {
+      "headline": "Multi-Sig キーを作成",
+      "mnemonic": "この wallet には Multi-Sig キーがありません。作成するには wallet のパスワードを入力してください。",
+      "hardware": "この wallet には Multi-Sig キーがありません。署名をクリックし、ハードウェアデバイスの指示に従ってキーを導出してください。"
+    },
+    "save": {
+      "ok": "Multi-Sig キーが正常に生成され、wallet に保存されました",
+      "error": "Multi-Sig キーを wallet に保存できませんでした。もう一度お試しください！"
+    }
+  },
+  "last_signature_added": "最後の署名が追加されました"
+}

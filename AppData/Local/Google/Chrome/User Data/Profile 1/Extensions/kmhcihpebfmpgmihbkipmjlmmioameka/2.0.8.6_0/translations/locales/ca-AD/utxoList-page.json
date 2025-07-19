@@ -1,0 +1,68 @@
+{
+  "menuLabel": "Llista de UTxO",
+  "title": "Llista de UTxO del compte",
+  "caption": "Una llista de tots els UTxOs gestionats per aquest compte, incloent-hi la quantitat i les llistes de tokens.",
+  "subCaption": "Un UTxO és com un bitllet de dòlar de valor arbitrari. Les transaccions el gasten i tornen 'bitllets de canvi' a la teva wallet.",
+  "empty": "Aquest compte no té cap UTxO.",
+  "selectAll": "Selecciona-ho tot",
+  "filter": {
+    "headline": "Filtre de UTxO",
+    "caption": "Estableix paràmetres o introdueix una cadena de cerca per filtrar la llista de utxo.",
+    "search": "Cerca per adreça, camí o ID de transacció...",
+    "more": "Més",
+    "minada": "Import mínim de {{adaCurrency}}",
+    "maxada": "Import màxim de {{adaCurrency}}",
+    "numAssets": "S'han trobat {{numAssets}} actius únics."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO a {{address_count}} adreces",
+    "pendingIn": {
+      "hint": "(entrades pendents, utxos gastats)"
+    },
+    "pendingOut": {
+      "hint": "(sortides pendents, utxos creats)"
+    },
+    "opkosk": {
+      "label": "Guanyant Recompenses",
+      "hint": "(clau de pagament del compte, clau de stake del compte)"
+    },
+    "opk": {
+      "label": "Sense staking",
+      "hint": "(clau de pagament del compte, sense clau de stake)"
+    },
+    "opkesk": {
+      "label": "delegat externament",
+      "hint": "(clau de pagament del compte, clau de stake externa)"
+    },
+    "epkosk": {
+      "label": "Fons externs, però guanyant recompenses",
+      "hint": "(clau de pagament externa, clau de stake del compte)"
+    },
+    "collateral": {
+      "label": "Col·lateral",
+      "hint": "(no tots estan establerts com a col·lateral)"
+    },
+    "locked": {
+      "label": "UTxOs bloquejats"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Desglossament del Stake",
+    "controlledStake": {
+      "label": "stake controlat",
+      "tooltip": "Import total de stake a la clau de stake d'aquest compte (ja sigui propi, extern o en contractes intel·ligents)."
+    },
+    "ownedStake": {
+      "label": "Stake propi",
+      "tooltip": "Import de stake sota el control directe d'aquest compte."
+    },
+    "notStaked": {
+      "label": "Sense staking",
+      "tooltip": "{{currency}} no està en staking, fons en adreces empresarials."
+    },
+    "externallyStaked": {
+      "label": "Stake extern",
+      "tooltip": "{{currency}} controlat per aquest compte - combinat amb qualsevol clau d'staking externa."
+    }
+  }
+}

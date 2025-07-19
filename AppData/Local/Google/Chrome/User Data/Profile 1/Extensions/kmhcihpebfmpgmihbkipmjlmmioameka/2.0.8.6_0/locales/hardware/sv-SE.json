@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Anslut hårdvaru__GT__plånbok__",
+    "caption": "Om du äger en hårdvaru__GT__plånbok__ är det här rätt plats.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "Ledger kryptovaluta hårdvaru__GT__plånbok__ tillverkad av Ledger, ett företag med huvudkontor i Paris, Frankrike.",
+        "models": "Stax, Flex och Nano (X, S och S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor kommer från SatoshiLabs, baserat i Tjeckien.",
+        "models": "Model T och Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "Ett Hongkong-baserat företag som erbjuder en 100% Air-gapped hårdvaru__GT__plånbok__ med öppen källkod, QR-kodskommunikation, 4-tums pekskärm och fingeravtrycksläsare.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "TBD",
+        "models": "OneKey Pro verifierad"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "TBD",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Anslut Ledger med"
+  },
+  "keystone": {
+    "qrScan": "Skanna QR-kod med din Keystone-enhet",
+    "distance": "Justera avståndet och tryck eventuellt på Keystone QR-koden för att förbättra skanningen"
+  },
+  "derivation": {
+    "label": "Deriveringsläge (avancerat)",
+    "icarus": "Cardano deriveringsstandard enligt definitionen i CIP03.",
+    "trezor": "Trezors implementering baserad på Icarus-standarden.",
+    "ledger": "Följer Bitcoin-standarden enligt definitionen i BIP39.",
+    "default": "(standard)"
+  },
+  "connect": {
+    "title": "Bekräfta export av publik nyckel",
+    "caption": "",
+    "info": {
+      "ledger": "Lås upp din Ledger-enhet och öppna Cardano-appen innan du fortsätter. Följ sedan anvisningarna i Cardano-appen på din Ledger-enhet för att slutföra parkopplingsprocessen.",
+      "trezor": "Vid bekräftelse, följ anvisningarna i den öppnade Trezor Connect-webbläsarfliken och på din Trezor-enhet för att slutföra parkopplingsprocessen.",
+      "keystone": "Vid bekräftelse, skanna den genererade QR-koden med din Keystone-enhet och fortsätt sedan med att skanna Keystone QR-kodssvaret via Eternl.",
+      "onekey": "Se till att bryggan är installerad på din dator. Anslut enheten och vänta på att de publika nycklarna exporteras.",
+      "bitbox": "Vid bekräftelse, verifiera parkopplingskoden vid behov och bekräfta på enheten."
+    }
+  }
+}

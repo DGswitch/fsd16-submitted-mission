@@ -1,0 +1,35 @@
+{
+  "frankenAddress": {
+    "title": "Generátor Franken Adres",
+    "caption": "Vytvoř novou adresu spojením dvou existujících adres.",
+    "setting": {
+      "caption": "$t(settings-util:frankenAddress.caption)",
+      "info": "Platební část se vezme z první adresy a spojí se s stake částí z druhé adresy.",
+      "payment": "Base nebo Platební / Enterprise adresa",
+      "stake": "Base nebo Stake adresa",
+      "frankenAddress": "Franken Adresa"
+    }
+  },
+  "signData": {
+    "title": "Podepsat Data",
+    "caption": "Podepiš nebo ověř jakýkoliv payload s adresou / ID podle standardu CIP-8.",
+    "setting": {
+      "caption": "$t(settings-util:signData.caption)",
+      "info": "Platební část se vezme z první adresy a spojí se s stake částí z druhé adresy.",
+      "address": "Adresa nebo ID (DRep, Pool Calidus)",
+      "payload": "Payload (data k podpisu)",
+      "text": "$t(common:text)",
+      "json": "$t(common:json)",
+      "hex": "$t(common:hex)",
+      "verify": {
+        "valid": "Klíč a podpis jsou pro vstup platné",
+        "invalid": {
+          "key": "Neplatný klíč",
+          "signature": "Neplatný podpis",
+          "payload": "Neplatný payload",
+          "address": "Adresa / ID nesouhlasí s hlavičkou payloadu"
+        }
+      }
+    }
+  }
+}

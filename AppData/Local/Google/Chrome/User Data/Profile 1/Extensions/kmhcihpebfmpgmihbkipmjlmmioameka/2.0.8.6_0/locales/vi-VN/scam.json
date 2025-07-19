@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: Tôi cố tình để lại hầu hết các đoạn văn bản, ngay cả khi chỉ một số ít được sử dụng.",
+  "showScamInfo": "Hiển thị thông tin token lừa đảo",
+  "guard": {
+    "label": "Eternl Bảo vệ",
+    "warning": "$t(scam:guard.label) Cảnh báo"
+  },
+  "token": {
+    "label": "LỪA ĐẢO",
+    "description": "Đây là một token <span class=\"font-bold\">LỪA ĐẢO</span> đã biết!<br>Các liên kết trang web hiển thị ở đây là lừa đảo!<br>Nếu bạn kết nối với các trang web đó và ký một giao dịch<br>wallet của bạn có thể bị rút sạch hoàn toàn!",
+    "image": "Cảnh báo:\n\nKhông tương tác với bất kỳ trang web nào được đề cập trong hình ảnh này!",
+    "hover": "Giao dịch này chứa một token lừa đảo đã biết. Vui lòng thận trọng khi tương tác với nó!"
+  },
+  "app": {
+    "description": "DApp này là một trang LỪA ĐẢO đã biết! Rất có khả năng nó sẽ đánh cắp tiền của bạn hoặc cố gắng lừa đảo bạn theo những cách khác!",
+    "description2": "Chúng tôi đặc biệt khuyên bạn <span class=\"font-bold\">KHÔNG TƯƠNG TÁC</span> với trang này!",
+    "ownRisk": "Kết nối với trang web này với rủi ro của riêng bạn!",
+    "bannerWarning": "Trang web này nằm trong danh sách lừa đảo. Vui lòng cẩn thận và không nhập bất kỳ thông tin nhạy cảm nào."
+  },
+  "address": {
+    "description": "Đây là một địa chỉ LỪA ĐẢO đã biết! Rất có khả năng bạn không muốn gửi tiền của mình đến đó!",
+    "description2": "Chúng tôi đặc biệt khuyên bạn <span class=\"font-bold\">KHÔNG GỬI</span> tiền vào đó!",
+    "hover": "Địa chỉ này đã được sử dụng để đánh cắp tiền!"
+  },
+  "cleanup": {
+    "label": "Dọn dẹp wallet",
+    "description": "Thao tác này sẽ tạo một giao dịch dọn dẹp để gửi đi tất cả các scam tokens đã biết từ wallet của bạn đến địa chỉ đốt Eternl. ",
+    "prepared": {
+      "label": "Đã chuẩn bị giao dịch dọn dẹp Lừa đảo"
+    }
+  }
+}

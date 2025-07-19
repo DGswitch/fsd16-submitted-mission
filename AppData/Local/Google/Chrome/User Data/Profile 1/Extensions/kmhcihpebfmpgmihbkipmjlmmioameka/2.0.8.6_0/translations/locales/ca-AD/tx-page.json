@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transaccions",
+  "title": "Transaccions",
+  "caption": "Aquest wallet té un total de {{numTxTotal}} transaccions.",
+  "subCaption": "Fes clic a una transacció per veure'n més detalls o defineix un filtre per reduir la llista.",
+  "empty": "Aquest compte no té transaccions.",
+  "noMatch": "No s'ha trobat cap transacció que coincideixi amb aquesta cerca.",
+  "updating": "S'estan actualitzant les transaccions",
+  "filter": {
+    "title": "Filtre de transaccions",
+    "caption": "Defineix paràmetres o introdueix una cadena de cerca per filtrar la llista de transaccions.",
+    "search": "Cerca missatges, ID de transacció o adreça...",
+    "more": "Més",
+    "minada": "Import mínim de {{adaCurrency}}",
+    "maxada": "Import màxim de {{adaCurrency}}",
+    "date-range": {
+      "start": "Data d'inici",
+      "end": "Data de finalització"
+    }
+  },
+  "sync": {
+    "line1": "Encara no s'han carregat tots els detalls de la transacció.",
+    "line2": "L'interval de dates i la cerca d'ID de transacció funcionaran per a totes les transaccions conegudes.",
+    "loading": "Amb cada procés de sincronització del compte es carregarà una gran part dels detalls.",
+    "awhile": "Això pot trigar una mica.",
+    "autosync": "Per filtrar més punts de dades, per exemple, metadata d'actius, activa la sincronització de l'historial del compte.",
+    "progress": "Sincronització en curs, espera, si us plau.",
+    "history": "Sincronització de l'historial"
+  },
+  "button": {
+    "history": {
+      "label": "Historial de transaccions",
+      "tooltip": "Canvia a la pàgina de l'historial de transaccions."
+    }
+  }
+}

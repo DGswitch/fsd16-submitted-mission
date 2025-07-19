@@ -1,0 +1,107 @@
+{
+  "title": "Prijedlog za upravljanje",
+  "proposedEpoch": "Predloženo epoch",
+  "expiryEpoch": "Ističe epoch",
+  "enactedEpoch": "Usvojeno epoch",
+  "totalVotes": "Ukupno glasova",
+  "yes": "$t(common:vote.yes)",
+  "govAction": {
+    "id": "ID akcije upravljanja",
+    "missing": "Nepoznat ID akcije upravljanja",
+    "summary": {
+      "voteStart": "Početak glasanja ($t(common:epoch)/$t(common:slot))",
+      "voteEnd": "Kraj glasanja ($t(common:epoch)/preostalo vrijeme)",
+      "deposit": "$t(common:deposit)",
+      "depositReturnAddress": "$t(common:deposit) povratna adresa"
+    },
+    "details": {
+      "dRep": {
+        "label": "$t(governance-govActionList:voteGroup.dRep) ($t(common:dRep))",
+        "approvalThreshold": "prag odobrenja",
+        "table": {
+          "header": {
+            "votes": "Glasovi",
+            "amount": "Iznos",
+            "percent": "Procenat",
+            "count": "Broj"
+          },
+          "rows": {
+            "yesVoteStake": "ZA",
+            "noVoteStake": "PROTIV",
+            "abstainVoteStake": "Suzdržan"
+          }
+        }
+      },
+      "dRepStakeParticipation": {
+        "label": "$t(common:dRep) Učešće u stejkingu",
+        "hasVoted": "je glasao/la",
+        "hasNotVoted": "nije glasao/la"
+      },
+      "spo": {
+        "label": "$t(governance-govActionList:voteGroup.spo) ($t(common:spo))",
+        "approvalThreshold": "prag odobrenja",
+        "table": {
+          "header": {
+            "votes": "Glasovi",
+            "amount": "Iznos",
+            "percent": "Procenat",
+            "count": "Broj"
+          },
+          "rows": {
+            "yesVoteStake": "ZA",
+            "noVoteStake": "PROTIV",
+            "abstainVoteStake": "Suzdržan"
+          }
+        }
+      },
+      "spoStakeParticipation": {
+        "label": "$t(common:spo) Učešće u stejkingu",
+        "hasVoted": "je glasao/la",
+        "hasNotVoted": "nije glasao/la"
+      },
+      "cc": {
+        "label": "Ustavni odbor",
+        "approvalThreshold": "prag odobrenja",
+        "table": {
+          "header": {
+            "name": "Ime",
+            "status": "Status"
+          },
+          "rows": {
+            "yesVoteStake": "ZA",
+            "noVoteStake": "PROTIV",
+            "abstainVoteStake": "Suzdržan"
+          }
+        }
+      }
+    },
+    "meta": {
+      "abstract": "Apstraktno",
+      "motivation": "Motivacija",
+      "rationale": "Obrazloženje",
+      "references": "Reference"
+    }
+  },
+  "voteGroup": {
+    "currentStatus": {
+      "label": "Trenutni status",
+      "text": "Da bi ovaj prijedlog prošao, {{voteGroup}} mora glasati"
+    },
+    "dRep": "delegirani predstavnici",
+    "spo": "operatori stake poolova",
+    "cc": "ustavni odbor",
+    "and": "$t(common:and)"
+  },
+  "tab": {
+    "summary": "Sažetak",
+    "details": "Detalji glasanja",
+    "metadata": "Metadata"
+  },
+  "filter": {
+    "search": "Pretraži akciju upravljanja..."
+  },
+  "select": {
+    "proposalType": "Tip prijedloga",
+    "proposalStatus": "Status prijedloga"
+  }
+}

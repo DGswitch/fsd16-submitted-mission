@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Passa da un portafoglio all'altro.",
+    "accounts": {
+      "select": "Account",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Seleziona un wallet specifico per passare da un account all'altro.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Cambia l'account $t(common:dApp) attivo."
+    },
+    "accounts": {
+      "select": "Seleziona un account dalla lista. Contrassegna un account come preferito attivando/disattivando l'icona a stella.",
+      "manage": "Aggiungi o rimuovi account, seleziona indici di account specifici o imposta i nomi degli account."
+    }
+  },
+  "groups": {
+    "placeholder": "Seleziona gruppi wallet attivi",
+    "favoriteAccounts": "#Account preferiti"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Nome account:",
+    "index": "Indice:",
+    "limit": "Limite:",
+    "remove": {
+      "tooltip": "Rimuovi account"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Aggiungi nuovi account"
+  }
+}

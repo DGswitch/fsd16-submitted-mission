@@ -1,0 +1,21 @@
+{
+  "title": "Transaktionsdetaljer",
+  "inputsOutputs": "Input/Output",
+  "mints": "Mintningar",
+  "withdrawals": "Uttag",
+  "certificates": "Certifikat",
+  "metadata": "Metadata",
+  "recipient": "Mottagare",
+  "scripts": "Skript",
+  "witnesses": "Witnesses",
+  "validFor": {
+    "label": "Giltig till",
+    "unlimited": "Ingen tidsgräns",
+    "expired": "Utgången transaktion"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Ladda via Tx Hash eller rå Tx Cbor",
+    "invalidTxHashOrCbor": "Ogiltig Tx Hash eller rå Tx Cbor",
+    "invalidTxCbor": "Ogiltig transaktion cbor!"
+  }
+}

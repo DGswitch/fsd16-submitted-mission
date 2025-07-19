@@ -1,0 +1,31 @@
+{
+  "title": " に接続",
+  "caption": "信頼できるdAppとのみ対話してください！正しいURLであり、安全（HTTPS）であることを確認してください。",
+  "label": {
+    "possibleScam": "詐欺の可能性",
+    "notSecure": "安全ではありません",
+    "confirmRisk": "リスクを理解しました",
+    "grantAccess": "アクセスを許可"
+  },
+  "noAccount": {
+    "title": "dApp アカウントが設定されていません",
+    "caption": "$t(common:appName) に dApp アカウントが設定されていません。フルサイズの $t(common:appName) アプリに切り替えて、wallet を作成またはインポートしてください。",
+    "openUI": "アプリを開く"
+  },
+  "access": {
+    "url": "URL",
+    "features": "機能"
+  },
+  "cip30": {
+    "title": "DApp コネクター (CIP30)",
+    "caption": "残高の読み取りとトランザクションへの署名を要求できるようにします。署名する前にトランザクションを確認できます。"
+  },
+  "cip95": {
+    "title": "Cardano ガバナンス (CIP95)",
+    "caption": "投票資格情報の読み取りを許可します。"
+  },
+  "cip104": {
+    "title": "アカウント公開鍵 (CIP104)",
+    "caption": "アカウント公開鍵のエクスポートを許可します。これにより DApp は接続されたアカウントの任意のアドレスを導出できるようになることに注意してください。"
+  }
+}

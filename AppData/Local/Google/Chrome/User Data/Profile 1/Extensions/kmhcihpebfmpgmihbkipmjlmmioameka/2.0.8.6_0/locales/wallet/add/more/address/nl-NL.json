@@ -1,0 +1,5 @@
+{
+  "title": "Adres Wallet Aanmaken",
+  "caption": "Voer een gedelegeerd (base) of niet-gedelegeerd (payment) adres in om een 'alleen-lezen' wallet aan te maken.",
+  "error": "Ongeldig adres, controleer dit alstublieft en probeer opnieuw."
+}

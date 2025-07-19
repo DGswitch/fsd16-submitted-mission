@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "QRコードをスキャン",
+    "short": "QR"
+  },
+  "loading": "カメラを初期化しています。",
+  "error": {
+    "notAllowed": "カメラへのアクセス許可をお願いします。",
+    "notFound": "デバイスでカメラが検出されませんでした。",
+    "notSupported": "セキュアなコンテキスト（HTTPS、localhost）が必要です。",
+    "notReadable": "カメラは既に使用中ですか？",
+    "overconstrained": "インストールされているカメラは適していません。",
+    "streamApiNotSupported": "このブラウザではStream APIがサポートされていません。",
+    "insecureContext": "カメラへのアクセスはセキュアなコンテキストでのみ許可されています。HTTPではなく、HTTPSまたはlocalhostを使用してください。"
+  },
+  "bex": {
+    "fullscreenNotice": "カメラへのアクセスを許可するには、拡張機能をフルスクリーンモードで開いてください。これは一度だけ行う必要があります。\n このテキストをクリックしてフルスクリーンに移動します。"
+  }
+}

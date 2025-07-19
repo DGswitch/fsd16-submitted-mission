@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Staking Dashboard",
+  "caption": "Hier können Sie Ihre ADA an einen Stakepool delegieren und ein passives Einkommen verdienen.",
+  "subCaption": "Ihr Guthaben verlässt niemals Ihre Wallet für das staking auf Cardano und kann jederzeit ausgegeben werden.",
+  "staking-cta": {
+    "title": "Verdienen Sie staking Belohnungen!",
+    "caption": "Klicken Sie auf die Schaltfläche, um einen Stake Pool auszuwählen.",
+    "button": "Delegieren"
+  },
+  "poollist": {
+    "title": "Verfügbare Stake Pools",
+    "caption": "Eine Liste verfügbarer Stake Pools. Geben Sie den Ticker oder Namen eines Pools ein, um die Liste zu filtern. Das Ranking priorisiert optimale Belohnungen für den Benutzer.",
+    "filter": {
+      "search": "Suche nach einem Pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "Keine Pool-Daten verfügbar",
+      "undelegated": "Nicht delegiert",
+      "delegated": "Delegiert",
+      "deregistered": "Deregistriert",
+      "registered": "Registriert",
+      "pending": "Ausstehend",
+      "producing": "Produziert"
+    },
+    "history": {
+      "label": "Belohnungsverlauf",
+      "caption": "Eine Liste der verdienten Belohnungen für staking und Catalyst Abstimmungen, sortiert nach epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Belohnungen",
+      "refund": "Pool Deregistrierungs-Rückerstattung",
+      "pool": "Pool",
+      "treasury": "Catalyst Abstimmung",
+      "leader": "Pool-Betreiber Belohnungen",
+      "reserves": "Sofortige Belohnungen"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Bitte erwägen Sie die Delegation an einen DRep für Governance-Aktionen. Dies wird in der nächsten Ära erforderlich sein, um staking Belohnungen abheben zu können"
+      },
+      "inactive": "Konto ist an einen Governance DRep delegiert, der als inaktiv markiert ist und zählt daher nicht mehr zum aktiven Voting Stake"
+    },
+    "warning": {
+      "high": {
+        "headline": "Hohe Pool-Gebühr",
+        "caption": "Der Pool, an den dieses Konto delegiert ist, hat eine ungewöhnlich hohe Gebühr, die Ihre staking Belohnungen reduziert. Wenn es sich um eine Art ISPO handelt, ist das in Ordnung. Wenn nicht, sollten Sie einen anderen Pool mit niedrigeren Gebühren wählen"
+      },
+      "complete": {
+        "headline": "99+% Pool-Gebühr",
+        "caption": "Der Pool, an den dieses Konto delegiert ist, verlangt mindestens 99% Gebühren und sammelt Ihre ADA Belohnungen ein. Wenn es sich um eine Art ISPO handelt, ist das in Ordnung. Wenn nicht, sollten Sie einen anderen Pool mit niedrigeren Gebühren wählen"
+      }
+    }
+  }
+}

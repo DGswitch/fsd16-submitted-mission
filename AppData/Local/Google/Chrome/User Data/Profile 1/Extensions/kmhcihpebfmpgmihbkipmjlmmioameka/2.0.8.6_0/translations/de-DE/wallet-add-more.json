@@ -1,0 +1,20 @@
+{
+  "title": "wallet-Typ auswählen",
+  "caption": "Erweiterte wallet-Erstellung. Gehen Sie zurück für gängige Optionen.",
+  "import-wallet": {
+    "title": "Backup importieren",
+    "caption": "Aus Eternl JSON-Backup-Dateien wiederherstellen"
+  },
+  "cli-skey-wallet": {
+    "title": "CLI Signing Keys",
+    "caption": "CLI-generierte (skey) Signing Keys importieren"
+  },
+  "account-pub-wallet": {
+    "title": "Account Public Key (schreibgeschützt)",
+    "caption": "Exportierten Account Public Key eingeben"
+  },
+  "address-wallet": {
+    "title": "Adresse (schreibgeschützt)",
+    "caption": "Aus einer bech32-Adresse erstellen"
+  }
+}

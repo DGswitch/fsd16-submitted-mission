@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "สลับระหว่างกระเป๋าเงิน",
+    "accounts": {
+      "select": "บัญชี",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "เลือก wallet ที่ต้องการเพื่อสลับระหว่างบัญชี",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "สลับบัญชี $t(common:dApp) ที่ใช้งานอยู่"
+    },
+    "accounts": {
+      "select": "เลือกบัญชีจากรายการ ทำเครื่องหมายบัญชีเป็นรายการโปรดโดยการกดไอคอนรูปดาว",
+      "manage": "เพิ่มหรือลบบัญชี เลือกดัชนีบัญชีที่ต้องการ หรือตั้งชื่อบัญชี"
+    }
+  },
+  "groups": {
+    "placeholder": "เลือกกลุ่ม wallet ที่ใช้งานอยู่",
+    "favoriteAccounts": "#บัญชีโปรด"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "ชื่อบัญชี:",
+    "index": "ดัชนี:",
+    "limit": "ขีดจำกัด:",
+    "remove": {
+      "tooltip": "ลบบัญชี"
+    }
+  },
+  "signAddAccounts": {
+    "title": "เพิ่มบัญชีใหม่"
+  }
+}

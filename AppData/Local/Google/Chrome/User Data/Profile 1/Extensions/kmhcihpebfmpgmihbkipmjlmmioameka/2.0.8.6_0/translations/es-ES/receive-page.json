@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Recibir",
+  "title": "Recibir Fondos",
+  "caption": "Comparte esta dirección para recibir pagos.",
+  "search": {
+    "caption": "Busca una parte de la dirección, o una ruta de derivación como \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" o \"0 1 32\".",
+    "placeholder": "$t(common:search) una $t(common:address) o una ruta",
+    "noResults": "No se encontraron resultados"
+  },
+  "current": {
+    "headline": "Direcciones disponibles de la wallet.",
+    "static": "Dirección de Recepción.",
+    "caption": "Comparte esta dirección de la wallet para recibir pagos.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Ten en cuenta que todas tus direcciones de recepción delegadas incluyen tu clave de stake (stake key). \nCuando compartes una dirección de recepción delegada, el destinatario puede buscar en la blockchain usando tu clave de stake para localizar \ntodas las direcciones asociadas con tu wallet y también descubrir el saldo y el historial de transacciones de tu wallet."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Direcciones externas (delegadas)",
+      "caption": "Estas direcciones están delegadas a un stake pool (si, de hecho, delegaste esta cuenta)."
+    },
+    "enterprise": {
+      "headline": "Direcciones externas (no delegadas)",
+      "caption": "Estas direcciones no están delegadas."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Direcciones internas de cambio (delegadas)",
+      "caption": "Estas direcciones están delegadas a un stake pool (si, de hecho, delegaste esta cuenta).\nNo compartas direcciones internas, proporciona siempre direcciones externas."
+    },
+    "enterprise": {
+      "headline": "Direcciones internas de cambio (no delegadas)",
+      "caption": "Estas direcciones no están delegadas.\nNo compartas direcciones internas, proporciona siempre direcciones externas."
+    }
+  }
+}

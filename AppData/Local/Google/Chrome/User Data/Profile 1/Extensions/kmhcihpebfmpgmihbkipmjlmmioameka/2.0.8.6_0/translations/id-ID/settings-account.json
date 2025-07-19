@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Nama Akun Aktif",
+    "caption": "Atur nama Akun untuk akun saat ini",
+    "setting": {
+      "caption": "Perbarui nama akun (aktif) Anda atau pilih/batalkan pilihan Ada Handle.",
+      "adaHandle": {
+        "select": "Pilih Ada Handle mana yang akan ditampilkan sebagai pengganti nama akun (batalkan pilihan untuk menampilkan nama):"
+      },
+      "error": {
+        "empty": "Nama akun tidak boleh kosong.",
+        "duplicate": "Wallet ini sudah memiliki akun dengan nama tersebut."
+      }
+    }
+  },
+  "export": {
+    "title": "Ekspor Kunci Akun",
+    "caption": "Ekspor kunci publik akun ini.",
+    "setting": {
+      "caption": "Ekspor kunci publik akun ini. Mengimpor kunci publik akan memulihkan riwayat akun dalam mode hanya-baca dengan penandatanganan dinonaktifkan.",
+      "tooltip": {
+        "acct_xvk": "Kunci publik diperluas Ed25519-bip32",
+        "xpub": "Kunci publik diperluas Ed25519-bip32",
+        "acct_vk": "Kunci publik Ed25519"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Mode Alamat Tunggal (SAM)",
+    "caption": "Hanya gunakan satu alamat untuk semua transaksi.",
+    "setting": {
+      "caption": "Saat diaktifkan, semua dana akan disimpan di alamat penerima pertama secara default.",
+      "enabled": "$t(settings-account:samMode.title) diaktifkan",
+      "disabled": "$t(settings-account:samMode.title) dinonaktifkan",
+      "customAddress": "Alamat penerima kustom",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Penting!",
+          "text": "Mengatur alamat penerima kustom akan membuat semua output kembalian dan alamat penerima beralih ke alamat ini, meskipun tidak dimiliki oleh akun ini. Harap pastikan untuk memverifikasi bahwa alamat yang benar telah diatur."
+        }
+      },
+      "notification": {
+        "wrongInput": "Ini bukan alamat yang valid.",
+        "wrongNetwork": "Alamat ini berasal dari jaringan yang berbeda.",
+        "notOwned": "Alamat ini bukan milik akun ini dan tidak dapat digunakan sebagai alamat penerima kustom.",
+        "nonStaking": "Dana di alamat penerima ini di-stake dengan kunci stake eksternal. Anda tidak akan mengontrol reward yang diperolehnya.",
+        "success": "Alamat penerima kustom diatur.",
+        "error": "Gagal menyimpan alamat penerima kustom!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Collateral",
+    "caption": "Gunakan collateral yang disediakan Eternl?",
+    "setting": {
+      "caption": "Saat diaktifkan, Eternl akan menyediakan collateral untuk akun tersebut.",
+      "info": "Berinteraksi dengan smart contract mungkin memerlukan collateral jika transaksi gagal. Ini akan ditangani secara otomatis oleh Eternl jika UTxO yang memenuhi syarat ditemukan.",
+      "waiting": "Anda telah mengirimkan transaksi collateral. Harap tunggu, transaksi tersebut belum dikonfirmasi.",
+      "foundCollateral": "UTxO collateral untuk akun ini sudah ada. Ini akan digunakan saat berinteraksi dengan smart contract.",
+      "eternl": {
+        "label": "Collateral disediakan Eternl",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Tidak ada UTxO collateral yang ditemukan. Harap atur satu dengan menekan tombol di bawah.",
+      "button": {
+        "setCollateral": {
+          "label": "Atur Collateral",
+          "tooltip": "Atur UTxO collateral untuk akun ini."
+        }
+      },
+      "error": {
+        "label": "Error:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Harap Catat!",
+          "headline": "Collateral adalah pengaturan berbasis akun."
+        },
+        "info": {
+          "text": "Eternl dapat menggunakan UTxO apa pun tanpa token dan dengan nilai antara ####minimumCollateral#### dan ####maximumCollateral#### sebagai collateral. Saat Anda mengaktifkan pengaturan ini, ia akan mencari UTxO yang sesuai. Jika tidak ada yang tersedia, tombol akan ditampilkan untuk mengaturnya."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Sinkronisasi Manual",
+    "caption": "Atur sinkronisasi manual",
+    "setting": {
+      "caption": "Sinkronkan wallet secara manual. Jika diaktifkan, wallet perlu disinkronkan secara manual dengan mengklik ikon sinkronisasi.",
+      "enabled": "$t(settings-account:manualSync.title) diaktifkan",
+      "disabled": "$t(settings-account:manualSync.title) dinonaktifkan"
+    }
+  },
+  "historySync": {
+    "title": "Sinkronisasi Riwayat",
+    "caption": "Atur sinkronisasi riwayat",
+    "setting": {
+      "caption": "Jika diaktifkan, wallet akan menyinkronkan riwayat transaksi penuh akun. Jika tidak, hanya 1000 transaksi terakhir yang akan disinkronkan. Sinkronisasi terjadi dalam batch dan mungkin memerlukan waktu untuk akun dengan riwayat yang besar.",
+      "enabled": "$t(settings-account:historySync.title) diaktifkan",
+      "disabled": "$t(settings-account:historySync.title) dinonaktifkan",
+      "syncing": "Sinkronisasi riwayat masih berjalan. Menunggu untuk menyinkronkan {{AMOUNT}} entri."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Fragmentasi Token (TF)",
+    "caption": "Kurangi biaya transaksi dengan memfragmentasi token.",
+    "fragment": {
+      "label": "Ukuran bundel token",
+      "error": "Batas ukuran bundel token: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Menetapkan jumlah token yang harus dimuat oleh setiap output UTxO. Ini adalah tradeoff antara biaya transaksi rendah dan jumlah dana yang terkunci di wallet.\nUkuran bundel kecil -> biaya rendah, lebih banyak Ada terkunci.\nUkuran bundel besar -> biaya lebih tinggi, lebih sedikit Ada terkunci."
+    },
+    "setting": {
+      "caption": "Pisahkan token menjadi bundel saat mengirim jika ada lebih banyak token dalam kembalian yang akan dikembalikan daripada nilai yang ditetapkan. Tergantung pada distribusi UTxO/Token wallet dan hasil yang diinginkan, nilai mungkin perlu disesuaikan untuk hasil yang optimal.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) diaktifkan",
+      "disabled": "$t(settings-account:tokenFragmentation.title) dinonaktifkan"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Manajemen UTxO Lanjutan",
+    "caption": "Gunakan manajemen UTxO lanjutan pada transaksi Anda.",
+    "setting": {
+      "caption": "Jika diaktifkan, $t(common:appName) akan menggunakan manajemen UTxO lanjutan pada transaksi Anda.",
+      "subCaption": "Ini menyimpan sekitar 10 UTxO untuk eksekusi transaksi paralel. Ini juga akan mencoba menyimpan UTxO collateral 5 ADA untuk interaksi smart contract.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) diaktifkan",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) dinonaktifkan"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Penarikan Otomatis",
+    "caption": "Tarik hadiah secara otomatis jika diperlukan.",
+    "setting": {
+      "caption": "Jika diaktifkan, hadiah akan ditarik secara otomatis jika diperlukan saat membuat transaksi. Jika dinonaktifkan atau untuk penarikan manual paksa, gunakan tombol Penarikan di halaman Ringkasan.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) diaktifkan",
+      "disabled": "$t(settings-account:autoWithdrawal.title) dinonaktifkan"
+    }
+  },
+  "unStake": {
+    "title": "Batalkan Stake wallet\n(Batalkan Registrasi wallet)",
+    "caption": "Batalkan delegasi akun saat ini dari pool mana pun dan buat transaksi pembatalan registrasi.",
+    "setting": {
+      "caption": "Tindakan ini membuat transaksi pembatalan registrasi akun. Setelah selesai, akun akan dibatalkan delegasinya dari pool mana pun, dan deposit kunci dari saat akun pertama kali didelegasikan akan dikembalikan.",
+      "subCaption": "Harap dicatat bahwa setiap hadiah yang tertunda dari delegasi pool, hadiah catalyst, dll akan hilang ketika akun dibatalkan registrasinya!",
+      "acknowledged": "Saya mengerti bahwa setiap hadiah yang tertunda akan hilang.",
+      "noUtxo": "{{currency}} diperlukan untuk membayar biaya transaksi pembatalan registrasi.",
+      "button": {
+        "deReg": {
+          "label": "Batalkan Registrasi Akun",
+          "tooltip": "Batalkan registrasi akun dari delegasi pool"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "Batalkan Registrasi sebagai DRep",
+    "caption": "Buat transaksi pembatalan registrasi DRep. Kekuatan voting yang didelegasikan ke DRep tersebut akan hilang.",
+    "setting": {
+      "caption": "Ini akan membuat transaksi pembatalan registrasi DRep. Kekuatan voting yang didelegasikan ke DRep tersebut akan hilang.",
+      "subCaption": "Untuk mendapatkan kembali kemampuan menarik hadiah staking, Anda perlu mendelegasikan akun Anda ke DRep yang berbeda.",
+      "acknowledged": "Saya mengerti bahwa semua kekuatan voting yang didelegasikan akan hilang.",
+      "noUtxo": "{{currency}} diperlukan untuk membayar biaya transaksi pembatalan registrasi.",
+      "button": {
+        "deReg": {
+          "label": "Batalkan Registrasi Akun",
+          "tooltip": "Batalkan registrasi akun dari delegasi pool"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Pelaporan",
+    "caption": "Pengaturan ekspor pelaporan pajak."
+  }
+}

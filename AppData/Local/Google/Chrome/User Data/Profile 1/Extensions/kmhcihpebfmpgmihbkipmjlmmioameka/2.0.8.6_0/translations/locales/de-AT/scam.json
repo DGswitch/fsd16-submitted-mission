@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: I hob de meisten Texte absichtlich drin lossn, a wenn nur a poor in Verwendung san.",
+  "showScamInfo": "Scam Token Info anzeigen",
+  "guard": {
+    "label": "Eternl Guard",
+    "warning": "$t(scam:guard.label) Warnung"
+  },
+  "token": {
+    "label": "SCAM",
+    "description": "Des is a bekannta <span class=\"font-bold\">SCAM</span> Token!<br>Webseitn-Links, de do angezeigt wern, san Scam!<br>Wennst di mit dene Webseitn verbindest und a Transaktion unterschreibst,<br>kann dei wallet komplett leer gräumt wern!",
+    "image": "Warnung:\n\nInteragiere ned mit irgendeiner Website, de in dem Buidl erwähnt wird!",
+    "hover": "Diese Transaktion enthält an bekannten Scam Token. Bitte sei vorsichtig, wennst damit interagierst!"
+  },
+  "app": {
+    "description": "Diese DApp is a bekannte SCAM-Seitn! Es besteht a sehr hohe Wahrscheinlichkeit, dass'd dei Geld stehln oder di auf andere Art und Weise scammen!",
+    "description2": "Wir raten dir dringend, <span class=\"font-bold\">NICHT ZU INTERAGIEREN</span> mit dera Seitn!",
+    "ownRisk": "Verbind di auf eigene Gefahr mit dera Seitn!",
+    "bannerWarning": "Diese Seitn steht auf der Scam-Liste. Bitte sei vorsichtig und gib keine sensiblen Informationen ein."
+  },
+  "address": {
+    "description": "Des is a bekannte SCAM-Adresse! Es besteht a sehr hohe Wahrscheinlichkeit, dassd dei Geld ned dorthin schicken willst!",
+    "description2": "Wir raten dir dringend, <span class=\"font-bold\">KEIN</span> Geld dorthin zu senden!",
+    "hover": "Diese Adresse is verwendet worn, um Geld zu stehln!"
+  },
+  "cleanup": {
+    "label": "wallet aufräumen",
+    "description": "Des erstellt a Aufräumtransaktion, de alle bekannten Scam Tokens von deiner wallet zur Eternl Burn-Adresse schickt.",
+    "prepared": {
+      "label": "Vorbereitete Scam Aufräumtransaktion"
+    }
+  }
+}

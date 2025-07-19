@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Musik dari koleksi"
+  },
+  "ipfs": {
+    "loading": "Harap tunggu, aset sedang dimuat.",
+    "error": "Gagal memuat data dari ipfs, silakan coba lagi atau hubungi dukungan.",
+    "timeout": "Waktu unduh berkas habis, silakan coba lagi atau hubungi dukungan."
+  }
+}

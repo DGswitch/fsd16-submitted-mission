@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "Nessuna voce nella $t(common:addressBook) per ora.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Accetta nuovo indirizzo"
+  },
+  "badge": {
+    "hover": "Voce $t(common:addressBook): {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Importa voci $t(common:addressBook)",
+    "caption": "Importa voci $t(common:addressBook) da un file di back-up."
+  },
+  "overwrite": {
+    "title": "Sovrascrivi voce $t(common:addressBook)",
+    "caption": "Conferma aggiornamento della voce con nome {{name}}."
+  },
+  "add": {
+    "title": "Aggiungi a $t(common:addressBook)",
+    "caption": {
+      "main": "Aggiungi una voce alla $t(common:addressBook).",
+      "prefilled": "Tutti i valori sono stati precompilati e gli input sono disabilitati."
+    },
+    "name": {
+      "label": "Nome voce",
+      "error": {
+        "length": "Il nome di una voce $t(common:addressBook) richiede un minimo di 3 e un massimo di 40 caratteri.",
+        "duplicate": "Esiste già una voce $t(common:addressBook) con il nome `{{ name }}`, si prega di sceglierne un altro.",
+        "duplicateAddr": "Esiste già una voce $t(common:addressBook) con questo indirizzo, sotto il nome {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Conferma eliminazione voce."
+  }
+}

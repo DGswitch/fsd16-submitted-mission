@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Ta emot",
+  "title": "Ta emot medel",
+  "caption": "Dela denna adress för att ta emot betalningar.",
+  "search": {
+    "caption": "Hitta en del av adressen, eller en härledningssökväg som \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" eller \"0 1 32\".",
+    "placeholder": "$t(common:search) efter en $t(common:address) eller en sökväg",
+    "noResults": "Inga resultat hittades"
+  },
+  "current": {
+    "headline": "Tillgängliga wallet-adresser.",
+    "static": "Mottagningsadress.",
+    "caption": "Dela denna wallet-adress för att ta emot betalningar.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Observera att alla dina delegerade mottagningsadresser inkluderar din stake key. \nNär du delar en delegerad mottagningsadress kan mottagaren söka på blockchain med din stake key för att hitta \nalla adresser kopplade till din wallet och även se ditt wallet-saldo och transaktionshistorik."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Externa adresser (delegerade)",
+      "caption": "Dessa adresser är delegerade till en stake pool (om du faktiskt har delegerat detta konto)."
+    },
+    "enterprise": {
+      "headline": "Externa adresser (ej delegerade)",
+      "caption": "Dessa adresser är inte delegerade."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Interna växeladresser (delegerade)",
+      "caption": "Dessa adresser är delegerade till en stake pool (om du faktiskt har delegerat detta konto).\nDela inte interna adresser, ge alltid ut externa adresser."
+    },
+    "enterprise": {
+      "headline": "Interna växeladresser (ej delegerade)",
+      "caption": "Dessa adresser är inte delegerade.\nDela inte interna adresser, ge alltid ut externa adresser."
+    }
+  }
+}

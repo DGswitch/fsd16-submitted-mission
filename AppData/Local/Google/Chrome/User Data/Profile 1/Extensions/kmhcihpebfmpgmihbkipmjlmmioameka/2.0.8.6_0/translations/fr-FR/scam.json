@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel : J'ai laissé la plupart des textes intentionnellement, même si seulement quelques-uns sont utilisés.",
+  "showScamInfo": "Afficher les informations sur le token scam",
+  "guard": {
+    "label": "Garde Eternl",
+    "warning": "$t(scam:guard.label) Avertissement"
+  },
+  "token": {
+    "label": "ARNAQUE",
+    "description": "Ceci est un token <span class=\"font-bold\">ARNAQUE</span> connu !<br>Les liens de sites web affichés ici sont des arnaques !<br>Si vous vous connectez à ces sites web et signez une transaction<br>votre wallet pourrait être complètement vidé !",
+    "image": "Avertissement :\n\nN'interagissez avec aucun site web mentionné dans cette image !",
+    "hover": "Cette transaction contient un token scam connu. Soyez prudent lorsque vous interagissez avec lui !"
+  },
+  "app": {
+    "description": "Cette DApp est un site d'ARNAQUE connu ! Il y a une très forte probabilité qu'il vole vos fonds ou essaie de vous arnaquer d'autres manières !",
+    "description2": "Nous vous conseillons vivement de <span class=\"font-bold\">NE PAS INTERAGIR</span> avec cette page !",
+    "ownRisk": "Connectez-vous à ce site à vos propres risques !",
+    "bannerWarning": "Ce site figure sur la liste des arnaques. Soyez prudent et ne saisissez aucune information sensible."
+  },
+  "address": {
+    "description": "Ceci est une adresse d'ARNAQUE connue ! Il y a une très forte probabilité que vous ne souhaitiez pas y envoyer vos fonds !",
+    "description2": "Nous vous conseillons vivement de <span class=\"font-bold\">NE PAS ENVOYER</span> de fonds à cette adresse !",
+    "hover": "Cette adresse a été utilisée pour voler des fonds !"
+  },
+  "cleanup": {
+    "label": "Nettoyer le wallet",
+    "description": "Ceci créera une transaction de nettoyage qui enverra tous les tokens scam connus de votre wallet vers l'adresse de burn Eternl. ",
+    "prepared": {
+      "label": "Transaction de nettoyage d'arnaque préparée"
+    }
+  }
+}

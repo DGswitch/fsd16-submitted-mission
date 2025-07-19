@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "Eine normale Cardano-Adresse.",
+    "description": "Eine Cardano-Adresse beginnt mit addr1 und ist keine Skript-Adresse.",
+    "error": {
+      "invalid": "Keine gültige Cardano-Adresse."
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano-Skript",
+    "caption": "Eine Skript-Adresse.",
+    "description": "Eine Cardano-Skript-Adresse wird für Smart Contracts verwendet und beginnt mit addr1, gefolgt von einem bestimmten Muster.",
+    "error": {
+      "invalid": "Keine gültige Cardano-Skript-Adresse."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "Eine menschenlesbare Cardano-Adresse.",
+    "description": "Ein Ada Handle ist eine eindeutige, NFT-basierte Kennung, die als vereinfachte Cardano-Adresse verwendet werden kann und mit $ beginnt.",
+    "banner": {
+      "change": {
+        "title": "Ada Handle-Adresse geändert!",
+        "text": "Alte im Adressbuch gespeicherte Adresse:\n####OLD####\n\nNeue Adresse:\n####NEW####\n\nDie Adresse, die durch den Ada Handle ###HANDLE### repräsentiert wird, hat sich geändert, seit Sie ihn zu Ihrem Adressbuch hinzugefügt haben.\nDas bedeutet, dass der Ada Handle in eine andere wallet oder ein anderes Konto verschoben wurde.\n\nWenn Sie Geld senden, geht es an eine andere Adresse als die in Ihrem Adressbuch gespeicherte.\nSie haben die Möglichkeit, den aktuellen Adressbucheintrag durch Klicken auf die Schaltfläche unten zu überschreiben."
+      }
+    },
+    "error": {
+      "invalid": "Kein gültiger Ada Handle.",
+      "resolve": "Dieser Ada Handle existiert nicht.",
+      "image": "Konnte Ada Handle-Bild nicht laden.",
+      "address": {
+        "invalid": "Adresse ungültig. (Vielleicht ist sie auf einem Marktplatz gelistet?)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "Ein blockchain-Domainname.",
+    "description": "Unstoppable Domains sind dezentrale Domainnamen, die mit verschiedenen Kryptowährungsadressen, einschließlich Cardano, verknüpft werden können.",
+    "error": {
+      "invalid": "Keine gültige Unstoppable Domain.",
+      "resolve": "Diese Unstoppable Domain existiert nicht.",
+      "domain": {
+        "resolve": "Unstoppable Domain konnte nicht aufgelöst werden."
+      },
+      "address": {
+        "invalid": "Adresse ungültig. (Vielleicht ist sie auf einem Marktplatz gelistet?)",
+        "notSet": "Für diese Unstoppable Domain ist keine Cardano-Adresse festgelegt."
+      }
+    }
+  }
+}

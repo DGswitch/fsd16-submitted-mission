@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Notez tous les mots de votre phrase de récupération de wallet sur une feuille de papier dans l'ordre exact indiqué ici",
+    "notice": "Ne prenez aucun raccourci, ces mots sont cruciaux !",
+    "reveal": "Révéler la phrase de récupération",
+    "hidden": "Assurez-vous que personne ne peut voir votre écran"
+  },
+  "confirm": {
+    "title": "Confirmer la phrase",
+    "caption": "Vérifiez que vous avez noté les bons mots",
+    "instruction": "Sélectionnez le ",
+    "key_one": "<b>{{count}}</b>er mot",
+    "key_two": "<b>{{count}}</b>ème mot",
+    "key_few": "<b>{{count}}</b>ème mot",
+    "key_other": "<b>{{count}}</b>ème mot",
+    "incorrect": "Incorrect, veuillez réessayer !"
+  },
+  "password": {
+    "title": "Définir le mot de passe de dépense",
+    "caption": "Définissez un mot de passe de dépense pour protéger votre wallet. La sécurité augmente avec un mot de passe plus long.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet créé avec succès."
+  },
+  "error": {
+    "failed": "Échec de la création de wallet, veuillez réessayer.",
+    "mnemonic": "Erreur : createWallet : mnémonique non défini.",
+    "spendingPassword": "Erreur : createWallet : mot de passe de dépense non défini.",
+    "paymentScript": "Erreur : createWallet : script de paiement non défini.",
+    "address": "Erreur : createWallet : adresse non définie.",
+    "paymentPrvKey": "Erreur : createWallet : clé de paiement non définie.",
+    "accountPubNotSet": "Erreur : createWallet : liste de clés publiques de compte ou adresse non définie.",
+    "walletName": "Erreur : createWallet : walletName non défini.",
+    "account": "Impossible d'obtenir le compte wallet, veuillez recharger ou contacter le support si le problème persiste."
+  }
+}

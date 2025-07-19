@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "捐款地址",
+    "hover": "感謝您的支持！"
+  },
+  "burn": {
+    "label": "Eternl 銷毀 钱包",
+    "hover": "銷毀地址"
+  },
+  "eternlFee": {
+    "label": "Dapp 瀏覽器費用",
+    "hover": "此費用有助於維護 Eternl 服務。"
+  },
+  "swapFee": {
+    "label": "服務費",
+    "hover": "此費用有助於維護 Eternl 服務。"
+  },
+  "collateral": {
+    "label": "Eternl 擔保品地址"
+  },
+  "script": {
+    "label": "腳本"
+  },
+  "noscript": {
+    "label": "非腳本地址"
+  },
+  "handle": {
+    "hover": "Ada Handle：{{name}}"
+  },
+  "reporting": {
+    "hover": "報告標籤"
+  },
+  "ext": {
+    "label": "外部",
+    "hover": "此地址對 Eternl 而言是未知的。"
+  },
+  "openWallet": {
+    "hover": "點擊以開啟 钱包：{{name}}"
+  },
+  "switchAccount": {
+    "hover": "切換至帳戶：{{name}}"
+  },
+  "contract": {
+    "hover": "合約 {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "交易包含 Catalyst 投票註冊"
+  },
+  "multisig": {
+    "label": "多重簽名註冊",
+    "hover": "交易包含多重簽名 钱包 註冊"
+  },
+  "metadata": {
+    "label": "元數據",
+    "hover": "交易包含 metadata"
+  },
+  "withdrawal": {
+    "label": "提款",
+    "hover": "交易包含獎勵提款"
+  },
+  "mint": {
+    "label": "鑄造",
+    "hover": "交易包含已鑄造或銷毀的代幣"
+  },
+  "reg": {
+    "label": "註冊",
+    "hover": "钱包 / 權益金鑰註冊"
+  },
+  "gov": {
+    "label": "治理",
+    "hover": "交易包含治理憑證"
+  },
+  "dereg": {
+    "label": "註銷",
+    "hover": "钱包 註銷"
+  },
+  "delegation": {
+    "label": "委託",
+    "hover": "權益池委託"
+  },
+  "poolreg": {
+    "label": "權益池註冊",
+    "hover": "權益池註冊"
+  },
+  "poolupd": {
+    "label": "權益池更新",
+    "hover": "權益池更新"
+  },
+  "poolret": {
+    "label": "權益池退役",
+    "hover": "權益池退役"
+  },
+  "nativescript": {
+    "label": "腳本",
+    "hover": "Cardano 原生/多重簽名腳本"
+  },
+  "plutus": {
+    "label": "合約",
+    "hover": "Cardano Plutus 合約"
+  },
+  "onchain": {
+    "label": "鏈上",
+    "hover": "交易已包含在區塊中"
+  },
+  "confirmed": {
+    "label": "已確認",
+    "hover": "交易已簽署並準備提交"
+  },
+  "pendingapproval": {
+    "label": "待核准",
+    "hover": "交易正等待您控制下的 钱包 提供額外簽章"
+  },
+  "awaitingothers": {
+    "label": "等待他人",
+    "hover": "交易正等待外部參與者提供額外簽章"
+  },
+  "invalid": {
+    "label": "無效",
+    "hover": "此交易的某個輸入已在另一筆交易中被花費。"
+  },
+  "pending": {
+    "label": "待處理",
+    "hover": "交易仍在等待執行"
+  },
+  "staging": {
+    "label": "未簽章",
+    "hover": "此交易尚未簽章。"
+  },
+  "signed": {
+    "label": "已簽章",
+    "hover": "此交易已簽章但尚未提交。"
+  },
+  "inputSigned": {
+    "label": "已簽章",
+    "hover": "此輸入的簽章已提供。"
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "此合約的 redeemer 已提供。"
+  },
+  "inputUnsigned": {
+    "label": "未簽章",
+    "hover": "此輸入的簽章缺失。"
+  },
+  "validFor": {
+    "label": "有效期至",
+    "hover": "交易最終將被執行，或者如果某個輸入 utxo 被另一筆交易消耗，則會變為無效。"
+  },
+  "unlockTimeStamp": {
+    "label": "解鎖於",
+    "hover": "這些 Staking Vault 資金將於該日期解鎖。"
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "此交易將資金鎖定在 Staking Vault 中。"
+  },
+  "unlimited": {
+    "label": "無時間限制",
+    "hover": "交易最終將被執行，或者如果某個輸入 utxo 被另一筆交易消耗，則會變為無效。"
+  },
+  "expired": {
+    "label": "已過期",
+    "hover": "交易生命週期已過期"
+  },
+  "setTTL": {
+    "label": "設定 TTL",
+    "hover": "設定交易生命週期"
+  },
+  "remove": {
+    "label": "移除",
+    "hover": "點擊以移除已過期或無效的交易。",
+    "hoverNote": "僅在您確定此交易無法再成功執行時才移除。"
+  },
+  "own_address": {
+    "label": "自有",
+    "hover": "自己的 钱包 地址"
+  },
+  "ext_address": {
+    "label": "外部",
+    "hover": "外部地址"
+  },
+  "donation_address": {
+    "label": "捐款",
+    "hover": "$t(common:appName) 捐款地址"
+  },
+  "swap_fee": {
+    "label": "前端費用",
+    "hover": "$t(common:appName) 前端費用地址"
+  },
+  "eternl_fee": {
+    "label": "前端費用",
+    "hover": "$t(common:appName) 費用地址"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Staking Vault 時間鎖地址"
+  },
+  "add_entity": {
+    "label": "+實體",
+    "hover": "為此地址設定一個實體名稱。"
+  },
+  "script_address": {
+    "label": "腳本",
+    "hover": "智能合約地址"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "橋接跨鏈交易至 Milkomeda"
+  },
+  "submit": {
+    "label": "提交交易",
+    "hover": "交易尚未提交。點擊此處提交。"
+  },
+  "nosubmitted": {
+    "label": "未提交",
+    "hover": "交易已簽署，但未提交。"
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "一般地址"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "已解析以 $ 開頭的 Ada Handle 地址"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "已解析以 .clay 結尾的 Unstoppable Domains 地址"
+  },
+  "new": {
+    "label": "新",
+    "hover": "未讀通知"
+  },
+  "updated": {
+    "label": "已更新",
+    "hover": "通知內容自上次閱讀後已更新"
+  },
+  "payment": {
+    "label": "付款",
+    "hover": "付款腳本"
+  },
+  "stake": {
+    "label": "質押",
+    "hover": "質押腳本"
+  }
+}

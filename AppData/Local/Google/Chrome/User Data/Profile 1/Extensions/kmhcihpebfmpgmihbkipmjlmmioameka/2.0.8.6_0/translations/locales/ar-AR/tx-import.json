@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "ألصق cbor المعاملة",
+  "error": {
+    "corrupted": "الملف المرفوع تالف، لا يمكن استيراد المعاملة.",
+    "invalid": "الملف المرفوع ليس ملف json صالحًا.",
+    "format": "لا يبدو أن ملف json يحتوي على بيانات المعاملة المصدرة."
+  }
+}

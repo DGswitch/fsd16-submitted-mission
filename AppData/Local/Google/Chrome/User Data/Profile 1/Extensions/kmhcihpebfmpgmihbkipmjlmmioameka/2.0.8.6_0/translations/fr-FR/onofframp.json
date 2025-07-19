@@ -1,0 +1,6 @@
+{
+  "title": "Acheter / Vendre ADA",
+  "caption": "Sélectionnez votre passerelle entre FIAT et Cardano.",
+  "noProvider": "Malheureusement, aucun fournisseur n'est disponible actuellement.",
+  "loading": "Chargement des fournisseurs de passerelle FIAT"
+}

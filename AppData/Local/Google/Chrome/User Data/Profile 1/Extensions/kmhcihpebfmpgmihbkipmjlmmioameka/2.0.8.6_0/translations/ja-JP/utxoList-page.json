@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO リスト",
+  "title": "アカウント UTxO リスト",
+  "caption": "このアカウントで管理されているすべてのUTXOのリストです。金額とトークンリストを含みます。",
+  "subCaption": "UTxOは任意の価値を持つ紙幣のようなものです。トランザクションはそれを消費し、「お釣り」をあなたのwalletに戻します。",
+  "empty": "このアカウントにはUTXOがありません。",
+  "selectAll": "すべて選択",
+  "filter": {
+    "headline": "UTxO フィルター",
+    "caption": "パラメーターを設定するか、検索文字列を入力してutxoリストをフィルターします。",
+    "search": "アドレス、パス、またはTX IDで検索...",
+    "more": "詳細",
+    "minada": "最小 {{adaCurrency}} 額",
+    "maxada": "最大 {{adaCurrency}} 額",
+    "numAssets": "{{numAssets}} 個のユニークなアセットが見つかりました。"
+  },
+  "badge": {
+    "utxos": "{{address_count}} 個のアドレスに {{utxo_count}} 個の UTxO",
+    "pendingIn": {
+      "hint": "(保留中のインプット、使用済みUTXO)"
+    },
+    "pendingOut": {
+      "hint": "(保留中のアウトプット、作成済みUTXO)"
+    },
+    "opkosk": {
+      "label": "報酬獲得中",
+      "hint": "(アカウント支払いキー、アカウントステークキー)"
+    },
+    "opk": {
+      "label": "ステーキングされていません",
+      "hint": "(アカウント支払いキー、ステークキーなし)"
+    },
+    "opkesk": {
+      "label": "外部に委任済み",
+      "hint": "(アカウント支払いキー、外部ステークキー)"
+    },
+    "epkosk": {
+      "label": "外部資金ですが、報酬を獲得しています",
+      "hint": "(外部支払いキー、アカウントステークキー)"
+    },
+    "collateral": {
+      "label": "コラテラル",
+      "hint": "(すべてがコラテラルとして設定されているわけではありません)"
+    },
+    "locked": {
+      "label": "ロックされたUTXO"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "ステーク内訳",
+    "controlledStake": {
+      "label": "管理下のステーク",
+      "tooltip": "このアカウントのステークキーにステーキングされている合計額（自己所有、外部、またはスマートコントラクト内のいずれか）。"
+    },
+    "ownedStake": {
+      "label": "自己所有ステーク",
+      "tooltip": "このアカウントが直接管理するステーク額。"
+    },
+    "notStaked": {
+      "label": "ステーキングされていません",
+      "tooltip": "ADAはステーキングされていません。資金はエンタープライズアドレスにあります。"
+    },
+    "externallyStaked": {
+      "label": "外部でステーキング済み",
+      "tooltip": "このアカウントによって管理されているADA - 任意の外部stakingキーと結合されています。"
+    }
+  }
+}

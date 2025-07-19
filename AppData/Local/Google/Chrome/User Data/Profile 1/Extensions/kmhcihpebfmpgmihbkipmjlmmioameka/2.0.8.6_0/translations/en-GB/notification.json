@@ -1,0 +1,9 @@
+{
+  "title": "Notification centre",
+  "empty": "No notifications.",
+  "copy": "Has been copied to clipboard",
+  "type": {
+    "txMS": "Multi-Sig Transaction",
+    "unknown": "Unknown Type"
+  }
+}

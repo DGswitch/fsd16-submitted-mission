@@ -1,0 +1,31 @@
+{
+  "menuLabel": "送信",
+  "title": "送金",
+  "caption": "ここでは、Cardano でサポートされている資金やあらゆる種類のトークン / nft を転送できます。",
+  "subCaption": "各トランザクションには複数の受信者を含めることができ、異なるエンティティへの資産の送信が非常に簡単かつ手頃な価格になります。",
+  "info": {
+    "available": "$t(common:available)",
+    "txFee": "$t(common:txFee)",
+    "options": "$t(common:options)"
+  },
+  "button": {
+    "recipient": {
+      "label": "受信者を追加",
+      "tooltip": "トランザクションに別の受信者/アウトプットを追加します。"
+    },
+    "sign": {
+      "label": "トランザクションに署名",
+      "tooltip": "あなたの鍵でトランザクションに署名します。"
+    },
+    "check": {
+      "label": "トランザクションを確認",
+      "tooltip": "$t(common:appName) がトランザクションを構築できるか確認します。"
+    }
+  },
+  "banner": {
+    "recipient": {
+      "title": "$t(send-page:button.recipient.label)",
+      "text": "別のトランザクションにより受信者リストがクリアされます。下のボタンをクリックして新しい受信者を追加してください。"
+    }
+  }
+}

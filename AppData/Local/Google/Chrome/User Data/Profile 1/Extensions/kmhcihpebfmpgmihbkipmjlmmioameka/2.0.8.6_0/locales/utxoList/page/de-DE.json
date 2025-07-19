@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO Liste",
+  "title": "Konto UTxO Liste",
+  "caption": "Eine Liste aller UTxOs, die von diesem Konto verwaltet werden, einschließlich Betrag und Token-Listen.",
+  "subCaption": "Eine UTxO ist wie ein Geldschein mit beliebigem Wert. Transaktionen geben sie aus und legen 'Wechselgeldscheine' in Ihre Wallet zurück.",
+  "empty": "Dieses Konto hat keine UTxOs.",
+  "selectAll": "Alle auswählen",
+  "filter": {
+    "headline": "UTxO Filter",
+    "caption": "Parameter festlegen oder Suchbegriff eingeben, um die utxo-Liste zu filtern.",
+    "search": "Suche nach Adresse, Pfad oder TX ID...",
+    "more": "Mehr",
+    "minada": "Min. {{adaCurrency}} Betrag",
+    "maxada": "Max. {{adaCurrency}} Betrag",
+    "numAssets": "{{numAssets}} einzigartige(r) Asset(s) gefunden."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO auf {{address_count}} Adressen",
+    "pendingIn": {
+      "hint": "(ausstehende Eingaben, ausgegebene UTxOs)"
+    },
+    "pendingOut": {
+      "hint": "(ausstehende Ausgaben, erstellte UTxOs)"
+    },
+    "opkosk": {
+      "label": "Rewards verdienen",
+      "hint": "(Konto Payment Key, Konto Stake Key)"
+    },
+    "opk": {
+      "label": "Nicht gestaked",
+      "hint": "(Konto Payment Key, kein Stake Key)"
+    },
+    "opkesk": {
+      "label": "Extern delegiert",
+      "hint": "(Konto Payment Key, externer Stake Key)"
+    },
+    "epkosk": {
+      "label": "Externe Mittel, aber Rewards verdienen",
+      "hint": "(Externer Payment Key, Konto Stake Key)"
+    },
+    "collateral": {
+      "label": "Collateral",
+      "hint": "(nicht alle sind als Collateral gesetzt)"
+    },
+    "locked": {
+      "label": "Gesperrte UTxOs"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Stake-Aufschlüsselung",
+    "controlledStake": {
+      "label": "Kontrollierter Stake",
+      "tooltip": "Gesamtbetrag, der auf den Stake Key dieses Kontos gestaked ist (entweder eigener, externer oder in Smart Contracts)."
+    },
+    "ownedStake": {
+      "label": "Eigener Stake",
+      "tooltip": "Stake-Betrag unter direkter Kontrolle dieses Kontos."
+    },
+    "notStaked": {
+      "label": "Nicht gestaked",
+      "tooltip": "ADA nicht gestaked, Mittel auf Enterprise-Adressen."
+    },
+    "externallyStaked": {
+      "label": "Extern gestaked",
+      "tooltip": "ADA, kontrolliert von diesem Konto - kombiniert mit jeglichen externen staking Keys."
+    }
+  }
+}

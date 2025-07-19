@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Schreiben Sie alle Wörter Ihrer wallet Wiederherstellungsphrase in der exakt hier gezeigten Reihenfolge auf ein Blatt Papier.",
+    "notice": "Nehmen Sie keine Abkürzungen, diese Wörter sind entscheidend!",
+    "reveal": "Wiederherstellungsphrase anzeigen",
+    "hidden": "Stellen Sie sicher, dass niemand Ihren Bildschirm sehen kann"
+  },
+  "confirm": {
+    "title": "Phrase bestätigen",
+    "caption": "Überprüfen Sie, ob Sie die richtigen Wörter notiert haben",
+    "instruction": "Wählen Sie das ",
+    "key_one": "<b>{{count}}</b>. Wort",
+    "key_two": "<b>{{count}}</b>. Wort",
+    "key_few": "<b>{{count}}</b>. Wort",
+    "key_other": "<b>{{count}}</b>. Wort",
+    "incorrect": "Falsch, bitte versuchen Sie es erneut!"
+  },
+  "password": {
+    "title": "Ausgabenpasswort festlegen",
+    "caption": "Legen Sie ein Ausgabenpasswort fest, um Ihre wallet zu schützen. Die Sicherheit erhöht sich mit einem längeren Passwort.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet erfolgreich erstellt."
+  },
+  "error": {
+    "failed": "Erstellung der wallet fehlgeschlagen, bitte versuchen Sie es erneut.",
+    "mnemonic": "Fehler: createWallet: Mnemonic nicht gesetzt.",
+    "spendingPassword": "Fehler: createWallet: Ausgabenpasswort nicht gesetzt.",
+    "paymentScript": "Fehler: createWallet: Zahlungsskript nicht gesetzt.",
+    "address": "Fehler: createWallet: Adresse nicht gesetzt.",
+    "paymentPrvKey": "Fehler: createWallet: Zahlungsschlüssel nicht gesetzt.",
+    "accountPubNotSet": "Fehler: createWallet: Konto-PubKey-Liste oder Adresse nicht gesetzt.",
+    "walletName": "Fehler: createWallet: Wallet-Name nicht gesetzt.",
+    "account": "Konto der wallet konnte nicht abgerufen werden. Bitte neu laden oder Support kontaktieren, falls das Problem weiterhin besteht."
+  }
+}

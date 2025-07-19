@@ -1,0 +1,236 @@
+{
+  "menuLabel":                "Settings",
+
+  "title":                    "Settings",
+
+  "search": {
+
+    "placeholder":            "Find setting..."
+  },
+
+  "footer": {
+
+    "label":                  "©"
+  },
+
+  "account": {
+
+    "title":                  "Account Settings",
+    "caption":                "Settings that apply to the current active account.",
+
+    "accountNameSettings": {
+      "title":                "Active Account Name",
+      "caption":              "Set Account name for current account"
+    },
+    "export": {
+      "title":                "Export Account Key",
+      "caption":              "Export the public key of this account."
+    },
+    "voter": {
+      "title":                "Catalyst Voting",
+      "caption":              "Show saved Catalyst registration QR code."
+    },
+    "samModeSettings":  {
+      "title":                "Single Address Mode (SAM)",
+      "caption":              "Use single Address Mode (SAM)"
+    },
+    "receiveAddress": {
+      "title":                 "Custom Receive Address",
+      "caption":               "Overwrite the automatically chosen receive address by setting your address manually.\n"
+    },
+    "collateral":  {
+      "title":                "Collateral",
+      "caption":              "Use Eternl provided collateral?"
+    },
+    "manualSync": {
+      "title":                "Manual Sync",
+      "caption":              "Set manual sync"
+    },
+    "historySync":  {
+      "title":                "History Sync",
+      "caption":              "Set history sync"
+    },
+    "tokenFragmentation": {
+      "enable":               "Enable Token Fragmentation (TF)",
+      "caption":              "Token Fragmentation (TF) ...",
+      "fragment": {
+
+        "label":      "Token bundle size",
+        "error":      "Token bundle size limit: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+        "info":       "Sets number of tokens each UTxO output should contain. It's a tradeoff between low transaction fees and amount of funds locked in the wallet.\nsmall bundle size -> low fees, more Ada locked.\nlarge bundle size -> higher fees, less Ada locked."
+      }
+
+    },
+    "favorite": {
+      "title":                "Favorite",
+      "caption":              "Add to favorite accounts",
+      "enable":               "Account is favorite",
+      "disable":              "Account is not a favorite"
+    },
+    "advancedUtxoManagement":  {
+      "title":                "Advanced UTxO Management",
+      "caption":              "Use advanced UTxO management on your transactions."
+    },
+    "autoWithdrawal": {
+      "title":                "Auto Withdrawal",
+      "caption":              "Automatically withdraw rewards if needed."
+    },
+    "sendAll":  {
+      "title":                "Enable \"Send All\"",
+      "caption":              "Enable if you can send all your funds(including tokens)."
+    },
+    "unstake": {
+      "title":                "Un-stake wallet\n(De-register wallet)",
+      "caption":              "Un-delegated current account from any pool and create de-registration transaction."
+    },
+    "deregdrep": {
+
+      "title":             "Deregister as DRep",
+      "caption_short":        "Create a DRep de-registration transaction. The voting power delegated to that DRep will be lost.",
+      "caption":              "This will create a DRep de-registration transaction. The voting power delegated to that DRep will be lost. To regain the ability to withdraw staking rewards, you will need to delegate your account to a different DRep.",
+
+      "toggle": {
+
+        "acknowledged": {
+
+          "label":            "",
+          "text":             "I understand that all delegated voting power will be lost.",
+          "noutxo":           "Ada needed to pay for de-registration fee."
+        }
+      }
+    },
+    "reporting":  {
+      "title":                "Reporting",
+      "caption":              "Set what tax reporting mode."
+    }
+  },
+
+  "wallet": {
+
+    "title":                  "Wallet Settings",
+    "caption":                "Settings that apply to the current active wallet.",
+
+    "name":  {
+      "title":                "Name and Group",
+      "caption":              "Update your wallet or group name."
+    },
+    "spendingPassword":  {
+      "title" :               "Wallet Spending Password",
+      "caption":              "Update your wallet spending password."
+    },
+    "biometrics": {
+      "title" :               "Biometrics Spending",
+      "caption":              "Use the Biometrics feature instead of the password."
+    },
+    "icon":                     {
+      "title":                "Wallet Icon",
+      "caption":              "Set a custom wallet icon or generate a random wallet icon."
+    },
+    "export":                   {
+      "title":                "Export Wallet",
+      "caption":              "Secure wallet JSON export that enables import in other browsers/devices."
+    },
+    "resync": {
+      "title":                "Wallet Synchronization",
+      "caption":              "Force a complete wallet re-synchronization."
+    },
+    "verification": {
+      "title":                "Recovery phrase verification",
+      "caption":              "Verify that you have stored the correct recovery phrase for a wallet."
+    },
+    "deldereg": {
+      "title":                "Delete Wallet",
+      "caption":              "Remove the wallet and all accounts of the current wallet."
+    }
+  },
+
+  "app": {
+
+    "caption":                "Settings that apply to Eternl.",
+    "title":                  "App Settings",
+
+    "sound": {
+      "title":                "Sounds",
+      "caption":              "Enable or disable sound notifications."
+    },
+    "addressbook": {
+      "title":                "$t(component/addressbook:title)",
+      "caption":              "Add, delete and edit $t(component/addressbook:title) entries."
+    },
+    "pin": {
+      "title":                "Access PIN Code",
+      "caption":              "Set a PIN code to access $t(common:appName). It will be required everytime you open $t(common:appName)."
+    },
+    "allowlist": {
+      "title":                "DApp Allowlist",
+      "caption":              "The list of websites/dApps that are allowed to connect to this $t(common:appName) app."
+    },
+    "autoSubmit": {
+      "title":                "Transactions: auto submit",
+      "caption":              "Automatically submit transactions after signing. Disable to allow downloading signed transaction cbor."
+    },
+    "endpoint": {
+      "title":                "Custom Submit Endpoint",
+      "caption":              "Send transactions through a custom cardano-node and cardano-submit-api."
+    },
+    "biometrics": {
+      "title":                "Biometrics Auth",
+      "caption":              "Use FaceId (iOS) or other biometric systems to auth yourself."
+    },
+    "currency": {
+      "title":                "Currency",
+      "caption":              "Select the preferred currency for conversion."
+    },
+    "experimental": {
+      "title":                "Experimental Settings",
+      "caption":              "Experimental settings should not be used by anyone!"
+    },
+    "language": {
+      "title":                "Language",
+      "caption":              "Select the preferred language."
+    },
+    "formatting": {
+      "title":                "Formatting",
+      "caption":              "Regional date and currency formatting.\nEnable to follow language."
+    },
+    "explorer": {
+      "title":                "Blockchain explorer",
+      "caption":              "Set preferred blockchain explorer by type."
+    },
+    "swap": {
+      "title":                "MonsterSwap",
+      "caption":              "Slippage and Dex settings for MonsterSwap."
+    },
+    "network": {
+      "title":                "Network",
+      "caption":              "Select the current active network."
+    },
+    "digits": {
+      "title":                "Decimal precision",
+      "caption":              "Number of decimal places to show for ADA amounts."
+    },
+    "appMode": {
+      "pro":                  "Pro Mode",
+      "simple":               "Simple Mode",
+      "caption":              "Switch between Simple and Pro Mode."
+    },
+    "clearCache": {
+      "title":                "Reset application cache",
+      "caption":              "Remove all cached data to reset the application."
+    },
+    "reset": {
+      "title":                "Reset application",
+      "caption":              "Remove all stored data for all wallets to reset the application."
+    },
+    "theme": {
+
+      "label":                "Theme Switcher",
+      "caption":              "Select a theme to make Eternl yours."
+    }
+  },
+
+  "update": {
+    "success":                "$t(common:saved)",
+    "error":                  "Error saving updated setting."
+  }
+}

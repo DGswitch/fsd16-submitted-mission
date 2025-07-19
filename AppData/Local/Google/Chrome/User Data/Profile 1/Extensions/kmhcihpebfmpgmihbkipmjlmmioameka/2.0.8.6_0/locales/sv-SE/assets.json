@@ -1,0 +1,66 @@
+{
+  "title": "Tillgångsdetaljer",
+  "owns": "Kontot äger",
+  "youOwn": "du äger",
+  "numAssets": "{{numAssets}} unika tillgång(ar) hittades.",
+  "tab": {
+    "details": "Detaljer",
+    "metadata": "Metadata",
+    "raw": "Rådata",
+    "registry": "Tokenregister",
+    "media": "Media"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Lägg till tillgång",
+      "tooltip": "Lägg till tillgången till denna mottagare."
+    },
+    "editAsset": {
+      "label": "Redigera tillgång",
+      "tooltip": "Ändra beloppet."
+    },
+    "addAssets": {
+      "label": "Lägg till tillgångar",
+      "tooltip": "Lägg till fler tillgångar till denna mottagare."
+    },
+    "editAssets": {
+      "label": "Redigera tillgångar",
+      "tooltip": "Ändra de redan tillagda tillgångarna."
+    },
+    "removeAsset": {
+      "label": "Ta bort tillgång",
+      "tooltip": "Ta bort tillgången från denna mottagare."
+    },
+    "addCollection": {
+      "label": "Lägg till samling",
+      "tooltip": "Lägg till samlingen till denna mottagare."
+    },
+    "removeCollection": {
+      "label": "Ta bort samling",
+      "tooltip": "Ta bort samlingen från denna mottagare."
+    }
+  },
+  "hover": {
+    "removeAsset": "Ta bort tillgång"
+  },
+  "filter": {
+    "search": "Sök via policy, namn, fingerprint eller metadata..."
+  },
+  "price": {
+    "unknown": "Okänt tokenvärde",
+    "value": "Tokenvärde",
+    "avg": "Genomsnittspris"
+  },
+  "media": {
+    "format": {
+      "html": "HTML-fil",
+      "pdf": "PDF-fil",
+      "image": "Bild",
+      "video": "Video",
+      "audio": "Ljud"
+    }
+  },
+  "digits": {
+    "unknown": "Okända decimaler"
+  }
+}

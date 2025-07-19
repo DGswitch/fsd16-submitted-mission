@@ -1,0 +1,55 @@
+{
+  "spo": "driver en enkelt stake pool",
+  "mpo": "driver {{count}} stake pools",
+  "retired": "Pensioneret i epoch {{epoch}}",
+  "retiredIn": "Pensioneret i epoch {{epoch}}",
+  "noRewards": "Denne pool vil IKKE optjene {{adaSymbol}} belønninger.",
+  "lessRewards": "Denne pool vil optjene færre belønninger end normalt.",
+  "history": "Belønningshistorik",
+  "fees": "Gebyrer",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Grøn: inden for optimalt interval. Rød: optjener færre belønninger."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Grøn: inden for normalt interval. Rød: optjener færre belønninger."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Afkast på stake. Ydeevne for de seneste 12 epoker. Grøn: inden for normalt interval. ROS vil svinge mere for pools med mindre stake."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Hæv belønninger",
+      "syncing": "Wallet synkroniseres",
+      "norewards": "Ingen belønninger tilgængelige"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Sidste måned",
+      "3months": "Sidste 3 måneder",
+      "6months": "Sidste 6 måneder",
+      "year": "Sidste år"
+    },
+    "view-history": "Se historik",
+    "view-graph": {
+      "stake-key": "konto stake key"
+    },
+    "approx-earning": "Estimerede belønninger over det næste år",
+    "unclaimed-ada": "Ikke-krævede {{currency}}",
+    "lifetime-earning": "Samlet set har du tjent",
+    "lifetime-apy": "Livstids APY",
+    "lifetime-earned": "siden du startede staking",
+    "epoch-ends-in": "Denne epoch slutter om",
+    "search": "Indtast en billet, et navn eller detaljer",
+    "delegate": "Vælg denne pool",
+    "openPoolList": "Åbn pool-liste"
+  }
+}

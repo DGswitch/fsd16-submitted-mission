@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "cbor تراکنش را جای‌گذاری کنید",
+  "error": {
+    "corrupted": "فایل بارگذاری‌شده خراب است، تراکنش وارد نشد.",
+    "invalid": "فایل بارگذاری‌شده یک فایل json معتبر نیست.",
+    "format": "به نظر می‌رسد فایل json حاوی داده‌های تراکنش صادر شده نیست."
+  }
+}

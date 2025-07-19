@@ -1,0 +1,15 @@
+{
+  "title": "Öppna - Dina ordrar",
+  "caption": "Listar öppna swap-ordrar on-chain som ännu inte har bearbetats.",
+  "loading": "Laddar ordrar",
+  "noPending": "Inga väntande ordrar hittades",
+  "time": "Tid",
+  "swap": "Swap",
+  "dexs": "Dexs",
+  "via": "Via",
+  "types": {
+    "buy": "KÖP",
+    "sell": "SÄLJ",
+    "cancel": "AVBRYT"
+  }
+}

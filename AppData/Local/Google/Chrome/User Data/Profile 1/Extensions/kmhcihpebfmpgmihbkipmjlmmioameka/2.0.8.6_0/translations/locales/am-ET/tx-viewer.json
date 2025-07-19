@@ -1,0 +1,23 @@
+{
+  "title": "የግብይት ዝርዝሮች",
+  "inputsOutputs": "ግቤቶች/ውጤቶች",
+  "mints": "ማሳያዎች/ማቃጠያዎች",
+  "withdrawals": "ገንዘብ ማውጣቶች",
+  "certificates": "ሰርተፊኬቶች",
+  "metadata": "Metadata",
+  "governance": "አስተዳደር",
+  "paramupdate": "መለኪያ ማዘመን",
+  "recipient": "ተቀባይ",
+  "scripts": "ስክሪፕቶች",
+  "witnesses": "ምስክሮች",
+  "validFor": {
+    "label": "ለሚከተለው ጊዜ የሚሰራ",
+    "unlimited": "የጊዜ ገደብ የለም",
+    "expired": "ጊዜው ያለፈበት ግብይት"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "በTx Hash ወይም raw Tx Cbor ጫን",
+    "invalidTxHashOrCbor": "የማይሰራ Tx Hash ወይም raw Tx Cbor",
+    "invalidTxCbor": "የማይሰራ የግብይት cbor!"
+  }
+}

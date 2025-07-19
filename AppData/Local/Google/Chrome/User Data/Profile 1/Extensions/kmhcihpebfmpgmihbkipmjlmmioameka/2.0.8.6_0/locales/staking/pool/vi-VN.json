@@ -1,0 +1,55 @@
+{
+  "spo": "vận hành một stake pool duy nhất",
+  "mpo": "vận hành {{count}} stake pool",
+  "retired": "Đã dừng hoạt động vào epoch {{epoch}}",
+  "retiredIn": "Đã dừng hoạt động vào epoch {{epoch}}",
+  "noRewards": "Pool này sẽ KHÔNG kiếm được phần thưởng {{adaSymbol}}.",
+  "lessRewards": "Pool này sẽ kiếm được ít phần thưởng hơn bình thường.",
+  "history": "Lịch sử Phần thưởng",
+  "fees": "Phí",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Xanh lá: trong phạm vi tối ưu. Đỏ: kiếm được ít phần thưởng hơn."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking/pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Xanh lá: trong phạm vi bình thường. Đỏ: kiếm được ít phần thưởng hơn."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake (Lợi tức Stake). Hiệu suất trong 12 epoch qua. Xanh lá: trong phạm vi bình thường. ROS sẽ biến động nhiều hơn đối với các pool có ít stake hơn."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Nhận phần thưởng",
+      "syncing": "__GT__Ví__ đang đồng bộ",
+      "norewards": "Không có phần thưởng nào"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Tháng trước",
+      "3months": "3 tháng qua",
+      "6months": "6 tháng qua",
+      "year": "Năm ngoái"
+    },
+    "view-history": "Xem Lịch sử",
+    "view-graph": {
+      "stake-key": "khóa stake tài khoản"
+    },
+    "approx-earning": "Phần thưởng ước tính trong năm tới",
+    "unclaimed-ada": "ADA chưa nhận",
+    "lifetime-earning": "Tổng cộng bạn đã kiếm được",
+    "lifetime-apy": "APY Trọn đời",
+    "lifetime-earned": "kể từ khi bạn bắt đầu staking",
+    "epoch-ends-in": "epoch này kết thúc sau",
+    "search": "Nhập ticker, tên hoặc chi tiết",
+    "delegate": "Chọn pool này",
+    "openPoolList": "Mở danh sách pool"
+  }
+}

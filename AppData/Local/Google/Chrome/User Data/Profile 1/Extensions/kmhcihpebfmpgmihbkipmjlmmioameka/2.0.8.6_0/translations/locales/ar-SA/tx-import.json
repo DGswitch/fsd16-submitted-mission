@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "ألصق CBOR الخاص بالمعاملة",
+  "error": {
+    "corrupted": "الملف الذي تم تحميله تالف، تعذر استيراد المعاملة.",
+    "invalid": "الملف اللي حملته مش ملف JSON صحيح.",
+    "format": "يبدو إن ملف JSON ما فيه بيانات معاملات مصدّرة."
+  }
+}

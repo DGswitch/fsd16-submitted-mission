@@ -1,0 +1,58 @@
+{
+  "is": {
+    "label": "Seleção de Input",
+    "caption": "Assuma o controle da seleção de input gastando utxo\"s específicos na sua conta.",
+    "reset": "Redefinir Seleção de Input"
+  },
+  "import": {
+    "label": "Importar Transação",
+    "caption": "Importe transações não assinadas ou assinadas, exportadas do Eternl ou de outras fontes.",
+    "upload": "Faça upload do(s) arquivo(s) da transação ou cole o cbor bruto da transação."
+  },
+  "tf": {
+    "label": "Fragmentação de Tokens",
+    "caption": "Distribua seus ativos por múltiplos utxo's para reduzir taxas em transações futuras."
+  },
+  "cu": {
+    "label": "Coleta de UTxO",
+    "caption": "Colete UTxOs desta conta, basicamente unindo-os em menos UTxOs. Criará até 10 transações por vez. O processamento pode demorar um pouco."
+  },
+  "ms": {
+    "label": "Coleta Especial",
+    "label2": "Coletar na Wallet",
+    "caption": "Colete UTxOs desta wallet de taxa ms, basicamente unindo-os em menos UTxOs. Criará até 10 transações por vez. O processamento pode demorar um pouco."
+  },
+  "donation": {
+    "label": "Doe 1 ADA para apoiar o desenvolvimento de $t(common:appName)",
+    "caption": "Esperamos que goste do Eternl! Por favor, considere enviar 1 ADA com esta transação para apoiar o desenvolvimento do nosso projeto."
+  },
+  "customMetadata": {
+    "label": "Metadata Personalizado",
+    "caption": "Adicione um esquema de metadata personalizado em formato JSON de acordo com a especificação.",
+    "placeholder": "Cole / Insira JSON",
+    "urllabel": "Documentação sobre o formato json de metadata em cardano.org",
+    "added": "O seguinte metadata foi adicionado à transação:",
+    "schemainfo": {
+      "NoConversions": "Converte fielmente entre o conjunto mínimo de recursos compartilhados entre JSON e Metadata.",
+      "BasicConversions": "Adiciona suporte adicional para byte (como strings hex) e chaves integer (como strings).",
+      "DetailedSchema": "Esquema JSON verboso, mas com maior flexibilidade para conversão de metadata."
+    },
+    "banner": {
+      "error": {
+        "title": "Esquema geral de metadata JSON do Cardano inválido",
+        "json": "JSON inválido.",
+        "label": "Rótulo(s) inválido(s).\nAs chaves de nível superior devem ser inteiros únicos no intervalo -(2^64 - 1) a (2^64 - 1)."
+      }
+    }
+  },
+  "metadata": {
+    "label": "Adicionar $t(common:message.label) on-chain",
+    "caption": "Adicione uma mensagem/comentário/memo à transação.\nPressione \"ENTER\" para mensagem de múltiplas linhas.",
+    "enableEncryption": "Habilitar criptografia",
+    "placeholder": "Insira uma mensagem para a transação",
+    "error": {
+      "overflow": "O número de caracteres por linha é limitado a 64. Pressione Enter para adicionar uma nova linha",
+      "invalidJSON": "Esquema geral de metadata JSON do Cardano inválido."
+    }
+  }
+}

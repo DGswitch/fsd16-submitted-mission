@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "ウォレットを切り替えます。",
+    "accounts": {
+      "select": "アカウント",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "アカウントを切り替えるには、特定のウォレットを選択します。",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "アクティブな$t(common:dApp)アカウントを切り替えます。"
+    },
+    "accounts": {
+      "select": "リストからアカウントを選択します。星アイコンを切り替えて、アカウントをお気に入りとしてマークします。",
+      "manage": "アカウントの追加または削除、特定のアカウントインデックスの選択、またはアカウント名の設定を行います。"
+    }
+  },
+  "groups": {
+    "placeholder": "アクティブなウォレットグループを選択します",
+    "favoriteAccounts": "#お気に入りアカウント"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "アカウント名:",
+    "index": "インデックス:",
+    "limit": "上限:",
+    "remove": {
+      "tooltip": "アカウントを削除"
+    }
+  },
+  "signAddAccounts": {
+    "title": "新規アカウントを追加"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Openstaand - Uw orders",
+  "caption": "Toont on-chain openstaande swap orders die nog niet zijn verwerkt.",
+  "loading": "Orders laden",
+  "noPending": "Geen openstaande orders gevonden",
+  "time": "Tijd",
+  "swap": "Swap",
+  "dexs": "Dexs",
+  "via": "Via",
+  "types": {
+    "buy": "KOPEN",
+    "sell": "VERKOPEN",
+    "cancel": "ANNULEREN"
+  }
+}

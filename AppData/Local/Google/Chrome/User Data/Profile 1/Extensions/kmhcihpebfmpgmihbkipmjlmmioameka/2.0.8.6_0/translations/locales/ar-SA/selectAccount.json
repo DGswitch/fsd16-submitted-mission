@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "التبديل بين المحافظ.",
+    "accounts": {
+      "select": "اضغط هنا لاختيار حساب",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "اختَر محفظة عشان تبدّل بين الحسابات بكل سهولة.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "تبديل حساب $t(common:dApp) اللي تستخدمه حاليًا."
+    },
+    "accounts": {
+      "select": "اختر حسابًا من القائمة. ضع علامة على حساب كمفضل عن طريق تبديل أيقونة النجمة.",
+      "manage": "إضافة أو إزالة حسابات، اختر فهارس حسابات معينة أو قم بتعيين أسماء للحسابات."
+    }
+  },
+  "groups": {
+    "placeholder": "اختَر مجموعات محفظة اللي تستخدمها",
+    "favoriteAccounts": "الحسابات المفضلة"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "اسم الحساب:",
+    "index": "الفهرس:",
+    "limit": "الحد:",
+    "remove": {
+      "tooltip": "إزالة الحساب"
+    }
+  },
+  "signAddAccounts": {
+    "title": "إضافة حسابات جديدة"
+  },
+  "notification": {
+    "updated": "تم تحديث قائمة الحسابات.",
+    "error": "صار خطأ غير معروف لمّا حفظنا محفظة المحدّثة في قاعدة البيانات.",
+    "errorRemove": "ما قدرنا نمسح الحساب اللي معرّفه {{accountId}}.",
+    "noWallet": "محفظة مش موجودة.",
+    "errorKey": "قائمة المفاتيح العامة المشتقة لا تتطابق مع قائمة المسارات المطلوبة.",
+    "limit": "لا يمكن لهذه wallet إضافة المزيد من الحسابات."
+  }
+}

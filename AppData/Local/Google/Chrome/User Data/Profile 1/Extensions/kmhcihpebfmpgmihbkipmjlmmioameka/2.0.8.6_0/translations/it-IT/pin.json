@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "Crea codice PIN",
+      "confirm": "Conferma codice PIN"
+    },
+    "captionShort": "Imposta un codice PIN per accedere a $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) Sarà richiesto ogni volta che apri $t(common:appName).",
+      "confirm": "Per confermare il codice PIN, inserisci lo stesso PIN che hai appena digitato."
+    },
+    "hint": {
+      "enter": "Inserisci codice PIN.",
+      "confirm": "Inserisci il PIN una seconda volta per confermare."
+    },
+    "confirmed": "I codici PIN inseriti corrispondono.",
+    "button": {
+      "label": "Abilita PIN"
+    },
+    "error": {
+      "confirm": "I codici PIN non corrispondono, riprova."
+    }
+  },
+  "access": {
+    "title": "Codice PIN di accesso",
+    "caption": "Inserisci il codice PIN di accesso.",
+    "checking": "Verifica codice PIN in corso.",
+    "confirmed": "Il PIN inserito è corretto.",
+    "error": {
+      "confirm": "Il codice PIN non è corretto."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Inserisci il codice PIN per disabilitarlo.",
+    "biometrics": "Quando rimuovi il PIN, la funzionalità biometrica verrà disabilitata automaticamente.",
+    "button": {
+      "label": "Disabilita PIN",
+      "tooltip": "Inserisci il PIN attuale per consentire la disabilitazione."
+    }
+  },
+  "biometrics": {
+    "login": "Accedi tramite dati biometrici",
+    "caption": "Autenticati tramite FaceID o altra funzionalità biometrica.",
+    "fallback": "Accedi tramite codice PIN",
+    "use": {
+      "ios": "Oppure usa FaceID o impronta digitale per accedere al wallet.",
+      "android": "Oppure usa le funzionalità biometriche del tuo telefono per accedere al wallet."
+    }
+  },
+  "comment": "// Altri testi relativi al PIN: catalyst:step.pin"
+}

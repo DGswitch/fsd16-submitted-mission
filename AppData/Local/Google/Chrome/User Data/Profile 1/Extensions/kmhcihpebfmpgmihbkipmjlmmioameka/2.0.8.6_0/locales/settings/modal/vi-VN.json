@@ -1,0 +1,25 @@
+{
+  "title": "$t(settings/page:title)",
+  "search": {
+    "placeholder": "Tìm cài đặt..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "Cài đặt Tài khoản",
+    "caption": "Các cài đặt áp dụng cho tài khoản hiện đang hoạt động."
+  },
+  "wallet": {
+    "title": "Cài đặt __GT__Ví__",
+    "caption": "Các cài đặt áp dụng cho __GT__ví__ hiện đang hoạt động."
+  },
+  "app": {
+    "title": "Cài đặt Ứng dụng",
+    "caption": "Các cài đặt áp dụng chung cho Eternl."
+  },
+  "update": {
+    "success": "Đã lưu cài đặt thành công.",
+    "error": "Lỗi lưu cài đặt."
+  }
+}

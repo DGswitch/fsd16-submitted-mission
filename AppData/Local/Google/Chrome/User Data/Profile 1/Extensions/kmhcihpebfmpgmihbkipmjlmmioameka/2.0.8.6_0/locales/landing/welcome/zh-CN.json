@@ -1,0 +1,12 @@
+{
+  "title": "歡迎嚟到 $t(common:appName)！",
+  "caption": "一個跨平台 Cardano __GT__錢包__",
+  "button": {
+    "next": {
+      "label": "開始設定"
+    },
+    "watch-tutorial": {
+      "label": "觀看教學"
+    }
+  }
+}

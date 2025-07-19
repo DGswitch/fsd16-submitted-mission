@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet ชื่อ",
+    "caption": "ตั้งชื่อ wallet ของคุณให้จดจำได้ง่าย"
+  },
+  "phrase": {
+    "title": "Mnemonic phrase"
+  },
+  "account": {
+    "title": "จำนวนบัญชี",
+    "caption": "ระบุจำนวนบัญชีที่ต้องการสร้าง",
+    "suffix": "บัญชี",
+    "description": "wallet ใน $t(common:appName) สามารถมีได้สูงสุด {{accountLimit}} บัญชี แต่ละบัญชีสามารถมอบอำนาจ (delegate) ให้กับ stake pool ที่แตกต่างกันได้ คีย์ของบัญชี (account keys) ถูกสร้างขึ้นจากคีย์หลัก (root key) ของ wallet",
+    "tooltip": "แต่ละบัญชีที่เพิ่มเข้ามาจะเพิ่มเวลาในการซิงค์ สามารถเพิ่มบัญชีได้ตลอดเวลา"
+  },
+  "create": {
+    "title": "กำลังสร้าง wallet",
+    "caption": "โปรดรอขณะที่ wallet กำลังถูกสร้าง",
+    "password": {
+      "title": "ตั้งรหัสผ่านการใช้จ่าย",
+      "caption": "เลือกรหัสผ่านที่ยาว ยิ่งยาวเท่าไหร่ เงินของคุณก็จะยิ่งปลอดภัยมากขึ้นเท่านั้น"
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet ถูกเพิ่มเรียบร้อยแล้ว",
+      "created": "Wallet ถูกสร้างเรียบร้อยแล้ว",
+      "restored": "Wallet ถูกกู้คืนเรียบร้อยแล้ว",
+      "imported": "Wallet ถูกนำเข้าเรียบร้อยแล้ว"
+    },
+    "processing": "กำลังสร้าง wallet...",
+    "exists": "Wallet นี้มีอยู่แล้ว กำลังเปลี่ยนเส้นทางไปยัง Wallet"
+  }
+}

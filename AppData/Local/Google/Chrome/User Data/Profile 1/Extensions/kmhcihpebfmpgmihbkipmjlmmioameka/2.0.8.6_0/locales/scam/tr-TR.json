@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: Çoğu metni, sadece birkaçı kullanımda olsa bile, kasıtlı olarak bıraktım.",
+  "showScamInfo": "Dolandırıcı token bilgisini göster",
+  "guard": {
+    "label": "Eternl Guard",
+    "warning": "$t(scam:guard.label) Uyarısı"
+  },
+  "token": {
+    "label": "SCAM",
+    "description": "Bu, bilinen bir <span class=\"font-bold\">SCAM</span> token'dır!<br>Burada gösterilen web sitesi bağlantıları dolandırıcılıktır!<br>Bu web sitelerine bağlanır ve bir işlem imzalarsanız<br>__GT__cüzdanınız__ tamamen boşaltılabilir!",
+    "image": "Uyarı:\n\nBu görselde belirtilen hiçbir web sitesiyle etkileşime girmeyin!",
+    "hover": "Bu işlem bilinen bir dolandırıcı token içeriyor. Lütfen onunla etkileşime girerken dikkatli olun!"
+  },
+  "app": {
+    "description": "Bu DApp bilinen bir SCAM sitesidir! Fonlarınızı çalma veya sizi başka yollarla dolandırmaya çalışma olasılığı çok yüksektir!",
+    "description2": "Bu sayfayla <span class=\"font-bold\">ETKİLEŞİME GİRMEMENİZİ</span> şiddetle tavsiye ederiz!",
+    "ownRisk": "Bu siteye bağlanmanın riski size aittir!",
+    "bannerWarning": "Bu site dolandırıcılık listesindedir. Lütfen dikkatli olun ve hassas bilgileri girmeyin."
+  },
+  "address": {
+    "description": "Bu bilinen bir SCAM adresidir! Fonlarınızı oraya göndermek istememe olasılığınız çok yüksektir!",
+    "description2": "Oraya fon <span class=\"font-bold\">GÖNDERMEMENİZİ</span> şiddetle tavsiye ederiz!",
+    "hover": "Bu adres fon çalmak için kullanıldı!"
+  },
+  "cleanup": {
+    "label": "__GT__Cüzdanı__ Temizle",
+    "description": "Bu, bilinen tüm dolandırıcı token'ları __GT__cüzdanınızdan__ Eternl yakma adresine gönderen bir temizleme işlemi oluşturacaktır.",
+    "prepared": {
+      "label": "Hazırlanan Dolandırıcı Temizleme işlemi"
+    }
+  }
+}

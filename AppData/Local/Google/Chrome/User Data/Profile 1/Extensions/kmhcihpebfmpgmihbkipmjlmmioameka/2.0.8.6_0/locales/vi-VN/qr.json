@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Quét mã QR",
+    "short": "QR"
+  },
+  "loading": "Đang khởi tạo máy ảnh.",
+  "error": {
+    "notAllowed": "Vui lòng cấp quyền truy cập máy ảnh.",
+    "notFound": "Không phát hiện thấy máy ảnh trên thiết bị.",
+    "notSupported": "Yêu cầu ngữ cảnh bảo mật (HTTPS, localhost).",
+    "notReadable": "Máy ảnh đã được sử dụng chưa?",
+    "overconstrained": "Máy ảnh được cài đặt không phù hợp.",
+    "streamApiNotSupported": "API Stream không được hỗ trợ trong trình duyệt này.",
+    "insecureContext": "Quyền truy cập máy ảnh chỉ được phép trong ngữ cảnh bảo mật. Sử dụng HTTPS hoặc localhost thay vì HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Mở tiện ích mở rộng ở chế độ toàn màn hình để cho phép truy cập máy ảnh. Chỉ cần thực hiện việc này một lần.\n Nhấp vào văn bản này để chuyển sang chế độ toàn màn hình."
+  }
+}

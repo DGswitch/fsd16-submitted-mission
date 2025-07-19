@@ -1,0 +1,600 @@
+{
+  "headline":                 "Transactions",
+  "caption":                  "This wallet has a total of",
+  "hint":                     "Click on a transaction to see more details or set a filter to narrow down the list.",
+  "empty":                    "This account has no transactions.",
+
+  "transactions":             "transactions",
+  "loaded":                   "loaded",
+  "noMatch":                  "Could not find any transactions matching that search.",
+  "search": {
+
+    "searchByTxHashOrCbor":   "Load by Tx Hash or raw Tx Cbor",
+    "invalidTxHashOrCbor":    "Invalid Tx Hash or raw Tx Cbor",
+    "invalidTxCbor":          "Invalid transaction cbor!"
+  },
+
+  "header": {
+
+    "details":                "Transaction Details",
+
+    "txId":                   "Transaction Id",
+    "block":                  "$t(common:label.block)",
+    "size":                   "$t(common:label.size)",
+    "fee":                    "$t(common:label.fee)",
+    "deposit":                "$t(common:label.deposit)",
+    "unlimited":              "No time limit",
+    "expired":                "Expired transaction",
+
+    "mint": {
+
+      "label":                "Mint/Burn(s)"
+
+    },
+
+    "utxo": {
+      "collateralInputs_one":   "Collateral Input",
+      "collateralInputs_other": "Collateral Inputs",
+
+      "referenceInputs_one":    "Reference Input",
+      "referenceInputs_other":  "Reference Inputs",
+
+      "inputs_one":             "Input",
+      "inputs_other":           "Inputs",
+
+      "collateralOutput_one":   "Collateral Output",
+      "collateralOutput_other": "Collateral Outputs",
+
+      "outputs_one":            "Output",
+      "outputs_other":          "Outputs"
+    },
+
+    "withdrawal": {
+
+      "label_one":              "Withdrawal",
+      "label_other":            "Withdrawals",
+      "amount":                 "Amount"
+    },
+
+    "plutuscontract": {
+
+      "label_one":              "Plutus Contract",
+      "label_other":            "Plutus Contracts",
+
+      "valid":                  "Valid Contract",
+      "redeemer":               "Redeemer",
+      "datum":                  "Datum",
+
+      "script": {
+
+        "label":                "Contract Script",
+        "hash":                 "Hash",
+        "size":                 "$t(common.label.size)",
+        "bytecode":             "Data"
+      },
+
+      "outdatum":               "Output Datum"
+    },
+
+    "plutus": {
+
+      "redeemer": {
+
+        "utxo":                 "UTxO",
+        "purpose":              "Purpose",
+        "fee":                  "Contract Fee",
+        "usteps":               "Unit Steps",
+        "umem":                 "Unit Memory",
+        "dhash":                "Datum Hash",
+        "dvalue":               "Datum Bytecode",
+        "djson":                "Datum JSON"
+      },
+
+      "datum": {
+
+        "hash":                 "Hash",
+        "bytecode":             "Data",
+        "json":                 "JSON"
+      }
+    },
+
+    "plutusdata": {
+
+      "label":                  "Plutus Contract Data",
+      "redeemer":               "Redeemer(s)",
+      "utxo":                   "UTxO(s)",
+      "datum":                  "Datum(s)",
+      "script":                 "Script(s)"
+    },
+
+    "withdrawals": {
+
+      "label_one":            "Withdrawal",
+      "label_other":          "Withdrawals"
+    },
+
+    "certificate": {
+
+      "label_one":            "Certificate",
+      "label_other":          "Certificates",
+
+      "type": {
+
+        "stakereg":           "Account Registration",
+        "stakedereg":         "Account De-registration",
+        "stakedel":           "Stake Pool Delegation",
+        "stakeregdel":        "Account Registration & Stake Pool Delegation",
+        "stakevotedel":       "Stake Pool & DRep Delegation",
+        "stakevoteregdel":    "Account Registration & Stake Pool / DRep Delegation",
+        "votedel":            "DRep Delegation",
+        "voteregdel":         "Account Registration & DRep Delegation",
+        "drepreg":            "DRep Registration",
+        "drepupd":            "DRep Update",
+        "drepdereg":          "DRep De-registration",
+        "poolreg":            "Stake Pool Registration / Update",
+        "poolret":            "Stake Pool Retirement",
+        "genkeydel":          "Genesis Key Delegation",
+        "mircert":            "Move Instantaneous Rewards",
+        "comhot":             "Committee Hot Auth",
+        "comcold":            "Committee Cold Resign",
+
+
+        "script":             "$t(transactions:header:nativescript:label)",
+        "plutus":             "Plutus Contract"
+      },
+
+      "poolreg": {
+
+        "actepno":            "Active in Epoch",
+        "fixedcost":          "Fixed Cost",
+        "margin":             "Margin",
+        "pledge":             "Pledge",
+        "rewardaddr":         "Reward Address",
+        "owner":              "Owner",
+        "relay":              "Relay",
+        "metaurl":            "Metadata URL",
+        "metahash":           "Metadata Hash",
+        "metadata":           "Off-Chain Meta"
+      },
+
+      "poolret": {
+
+        "retepno":            "Retiring Epoch"
+      },
+
+      "gov": {
+
+        "stakeCreds":         "Stake Credentials",
+        "drepCreds":          "DRep Credentials",
+        "votingCreds":        "Voting Credentials",
+        "poolCreds":          "Pool Credentials",
+        "poolParams":         "Pool Parameters",
+        "poolId":             "Pool Id",
+        "poolHash":           "Pool Hash",
+        "deposit":            "Deposit",
+        "anchor":             "Anchor",
+        "rawData":            "Raw Data",
+        "unknown":            "Unknown Certificate",
+
+        "hash":               "Hash",
+        "isScript":           "Script",
+        "credential":         "Credential",
+        "vote":               "Vote",
+        "drep129":            "DRep (CIP129)",
+        "drep105":            "DRep (CIP105)"
+      }
+    },
+
+    "plutusscript": {
+
+      "label":                "Plutus Script(s)",
+      "hash":                 "Hash",
+      "type":                 "Type",
+      "size":                 "Size",
+      "bytes":                "Data",
+      "value":                "JSON"
+    },
+
+    "nativescript": {
+
+      "label":                "Native / Multi-Sig Script(s)",
+      "hash":                 "Hash",
+      "type":                 "Type",
+      "witness":              "Witness",
+      "aux":                  "Aux Data",
+      "json":                 "JSON",
+      "bytecode":             "Data"
+    },
+
+    "metadata": {
+
+      "label_one":            "Metadata Entry",
+      "label_other":          "Metadata Entries",
+
+      "label":                "$t(common:label.metadata)",
+      "key":                  "Label",
+      "value":                "Value",
+      "rawData":              "Raw Data"
+    }
+  },
+
+  "transaction-item":         {
+
+    "assets-received":        "Assets received:"
+  },
+
+  "button":                   {
+    "copy":                   {
+
+      "address": {
+
+        "hover":                "$t(common:label:copyAddress)",
+        "notify":               "$t(common:message:copy:notify)"
+      },
+
+      "tx":                   {
+        "hover": "@:common.copyTx",
+        "notify": "@:common.message.copy.notify"
+      },
+
+      "block": {
+
+        "hover":                "Copy block number",
+        "notify":               "Copied block number: "
+
+      },
+
+      "hash": {
+
+        "hover":                "Copy hash",
+        "notify":               "$t(common.message.copy.notify)"
+      },
+
+      "datum": {
+
+        "hover":                "Copy datum",
+        "notify":               "$t(common.message.copy.notify)"
+      },
+
+      "json": {
+
+        "hover":                "Copy json",
+        "notify":               "Copied json"
+      },
+
+      "script": {
+
+        "hover":                "Copy script",
+        "notify":               "$t(common.message.copy.notify)"
+      }
+    }
+  },
+
+
+  "badge": {
+
+    "catalyst": {
+
+      "label":                  "Catalyst",
+      "hover":                  "Transaction contains Catalyst voting registration"
+    },
+
+    "multisig": {
+
+      "label":                  "Multi-Sig Reg",
+      "hover":                  "Transaction contains Multi-Sig wallet registration"
+    },
+
+    "metadata": {
+
+      "label":                  "Meta",
+      "hover":                  "Transaction contains metadata"
+    },
+
+    "withdrawal": {
+
+      "label":                  "Withdrawal",
+      "hover":                  "Transaction contains withdrawal of rewards"
+    },
+
+    "mint": {
+
+      "label":                  "Mint",
+      "hover":                  "Transaction contains minted or burned token(s)"
+    },
+
+    "reg": {
+
+      "label":                  "Reg",
+      "hover":                  "Wallet / Stake key registration"
+    },
+
+    "gov": {
+
+      "label":                  "Gov",
+      "hover":                  "Transaction contains a governance certificate"
+    },
+
+    "dereg": {
+
+      "label":                  "De-reg",
+      "hover":                  "Wallet de-registration"
+    },
+
+    "delegation": {
+
+      "label":                  "Del",
+      "hover":                  "Stake pool delegation"
+    },
+
+    "poolreg": {
+
+      "label":                  "Pool reg",
+      "hover":                  "Stake pool registration"
+    },
+
+    "poolupd": {
+
+      "label":                  "Pool update",
+      "hover":                  "Stake pool update"
+    },
+
+    "poolret": {
+
+      "label":                  "Pool retire",
+      "hover":                  "Stake pool retire"
+    },
+
+    "nativescript": {
+
+      "label":                  "Script",
+      "hover":                  "Cardano native/multi-sig script"
+    },
+
+    "plutus": {
+
+      "label":                  "Contract",
+      "hover":                  "Cardano Plutus contract"
+    },
+
+    "onchain": {
+
+      "label":                  "On-chain",
+      "hover":                  "Transaction was included in a block"
+    },
+
+    "confirmed": {
+
+      "label":                  "Confirmed",
+      "hover":                  "Transaction is signed and ready to submit"
+    },
+
+    "pendingapproval": {
+
+      "label":                  "Pending approval",
+      "hover":                  "Transaction is awaiting additional signatures by wallet(s) in your control"
+    },
+
+    "awaitingothers": {
+
+      "label":                  "Awaiting others",
+      "hover":                  "Transaction is awaiting additional signatures by external participants"
+    },
+
+    "invalid": {
+
+      "label":                  "Invalid",
+      "hover":                  "An input of this transaction was spent in a different transaction."
+    },
+
+    "pending": {
+
+      "label":                  "Pending",
+      "hover":                  "Transaction is still pending execution"
+    },
+
+    "staging": {
+
+      "label":                  "Unsigned",
+      "hover":                  "This transaction was not signed yet."
+    },
+
+    "signed": {
+
+      "label":                  "Signed",
+      "hover":                  "This transaction is signed but not submitted yet."
+    },
+
+    "inputSigned": {
+
+      "label":                  "Signed",
+      "hover":                  "The signature for this input has been provided."
+    },
+
+    "inputSignedSC": {
+
+      "label":                  "SC",
+      "hover":                  "The redeemer for this contract has been provided."
+    },
+
+    "inputUnsigned": {
+
+      "label":                  "Unsigned",
+      "hover":                  "The signature for this input is missing."
+    },
+
+    "validFor": {
+
+      "label":                  "Valid for",
+      "hover":                  "Transaction will be executed eventually or become invalid if an input utxo was consumed by a different transaction."
+    },
+
+    "unlockTimeStamp": {
+
+      "label":                  "Unlock at",
+      "hover":                  "These Staking Vault funds will unlock at that date."
+    },
+
+    "stakingvault": {
+
+      "label":                  "Staking Vault",
+      "hover":                  "This transaction locks funds in Staking Vault."
+    },
+
+    "unlimited": {
+
+      "label":                  "No time limit",
+      "hover":                  "Transaction will be executed eventually or become invalid if an input utxo was consumed by a different transaction."
+    },
+
+    "expired": {
+
+      "label":                  "Expired",
+      "hover":                  "Transaction life time expired"
+    },
+
+    "setTTL": {
+
+      "label":                  "Set TTL",
+      "hover":                  "Set transaction life time"
+    },
+
+    "remove": {
+
+      "label":                  "Remove",
+      "hover":                  "Click to remove an expired or invalid transaction.",
+      "hoverNote":              "Only remove, if you know that this transaction won't go through anymore."
+    },
+
+    "utxo": {
+
+      "own_address": {
+
+        "label":                "acc",
+        "hover":                "Own wallet address"
+      },
+
+      "ext_address": {
+
+        "label":                "ext",
+        "hover":                "External address"
+      },
+
+      "donation_address": {
+
+        "label":                "Donation",
+        "hover":                "$t('common:appName')donation address"
+      },
+
+      "swap_fee": {
+
+        "label":                "Frontend Fee",
+        "hover":                "$t('common:appName')frontend fee address"
+      },
+
+      "eternl_fee": {
+
+        "label":                "Frontend Fee",
+        "hover":                "$t('common:appName')fee address"
+      },
+
+      "sv": {
+
+        "label":                "Staking Vault",
+        "hover":                "Staking vault timelock address"
+      },
+
+      "add_entity": {
+
+        "label":                "+entity",
+        "hover":                "Set an entity name for this address."
+      },
+
+      "script_address": {
+        "label":                "Script",
+        "hover":                "SmartContract address"
+      }
+    },
+
+    "milkomeda": {
+      "label":                "Milkomeda",
+      "hover":                "Bridged Cross Chain Transaction to Milkomeda"
+    },
+
+    "submit": {
+      "label":                "submit transaction",
+      "hover":                "Transaction isn't submitted yet. Click here to submit it."
+    },
+
+    "nosubmitted": {
+      "label":                "not submitted",
+      "hover":                "Transaction was signed, but not submitted."
+    },
+
+    "-1": {
+      "hover": "Cardano Mode"
+    }
+  },
+
+  "filters": {
+
+    "headline":               "Transaction Filter",
+    "caption":                "Set parameters or enter a search string to filter transaction list.",
+
+    "more":                   "More",
+
+    "header":                 "Filter",
+
+    "minada":                 "Min {{adaCurrency}} amount",
+    "maxada":                 "Max {{adaCurrency}} amount",
+
+    "date-range":             {
+
+      "header":               "Calendar",
+      "label":                "Choose the period",
+      "start":                "Start Date",
+      "end":                  "End Date"
+    },
+
+    "search":                 "Search for msg, tx id or address...",
+
+    "sync": {
+
+      "line1":                "Not all transaction details are loaded yet.",
+      "line2":                "Date range and tx id search will work for all known transactions.",
+      "loading":              "With each account sync process a large chunk of details will be loaded.",
+      "awhile":               "This may take a while.",
+      "autosync":             "To filter on more data points, eg. asset metadata, enable account history sync.",
+      "progress":             "Sync in progress, please wait."
+    }
+  },
+
+  "confirmation_one":         "confirmation",
+  "confirmation_other":       "confirmations",
+
+  "confirmations" : {
+    "single": "confirmation",
+    "plural": "confirmations",
+
+
+    "levels": {
+      "LOW": "LOW",
+      "MED": "MED",
+      "HIGH": "HIGH"
+    }
+
+  },
+
+  "note": {
+
+    "add":                    "Add note",
+    "edit":                   "Edit note",
+    "copy":                   "Transaction note: {{note}}.",
+    "help":                   "This is a local note for the transaction. It will not be put on any chain.",
+
+    "delete": {
+      "headline":             "Delete note",
+      "caption":              "Please confirm that you want to delete the transaction note."
+    }
+  }
+}

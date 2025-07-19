@@ -1,0 +1,12 @@
+{
+  "title": "أهلاً وسهلاً بيك في $t(common:appName)!",
+  "caption": "Cardano محفظة رقمية (maḥfaẓa raqamiya) بتشتغل على كذا منصة",
+  "button": {
+    "next": {
+      "label": "إبدأ الإعدادات"
+    },
+    "watch-tutorial": {
+      "label": "إتفرج على الشرح"
+    }
+  }
+}

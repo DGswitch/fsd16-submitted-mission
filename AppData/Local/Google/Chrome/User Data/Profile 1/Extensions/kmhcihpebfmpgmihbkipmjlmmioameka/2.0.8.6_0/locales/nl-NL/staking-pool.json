@@ -1,0 +1,55 @@
+{
+  "spo": "beheert één stake pool",
+  "mpo": "beheert {{count}} stake pools",
+  "retired": "Buiten gebruik gesteld in epoch {{epoch}}",
+  "retiredIn": "Buiten gebruik gesteld in epoch {{epoch}}",
+  "noRewards": "Deze pool zal GEEN {{adaSymbol}} beloningen verdienen.",
+  "lessRewards": "Deze pool zal minder beloningen verdienen dan gebruikelijk.",
+  "history": "Beloningsgeschiedenis",
+  "fees": "Kosten",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Groen: binnen optimaal bereik. Rood: verdient minder beloningen."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Groen: binnen normaal bereik. Rood: verdient minder beloningen."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake. Prestaties van de afgelopen 12 epochs. Groen: binnen normaal bereik. ROS zal meer fluctueren voor pools met minder stake."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Beloningen claimen",
+      "syncing": "Wallet synchroniseert",
+      "norewards": "Geen beloningen beschikbaar"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Afgelopen maand",
+      "3months": "Afgelopen 3 maanden",
+      "6months": "Afgelopen 6 maanden",
+      "year": "Afgelopen jaar"
+    },
+    "view-history": "Geschiedenis bekijken",
+    "view-graph": {
+      "stake-key": "account stake key"
+    },
+    "approx-earning": "Geschatte beloningen over het komende jaar",
+    "unclaimed-ada": "Ongeclaimde ADA",
+    "lifetime-earning": "In totaal heb je verdiend",
+    "lifetime-apy": "Levenslange APY",
+    "lifetime-earned": "sinds je bent begonnen met staking",
+    "epoch-ends-in": "Deze epoch eindigt over",
+    "search": "Voer een ticker, naam of details in",
+    "delegate": "Kies deze pool",
+    "openPoolList": "Poollijst openen"
+  }
+}

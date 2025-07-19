@@ -1,0 +1,9 @@
+{
+  "title": "Importar Chaves de Assinatura CLI",
+  "caption": "Selecione as chaves de assinatura de pagamento e stake (opcionalmente) de uma wallet gerada por CLI.",
+  "payment": "Chave de pagamento",
+  "stake": "Chave de stake",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Chave inválida, por favor verifique e tente novamente!"
+}

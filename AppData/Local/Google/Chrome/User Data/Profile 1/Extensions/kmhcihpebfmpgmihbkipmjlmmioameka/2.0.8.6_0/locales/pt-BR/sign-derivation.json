@@ -1,0 +1,20 @@
+{
+  "input": {
+    "password": {
+      "label": "Senha de gasto",
+      "placeholder": "Confirmar senha"
+    }
+  },
+  "dv": {
+    "signing": "Gerando chaves da conta",
+    "hw": "Por favor, confirme a exportação da chave pública no dispositivo {{device}}."
+  },
+  "error": {
+    "passwordMismatch": "As senhas digitadas não correspondem, por favor, tente novamente!",
+    "missingAppWallet": "Wallet não definida. Por favor, recarregue o aplicativo e tente novamente.",
+    "invalidResult": "Resultado da leitura inválido.",
+    "missingRootKey": "Esta wallet não pode derivar chaves de conta (chave raiz ausente).",
+    "deviceNotFound": "Dispositivo não encontrado.",
+    "unknown": "Erro desconhecido: {{error}}"
+  }
+}

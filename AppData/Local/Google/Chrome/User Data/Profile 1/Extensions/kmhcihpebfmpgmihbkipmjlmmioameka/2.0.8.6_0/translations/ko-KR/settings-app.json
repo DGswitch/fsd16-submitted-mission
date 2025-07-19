@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "프로 모드",
+    "simple": "심플 모드",
+    "caption": "심플 모드와 프로 모드 간 전환.",
+    "setting": {
+      "caption": "Eternl 경험을 정의하세요. 심플 모드는 신규 사용자에게 더 적합합니다. 프로 모드는 모든 기능을 제공합니다.",
+      "openAfterSign": "서명 시 자동으로 트랜잭션 미리보기 열기.",
+      "stakeKeyOnHome": "홈 페이지에 스테이크 키 표시"
+    }
+  },
+  "network": {
+    "title": "네트워크",
+    "caption": "현재 활성 네트워크를 선택하세요."
+  },
+  "language": {
+    "title": "언어",
+    "caption": "선호하는 언어를 선택하세요.",
+    "search": "언어 목록 필터링",
+    "setting": {
+      "caption": "애플리케이션에 사용할 선호 언어를 선택하세요."
+    }
+  },
+  "formatting": {
+    "title": "서식",
+    "caption": "지역 날짜 및 통화 서식.",
+    "setting": {
+      "caption": "선택한 언어의 서식을 따르도록 활성화합니다.",
+      "enabled": "언어 서식 따르기 활성화됨",
+      "disabled": "언어 서식 따르기 비활성화됨",
+      "region": "서식 지역",
+      "timezone": "시간대"
+    }
+  },
+  "currency": {
+    "title": "통화",
+    "caption": "환전에 사용할 선호 통화를 선택하세요.",
+    "search": "통화 목록 필터링",
+    "setting": {
+      "caption": "환전에 사용할 선호 통화를 선택하세요."
+    }
+  },
+  "decimalPrecision": {
+    "title": "소수점 정밀도",
+    "caption": "소수점 이하 자릿수.",
+    "setting": {
+      "caption": "금액에 표시할 소수점 이하 자릿수를 선택하세요."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// pin:deleteAccess 및 pin:createAccess 참조 "
+    }
+  },
+  "biometrics": {
+    "title": "생체 인증",
+    "caption": "FaceId (iOS) 또는 다른 생체 인식 시스템을 사용하여 본인을 인증하세요.",
+    "setting": {
+      "title": {
+        "active": "활성화됨",
+        "inactive": "비활성화됨"
+      },
+      "caption": {
+        "active": "생체 인식을 사용하여 $t(common:appName)을(를) 여세요.",
+        "inactive": "생체 인증이 비활성화되었습니다.",
+        "disabled": "이 기능을 활성화하려면 먼저 PIN을 설정하세요."
+      }
+    }
+  },
+  "sound": {
+    "title": "소리",
+    "caption": "소리 알림을 활성화 또는 비활성화합니다.",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "소리 알림은 스왑 상호작용, 오류 및 기타 중요한 이벤트에 사용됩니다.",
+      "enabled": "$t(settings-app:sound.title) 활성화됨",
+      "disabled": "$t(settings-app:sound.title) 비활성화됨"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "$t(addressBook:title) 항목 추가, 삭제 및 편집.",
+    "setting": {
+      "caption": "$t(addressBook:title) 항목 관리.",
+      "comment": "// addressBook: 참조"
+    }
+  },
+  "allowlist": {
+    "title": "DApp 허용 목록",
+    "caption": "이 $t(common:appName) 앱에 연결이 허용된 웹사이트/dApp 목록입니다.",
+    "setting": {
+      "comment": "// dapps-allowlist: 참조"
+    }
+  },
+  "autoSubmit": {
+    "title": "트랜잭션: 자동 제출",
+    "caption": "서명 후 트랜잭션을 자동으로 제출합니다. 서명된 트랜잭션 cbor 다운로드를 허용하려면 비활성화하세요.",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "자동 제출 활성화됨",
+      "disabled": "자동 제출 비활성화됨",
+      "enabledInfo": "서명된 트랜잭션은 blockchain에 자동으로 제출됩니다.",
+      "disabledInfo": "트랜잭션 서명 후 수동으로 제출해야 합니다."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "사용자 지정 제출 엔드포인트",
+    "caption": "사용자 지정 cardano-node 및 cardano-submit-api를 통해 트랜잭션을 전송합니다.",
+    "setting": {
+      "caption": "트랜잭션 제출을 위한 사용자 지정 cardano-node 및 cardano-submit-api 엔드포인트를 정의합니다.",
+      "new_endpoint": "엔드포인트 추가",
+      "hint": "새 사용자 지정 엔드포인트를 추가합니다.",
+      "deleteConfirm": "항목 삭제를 확인합니다.",
+      "deleted": "엔드포인트가 삭제되었습니다.",
+      "note": {
+        "title": "참고하세요!",
+        "caption": "이것은 고급 설정이며, 그 영향을 완전히 이해하는 경우에만 사용해야 합니다.",
+        "description": "사용자 지정 엔드포인트가 신뢰할 수 있고 완전히 동기화되었는지 확인하세요.\n\n그렇지 않은 경우, 노드 운영자는 자신의 이익을 위해 트랜잭션 브로드캐스팅을 보류하거나 전혀 브로드캐스팅하지 않을 수 있으며, 모든 트랜잭션이 실패할 수 있습니다.\n\n확실하지 않은 경우, 이 설정을 비활성화하여 $t(common:appName) 인프라를 통해 트랜잭션을 전송하세요.",
+        "cors": "또한 사용자 지정 엔드포인트에 $t(common:appName)이(가) 보내는 요청을 수락하도록 올바른 CORS 헤더가 설정되어 있는지 확인하세요."
+      },
+      "error": {
+        "url": "유효한 URL은 http(s)로 시작합니다.",
+        "oneEndpoint": "최소 하나 이상의 제출 엔드포인트가 구성되어 있어야 합니다."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Blockchain 탐색기",
+    "caption": "유형별로 선호하는 blockchain 탐색기를 설정합니다.",
+    "setting": {
+      "caption": "애플리케이션에 사용할 선호하는 blockchain 탐색기를 선택합니다.",
+      "block": "블록 탐색기",
+      "pool": "풀 탐색기",
+      "address": "주소 탐색기",
+      "token": "토큰 탐색기",
+      "policy": "정책 탐색기",
+      "transaction": "트랜잭션 탐색기",
+      "stake": "스테이크 키 탐색기",
+      "DRep": "DRep 탐색기",
+      "govProposal": "거버넌스 제안",
+      "select": "{{type}} 선택"
+    }
+  },
+  "experimental": {
+    "title": "실험적 설정",
+    "caption": "실험적 설정은 누구도 사용해서는 안 됩니다!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "모든 URL 파라미터 숨기기",
+        "caption": "이것이 활성화되면 설정 섹션의 URL 파라미터가 숨겨집니다."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "마지막으로 사용한 설정 저장",
+        "caption": "이것이 활성화되면 설정으로 전환 시 마지막으로 사용한 설정 그룹과 섹션이 자동으로 선택됩니다."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "MonsterSwap의 Slippage 및 Dex 설정."
+  },
+  "theme": {
+    "label": "테마 전환기",
+    "caption": "테마를 선택하여 Eternl을(를) 나만의 것으로 만드세요.",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "애플리케이션 캐시 재설정",
+    "caption": "애플리케이션을 재설정하기 위해 모든 캐시된 데이터를 제거합니다.",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\n여기에는 트랜잭션, 토큰 이미지 및 메타데이터가 포함됩니다. 귀하의 지갑, 계정 및 설정은 영향을 받지 않습니다.",
+      "finish": "애플리케이션 캐시 재설정에 성공했습니다.",
+      "inProgress": "$t(common:appName) 캐시가 삭제되고 있습니다. 잠시 기다려 주십시오.",
+      "warning": "$t(common:appName) 캐시를 재설정하면 애플리케이션은 blockchain에서 모든 데이터를 다시 가져와야 합니다. 여러 지갑이나 계정이 있는 경우 시간이 걸릴 수 있습니다.",
+      "button": {
+        "label": "애플리케이션 캐시 초기화"
+      }
+    }
+  },
+  "reset": {
+    "title": "애플리케이션 초기화",
+    "caption": "모든 지갑과 저장된 데이터를 삭제하여 애플리케이션을 초기화합니다.",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "경고!",
+          "text": "앱을 초기화하면 모든 지갑에 대한 접근 권한을 잃게 됩니다! 초기화 후 접근 권한을 다시 얻는 유일한 방법은 wallet 복구 구문을 복원하거나 이전에 내보낸 $t(common:appName) .json 파일을 가져오는 것입니다."
+        }
+      },
+      "phrase": {
+        "name": "확인 문구",
+        "hint": "확인 문구를 입력하세요.",
+        "noPaste": "$t(common:appName)을(를) 초기화하려면 확인 문구를 입력하세요.",
+        "confirmation": "$t(common:appName) 초기화 #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "내 지갑에 다시 접근하는 유일한 방법은 wallet 복구 구문으로 복원하거나 하드웨어 wallet 기기를 페어링하는 것임을 이해합니다.",
+          "error": "확인 문구가 일치하지 않습니다."
+        }
+      },
+      "deleteWallets": "지갑 초기화",
+      "deleteConfig": "구성 초기화",
+      "deleteFinish": "완료 중",
+      "finish": "애플리케이션이 성공적으로 초기화되었습니다."
+    }
+  }
+}

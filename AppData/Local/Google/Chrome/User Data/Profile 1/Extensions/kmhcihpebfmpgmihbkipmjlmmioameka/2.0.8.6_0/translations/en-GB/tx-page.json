@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transactions",
+  "title": "Transactions",
+  "caption": "This wallet has a total of {{numTxTotal}} transactions.",
+  "subCaption": "Click on a transaction to see more details or set a filter to narrow down the list.",
+  "empty": "This account has no transactions.",
+  "noMatch": "Could not find any transactions matching that search.",
+  "updating": "Updating Transactions",
+  "filter": {
+    "title": "Transaction Filter",
+    "caption": "Set parameters or enter a search string to filter the transaction list.",
+    "search": "Search for msg, tx id or address...",
+    "more": "More",
+    "minada": "Min {{adaCurrency}} amount",
+    "maxada": "Max {{adaCurrency}} amount",
+    "date-range": {
+      "start": "Start Date",
+      "end": "End Date"
+    }
+  },
+  "sync": {
+    "line1": "Not all transaction details are loaded yet.",
+    "line2": "Date range and tx id search will work for all known transactions.",
+    "loading": "With each account sync process a large chunk of details will be loaded.",
+    "awhile": "This may take a while.",
+    "autosync": "To filter on more data points, e.g. asset metadata, enable account history sync.",
+    "progress": "Sync in progress, please wait.",
+    "history": "History sync"
+  },
+  "button": {
+    "history": {
+      "label": "Transaction history",
+      "tooltip": "Switch to transaction history page."
+    }
+  }
+}

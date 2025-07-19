@@ -1,0 +1,54 @@
+{
+  "title": "ያሉ ገንዘቦች ትንተና",
+  "toggleInfo": {
+    "active": "ማብራሪያ አሳይ",
+    "inactive": "ትንተና አሳይ"
+  },
+  "total": {
+    "label": "በ UTxO ላይ ያሉ ገንዘቦች"
+  },
+  "selected": {
+    "label": "የተመረጡ UTxOዎች",
+    "info": "በእጅ የተመረጡ የሁሉም UTxOዎች ጠቅላላ መጠን።"
+  },
+  "rewards": {
+    "label": "ሽልማቶች (UTxO አይደለም)",
+    "info": "የተከማቹ ሽልማቶች፣ መውጣት የሚችሉ፣ አካውንቱ ለ DRep ከተወከለ።"
+  },
+  "lockedInPendingInputs": {
+    "label": "በሂደት ላይ ያሉ ግብዓቶች",
+    "info": "እነዚህ ገንዘቦች በሂደት ላይ ባለ ግብይት ውስጥ ጥቅም ላይ እየዋሉ ነው።"
+  },
+  "lockedByCollateral": {
+    "label": "ዋስትና (ያልተቆለፈ)",
+    "info": "የተቆለፉ ገንዘቦች፣ በ $t(common:appName) እንደ ዋስትና የሚያገለግሉ - እነዚህን ገንዘቦች ማውጣት እንዲችሉ በሂሳብ ቅንጅቶች ውስጥ ዋስትናን ያሰናክሉ።"
+  },
+  "lockedUtxo": {
+    "label": "የተቆለፉ UTxOዎች",
+    "info": "የተቆለፉ ገንዘቦች፣ በ $t(common:appName) ወይም dapps የማይወጡ - በገጽ ላይ ለመክፈት utxoዎችን በእጅ ይምረጡ፡ አካውንት > UTxO ዝርዝር።"
+  },
+  "lockedbytokens": {
+    "label": "ከቶከኖች ጋር የተሳሰረ",
+    "info": "በCardano ውስጥ፣ ማንኛውም ቶከን/ኤንኤፍቲ የተወሰነ {{currency}} ተያይዟል። በቶከኖች የተቆለፈው መጠን ለአሁኑ wallet ይህ ምን ያህል እንደሆነ (ግምት) ይነግርዎታል።"
+  },
+  "lockedByTokensTF": {
+    "label": "ለቶከን መበታተን",
+    "info": "ሁሉንም የዩቲኤክስኦዎችህን (UTxOs) በቶከን መበታተን ማደራጀት ይህን ያህል {{currency}} ያስራል።"
+  },
+  "lockedAsRewards": {
+    "label": "የተቆለፉ ሽልማቶች",
+    "info": "ሽልማቶች በ dapps ውስጥ ሊወጡ አይችሉም እና መጀመሪያ መውጣት አለባቸው። $t(common:appName) ይህንን በራስ-ሰር ማድረግ ይችላል፣ ወደዚህ ይሂዱ፡ አካውንት > Wallet ቅንጅቶች > ራስ-ሰር ማውጣት፣ እና ያንቁት። ለዚያም አካውንቱ ለ DRep አማራጭ መሰጠት አለበት።"
+  },
+  "lockedFees": {
+    "label": "የግብይት ክፍያዎች",
+    "info": "ግብይቶችን ለ Cardano blockchain ማስገባት የግብይት ክፍያዎችን ያስከፍላል።"
+  },
+  "lockedTotal": {
+    "label": "የተገመተ የተቆለፈ",
+    "info": "የተሰላ ጠቅላላ የተቆለፈ መጠን።"
+  },
+  "available": {
+    "label": "የተገመተ የሚገኝ",
+    "info": "እነዚህ ሁሉንም የተቆለፉ ገንዘቦችን ከቀነሱ በኋላ የሚላኩ ገንዘቦች ናቸው።"
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Aktif Hesap Adı",
+    "caption": "Mevcut hesap için hesap adı belirle",
+    "setting": {
+      "caption": "(Aktif) hesap adınızı güncelleyin veya bir Ada Handle seçin/seçimini kaldırın.",
+      "adaHandle": {
+        "select": "Hesap adı yerine hangi Ada Handle'ın gösterileceğini seçin (adı göstermek için seçimi kaldırın):"
+      },
+      "error": {
+        "empty": "Hesap adı boş olamaz.",
+        "duplicate": "Bu cüzdanda zaten bu isimde bir hesap var."
+      }
+    }
+  },
+  "export": {
+    "title": "Hesap Anahtarını Dışa Aktar",
+    "caption": "Bu hesabın açık anahtarını dışa aktar.",
+    "setting": {
+      "caption": "Bu hesabın açık anahtarını dışa aktar. Açık anahtarı içe aktarmak, hesap geçmişini imzalama devre dışı bırakılmış olarak salt okunur modda geri yükler.",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 genişletilmiş açık anahtar",
+        "xpub": "Ed25519-bip32 genişletilmiş açık anahtar",
+        "acct_vk": "Ed25519 açık anahtar"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Tek Adres Modu (SAM)",
+    "caption": "Tüm işlemler için yalnızca tek bir adres kullanın.",
+    "setting": {
+      "caption": "Etkinleştirildiğinde, tüm fonlar varsayılan olarak ilk alım adresinde tutulacaktır.",
+      "enabled": "$t(settings/account:samMode.title) etkinleştirildi",
+      "disabled": "$t(settings/account:samMode.title) devre dışı bırakıldı",
+      "customAddress": "Özel alım adresi",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Önemli!",
+          "text": "Özel bir alım adresi ayarlamak, bu hesaba ait olmasa bile tüm para üstü çıktılarını ve alım adresini bu adrese yönlendirecektir. Lütfen doğru adresin ayarlandığını doğruladığınızdan emin olun."
+        }
+      },
+      "notification": {
+        "wrongInput": "Geçerli bir adres değil.",
+        "wrongNetwork": "Bu adres farklı bir ağdan.",
+        "notOwned": "Bu adres bu hesaba ait değil ve özel alım adresi olarak kullanılamaz.",
+        "nonStaking": "Bu alım adresindeki fonlar harici bir stake anahtarıyla stake edilmiştir. Biriken ödülleri kontrol edemeyeceksiniz.",
+        "success": "Özel alım adresi ayarlandı.",
+        "error": "Özel alım adresi kaydedilemedi!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Teminat",
+    "caption": "Eternl tarafından sağlanan teminat kullanılsın mı?",
+    "setting": {
+      "caption": "Etkinleştirildiğinde, Eternl hesap için teminat sağlayacaktır.",
+      "info": "Akıllı sözleşmelerle etkileşim kurmak, bir işlem başarısız olursa teminat gerektirebilir. Uygun bir UTxO bulunursa bu durum Eternl tarafından otomatik olarak yönetilecektir.",
+      "waiting": "Bir teminat işlemi gönderdiniz. Lütfen bekleyin, henüz onaylanmadı.",
+      "foundCollateral": "Bu hesap için bir teminat UTxO'su zaten mevcut. Akıllı sözleşmelerle etkileşim kurulurken kullanılacaktır.",
+      "eternl": {
+        "label": "Eternl tarafından sağlanan teminat",
+        "enabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Teminat UTxO'su bulunamadı. Lütfen aşağıdaki düğmeye basarak bir tane ayarlayın.",
+      "button": {
+        "setCollateral": {
+          "label": "Teminat Ayarla",
+          "tooltip": "Bu hesap için bir teminat UTxO'su ayarlayın."
+        }
+      },
+      "error": {
+        "label": "Hata:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Lütfen Dikkat!",
+          "headline": "Teminat, hesaba dayalı bir ayardır."
+        },
+        "info": {
+          "text": "$t(common:appName), token içermeyen ve değeri ####minimumCollateral#### ile ####maximumCollateral#### arasında olan herhangi bir UTxO'yu teminat olarak kullanabilir. Bu ayarı etkinleştirdiğinizde, uygun bir UTxO arayacaktır. Hiçbiri mevcut değilse, bir tane ayarlamak için bir düğme gösterilecektir."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Manuel Senkronizasyon",
+    "caption": "Manuel senkronizasyonu ayarla",
+    "setting": {
+      "caption": "__GT__cüzdanı__ manuel olarak senkronize edin. Etkinleştirilirse, __GT__cüzdanın__ senkronizasyon simgesine tıklanarak manuel olarak senkronize edilmesi gerekir.",
+      "enabled": "$t(settings/account:manualSync.title) etkinleştirildi",
+      "disabled": "$t(settings/account:manualSync.title) devre dışı bırakıldı"
+    }
+  },
+  "historySync": {
+    "title": "Geçmiş Senkronizasyonu",
+    "caption": "Geçmiş senkronizasyonunu ayarla",
+    "setting": {
+      "caption": "Etkinleştirildiğinde, wallet hesabın tüm işlem geçmişini senkronize edecektir. Aksi takdirde, yalnızca son 1000 işlem senkronize edilir. Senkronizasyon toplu olarak gerçekleşir ve büyük bir geçmişe sahip hesaplar için biraz zaman alabilir.",
+      "enabled": "$t(settings/account:historySync.title) etkinleştirildi",
+      "disabled": "$t(settings/account:historySync.title) devre dışı bırakıldı",
+      "syncing": "Geçmiş senkronizasyonu hala devam ediyor. {{AMOUNT}} adet girdinin senkronize edilmesi bekleniyor."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Token Parçalama (TF)",
+    "caption": "Tokenları parçalayarak işlem ücretlerini azaltın.",
+    "fragment": {
+      "label": "Token paketi boyutu",
+      "error": "Token paketi boyut sınırı: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Her bir UTxO çıktısının içermesi gereken token sayısını ayarlar. Düşük işlem ücretleri ile wallet içinde kilitlenen fon miktarı arasında bir denge söz konusudur.\nküçük paket boyutu -> düşük ücretler, daha fazla Ada kilitli.\nbüyük paket boyutu -> daha yüksek ücretler, daha az Ada kilitli."
+    },
+    "setting": {
+      "caption": "Geri ödenecek para üstünde ayarlanan değerden daha fazla token varsa, gönderim sırasında tokenları paketlere ayırın. wallet UTxO/Token dağılımına ve istenen sonuca bağlı olarak, en iyi sonuç için değerlerin ayarlanması gerekebilir.",
+      "enabled": "$t(settings/account:tokenFragmentation.title) etkinleştirildi",
+      "disabled": "$t(settings/account:tokenFragmentation.title) devre dışı bırakıldı"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Gelişmiş UTxO Yönetimi",
+    "caption": "İşlemlerinizde gelişmiş UTxO yönetimini kullanın.",
+    "setting": {
+      "caption": "Etkinleştirildiğinde, $t(common:appName) işlemlerinizde gelişmiş UTxO yönetimini kullanacaktır.",
+      "subCaption": "İşlemlerin paralel yürütülmesi için 10 UTxO tutar. Ayrıca akıllı sözleşme etkileşimleri için 5 ADA teminat UTxO'su tutmaya çalışır.",
+      "enabled": "$t(settings/account:advancedUtxoManagement.title) etkinleştirildi",
+      "disabled": "$t(settings/account:advancedUtxoManagement.title) devre dışı bırakıldı"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Otomatik Ödül Çekme",
+    "caption": "Gerekirse ödülleri otomatik olarak çekin.",
+    "setting": {
+      "caption": "Etkinleştirildiğinde, bir işlem oluşturulurken gerekirse ödüller otomatik olarak çekilecektir. Devre dışı bırakılırsa veya zorunlu manuel çekim için Özet sayfasındaki Ödül Çekme düğmesini kullanın.",
+      "enabled": "$t(settings/account:autoWithdrawal.title) etkinleştirildi",
+      "disabled": "$t(settings/account:autoWithdrawal.title) devre dışı bırakıldı"
+    }
+  },
+  "unStake": {
+    "title": "wallet Stake İptali\n(wallet Kaydını Silme)",
+    "caption": "Mevcut hesabın herhangi bir havuzdan delegasyonunu kaldırın ve kayıt silme işlemi oluşturun.",
+    "setting": {
+      "caption": "Bu eylem bir hesap kayıt silme işlemi oluşturur. Tamamlandıktan sonra, hesabın herhangi bir havuzdan delegasyonu kaldırılacak ve hesabın ilk delege edildiği zamanki anahtar depozitosu iade edilecektir.",
+      "subCaption": "Lütfen havuz delegasyonundan bekleyen ödüllerin, catalyst ödüllerinin vb. hesap kaydı silindiğinde kaybolacağını unutmayın!",
+      "acknowledged": "Bekleyen tüm ödüllerin kaybolacağını anlıyorum.",
+      "noUtxo": "Kayıt silme işlem ücretini ödemek için {{currency}} gereklidir.",
+      "button": {
+        "deReg": {
+          "label": "Hesap Kaydını Sil",
+          "tooltip": "Hesabın havuz delegasyonu kaydını sil"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "DRep Kaydını Sil",
+    "caption": "Bir DRep kayıt silme işlemi oluşturun. Bu DRep'e delege edilen oy gücü kaybolacaktır.",
+    "setting": {
+      "caption": "Bu, bir DRep kayıt silme işlemi oluşturacaktır. Bu DRep'e delege edilen oy gücü kaybolacaktır.",
+      "subCaption": "staking ödüllerini çekme yeteneğini yeniden kazanmak için hesabınızı farklı bir DRep'e delege etmeniz gerekecektir.",
+      "acknowledged": "Delege edilen tüm oy gücünün kaybolacağını anlıyorum.",
+      "noUtxo": "Kayıt silme işlem ücretini ödemek için {{currency}} gereklidir.",
+      "button": {
+        "deReg": {
+          "label": "Hesap Kaydını Sil",
+          "tooltip": "Hesabın havuz delegasyonu kaydını sil"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Raporlama",
+    "caption": "Vergi raporlaması dışa aktarma ayarları."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "پروژه Catalyst",
+    "caption": "تمام اخبار مربوط به دور تأمین مالی فعلی را بخوانید.",
+    "text": "پروژه Catalyst هر چند ماه یکبار دورهای تأمین مالی دارد، با مقدار مشخصی ada آماده تخصیص به ایده‌ها.\n\nتمام اطلاعات مرتبط با تمام دورهای مالی قبلی و آتی را در وب‌سایت پروژه Catalyst پیدا کنید.",
+    "button": {
+      "label": "بازدید از صفحه",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "مرور همه پیشنهادها",
+    "text": "Catalyst از IdeaScale به عنوان یک پلتفرم نوآوری مشارکتی استفاده می‌کند.\n\nاین کار از طریق رأی دادن به پیشنهادهای تولید شده توسط جامعه انجام می‌شود که بر حل چالش یک دور مالی خاص تمرکز دارند.",
+    "button": {
+      "label": "بیشتر بدانید",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "پلتفرم داده همه‌کاره Catalyst",
+    "text": "آموزش Blockchain، اطلاع‌رسانی و ایجاد جامعه جهانی:\n\nچون آینده برای همه است!",
+    "button": {
+      "label": "بازدید از صفحه",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "خبرنامه",
+    "caption": "به‌روز بمانید",
+    "text": "برای خبرنامه پروژه Catalyst ثبت‌نام کنید تا آخرین اخبار و به‌روزرسانی‌ها را از دست ندهید.",
+    "button": {
+      "label": "اشتراک",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "با جامعه تعامل کنید",
+    "text": "به کانال‌های بحث و اعلان Telegram بپیوندید تا ایده‌های خود را در مورد پیشنهادهای بهبود آتی Cardano به اشتراک بگذارید و از بحثی سالم و پربار لذت ببرید.",
+    "button1": {
+      "label": "اعلان‌ها",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "چت جامعه",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "جلسه عمومی (Town Hall)",
+    "caption": "با سازندگان آشنا شوید",
+    "text": "بیایید و با سازندگان آینده Cardano در جلسات هفتگی عمومی (Town Hall) ملاقات کنید. ارائه‌های زنده آن‌ها را تماشا کنید و در گفتگوهای معنادار شرکت کنید.",
+    "button": {
+      "label": "ضبط جلسات هفتگی عمومی (Town Hall)",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "نمایش چالش‌ها",
+      "hide": "پنهان کردن چالش‌ها",
+      "link": "وب‌سایت چالش",
+      "allocation": "تخصیص بودجه"
+    },
+    "timeline": {
+      "caption": "جدول زمانی نشان داده شده در زیر ممکن است تغییر کند. با بازدید مجدد از این صفحه و شرکت در جلسات هفتگی عمومی (town hall) Catalyst به‌روز بمانید.",
+      "snapshot": {
+        "label": "اسنپ‌شات قدرت رأی‌دهی",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "شروع رأی‌گیری",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "پایان رأی‌گیری",
+        "caption": ""
+      },
+      "result": {
+        "label": "نتیجه",
+        "caption": "± چند روز."
+      }
+    }
+  }
+}

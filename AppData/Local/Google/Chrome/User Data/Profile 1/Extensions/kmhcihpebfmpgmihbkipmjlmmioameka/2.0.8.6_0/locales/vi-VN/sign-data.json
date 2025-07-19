@@ -1,0 +1,12 @@
+{
+  "title": "Bạn có dữ liệu cần xác nhận",
+  "caption": "Xác nhận quyền sở hữu khóa được yêu cầu bằng cách ký payload được cung cấp",
+  "loading": "Đang xử lý dữ liệu để ký",
+  "signing": "Đang ký payload",
+  "hw": "Đang ký payload trên thiết bị {{device}}",
+  "json": "Payload JSON",
+  "hex": "Payload thô",
+  "text": "Văn bản",
+  "blake2b224": "Hash Blake2b224 của payload",
+  "reqSign": "Yêu cầu chữ ký: khóa {{keyType}}"
+}

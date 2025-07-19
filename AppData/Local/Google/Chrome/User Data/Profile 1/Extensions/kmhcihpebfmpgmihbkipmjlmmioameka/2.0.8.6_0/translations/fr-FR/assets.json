@@ -1,0 +1,66 @@
+{
+  "title": "Détails de l'actif",
+  "owns": "Le compte possède",
+  "youOwn": "vous possédez",
+  "numAssets": "{{numAssets}} actif(s) unique(s) trouvé(s).",
+  "tab": {
+    "details": "Détails",
+    "metadata": "Métadonnées",
+    "raw": "Données brutes",
+    "registry": "Registre des tokens",
+    "media": "Média"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Ajouter l'actif",
+      "tooltip": "Ajouter l'actif à ce destinataire."
+    },
+    "editAsset": {
+      "label": "Modifier l'actif",
+      "tooltip": "Modifier le montant."
+    },
+    "addAssets": {
+      "label": "Ajouter des actifs",
+      "tooltip": "Ajouter plus d'actifs à ce destinataire."
+    },
+    "editAssets": {
+      "label": "Modifier les actifs",
+      "tooltip": "Modifier les actifs déjà ajoutés."
+    },
+    "removeAsset": {
+      "label": "Supprimer l'actif",
+      "tooltip": "Supprimer l'actif de ce destinataire."
+    },
+    "addCollection": {
+      "label": "Ajouter la collection",
+      "tooltip": "Ajouter la collection à ce destinataire."
+    },
+    "removeCollection": {
+      "label": "Supprimer la collection",
+      "tooltip": "Supprimer la collection de ce destinataire."
+    }
+  },
+  "hover": {
+    "removeAsset": "Supprimer l'actif"
+  },
+  "filter": {
+    "search": "Rechercher par policy, nom, fingerprint ou Métadonnées..."
+  },
+  "price": {
+    "unknown": "Valeur du token inconnue",
+    "value": "Valeur du token",
+    "avg": "Prix moyen"
+  },
+  "media": {
+    "format": {
+      "html": "Fichier HTML",
+      "pdf": "Fichier PDF",
+      "image": "Image",
+      "video": "Vidéo",
+      "audio": "Audio"
+    }
+  },
+  "digits": {
+    "unknown": "Décimales inconnues"
+  }
+}

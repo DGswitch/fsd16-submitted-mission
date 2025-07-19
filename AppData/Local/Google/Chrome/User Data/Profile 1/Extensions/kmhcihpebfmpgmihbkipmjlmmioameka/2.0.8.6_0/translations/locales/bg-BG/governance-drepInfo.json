@@ -1,0 +1,54 @@
+{
+  "title": "Информация за DRep",
+  "noInfo": "Няма налична информация.",
+  "drepId": {
+    "label": "DRep Id (CIP129)",
+    "default": "Опция по подразбиране",
+    "missing": "липсващ"
+  },
+  "govAction": {
+    "id": "Governance action Id",
+    "missing": "Неизвестен governance action Id",
+    "comment": "Обосновка на DRep"
+  },
+  "votingPower": "Сила на гласуване",
+  "numDelegators": "Делегатори",
+  "paymentAddress": "Адрес за плащане",
+  "objectives": "цели",
+  "qualifications": "квалификации",
+  "motivation": "мотивация",
+  "tab": {
+    "info": {
+      "label": "Информация"
+    },
+    "votes": {
+      "label": "Гласове",
+      "noVotesFound": "Не са намерени гласове."
+    }
+  },
+  "badge": {
+    "status": {
+      "active": {
+        "label": "Активен",
+        "tooltip": "DRep е активен и did наскоро гласува по предложения."
+      },
+      "inactive": {
+        "label": "Неактивен",
+        "tooltip": "DRep е неактивен и did не гласува наскоро по предложения."
+      },
+      "unregistered": {
+        "label": "Дерегистриран",
+        "tooltip": "DRep е дерегистриран."
+      },
+      "selfDelegated": {
+        "label": "Самоделегиран",
+        "tooltip": "Този акаунт е делегиран на себе си."
+      }
+    }
+  },
+  "error": {
+    "noDRepCred": "Не са намерени DRep credentials за този акаунт.",
+    "noDRepId": "Няма DRep id, към който да делегирате.",
+    "invalidDRepId": "Това е невалиден DRep Id"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Dasbor Staking",
+  "caption": "Di sini Anda dapat mengelola dan mendelegasikan ADA Anda ke Stakepool dan mendapatkan penghasilan pasif.",
+  "subCaption": "Dana Anda tidak pernah meninggalkan wallet Anda untuk staking di Cardano, dan dapat dibelanjakan kapan saja.",
+  "staking-cta": {
+    "title": "Dapatkan hadiah staking!",
+    "caption": "Klik tombol untuk memilih stake pool.",
+    "button": "Stake"
+  },
+  "poollist": {
+    "title": "Stake pool yang tersedia",
+    "caption": "Daftar stake pool yang tersedia. Masukkan ticker atau nama pool untuk memfilter daftar. Peringkat memprioritaskan hadiah optimal bagi pengguna.",
+    "filter": {
+      "search": "Cari pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "tidak ada data pool yang tersedia",
+      "undelegated": "tidak didelegasikan",
+      "delegated": "didelegasikan",
+      "deregistered": "dibatalkan pendaftarannya",
+      "registered": "terdaftar",
+      "pending": "tertunda",
+      "producing": "memproduksi"
+    },
+    "history": {
+      "label": "Riwayat Hadiah",
+      "caption": "Daftar hadiah yang diperoleh dari staking dan voting Catalyst diurutkan berdasarkan epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Hadiah",
+      "refund": "Pengembalian Dana Pembatalan Pendaftaran Pool",
+      "pool": "Pool",
+      "treasury": "Catalyst Voting",
+      "leader": "Hadiah Operator Pool",
+      "reserves": "Hadiah Instan"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Harap pertimbangkan untuk mendelegasikan ke DRep untuk tindakan tata kelola. Ini akan diperlukan di era berikutnya untuk dapat menarik hadiah staking"
+      },
+      "inactive": "Akun didelegasikan ke DRep tata kelola yang ditandai sebagai tidak aktif dan karenanya tidak lagi dihitung dalam stake voting aktif"
+    },
+    "warning": {
+      "high": {
+        "headline": "Biaya Pool Tinggi",
+        "caption": "Pool tempat akun ini didelegasikan memiliki biaya yang sangat tinggi yang akan mengurangi hadiah staking Anda. Jika ini semacam ISPO, tidak masalah. Jika tidak, Anda sebaiknya memilih pool lain dengan biaya lebih rendah"
+      },
+      "complete": {
+        "headline": "Biaya Pool 99%+",
+        "caption": "Pool tempat akun ini didelegasikan membebankan biaya setidaknya 99% dan mengumpulkan hadiah ADA Anda. Jika ini semacam ISPO, tidak masalah. Jika tidak, Anda sebaiknya memilih pool lain dengan biaya lebih rendah"
+      }
+    }
+  }
+}

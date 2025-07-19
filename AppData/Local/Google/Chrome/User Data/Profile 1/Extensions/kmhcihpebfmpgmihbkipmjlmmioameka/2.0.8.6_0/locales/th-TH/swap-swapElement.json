@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "รวบรวมราคาที่ดีที่สุดจากผู้รวบรวมหลายรายให้คุณ",
+  "select": "เลือก",
+  "sell": "คุณขาย",
+  "buy": "คุณซื้อ",
+  "balance": "พร้อมใช้งานสำหรับการ swap",
+  "aggAndDexs": "Agg & DEXs:",
+  "provider": "ผู้ให้บริการ",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "ล้างข้อมูลที่ป้อนทั้งหมด"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "สร้างธุรกรรม swap"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "กำลังสร้างธุรกรรม swap"
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "ค่าธรรมเนียม Batcher & Pool Volume (DEXs)",
+      "tooltip": "DEXs กำหนดค่าธรรมเนียมในการประมวลผลคำสั่งซื้อของคุณ ค่าธรรมเนียมนี้ไม่สามารถขอคืนได้"
+    },
+    "aggregatorFee": {
+      "label": "ค่าบริการ",
+      "tooltip": "นี่คือค่าธรรมเนียมความสะดวกสบาย ซึ่งช่วยสนับสนุนการพัฒนาผู้รวบรวมและ Eternl"
+    },
+    "deposit": {
+      "label": "เงินมัดจำที่ขอคืนได้",
+      "tooltip": "ต้องมีเงินมัดจำเพื่อประมวลผลคำสั่งซื้อของคุณ จำนวนนี้จะถูกส่งคืนไปยัง wallet ของคุณพร้อมกับโทเค็นที่คุณได้รับ"
+    }
+  }
+}

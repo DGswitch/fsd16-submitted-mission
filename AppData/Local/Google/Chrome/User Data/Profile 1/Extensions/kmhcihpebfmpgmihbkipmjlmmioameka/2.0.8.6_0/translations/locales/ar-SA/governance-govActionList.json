@@ -1,0 +1,107 @@
+{
+  "title": "اقتراح حوكمة",
+  "proposedEpoch": "اقتراح حقبة",
+  "expiryEpoch": "انتهاء صلاحية حقبة",
+  "enactedEpoch": "عمر حقبة",
+  "totalVotes": "إجمالي الأصوات",
+  "yes": "$t(common:vote.yes)",
+  "govAction": {
+    "id": "معرّف إجراءات الحوكمة",
+    "missing": "معرّف إجراءات حوكمة غير معروف",
+    "summary": {
+      "voteStart": "بداية التصويت ($t(common:epoch)/$t(common:slot))",
+      "voteEnd": "نهاية التصويت ($t(common:epoch)/الوقت المتبقي)",
+      "deposit": "$t(common:deposit)",
+      "depositReturnAddress": "عنوان الإرجاع $t(common:deposit)"
+    },
+    "details": {
+      "dRep": {
+        "label": "$t(governance-govActionList:voteGroup.dRep) ($t(common:dRep))",
+        "approvalThreshold": "عتبة الموافقة",
+        "table": {
+          "header": {
+            "votes": "الأصوات",
+            "amount": "المبلغ",
+            "percent": "النسبة المئوية",
+            "count": "العدد"
+          },
+          "rows": {
+            "yesVoteStake": "نعم",
+            "noVoteStake": "لا",
+            "abstainVoteStake": "امتناع"
+          }
+        }
+      },
+      "dRepStakeParticipation": {
+        "label": "$t(common:dRep) حصة الرهان",
+        "hasVoted": "صوّت",
+        "hasNotVoted": "لم يصوّت"
+      },
+      "spo": {
+        "label": "$t(governance-govActionList:voteGroup.spo) ($t(common:spo))",
+        "approvalThreshold": "عتبة الموافقة",
+        "table": {
+          "header": {
+            "votes": "الأصوات",
+            "amount": "المبلغ",
+            "percent": "النسبة المئوية",
+            "count": "العدد"
+          },
+          "rows": {
+            "yesVoteStake": "نعم",
+            "noVoteStake": "لا",
+            "abstainVoteStake": "امتناع"
+          }
+        }
+      },
+      "spoStakeParticipation": {
+        "label": "$t(common:spo) حصة الرهان",
+        "hasVoted": "صوّت",
+        "hasNotVoted": "لم يصوّت"
+      },
+      "cc": {
+        "label": "اللجنة الدستورية",
+        "approvalThreshold": "عتبة الموافقة",
+        "table": {
+          "header": {
+            "name": "الاسم",
+            "status": "الحالة"
+          },
+          "rows": {
+            "yesVoteStake": "نعم",
+            "noVoteStake": "لا",
+            "abstainVoteStake": "امتناع"
+          }
+        }
+      }
+    },
+    "meta": {
+      "abstract": "ملخص",
+      "motivation": "الدافع",
+      "rationale": "الأساس المنطقي",
+      "references": "المراجع"
+    }
+  },
+  "voteGroup": {
+    "currentStatus": {
+      "label": "الحالة الحالية",
+      "text": "عشان الاقتراح ده ينجح، لازم تصوّت {{voteGroup}}"
+    },
+    "dRep": "الممثلون المفوضون",
+    "spo": "مشغلي مجمعات الرهن",
+    "cc": "اللجنة الدستورية",
+    "and": "$t(common:and)"
+  },
+  "tab": {
+    "summary": "ملخص",
+    "details": "تفاصيل التصويت",
+    "metadata": "بيانات وصفية"
+  },
+  "filter": {
+    "search": "ابحث عن إجراء حوكمة..."
+  },
+  "select": {
+    "proposalType": "نوع الاقتراح",
+    "proposalStatus": "حالة الاقتراح"
+  }
+}

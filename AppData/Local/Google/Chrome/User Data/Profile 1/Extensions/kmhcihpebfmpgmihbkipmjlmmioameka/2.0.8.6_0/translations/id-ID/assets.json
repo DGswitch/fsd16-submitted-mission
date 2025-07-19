@@ -1,0 +1,66 @@
+{
+  "title": "Detail aset",
+  "owns": "Akun memiliki",
+  "youOwn": "Anda miliki",
+  "numAssets": "{{numAssets}} aset unik ditemukan.",
+  "tab": {
+    "details": "Detail",
+    "metadata": "Metadata",
+    "raw": "Data Mentah",
+    "registry": "Registri Token",
+    "media": "Media"
+  },
+  "button": {
+    "addAsset": {
+      "label": "Tambah aset",
+      "tooltip": "Tambahkan aset ini ke penerima ini."
+    },
+    "editAsset": {
+      "label": "Edit aset",
+      "tooltip": "Ubah jumlah."
+    },
+    "addAssets": {
+      "label": "Tambah aset",
+      "tooltip": "Tambahkan lebih banyak aset ke penerima ini."
+    },
+    "editAssets": {
+      "label": "Edit aset",
+      "tooltip": "Ubah aset yang sudah ditambahkan."
+    },
+    "removeAsset": {
+      "label": "Hapus aset",
+      "tooltip": "Hapus aset dari penerima ini."
+    },
+    "addCollection": {
+      "label": "Tambah koleksi",
+      "tooltip": "Tambahkan koleksi ini ke penerima ini."
+    },
+    "removeCollection": {
+      "label": "Hapus koleksi",
+      "tooltip": "Hapus koleksi dari penerima ini."
+    }
+  },
+  "hover": {
+    "removeAsset": "Hapus aset"
+  },
+  "filter": {
+    "search": "Cari berdasarkan policy, nama, fingerprint, atau metadata..."
+  },
+  "price": {
+    "unknown": "Nilai token tidak diketahui",
+    "value": "Nilai token",
+    "avg": "Harga rata-rata"
+  },
+  "media": {
+    "format": {
+      "html": "File HTML",
+      "pdf": "File PDF",
+      "image": "Gambar",
+      "video": "Video",
+      "audio": "Audio"
+    }
+  },
+  "digits": {
+    "unknown": "Desimal tidak diketahui"
+  }
+}

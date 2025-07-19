@@ -1,0 +1,55 @@
+{
+  "spo": "gestisce un singolo stake pool",
+  "mpo": "gestisce {{count}} stake pool",
+  "retired": "Ritirato nell'epoch {{epoch}}",
+  "retiredIn": "Ritirato nell'epoch {{epoch}}",
+  "noRewards": "Questo pool NON guadagnerà ricompense in {{adaSymbol}}.",
+  "lessRewards": "Questo pool guadagnerà meno ricompense del solito.",
+  "history": "Cronologia Ricompense",
+  "fees": "Commissioni",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Verde: entro l'intervallo ottimale. Rosso: guadagna meno ricompense."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Verde: entro l'intervallo normale. Rosso: guadagna meno ricompense."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake. Performance degli ultimi 12 epoch. Verde: entro l'intervallo normale. ROS fluttuerà maggiormente per i pool con meno stake."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Richiedi ricompense",
+      "syncing": "Wallet in sincronizzazione",
+      "norewards": "Nessuna ricompensa disponibile"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Ultimo mese",
+      "3months": "Ultimi 3 mesi",
+      "6months": "Ultimi 6 mesi",
+      "year": "Ultimo anno"
+    },
+    "view-history": "Visualizza Cronologia",
+    "view-graph": {
+      "stake-key": "chiave di stake dell'account"
+    },
+    "approx-earning": "Ricompense stimate per il prossimo anno",
+    "unclaimed-ada": "ADA non riscossi",
+    "lifetime-earning": "In totale hai guadagnato",
+    "lifetime-apy": "APY complessivo",
+    "lifetime-earned": "da quando hai iniziato lo staking",
+    "epoch-ends-in": "Questo epoch termina tra",
+    "search": "Inserisci un ticker, nome o dettagli",
+    "delegate": "Scegli questo pool",
+    "openPoolList": "Apri elenco pool"
+  }
+}

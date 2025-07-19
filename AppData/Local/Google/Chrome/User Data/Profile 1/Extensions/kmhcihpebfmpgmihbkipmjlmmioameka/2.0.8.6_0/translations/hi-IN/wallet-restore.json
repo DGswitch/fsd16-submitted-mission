@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "12 शब्दों का फ़्रेज़",
+      "caption": "एक 12 शब्दों वाला Shelley wallet."
+    },
+    "15": {
+      "label": "15 शब्दों का फ़्रेज़",
+      "caption": "उदा. एक Yoroi Shelley wallet."
+    },
+    "24": {
+      "label": "24 शब्दों का फ़्रेज़",
+      "caption": "एक Shelley wallet जो बनाया गया है, उदा. Eternl या Daedalus द्वारा."
+    },
+    "title": "सीड फ़्रेज़ का प्रकार",
+    "caption": "आप किस प्रकार का wallet रीस्टोर करना चाहेंगे?"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "अपना सेव किया हुआ सीड फ़्रेज़ दर्ज करें"
+  }
+}

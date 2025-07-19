@@ -1,0 +1,20 @@
+{
+  "menuLabel": "投資組合",
+  "title": "投資組合",
+  "caption": "此帳戶中資產價值的總覽。",
+  "description": "這些數字是您 钱包 中代幣價值的估計值。數值每 5 分鐘更新一次，價格是不同去中心化交易所的匯總。",
+  "header": {
+    "caption": "此 钱包 擁有 {{asset_count}} 種不同的資產。價值低於 1 wallet 的餘額將被隱藏。"
+  },
+  "value": "資產價值",
+  "estimated": "估計總價值",
+  "table": {
+    "header": {
+      "asset": "資產",
+      "price": "價格",
+      "owned": "持有數量",
+      "percent": "佔投資組合 %",
+      "swaptoken": "交換代幣"
+    }
+  }
+}

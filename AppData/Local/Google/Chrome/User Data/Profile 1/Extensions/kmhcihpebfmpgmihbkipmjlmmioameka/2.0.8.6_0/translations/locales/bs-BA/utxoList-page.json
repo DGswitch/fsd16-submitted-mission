@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO Lista",
+  "title": "Račun UTxO Lista",
+  "caption": "Lista svih UTxO-a pod upravljanjem ovog računa, uključujući iznos i liste tokena.",
+  "subCaption": "UTxO je kao novčanica proizvoljne vrijednosti. Transakcije je troše i vraćaju 'kusur novčanice' u tvoj wallet.",
+  "empty": "Ovaj račun nema UTxO-a.",
+  "selectAll": "Označi sve",
+  "filter": {
+    "headline": "UTxO Filter",
+    "caption": "Postavi parametre ili unesi tekst za pretragu da filtriraš utxo listu.",
+    "search": "Pretraži po adresi, putanji ili tx id-u...",
+    "more": "Više",
+    "minada": "Minimalni {{adaCurrency}} iznos",
+    "maxada": "Maksimalni {{adaCurrency}} iznos",
+    "numAssets": "{{numAssets}} jedinstven(ih) asset(a) pronađeno."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO na {{address_count}} adresa",
+    "pendingIn": {
+      "hint": "(čekajući ulazi, potrošeni utxo-i)"
+    },
+    "pendingOut": {
+      "hint": "(čekajući izlazi, kreirani utxo-i)"
+    },
+    "opkosk": {
+      "label": "Zarađivanje nagrada",
+      "hint": "(ključ za plaćanje računa, ključ za ulog računa)"
+    },
+    "opk": {
+      "label": "Nije uložen",
+      "hint": "(ključ za plaćanje računa, nema ključa za ulog)"
+    },
+    "opkesk": {
+      "label": "delegirano eksterno",
+      "hint": "(ključ za plaćanje računa, eksterni ključ za ulog)"
+    },
+    "epkosk": {
+      "label": "Eksterni fondovi, ali zarađuju nagrade",
+      "hint": "(eksterni ključ za plaćanje, ključ za ulog računa)"
+    },
+    "collateral": {
+      "label": "Kolateral",
+      "hint": "(nisu svi postavljeni kao kolateral)"
+    },
+    "locked": {
+      "label": "zaključani UTxO-i"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Pregled Uloga",
+    "controlledStake": {
+      "label": "kontrolisani ulog",
+      "tooltip": "Ukupan iznos uložen na ključ za ulog ovog računa (bilo vlastiti, eksterni ili u pametnim ugovorima)."
+    },
+    "ownedStake": {
+      "label": "Vlastiti ulog",
+      "tooltip": "Iznos uloga pod direktnom kontrolom ovog računa."
+    },
+    "notStaked": {
+      "label": "Nije uložen",
+      "tooltip": "{{currency}} nije u steku, sredstva su na enterprise adresama."
+    },
+    "externallyStaked": {
+      "label": "Eksterno uložen",
+      "tooltip": "{{currency}} kontrolisana ovim računom - kombinovano sa bilo kojim eksternim staking ključevima."
+    }
+  }
+}

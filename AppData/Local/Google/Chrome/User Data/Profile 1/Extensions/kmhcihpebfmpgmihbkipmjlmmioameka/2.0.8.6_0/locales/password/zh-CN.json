@@ -1,0 +1,58 @@
+{
+  "general": {
+    "weak": "太簡單",
+    "medium": "一般複雜度",
+    "strong": "強密碼",
+    "prompt": "選擇密碼"
+  },
+  "spending": {
+    "verifying": "正在驗證消費密碼，請稍候。",
+    "enter": {
+      "label": "輸入密碼",
+      "hint": "輸入消費密碼",
+      "error": "需要中等強度嘅密碼"
+    },
+    "repeat": {
+      "label": "重複密碼",
+      "error": "密碼唔匹配",
+      "hint": "再次輸入相同嘅消費密碼",
+      "ok": "密碼已確認且長度有效"
+    },
+    "current": {
+      "hint": "輸入目前嘅消費密碼"
+    },
+    "sign": {
+      "label": "簽署",
+      "info": "輸入你 wallet 嘅消費密碼。呢個係你創建/還原呢個 wallet 時輸入嘅密碼。",
+      "hint": "輸入消費密碼",
+      "error": "輸入嘅密碼同呢個 wallet 嘅消費密碼唔匹配。"
+    },
+    "addAccount": {
+      "error": "輸入嘅密碼同呢個 wallet 嘅消費密碼唔匹配。",
+      "match": "舊消費密碼已確認。"
+    }
+  },
+  "mnemonic": {
+    "error": {
+      "invalid": "輸入嘅助記詞列表唔係有效嘅列表。請仔細檢查所有詞語。"
+    },
+    "noresult": "搵唔到匹配嘅 bip39 詞語"
+  },
+  "message": {
+    "title": "訊息密碼",
+    "caption": "輸入密碼以解密訊息。",
+    "encrypt": {
+      "hint": "為交易訊息輸入密碼"
+    },
+    "decrypt": {
+      "hint": "輸入密碼以解密交易訊息"
+    }
+  },
+  "legacyBackup": {
+    "title": "舊版備份密碼",
+    "caption": "輸入你用嚟加密舊版備份檔案嘅密碼。",
+    "decrypt": {
+      "hint": "輸入密碼以解密備份"
+    }
+  }
+}

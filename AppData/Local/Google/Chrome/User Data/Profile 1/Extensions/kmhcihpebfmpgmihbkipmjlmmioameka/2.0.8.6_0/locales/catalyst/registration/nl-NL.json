@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst Registratie",
+  "status": {
+    "wrongnetwork": {
+      "title": "Niet ondersteund",
+      "text": "Catalyst wordt niet ondersteund op het huidig geselecteerde netwerk."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Niet geregistreerd",
+        "text": "Het account is niet geregistreerd voor staking. Delegeer eerst naar een stake pool, registreer je daarna voor Catalyst stemmen."
+      },
+      "nocatalyst": {
+        "title": "Geen Catalyst registratie",
+        "text": "Eternl herkent de stemsleutel niet. Het account is mogelijk nooit geregistreerd of is geregistreerd met een andere app."
+      },
+      "hascatalyst": {
+        "title": "Catalyst registratie",
+        "text": "Het account is geregistreerd voor Catalyst stemmen. De Catalyst stemsleutel is opgeslagen in Eternl.",
+        "scan": "Scan de QR-code in de Catalyst stem-app en volg de instructies.",
+        "reveal": "Deel de Catalyst stemsleutel en pincode niet met anderen. Deze wordt gebruikt om te stemmen in Catalyst financieringsrondes.",
+        "voteKey": "Catalyst stemsleutel",
+        "banner": {
+          "title": "Download de QR-code",
+          "text": "Een lokale back-up van de Catalyst stemsleutel wordt opgeslagen in Eternl voor hersteldoeleinden. Deze back-up is echter apparaatspecifiek en zal niet beschikbaar zijn bij het herstellen van de wallet op een ander apparaat met de wallet herstelzin. Alleen een wallet JSON-back-up die na de Catalyst registratie is gemaakt, kan deze herstellen. Het wordt sterk aanbevolen om de QR-code afbeelding te downloaden en veilig op te slaan, bijvoorbeeld in een wachtwoordmanager."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Kies een stake pool"
+        },
+        "register": {
+          "label": "Registreer voor Catalyst stemmen"
+        },
+        "reregister": {
+          "label": "Maak nieuwe registratie aan"
+        },
+        "download": {
+          "label": "Download de Catalyst sleutel"
+        },
+        "reveal": {
+          "label": "Onthul Catalyst sleutel"
+        },
+        "hide": {
+          "label": "Verberg Catalyst sleutel"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Stemapplicatie",
+      "caption": "Download de Catalyst mobiele app op je telefoon.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "Links naar de app store!",
+          "text": "NIET voor gebruik in de Catalyst mobiele app!\n\nDeze QR-codes linken naar de app stores waar je de Catalyst mobiele app kunt downloaden en installeren."
+        }
+      }
+    },
+    "pin": {
+      "title": "Pincode configureren",
+      "caption": {
+        "enter": "Stel een pincode in om uw Catalyst stemsleutel te beveiligen.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Schrijf de pincode op",
+        "text": "Zorg ervoor dat je de pincode opschrijft!\nAls je de pincode kwijtraakt, is een nieuwe registratie van de stemsleutel vereist."
+      }
+    },
+    "tx": {
+      "title": "Stemregistratie Transactie",
+      "caption": "Registreer uw Catalyst stemsleutel.",
+      "note": {
+        "title": "Stemkracht",
+        "text": "De stemkracht schaalt mee met het bedrag aan tegoeden op het moment van de snapshot. Een hoger saldo vergroot uw invloed tijdens de snapshot."
+      },
+      "warning": {
+        "title": "Minimumbedrag",
+        "text": "Een minimumsaldo van 25 ADA is vereist om uw stemsleutel op te nemen in de snapshot. Zonder dit minimum kunt u niet stemmen of beloningen ontvangen in een financieringsronde."
+      },
+      "success": "Catalyst registratie succesvol.",
+      "saved": "Catalyst stemsleutel succesvol opgeslagen in Eternl.",
+      "error": {
+        "save": "Opslaan van Catalyst stemsleutel in Eternl mislukt."
+      }
+    }
+  }
+}

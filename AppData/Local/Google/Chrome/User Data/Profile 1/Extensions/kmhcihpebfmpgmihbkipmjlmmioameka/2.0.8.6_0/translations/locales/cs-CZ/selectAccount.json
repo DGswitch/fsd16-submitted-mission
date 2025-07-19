@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "Přepínejte mezi peněženkami.",
+    "accounts": {
+      "select": "kliknutím vyber účet",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Vyberte konkrétní wallet pro přepínání mezi účty.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Přepněte aktivní účet $t(common:dApp)."
+    },
+    "accounts": {
+      "select": "Vyberte účet ze seznamu. Označte účet jako oblíbený přepnutím ikony hvězdy.",
+      "manage": "Přidejte nebo odeberte účty, vyberte konkrétní indexy účtů nebo nastavte názvy účtů."
+    }
+  },
+  "groups": {
+    "placeholder": "Vyberte aktivní skupiny wallet",
+    "favoriteAccounts": "Oblíbené účty"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Název účtu:",
+    "index": "Index:",
+    "limit": "Limit:",
+    "remove": {
+      "tooltip": "Odebrat účet"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Přidat nové účty"
+  },
+  "notification": {
+    "updated": "Seznam účtů aktualizován.",
+    "error": "Neznámá chyba při ukládání aktualizované wallet do databáze.",
+    "errorRemove": "Účet s ID {{accountId}} nelze odebrat.",
+    "noWallet": "Wallet nenalezena.",
+    "errorKey": "Seznam odvozených veřejných klíčů neodpovídá požadovanému seznamu cest.",
+    "limit": "Do týhle wallet už nemůžeš přidat další účty."
+  }
+}

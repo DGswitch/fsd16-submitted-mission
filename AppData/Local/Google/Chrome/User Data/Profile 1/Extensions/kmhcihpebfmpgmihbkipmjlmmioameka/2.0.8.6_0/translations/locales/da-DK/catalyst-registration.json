@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst Registrering",
+  "status": {
+    "wrongnetwork": {
+      "title": "Ikke understøttet",
+      "text": "Catalyst er ikke understøttet på det valgte netværk."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Ikke registreret",
+        "text": "Kontoen er ikke registreret til staking. Deleger til en stake pool først, og registrer dig derefter til Catalyst voting."
+      },
+      "nocatalyst": {
+        "title": "Ingen Catalyst registrering",
+        "text": "Eternl genkender ikke voting key. Kontoen er muligvis aldrig blevet registreret eller blev registreret med en anden app."
+      },
+      "hascatalyst": {
+        "title": "Catalyst Registrering",
+        "text": "Kontoen er registreret til Catalyst voting. Catalyst voting key er gemt i Eternl.",
+        "scan": "Scan QR-koden i Catalyst voting appen og følg instruktionerne.",
+        "reveal": "Del ikke Catalyst voting key og PIN med nogen. Den bruges til at stemme i Catalyst finansieringsrunder.",
+        "voteKey": "Catalyst voting key",
+        "banner": {
+          "title": "Download QR-koden",
+          "text": "En lokal backup af Catalyst voting key er gemt i Eternl til gendannelsesformål. Denne backup er dog enhedsspecifik og vil ikke være tilgængelig ved gendannelse af wallet på en anden enhed ved hjælp af wallet phrase. Kun en wallet JSON backup oprettet efter Catalyst registreringen kan gendanne den. Det anbefales kraftigt at downloade QR-kode billedet og opbevare det sikkert, for eksempel i en password manager."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Vælg en stake pool"
+        },
+        "register": {
+          "label": "Registrer dig til Catalyst voting"
+        },
+        "reregister": {
+          "label": "Opret ny registrering"
+        },
+        "download": {
+          "label": "Download Catalyst key"
+        },
+        "reveal": {
+          "label": "Vis Catalyst key"
+        },
+        "hide": {
+          "label": "Skjul Catalyst key"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Voting Application",
+      "caption": "Download Catalyst mobilappen til din telefon.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "App store links!",
+          "text": "IKKE til brug i Catalyst mobilappen!\n\nDisse QR-koder linker til app stores, hvor du kan downloade og installere Catalyst mobilappen."
+        }
+      }
+    },
+    "pin": {
+      "title": "Konfigurer PIN-kode",
+      "caption": {
+        "enter": "Indstil en PIN-kode for at sikre din Catalyst voting key.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Skriv PIN-koden ned",
+        "text": "Sørg for at skrive PIN-koden ned!\nHvis du mister PIN-koden, kræves en ny voting key registrering."
+      }
+    },
+    "tx": {
+      "title": "Voting Registration Transaction",
+      "caption": "Registrer din Catalyst voting key.",
+      "note": {
+        "title": "Voting power",
+        "text": "Din voting power afhænger af mængden af midler, der er til rådighed på snapshot-tidspunktet. En højere balance øger din indflydelse under snapshot."
+      },
+      "warning": {
+        "title": "Minimum amount",
+        "text": "Der kræves en minimumssaldo på 25 {{currency}}, for at din stemmenøgle kan inkluderes i snapshot'et. Uden dette minimum, kan du ikke stemme eller modtage belønninger i en finansieringsrunde."
+      },
+      "success": "Catalyst registrering lykkedes.",
+      "saved": "Catalyst voting key er gemt i Eternl.",
+      "error": {
+        "save": "Kunne ikke gemme Catalyst voting key i Eternl."
+      }
+    }
+  }
+}

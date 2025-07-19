@@ -1,0 +1,20 @@
+{
+  "title": "Pilih tipe wallet",
+  "caption": "Pembuatan wallet tingkat lanjut. Kembali untuk opsi umum.",
+  "import-wallet": {
+    "title": "Impor Cadangan",
+    "caption": "Pulihkan dari file cadangan JSON Eternl"
+  },
+  "cli-skey-wallet": {
+    "title": "Kunci Penandatanganan CLI",
+    "caption": "Impor kunci penandatanganan (skey) yang dihasilkan CLI"
+  },
+  "account-pub-wallet": {
+    "title": "Kunci Publik Akun (hanya baca)",
+    "caption": "Masukkan kunci publik akun yang diekspor"
+  },
+  "address-wallet": {
+    "title": "Alamat (hanya baca)",
+    "caption": "Buat dari alamat bech32"
+  }
+}

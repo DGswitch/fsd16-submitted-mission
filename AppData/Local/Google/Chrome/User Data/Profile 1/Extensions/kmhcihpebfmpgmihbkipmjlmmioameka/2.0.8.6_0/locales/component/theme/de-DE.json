@@ -1,0 +1,14 @@
+{
+  "eternl": {
+    "label": "Eternl Theme",
+    "caption": "Unser Standard Eternl Look-and-Feel. Auf Einfachheit ausgelegt."
+  },
+  "classic": {
+    "label": "Eternl Klassisches Theme",
+    "caption": "Unser klassisches Eternl Theme als Hommage an v1."
+  },
+  "monochrome": {
+    "label": "Monochromes Theme",
+    "caption": "Schlankes Monochrom ohne Ablenkungen."
+  }
+}

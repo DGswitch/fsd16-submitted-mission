@@ -1,0 +1,31 @@
+{
+  "menuLabel": "Enviar",
+  "title": "Enviar fons",
+  "caption": "Aquí pots transferir fons i qualsevol tipus de token / nft que siguin compatibles amb Cardano.",
+  "subCaption": "Cada transacció pot tenir múltiples destinataris, fent que l'enviament d'actius a diferents entitats sigui molt fàcil i assequible.",
+  "info": {
+    "available": "$t(common:available)",
+    "txFee": "$t(common:txFee)",
+    "options": "$t(common:options)"
+  },
+  "button": {
+    "recipient": {
+      "label": "Afegir destinatari",
+      "tooltip": "Afegeix un altre destinatari/sortida a la transacció."
+    },
+    "sign": {
+      "label": "Signar transacció",
+      "tooltip": "Signa la transacció amb les teves claus."
+    },
+    "check": {
+      "label": "Comprovar transacció",
+      "tooltip": "Comprova si $t(common:appName) pot construir una transacció."
+    }
+  },
+  "banner": {
+    "recipient": {
+      "title": "$t(send-page:button.recipient.label)",
+      "text": "Una altra transacció neteja la llista de destinataris. Fes clic al botó de sota per afegir un nou destinatari."
+    }
+  }
+}

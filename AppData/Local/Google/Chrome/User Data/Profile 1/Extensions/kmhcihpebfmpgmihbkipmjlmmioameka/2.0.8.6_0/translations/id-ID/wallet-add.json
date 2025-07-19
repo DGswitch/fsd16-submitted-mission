@@ -1,0 +1,24 @@
+{
+  "title": "Pilih tipe wallet",
+  "caption": "Jika Anda pengguna baru, buat wallet baru.\nHubungkan Ledger Anda atau impor cadangan JSON.",
+  "create": {
+    "label": "Wallet Baru",
+    "caption": "Buat wallet baru"
+  },
+  "hardware": {
+    "label": "Hubungkan Perangkat Keras",
+    "caption": "Gunakan perangkat Ledger, Trezor, atau Keystone Anda dengan Eternl"
+  },
+  "restore": {
+    "label": "Masukkan Seed-phrase",
+    "caption": "Gunakan seed-phrase 24, 15, atau 12 kata Anda"
+  },
+  "multiSig": {
+    "label": "Wallet Multi-Sig",
+    "caption": "Buat atau gabung ke wallet multi-signature"
+  },
+  "more": {
+    "label": "Lainnya",
+    "caption": "Tampilkan opsi impor wallet tambahan"
+  }
+}

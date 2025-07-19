@@ -1,0 +1,28 @@
+{
+  "title": "Izvezi bilješku historije transakcija",
+  "caption": "Napravi CSV izvoz tvoje historije transakcija (stari Eternl v1 format)",
+  "csv": {
+    "headline": "Izvezi Historiju Transakcija",
+    "caption": "Izvezi (po računu) historiju transakcija i nagrada kao CSV fajl.",
+    "format": "Format",
+    "button": {
+      "label": "Izvezi CSV",
+      "icon": "mdi mdi-export"
+    },
+    "csvExport": {
+      "label": "CSV Izvoz",
+      "caption": "Postavi svoj izvozni preset i omogući/onemogući funkcionalnost izvoza.",
+      "exportPreset": "Izvozni preset"
+    },
+    "notes": {
+      "label": "Bilješke",
+      "caption": "Izvezi bilješke transakcija u zadnjoj koloni. Izvoz će spojiti višeredne bilješke."
+    },
+    "localTime": {
+      "label": "Izvezi lokalni vremenski pečat",
+      "caption": "Omogući ovo ako želiš izvesti vremena transakcija u svojoj lokalnoj vremenskoj zoni i lokalnom formatu. Inače će vremenski pečati biti izvezeni kao UTC vrijeme."
+    }
+  },
+  "noaccount": "Nema postavljenog aktivnog računa.",
+  "notx": "Nema transakcija za izvoz."
+}

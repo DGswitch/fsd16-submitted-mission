@@ -1,0 +1,159 @@
+{
+  "txId": "Id de Transacción",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "txHash": "txHash",
+  "index": "Índice",
+  "credential": {
+    "payment": "Credencial de pago",
+    "stake": "Credencial de stake"
+  },
+  "certificate": {
+    "label_one": "Certificado",
+    "label_other": "Certificados",
+    "type": {
+      "stakereg": "Registro de cuenta",
+      "stakedereg": "Anulación de registro de cuenta",
+      "stakedel": "Delegación a Stake Pool",
+      "stakeregdel": "Registro de cuenta y Delegación a Stake Pool",
+      "stakevotedel": "Delegación a Stake Pool y DRep",
+      "stakevoteregdel": "Registro de cuenta y Delegación a Stake Pool / DRep",
+      "votedel": "Delegación a DRep",
+      "voteregdel": "Registro de cuenta y Delegación a DRep",
+      "drepreg": "Registro de DRep",
+      "drepupd": "Actualización de DRep",
+      "drepdereg": "Anulación de registro de DRep",
+      "poolreg": "Registro / Actualización de Stake Pool",
+      "poolret": "Retiro de Stake Pool",
+      "genkeydel": "Delegación de Genesis Key",
+      "mircert": "Mover Recompensas Instantáneas",
+      "comhot": "Committee Hot Auth",
+      "comcold": "Committee Cold Resign",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Contrato Plutus",
+      "unknown": "Tipo Desconocido"
+    },
+    "poolreg": {
+      "actepno": "Activo en Epoch",
+      "fixedcost": "Costo Fijo",
+      "margin": "Margen",
+      "pledge": "Pledge",
+      "rewardaddr": "Dirección de Recompensa",
+      "owner": "Propietario",
+      "relay": "Relay",
+      "metaurl": "URL de Metadatos",
+      "metahash": "Hash de Metadatos",
+      "metadata": "Metadatos Off-Chain"
+    },
+    "poolret": {
+      "retepno": "Epoch de Retiro"
+    },
+    "gov": {
+      "stakeCreds": "Credenciales de Stake",
+      "drepCreds": "Credenciales de DRep",
+      "votingCreds": "Credenciales de Votación",
+      "poolCreds": "Credenciales del Pool",
+      "poolParams": "Parámetros del Pool",
+      "poolId": "Id del Pool",
+      "poolHash": "Hash del Pool",
+      "deposit": "Depósito",
+      "anchor": "Ancla",
+      "rawData": "Datos Crudos",
+      "unknown": "Certificado Desconocido",
+      "hash": "Hash",
+      "isScript": "Script",
+      "credential": "Credencial",
+      "vote": "Voto",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "Metadatos Entrada",
+    "label_other": "Metadatos Entradas",
+    "label": "$t(common:Metadatos.label)",
+    "key": "Etiqueta",
+    "value": "Valor",
+    "rawData": "Datos Crudos",
+    "block": "Nro. de Bloque",
+    "confirmations": "Confirmaciones",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Tamaño de Tx"
+    },
+    "copied": {
+      "cbor": "Cbor de transacción copiado"
+    }
+  },
+  "withdrawal": {
+    "label_one": "Retiro",
+    "label_other": "Retiros",
+    "amount": "Cantidad"
+  },
+  "utxo": {
+    "collateralInputs_one": "Entrada Colateral",
+    "collateralInputs_other": "Entradas Colaterales",
+    "referenceInputs_one": "Entrada de Referencia",
+    "referenceInputs_other": "Entradas de Referencia",
+    "inputs_one": "Entrada",
+    "inputs_other": "Entradas",
+    "collateralOutput_one": "Salida Colateral",
+    "collateralOutput_other": "Salidas Colaterales",
+    "outputs_one": "Salida",
+    "outputs_other": "Salidas"
+  },
+  "nativescript": {
+    "label": "Script(s) Nativo / Multi-Sig",
+    "hash": "Hash",
+    "type": "Tipo",
+    "witness": "Testigo",
+    "aux": "Datos Auxiliares",
+    "json": "JSON",
+    "bytecode": "Datos"
+  },
+  "plutusscript": {
+    "label": "Plutus Script(s)",
+    "hash": "Hash",
+    "type": "Tipo",
+    "size": "Tamaño",
+    "bytes": "Datos",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus hash del datum",
+      "bytecode": "Plutus bytes del datum",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "Propósito",
+      "fee": "Tarifa del Contrato",
+      "usteps": "Unidades de Pasos",
+      "umem": "Unidades de Memoria",
+      "dhash": "Hash del Datum",
+      "dvalue": "Bytecode del Datum",
+      "djson": "JSON del Datum"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus Contrato",
+    "label_other": "Plutus Contratos",
+    "valid": "Contrato Válido",
+    "redeemer": "Redeemer",
+    "datum": "Datum",
+    "script": {
+      "label": "Script del Contrato",
+      "hash": "Hash",
+      "size": "$t(common:size)",
+      "bytecode": "Datos"
+    },
+    "reference": {
+      "native": "Script de referencia (nativo)",
+      "plutus": "Script de referencia (plutus)"
+    },
+    "outdatum": "Datum de Salida"
+  }
+}

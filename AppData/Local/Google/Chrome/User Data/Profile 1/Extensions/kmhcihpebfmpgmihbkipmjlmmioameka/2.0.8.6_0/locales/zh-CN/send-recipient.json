@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "地址或 $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "無法新增更多資產。",
+      "text": "此交易輸出無法容納更多資產。請建立一個新輸出（可用相同地址）以新增更多資產。"
+    }
+  },
+  "mode": {
+    "tooltip": "請手動選擇地址類型。"
+  },
+  "error": {
+    "addAddress": "請新增要發送至嘅收款地址。"
+  }
+}

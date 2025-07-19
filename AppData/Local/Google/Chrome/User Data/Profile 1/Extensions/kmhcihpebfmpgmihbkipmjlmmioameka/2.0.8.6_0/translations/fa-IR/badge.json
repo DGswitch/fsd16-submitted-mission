@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "آدرس کمک مالی",
+    "hover": "!از حمایت شما متشکریم"
+  },
+  "burn": {
+    "label": "Eternl Burn Wallet",
+    "hover": "آدرس سوزاندن"
+  },
+  "eternlFee": {
+    "label": "کارمزد مرورگر Dapp",
+    "hover": ".کارمزدی که به حفظ خدمات Eternl کمک می‌کند"
+  },
+  "swapFee": {
+    "label": "کارمزد خدمات",
+    "hover": ".کارمزدی که به حفظ خدمات Eternl کمک می‌کند"
+  },
+  "collateral": {
+    "label": "آدرس وثیقه Eternl"
+  },
+  "script": {
+    "label": "اسکریپت"
+  },
+  "noscript": {
+    "label": "آدرس اسکریپت نیست"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "برچسب گزارش‌دهی"
+  },
+  "ext": {
+    "label": "خارجی",
+    "hover": ".این آدرس برای Eternl ناشناخته است"
+  },
+  "openWallet": {
+    "hover": "برای باز کردن wallet کلیک کنید: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "تغییر به حساب: {{name}}"
+  },
+  "contract": {
+    "hover": "قرارداد {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "تراکنش حاوی ثبت‌نام رأی‌گیری Catalyst است"
+  },
+  "multisig": {
+    "label": "ثبت چند امضایی",
+    "hover": "تراکنش حاوی ثبت wallet چند امضایی است"
+  },
+  "metadata": {
+    "label": "متا",
+    "hover": "تراکنش حاوی فراداده است"
+  },
+  "withdrawal": {
+    "label": "برداشت",
+    "hover": "تراکنش حاوی برداشت پاداش‌ها است"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "تراکنش حاوی توکن(های) Mint شده یا سوزانده شده است"
+  },
+  "reg": {
+    "label": "ثبت",
+    "hover": "ثبت کلید استیک / Wallet"
+  },
+  "gov": {
+    "label": "حاکمیت",
+    "hover": "تراکنش حاوی گواهی حاکمیت است"
+  },
+  "dereg": {
+    "label": "لغو ثبت",
+    "hover": "لغو ثبت Wallet"
+  },
+  "delegation": {
+    "label": "تفویض",
+    "hover": "تفویض استخر استیک"
+  },
+  "poolreg": {
+    "label": "ثبت استخر",
+    "hover": "ثبت استخر استیک"
+  },
+  "poolupd": {
+    "label": "به‌روزرسانی استخر",
+    "hover": "به‌روزرسانی استخر استیک"
+  },
+  "poolret": {
+    "label": "بازنشستگی استخر",
+    "hover": "بازنشستگی استخر استیک"
+  },
+  "nativescript": {
+    "label": "اسکریپت",
+    "hover": "اسکریپت بومی/چند امضایی Cardano"
+  },
+  "plutus": {
+    "label": "قرارداد",
+    "hover": "قرارداد Plutus Cardano"
+  },
+  "onchain": {
+    "label": "روی زنجیره",
+    "hover": "تراکنش در یک بلاک گنجانده شد"
+  },
+  "confirmed": {
+    "label": "تأیید شده",
+    "hover": "تراکنش امضا شده و آماده ارسال است"
+  },
+  "pendingapproval": {
+    "label": "در انتظار تأیید",
+    "hover": "تراکنش منتظر امضاهای اضافی توسط wallet(های) تحت کنترل شما است"
+  },
+  "awaitingothers": {
+    "label": "در انتظار دیگران",
+    "hover": "تراکنش منتظر امضاهای اضافی توسط شرکت‌کنندگان خارجی است"
+  },
+  "invalid": {
+    "label": "نامعتبر",
+    "hover": "یکی از ورودی‌های این تراکنش در تراکنش دیگری خرج شده است."
+  },
+  "pending": {
+    "label": "در انتظار",
+    "hover": "تراکنش هنوز در انتظار اجرا است"
+  },
+  "staging": {
+    "label": "امضا نشده",
+    "hover": "این تراکنش هنوز امضا نشده است."
+  },
+  "signed": {
+    "label": "امضا شده",
+    "hover": "این تراکنش امضا شده اما هنوز ارسال نشده است."
+  },
+  "inputSigned": {
+    "label": "امضا شده",
+    "hover": "امضای این ورودی ارائه شده است."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Redeemer برای این قرارداد ارائه شده است."
+  },
+  "inputUnsigned": {
+    "label": "امضا نشده",
+    "hover": "امضای این ورودی موجود نیست."
+  },
+  "validFor": {
+    "label": "معتبر برای",
+    "hover": "تراکنش در نهایت اجرا خواهد شد یا در صورتی که ورودی utxo توسط تراکنش دیگری مصرف شود، نامعتبر خواهد شد."
+  },
+  "unlockTimeStamp": {
+    "label": "بازگشایی در",
+    "hover": "این وجوه Staking Vault در آن تاریخ بازگشایی خواهند شد."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "این تراکنش وجوه را در Staking Vault قفل می‌کند."
+  },
+  "unlimited": {
+    "label": "بدون محدودیت زمانی",
+    "hover": "تراکنش در نهایت اجرا خواهد شد یا در صورتی که ورودی utxo توسط تراکنش دیگری مصرف شود، نامعتبر خواهد شد."
+  },
+  "expired": {
+    "label": "منقضی شده",
+    "hover": "زمان اعتبار تراکنش منقضی شده است"
+  },
+  "setTTL": {
+    "label": "تنظیم TTL",
+    "hover": "تنظیم زمان اعتبار تراکنش"
+  },
+  "remove": {
+    "label": "حذف",
+    "hover": "برای حذف تراکنش منقضی شده یا نامعتبر کلیک کنید.",
+    "hoverNote": "فقط در صورتی حذف کنید که مطمئن هستید این تراکنش دیگر انجام نخواهد شد."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "آدرس wallet خودتان"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "آدرس خارجی"
+  },
+  "donation_address": {
+    "label": "کمک مالی",
+    "hover": "آدرس کمک مالی $t(common:appName)"
+  },
+  "swap_fee": {
+    "label": "کارمزد Frontend",
+    "hover": "آدرس کارمزد frontend $t(common:appName)"
+  },
+  "eternl_fee": {
+    "label": "کارمزد Frontend",
+    "hover": "آدرس کارمزد $t(common:appName)"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "آدرس قفل زمانی Staking vault"
+  },
+  "add_entity": {
+    "label": "+موجودیت",
+    "hover": "یک نام موجودیت برای این آدرس تنظیم کنید."
+  },
+  "script_address": {
+    "label": "اسکریپت",
+    "hover": "آدرس قرارداد هوشمند"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "تراکنش بین زنجیره‌ای پل زده شده به Milkomeda"
+  },
+  "submit": {
+    "label": "ارسال تراکنش",
+    "hover": "تراکنش هنوز ارسال نشده است. برای ارسال اینجا کلیک کنید."
+  },
+  "nosubmitted": {
+    "label": "ارسال نشده",
+    "hover": "تراکنش امضا شد، اما ارسال نشد."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "یک آدرس معمولی"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "آدرس Ada Handle حل‌شده که با $ شروع می‌شود"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "آدرس Unstoppable Domains حل‌شده که به .clay ختم می‌شود"
+  },
+  "new": {
+    "label": "جدید",
+    "hover": "اعلان خوانده نشده"
+  },
+  "updated": {
+    "label": "به‌روز شده",
+    "hover": "محتوای اعلان از آخرین خواندن به‌روز شده است"
+  },
+  "payment": {
+    "label": "پرداخت",
+    "hover": "اسکریپت پرداخت"
+  },
+  "stake": {
+    "label": "استیک",
+    "hover": "اسکریپت استیک"
+  }
+}

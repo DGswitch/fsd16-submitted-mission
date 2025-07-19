@@ -1,0 +1,11 @@
+{
+  "title": "Add assets",
+  "warning": {
+    "notAllAdded": "Adding more assets to this output isn't allowed. Add another output to include more assets. There can only be up to three fully filled outputs in a transaction."
+  },
+  "button": {
+    "addAll": "Add All",
+    "addSearch": "Add All Filtered",
+    "addPage": "Add All on Page"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Adresse erstellen Wallet",
+  "caption": "Geben Sie eine delegierte (Basis-) oder nicht-delegierte (Zahlungs-) Adresse ein, um eine 'schreibgeschützte' Wallet zu erstellen.",
+  "error": "Ungültige Adresse, bitte überprüfen und erneut versuchen."
+}

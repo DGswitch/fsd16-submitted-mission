@@ -1,0 +1,17 @@
+{
+  "idle": "مُحدَّث",
+  "initializing": "جاري التهيئة",
+  "queued": "في قائمة الانتظار",
+  "syncing": "جاري المزامنة",
+  "preparingFor": "التحضير لـ",
+  "syncingFor": "جاري المزامنة لـ",
+  "notSyncedYet": "لم تتم المزامنة بعد",
+  "success": "اكتمل",
+  "skipped": "اكتمل",
+  "synced": "تمت المزامنة {{time}}",
+  "error": "فشل",
+  "manual": "يدوي",
+  "update": {
+    "tooltip": "فرض تحديث الحساب."
+  }
+}

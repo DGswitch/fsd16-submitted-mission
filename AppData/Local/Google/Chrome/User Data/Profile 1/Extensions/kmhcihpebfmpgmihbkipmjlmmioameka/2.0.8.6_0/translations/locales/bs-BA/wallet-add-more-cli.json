@@ -1,0 +1,10 @@
+{
+  "title": "Uvezi CLI ključeve za potpisivanje",
+  "caption": "Odaberi ključeve za potpisivanje plaćanja i (opcionalno) ulaganja iz wallet generisanog pomoću CLI.",
+  "payment": "Ključ za plaćanje",
+  "stake": "Ključ za ulaganje",
+  "drep": "DRep ključ",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Nevažeći ključ, provjeri i pokušaj ponovo!"
+}

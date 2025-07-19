@@ -1,0 +1,9 @@
+{
+  "title": "استيراد مفاتيح توقيع CLI",
+  "caption": "حدد مفاتيح توقيع الدفع والتحصيص (اختياريًا) من wallet تم إنشاؤها بواسطة CLI.",
+  "payment": "مفتاح الدفع",
+  "stake": "مفتاح التحصيص",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "مفتاح غير صالح، يرجى التحقق والمحاولة مرة أخرى!"
+}

@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Nombre de Cuenta Activa",
+    "caption": "Establecer nombre de cuenta para la cuenta actual",
+    "setting": {
+      "caption": "Actualiza el nombre de tu cuenta (activa) o selecciona/deselecciona un Ada Handle.",
+      "adaHandle": {
+        "select": "Selecciona qué Ada Handle mostrar en lugar del nombre de la cuenta (deselecciona para mostrar el nombre en su lugar):"
+      },
+      "error": {
+        "empty": "El nombre de la cuenta no puede estar vacío.",
+        "duplicate": "Esta cartera ya tiene una cuenta con ese nombre."
+      }
+    }
+  },
+  "export": {
+    "title": "Exportar Clave de Cuenta",
+    "caption": "Exportar la clave pública de esta cuenta.",
+    "setting": {
+      "caption": "Exportar la clave pública de esta cuenta. Importar una clave pública restaura el historial de la cuenta en modo de solo lectura con la firma deshabilitada.",
+      "tooltip": {
+        "acct_xvk": "Clave pública extendida Ed25519-bip32",
+        "xpub": "Clave pública extendida Ed25519-bip32",
+        "acct_vk": "Clave pública Ed25519"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Modo de Dirección Única (SAM)",
+    "caption": "Usar solo una dirección única para todas las transacciones.",
+    "setting": {
+      "caption": "Cuando está habilitado, todos los fondos se mantendrán en la primera dirección de recepción por defecto.",
+      "enabled": "$t(settings-account:samMode.title) habilitado",
+      "disabled": "$t(settings-account:samMode.title) deshabilitado",
+      "customAddress": "Dirección de recepción personalizada",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "¡Importante!",
+          "text": "Establecer una dirección de recepción personalizada hará que todas las salidas de cambio y la dirección de recepción cambien a esta dirección, incluso si no pertenece a esta cuenta. Asegúrate de verificar que la dirección correcta esté establecida."
+        }
+      },
+      "notification": {
+        "wrongInput": "No es una dirección válida.",
+        "wrongNetwork": "Esta dirección pertenece a una red diferente.",
+        "notOwned": "Esta dirección no pertenece a esta cuenta y no puede usarse como dirección de recepción personalizada.",
+        "nonStaking": "Los fondos en esta dirección de recepción están en stake con una clave de stake externa. No controlarás las recompensas que acumulen.",
+        "success": "Dirección de recepción personalizada establecida.",
+        "error": "¡Error al guardar la dirección de recepción personalizada!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Colateral",
+    "caption": "¿Usar colateral proporcionado por Eternl?",
+    "setting": {
+      "caption": "Cuando está habilitado, Eternl proporcionará colateral para la cuenta.",
+      "info": "Interactuar con smart contracts puede requerir colateral en caso de que una transacción falle. Esto será manejado automáticamente por Eternl si se encuentra una UTxO calificada.",
+      "waiting": "Has enviado una transacción de colateral. Por favor espera, aún no ha sido confirmada.",
+      "foundCollateral": "Ya existe una UTxO de colateral para esta cuenta. Se usará al interactuar con smart contracts.",
+      "eternl": {
+        "label": "Colateral proporcionado por Eternl",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "No se encontró UTxO de colateral. Por favor, establece una presionando el botón de abajo.",
+      "button": {
+        "setCollateral": {
+          "label": "Establecer Colateral",
+          "tooltip": "Establecer una UTxO de colateral para esta cuenta."
+        }
+      },
+      "error": {
+        "label": "Error:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "¡Toma Nota!",
+          "headline": "El colateral es una configuración basada en la cuenta."
+        },
+        "info": {
+          "text": "$t(common:appName) puede usar cualquier UTxO sin tokens y con un valor entre ####minimumCollateral#### y ####maximumCollateral#### como colateral. Cuando activas esta configuración, buscará una UTxO adecuada. Si no hay ninguna disponible, se mostrará un botón para establecer una."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Sincronización Manual",
+    "caption": "Establecer sincronización manual",
+    "setting": {
+      "caption": "Sincronizar manualmente la wallet. Si está habilitado, la wallet debe sincronizarse manualmente haciendo clic en el ícono de sincronización.",
+      "enabled": "$t(settings-account:manualSync.title) habilitado",
+      "disabled": "$t(settings-account:manualSync.title) deshabilitado"
+    }
+  },
+  "historySync": {
+    "title": "Sincronización de Historial",
+    "caption": "Establecer sincronización de historial",
+    "setting": {
+      "caption": "Cuando está habilitado, la wallet sincronizará el historial completo de transacciones de la cuenta. De lo contrario, solo se sincronizarán las últimas 1000 transacciones. La sincronización ocurre en lotes y puede tardar un tiempo para cuentas con un historial extenso.",
+      "enabled": "$t(settings-account:historySync.title) habilitado",
+      "disabled": "$t(settings-account:historySync.title) deshabilitado",
+      "syncing": "La sincronización del historial aún está en curso. Esperando para sincronizar {{AMOUNT}} entradas."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Fragmentación de Tokens (TF)",
+    "caption": "Reduce las tarifas de transacción fragmentando tokens.",
+    "fragment": {
+      "label": "Tamaño del paquete de tokens",
+      "error": "Límite de tamaño del paquete de tokens: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Establece el número de tokens que debe contener cada salida UTxO. Es un balance entre tarifas de transacción bajas y la cantidad de fondos bloqueados en la wallet.\nTamaño de paquete pequeño -> tarifas bajas, más Ada bloqueado.\nTamaño de paquete grande -> tarifas más altas, menos Ada bloqueado."
+    },
+    "setting": {
+      "caption": "Divide los tokens en paquetes al enviar si hay más tokens en el cambio a devolver que el valor establecido. Dependiendo de la distribución de UTxO/Token de la wallet y el resultado deseado, es posible que los valores deban ajustarse para obtener un resultado óptimo.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) habilitado",
+      "disabled": "$t(settings-account:tokenFragmentation.title) deshabilitado"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Gestión Avanzada de UTxO",
+    "caption": "Usa la gestión avanzada de UTxO en tus transacciones.",
+    "setting": {
+      "caption": "Cuando está habilitado, $t(common:appName) usará la gestión avanzada de UTxO en tus transacciones.",
+      "subCaption": "Mantiene 10 UTxOs disponibles para la ejecución paralela de transacciones. También intentará mantener un UTxO de colateral de 5 ADA disponible para interacciones con smart contracts.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) habilitado",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) deshabilitado"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Retiro Automático",
+    "caption": "Retira automáticamente las recompensas si es necesario.",
+    "setting": {
+      "caption": "Cuando está habilitado, las recompensas se retirarán automáticamente si es necesario al crear una transacción. Si está deshabilitado o para un retiro manual forzado, usa el botón Retirar en la página Resumen.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) habilitado",
+      "disabled": "$t(settings-account:autoWithdrawal.title) deshabilitado"
+    }
+  },
+  "unStake": {
+    "title": "Retirar stake de wallet\n(Anular registro de wallet)",
+    "caption": "Des-delega la cuenta actual de cualquier pool y crea una transacción de anulación de registro.",
+    "setting": {
+      "caption": "Esta acción crea una transacción para anular el registro de la cuenta. Una vez completada, se quitará la delegación de la cuenta de cualquier pool y se devolverá el depósito de registro pagado cuando la cuenta fue delegada por primera vez.",
+      "subCaption": "¡Ten en cuenta que cualquier recompensa pendiente de la delegación a pools, recompensas de catalyst, etc., se perderá cuando se anule el registro de la cuenta!",
+      "acknowledged": "Entiendo que cualquier recompensa pendiente se perderá.",
+      "noUtxo": "{{currency}} necesarios para pagar la tarifa de la transacción de anulación de registro.",
+      "button": {
+        "deReg": {
+          "label": "Anular Registro de Cuenta",
+          "tooltip": "Anular registro de delegación a pool"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "Anular registro como DRep",
+    "caption": "Crea una transacción para anular el registro de DRep. El poder de voto delegado a ese DRep se perderá.",
+    "setting": {
+      "caption": "Esto creará una transacción para anular el registro de DRep. El poder de voto delegado a ese DRep se perderá.",
+      "subCaption": "Para recuperar la capacidad de retirar recompensas de staking, necesitarás delegar tu cuenta a un DRep diferente.",
+      "acknowledged": "Entiendo que todo el poder de voto delegado se perderá.",
+      "noUtxo": "{{currency}} necesarios para pagar la tarifa de la transacción de anulación de registro.",
+      "button": {
+        "deReg": {
+          "label": "Anular Registro de Cuenta",
+          "tooltip": "Anular registro de delegación a pool"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Reportes",
+    "caption": "Configuración de exportación de reportes fiscales."
+  }
+}

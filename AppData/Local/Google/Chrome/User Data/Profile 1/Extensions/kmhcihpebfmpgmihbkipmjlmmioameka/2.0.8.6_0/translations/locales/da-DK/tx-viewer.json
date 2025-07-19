@@ -1,0 +1,23 @@
+{
+  "title": "Transaktionsdetaljer",
+  "inputsOutputs": "Inputs/Outputs",
+  "mints": "Mint/Brænd",
+  "withdrawals": "Withdrawals",
+  "certificates": "Certifikater",
+  "metadata": "Metadata",
+  "governance": "Styring",
+  "paramupdate": "Parameteropdatering",
+  "recipient": "Modtager",
+  "scripts": "Scripts",
+  "witnesses": "Witnesses",
+  "validFor": {
+    "label": "Gyldig indtil",
+    "unlimited": "Ingen tidsbegrænsning",
+    "expired": "Udløben transaktion"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Indlæs via Tx Hash eller rå Tx Cbor",
+    "invalidTxHashOrCbor": "Ugyldig Tx Hash eller rå Tx Cbor",
+    "invalidTxCbor": "Ugyldig transaktions-cbor!"
+  }
+}

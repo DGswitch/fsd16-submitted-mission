@@ -1,0 +1,66 @@
+{
+  "title": "تفاصيل الأصل",
+  "owns": "الحساب يمتلك",
+  "youOwn": "أنت تملك",
+  "numAssets": "تم العثور على {{numAssets}} أصل (أصول) فريد.",
+  "tab": {
+    "details": "التفاصيل",
+    "metadata": "بيانات وصفية",
+    "raw": "البيانات الخام",
+    "registry": "سجل الرموز",
+    "media": "الوسائط"
+  },
+  "button": {
+    "addAsset": {
+      "label": "إضافة أصل",
+      "tooltip": "أضف الأصل إلى هذا المستلم."
+    },
+    "editAsset": {
+      "label": "تعديل الأصل",
+      "tooltip": "تغيير الكمية."
+    },
+    "addAssets": {
+      "label": "إضافة أصول",
+      "tooltip": "أضف المزيد من الأصول إلى هذا المستلم."
+    },
+    "editAssets": {
+      "label": "تعديل الأصول",
+      "tooltip": "تغيير الأصول المضافة بالفعل."
+    },
+    "removeAsset": {
+      "label": "إزالة الأصل",
+      "tooltip": "أزل الأصل من هذا المستلم."
+    },
+    "addCollection": {
+      "label": "إضافة مجموعة",
+      "tooltip": "أضف المجموعة إلى هذا المستلم."
+    },
+    "removeCollection": {
+      "label": "إزالة المجموعة",
+      "tooltip": "أزل المجموعة من هذا المستلم."
+    }
+  },
+  "hover": {
+    "removeAsset": "إزالة الأصل"
+  },
+  "filter": {
+    "search": "ابحث بواسطة policy، الاسم، fingerprint، أو بيانات وصفية..."
+  },
+  "price": {
+    "unknown": "قيمة رمز غير معروفة",
+    "value": "قيمة الرمز",
+    "avg": "متوسط السعر"
+  },
+  "media": {
+    "format": {
+      "html": "ملف HTML",
+      "pdf": "ملف PDF",
+      "image": "صورة",
+      "video": "فيديو",
+      "audio": "صوت"
+    }
+  },
+  "digits": {
+    "unknown": "خانات عشرية غير معروفة"
+  }
+}

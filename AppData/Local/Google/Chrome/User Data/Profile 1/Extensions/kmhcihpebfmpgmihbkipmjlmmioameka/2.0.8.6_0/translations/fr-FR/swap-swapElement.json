@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "Récupère le meilleur prix auprès de plusieurs agrégateurs pour vous",
+  "select": "SÉLECTIONNER",
+  "sell": "Vous vendez",
+  "buy": "Vous achetez",
+  "balance": "Disponible pour le swap",
+  "aggAndDexs": "Agg & DEXs :",
+  "provider": "Fournisseur",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Efface toutes les entrées"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Créer la transaction de swap"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Construction de la transaction de swap."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Frais de Batcher & Volume de Pool (DEXs)",
+      "tooltip": "Les DEXs appliquent des frais pour traiter votre ordre. Ceux-ci ne sont pas remboursables."
+    },
+    "aggregatorFee": {
+      "label": "Frais de service",
+      "tooltip": "Ce sont les frais de commodité. Ils aident à financer le développement de l'agrégateur et de Eternl."
+    },
+    "deposit": {
+      "label": "Dépôt remboursable",
+      "tooltip": "Un dépôt est requis pour traiter votre ordre. Ce montant est retourné à votre wallet avec les tokens que vous recevez."
+    }
+  }
+}

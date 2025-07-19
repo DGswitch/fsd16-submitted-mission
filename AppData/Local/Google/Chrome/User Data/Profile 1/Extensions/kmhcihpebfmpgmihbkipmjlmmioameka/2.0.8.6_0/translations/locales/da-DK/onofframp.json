@@ -1,0 +1,6 @@
+{
+  "title": "Køb / Sælg {{currency}}",
+  "caption": "Vælg din gateway mellem FIAT og Cardano.",
+  "noProvider": "Desværre er der ingen udbydere tilgængelige lige nu.",
+  "loading": "Indlæser FIAT On / Off ramp udbydere"
+}

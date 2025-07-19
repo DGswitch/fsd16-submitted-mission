@@ -1,0 +1,8 @@
+{
+  "warning": "Eternl 防護警告",
+  "app": {
+    "description": "此 DApp 係已知嘅 SCAM 網站！極有可能會盜取你嘅資金或以其他方式詐騙你！",
+    "description2": "我哋強烈建議你 <span class=\"font-bold\">切勿互動</span> 此頁面！",
+    "ownRisk": "連接此網站風險自負！"
+  }
+}

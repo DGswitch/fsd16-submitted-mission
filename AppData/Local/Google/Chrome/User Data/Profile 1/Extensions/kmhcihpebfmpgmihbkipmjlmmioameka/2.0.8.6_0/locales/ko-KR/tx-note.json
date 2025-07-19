@@ -1,0 +1,34 @@
+{
+  "placeholder": "Add a note here.",
+  "copy": "Transaction note: {{note}}.",
+  "export": "Notes can be imported and exported.",
+  "add": {
+    "title": "Add note",
+    "caption": "Attach a note to this transaction. $t(tx-note:export)"
+  },
+  "edit": {
+    "title": "Edit note",
+    "caption": "Edit the note attached to this transaction. $t(tx-note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx-note:add.title)",
+      "tooltip": "$t(tx-note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx-note:edit.title)",
+      "tooltip": "$t(tx-note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Delete note",
+      "tooltip": "Delete the note attached to this transaction."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Delete note",
+      "caption": "Please confirm that you want to delete the transaction note.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

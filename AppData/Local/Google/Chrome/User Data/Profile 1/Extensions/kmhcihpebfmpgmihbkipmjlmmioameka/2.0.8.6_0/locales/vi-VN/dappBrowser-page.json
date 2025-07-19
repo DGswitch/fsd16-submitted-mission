@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Trình duyệt Dapp",
+  "title": "Trình duyệt Dapp",
+  "caption": "Kết nối với các dApp Cardano.",
+  "subCaption": "",
+  "connect": "Kết nối với {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Nhập tên miền dapp"
+    }
+  }
+}

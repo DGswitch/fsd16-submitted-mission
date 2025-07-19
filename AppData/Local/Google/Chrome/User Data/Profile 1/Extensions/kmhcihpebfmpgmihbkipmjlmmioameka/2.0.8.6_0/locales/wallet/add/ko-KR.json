@@ -1,0 +1,24 @@
+{
+  "title": "지갑 유형 선택",
+  "caption": "신규 사용자인 경우 새 지갑을(를) 생성하세요.\nLedger를 연결하거나 JSON 백업을 가져오세요.",
+  "create": {
+    "label": "새 지갑",
+    "caption": "완전히 새로운 지갑 생성"
+  },
+  "hardware": {
+    "label": "하드웨어 연결",
+    "caption": "Ledger, Trezor 또는 Keystone 장치를 Eternl에서 사용하세요"
+  },
+  "restore": {
+    "label": "Seed-phrase 입력",
+    "caption": "24, 15 또는 12 단어 seed-phrase 사용"
+  },
+  "multiSig": {
+    "label": "Multi-Sig 지갑",
+    "caption": "multi-signature 지갑 생성 또는 참여"
+  },
+  "more": {
+    "label": "더 보기",
+    "caption": "추가 지갑 가져오기 옵션 보기"
+  }
+}

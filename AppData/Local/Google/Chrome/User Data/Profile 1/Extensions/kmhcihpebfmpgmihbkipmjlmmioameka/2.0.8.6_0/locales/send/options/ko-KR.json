@@ -1,0 +1,58 @@
+{
+  "is": {
+    "label": "입력 선택",
+    "caption": "계정의 특정 utxo를 사용하여 입력 선택을 제어하세요.",
+    "reset": "입력 선택 초기화"
+  },
+  "import": {
+    "label": "트랜잭션 가져오기",
+    "caption": "Eternl 또는 다른 출처에서 내보낸 서명되지 않았거나 서명된 트랜잭션을 가져옵니다.",
+    "upload": "트랜잭션 파일을 업로드하거나 원시 트랜잭션 cbor를 붙여넣으세요."
+  },
+  "tf": {
+    "label": "토큰 분할",
+    "caption": "자산을 여러 utxo에 분산하여 향후 트랜잭션 수수료를 낮추세요."
+  },
+  "cu": {
+    "label": "UTxO 모으기",
+    "caption": "이 계정의 UTXO를 모아 더 적은 수의 UTXO로 병합합니다. 한 번에 최대 10개의 트랜잭션을 생성합니다. 처리하는 데 시간이 걸릴 수 있습니다."
+  },
+  "ms": {
+    "label": "특별 모으기",
+    "label2": "지갑에서 모으기",
+    "caption": "이 ms fee 지갑의 UTXO를 모아 더 적은 수의 UTXO로 병합합니다. 한 번에 최대 10개의 트랜잭션을 생성합니다. 처리하는 데 시간이 걸릴 수 있습니다."
+  },
+  "donation": {
+    "label": "1 ADA를 기부하여 $t(common:appName) 개발을 지원하세요",
+    "caption": "Eternl이 마음에 드셨기를 바랍니다! 이 트랜잭션과 함께 1 ADA를 보내 저희 프로젝트 개발을 지원해 주세요."
+  },
+  "customMetadata": {
+    "label": "사용자 지정 Metadata",
+    "caption": "사양에 따라 사용자 지정 metadata 스키마를 JSON 형식으로 추가하세요.",
+    "placeholder": "JSON 붙여넣기 / 입력",
+    "urllabel": "cardano.org의 metadata json 형식에 대한 문서",
+    "added": "다음 metadata가 트랜잭션에 추가되었습니다:",
+    "schemainfo": {
+      "NoConversions": "JSON과 Metadata 간의 최소 공통 기능 세트를 충실하게 변환합니다.",
+      "BasicConversions": "바이트(16진수 문자열) 및 정수 키(문자열)에 대한 추가 지원을 추가합니다.",
+      "DetailedSchema": "상세한 JSON 스키마이지만 metadata 변환에 가장 유연합니다."
+    },
+    "banner": {
+      "error": {
+        "title": "유효한 Cardano JSON 일반 metadata 스키마가 아닙니다",
+        "json": "잘못된 JSON입니다.",
+        "label": "잘못된 레이블입니다.\n최상위 키는 -(2^64 - 1)에서 (2^64 - 1) 범위 내의 고유한 정수여야 합니다."
+      }
+    }
+  },
+  "metadata": {
+    "label": "온체인 $t(common:message.label) 추가",
+    "caption": "트랜잭션에 메시지/코멘트/메모를 추가하세요.\n여러 줄 메시지를 입력하려면 \"ENTER\" 키를 누르세요.",
+    "enableEncryption": "암호화 활성화",
+    "placeholder": "트랜잭션 메시지 입력",
+    "error": {
+      "overflow": "줄당 문자 수는 64자로 제한됩니다. 새 줄을 추가하려면 Enter 키를 누르세요",
+      "invalidJSON": "유효한 Cardano JSON 일반 metadata 스키마가 아닙니다"
+    }
+  }
+}

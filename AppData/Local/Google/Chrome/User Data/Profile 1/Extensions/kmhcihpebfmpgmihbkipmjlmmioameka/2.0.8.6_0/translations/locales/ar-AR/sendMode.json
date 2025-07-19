@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "عنوان Cardano عادي.",
+    "description": "عنوان Cardano يبدأ بـ addr1 وليس عنوان نص برمجي.",
+    "error": {
+      "invalid": "عنوان Cardano غير صالح."
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano نص برمجي",
+    "caption": "عنوان نص برمجي.",
+    "description": "يُستخدم عنوان نص Cardano البرمجي للعقود الذكية ويبدأ بـ addr1 متبوعًا بنمط معين.",
+    "error": {
+      "invalid": "عنوان نص Cardano البرمجي غير صالح."
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "عنوان Cardano قابل للقراءة البشرية.",
+    "description": "Ada Handle هو معرّف فريد قائم على NFT يمكن استخدامه كعنوان Cardano مبسط، يبدأ بـ $.",
+    "banner": {
+      "change": {
+        "title": "تم تغيير عنوان Ada Handle!",
+        "text": "العنوان القديم المخزن في دفتر العناوين:\\n####OLD####\\n\\nالعنوان الجديد:\\n####NEW####\\n\\nالعنوان الذي يمثله Ada Handle ###HANDLE### قد تغير منذ إضافته إلى دفتر العناوين الخاص بك.\\nهذا يعني أن Ada Handle تم نقله إلى wallet أو حساب مختلف.\\n\\nإذا قمت بإرسال الأموال، فسوف تذهب إلى عنوان مختلف عن العنوان المخزن في دفتر العناوين الخاص بك.\\nلديك خيار استبدال إدخال دفتر العناوين الحالي بالنقر فوق الزر أدناه."
+      }
+    },
+    "error": {
+      "invalid": "Ada Handle غير صالح.",
+      "resolve": "Ada Handle هذا غير موجود.",
+      "image": "تعذر تحميل صورة Ada Handle.",
+      "address": {
+        "invalid": "العنوان غير صالح. (ربما هو مدرج في سوق؟)"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "اسم نطاق blockchain.",
+    "description": "Unstoppable Domains هي أسماء نطاقات لامركزية يمكن ربطها بعناوين عملات مشفرة مختلفة، بما في ذلك Cardano.",
+    "error": {
+      "invalid": "Unstoppable Domain غير صالح.",
+      "resolve": "Unstoppable Domain هذا غير موجود.",
+      "domain": {
+        "resolve": "تعذر حل Unstoppable Domain."
+      },
+      "address": {
+        "invalid": "العنوان غير صالح. (ربما هو مدرج في سوق؟)",
+        "notSet": "لم يتم تعيين عنوان Cardano لـ Unstoppable Domain هذا."
+      }
+    }
+  }
+}

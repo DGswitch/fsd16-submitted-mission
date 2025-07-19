@@ -1,0 +1,55 @@
+{
+  "spo": "driver en enskild stake pool",
+  "mpo": "driver {{count}} stake pools",
+  "retired": "Pensionerad i epoch {{epoch}}",
+  "retiredIn": "Pensionerad i epoch {{epoch}}",
+  "noRewards": "Denna pool kommer INTE att tjäna några {{adaSymbol}} belöningar.",
+  "lessRewards": "Denna pool kommer att tjäna färre belöningar än vanligt.",
+  "history": "Belöningshistorik",
+  "fees": "Avgifter",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Grön: inom optimalt intervall. Röd: tjänar färre belöningar."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking/pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Grön: inom normalt intervall. Röd: tjänar färre belöningar."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake. Prestanda för de senaste 12 epochs. Grön: inom normalt intervall. ROS kommer att fluktuera mer för pooler med mindre stake."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Hämta belöningar",
+      "syncing": "Wallet synkroniserar",
+      "norewards": "Inga belöningar tillgängliga"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Senaste månaden",
+      "3months": "Senaste 3 månaderna",
+      "6months": "Senaste 6 månaderna",
+      "year": "Senaste året"
+    },
+    "view-history": "Visa historik",
+    "view-graph": {
+      "stake-key": "konto stake-nyckel"
+    },
+    "approx-earning": "Beräknade belöningar under nästa år",
+    "unclaimed-ada": "Outhämtade ADA",
+    "lifetime-earning": "Totalt har du tjänat",
+    "lifetime-apy": "Livstids-APY",
+    "lifetime-earned": "sedan du började med staking",
+    "epoch-ends-in": "Denna epoch slutar om",
+    "search": "Ange ett ID, namn eller detaljer",
+    "delegate": "Välj denna pool",
+    "openPoolList": "Öppna pool-listan"
+  }
+}

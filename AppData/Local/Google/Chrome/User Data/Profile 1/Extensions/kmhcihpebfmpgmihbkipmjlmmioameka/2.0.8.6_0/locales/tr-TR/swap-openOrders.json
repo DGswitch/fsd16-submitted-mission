@@ -1,0 +1,15 @@
+{
+  "title": "Açık - Emirleriniz",
+  "caption": "Henüz işlenmemiş zincir üstü açık takas emirlerini listeler.",
+  "loading": "Emirler yükleniyor",
+  "noPending": "Bekleyen emir bulunamadı",
+  "time": "Zaman",
+  "swap": "Takas",
+  "dexs": "Dex'ler",
+  "via": "Aracılığıyla",
+  "types": {
+    "buy": "AL",
+    "sell": "SAT",
+    "cancel": "İPTAL ET"
+  }
+}

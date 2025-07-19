@@ -1,0 +1,6 @@
+{
+  "title": "Kupi / Prodaj {{currency}}",
+  "caption": "Odaberi svoj prolaz između FIAT valute i Cardano kriptovalute.",
+  "noProvider": "Nažalost, trenutno nema dostupnih provajdera.",
+  "loading": "Učitavanje provajdera za FIAT On / Off ramp"
+}

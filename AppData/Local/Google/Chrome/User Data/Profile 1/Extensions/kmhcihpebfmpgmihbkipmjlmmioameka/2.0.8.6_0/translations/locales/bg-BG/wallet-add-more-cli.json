@@ -1,0 +1,10 @@
+{
+  "title": "Импортиране на CLI ключове за подписване",
+  "caption": "Изберете ключове за подписване на плащане и залог (по избор) от wallet, генериран от CLI.",
+  "payment": "Ключ за плащане",
+  "stake": "Ключ за залог",
+  "drep": "DRep ключ",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Невалиден ключ, моля проверете и опитайте отново!"
+}

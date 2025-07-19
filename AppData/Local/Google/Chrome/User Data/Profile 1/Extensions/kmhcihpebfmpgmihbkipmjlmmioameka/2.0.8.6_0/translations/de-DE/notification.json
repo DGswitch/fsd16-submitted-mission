@@ -1,0 +1,9 @@
+{
+  "title": "Benachrichtigungscenter",
+  "empty": "Keine Benachrichtigungen.",
+  "copy": "Wurde in die Zwischenablage kopiert",
+  "type": {
+    "txMS": "Multi-Sig-Transaktion",
+    "unknown": "Unbekannter Typ"
+  }
+}

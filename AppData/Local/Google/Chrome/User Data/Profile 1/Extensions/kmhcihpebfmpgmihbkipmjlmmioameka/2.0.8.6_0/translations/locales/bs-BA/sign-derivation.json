@@ -1,0 +1,20 @@
+{
+  "input": {
+    "password": {
+      "label": "Lozinka za trošenje",
+      "placeholder": "Potvrdi lozinku"
+    }
+  },
+  "dv": {
+    "signing": "Generisanje ključeva računa",
+    "hw": "Molimo potvrdite izvoz javnog ključa na {{device}} uređaju."
+  },
+  "error": {
+    "passwordMismatch": "Unesene lozinke se ne podudaraju, molimo pokušajte ponovo!",
+    "missingAppWallet": "Wallet nije postavljen. Molimo ponovo učitajte aplikaciju i pokušajte ponovo.",
+    "invalidResult": "Rezultat skeniranja nije validan.",
+    "missingRootKey": "Ovaj wallet ne može izvesti ključeve računa (nedostaje root ključ).",
+    "deviceNotFound": "Uređaj nije pronađen.",
+    "unknown": "Nepoznata greška: {{error}}"
+  }
+}

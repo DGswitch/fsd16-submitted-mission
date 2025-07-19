@@ -1,0 +1,35 @@
+{
+  "frankenAddress": {
+    "title": "Franken Adresse Generator",
+    "caption": "Opret en ny adresse ved at kombinere to adresser.",
+    "setting": {
+      "caption": "$t(settings-util:frankenAddress.caption)",
+      "info": "Betalingsdelen udtrækkes fra den første adresse og kombineres med stake-delen fra den anden adresse.",
+      "payment": "Base- eller Betalings-/Enterprise-adresse",
+      "stake": "Base- eller Stake-adresse",
+      "frankenAddress": "Franken Adresse"
+    }
+  },
+  "signData": {
+    "title": "Signér Data",
+    "caption": "Signér eller verificer enhver payload med adresse/id i henhold til CIP-8 standarden.",
+    "setting": {
+      "caption": "$t(settings-util:signData.caption)",
+      "info": "Betalingsdelen udtrækkes fra den første adresse og kombineres med stake-delen fra den anden adresse.",
+      "address": "Adresse eller Id (DRep, Pool Calidus)",
+      "payload": "Payload (data der skal signeres)",
+      "text": "$t(common:text)",
+      "json": "$t(common:json)",
+      "hex": "$t(common:hex)",
+      "verify": {
+        "valid": "Nøgle og signatur gyldig for input",
+        "invalid": {
+          "key": "Ugyldig nøgle",
+          "signature": "Ugyldig signatur",
+          "payload": "Ugyldig payload",
+          "address": "Adresse/Id matcher ikke payload-headeren"
+        }
+      }
+    }
+  }
+}

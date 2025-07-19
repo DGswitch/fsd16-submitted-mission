@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst 註冊",
+  "status": {
+    "wrongnetwork": {
+      "title": "唔支援",
+      "text": "目前選定嘅網絡唔支援 Catalyst。"
+    },
+    "registration": {
+      "nostake": {
+        "title": "未註冊",
+        "text": "呢個賬戶未註冊 staking。請先委託俾一個 stake pool，然後再註冊 Catalyst 投票。"
+      },
+      "nocatalyst": {
+        "title": "冇 Catalyst 註冊",
+        "text": "Eternl 唔認得呢個投票密鑰。呢個賬戶可能從未註冊過，或者係用另一個應用程式註冊嘅。"
+      },
+      "hascatalyst": {
+        "title": "Catalyst 註冊",
+        "text": "呢個賬戶已註冊 Catalyst 投票。Catalyst 投票密鑰儲存喺 Eternl 入面。",
+        "scan": "喺 Catalyst 投票應用程式入面掃描 QR 碼，然後跟住指示做。",
+        "reveal": "唔好同任何人分享 Catalyst 投票密鑰同 PIN 碼。佢係用嚟喺 Catalyst 融資輪次中投票嘅。",
+        "voteKey": "Catalyst 投票密鑰",
+        "banner": {
+          "title": "下載 QR 碼",
+          "text": "Catalyst 投票密鑰嘅本地備份儲存喺 Eternl 入面，用嚟恢復。不過，呢個備份係特定於裝置嘅，用 wallet 助記詞喺另一部裝置恢復 wallet 時將無法使用。只有喺 Catalyst 註冊之後創建嘅 wallet JSON 備份先可以恢復佢。強烈建議下載 QR 碼圖片並安全儲存，例如放喺密碼管理器入面。"
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "選擇一個 stake pool"
+        },
+        "register": {
+          "label": "註冊 Catalyst 投票"
+        },
+        "reregister": {
+          "label": "建立新註冊"
+        },
+        "download": {
+          "label": "下載 Catalyst 密鑰"
+        },
+        "reveal": {
+          "label": "顯示 Catalyst 密鑰"
+        },
+        "hide": {
+          "label": "隱藏 Catalyst 密鑰"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "投票應用程式",
+      "caption": "下載 Catalyst 手機應用程式到你嘅手機。",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "App store 連結！",
+          "text": "唔係俾 Catalyst 手機應用程式用嘅！\n\n呢啲 QR 碼係連結去 app store，你可以喺嗰度下載同安裝 Catalyst 手機應用程式。"
+        }
+      }
+    },
+    "pin": {
+      "title": "設定 PIN 碼",
+      "caption": {
+        "enter": "設定一個 PIN 碼嚟保護你嘅 Catalyst 投票密鑰。",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "寫低 PIN 碼",
+        "text": "確保寫低 PIN 碼！\n唔見咗 PIN 碼就需要重新註冊投票密鑰。"
+      }
+    },
+    "tx": {
+      "title": "投票註冊交易",
+      "caption": "註冊你嘅 Catalyst 投票密鑰。",
+      "note": {
+        "title": "投票權力",
+        "text": "投票權力同快照時間持有嘅資金數量成正比。更高嘅餘額會增加你喺快照期間嘅影響力。"
+      },
+      "warning": {
+        "title": "最低金額",
+        "text": "需要至少 25 ADA 嘅餘額，你嘅投票密鑰先會被納入快照。冇呢個最低金額，你就唔能夠喺融資輪次中投票或獲得獎勵。"
+      },
+      "success": "Catalyst 註冊成功。",
+      "saved": "Catalyst 投票密鑰已成功儲存喺 Eternl 入面。",
+      "error": {
+        "save": "喺 Eternl 儲存 Catalyst 投票密鑰失敗。"
+      }
+    }
+  }
+}

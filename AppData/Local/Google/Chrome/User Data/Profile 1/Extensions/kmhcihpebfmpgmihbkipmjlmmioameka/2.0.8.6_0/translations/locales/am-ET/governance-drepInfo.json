@@ -1,0 +1,54 @@
+{
+  "title": "የDRep መረጃ",
+  "noInfo": "ምንም መረጃ የለም።",
+  "drepId": {
+    "label": "የDRep መለያ (CIP129)",
+    "default": "ነባሪ ምርጫ",
+    "missing": "የጎደለ"
+  },
+  "govAction": {
+    "id": "የአስተዳደር እርምጃ መለያ",
+    "missing": "ያልታወቀ የአስተዳደር እርምጃ መለያ",
+    "comment": "የDRep ምክንያት"
+  },
+  "votingPower": "የድምጽ መስጠት ኃይል",
+  "numDelegators": "ልዑካን",
+  "paymentAddress": "የክፍያ አድራሻ",
+  "objectives": "ዓላማዎች",
+  "qualifications": "ብቃቶች",
+  "motivation": "ተነሳሽነት",
+  "tab": {
+    "info": {
+      "label": "መረጃ"
+    },
+    "votes": {
+      "label": "ድምጾች",
+      "noVotesFound": "ምንም ድምጽ አልተገኘም።"
+    }
+  },
+  "badge": {
+    "status": {
+      "active": {
+        "label": "አክቲቭ",
+        "tooltip": "DRep አክቲቭ ነው እና በቅርቡ በፕሮፖዛል ላይ ድምጽ ሰጥቷል። did"
+      },
+      "inactive": {
+        "label": "ኢንአክቲቭ",
+        "tooltip": "DRep ኢ-አክቲቭ ነው እና በቅርቡ በፕሮፖዛል ላይ ድምጽ አልሰጠም። did"
+      },
+      "unregistered": {
+        "label": "ተሰርዟል",
+        "tooltip": "DRep ተሰርዟል።"
+      },
+      "selfDelegated": {
+        "label": "ራስን በራስ የሾመ",
+        "tooltip": "ይህ አካውንት ለራሱ ድምጽ ሰጥቷል።"
+      }
+    }
+  },
+  "error": {
+    "noDRepCred": "ለዚህ አካውንት ምንም DRep ምስክርነት አልተገኘም።",
+    "noDRepId": "ለመወከል ምንም DRep መታወቂያ የለም።",
+    "invalidDRepId": "ይህ ልክ ያልሆነ DRep መታወቂያ ነው።"
+  }
+}

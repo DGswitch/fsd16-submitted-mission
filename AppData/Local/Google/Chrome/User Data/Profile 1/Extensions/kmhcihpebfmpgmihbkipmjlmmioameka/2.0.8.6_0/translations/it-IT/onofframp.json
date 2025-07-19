@@ -1,0 +1,6 @@
+{
+  "title": "Compra / Vendi ADA",
+  "caption": "Seleziona il tuo gateway tra FIAT e Cardano.",
+  "noProvider": "Sfortunatamente, al momento non ci sono fornitori disponibili.",
+  "loading": "Caricamento fornitori di servizi On / Off ramp FIAT"
+}

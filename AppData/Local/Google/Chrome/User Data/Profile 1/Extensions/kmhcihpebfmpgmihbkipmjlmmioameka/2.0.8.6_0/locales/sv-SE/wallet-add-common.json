@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet Namn",
+    "caption": "Ge din wallet ett igenkännbart namn."
+  },
+  "phrase": {
+    "title": "Mnemonisk fras"
+  },
+  "account": {
+    "title": "Antal konton",
+    "caption": "Ange antalet konton som ska skapas.",
+    "suffix": "konto(n)",
+    "description": "En wallet i $t(common:appName) kan ha upp till {{accountLimit}} konton. Varje konto kan delegeras till en annan stakepool. Kontonycklarna genereras från wallet rotnnyckel.",
+    "tooltip": "Varje tillagt konto ökar synkroniseringstiden, konton kan läggas till när som helst."
+  },
+  "create": {
+    "title": "Skapar wallet",
+    "caption": "Vänligen vänta medan wallet genereras",
+    "password": {
+      "title": "Ange lösenord för transaktioner",
+      "caption": "Välj ett långt lösenord. Ju längre det är, desto säkrare är dina medel."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet har lagts till",
+      "created": "Wallet har skapats",
+      "restored": "Wallet har återställts",
+      "imported": "Wallet har importerats"
+    },
+    "processing": "Skapar wallet...",
+    "exists": "Wallet finns redan, omdirigerar till Wallet."
+  }
+}

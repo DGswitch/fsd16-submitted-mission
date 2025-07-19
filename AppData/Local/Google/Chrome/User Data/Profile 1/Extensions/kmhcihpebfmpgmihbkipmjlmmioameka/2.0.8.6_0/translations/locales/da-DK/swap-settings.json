@@ -1,0 +1,31 @@
+{
+  "title": "Swap Indstillinger",
+  "presets": "Forudindstillinger",
+  "slippage": {
+    "title": "Swap Slippage",
+    "caption": "Slippage på swaps er forskellen mellem forventede og udførte handelspriser.",
+    "updated": "Swap slippage opdateret til {{percentage}}",
+    "banner": {
+      "warning": {
+        "title": "Høj Slippage",
+        "text": "Høj slippage på swaps kan resultere i betydeligt lavere afkast. Læs venligst op på slippage for AMM ordrer før du fortsætter."
+      }
+    }
+  },
+  "blocklist": {
+    "title": "Aktiverede Protokoller",
+    "caption": "En deaktiveret DEX vil ikke blive brugt til swaps",
+    "presets": "Forudindstillinger",
+    "disableV1": "Deaktiver Plutus v1",
+    "disableV2": "Deaktiver Plutus v2"
+  },
+  "aggregators": {
+    "title": "Aktiverede Aggregatorer",
+    "caption": "Deaktiverede aggregatorer vil ikke blive brugt til swaps"
+  },
+  "showMonsterSwap": {
+    "title": "Vis MonsterSwap",
+    "home": "på Hjem",
+    "navigation": "i hovedmenuen"
+  }
+}

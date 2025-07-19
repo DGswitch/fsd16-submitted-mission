@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "12-ordsfrase",
+      "caption": "En 12-ords Shelley wallet."
+    },
+    "15": {
+      "label": "15-ordsfrase",
+      "caption": "F.eks. en Yoroi Shelley wallet."
+    },
+    "24": {
+      "label": "24-ordsfrase",
+      "caption": "En Shelley wallet oprettet af f.eks. Eternl eller Daedalus."
+    },
+    "title": "Seed-frasetype",
+    "caption": "Hvilken type wallet vil du gerne gendanne?"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Indtast din gemte seed-frase"
+  }
+}

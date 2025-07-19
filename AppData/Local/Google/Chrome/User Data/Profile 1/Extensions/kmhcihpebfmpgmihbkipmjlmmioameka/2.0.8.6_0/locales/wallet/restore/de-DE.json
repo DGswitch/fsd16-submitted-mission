@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "12-Wort-Phrase",
+      "caption": "Eine 12-Wort Shelley Wallet."
+    },
+    "15": {
+      "label": "15-Wort-Phrase",
+      "caption": "Z. B. eine Yoroi Shelley Wallet."
+    },
+    "24": {
+      "label": "24-Wort-Phrase",
+      "caption": "Eine Shelley Wallet, erstellt z. B. von Eternl oder Daedalus."
+    },
+    "title": "Seed-Phrase-Typ",
+    "caption": "Welche Art von Wallet möchten Sie wiederherstellen?"
+  },
+  "phrase": {
+    "title": "$t(wallet/add/common:phrase.title)",
+    "caption": "Geben Sie Ihre gespeicherte Seed-Phrase ein"
+  }
+}

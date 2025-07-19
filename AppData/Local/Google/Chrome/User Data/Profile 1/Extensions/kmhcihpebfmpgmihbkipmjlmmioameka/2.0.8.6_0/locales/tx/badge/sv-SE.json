@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Signerad",
+    "hover": "Denna transaktion är signerad men ännu inte skickad."
+  },
+  "inputSigned": {
+    "label": "Signerad",
+    "hover": "Signaturen för denna input har angivits."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Redeemer för detta kontrakt har angivits."
+  },
+  "inputUnsigned": {
+    "label": "Osignerad",
+    "hover": "Signaturen för denna input saknas."
+  }
+}

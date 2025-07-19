@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: I left most of the texts in intentionally, even if only a few are in use.",
+  "showScamInfo": "Show scam token info",
+  "guard": {
+    "label": "Eternl Guard",
+    "warning": "$t(scam:guard.label) Warning"
+  },
+  "token": {
+    "label": "SCAM",
+    "description": "This is a known <span class=\"font-bold\">SCAM</span> token!<br>Website links shown here are scam!<br>If you connect to those websites and sign a transaction<br>your wallet might be drained completely!",
+    "image": "Warning:\n\nDo not interact with any website that is mentioned in this image!",
+    "hover": "This transaction contains a known scam token. Please be cautious when interacting with it!"
+  },
+  "app": {
+    "description": "This DApp is a known SCAM site! There is a very high chance it will steal your funds or try to scam you in other ways!",
+    "description2": "We strongly advise you to <span class=\"font-bold\">NOT INTERACT</span> with this page!",
+    "ownRisk": "Connect to this site at your own risk!",
+    "bannerWarning": "This site is on the scam list. Please be careful and do not enter any sensitive information."
+  },
+  "address": {
+    "description": "This is a known SCAM address! There is a very high chance you do not want to send your funds there!",
+    "description2": "We strongly advise you to <span class=\"font-bold\">NOT SEND</span> funds to it!",
+    "hover": "This address was used to steal funds!"
+  },
+  "cleanup": {
+    "label": "Clean up wallet",
+    "description": "This will create a cleanup transaction that is sending away all known scam tokens from your wallet to the Eternl burn address. ",
+    "prepared": {
+      "label": "Prepared Scam cleanup transaction"
+    }
+  }
+}

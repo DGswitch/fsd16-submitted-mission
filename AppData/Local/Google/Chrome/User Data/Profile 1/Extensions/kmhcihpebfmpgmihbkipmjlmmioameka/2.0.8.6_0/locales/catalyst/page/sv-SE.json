@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - Projektfinansiering",
+  "caption": "Catalyst introducerar on-chain-styrning till Cardano blockchain.",
+  "subCaption": "Hjälp till att forma Cardanos framtid genom att rösta på finansieringsförslag",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "nästa fond",
+  "error": {
+    "syncing": "$t(home/page:syncInfo.syncing)",
+    "account": "$t(wallet/create:error.account)",
+    "save": "Misslyckades med att spara röstningsnyckel till wallet-lagring. Kontakta support för ytterligare hjälp!",
+    "catalystkey": "Catalyst röstningsnyckel saknas. Detta borde inte hända, vänligen kontakta support!",
+    "api": "Kunde inte fråga röstnings-API, vänligen ladda om eller kontakta support om problemet kvarstår.",
+    "funds": "Minst ###min_ada_catalyst### krävs för att wallet ska vara berättigad att delta i omröstningen.",
+    "rewards": "Dina ###rewards_amount### belöningar kan inte användas i omröstningen om du inte tar ut dem till din wallet.",
+    "nometadata": "Okänt fel, registreringens metadata genererades inte korrekt, försök igen eller kontakta support om problemet kvarstår."
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "Observera",
+      "caption": "För närvarande är registreringen öppen för fond 10 av Catalyst. Efter detta evenemang kommer röstning på framtida fonder att hanteras annorlunda. Gå med i Catalyst-communities för att lära dig mer."
+    }
+  }
+}

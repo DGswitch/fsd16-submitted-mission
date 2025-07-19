@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Musik aus der Sammlung"
+  },
+  "ipfs": {
+    "loading": "Bitte wart, des Asset wird grod gloadn.",
+    "error": "Fehler beim Lodn von Daten von IPFS, bitte probiers no amoi oda kontaktier an Support.",
+    "timeout": "Download der Datei hod a Timeout ghobt, bitte probiers no amoi oda kontaktier an Support."
+  }
+}

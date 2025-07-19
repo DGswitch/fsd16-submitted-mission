@@ -1,0 +1,8 @@
+{
+  "title": "Configuración de la app",
+  "caption": "Actualiza la configuración según tus preferencias personales \no mantén los valores predeterminados.",
+  "success": {
+    "title": "Configuración de la app completada",
+    "caption": "Todo listo, continúa a la app."
+  }
+}

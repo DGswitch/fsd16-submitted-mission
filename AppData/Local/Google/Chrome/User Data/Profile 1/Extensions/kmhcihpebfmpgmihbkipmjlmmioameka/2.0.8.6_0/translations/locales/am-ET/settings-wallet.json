@@ -1,0 +1,109 @@
+{
+  "walletName": {
+    "title": "ስም እና ቡድን",
+    "caption": "የwallet ወይም የቡድን ስምዎን ያዘምኑ።",
+    "setting": {
+      "caption": "$t(settings-wallet:walletName.caption)",
+      "name": "የWallet ስም",
+      "group": "የWallet ቡድን",
+      "error": {
+        "empty": {
+          "name": "የWallet ስም ባዶ መሆን አይችልም።",
+          "group": "የWallet ቡድን ባዶ መሆን አይችልም።"
+        },
+        "duplicate": {
+          "name": "ይህን ስም ያለው wallet አስቀድሞ አለ።"
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "Wallet የማውጫ የይለፍ ቃል",
+    "caption": "የwallet የማውጫ የይለፍ ቃልዎን ያዘምኑ።",
+    "setting": {
+      "caption": "የwallet የማውጫ የይለፍ ቃልዎን ያዘምኑ። አሮጌውን ያስገቡ፣ ከዚያ አዲስ ረጅም የማውጫ የይለፍ ቃል ያስገቡ። የይለፍ ቃሉ በረዘመ ቁጥር walletዎ የበለጠ ደህንነቱ የተጠበቀ ይሆናል።",
+      "reset": "አዲስ የማውጫ የይለፍ ቃል ያዘጋጁ። የይለፍ ቃሉ በረዘመ ቁጥር walletዎ የበለጠ ደህንነቱ የተጠበቀ ይሆናል።",
+      "updated": "Wallet የማውጫ የይለፍ ቃል ማዘመን።",
+      "error": "Wallet የይለፍ ቃል ማዘመን አልተቻለም።"
+    }
+  },
+  "biometrics": {
+    "title": "ባዮሜትሪክስ ማውጣት",
+    "caption": "ከይለፍ ቃል ይልቅ የባዮሜትሪክስ ባህሪን ይጠቀሙ።",
+    "setting": {
+      "caption": "$t(settings-wallet:biometrics.caption)",
+      "activate": {
+        "label": "ባዮሜትሪክስን ያግብሩ",
+        "description": "በስልክዎ የባዮሜትሪክስ ባህሪያት ማውጣትን ለማንቃት የአሁኑን የማውጫ የይለፍ ቃልዎን ያስገቡ።"
+      },
+      "deactivate": {
+        "label": "ባዮሜትሪክስን ያቦዝኑ",
+        "description": "ግብይትን ሲፈርሙ፣ ከይለፍ ቃልዎ ይልቅ በስልክዎ ያለውን የባዮሜትሪክስ ባህሪ እንጠቀማለን።"
+      }
+    }
+  },
+  "icon": {
+    "title": "Wallet አዶ",
+    "caption": "ብጁ wallet አዶ ያዘጋጁ ወይም የዘፈቀደ wallet አዶ ይፍጠሩ።",
+    "setting": {
+      "caption": "$t(settings-wallet:icon.caption)",
+      "select": "አዶ ይምረጡ",
+      "regenerateIcon": "በዘፈቀድ ይሁን",
+      "resetToDefault": "ወደ ነባሪ ይመልሱ"
+    }
+  },
+  "exportWallet": {
+    "title": "Wallet ወደ ውጭ ላክ",
+    "caption": "በሌሎች አሳሾች/መሳሪያዎች ማስመጣትን የሚያስችል ደህንነቱ የተጠበቀ wallet JSON ወደ ውጭ መላክ።",
+    "setting": {
+      "caption": "የተላኩ $t(common:appName) .json ምትኬ ፋይሎች በማንኛውም ሌላ $t(common:appName) መተግበሪያ ውስጥ ማስገባት ይቻላል።",
+      "subCaption": ".json ምትኬ የግብይት ማስታወሻዎችን እና የኪስ ቦርሳ/መለያ ቅንብሮችን ያካትታል።",
+      "button": {
+        "label": "Wallet ወደ ውጭ ላክ"
+      },
+      "banner": {
+        "title": "አስፈላጊ!",
+        "text": "ለሞቃት ኪስ ቦርሳዎች ወደ ውጭ መላክ የተመሰጠረውን የግል ቁልፍን ያካትታል። ወደ ውጭ የተላከውን ፋይል ደህንነቱ በተጠበቀ ሁኔታ ያስቀምጡ እና ለማንም አያጋሩት።"
+      }
+    }
+  },
+  "reSync": {
+    "title": "walletን እንደገና ያመሳስሉ",
+    "caption": "የwallet ሙሉ በሙሉ እንደገና መመሳሰልን ያስገድዱ።",
+    "setting": {
+      "caption": "$t(settings-wallet:reSync.caption)",
+      "subCaption": "ይህን ቁልፍ መጫን ሁሉንም wallet ውሂብ ዳግም ያስጀምረዋል እና ከblockchain ሙሉ በሙሉ እንደገና ያመሳስለዋል።",
+      "button": {
+        "label": "Walletን እንደገና ያመሳስሉ"
+      }
+    }
+  },
+  "verification": {
+    "title": "የማገገሚያ ሐረግ ማረጋገጫ",
+    "caption": "ለwallet ትክክለኛውን የማገገሚያ ሐረግ ማከማቸትዎን ያረጋግጡ።",
+    "setting": {
+      "caption": "$t(settings-wallet:verification.caption) አንዴ ከተረጋገጠ የማውጫ የይለፍ ቃልዎን መቀየር ይችላሉ።",
+      "start": "ሐረግን ያረጋግጡ",
+      "match": {
+        "label": "የገባው የማገገሚያ ሐረግ ትክክል ነው።",
+        "spending": "የማውጫ የይለፍ ቃል ይቀይሩ"
+      },
+      "invalid": "የገባው የማገገሚያ ሐረግ ለዚህ wallet ትክክል አይደለም።"
+    }
+  },
+  "deleteWallet": {
+    "title": "Walletን ይሰርዙ",
+    "caption": "walletን እና ሁሉንም መለያዎቹን ያስወግዱ።",
+    "setting": {
+      "caption": "ይህን walletን አንዴ ከሰረዙት ከዚህ $t(common:appName) መተግበሪያ ይወገዳል እና በዚህ wallet ውስጥ ላሉት ቀሪ ገንዘቦች መዳረሻ ያጣሉ።",
+      "subCaption": "ከሰረዙ በኋላ መዳረሻን መልሶ ለማግኘት ብቸኛው መንገድ የwallet ማገገሚያ ሐረግዎን ወደነበረበት መመለስ ወይም ቀደም ሲል የተላከ $t(common:appName).json ምትኬ ፋይልን በማስመጣት ነው።",
+      "subCaption2": "ይበልጥ ቀላል በሆነ መንገድ ለማስገባትና ወደ ውጭ ለመላክ ከመሰረዝዎ በፊት እንደ $t(common:appName).json ምትኬ ያስቀምጡ።\n\nየዚህን wallet የይለፍ ቃል ደህንነቱ በተጠበቀ ቦታ ማስቀመጥዎን እርግጠኛ ይሁኑ!",
+      "acknowledged": "ወደዚህ wallet ለመመለስ ብቸኛው መንገድ የማግኛ ቃላቶቹን በመጠቀም እንደሆነ ተረድቻለሁ።",
+      "name": "wallet ስም ያስገቡ",
+      "error": {
+        "name": "ለመሰረዝ ትክክለኛውን wallet ስም ያስገቡ።",
+        "acknowledged": "እባክዎ ከላይ ያለውን መረጃ ያንብቡ እና ያረጋግጡ።"
+      }
+    }
+  }
+}

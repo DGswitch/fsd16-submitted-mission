@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet ስም",
+    "caption": "ለwalletዎ በቀላሉ የሚታወቅ ስም ይስጡት።"
+  },
+  "phrase": {
+    "title": "የማስታወሻ ሀረግ"
+  },
+  "account": {
+    "title": "የአካውንቶች ብዛት",
+    "caption": "ሊፈጥሩት የሚፈልጉትን የአካውንቶች ብዛት ይግለጹ።",
+    "suffix": "አካውንት(ቶች)",
+    "description": "$t(common:appName) ላይ ያለ wallet እስከ {{accountLimit}} አካውንቶች ሊኖሩት ይችላል። እያንዳንዱ አካውንት ለተለየ የውርርድ ገንዳ ልዑክ መሆን ይችላል። የአካውንቶቹ ቁልፎች ከwallet ዋና ቁልፍ የተገኙ ናቸው።",
+    "tooltip": "እያንዳንዱ የሚጨመር አካውንት የማመሳሰል ጊዜን ይጨምራል፤ አካውንቶች በማንኛውም ጊዜ ሊጨመሩ ይችላሉ።"
+  },
+  "create": {
+    "title": "wallet በመፍጠር ላይ",
+    "caption": "እባክዎ wallet እየተፈጠረ እያለ ይጠብቁ",
+    "password": {
+      "title": "የማውጫ የይለፍ ቃል ያዘጋጁ",
+      "caption": "ረጅም የይለፍ ቃል ይምረጡ። የይለፍ ቃሉ በረዘመ ቁጥር ገንዘብዎ የበለጠ സുരക്ഷിത ይሆናል።"
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet በተሳካ ሁኔታ ተጨምሯል",
+      "created": "Wallet በተሳካ ሁኔታ ተፈጥሯል",
+      "restored": "Wallet በተሳካ ሁኔታ ተመልሷል",
+      "imported": "Wallet በተሳካ ሁኔታ አስመጥተዋል"
+    },
+    "processing": "wallet በመፍጠር ላይ...",
+    "exists": "Wallet አስቀድሞ አለ፣ ወደ wallet እየተዘዋወሩ ነው።"
+  }
+}

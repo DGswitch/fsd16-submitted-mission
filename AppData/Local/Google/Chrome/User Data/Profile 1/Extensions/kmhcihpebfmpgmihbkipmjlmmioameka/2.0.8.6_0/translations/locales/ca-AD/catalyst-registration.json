@@ -1,0 +1,102 @@
+{
+  "title": "Registre de Catalyst",
+  "status": {
+    "wrongnetwork": {
+      "title": "No compatible",
+      "text": "Catalyst no és compatible amb la xarxa seleccionada actualment."
+    },
+    "registration": {
+      "nostake": {
+        "title": "No registrat",
+        "text": "El compte no està registrat per a staking. Delega a un stake pool primer i després registra't per a la votació de Catalyst."
+      },
+      "nocatalyst": {
+        "title": "Sense registre de Catalyst",
+        "text": "Eternl no reconeix la clau de votació. És possible que el compte no s'hagi registrat mai o que s'hagi registrat amb una altra aplicació."
+      },
+      "hascatalyst": {
+        "title": "Registre de Catalyst",
+        "text": "El compte està registrat per a la votació de Catalyst. La clau de votació de Catalyst s'emmagatzema a Eternl.",
+        "scan": "Escaneja el codi QR a l'aplicació de votació de Catalyst i segueix les instruccions.",
+        "reveal": "No comparteixis la clau de votació i el PIN de Catalyst amb ningú. S'utilitza per votar a les rondes de finançament de Catalyst.",
+        "voteKey": "Clau de votació de Catalyst",
+        "banner": {
+          "title": "Descarrega el codi QR",
+          "text": "Es guarda una còpia de seguretat local de la clau de votació de Catalyst a Eternl per a finalitats de recuperació. Tanmateix, aquesta còpia de seguretat és específica del dispositiu i no estarà disponible quan es restauri la wallet en un altre dispositiu mitjançant la frase de la wallet. Només una còpia de seguretat JSON de la wallet creada després del registre de Catalyst la pot restaurar. Es recomana encaridament descarregar la imatge del codi QR i guardar-la de manera segura, per exemple, en un gestor de contrasenyes."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Tria un stake pool"
+        },
+        "register": {
+          "label": "Registra't per a la votació de Catalyst"
+        },
+        "reregister": {
+          "label": "Crea un registre nou"
+        },
+        "download": {
+          "label": "Descarrega la clau de Catalyst"
+        },
+        "reveal": {
+          "label": "Mostra la clau de Catalyst"
+        },
+        "hide": {
+          "label": "Amaga la clau de Catalyst"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Aplicació de votació",
+      "caption": "Descarrega l'aplicació mòbil de Catalyst al teu telèfon.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "Enllaços a l'App Store!",
+          "text": "NO per utilitzar-se a l'aplicació mòbil de Catalyst!\n\nAquests codis QR enllacen amb les botigues d'aplicacions on pots descarregar i instal·lar l'aplicació mòbil de Catalyst."
+        }
+      }
+    },
+    "pin": {
+      "title": "Configura el codi PIN",
+      "caption": {
+        "enter": "Estableix un PIN per protegir la teva clau de votació de Catalyst.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Apunta el PIN",
+        "text": "Assegura't d'apuntar el PIN!\nSi perds el PIN, caldrà un nou registre de la clau de votació."
+      }
+    },
+    "tx": {
+      "title": "Transacció de registre de votació",
+      "caption": "Registra la teva clau de votació de Catalyst.",
+      "note": {
+        "title": "Poder de votació",
+        "text": "El poder de votació s'escala amb la quantitat de fons que es mantenen en el moment de la instantània. Un saldo més alt augmenta la teva influència durant la instantània."
+      },
+      "warning": {
+        "title": "Quantitat mínima",
+        "text": "Es requereix un saldo mínim de 25 {{currency}} perquè la teva clau de votació s'inclogui a la captura. Sense aquest mínim, no podràs votar ni rebre recompenses en una ronda de finançament."
+      },
+      "success": "Registre de Catalyst correcte.",
+      "saved": "Clau de votació de Catalyst desada correctament a Eternl.",
+      "error": {
+        "save": "No s'ha pogut desar la clau de votació de Catalyst a Eternl."
+      }
+    }
+  }
+}

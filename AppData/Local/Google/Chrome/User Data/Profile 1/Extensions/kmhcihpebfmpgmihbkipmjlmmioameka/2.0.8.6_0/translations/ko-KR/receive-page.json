@@ -1,0 +1,39 @@
+{
+  "menuLabel": "받기",
+  "title": "자금 받기",
+  "caption": "결제를 받으려면 이 주소를 공유하세요.",
+  "search": {
+    "caption": "주소의 일부 또는 \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" 또는 \"0 1 32\"와 같은 파생 경로를 찾으세요.",
+    "placeholder": "$t(common:search) $t(common:address) 또는 경로",
+    "noResults": "결과를 찾을 수 없습니다"
+  },
+  "current": {
+    "headline": "사용 가능한 wallet 주소입니다.",
+    "static": "수신 주소.",
+    "caption": "결제를 받으려면 이 wallet 주소를 공유하세요.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "위임된 모든 수신 주소에는 스테이크 키가 포함되어 있습니다. \n위임된 수신 주소를 공유하면 수신자는 스테이크 키를 사용하여 blockchain을 검색하여 \n귀하의 wallet과 관련된 모든 주소를 찾고 wallet 잔액 및 거래 내역을 확인할 수 있습니다."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "외부 주소 (위임됨)",
+      "caption": "이 주소들은 스테이크 풀에 위임되었습니다 (실제로 이 계정을 위임한 경우)."
+    },
+    "enterprise": {
+      "headline": "외부 주소 (위임되지 않음)",
+      "caption": "이 주소들은 위임되지 않았습니다."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "내부 변경 주소 (위임됨)",
+      "caption": "이 주소들은 스테이크 풀에 위임되었습니다 (실제로 이 계정을 위임한 경우).\n내부 주소를 공유하지 말고 항상 외부 주소를 제공하세요."
+    },
+    "enterprise": {
+      "headline": "내부 변경 주소 (위임되지 않음)",
+      "caption": "이 주소들은 위임되지 않았습니다.\n내부 주소를 공유하지 말고 항상 외부 주소를 제공하세요."
+    }
+  }
+}

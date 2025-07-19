@@ -1,0 +1,9 @@
+{
+  "walletname": {
+    "label":                      "Wallet name",
+    "info":                       "Choose a telling wallet name, eg. \"Staking wallet\"",
+    "hint":                       "eg. My shopping wallet",
+    "error":                      "A wallet name requires at least 3 and at most 40 characters.",
+    "duplicate":                  "A wallet with this name already exists."
+  }
+}

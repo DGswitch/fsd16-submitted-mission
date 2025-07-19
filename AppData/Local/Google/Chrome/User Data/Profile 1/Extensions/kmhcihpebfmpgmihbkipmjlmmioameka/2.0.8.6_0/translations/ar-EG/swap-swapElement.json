@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "بيجيبلك أحسن سعر من مجمّعات متعددة",
+  "select": "اختار",
+  "sell": "أنت تبيع",
+  "buy": "أنت تشتري",
+  "balance": "متاح للتبديل",
+  "aggAndDexs": "Agg و DEXs:",
+  "provider": "المزوّد",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "يمسح كل المدخلات"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "إنشاء معاملة تبديل"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "جاري تجهيز معاملة التبديل."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "رسوم الـ Batcher وحجم الـ Pool (DEXs)",
+      "tooltip": "الـ DEXs بتحدد رسوم لمعالجة طلبك. الرسوم دي غير قابلة للاسترداد."
+    },
+    "aggregatorFee": {
+      "label": "رسوم الخدمة",
+      "tooltip": "دي رسوم لتسهيل الخدمة. بتساعد في تمويل تطوير المجمّع و Eternl."
+    },
+    "deposit": {
+      "label": "وديعة قابلة للاسترداد",
+      "tooltip": "مطلوب وديعة لمعالجة طلبك. المبلغ ده بيرجع لـ wallet بتاعتك مع الـ tokens اللي بتستلمها."
+    }
+  }
+}

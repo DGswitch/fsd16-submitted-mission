@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transaktioner",
+  "title": "Transaktioner",
+  "caption": "Denne wallet har i alt {{numTxTotal}} transaktioner.",
+  "subCaption": "Klik på en transaktion for at se flere detaljer eller indstil et filter for at indsnævre listen.",
+  "empty": "Denne konto har ingen transaktioner.",
+  "noMatch": "Kunne ikke finde nogen transaktioner, der matchede søgningen.",
+  "updating": "Opdaterer transaktioner",
+  "filter": {
+    "title": "Transaktionsfilter",
+    "caption": "Angiv parametre eller indtast en søgestreng for at filtrere transaktionslisten.",
+    "search": "Søg efter besked, tx id eller adresse...",
+    "more": "Mere",
+    "minada": "Min. {{adaCurrency}} beløb",
+    "maxada": "Maks. {{adaCurrency}} beløb",
+    "date-range": {
+      "start": "Startdato",
+      "end": "Slutdato"
+    }
+  },
+  "sync": {
+    "line1": "Ikke alle transaktionsdetaljer er indlæst endnu.",
+    "line2": "Datoperiode og tx id-søgning fungerer for alle kendte transaktioner.",
+    "loading": "Med hver kontosynkroniseringsproces indlæses en stor del af detaljerne.",
+    "awhile": "Dette kan tage et stykke tid.",
+    "autosync": "For at filtrere på flere datapunkter, f.eks. aktiv metadata, skal du aktivere kontohistoriksynkronisering.",
+    "progress": "Synkronisering er i gang, vent venligst.",
+    "history": "Historiksynkronisering"
+  },
+  "button": {
+    "history": {
+      "label": "Transaktionshistorik",
+      "tooltip": "Skift til transaktionshistorikside."
+    }
+  }
+}

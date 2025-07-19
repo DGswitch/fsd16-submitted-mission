@@ -1,0 +1,24 @@
+{
+  "title": "Vyberte typ wallet",
+  "caption": "Pokud jste nový uživatel, vytvořte si novou wallet.\nPřipojte Ledger nebo importujte JSON zálohu.",
+  "create": {
+    "label": "Nová Wallet",
+    "caption": "Vygenerujte úplně novou wallet"
+  },
+  "hardware": {
+    "label": "Připojit Hardware",
+    "caption": "Používejte své zařízení Ledger, Trezor nebo Keystone s Eternl"
+  },
+  "restore": {
+    "label": "Zadejte Seed-phrase",
+    "caption": "Použijte svou 24, 15 nebo 12 slovnou seed-phrase"
+  },
+  "multiSig": {
+    "label": "Multi-Sig Wallet",
+    "caption": "Vytvořte nebo se připojte k multi-signature wallet"
+  },
+  "more": {
+    "label": "Více",
+    "caption": "Zobrazit další možnosti importu wallet"
+  }
+}

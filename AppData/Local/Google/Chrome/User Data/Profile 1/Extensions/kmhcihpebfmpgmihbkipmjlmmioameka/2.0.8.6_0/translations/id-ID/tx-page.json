@@ -1,0 +1,36 @@
+{
+  "menuLabel": "Transaksi",
+  "title": "Transaksi",
+  "caption": "wallet ini memiliki total {{numTxTotal}} transaksi.",
+  "subCaption": "Klik pada transaksi untuk melihat detail lebih lanjut atau atur filter untuk mempersempit daftar.",
+  "empty": "Akun ini tidak memiliki transaksi.",
+  "noMatch": "Tidak dapat menemukan transaksi yang cocok dengan pencarian tersebut.",
+  "updating": "Memperbarui Transaksi",
+  "filter": {
+    "title": "Filter Transaksi",
+    "caption": "Atur parameter atau masukkan string pencarian untuk memfilter daftar transaksi.",
+    "search": "Cari pesan, tx id, atau alamat...",
+    "more": "Lainnya",
+    "minada": "Jumlah {{adaCurrency}} min",
+    "maxada": "Jumlah {{adaCurrency}} maks",
+    "date-range": {
+      "start": "Tanggal Mulai",
+      "end": "Tanggal Akhir"
+    }
+  },
+  "sync": {
+    "line1": "Belum semua detail transaksi dimuat.",
+    "line2": "Pencarian rentang tanggal dan tx id akan berfungsi untuk semua transaksi yang diketahui.",
+    "loading": "Dengan setiap proses sinkronisasi akun, sebagian besar detail akan dimuat.",
+    "awhile": "Ini mungkin memerlukan waktu beberapa saat.",
+    "autosync": "Untuk memfilter berdasarkan lebih banyak poin data, mis. metadata aset, aktifkan sinkronisasi riwayat akun.",
+    "progress": "Sinkronisasi sedang berlangsung, harap tunggu.",
+    "history": "Sinkronisasi riwayat"
+  },
+  "button": {
+    "history": {
+      "label": "Riwayat transaksi",
+      "tooltip": "Beralih ke halaman riwayat transaksi."
+    }
+  }
+}

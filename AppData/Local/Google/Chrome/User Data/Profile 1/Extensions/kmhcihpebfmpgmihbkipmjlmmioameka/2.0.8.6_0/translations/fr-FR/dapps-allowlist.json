@@ -1,0 +1,5 @@
+{
+  "caption": "N'interagissez qu'avec les dApps de confiance !",
+  "subCaption": "Gérez la liste des sites web/dApps autorisés à se connecter à cette application $t(common:appName).",
+  "empty": "Aucune dApp autorisée pour l'instant."
+}

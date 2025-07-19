@@ -1,0 +1,58 @@
+{
+  "general": {
+    "weak": "Çok basit",
+    "medium": "Ortalama karmaşıklık",
+    "strong": "Güçlü şifre",
+    "prompt": "Bir şifre seçin"
+  },
+  "spending": {
+    "verifying": "Harcama şifresi doğrulanıyor, lütfen bekleyin.",
+    "enter": {
+      "label": "Şifreyi girin",
+      "hint": "Harcama şifresini girin",
+      "error": "Orta derecede güçlü bir şifre gereklidir"
+    },
+    "repeat": {
+      "label": "Şifreyi tekrar girin",
+      "error": "Şifreler eşleşmiyor",
+      "hint": "Aynı harcama şifresini tekrar girin",
+      "ok": "Şifre doğrulandı ve geçerli bir uzunluğa sahip"
+    },
+    "current": {
+      "hint": "Mevcut harcama şifresini girin"
+    },
+    "sign": {
+      "label": "İmzala",
+      "info": "__GT__cüzdanınızın__ harcama şifresini girin. Bu __GT__cüzdanı__ oluştururken/geri yüklerken girdiğiniz şifredir.",
+      "hint": "Harcama şifresini girin",
+      "error": "Girilen şifre bu __GT__cüzdanın__ harcama şifresiyle eşleşmiyor."
+    },
+    "addAccount": {
+      "error": "Girilen şifre bu __GT__cüzdanın__ harcama şifresiyle eşleşmiyor.",
+      "match": "Eski harcama şifresi doğrulandı."
+    }
+  },
+  "mnemonic": {
+    "error": {
+      "invalid": "Girilen kelime listesi geçerli bir kelime listesi değil. Lütfen tüm kelimeleri dikkatlice kontrol edin."
+    },
+    "noresult": "Eşleşen bip39 kelimesi bulunamadı"
+  },
+  "message": {
+    "title": "Mesaj şifresi",
+    "caption": "Mesajın şifresini çözmek için şifreyi girin.",
+    "encrypt": {
+      "hint": "İşlemler mesajı için bir şifre girin"
+    },
+    "decrypt": {
+      "hint": "İşlemler mesajının şifresini çözmek için şifreyi girin"
+    }
+  },
+  "legacyBackup": {
+    "title": "Eski yedekleme şifresi",
+    "caption": "Eski yedekleme dosyasını şifrelemek için kullandığınız şifreyi girin.",
+    "decrypt": {
+      "hint": "Yedeklemenin şifresini çözmek için şifreyi girin"
+    }
+  }
+}

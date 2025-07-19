@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "Zwischen Wallets wechseln.",
+    "accounts": {
+      "select": "Konten",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Wähle ein bestimmtes wallet, um zwischen Konten zu wechseln.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Wechsle das aktive $t(common:dApp) Konto."
+    },
+    "accounts": {
+      "select": "Wähle ein Konto aus der Liste aus. Markiere ein Konto als Favorit, indem du auf das Sternsymbol klickst.",
+      "manage": "Füge Konten hinzu oder entferne sie, wähle bestimmte Konto-Indizes aus oder lege Kontonamen fest."
+    }
+  },
+  "groups": {
+    "placeholder": "Aktive wallet Gruppen auswählen",
+    "favoriteAccounts": "Favoriten Konten"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Kontoname:",
+    "index": "Index:",
+    "limit": "Limit:",
+    "remove": {
+      "tooltip": "Konto entfernen"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Neue Konten hinzufügen"
+  },
+  "notification": {
+    "updated": "Kontoliste aktualisiert.",
+    "error": "Unbekannter Fehler beim Speichern des aktualisierten wallet in der Datenbank.",
+    "errorRemove": "Konto mit der ID {{accountId}} konnte nicht entfernt werden.",
+    "noWallet": "Wallet nicht gefunden.",
+    "errorKey": "Die abgeleitete Liste der öffentlichen Schlüssel stimmt nicht mit der angeforderten Pfadliste überein.",
+    "limit": "Dieses wallet kann keine weiteren Konten hinzufügen."
+  }
+}

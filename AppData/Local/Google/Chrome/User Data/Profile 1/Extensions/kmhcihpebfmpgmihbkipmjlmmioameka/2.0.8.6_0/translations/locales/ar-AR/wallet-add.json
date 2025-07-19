@@ -1,0 +1,24 @@
+{
+  "title": "اختر نوع wallet",
+  "caption": "إذا كنت مستخدمًا جديدًا، قم بإنشاء wallet جديدة.\nقم بتوصيل جهاز Ledger الخاص بك أو استيراد نسخة احتياطية JSON.",
+  "create": {
+    "label": "Wallet جديدة",
+    "caption": "أنشئ wallet جديدة تمامًا"
+  },
+  "hardware": {
+    "label": "توصيل جهاز",
+    "caption": "استخدم جهاز Ledger أو Trezor أو Keystone الخاص بك مع Eternl"
+  },
+  "restore": {
+    "label": "أدخل عبارة البذور",
+    "caption": "استخدم عبارة البذور المكونة من 24 أو 15 أو 12 كلمة"
+  },
+  "multiSig": {
+    "label": "Wallet متعددة التوقيع",
+    "caption": "أنشئ أو انضم إلى wallet متعددة التوقيع"
+  },
+  "more": {
+    "label": "المزيد",
+    "caption": "عرض خيارات استيراد wallet إضافية"
+  }
+}

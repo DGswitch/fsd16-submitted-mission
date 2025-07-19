@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "Vlož transakční CBOR",
+  "error": {
+    "corrupted": "Nahráný soubor je poškozený, transakci nebylo možné importovat.",
+    "invalid": "Nahráný soubor není platný JSON soubor.",
+    "format": "Zdá se, že JSON soubor neobsahuje exportovaná transakční data."
+  }
+}

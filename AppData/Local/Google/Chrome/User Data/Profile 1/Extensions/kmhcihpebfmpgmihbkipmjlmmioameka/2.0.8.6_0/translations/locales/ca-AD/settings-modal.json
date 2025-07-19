@@ -1,0 +1,29 @@
+{
+  "title": "$t(settings-page:title)",
+  "search": {
+    "placeholder": "Troba la configuració..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "Configuració del compte",
+    "caption": "Configuració que s'aplica al compte actiu actualment."
+  },
+  "wallet": {
+    "title": "Configuració de Wallet",
+    "caption": "Configuració que s'aplica a la wallet activa actualment."
+  },
+  "app": {
+    "title": "Configuració de l'aplicació",
+    "caption": "Configuració que s'aplica a Eternl en general."
+  },
+  "util": {
+    "title": "Utilitats de l'aplicació",
+    "caption": "Utilitats diverses."
+  },
+  "update": {
+    "success": "Configuració desada correctament.",
+    "error": "Error al desar la configuració."
+  }
+}

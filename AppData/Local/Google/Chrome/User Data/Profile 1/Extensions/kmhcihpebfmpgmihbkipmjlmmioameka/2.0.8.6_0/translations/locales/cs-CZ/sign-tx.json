@@ -1,0 +1,134 @@
+{
+  "tx": {
+    "label": "Máte {{tx_cnt}} transakcí k potvrzení",
+    "caption": "Kliknutím rozbalíte každou transakci a zobrazíte více podrobností",
+    "loading": "Zpracovávají se transakce k podpisu",
+    "signing": "Podepisuje se transakce <b>{{txindex}}</b> z {{txtotal}}",
+    "submitting": "Odesílají se transakce",
+    "sharing": "Sdílí se Multi-Sig transakce",
+    "hw": "Potvrďte transakci <b>{{txindex}}</b> z {{txtotal}} na svém zařízení {{device}}",
+    "keystonehash": "<b>Kvůli velikosti lze na zařízení zobrazit pouze hash těla transakce!</b>",
+    "review": "Před potvrzením si prosím zkontrolujte transakci"
+  },
+  "button": {
+    "debug": {
+      "label": "Stáhnout informace pro ladění"
+    }
+  },
+  "biometrics": {
+    "sign": "Podepsat biometricky"
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "partiallySigned": "$t(common:status.partiallySigned)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "Transakce byla úspěšně odeslána",
+    "submitMultiple": "Všechny transakce byly úspěšně odeslány"
+  },
+  "account": {
+    "label": "Podepisování peněženek",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "Právě se podepisuje",
+      "unsigned": "Vyžaduje podpis",
+      "signed": "Podepsáno",
+      "connecting": "Připojování"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send-options:tf.label)",
+      "caption": "$t(send-options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send-options:cu.label)",
+      "caption": "Shromážděte UTxO tohoto účtu sloučením do menšího počtu."
+    },
+    "send-all": {
+      "headline": "Odesílání všech prostředků",
+      "caption": "Tato transakce odesílá všechny prostředky na účtu. Zkontrolujte prosím podrobnosti cílové adresy."
+    },
+    "high-fee": {
+      "headline": "Vyšší než normální poplatek",
+      "caption": "Byl zjištěn vyšší než normální transakční poplatek. Zkontrolujte prosím podrobnosti transakce, abyste se ujistili, že je to požadovaný výsledek."
+    },
+    "withdraw": {
+      "headline": "Vybrat odměny",
+      "caption": "Vaše odměny jsou automaticky součástí vašeho delegovaného stake. Není třeba vybírat odměny, pokud je neposíláte jinam nebo je nepotřebujete započítat do hlasovacího práva catalyst."
+    },
+    "pool-deleg": {
+      "headline": "Delegace poolu",
+      "caption": "Transakce delegace stake poolu. Zobrazte transakci pro podrobnosti."
+    },
+    "vote-deleg": {
+      "headline": "Delegace hlasování",
+      "caption": "Transakce delegace vládního hlasování. Zobrazte transakci pro podrobnosti."
+    },
+    "ms-reg": {
+      "headline": "Multi-Sig Wallet Registrace",
+      "caption": "Tím se registruje Multi-Sig wallet na blockchain pro snadné nalezení všemi účastníky."
+    },
+    "cat-reg": {
+      "headline": "Catalyst Registrace",
+      "caption": "Tím se vytvoří transakce registrace hlasování Catalyst. Tato registrace je platná pro nadcházející snímky fondu Catalyst, pokud není přepsána novější registrací."
+    },
+    "collateral": {
+      "headline": "Kolaterál UTxO",
+      "caption": "Generuje kolaterální UTxO, které jsou někdy potřeba při interakci s DApps."
+    },
+    "stake-dereg": {
+      "headline": "Odregistrace klíče stake",
+      "caption": "$t(settings-account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "Deregistrace DRep",
+      "caption": "$t(settings-account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "Vyčištění podvodných tokenů",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "Objednávka Swap",
+      "caption": "Transakce objednávky MonsterSwap poskytující nejlepší dostupné trasy."
+    },
+    "swap-cancel": {
+      "headline": "Zrušit Swap objednávku",
+      "caption": "Transakce zrušení pro dříve zadanou swap objednávku."
+    },
+    "donation": {
+      "headline": "Dar",
+      "caption": "Děkujeme za podporu Eternl."
+    }
+  },
+  "error": {
+    "expired": "Nelze odeslat! Životnost transakce vypršela. Vytvořte prosím transakci znovu s novým datem vypršení platnosti (TTL).",
+    "auxDataMismatch": "Mezi připojenými metadata a hashem požadovaným pro podepsání je nesoulad. metadata zobrazená pro tuto transakci není to, co budete podepisovat!",
+    "auxDataMissing": "Transakce metadata je skrytá.",
+    "debug": "Pro další podporu otevřete prosím ticket na Discordu se staženými debug daty.",
+    "unknownInputs": "Nelze vypočítat přesný zůstatek transakce kvůli neznámým vstupům.",
+    "doubleSpend": "Neplatný seznam transakcí: Vstup utxo je utracen více než jednou.\n",
+    "missingKeys": "Transakce nevyžadují žádné svědky z dostupných účtů. Pokud již byla potvrzena, zavřete ji a odešlete.",
+    "locked": "Transakce se pokouší utratit jeden nebo více vašich ručně uzamčených UTxO.",
+    "passwordMismatch": "Zadaná hesla se neshodují, zkuste to prosím znovu!",
+    "dappUnsupported": "DApp není podporována pro {{device}} wallet.",
+    "fixPermissionUSB": {
+      "text": "Klikněte na tlačítko a postupujte podle pokynů, abyste povolili USB připojení.",
+      "button": "Opravit USB oprávnění"
+    },
+    "fixPermissionBLE": {
+      "text": "Klikněte na tlačítko a postupujte podle pokynů, abyste povolili Bluetooth připojení.",
+      "button": "Opravit Bluetooth oprávnění"
+    },
+    "fixPermissionCamera": {
+      "text": "Klikněte na tlačítko a postupujte podle pokynů, abyste povolili přístup k fotoaparátu.",
+      "button": "Opravit oprávnění fotoaparátu"
+    }
+  },
+  "info": {
+    "signDownload": "Transakce byla potvrzena všemi dostupnými účty.",
+    "multiSigShare": "Sdílejte transakci, abyste upozornili účastníky Multi-Sig wallet, nebo alternativně stáhněte a sdílejte transakci ručně."
+  }
+}

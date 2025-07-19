@@ -1,0 +1,24 @@
+{
+  "title": "اختار نوع محفظة رقمية (maḥfaẓa raqamiya)",
+  "caption": "لو أنت مستخدم جديد، اعمل محفظة رقمية (maḥfaẓa raqamiya) جديدة.\nوصل الـ Ledger بتاعك أو استورد نسخة احتياطية JSON.",
+  "create": {
+    "label": "محفظة رقمية (maḥfaẓa raqamiya) جديدة",
+    "caption": "اعمل محفظة رقمية (maḥfaẓa raqamiya) جديدة خالص"
+  },
+  "hardware": {
+    "label": "وصل جهاز",
+    "caption": "استخدم جهاز Ledger أو Trezor أو Keystone بتاعك مع Eternl"
+  },
+  "restore": {
+    "label": "دخل الـ Seed-phrase",
+    "caption": "استخدم الـ seed-phrase بتاعتك اللي فيها 24 أو 15 أو 12 كلمة"
+  },
+  "multiSig": {
+    "label": "محفظة رقمية (maḥfaẓa raqamiya) متعدد التوقيع",
+    "caption": "اعمل أو انضم لـ محفظة رقمية (maḥfaẓa raqamiya) متعددة التوقيع"
+  },
+  "more": {
+    "label": "المزيد",
+    "caption": "اعرض اختيارات استيراد محفظة رقمية (maḥfaẓa raqamiya) إضافية"
+  }
+}

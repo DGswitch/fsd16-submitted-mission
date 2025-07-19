@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "確認待ちのトランザクションが {{tx_cnt}} 件あります",
+    "caption": "各トランザクションをクリックして詳細を表示します",
+    "loading": "署名するトランザクションを処理中",
+    "signing": "トランザクション <b>{{txindex}}</b> / {{txtotal}} に署名中",
+    "submitting": "トランザクションを送信中",
+    "sharing": "Multi-Sig トランザクションを共有中",
+    "hw": "{{device}} デバイスでトランザクション <b>{{txindex}}</b> / {{txtotal}} を確認してください",
+    "keystonehash": "<b>サイズが大きいため、デバイスにはトランザクションボディのハッシュのみ表示可能です !!</b>",
+    "review": "確認する前にトランザクションを確認してください"
+  },
+  "button": {
+    "debug": {
+      "label": "デバッグ情報をダウンロード"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "トランザクションは正常に送信されました",
+    "submitMultiple": "すべてのトランザクションは正常に送信されました"
+  },
+  "account": {
+    "label": "署名ウォレット",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "現在署名中",
+      "unsigned": "署名が必要",
+      "signed": "署名済み",
+      "connecting": "接続中"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send/options:tf.label)",
+      "caption": "$t(send/options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send/options:cu.label)",
+      "caption": "このアカウントの UTXO を統合して数を減らします。"
+    },
+    "send-all": {
+      "headline": "全資金を送金",
+      "caption": "このトランザクションはアカウント内の全資金を送金します。宛先アドレスの詳細を確認してください。"
+    },
+    "high-fee": {
+      "headline": "通常より高い手数料",
+      "caption": "通常より高いトランザクション手数料が検出されました。これが意図した結果であることをトランザクション詳細で確認してください"
+    },
+    "withdraw": {
+      "headline": "報酬の引き出し",
+      "caption": "報酬は自動的に委任されたステークの一部となります。報酬を送金する場合や、catalyst の投票力に加算する場合を除き、引き出す必要はありません。"
+    },
+    "pool-deleg": {
+      "headline": "プール委任",
+      "caption": "ステークプール委任トランザクションです。詳細はトランザクションを表示して確認してください。"
+    },
+    "vote-deleg": {
+      "headline": "投票委任",
+      "caption": "ガバナンス投票委任トランザクションです。詳細はトランザクションを表示して確認してください。"
+    },
+    "ms-reg": {
+      "headline": "Multi-Sig ウォレット 登録",
+      "caption": "これにより、Multi-Sig ウォレット が blockchain に登録され、すべての参加者が容易に見つけられるようになります。"
+    },
+    "cat-reg": {
+      "headline": "Catalyst 登録",
+      "caption": "これは Catalyst 投票登録トランザクションを作成します。この登録は、新しい登録によって上書きされない限り、今後の Catalyst ファンドのスナップショットに対して有効です。"
+    },
+    "collateral": {
+      "headline": "Collateral UTxO",
+      "caption": "DApps と対話する際に時々必要となる Collateral UTxO を生成します。"
+    },
+    "stake-dereg": {
+      "headline": "ステークキー登録解除",
+      "caption": "$t(settings/account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "DRep 登録解除",
+      "caption": "$t(settings/account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "詐欺トークンのクリーンアップ",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "スワップ注文",
+      "caption": "利用可能な最良のルートを提供する MonsterSwap 注文トランザクションです。"
+    },
+    "swap-cancel": {
+      "headline": "スワップ注文のキャンセル",
+      "caption": "以前に投稿されたスワップ注文のキャンセルトランザクションです。"
+    },
+    "donation": {
+      "headline": "寄付",
+      "caption": "Eternl をサポートいただきありがとうございます。"
+    }
+  },
+  "error": {
+    "expired": "送信できません！トランザクションの有効期限 (TTL) が切れています。新しい有効期限 (TTL) でトランザクションを再作成してください。",
+    "auxDataMismatch": "添付された metadata と署名が要求されたハッシュの間に不一致があります。このトランザクションで表示されている metadata は、署名する内容とは異なります！",
+    "auxDataMissing": "トランザクションの metadata は非表示です。",
+    "debug": "さらにサポートが必要な場合は、デバッグデータをダウンロードして Discord チケットを開いてください。",
+    "unknownInputs": "不明なインプットのため、正確なトランザクション残高を計算できません。",
+    "doubleSpend": "無効なトランザクションリストです。インプット utxo が複数回使用されています：\n",
+    "missingKeys": "利用可能なアカウントからの承認 (witnesses) は不要です。すでに確認済みの場合は、閉じて送信してください。",
+    "locked": "トランザクションは、手動でロックされた UTXO を1つ以上使用しようとしています。",
+    "passwordMismatch": "入力されたパスワードが一致しません。再試行してください！",
+    "dappUnsupported": "{{device}} の ウォレット では DApp はサポートされていません。",
+    "fixPermissionUSB": {
+      "text": "ボタンをクリックし、指示に従って USB 接続を許可してください。",
+      "button": "USB 権限を修正"
+    },
+    "fixPermissionBLE": {
+      "text": "ボタンをクリックし、指示に従って Bluetooth 接続を許可してください。",
+      "button": "Bluetooth 権限を修正"
+    },
+    "fixPermissionCamera": {
+      "text": "ボタンをクリックし、指示に従ってカメラへのアクセスを許可してください。",
+      "button": "カメラ権限を修正"
+    }
+  },
+  "info": {
+    "signDownload": "トランザクションは、利用可能なすべてのアカウントによって確認されました。",
+    "multiSigShare": "トランザクションを共有して Multi-Sig ウォレット の参加者に通知するか、トランザクションを手動でダウンロードして共有してください。"
+  }
+}

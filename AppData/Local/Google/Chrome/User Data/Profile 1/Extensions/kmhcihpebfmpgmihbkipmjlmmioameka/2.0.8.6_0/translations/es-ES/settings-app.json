@@ -1,0 +1,214 @@
+{
+  "appMode": {
+    "pro": "Modo Pro",
+    "simple": "Modo Simple",
+    "caption": "Cambiar entre Modo Simple y Modo Pro.",
+    "setting": {
+      "caption": "Define tu experiencia Eternl. El modo Simple es más adecuado para nuevos usuarios. El modo Pro tiene todas las funcionalidades.",
+      "openAfterSign": "Abrir automáticamente la vista previa de la transacción al firmar.",
+      "stakeKeyOnHome": "Mostrar clave de stake en la página de Inicio"
+    }
+  },
+  "network": {
+    "title": "Red",
+    "caption": "Selecciona la red activa actual."
+  },
+  "language": {
+    "title": "Idioma",
+    "caption": "Selecciona el idioma preferido.",
+    "search": "Filtrar lista de idiomas",
+    "setting": {
+      "caption": "Selecciona el idioma preferido para la aplicación."
+    }
+  },
+  "formatting": {
+    "title": "Formato",
+    "caption": "Formato regional de fecha y moneda.",
+    "setting": {
+      "caption": "Activar para seguir el formato del idioma seleccionado.",
+      "enabled": "Seguir idioma activado",
+      "disabled": "Seguir idioma desactivado",
+      "region": "Región de formato",
+      "timezone": "Zona horaria"
+    }
+  },
+  "currency": {
+    "title": "Moneda",
+    "caption": "Selecciona la moneda preferida para la conversión.",
+    "search": "Filtrar lista de monedas",
+    "setting": {
+      "caption": "Selecciona la moneda preferida para la conversión."
+    }
+  },
+  "decimalPrecision": {
+    "title": "Precisión decimal",
+    "caption": "Número de decimales.",
+    "setting": {
+      "caption": "Selecciona el número de decimales a mostrar para las cantidades."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// Ver pin:deleteAccess y pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "Autenticación Biométrica",
+    "caption": "Usa FaceId (iOS) u otros sistemas biométricos para autenticarte.",
+    "setting": {
+      "title": {
+        "active": "Activado",
+        "inactive": "Desactivado"
+      },
+      "caption": {
+        "active": "Autentícate usando Biometría para abrir $t(common:appName).",
+        "inactive": "La autenticación biométrica está desactivada.",
+        "disabled": "Para activar esta función, por favor establece primero un PIN."
+      }
+    }
+  },
+  "sound": {
+    "title": "Sonidos",
+    "caption": "Activar o desactivar las notificaciones de sonido.",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "Las notificaciones de sonido se usan para interacciones de swap, errores y otros eventos importantes.",
+      "enabled": "$t(settings-app:sound.title) activado",
+      "disabled": "$t(settings-app:sound.title) desactivado"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "Añadir, eliminar y editar entradas de $t(addressBook:title).",
+    "setting": {
+      "caption": "Gestiona tus entradas de $t(addressBook:title).",
+      "comment": "// Ver addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "Lista blanca de DApp",
+    "caption": "La lista de sitios web/dApps que tienen permitido conectarse a esta aplicación $t(common:appName).",
+    "setting": {
+      "comment": "// Ver dapps-allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "Transacciones: envío automático",
+    "caption": "Enviar transacciones automáticamente después de firmar. Desactiva para permitir la descarga del cbor de la transacción firmada.",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "Envío automático activado",
+      "disabled": "Envío automático desactivado",
+      "enabledInfo": "Las transacciones firmadas se enviarán automáticamente a la blockchain.",
+      "disabledInfo": "Tienes que enviar manualmente una transacción después de que haya sido firmada."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Endpoint de envío personalizado",
+    "caption": "Enviar transacciones a través de un cardano-node y cardano-submit-api personalizados.",
+    "setting": {
+      "caption": "Define un endpoint personalizado de cardano-node y cardano-submit-api para el envío de transacciones.",
+      "new_endpoint": "Añadir endpoint",
+      "hint": "Añadir un nuevo endpoint personalizado.",
+      "deleteConfirm": "Confirmar eliminación de entrada.",
+      "deleted": "Endpoint eliminado.",
+      "note": {
+        "title": "¡Ten en cuenta!",
+        "caption": "Esta es una configuración avanzada y solo debes usarla si comprendes completamente sus implicaciones.",
+        "description": "Asegúrate de que el endpoint personalizado sea confiable y esté completamente sincronizado.\n\nSi no es así, el operador del nodo podría retener la difusión de tus transacciones para su propio beneficio o no difundirlas en absoluto, y todas tus transacciones podrían fallar.\n\nSi no estás seguro, desactiva esta configuración para enviar transacciones a través de la infraestructura de $t(common:appName).",
+        "cors": "Además, asegúrate de que tu endpoint personalizado tenga configurados los encabezados CORS correctos para aceptar la solicitud que envía $t(common:appName)."
+      },
+      "error": {
+        "url": "Una URL válida comienza con http(s).",
+        "oneEndpoint": "Debe haber al menos un endpoint de envío configurado."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Explorador de blockchain",
+    "caption": "Establecer explorador de blockchain preferido por tipo.",
+    "setting": {
+      "caption": "Selecciona el explorador de blockchain preferido para la aplicación.",
+      "block": "Explorador de bloques",
+      "pool": "Explorador de pools",
+      "address": "Explorador de direcciones",
+      "token": "Explorador de tokens",
+      "policy": "Explorador de políticas",
+      "transaction": "Explorador de transacciones",
+      "stake": "Explorador de claves de stake",
+      "DRep": "Explorador de DRep",
+      "govProposal": "Propuesta de gobernanza",
+      "select": "Seleccionar {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "Configuración experimental",
+    "caption": "¡Nadie debería usar la configuración experimental!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "Ocultar todos los parámetros de URL",
+        "caption": "Si esto está activado, los parámetros de URL en la sección de configuración se ocultarán."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "Guardar última configuración usada",
+        "caption": "Si esto está activado, al cambiar a configuración se seleccionará automáticamente el último grupo y sección de configuración utilizados."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "Configuración de Slippage y Dex para MonsterSwap."
+  },
+  "theme": {
+    "label": "Cambiador de tema",
+    "caption": "Selecciona un tema para personalizar Eternl.",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "Restablecer caché de la aplicación",
+    "caption": "Eliminar todos los datos en caché para restablecer la aplicación.",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\nEsto incluye transacciones, imágenes de tokens y Metadatos. Tus billeteras, cuentas y configuraciones NO se verán afectadas.",
+      "finish": "Restablecimiento de la caché de la aplicación exitoso.",
+      "inProgress": "La caché de $t(common:appName) se está borrando, por favor espera.",
+      "warning": "Una vez que restablezcas la caché de $t(common:appName), la aplicación deberá obtener nuevamente todos los datos de la blockchain. Si tienes múltiples billeteras o cuentas, esto podría tardar un tiempo.",
+      "button": {
+        "label": "Restablecer caché de la aplicación"
+      }
+    }
+  },
+  "reset": {
+    "title": "Restablecer aplicación",
+    "caption": "Eliminar todas las billeteras y datos almacenados para restablecer la aplicación.",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "¡Advertencia!",
+          "text": "Una vez que restablezcas la aplicación, ¡perderás el acceso a todas las billeteras! La única forma de recuperar el acceso después del restablecimiento es restaurando tu frase de recuperación de wallet o importando archivos .json de $t(common:appName) previamente exportados."
+        }
+      },
+      "phrase": {
+        "name": "Frase de confirmación",
+        "hint": "Introduce la frase de confirmación.",
+        "noPaste": "Por favor, escribe la frase de confirmación para restablecer $t(common:appName)",
+        "confirmation": "Restablecer $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "Entiendo que la única forma de recuperar el acceso a mis billeteras es restaurándolas con la frase de recuperación de wallet o emparejando dispositivos de hardware wallet.",
+          "error": "La frase de confirmación no coincide."
+        }
+      },
+      "deleteWallets": "Restablecer billeteras",
+      "deleteConfig": "Restablecer configuraciones",
+      "deleteFinish": "Finalizando",
+      "finish": "Aplicación restablecida correctamente"
+    }
+  }
+}

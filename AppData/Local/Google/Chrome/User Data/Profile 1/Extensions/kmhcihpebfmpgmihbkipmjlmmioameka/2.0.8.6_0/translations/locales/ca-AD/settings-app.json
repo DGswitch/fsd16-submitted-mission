@@ -1,0 +1,231 @@
+{
+  "appMode": {
+    "pro": "Mode Pro",
+    "simple": "Mode Simple",
+    "caption": "Canvia entre el Mode Simple i el Mode Pro.",
+    "setting": {
+      "caption": "Defineix la teva experiència a Eternl. El mode Simple és més adequat per a usuaris nous. El mode Pro té totes les campanes i els xiulets.",
+      "openAfterSign": "Obre automàticament la previsualització de la transacció en signar.",
+      "performance": "Activa efectes visuals exigents (p. ex., fons difuminats i difuminació als gràfics).",
+      "showButton": "Mostra el botó del connector dapp a la capçalera",
+      "fixAndroid": "Activa una solució alternativa per al problema de la barra de navegació inferior d'Android.",
+      "home": {
+        "caption": "Afegeix o elimina elements del tauler d'inici.",
+        "stakeKey": "Mostra la clau de staking del compte",
+        "adaChart": "Mostra el gràfic de {{currency}}",
+        "rewardsChart": "Mostra el gràfic de recompenses",
+        "stakePool": "Mostra el stake pool escollit",
+        "monsterSwap": "Mostra MonsterSwap",
+        "dRep": "Mostra el Representant Delegat"
+      }
+    },
+    "showButton": "Mostra el botó del connector de dapp a la capçalera"
+  },
+  "network": {
+    "title": "Xarxa",
+    "caption": "Selecciona la xarxa activa actual."
+  },
+  "language": {
+    "title": "Idioma",
+    "caption": "Selecciona l'idioma preferit.",
+    "search": "Filtra la llista d'idiomes",
+    "setting": {
+      "caption": "Selecciona l'idioma preferit per a l'aplicació."
+    },
+    "warning": {
+      "title": "Funció beta",
+      "text": "Canviar l'idioma és una nova funció. Si us plau, informa de qualsevol problema que trobis a l'equip de Eternl a Discord.",
+      "button": "Informa a Discord"
+    }
+  },
+  "formatting": {
+    "title": "Format",
+    "caption": "Format regional de data i moneda.",
+    "setting": {
+      "caption": "Activa per seguir el format de l'idioma seleccionat.",
+      "enabled": "Segueix l'idioma activat",
+      "disabled": "Segueix l'idioma desactivat",
+      "region": "Regió de format",
+      "timezone": "Fus horari"
+    }
+  },
+  "currency": {
+    "title": "Moneda",
+    "caption": "Selecciona la moneda preferida per a la conversió.",
+    "search": "Filtra la llista de monedes",
+    "setting": {
+      "caption": "Selecciona la moneda preferida per a la conversió."
+    }
+  },
+  "decimalPrecision": {
+    "title": "Precisió decimal",
+    "caption": "Nombre de decimals.",
+    "setting": {
+      "caption": "Selecciona el nombre de decimals que es mostraran per als imports."
+    }
+  },
+  "pin": {
+    "title": "$t(pin:access.title)",
+    "caption": "$t(pin:createAccess.captionShort)",
+    "setting": {
+      "comment": "// See pin:deleteAccess and pin:createAccess "
+    }
+  },
+  "biometrics": {
+    "title": "Autenticació biomètrica",
+    "caption": "Utilitza FaceId (iOS) o altres sistemes biomètrics per autenticar-te.",
+    "setting": {
+      "title": {
+        "active": "Activat",
+        "inactive": "Desactivat"
+      },
+      "caption": {
+        "active": "Autentica't mitjançant biometria per obrir $t(common:appName).",
+        "inactive": "L'autenticació biomètrica està desactivada.",
+        "disabled": "Per activar aquesta funció, primer has de configurar un PIN."
+      }
+    }
+  },
+  "sound": {
+    "title": "Sons",
+    "caption": "Activa o desactiva les notificacions de so.",
+    "setting": {
+      "caption": "$t(settings-app:sound.caption)",
+      "info": "Les notificacions de so s'utilitzen per a interaccions d'intercanvi, errors i altres esdeveniments importants.",
+      "enabled": "$t(settings-app:sound.title) activat",
+      "disabled": "$t(settings-app:sound.title) desactivat"
+    }
+  },
+  "addressBook": {
+    "title": "$t(addressBook:title)",
+    "caption": "Afegeix, elimina i edita entrades de $t(addressBook:title).",
+    "setting": {
+      "caption": "Gestiona les teves entrades de $t(addressBook:title).",
+      "comment": "// Consulta addressBook:"
+    }
+  },
+  "allowlist": {
+    "title": "Llista permesos de DApp",
+    "caption": "La llista de llocs web/DApps que tenen permís per connectar-se a aquesta aplicació $t(common:appName).",
+    "setting": {
+      "comment": "// Consulta dapps-allowlist:"
+    }
+  },
+  "autoSubmit": {
+    "title": "Transaccions: enviament automàtic",
+    "caption": "Envia automàticament les transaccions després de signar-les. Desactiva-ho per permetre la descàrrega de l'arxiu cbor de la transacció signada.",
+    "setting": {
+      "caption": "$t(settings-app:autoSubmit.caption)",
+      "enabled": "Enviament automàtic activat",
+      "disabled": "Enviament automàtic desactivat",
+      "enabledInfo": "Les transaccions signades s'enviaran automàticament a la blockchain.",
+      "disabledInfo": "Has d'enviar manualment una transacció després que s'hagi signat."
+    }
+  },
+  "customSubmitEndpoint": {
+    "title": "Endpoint d'enviament personalitzat",
+    "caption": "Envia transaccions a través d'un cardano-node i cardano-submit-api personalitzats.",
+    "setting": {
+      "caption": "Defineix un endpoint cardano-node i cardano-submit-api personalitzat per a l'enviament de transaccions.",
+      "new_endpoint": "Afegeix un endpoint",
+      "hint": "Afegeix un nou endpoint personalitzat.",
+      "deleteConfirm": "Confirma que vols eliminar l'entrada.",
+      "deleted": "S'ha eliminat l'endpoint.",
+      "note": {
+        "title": "Si us plau, tingues en compte!",
+        "caption": "Aquesta és una configuració avançada i només l'hauries d'utilitzar si n'entens completament les implicacions.",
+        "description": "Assegura't que l'endpoint personalitzat sigui de confiança i estigui completament sincronitzat.\n\nSi no, l'operador del node pot retenir la difusió de les teves transaccions per al seu propi benefici o no difondre-les en absolut, i totes les teves transaccions podrien fallar.\n\nSi no n'estàs segur, desactiva aquesta configuració per enviar transaccions a través de la infraestructura $t(common:appName).",
+        "cors": "A més, assegura't que el teu endpoint personalitzat hagi establert les capçaleres CORS correctes per acceptar la sol·licitud que envia $t(common:appName)."
+      },
+      "error": {
+        "url": "Una URL vàlida comença amb http(s).",
+        "oneEndpoint": "Cal que hi hagi almenys un endpoint d'enviament configurat."
+      }
+    }
+  },
+  "explorer": {
+    "title": "Explorador de Blockchain",
+    "caption": "Estableix l'explorador de blockchain preferit per tipus.",
+    "setting": {
+      "caption": "Selecciona l'explorador de blockchain preferit per a l'aplicació.",
+      "block": "Explorador de blocs",
+      "pool": "Explorador de pools",
+      "address": "Explorador d'adreces",
+      "token": "Explorador de tokens",
+      "policy": "Explorador de polítiques",
+      "transaction": "Explorador de transaccions",
+      "stake": "Explorador de claus de stake",
+      "DRep": "Explorador de DRep",
+      "govProposal": "Proposta de governança",
+      "select": "Selecciona {{type}}"
+    }
+  },
+  "experimental": {
+    "title": "Configuració experimental",
+    "caption": "La configuració experimental no hauria de ser utilitzada per ningú!",
+    "setting": {
+      "caption": "$t(settings-app:experimental.caption)",
+      "HIDE_SETTING_URL": {
+        "label": "Amaga tots els paràmetres d'URL",
+        "caption": "Si això està activat, els paràmetres d'URL a la secció de configuració s'amagaran."
+      },
+      "SAVE_LAST_SETTING": {
+        "label": "Guarda l'última configuració utilitzada",
+        "caption": "Si està activat, canviar a la configuració seleccionarà automàticament el grup i la secció de configuració utilitzats per últim cop."
+      }
+    }
+  },
+  "swap": {
+    "title": "MonsterSwap",
+    "caption": "Configuració de lliscament i Dex per a MonsterSwap."
+  },
+  "theme": {
+    "label": "Canviador de tema",
+    "caption": "Selecciona un tema per personalitzar Eternl.",
+    "setting": {
+      "caption": "$t(settings-app:theme.caption)"
+    }
+  },
+  "clearCache": {
+    "title": "Reinicia la memòria cau de l'aplicació",
+    "caption": "Elimina totes les dades emmagatzemades a la memòria cau per reiniciar l'aplicació.",
+    "setting": {
+      "caption": "$t(settings-app:clearCache.caption)\nAixò inclou les transaccions, les imatges de tokens i les metadata. Les teves carteres, comptes i configuració NO es veuran afectats.",
+      "finish": "S'ha reiniciat correctament la memòria cau de l'aplicació.",
+      "inProgress": "$t(common:appName) s'està netejant, espera un moment.",
+      "warning": "Un cop reiniciïs la memòria cau de $t(common:appName), l'aplicació ha de recuperar totes les dades de la blockchain de nou. Si tens diverses carteres o comptes, això podria trigar una estona.",
+      "button": {
+        "label": "Reinicia la memòria cau de l'aplicació"
+      }
+    }
+  },
+  "reset": {
+    "title": "Reinicia l'aplicació",
+    "caption": "Elimina totes les carteres i les dades emmagatzemades per reiniciar l'aplicació.",
+    "setting": {
+      "caption": "$t(settings-app:reset.caption)",
+      "banner": {
+        "warning": {
+          "title": "Avís!",
+          "text": "Un cop reiniciïs l'aplicació, perdràs l'accés a totes les carteres! L'única manera de recuperar l'accés després del reinici és restaurant la teva frase de recuperació de la wallet o important els fitxers $t(common:appName) .json exportats anteriorment."
+        }
+      },
+      "phrase": {
+        "name": "Frase de confirmació",
+        "hint": "Introdueix la frase de confirmació.",
+        "noPaste": "Si us plau, escriu la frase de confirmació per reiniciar $t(common:appName)",
+        "confirmation": "Reinicia $t(common:appName) #{{number}}"
+      },
+      "toggle": {
+        "acknowledged": {
+          "text": "Entenc que l'única manera de recuperar l'accés a les meves carteres és restaurant-les amb la frase de recuperació de la wallet o aparellant dispositius de wallet de hardware.",
+          "error": "La frase de confirmació no coincideix."
+        }
+      },
+      "deleteWallets": "Reinicia les carteres",
+      "deleteConfig": "Reinicia les configuracions",
+      "deleteFinish": "S'està acabant",
+      "finish": "Aplicació reiniciada correctament"
+    }
+  }
+}

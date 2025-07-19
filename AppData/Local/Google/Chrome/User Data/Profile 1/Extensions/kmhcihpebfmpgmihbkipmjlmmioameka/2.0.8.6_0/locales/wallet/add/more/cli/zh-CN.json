@@ -1,0 +1,9 @@
+{
+  "title": "匯入 CLI 簽署密鑰",
+  "caption": "選擇由 CLI 產生嘅 wallet 付款簽署密鑰同埋質押簽署密鑰（可選）。",
+  "payment": "付款密鑰",
+  "stake": "質押密鑰",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "無效密鑰，請驗證並再試一次！"
+}

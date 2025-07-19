@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "Hämtar det bästa priset från flera aggregatorer åt dig",
+  "select": "VÄLJ",
+  "sell": "Du säljer",
+  "buy": "Du köper",
+  "balance": "Tillgängligt för swap",
+  "aggAndDexs": "Agg & DEXs:",
+  "provider": "Leverantör",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Rensar alla inmatningsfält"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Skapa swap-transaktion"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Bygger swap-transaktionen."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Batcher & Pool Volume-avgift (DEXs)",
+      "tooltip": "DEXs tar ut en avgift för att behandla din order. Denna återbetalas inte."
+    },
+    "aggregatorFee": {
+      "label": "Serviceavgift",
+      "tooltip": "Detta är serviceavgiften. Den hjälper till att finansiera utvecklingen av aggregatorn och Eternl."
+    },
+    "deposit": {
+      "label": "Återbetalningsbar deposition",
+      "tooltip": "En deposition krävs för att behandla din order. Detta belopp returneras till din wallet tillsammans med de tokens du får."
+    }
+  }
+}

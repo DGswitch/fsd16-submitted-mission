@@ -1,0 +1,102 @@
+{
+
+  "header":                   "Menu",
+
+  "token-list":                 "Token List",
+
+  "imprint":                  "Imprint",
+
+  "app-settings":             "Settings",
+
+  "storage-manager":          "Storage Manag.",
+
+  "platform-preference":      "Platform perf.",
+
+  "market-analytics":         "Market Analytics",
+
+  "utxo-list":                "UTxO List",
+
+  "tx-builder":               "TxBuilder",
+
+  "frank-address":            "Fr.address Gen",
+
+  "home": {
+    "label":                  "Home"
+  },
+
+  "transactions": {
+    "label":                  "Transactions"
+  },
+
+  "send": {
+    "label":                  "Send"
+  },
+
+  "receive": {
+    "label":                  "Receive"
+  },
+
+  "swap": {
+    "label":                  "MonsterSwap"
+  },
+
+  "assets": {
+    "label":                  "Assets"
+  },
+
+  "staking": {
+    "label":                  "Staking"
+  },
+
+  "dappBrowser": {
+    "label":                  "Dapp Browser"
+  },
+
+  "governance": {
+    "label":                  "Governance"
+  },
+
+  "catalyst": {
+    "label":                  "Catalyst"
+  },
+
+  "settings": {
+    "label":                  "Settings"
+  },
+
+  "utxoList": {
+    "label":                  "UTxO List"
+  },
+
+  "multisig": {
+    "label":                  "Multi-Sig"
+  },
+
+  "portfolio": {
+    "label":                  "Portfolio"
+  },
+
+  "helpcenter": {
+    "label":                  "Help Center"
+  },
+
+  "componentOverview": {
+    "label":                  "Components"
+  },
+
+  "iconOverview": {
+    "label":                  "Icons"
+  },
+
+  "cardanoconnect": {
+    "label":                  "Cardano Connect"
+  },
+
+  "walletconnect": {
+    "label":                  "Wallet Connect"
+  },
+
+  "collapse": {
+    "label":                  "Collapse Menu"
+  }
+}

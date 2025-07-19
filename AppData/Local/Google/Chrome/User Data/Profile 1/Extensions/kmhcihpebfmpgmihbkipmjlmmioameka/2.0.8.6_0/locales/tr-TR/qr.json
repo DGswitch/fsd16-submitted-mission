@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "QR Kodu Tara",
+    "short": "QR"
+  },
+  "loading": "Kamera başlatılıyor.",
+  "error": {
+    "notAllowed": "Lütfen kamera erişim izni verin.",
+    "notFound": "Cihazda kamera algılanmadı.",
+    "notSupported": "Güvenli bağlantı gerekli (HTTPS, localhost).",
+    "notReadable": "Kamera zaten kullanımda mı?",
+    "overconstrained": "Yüklü kameralar uygun değil.",
+    "streamApiNotSupported": "Stream API bu tarayıcıda desteklenmiyor.",
+    "insecureContext": "Kamera erişimine yalnızca güvenli bağlantıda izin verilir. HTTP yerine HTTPS veya localhost kullanın."
+  },
+  "bex": {
+    "fullscreenNotice": "Kamera erişimine izin vermek için uzantıyı tam ekran modunda açın. Bu yalnızca bir kez yapılmalıdır.\n Tam ekrana geçmek için bu metne tıklayın."
+  }
+}

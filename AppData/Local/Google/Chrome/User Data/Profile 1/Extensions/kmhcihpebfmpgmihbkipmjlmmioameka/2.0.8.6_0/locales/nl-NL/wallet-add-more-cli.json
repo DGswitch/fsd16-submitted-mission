@@ -1,0 +1,9 @@
+{
+  "title": "Importeer CLI Ondertekeningssleutels",
+  "caption": "Selecteer betalings- en stake (optioneel) ondertekeningssleutels van een CLI-gegenereerde wallet.",
+  "payment": "Betalingssleutel",
+  "stake": "Stake-sleutel",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Ongeldige sleutel, controleer en probeer opnieuw!"
+}

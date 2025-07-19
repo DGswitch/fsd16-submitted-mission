@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "نام و گروه",
+    "caption": "نام wallet یا گروه خود را به‌روز کنید.",
+    "setting": {
+      "caption": "$t(settings-wallet:walletName.caption)",
+      "name": "نام Wallet",
+      "group": "گروه Wallet",
+      "error": {
+        "empty": {
+          "name": "نام Wallet نمی‌تواند خالی باشد.",
+          "group": "گروه Wallet نمی‌تواند خالی باشد."
+        },
+        "duplicate": {
+          "name": "یک wallet با این نام از قبل وجود دارد."
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "رمز عبور خرج کردن Wallet",
+    "caption": "رمز عبور خرج کردن wallet خود را به‌روز کنید.",
+    "setting": {
+      "caption": "رمز عبور خرج کردن wallet خود را به‌روز کنید. رمز عبور قدیمی را وارد کنید، سپس یک رمز عبور خرج کردن طولانی جدید وارد کنید. هر چه رمز عبور طولانی‌تر باشد، wallet شما امن‌تر است.",
+      "updated": "به‌روزرسانی رمز عبور خرج کردن Wallet.",
+      "error": "رمز عبور Wallet به‌روز نشد."
+    }
+  },
+  "biometrics": {
+    "title": "خرج کردن با Biometrics",
+    "caption": "به جای رمز عبور از ویژگی Biometrics استفاده کنید.",
+    "setting": {
+      "caption": "$t(settings-wallet:biometrics.caption)",
+      "activate": {
+        "label": "فعال کردن Biometrics",
+        "description": "رمز عبور خرج کردن فعلی خود را وارد کنید تا خرج کردن با ویژگی‌های Biometrics گوشی شما فعال شود."
+      },
+      "deactivate": {
+        "label": "غیرفعال کردن Biometrics",
+        "description": "هنگام امضای تراکنش، به جای رمز عبور شما از ویژگی Biometrics گوشی شما استفاده خواهیم کرد."
+      }
+    }
+  },
+  "icon": {
+    "title": "آیکون Wallet",
+    "caption": "یک آیکون سفارشی برای wallet تنظیم کنید یا یک آیکون تصادفی برای wallet ایجاد کنید.",
+    "setting": {
+      "caption": "$t(settings-wallet:icon.caption)",
+      "select": "انتخاب آیکون",
+      "regenerateIcon": "تصادفی",
+      "resetToDefault": "بازنشانی به پیش‌فرض"
+    }
+  },
+  "exportWallet": {
+    "title": "خروجی گرفتن از Wallet",
+    "caption": "خروجی JSON امن wallet که امکان وارد کردن در مرورگرها/دستگاه‌های دیگر را فراهم می‌کند.",
+    "setting": {
+      "caption": "فایل‌های پشتیبان .json خروجی گرفته شده $t(common:appName) را می‌توان در هر برنامه $t(common:appName) دیگری وارد کرد.",
+      "subCaption": "یک پشتیبان .json شامل یادداشت‌های تراکنش و تنظیمات کیف پول/حساب است.",
+      "button": {
+        "label": "خروجی گرفتن از Wallet"
+      },
+      "banner": {
+        "title": "مهم!",
+        "text": "برای hot wallets، خروجی شامل private key رمزگذاری شده است. فایل خروجی گرفته شده را امن نگه دارید و با هیچ‌کس به اشتراک نگذارید."
+      }
+    }
+  },
+  "reSync": {
+    "title": "همگام‌سازی مجدد wallet",
+    "caption": "اجبار به همگام‌سازی مجدد کامل wallet.",
+    "setting": {
+      "caption": "$t(settings-wallet:reSync.caption)",
+      "subCaption": "فشردن این دکمه تمام داده‌های wallet را بازنشانی کرده و به طور کامل از blockchain همگام‌سازی مجدد می‌کند.",
+      "button": {
+        "label": "همگام‌سازی مجدد Wallet"
+      }
+    }
+  },
+  "verification": {
+    "title": "تأیید عبارت بازیابی",
+    "caption": "تأیید کنید که عبارت بازیابی صحیح را برای wallet ذخیره کرده‌اید.",
+    "setting": {
+      "caption": "$t(settings-wallet:verification.caption) پس از تأیید، می‌توانید رمز عبور خرج کردن خود را نیز تغییر دهید.",
+      "start": "تأیید عبارت",
+      "match": {
+        "label": "عبارت بازیابی وارد شده صحیح است.",
+        "spending": "تغییر رمز عبور خرج کردن"
+      },
+      "invalid": "عبارت بازیابی وارد شده برای این wallet صحیح نیست."
+    }
+  },
+  "deleteWallet": {
+    "title": "حذف Wallet",
+    "caption": "wallet و تمام حساب‌های آن را حذف کنید.",
+    "setting": {
+      "caption": "پس از حذف این wallet، از این برنامه $t(common:appName) حذف خواهد شد و دسترسی به هرگونه وجه باقی‌مانده در این wallet را از دست خواهید داد.",
+      "subCaption": "تنها راه برای بازیابی دسترسی پس از حذف، بازیابی عبارت بازیابی wallet یا وارد کردن فایل پشتیبان $t(common:appName).json است که قبلاً خروجی گرفته‌اید.",
+      "subCaption2": "برای وارد کردن آسان‌تر، قبل از حذف به صورت فایل پشتیبان $t(common:appName).json خروجی بگیرید.\\n\\nمطمئن شوید که seed phrase این wallet به طور ایمن ذخیره شده است!",
+      "acknowledged": "می‌دانم که تنها راه دسترسی مجدد به این wallet، بازیابی آن با استفاده از عبارت بازیابی wallet آن است.",
+      "name": "نام wallet را وارد کنید",
+      "error": {
+        "name": "برای تایید حذف، نام صحیح wallet را وارد کنید.",
+        "acknowledged": "لطفاً اطلاعات بالا را بخوانید و تایید کنید."
+      }
+    }
+  }
+}

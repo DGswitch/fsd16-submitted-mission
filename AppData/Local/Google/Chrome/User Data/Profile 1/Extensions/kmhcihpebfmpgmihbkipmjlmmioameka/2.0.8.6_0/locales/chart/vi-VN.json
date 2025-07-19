@@ -1,0 +1,13 @@
+{
+  "price": {
+    "epoch": "$t(common:epoch)"
+  },
+  "rewardsHistory": {
+    "title": "$t(common:rewards) biểu đồ",
+    "epoch": "$t(common:epoch)",
+    "invalid": "$t(common:invalid)",
+    "button": {
+      "fullHistory": "Xem lịch sử đầy đủ"
+    }
+  }
+}

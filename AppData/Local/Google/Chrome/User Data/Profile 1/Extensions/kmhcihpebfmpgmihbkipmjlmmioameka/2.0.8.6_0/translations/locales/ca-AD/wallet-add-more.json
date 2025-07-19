@@ -1,0 +1,20 @@
+{
+  "title": "Selecciona el tipus de wallet",
+  "caption": "Creació avançada de wallet. Torna enrere per a les opcions comunes.",
+  "import-wallet": {
+    "title": "Importa la Còpia de Seguretat",
+    "caption": "Restaura des dels fitxers de còpia de seguretat JSON de Eternl"
+  },
+  "cli-skey-wallet": {
+    "title": "Claus de signatura CLI",
+    "caption": "Importa les claus de signatura (skey) generades per CLI"
+  },
+  "account-pub-wallet": {
+    "title": "Clau pública del compte (només lectura)",
+    "caption": "Introdueix la clau pública del compte exportada"
+  },
+  "address-wallet": {
+    "title": "Adreça (només lectura)",
+    "caption": "Crea a partir d'una adreça bech32"
+  }
+}

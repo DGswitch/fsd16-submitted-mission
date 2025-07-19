@@ -1,0 +1,34 @@
+{
+  "placeholder": "Hier eine Notiz hinzufügen.",
+  "copy": "Transaktionsnotiz: {{note}}.",
+  "export": "Notizen können importiert und exportiert werden.",
+  "add": {
+    "title": "Notiz hinzufügen",
+    "caption": "Füge dieser Transaktion eine Notiz hinzu. $t(tx/component/note:export)"
+  },
+  "edit": {
+    "title": "Notiz bearbeiten",
+    "caption": "Bearbeite die an diese Transaktion angehängte Notiz. $t(tx/component/note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx/component/note:add.title)",
+      "tooltip": "$t(tx/component/note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx/component/note:edit.title)",
+      "tooltip": "$t(tx/component/note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Notiz löschen",
+      "tooltip": "Lösche die an diese Transaktion angehängte Notiz."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Notiz löschen",
+      "caption": "Bitte bestätige, dass du die Transaktionsnotiz löschen möchtest.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

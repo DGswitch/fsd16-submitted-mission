@@ -1,0 +1,10 @@
+{
+  "title": "Importa claus de signatura de la CLI",
+  "caption": "Selecciona les claus de signatura de pagament i de participació (opcionalment) d'un wallet generat per la CLI.",
+  "payment": "Clau de pagament",
+  "stake": "Clau de participació",
+  "drep": "Clau DRep",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Clau no vàlida, si us plau, verifica-la i torna-ho a provar!"
+}

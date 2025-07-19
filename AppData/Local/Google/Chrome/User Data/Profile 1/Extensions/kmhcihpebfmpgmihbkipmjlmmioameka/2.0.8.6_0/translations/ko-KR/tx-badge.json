@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "서명됨",
+    "hover": "이 트랜잭션은 서명되었지만 아직 제출되지 않았습니다."
+  },
+  "inputSigned": {
+    "label": "서명됨",
+    "hover": "이 입력에 대한 서명이 제공되었습니다."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "이 계약에 대한 리디머가 제공되었습니다."
+  },
+  "inputUnsigned": {
+    "label": "서명되지 않음",
+    "hover": "이 입력에 대한 서명이 누락되었습니다."
+  }
+}

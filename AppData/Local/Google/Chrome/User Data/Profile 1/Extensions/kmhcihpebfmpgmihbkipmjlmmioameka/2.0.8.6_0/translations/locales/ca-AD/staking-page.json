@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Tauler de control de Staking",
+  "caption": "Aquí pots gestionar i delegar els teus {{currency}} a un Stakepool i guanyar ingressos passius.",
+  "subCaption": "Els teus fons mai surten de la teva wallet per fer staking a Cardano, i es poden gastar en qualsevol moment.",
+  "staking-cta": {
+    "title": "Guanya recompenses de staking!",
+    "caption": "Fes clic al botó per triar un pool de staking.",
+    "button": "Stake"
+  },
+  "poollist": {
+    "title": "Pools de staking disponibles",
+    "caption": "Una llista de pools de staking disponibles. Introdueix el ticker o el nom d'un pool per filtrar la llista. El rànquing prioritza les recompenses òptimes per a l'usuari.",
+    "filter": {
+      "search": "Cerca un pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "no hi ha dades disponibles del pool",
+      "undelegated": "no delegat",
+      "delegated": "delegat",
+      "deregistered": "donat de baixa",
+      "registered": "registrat",
+      "pending": "pendent",
+      "producing": "produint"
+    },
+    "history": {
+      "label": "Historial de recompenses",
+      "caption": "Una llista de recompenses obtingudes per staking i votació de Catalyst ordenades per epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Recompenses",
+      "refund": "Reemborsament de la baixa del Pool",
+      "pool": "Pool",
+      "treasury": "Votació de Catalyst",
+      "leader": "Recompenses d'operador del Pool",
+      "reserves": "Recompenses instantànies"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Si us plau, considera delegar a un DRep per a les accions de governança. Serà necessari en la següent era per poder retirar les recompenses de staking"
+      },
+      "inactive": "El compte està delegat a un DRep de governança que està marcat com a inactiu i, per tant, ja no compta per al stake de votació actiu"
+    },
+    "warning": {
+      "high": {
+        "headline": "Comissió alta del Pool",
+        "caption": "El pool al qual està delegat aquest compte té una comissió inusualment alta que reduirà les teves recompenses de staking. Si és algun tipus d'ISPO, està bé. Si no, hauries de triar un altre pool amb comissions més baixes"
+      },
+      "complete": {
+        "headline": "Comissió del Pool del 99+%",
+        "caption": "El pool al qual està delegada aquesta compte cobra almenys un 99% i recapta les teves recompenses {{currency}}. Si és algun tipus d'ISPO, perfecte. Si no, hauries de triar un altre pool amb comissions més baixes."
+      }
+    }
+  }
+}

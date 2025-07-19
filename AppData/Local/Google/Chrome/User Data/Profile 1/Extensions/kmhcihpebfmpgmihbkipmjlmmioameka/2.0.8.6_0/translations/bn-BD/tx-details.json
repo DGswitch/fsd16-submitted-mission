@@ -1,0 +1,159 @@
+{
+  "txId": "লেনদেন আইডি",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "txHash": "txHash",
+  "index": "ইনডেক্স",
+  "credential": {
+    "payment": "পেমেন্ট ক্রেডেনশিয়াল",
+    "stake": "স্টেক ক্রেডেনশিয়াল"
+  },
+  "certificate": {
+    "label_one": "সার্টিফিকেট",
+    "label_other": "সার্টিফিকেটসমূহ",
+    "type": {
+      "stakereg": "অ্যাকাউন্ট রেজিস্ট্রেশন",
+      "stakedereg": "অ্যাকাউন্ট ডি-রেজিস্ট্রেশন",
+      "stakedel": "স্টেক পুল ডেলিগেশন",
+      "stakeregdel": "অ্যাকাউন্ট রেজিস্ট্রেশন এবং স্টেক পুল ডেলিগেশন",
+      "stakevotedel": "স্টেক পুল এবং DRep ডেলিগেশন",
+      "stakevoteregdel": "অ্যাকাউন্ট রেজিস্ট্রেশন এবং স্টেক পুল / DRep ডেলিগেশন",
+      "votedel": "DRep ডেলিগেশন",
+      "voteregdel": "অ্যাকাউন্ট রেজিস্ট্রেশন এবং DRep ডেলিগেশন",
+      "drepreg": "DRep রেজিস্ট্রেশন",
+      "drepupd": "DRep আপডেট",
+      "drepdereg": "DRep ডি-রেজিস্ট্রেশন",
+      "poolreg": "স্টেক পুল রেজিস্ট্রেশন / আপডেট",
+      "poolret": "স্টেক পুল রিটায়ারমেন্ট",
+      "genkeydel": "জেনেসিস কী ডেলিগেশন",
+      "mircert": "তাৎক্ষণিক রিওয়ার্ড স্থানান্তর",
+      "comhot": "কমিটি হট অথ",
+      "comcold": "কমিটি কোল্ড রিজাইন",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Plutus কন্ট্রাক্ট",
+      "unknown": "অজানা প্রকার"
+    },
+    "poolreg": {
+      "actepno": "Epoch এ সক্রিয়",
+      "fixedcost": "নির্দিষ্ট খরচ",
+      "margin": "মার্জিন",
+      "pledge": "Pledge",
+      "rewardaddr": "রিওয়ার্ড অ্যাড্রেস",
+      "owner": "মালিক",
+      "relay": "রিলে",
+      "metaurl": "মেটাডেটা URL",
+      "metahash": "মেটাডেটা হ্যাশ",
+      "metadata": "অফ-চেইন মেটা"
+    },
+    "poolret": {
+      "retepno": "রিটায়ারিং Epoch"
+    },
+    "gov": {
+      "stakeCreds": "স্টেক ক্রেডেনশিয়ালসমূহ",
+      "drepCreds": "DRep ক্রেডেনশিয়ালসমূহ",
+      "votingCreds": "ভোটিং ক্রেডেনশিয়ালসমূহ",
+      "poolCreds": "পুল ক্রেডেনশিয়ালসমূহ",
+      "poolParams": "পুল প্যারামিটার",
+      "poolId": "পুল আইডি",
+      "poolHash": "পুল হ্যাশ",
+      "deposit": "ডিপোজিট",
+      "anchor": "নোঙ্গর",
+      "rawData": "কাঁচা ডেটা",
+      "unknown": "অজানা সার্টিফিকেট",
+      "hash": "হ্যাশ",
+      "isScript": "স্ক্রিপ্ট",
+      "credential": "ক্রেডেনশিয়াল",
+      "vote": "ভোট",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "মেটাডেটা এন্ট্রি",
+    "label_other": "মেটাডেটা এন্ট্রিগুলো",
+    "label": "$t(common:মেটাডেটা.label)",
+    "key": "লেবেল",
+    "value": "মান",
+    "rawData": "কাঁচা ডেটা",
+    "block": "ব্লক নং",
+    "confirmations": "কনফার্মেশন",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Tx সাইজ"
+    },
+    "copied": {
+      "cbor": "কপি করা ট্রানজ্যাকশন cbor"
+    }
+  },
+  "withdrawal": {
+    "label_one": "উইথড্রয়াল",
+    "label_other": "উইথড্রয়ালগুলো",
+    "amount": "পরিমাণ"
+  },
+  "utxo": {
+    "collateralInputs_one": "Collateral ইনপুট",
+    "collateralInputs_other": "Collateral ইনপুটগুলো",
+    "referenceInputs_one": "Reference ইনপুট",
+    "referenceInputs_other": "Reference ইনপুটগুলো",
+    "inputs_one": "ইনপুট",
+    "inputs_other": "ইনপুটগুলো",
+    "collateralOutput_one": "Collateral আউটপুট",
+    "collateralOutput_other": "Collateral আউটপুটগুলো",
+    "outputs_one": "আউটপুট",
+    "outputs_other": "আউটপুটগুলো"
+  },
+  "nativescript": {
+    "label": "নেটিভ / মাল্টি-সিগ স্ক্রিপ্ট(গুলো)",
+    "hash": "হ্যাশ",
+    "type": "প্রকার",
+    "witness": "Witness",
+    "aux": "Aux ডেটা",
+    "json": "JSON",
+    "bytecode": "ডেটা"
+  },
+  "plutusscript": {
+    "label": "Plutus স্ক্রিপ্ট(গুলো)",
+    "hash": "হ্যাশ",
+    "type": "প্রকার",
+    "size": "সাইজ",
+    "bytes": "ডেটা",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum হ্যাশ",
+      "bytecode": "Plutus datum বাইট",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "উদ্দেশ্য",
+      "fee": "কন্ট্রাক্ট ফি",
+      "usteps": "ইউনিট স্টেপস",
+      "umem": "ইউনিট মেমরি",
+      "dhash": "ডেটাম হ্যাশ",
+      "dvalue": "ডেটাম বাইটকোড",
+      "djson": "ডেটাম JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus কন্ট্রাক্ট",
+    "label_other": "Plutus কন্ট্রাক্টসমূহ",
+    "valid": "বৈধ কন্ট্রাক্ট",
+    "redeemer": "রিডিমার",
+    "datum": "ডেটাম",
+    "script": {
+      "label": "কন্ট্রাক্ট স্ক্রিপ্ট",
+      "hash": "হ্যাশ",
+      "size": "$t(common:size)",
+      "bytecode": "ডেটা"
+    },
+    "reference": {
+      "native": "রেফারেন্স স্ক্রিপ্ট (নেটিভ)",
+      "plutus": "রেফারেন্স স্ক্রিপ্ট (plutus)"
+    },
+    "outdatum": "আউটপুট ডেটাম"
+  }
+}

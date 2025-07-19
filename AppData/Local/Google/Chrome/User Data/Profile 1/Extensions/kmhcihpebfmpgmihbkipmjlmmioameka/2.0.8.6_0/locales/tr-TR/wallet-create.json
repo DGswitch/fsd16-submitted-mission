@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "wallet kurtarma ifadenizin tüm kelimelerini tam olarak burada gösterilen sırada bir kağıda yazın",
+    "notice": "Kestirme yollara başvurmayın, bu kelimeler çok önemlidir!",
+    "reveal": "Kurtarma ifadesini göster",
+    "hidden": "Ekranınızı kimsenin göremediğinden emin olun"
+  },
+  "confirm": {
+    "title": "İfadeyi onayla",
+    "caption": "Doğru kelimeleri yazdığınızı doğrulayın",
+    "instruction": "Seçin: ",
+    "key_one": "<b>{{count}}</b>. kelimeyi",
+    "key_two": "<b>{{count}}</b>. kelimeyi",
+    "key_few": "<b>{{count}}</b>. kelimeyi",
+    "key_other": "<b>{{count}}</b>. kelimeyi",
+    "incorrect": "Yanlış, lütfen tekrar deneyin!"
+  },
+  "password": {
+    "title": "Harcama şifresi belirle",
+    "caption": "wallet cüzdanınızı korumak için bir harcama şifresi belirleyin. Daha uzun bir şifre ile güvenlik artar.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet başarıyla oluşturuldu."
+  },
+  "error": {
+    "failed": "wallet oluşturulamadı, lütfen tekrar deneyin.",
+    "mnemonic": "Hata: createWallet: mnemonic ayarlanmadı.",
+    "spendingPassword": "Hata: createWallet: harcama şifresi ayarlanmadı.",
+    "paymentScript": "Hata: createWallet: ödeme script'i ayarlanmadı.",
+    "address": "Hata: createWallet: adres ayarlanmadı.",
+    "paymentPrvKey": "Hata: createWallet: ödeme anahtarı ayarlanmadı.",
+    "accountPubNotSet": "Hata: createWallet: hesap genel anahtar listesi veya adres ayarlanmadı.",
+    "walletName": "Hata: createWallet: cüzdan adı ayarlanmadı.",
+    "account": "wallet hesabı alınamıyor, lütfen yeniden yükleyin veya sorun devam ederse destek ile iletişime geçin."
+  }
+}

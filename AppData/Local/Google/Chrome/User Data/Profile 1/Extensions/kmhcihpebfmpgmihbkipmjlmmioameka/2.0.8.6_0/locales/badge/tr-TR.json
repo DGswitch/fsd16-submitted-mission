@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "Bağış adresi",
+    "hover": "Desteğiniz için teşekkür ederiz!"
+  },
+  "burn": {
+    "label": "Eternl Yakım __GT__Cüzdanı__",
+    "hover": "Yakım adresi"
+  },
+  "eternlFee": {
+    "label": "Dapp Tarayıcı Ücreti",
+    "hover": "Eternl hizmetlerinin sürdürülmesine yardımcı olan bir ücret."
+  },
+  "swapFee": {
+    "label": "Hizmet Ücreti",
+    "hover": "Eternl hizmetlerinin sürdürülmesine yardımcı olan bir ücret."
+  },
+  "collateral": {
+    "label": "Eternl Teminat Adresi"
+  },
+  "script": {
+    "label": "Script"
+  },
+  "noscript": {
+    "label": "Script adresi değil"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Raporlama etiketi"
+  },
+  "ext": {
+    "label": "harici",
+    "hover": "Bu adres Eternl tarafından bilinmiyor."
+  },
+  "openWallet": {
+    "hover": "__GT__Cüzdanı__ açmak için tıklayın: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Hesaba geç: {{name}}"
+  },
+  "contract": {
+    "hover": "Kontrat {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "İşlem Catalyst oylama kaydı içeriyor"
+  },
+  "multisig": {
+    "label": "Çoklu İmza Kaydı",
+    "hover": "İşlem Çoklu İmza __GT__Cüzdan__ kaydı içeriyor"
+  },
+  "metadata": {
+    "label": "Metaveri",
+    "hover": "İşlem __GT__metaveri__ içeriyor"
+  },
+  "withdrawal": {
+    "label": "Çekme",
+    "hover": "İşlem ödül çekme içeriyor"
+  },
+  "mint": {
+    "label": "Mintleme",
+    "hover": "İşlem mintlenmiş veya yakılmış token(lar) içeriyor"
+  },
+  "reg": {
+    "label": "Kayıt",
+    "hover": "__GT__Cüzdan__ / Stake anahtarı kaydı"
+  },
+  "gov": {
+    "label": "Yönetişim",
+    "hover": "İşlem bir yönetişim sertifikası içeriyor"
+  },
+  "dereg": {
+    "label": "Kayıt Silme",
+    "hover": "__GT__Cüzdan__ kaydı silme"
+  },
+  "delegation": {
+    "label": "Delegasyon",
+    "hover": "Stake havuzu delegasyonu"
+  },
+  "poolreg": {
+    "label": "Havuz kaydı",
+    "hover": "Stake havuzu kaydı"
+  },
+  "poolupd": {
+    "label": "Havuz güncelleme",
+    "hover": "Stake havuzu güncelleme"
+  },
+  "poolret": {
+    "label": "Havuz emekliye ayırma",
+    "hover": "Stake havuzu emekliye ayırma"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Cardano yerel/çoklu imza script'i"
+  },
+  "plutus": {
+    "label": "Kontrat",
+    "hover": "Cardano Plutus kontratı"
+  },
+  "onchain": {
+    "label": "Zincir üstü",
+    "hover": "İşlem bir bloğa dahil edildi"
+  },
+  "confirmed": {
+    "label": "Onaylandı",
+    "hover": "İşlem imzalandı ve gönderilmeye hazır"
+  },
+  "pendingapproval": {
+    "label": "Onay bekliyor",
+    "hover": "İşlem, kontrolünüzdeki wallet(lar) tarafından ek imzaları bekliyor"
+  },
+  "awaitingothers": {
+    "label": "Diğerleri bekleniyor",
+    "hover": "İşlem, harici katılımcılar tarafından ek imzaları bekliyor"
+  },
+  "invalid": {
+    "label": "Geçersiz",
+    "hover": "Bu işlemin bir girdisi farklı bir işlemde harcandı."
+  },
+  "pending": {
+    "label": "Beklemede",
+    "hover": "İşlem hala yürütülmeyi bekliyor"
+  },
+  "staging": {
+    "label": "İmzasız",
+    "hover": "Bu işlem henüz imzalanmadı."
+  },
+  "signed": {
+    "label": "İmzalandı",
+    "hover": "Bu işlem imzalandı ancak henüz gönderilmedi."
+  },
+  "inputSigned": {
+    "label": "İmzalandı",
+    "hover": "Bu girdi için imza sağlandı."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Bu sözleşme için redeemer sağlandı."
+  },
+  "inputUnsigned": {
+    "label": "İmzasız",
+    "hover": "Bu girdi için imza eksik."
+  },
+  "validFor": {
+    "label": "Geçerlilik süresi",
+    "hover": "İşlem eninde sonunda yürütülecek veya bir girdi utxo farklı bir işlem tarafından tüketilirse geçersiz hale gelecektir."
+  },
+  "unlockTimeStamp": {
+    "label": "Kilidin açılma zamanı",
+    "hover": "Bu Staking Vault fonlarının kilidi belirtilen tarihte açılacaktır."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Bu işlem fonları Staking Vault'a kilitler."
+  },
+  "unlimited": {
+    "label": "Süre sınırı yok",
+    "hover": "İşlem eninde sonunda yürütülecek veya bir girdi utxo farklı bir işlem tarafından tüketilirse geçersiz hale gelecektir."
+  },
+  "expired": {
+    "label": "Süresi doldu",
+    "hover": "İşlem ömrü sona erdi"
+  },
+  "setTTL": {
+    "label": "TTL Ayarla",
+    "hover": "İşlem ömrünü ayarla"
+  },
+  "remove": {
+    "label": "Kaldır",
+    "hover": "Süresi dolmuş veya geçersiz bir işlemi kaldırmak için tıklayın.",
+    "hoverNote": "Yalnızca bu işlemin artık gerçekleşmeyeceğini biliyorsanız kaldırın."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Kendi wallet adresiniz"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Harici adres"
+  },
+  "donation_address": {
+    "label": "Bağış",
+    "hover": "$t(common:appName) bağış adresi"
+  },
+  "swap_fee": {
+    "label": "Arayüz Ücreti",
+    "hover": "$t(common:appName) arayüz ücret adresi"
+  },
+  "eternl_fee": {
+    "label": "Arayüz Ücreti",
+    "hover": "$t(common:appName) ücret adresi"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Staking Vault zaman kilidi adresi"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "Bu adres için bir varlık adı ayarlayın."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Akıllı sözleşme adresi"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Milkomeda'ya köprülenmiş zincirler arası işlem"
+  },
+  "submit": {
+    "label": "işlemi gönder",
+    "hover": "İşlem henüz gönderilmedi. Göndermek için buraya tıklayın."
+  },
+  "nosubmitted": {
+    "label": "gönderilmedi",
+    "hover": "İşlem imzalandı, ancak gönderilmedi."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Normal bir adres"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Çözümlenen $ ile başlayan Ada Handle adresi"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Çözümlenen .clay ile biten Unstoppable Domains adresi"
+  },
+  "new": {
+    "label": "Yeni",
+    "hover": "Okunmamış bildirim"
+  },
+  "updated": {
+    "label": "Güncellendi",
+    "hover": "Bildirim içeriği son okumadan sonra güncellendi"
+  },
+  "payment": {
+    "label": "Ödeme",
+    "hover": "Ödeme script'i"
+  },
+  "stake": {
+    "label": "Stake",
+    "hover": "Stake script'i"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "idle": "Aggiornato",
+  "initializing": "Inizializzazione",
+  "queued": "In coda",
+  "syncing": "Sincronizzazione",
+  "preparingFor": "preparazione per",
+  "syncingFor": "Sincronizzazione per",
+  "notSyncedYet": "non ancora sincronizzato",
+  "success": "Completato",
+  "skipped": "Completato",
+  "synced": "sincronizzato {{time}}",
+  "error": "Fallito",
+  "manual": "Manuale",
+  "update": {
+    "tooltip": "Forza un aggiornamento dell'account."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "eternl": {
+    "label": "Eternl 테마",
+    "caption": "기본 Eternl 테마입니다. 단순함을 추구합니다."
+  },
+  "classic": {
+    "label": "Eternl 클래식 테마",
+    "caption": "v1 버전을 기념하는 클래식 Eternl 테마입니다."
+  },
+  "monochrome": {
+    "label": "모노크롬 테마",
+    "caption": "방해 요소 없는 세련된 모노크롬 테마입니다."
+  }
+}

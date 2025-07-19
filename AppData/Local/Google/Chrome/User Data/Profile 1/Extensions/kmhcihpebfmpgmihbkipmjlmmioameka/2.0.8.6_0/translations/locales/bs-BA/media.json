@@ -1,0 +1,10 @@
+{
+  "music": {
+    "collection": "Muzika iz kolekcije"
+  },
+  "ipfs": {
+    "loading": "Molim te, sačekaj, učitavamo asset.",
+    "error": "Došlo je do greške pri učitavanju podataka sa ipfs-a, molim te pokušaj ponovo ili kontaktiraj podršku.",
+    "timeout": "Preuzimanje fajla je isteklo, molim te pokušaj ponovo ili kontaktiraj podršku."
+  }
+}

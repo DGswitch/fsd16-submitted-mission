@@ -1,0 +1,12 @@
+{
+  "menuLabel": "__GT__댑__ 브라우저",
+  "title": "__GT__댑__ 브라우저",
+  "caption": "Cardano dApp에 연결",
+  "subCaption": "",
+  "connect": "{{dapp}}에 연결",
+  "list": {
+    "input": {
+      "domain": "dapp 도메인을 입력하세요"
+    }
+  }
+}

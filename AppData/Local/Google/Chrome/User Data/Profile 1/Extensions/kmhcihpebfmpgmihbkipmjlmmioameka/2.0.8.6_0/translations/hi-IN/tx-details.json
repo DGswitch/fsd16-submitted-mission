@@ -1,0 +1,159 @@
+{
+  "txId": "लेन-देन आईडी",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "txHash": "txHash",
+  "index": "index",
+  "credential": {
+    "payment": "Payment क्रेडेंशियल",
+    "stake": "Stake क्रेडेंशियल"
+  },
+  "certificate": {
+    "label_one": "प्रमाणपत्र",
+    "label_other": "प्रमाणपत्र",
+    "type": {
+      "stakereg": "खाता पंजीकरण",
+      "stakedereg": "खाता अपंजीकरण",
+      "stakedel": "Stake Pool Delegation",
+      "stakeregdel": "खाता पंजीकरण और Stake Pool Delegation",
+      "stakevotedel": "Stake Pool और DRep Delegation",
+      "stakevoteregdel": "खाता पंजीकरण और Stake Pool / DRep Delegation",
+      "votedel": "DRep Delegation",
+      "voteregdel": "खाता पंजीकरण और DRep Delegation",
+      "drepreg": "DRep पंजीकरण",
+      "drepupd": "DRep Update",
+      "drepdereg": "DRep डी-पंजीकरण",
+      "poolreg": "Stake Pool पंजीकरण / अपडेट",
+      "poolret": "Stake Pool रिटायरमेंट",
+      "genkeydel": "Genesis Key Delegation",
+      "mircert": "तात्कालिक रिवार्ड्स मूव करें",
+      "comhot": "Committee Hot Auth",
+      "comcold": "Committee Cold Resign",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Plutus कॉन्ट्रैक्ट",
+      "unknown": "अज्ञात प्रकार"
+    },
+    "poolreg": {
+      "actepno": "Epoch में सक्रिय",
+      "fixedcost": "निश्चित लागत",
+      "margin": "मार्जिन",
+      "pledge": "Pledge",
+      "rewardaddr": "रिवॉर्ड एड्रेस",
+      "owner": "मालिक",
+      "relay": "Relay",
+      "metaurl": "मेटाडेटा URL",
+      "metahash": "मेटाडेटा हैश",
+      "metadata": "ऑफ-चेन मेटा"
+    },
+    "poolret": {
+      "retepno": "Epoch रिटायर हो रहा है"
+    },
+    "gov": {
+      "stakeCreds": "स्टेक क्रेडेंशियल्स",
+      "drepCreds": "DRep क्रेडेंशियल्स",
+      "votingCreds": "वोटिंग क्रेडेंशियल्स",
+      "poolCreds": "पूल क्रेडेंशियल्स",
+      "poolParams": "पूल पैरामीटर्स",
+      "poolId": "पूल Id",
+      "poolHash": "पूल हैश",
+      "deposit": "डिपॉजिट",
+      "anchor": "एंकर",
+      "rawData": "रॉ डेटा",
+      "unknown": "अज्ञात प्रमाणपत्र",
+      "hash": "हैश",
+      "isScript": "स्क्रिप्ट",
+      "credential": "क्रेडेंशियल",
+      "vote": "वोट",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "मेटाडेटा एंट्री",
+    "label_other": "मेटाडेटा एंट्रीज़",
+    "label": "$t(common:मेटाडेटा.label)",
+    "key": "लेबल",
+    "value": "मान",
+    "rawData": "रॉ डेटा",
+    "block": "ब्लॉक नं.",
+    "confirmations": "पुष्टिकरण",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Tx साइज़"
+    },
+    "copied": {
+      "cbor": "ट्रांज़ैक्शन cbor कॉपी किया गया"
+    }
+  },
+  "withdrawal": {
+    "label_one": "निकासी",
+    "label_other": "निकसियाँ",
+    "amount": "राशि"
+  },
+  "utxo": {
+    "collateralInputs_one": "कोलैटरल इनपुट",
+    "collateralInputs_other": "कोलैटरल इनपुट्स",
+    "referenceInputs_one": "रेफरेंस इनपुट",
+    "referenceInputs_other": "रेफरेंस इनपुट्स",
+    "inputs_one": "इनपुट",
+    "inputs_other": "इनपुट्स",
+    "collateralOutput_one": "कोलैटरल आउटपुट",
+    "collateralOutput_other": "कोलैटरल आउटपुट्स",
+    "outputs_one": "आउटपुट",
+    "outputs_other": "आउटपुट्स"
+  },
+  "nativescript": {
+    "label": "नेटिव / मल्टी-सिग स्क्रिप्ट(स)",
+    "hash": "हैश",
+    "type": "प्रकार",
+    "witness": "विटनेस",
+    "aux": "सहायक डेटा",
+    "json": "JSON",
+    "bytecode": "डेटा"
+  },
+  "plutusscript": {
+    "label": "Plutus स्क्रिप्ट(स)",
+    "hash": "हैश",
+    "type": "प्रकार",
+    "size": "साइज़",
+    "bytes": "डेटा",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus डेटम हैश",
+      "bytecode": "Plutus डेटम बाइट्स",
+      "json": "Plutus डेटम"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "उद्देश्य",
+      "fee": "कॉन्ट्रैक्ट शुल्क",
+      "usteps": "यूनिट स्टेप्स",
+      "umem": "यूनिट मेमोरी",
+      "dhash": "डेटम हैश",
+      "dvalue": "डेटम बाइटकोड",
+      "djson": "डेटम JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutus कॉन्ट्रैक्ट",
+    "label_other": "Plutus कॉन्ट्रैक्ट्स",
+    "valid": "वैध कॉन्ट्रैक्ट",
+    "redeemer": "रिडीमर",
+    "datum": "डेटम",
+    "script": {
+      "label": "कॉन्ट्रैक्ट स्क्रिप्ट",
+      "hash": "हैश",
+      "size": "$t(common:size)",
+      "bytecode": "डेटा"
+    },
+    "reference": {
+      "native": "संदर्भ स्क्रिप्ट (नेटिव)",
+      "plutus": "संदर्भ स्क्रिप्ट (plutus)"
+    },
+    "outdatum": "आउटपुट डेटम"
+  }
+}

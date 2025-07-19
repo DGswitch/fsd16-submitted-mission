@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Firmado",
+    "hover": "Esta transacción está firmada pero aún no ha sido enviada."
+  },
+  "inputSigned": {
+    "label": "Firmado",
+    "hover": "La firma para esta entrada ha sido proporcionada."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "El redentor para este contrato ha sido proporcionado."
+  },
+  "inputUnsigned": {
+    "label": "Sin firmar",
+    "hover": "Falta la firma para esta entrada."
+  }
+}

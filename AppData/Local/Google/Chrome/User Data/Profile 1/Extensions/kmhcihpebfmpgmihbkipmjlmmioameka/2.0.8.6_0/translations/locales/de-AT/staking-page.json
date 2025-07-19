@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Staking Dashboard",
+  "caption": "Hier kannst du deine {{currency}} verwalten und an einen Stakepool delegieren, um ein passives Einkommen zu erzielen.",
+  "subCaption": "Deine Gelder verlassen niemals deine wallet für staking auf Cardano und können jederzeit ausgegeben werden.",
+  "staking-cta": {
+    "title": "Verdiene staking Belohnungen!",
+    "caption": "Klick auf den Button, um einen Stake Pool auszuwählen.",
+    "button": "Stake"
+  },
+  "poollist": {
+    "title": "Verfügbare Stake Pools",
+    "caption": "Eine Liste verfügbarer Stake Pools. Gib den Ticker oder den Namen eines Pools ein, um die Liste zu filtern. Das Ranking priorisiert optimale Belohnungen für den Benutzer.",
+    "filter": {
+      "search": "Suche nach einem Pool..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "keine Pool-Daten verfügbar",
+      "undelegated": "nicht delegiert",
+      "delegated": "delegiert",
+      "deregistered": "abgemeldet",
+      "registered": "registriert",
+      "pending": "ausstehend",
+      "producing": "produziert"
+    },
+    "history": {
+      "label": "Belohnungshistorie",
+      "caption": "Eine Liste der verdienten Belohnungen für staking und Catalyst Voting, sortiert nach epoch",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Belohnungen",
+      "refund": "Pool-Abmeldungs-Rückerstattung",
+      "pool": "Pool",
+      "treasury": "Catalyst Voting",
+      "leader": "Poolbetreiber-Belohnungen",
+      "reserves": "Sofortige Belohnungen"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Bitte erwäge, an einen DRep für Governance-Aktionen zu delegieren. Dies ist in der folgenden Ära erforderlich, um staking Belohnungen abheben zu können."
+      },
+      "inactive": "Das Konto ist an einen Governance-DRep delegiert, der als inaktiv markiert ist und daher nicht mehr zum aktiven Voting-Stake zählt."
+    },
+    "warning": {
+      "high": {
+        "headline": "Hohe Pool-Gebühr",
+        "caption": "Der Pool, an den dieses Konto delegiert ist, hat eine ungewöhnlich hohe Gebühr, die deine staking Belohnungen reduziert. Wenn es sich um eine Art ISPO handelt, ist das in Ordnung. Wenn nicht, solltest du einen anderen Pool mit niedrigeren Gebühren wählen."
+      },
+      "complete": {
+        "headline": "99+% Pool-Gebühr",
+        "caption": "Der Pool, an den dieses Konto delegiert ist, verlangt mindestens 99% und kassiert deine {{currency}} Belohnungen. Wenn es sich um eine Art ISPO handelt, ist das in Ordnung. Wenn nicht, solltest du einen anderen Pool mit niedrigeren Gebühren wählen."
+      }
+    }
+  }
+}

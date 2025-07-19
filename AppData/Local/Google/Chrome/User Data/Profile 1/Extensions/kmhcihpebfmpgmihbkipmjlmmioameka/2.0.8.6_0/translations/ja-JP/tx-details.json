@@ -1,0 +1,159 @@
+{
+  "txId": "トランザクションID",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "txHash": "txHash",
+  "index": "インデックス",
+  "credential": {
+    "payment": "支払いクレデンシャル",
+    "stake": "ステーククレデンシャル"
+  },
+  "certificate": {
+    "label_one": "証明書",
+    "label_other": "証明書",
+    "type": {
+      "stakereg": "アカウント登録",
+      "stakedereg": "アカウント登録解除",
+      "stakedel": "ステークプール委任",
+      "stakeregdel": "アカウント登録 & ステークプール委任",
+      "stakevotedel": "ステークプール & DRep委任",
+      "stakevoteregdel": "アカウント登録 & ステークプール / DRep委任",
+      "votedel": "DRep委任",
+      "voteregdel": "アカウント登録 & DRep委任",
+      "drepreg": "DRep登録",
+      "drepupd": "DRep更新",
+      "drepdereg": "DRep登録解除",
+      "poolreg": "ステークプール登録 / 更新",
+      "poolret": "ステークプール廃止",
+      "genkeydel": "Genesis Key委任",
+      "mircert": "Move Instantaneous Rewards",
+      "comhot": "Committee Hot Auth",
+      "comcold": "Committee Cold Resign",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "Plutusコントラクト",
+      "unknown": "不明なタイプ"
+    },
+    "poolreg": {
+      "actepno": "Epochでアクティブ",
+      "fixedcost": "固定コスト",
+      "margin": "マージン",
+      "pledge": "Pledge",
+      "rewardaddr": "報酬アドレス",
+      "owner": "オーナー",
+      "relay": "リレー",
+      "metaurl": "メタデータ URL",
+      "metahash": "メタデータハッシュ",
+      "metadata": "Off-Chain Meta"
+    },
+    "poolret": {
+      "retepno": "廃止Epoch"
+    },
+    "gov": {
+      "stakeCreds": "ステーククレデンシャル",
+      "drepCreds": "DRepクレデンシャル",
+      "votingCreds": "投票クレデンシャル",
+      "poolCreds": "プールクレデンシャル",
+      "poolParams": "プールパラメータ",
+      "poolId": "Pool Id",
+      "poolHash": "Pool Hash",
+      "deposit": "デポジット",
+      "anchor": "アンカー",
+      "rawData": "生データ",
+      "unknown": "不明な証明書",
+      "hash": "ハッシュ",
+      "isScript": "スクリプト",
+      "credential": "クレデンシャル",
+      "vote": "投票",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "メタデータ エントリー",
+    "label_other": "メタデータ エントリー",
+    "label": "$t(common:メタデータ.label)",
+    "key": "ラベル",
+    "value": "値",
+    "rawData": "生データ",
+    "block": "ブロック番号",
+    "confirmations": "確認数",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "Tx サイズ"
+    },
+    "copied": {
+      "cbor": "トランザクション cbor をコピーしました"
+    }
+  },
+  "withdrawal": {
+    "label_one": "引き出し",
+    "label_other": "引き出し",
+    "amount": "金額"
+  },
+  "utxo": {
+    "collateralInputs_one": "コラテラルインプット",
+    "collateralInputs_other": "コラテラルインプット",
+    "referenceInputs_one": "参照インプット",
+    "referenceInputs_other": "参照インプット",
+    "inputs_one": "インプット",
+    "inputs_other": "インプット",
+    "collateralOutput_one": "コラテラルアウトプット",
+    "collateralOutput_other": "コラテラルアウトプット",
+    "outputs_one": "アウトプット",
+    "outputs_other": "アウトプット"
+  },
+  "nativescript": {
+    "label": "ネイティブ / マルチシグスクリプト",
+    "hash": "ハッシュ",
+    "type": "タイプ",
+    "witness": "Witness",
+    "aux": "Auxデータ",
+    "json": "JSON",
+    "bytecode": "データ"
+  },
+  "plutusscript": {
+    "label": "Plutus スクリプト",
+    "hash": "ハッシュ",
+    "type": "タイプ",
+    "size": "サイズ",
+    "bytes": "データ",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "Plutus datum ハッシュ",
+      "bytecode": "Plutus datum バイト",
+      "json": "Plutus datum"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "目的",
+      "fee": "コントラクト手数料",
+      "usteps": "ユニットステップ",
+      "umem": "ユニットメモリ",
+      "dhash": "Datumハッシュ",
+      "dvalue": "Datumバイトコード",
+      "djson": "Datum JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "Plutusコントラクト",
+    "label_other": "Plutusコントラクト",
+    "valid": "有効なコントラクト",
+    "redeemer": "Redeemer",
+    "datum": "Datum",
+    "script": {
+      "label": "コントラクトスクリプト",
+      "hash": "ハッシュ",
+      "size": "$t(common:size)",
+      "bytecode": "データ"
+    },
+    "reference": {
+      "native": "参照スクリプト (ネイティブ)",
+      "plutus": "参照スクリプト (plutus)"
+    },
+    "outdatum": "アウトプットDatum"
+  }
+}

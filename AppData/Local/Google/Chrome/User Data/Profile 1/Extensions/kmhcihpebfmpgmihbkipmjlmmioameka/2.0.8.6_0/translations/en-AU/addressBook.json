@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "No entries in $t(common:addressBook) yet.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Accept new address"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) entry: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Import $t(common:addressBook) entries",
+    "caption": "Import $t(common:addressBook) entries from a backup file."
+  },
+  "overwrite": {
+    "title": "Overwrite $t(common:addressBook) entry",
+    "caption": "Confirm update of entry with name {{name}}."
+  },
+  "add": {
+    "title": "Add to $t(common:addressBook)",
+    "caption": {
+      "main": "Add an entry to the $t(common:addressBook).",
+      "prefilled": "All values have been prefilled and inputs are disabled."
+    },
+    "name": {
+      "label": "Entry name",
+      "error": {
+        "length": "An $t(common:addressBook) entry name requires at least 3 and at most 40 characters.",
+        "duplicate": "An $t(common:addressBook) entry with this name `{{ name }}` already exists, please choose another one.",
+        "duplicateAddr": "An $t(common:addressBook) entry with this address already exists, under the name {{ address }}."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Confirm deleting entry."
+  }
+}

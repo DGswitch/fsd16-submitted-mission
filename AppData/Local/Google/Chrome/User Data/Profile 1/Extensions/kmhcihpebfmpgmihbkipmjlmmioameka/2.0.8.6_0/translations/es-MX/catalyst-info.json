@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "Proyecto Catalyst",
+    "caption": "Lee todas las noticias sobre la ronda de financiamiento actual.",
+    "text": "El Proyecto Catalyst tiene rondas de financiamiento cada pocos meses, con una cantidad fija de ada lista para asignar a ideas.\n\nEncuentra toda la información relevante de todos los fondos anteriores y futuros en el sitio web del Proyecto Catalyst.",
+    "button": {
+      "label": "Visitar página",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "Explorar todas las Propuestas",
+    "text": "Catalyst utiliza IdeaScale como una plataforma de innovación colaborativa.\n\nEsto se hace mediante la votación de propuestas generadas por la comunidad que se enfocan en resolver el desafío de un fondo en particular.",
+    "button": {
+      "label": "Más información",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "La plataforma de datos todo en uno de Catalyst",
+    "text": "Educación sobre Blockchain, divulgación y construcción de comunidad global:\n\n¡Porque el Futuro es para Todos!",
+    "button": {
+      "label": "Visitar página",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "Boletín informativo",
+    "caption": "Mantente al día",
+    "text": "Suscríbete al Boletín informativo del Proyecto Catalyst para no perderte las últimas noticias y actualizaciones.",
+    "button": {
+      "label": "Suscribirse",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "Interactúa con la comunidad",
+    "text": "Únete a los canales de discusión y anuncios de Telegram para compartir tus ideas sobre futuras propuestas de mejora de Cardano y disfrutar de una discusión sana y estimulante.",
+    "button1": {
+      "label": "Anuncios",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "Chat Comunitario",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "Town Hall",
+    "caption": "Conoce a los constructores",
+    "text": "Ven y conoce a los futuros constructores de Cardano en las reuniones semanales del Town Hall. Mira sus presentaciones en vivo y participa en conversaciones significativas.",
+    "button": {
+      "label": "Grabaciones Semanales del Town Hall",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "Mostrar Desafíos",
+      "hide": "Ocultar Desafíos",
+      "link": "Sitio Web del Desafío",
+      "allocation": "Asignación de Fondos"
+    },
+    "timeline": {
+      "caption": "El cronograma mostrado a continuación está sujeto a cambios. Mantente actualizado volviendo a visitar esta página y participa en las reuniones semanales del Town Hall de Catalyst.",
+      "snapshot": {
+        "label": "Instantánea del Poder de Voto",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "Inicio de Votación",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "Fin de Votación",
+        "caption": ""
+      },
+      "result": {
+        "label": "Resultado",
+        "caption": "± unos pocos días."
+      }
+    }
+  }
+}

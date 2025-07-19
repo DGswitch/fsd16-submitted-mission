@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Wallet Adı",
+    "caption": "wallet öğenize ayırt edici bir ad verin."
+  },
+  "phrase": {
+    "title": "Anımsatıcı ifade"
+  },
+  "account": {
+    "title": "Hesap sayısı",
+    "caption": "Oluşturulacak hesap sayısını belirtin.",
+    "suffix": "hesap(lar)",
+    "description": "$t(common:appName) içindeki bir wallet, {{accountLimit}} adede kadar hesaba sahip olabilir. Her hesap farklı bir stake havuzuna devredilebilir. Hesap anahtarları, wallet kök anahtarından oluşturulur.",
+    "tooltip": "Eklenen her hesap senkronizasyon süresini artırır, hesaplar istenildiği zaman eklenebilir."
+  },
+  "create": {
+    "title": "wallet oluşturuluyor",
+    "caption": "wallet oluşturulurken lütfen bekleyin",
+    "password": {
+      "title": "Harcama şifresi belirle",
+      "caption": "Uzun bir şifre seçin. Ne kadar uzun olursa, varlıklarınız o kadar güvende olur."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet başarıyla eklendi",
+      "created": "Wallet başarıyla oluşturuldu",
+      "restored": "Wallet başarıyla geri yüklendi",
+      "imported": "Wallet başarıyla içe aktarıldı"
+    },
+    "processing": "wallet oluşturuluyor...",
+    "exists": "Wallet zaten mevcut, Wallet öğesine yönlendiriliyor."
+  }
+}

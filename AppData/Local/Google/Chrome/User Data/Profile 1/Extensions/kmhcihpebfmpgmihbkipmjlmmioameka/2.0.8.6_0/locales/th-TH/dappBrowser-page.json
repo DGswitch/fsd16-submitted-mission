@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp เบราว์เซอร์",
+  "title": "Dapp เบราว์เซอร์",
+  "caption": "เชื่อมต่อกับ Cardano dApps",
+  "subCaption": "",
+  "connect": "เชื่อมต่อกับ {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "ป้อนโดเมน dapp"
+    }
+  }
+}

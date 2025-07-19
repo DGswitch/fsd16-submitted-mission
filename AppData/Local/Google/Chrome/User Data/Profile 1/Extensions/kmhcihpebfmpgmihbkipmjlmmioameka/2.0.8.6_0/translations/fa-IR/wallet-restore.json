@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "عبارت ۱۲ کلمه‌ای",
+      "caption": "یک wallet ۱۲ کلمه‌ای Shelley."
+    },
+    "15": {
+      "label": "عبارت ۱۵ کلمه‌ای",
+      "caption": "مثلاً یک wallet Shelley از نوع Yoroi."
+    },
+    "24": {
+      "label": "عبارت ۲۴ کلمه‌ای",
+      "caption": "یک wallet Shelley که مثلاً توسط Eternl یا Daedalus ایجاد شده است."
+    },
+    "title": "نوع عبارت بازیابی",
+    "caption": "چه نوع wallet را می‌خواهید بازیابی کنید؟"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "عبارت بازیابی ذخیره شده خود را وارد کنید"
+  }
+}

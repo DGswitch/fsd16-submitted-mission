@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Al",
+  "title": "Ödeme Al",
+  "caption": "Ödeme almak için bu adresi paylaşın.",
+  "search": {
+    "caption": "Adresin bir bölümünü veya \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" ya da \"0 1 32\" gibi bir derivation path bulun.",
+    "placeholder": "Bir $t(common:address) veya yol için $t(common:search)",
+    "noResults": "Sonuç bulunamadı"
+  },
+  "current": {
+    "headline": "Mevcut __GT__cüzdan__ adresleri.",
+    "static": "Alım Adresi.",
+    "caption": "Ödeme almak için bu __GT__cüzdan__ adresini paylaşın.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Lütfen delege edilmiş tüm alım adreslerinizin stake anahtarınızı içerdiğini unutmayın. \nDelege edilmiş bir alım adresini paylaştığınızda, alıcı blockchain'i stake anahtarınızı kullanarak arayabilir ve \n__GT__cüzdanınızla__ ilişkili tüm adresleri bulabilir, ayrıca __GT__cüzdanınızın__ bakiyesini ve işlem geçmişini keşfedebilir."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Harici adresler (delege edilmiş)",
+      "caption": "Bu adresler bir stake havuzuna delege edilmiştir (eğer bu hesabı delege ettiyseniz)."
+    },
+    "enterprise": {
+      "headline": "Harici adresler (delege edilmemiş)",
+      "caption": "Bu adresler delege edilmemiştir."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Dahili para üstü adresleri (delege edilmiş)",
+      "caption": "Bu adresler bir stake havuzuna delege edilmiştir (eğer bu hesabı delege ettiyseniz).\nDahili adresleri paylaşmayın, her zaman harici adresleri verin."
+    },
+    "enterprise": {
+      "headline": "Dahili para üstü adresleri (delege edilmemiş)",
+      "caption": "Bu adresler delege edilmemiştir.\nDahili adresleri paylaşmayın, her zaman harici adresleri verin."
+    }
+  }
+}

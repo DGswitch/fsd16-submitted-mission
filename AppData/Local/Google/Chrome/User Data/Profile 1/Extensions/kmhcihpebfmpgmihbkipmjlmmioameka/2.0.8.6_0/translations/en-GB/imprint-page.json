@@ -1,0 +1,68 @@
+{
+  "title": "Imprint",
+  "imprint": "Impressum",
+  "contact": "Contact",
+  "edc": "Eternl DRep Committee",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "DRep Id",
+    "text": "drep13d6sxkyz6st9h65qqrzd8ukpywhr8swe9f6357qntgjqye0gttd"
+  },
+  "discord": {
+    "label": "discord",
+    "text": "Click to join our $t(common:appName) discord server (with support ticket system)"
+  },
+  "telegram": {
+    "label": "telegram",
+    "text": "Click to join our $t(common:appName) telegram channel."
+  },
+  "github": {
+    "label": "github",
+    "text": "If you have a feature request, please use the GitHub issue tracker. Click to open it in a new page."
+  },
+  "email": {
+    "label": "email",
+    "text": "Write us an email at team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "email",
+    "text": "Write us an email at drep@eternl.io"
+  },
+  "address": {
+    "label": "Registered Office",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nGermany"
+  },
+  "person": {
+    "label": "Authorised Representatives",
+    "text": "Marcel Baumberg (Managing Director)"
+  },
+  "company": {
+    "label": "Company Information",
+    "text": "VAT Identification Number (USt-ID): DE264395179\nCommercial Register Local Court Leipzig: HRB 24784"
+  },
+  "legallabel": "Liability and Property Rights Notices",
+  "legal0": {
+    "label": "Disclaimer",
+    "text": "The content of this online offering has been created carefully and to the best of our current knowledge, but serves informational purposes only and has no legally binding effect, unless it concerns legally mandatory information (e.g., the imprint, the privacy policy, terms and conditions, or mandatory consumer information). We reserve the right to change or delete the content in whole or in part, provided that contractual obligations remain unaffected. All offers are subject to change and non-binding."
+  },
+  "legal1": {
+    "label": "Links to External Websites",
+    "text": "The content of external websites to which we refer directly or indirectly lies outside our area of responsibility, and we do not adopt it as our own. We assume no responsibility for any content or disadvantages arising from the use of information accessible on the linked websites."
+  },
+  "legal2": {
+    "label": "Copyrights and Trademark Rights",
+    "text": "All content presented on this website, such as texts, photographs, graphics, brands, and trademarks, are protected by the respective intellectual property rights (copyrights, trademark rights). Their use, reproduction, etc., are subject to our rights or the rights of the respective authors or rights managers."
+  },
+  "legal3": {
+    "label": "Notification of Legal Violations",
+    "text": "Should you notice any legal violations within our website, we kindly ask you to inform us. We will remove illegal content and links immediately upon becoming aware of them."
+  },
+  "button": {
+    "home": "home"
+  }
+}

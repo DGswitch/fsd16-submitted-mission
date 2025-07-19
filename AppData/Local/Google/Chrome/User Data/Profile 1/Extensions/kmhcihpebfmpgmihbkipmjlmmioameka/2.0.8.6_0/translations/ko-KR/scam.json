@@ -1,0 +1,32 @@
+{
+  "comment": "Marcel: 일부만 사용되더라도 의도적으로 대부분의 텍스트를 남겨두었습니다.",
+  "showScamInfo": "스캠 토큰 정보 표시",
+  "guard": {
+    "label": "Eternl 가드",
+    "warning": "$t(scam:guard.label) 경고"
+  },
+  "token": {
+    "label": "스캠",
+    "description": "이것은 알려진 <span class=\"font-bold\">스캠</span> 토큰입니다!<br>여기에 표시된 웹사이트 링크는 스캠입니다!<br>해당 웹사이트에 연결하여 거래에 서명하면<br>귀하의 wallet이(가) 완전히 비워질 수 있습니다!",
+    "image": "경고:\n\n이 이미지에 언급된 웹사이트와 상호작용하지 마십시오!",
+    "hover": "이 거래에는 알려진 스캠 토큰이 포함되어 있습니다. 상호작용 시 주의하십시오!"
+  },
+  "app": {
+    "description": "이 DApp은(는) 알려진 스캠 사이트입니다! 귀하의 자금을 훔치거나 다른 방식으로 사기를 칠 가능성이 매우 높습니다!",
+    "description2": "이 페이지와 <span class=\"font-bold\">상호작용하지 말 것을</span> 강력히 권고합니다!",
+    "ownRisk": "자신의 책임 하에 이 사이트에 연결하십시오!",
+    "bannerWarning": "이 사이트는 스캠 목록에 있습니다. 주의하시고 민감한 정보를 입력하지 마십시오."
+  },
+  "address": {
+    "description": "이것은 알려진 스캠 주소입니다! 이 주소로 자금을 보내고 싶지 않을 가능성이 매우 높습니다!",
+    "description2": "이 주소로 자금을 <span class=\"font-bold\">보내지 말 것을</span> 강력히 권고합니다!",
+    "hover": "이 주소는 자금 탈취에 사용되었습니다!"
+  },
+  "cleanup": {
+    "label": "wallet 정리",
+    "description": "이렇게 하면 귀하의 wallet에서 알려진 모든 스캠 토큰을 Eternl 소각 주소로 보내는 정리 거래가 생성됩니다. ",
+    "prepared": {
+      "label": "스캠 정리 거래 준비됨"
+    }
+  }
+}

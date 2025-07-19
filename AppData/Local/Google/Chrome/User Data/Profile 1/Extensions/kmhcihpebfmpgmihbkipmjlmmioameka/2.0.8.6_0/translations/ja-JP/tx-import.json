@@ -1,0 +1,10 @@
+{
+  "title": "$t(send-options:import.label)",
+  "caption": "$t(send-options:import.upload)",
+  "cbor": "取引cborを貼り付け",
+  "error": {
+    "corrupted": "アップロードされたファイルは破損しており、取引をインポートできませんでした。",
+    "invalid": "アップロードされたファイルは有効なjsonファイルではありません。",
+    "format": "そのjsonファイルにはエクスポートされた取引データが含まれていないようです。"
+  }
+}

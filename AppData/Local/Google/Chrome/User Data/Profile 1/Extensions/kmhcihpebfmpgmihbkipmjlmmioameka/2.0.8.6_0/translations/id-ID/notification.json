@@ -1,0 +1,9 @@
+{
+  "title": "Pusat notifikasi",
+  "empty": "Tidak ada notifikasi.",
+  "copy": "Telah disalin ke clipboard",
+  "type": {
+    "txMS": "Transaksi Multi-Sig",
+    "unknown": "Tipe Tidak Dikenal"
+  }
+}

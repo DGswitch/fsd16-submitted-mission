@@ -1,0 +1,102 @@
+{
+  "title": "Registro de Catalyst",
+  "status": {
+    "wrongnetwork": {
+      "title": "No soportado",
+      "text": "Catalyst no es soportado en la red actualmente seleccionada."
+    },
+    "registration": {
+      "nostake": {
+        "title": "No registrado",
+        "text": "La cuenta no está registrada para staking. Delega a un stake pool primero, luego regístrate para la votación de Catalyst."
+      },
+      "nocatalyst": {
+        "title": "Sin registro de Catalyst",
+        "text": "Eternl no reconoce la clave de votación. Es posible que la cuenta nunca haya sido registrada o que se haya registrado con otra aplicación."
+      },
+      "hascatalyst": {
+        "title": "Registro de Catalyst",
+        "text": "La cuenta está registrada para la votación de Catalyst. La clave de votación de Catalyst está almacenada en Eternl.",
+        "scan": "Escanea el código QR en la aplicación de votación Catalyst y sigue las instrucciones.",
+        "reveal": "No compartas la clave de votación de Catalyst ni el PIN con nadie. Se utiliza para votar en las rondas de financiación de Catalyst.",
+        "voteKey": "Clave de votación de Catalyst",
+        "banner": {
+          "title": "Descargar el código QR",
+          "text": "Una copia de seguridad local de la clave de votación de Catalyst se almacena en Eternl para fines de recuperación. Sin embargo, esta copia de seguridad es específica del dispositivo y no estará disponible al restaurar la wallet en otro dispositivo utilizando la frase de la wallet. Solo una copia de seguridad JSON de la wallet creada después del registro de Catalyst puede restaurarla. Se recomienda encarecidamente descargar la imagen del código QR y guardarla de forma segura, por ejemplo, en un gestor de contraseñas."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Elige un stake pool"
+        },
+        "register": {
+          "label": "Registrarse para la votación de Catalyst"
+        },
+        "reregister": {
+          "label": "Crear nuevo registro"
+        },
+        "download": {
+          "label": "Descargar la clave de Catalyst"
+        },
+        "reveal": {
+          "label": "Mostrar clave de Catalyst"
+        },
+        "hide": {
+          "label": "Ocultar clave de Catalyst"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Aplicación de Votación",
+      "caption": "Descarga la aplicación móvil Catalyst en tu teléfono.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "¡Enlaces a las tiendas de aplicaciones!",
+          "text": "¡NO usar en la aplicación móvil Catalyst!\n\nEstos códigos QR enlazan a las tiendas de aplicaciones donde puedes descargar e instalar la aplicación móvil Catalyst."
+        }
+      }
+    },
+    "pin": {
+      "title": "Configurar código PIN",
+      "caption": {
+        "enter": "Establece un PIN para proteger tu clave de votación de Catalyst.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Anota el PIN",
+        "text": "¡Asegúrate de anotar el PIN!\nPerder el PIN requerirá un nuevo registro de clave de votación."
+      }
+    },
+    "tx": {
+      "title": "Transacción de Registro de Votación",
+      "caption": "Registra tu clave de votación de Catalyst.",
+      "note": {
+        "title": "Poder de voto",
+        "text": "El poder de voto escala con la cantidad de fondos mantenidos en el momento del snapshot. Un saldo mayor aumenta tu influencia durante el snapshot."
+      },
+      "warning": {
+        "title": "Cantidad mínima",
+        "text": "Se requiere un saldo mínimo de 25 ADA para que tu clave de votación sea incluida en el snapshot. Sin este mínimo, no podrás votar ni recibir recompensas en una ronda de financiación."
+      },
+      "success": "Registro de Catalyst exitoso.",
+      "saved": "Clave de votación de Catalyst guardada exitosamente en Eternl.",
+      "error": {
+        "save": "Error al guardar la clave de votación de Catalyst en Eternl."
+      }
+    }
+  }
+}

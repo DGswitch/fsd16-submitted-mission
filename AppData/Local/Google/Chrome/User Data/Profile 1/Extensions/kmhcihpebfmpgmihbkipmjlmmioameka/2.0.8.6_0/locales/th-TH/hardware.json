@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "เชื่อมต่อฮาร์ดแวร์ wallet",
+    "caption": "หากคุณมีฮาร์ดแวร์ wallet ที่นี่คือที่สำหรับคุณ",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "ฮาร์ดแวร์ wallet สกุลเงินดิจิทัล Ledger ผลิตโดย Ledger ซึ่งเป็นบริษัทที่มีสำนักงานใหญ่อยู่ในปารีส ประเทศฝรั่งเศส",
+        "models": "Stax, Flex และ Nano (X, S และ S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor มาจาก SatoshiLabs ซึ่งตั้งอยู่ในสาธารณรัฐเช็ก",
+        "models": "Model T และ Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "บริษัทในฮ่องกงที่นำเสนอฮาร์ดแวร์ wallet แบบ Air-gapped 100% โอเพ่นซอร์ส สื่อสารผ่าน QR code พร้อมหน้าจอสัมผัสขนาด 4 นิ้วและเครื่องอ่านลายนิ้วมือ",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "TBD",
+        "models": "OneKey Pro ตรวจสอบแล้ว"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "TBD",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "เชื่อมต่อ Ledger โดยใช้"
+  },
+  "keystone": {
+    "qrScan": "สแกน QR code ด้วยอุปกรณ์ Keystone ของคุณ",
+    "distance": "ปรับระยะห่าง และสามารถแตะที่ QR code ของ Keystone เพื่อปรับปรุงการสแกน"
+  },
+  "derivation": {
+    "label": "โหมด Derivation (ขั้นสูง)",
+    "icarus": "มาตรฐาน derivation ของ Cardano ตามที่กำหนดโดย CIP03",
+    "trezor": "การใช้งานของ Trezor ตามมาตรฐาน Icarus",
+    "ledger": "เป็นไปตามมาตรฐาน Bitcoin ตามที่กำหนดโดย BIP39",
+    "default": "(ค่าเริ่มต้น)"
+  },
+  "connect": {
+    "title": "ยืนยันการส่งออก public key",
+    "caption": "",
+    "info": {
+      "ledger": "ปลดล็อกอุปกรณ์ Ledger ของคุณและเปิดแอป Cardano ก่อนดำเนินการต่อ จากนั้นทำตามคำแนะนำที่ระบุไว้ในแอป Cardano บนอุปกรณ์ Ledger ของคุณเพื่อดำเนินการจับคู่ให้เสร็จสิ้น",
+      "trezor": "เมื่อยืนยันแล้ว ให้ทำตามคำแนะนำที่ระบุไว้ในแท็บเบราว์เซอร์ Trezor Connect ที่เปิดขึ้นและบนอุปกรณ์ Trezor ของคุณเพื่อดำเนินการจับคู่ให้เสร็จสิ้น",
+      "keystone": "เมื่อยืนยันแล้ว ให้สแกน QR code ที่สร้างขึ้นด้วยอุปกรณ์ Keystone ของคุณ จากนั้นดำเนินการสแกนการตอบสนอง QR code ของ Keystone ผ่าน Eternl",
+      "onekey": "ตรวจสอบให้แน่ใจว่าได้ติดตั้ง bridge บนคอมพิวเตอร์ของคุณแล้ว เชื่อมต่ออุปกรณ์และรอให้ public keys ถูกส่งออก",
+      "bitbox": "เมื่อยืนยันแล้ว ให้ตรวจสอบรหัสจับคู่หากจำเป็นและยืนยันบนอุปกรณ์"
+    }
+  }
+}

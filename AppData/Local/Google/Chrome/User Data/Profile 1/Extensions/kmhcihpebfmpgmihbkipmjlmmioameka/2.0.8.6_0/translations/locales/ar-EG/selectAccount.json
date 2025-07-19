@@ -1,0 +1,48 @@
+{
+  "title": {
+    "wallets": "بدّل بين المحافظ.",
+    "accounts": {
+      "select": "اضغط هنا عشان تختار الحساب",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "اختار محفظة رقمية (maḥfaẓa raqamiya) معينة علشان تبدل بين الحسابات.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "بدّل حساب $t(common:dApp) اللي شغال دلوقتي."
+    },
+    "accounts": {
+      "select": "اختار حساب من القائمة. ممكن تعلم على حساب كمفضل عن طريق علامة النجمة.",
+      "manage": "ضيف أو امسح حسابات، اختار أرقام حسابات معينة أو حط أسماء للحسابات."
+    }
+  },
+  "groups": {
+    "placeholder": "اختار مجموعات محفظة رقمية (maḥfaẓa raqamiya) اللي شغالة",
+    "favoriteAccounts": "الحسابات المفضلة"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "اسم الحساب:",
+    "index": "الرقم:",
+    "limit": "الحد الأقصى:",
+    "remove": {
+      "tooltip": "امسح الحساب"
+    }
+  },
+  "signAddAccounts": {
+    "title": "ضيف حسابات جديدة"
+  },
+  "notification": {
+    "updated": "تم تحديث قائمة الحسابات.",
+    "error": "حصلت مشكلة مش معروفة واحنا بنسجل محفظة رقمية (maḥfaẓa raqamiya) في قاعدة البيانات.",
+    "errorRemove": "الحساب اللي برقم التعريف {{accountId}} مينفعش يتمسح.",
+    "noWallet": "محفظة رقمية (maḥfaẓa raqamiya) مش موجودة.",
+    "errorKey": "قائمة المفاتيح العامة المشتقة مش متوافقة مع قائمة المسارات المطلوبة.",
+    "limit": "المحفظة wallet دي مش هتقدر تضيف حسابات تانية."
+  }
+}

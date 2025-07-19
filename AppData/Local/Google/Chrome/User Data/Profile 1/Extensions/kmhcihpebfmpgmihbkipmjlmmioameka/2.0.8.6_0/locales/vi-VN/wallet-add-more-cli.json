@@ -1,0 +1,9 @@
+{
+  "title": "Nhập Khóa ký CLI",
+  "caption": "Chọn khóa ký thanh toán và khóa ký stake (tùy chọn) từ một wallet được tạo bằng CLI.",
+  "payment": "Khóa thanh toán",
+  "stake": "Khóa stake",
+  "drop": "$t(common:importFiles.drop)",
+  "loading": "$t(common:importFiles.processing)",
+  "error": "Khóa không hợp lệ, vui lòng xác minh và thử lại!"
+}

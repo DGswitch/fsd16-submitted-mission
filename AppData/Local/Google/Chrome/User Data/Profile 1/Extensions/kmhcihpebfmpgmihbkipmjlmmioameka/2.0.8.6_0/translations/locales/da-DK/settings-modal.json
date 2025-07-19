@@ -1,0 +1,29 @@
+{
+  "title": "$t(settings-page:title)",
+  "search": {
+    "placeholder": "Find indstilling..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "Kontoindstillinger",
+    "caption": "Indstillinger, der gælder for den aktuelt aktive konto."
+  },
+  "wallet": {
+    "title": "Wallet Indstillinger",
+    "caption": "Indstillinger, der gælder for den aktuelt aktive wallet."
+  },
+  "app": {
+    "title": "App-indstillinger",
+    "caption": "Indstillinger, der gælder for Eternl generelt."
+  },
+  "util": {
+    "title": "App-værktøjer",
+    "caption": "Diverse værktøjer."
+  },
+  "update": {
+    "success": "Indstilling gemt!",
+    "error": "Fejl ved gemning af indstilling."
+  }
+}

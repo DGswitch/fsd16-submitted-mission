@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Název / označení účtu",
+    "caption": "Nastavte název účtu pro aktuální účet",
+    "setting": {
+      "caption": "Aktualizujte název svého (aktivního) účtu nebo vyberte/zrušte výběr Ada Handle.",
+      "adaHandle": {
+        "select": "Vyberte, který Ada Handle se má zobrazit místo názvu účtu (zrušte výběr pro zobrazení názvu):"
+      },
+      "error": {
+        "empty": "Název účtu nemůže být prázdný.",
+        "duplicate": "Tato peněženka již má účet s tímto názvem."
+      }
+    }
+  },
+  "export": {
+    "title": "Exportovat klíč účtu",
+    "caption": "Exportovat veřejný klíč tohoto účtu.",
+    "setting": {
+      "caption": "Exportujte veřejný klíč tohoto účtu. Import veřejného klíče obnoví historii účtu v režimu pouze pro čtení s deaktivovaným podepisováním.",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 rozšířený veřejný klíč",
+        "xpub": "Ed25519-bip32 rozšířený veřejný klíč",
+        "acct_vk": "Ed25519 veřejný klíč"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Režim jedné adresy (SAM)",
+    "caption": "Používejte pouze jednu adresu pro všechny transakce.",
+    "setting": {
+      "caption": "Když je tato možnost povolena, všechny prostředky budou ve výchozím nastavení uloženy na první přijímací adrese.",
+      "enabled": "$t(settings-account:samMode.title) povoleno",
+      "disabled": "$t(settings-account:samMode.title) zakázáno",
+      "customAddress": "Vlastní přijímací adresa",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Důležité!",
+          "text": "Nastavení vlastní přijímací adresy způsobí, že se všechny výstupy pro vrácení peněz a přijímací adresa přepnou na tuto adresu, i když ji tento účet nevlastní. Ujistěte se, že je nastavena správná adresa."
+        }
+      },
+      "notification": {
+        "wrongInput": "Toto není platná adresa.",
+        "wrongNetwork": "Tato adresa pochází z jiné sítě.",
+        "notOwned": "Tato adresa nepatří k tomuto účtu a nelze ji použít jako vlastní přijímací adresu.",
+        "nonStaking": "Prostředky na této přijímací adrese jsou stakovány s externím stake klíčem. Nebudete mít kontrolu nad odměnami, které se na nich hromadí.",
+        "success": "Vlastní přijímací adresa nastavena.",
+        "error": "Nepodařilo se uložit vlastní přijímací adresu!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Kolaterál",
+    "caption": "Použít kolaterál poskytnutý Eternl?",
+    "setting": {
+      "caption": "Když je tato možnost povolena, Eternl poskytne kolaterál pro účet.",
+      "info": "Interakce s chytrými kontrakty může vyžadovat kolaterál v případě selhání transakce. To bude automaticky zpracováno Eternl, pokud bude nalezen kvalifikovaný UTxO.",
+      "waiting": "Odeslali jste kolaterální transakci. Vyčkejte prosím, dosud nebyla potvrzena.",
+      "foundCollateral": "Kolaterální UTxO pro tento účet již existuje. Bude použit při interakci s chytrými kontrakty.",
+      "eternl": {
+        "label": "Kolaterál poskytnutý Eternl",
+        "enabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings-account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Nebyl nalezen žádný kolaterální UTxO. Nastavte ho stisknutím tlačítka níže.",
+      "button": {
+        "setCollateral": {
+          "label": "Nastavit kolaterál",
+          "tooltip": "Nastavte kolaterální UTxO pro tento účet."
+        }
+      },
+      "error": {
+        "label": "Chyba:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Poznámka!",
+          "headline": "Kolaterál je nastavení založené na účtu."
+        },
+        "info": {
+          "text": "$t(common:appName) může použít jakýkoli UTxO bez tokenů a hodnotou mezi ####minimumCollateral#### a ####maximumCollateral#### jako kolaterál. Když aktivujete toto nastavení, bude hledat vhodný UTxO. Pokud žádný není k dispozici, zobrazí se tlačítko pro jeho nastavení."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Ruční synchronizace",
+    "caption": "Nastavit ruční synchronizaci",
+    "setting": {
+      "caption": "Ručně synchronizujte wallet. Pokud je povolena, je třeba wallet synchronizovat ručně kliknutím na ikonu synchronizace.",
+      "enabled": "$t(settings-account:manualSync.title) povoleno",
+      "disabled": "$t(settings-account:manualSync.title) zakázáno"
+    }
+  },
+  "historySync": {
+    "title": "Synchronizace historie",
+    "caption": "Nastavit synchronizaci historie",
+    "setting": {
+      "caption": "Když je tato možnost zapnutá, wallet synchronizuje celou historii transakcí účtu. Jinak se synchronizuje jen posledních 1000 transakcí. Synchronizace probíhá v dávkách a u účtů s velkou historií to může chvíli trvat.",
+      "enabled": "$t(settings-account:historySync.title) zapnuto",
+      "disabled": "$t(settings-account:historySync.title) vypnuto",
+      "syncing": "Synchronizace historie stále probíhá. Čeká se na synchronizaci {{AMOUNT}} záznamů."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Fragmentace tokenů (TF)",
+    "caption": "Snižte transakční poplatky fragmentací tokenů.",
+    "fragment": {
+      "label": "Velikost balíčku tokenů",
+      "error": "Limit velikosti balíčku tokenů: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Nastavuje počet tokenů, které by měl každý výstup UTxO obsahovat. Je to kompromis mezi nízkými transakčními poplatky a množstvím prostředků uzamčených v wallet.\nmalá velikost balíčku -> nízké poplatky, více Ada uzamčeno.\nvelká velikost balíčku -> vyšší poplatky, méně Ada uzamčeno."
+    },
+    "setting": {
+      "caption": "Rozdělí tokeny do balíčků při odesílání, pokud je ve zbytku k vrácení více tokenů, než je nastavená hodnota. V závislosti na distribuci wallet UTxO/Token a požadovaném výsledku bude možná nutné hodnoty doladit pro optimální výsledek.",
+      "enabled": "$t(settings-account:tokenFragmentation.title) zapnuto",
+      "disabled": "$t(settings-account:tokenFragmentation.title) vypnuto"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Pokročilá správa UTxO",
+    "caption": "Použijte pokročilou správu UTxO pro své transakce.",
+    "setting": {
+      "caption": "Když je tato možnost zapnutá, $t(common:appName) bude používat pokročilou správu UTxO pro vaše transakce.",
+      "subCaption": "Udržuje si okolo 10 UTxO pro paralelní spouštění transakcí. Také se bude snažit udržet si 5 {{currency}} jako kolaterál UTxO pro interakce s chytrými kontrakty.",
+      "enabled": "$t(settings-account:advancedUtxoManagement.title) zapnuto",
+      "disabled": "$t(settings-account:advancedUtxoManagement.title) vypnuto"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Automatický výběr",
+    "caption": "Automaticky vybírejte odměny, pokud je to potřeba.",
+    "setting": {
+      "caption": "Když je tato možnost zapnutá, odměny budou automaticky vybrány, pokud to bude potřeba při vytváření transakce. Pokud je tato možnost vypnutá nebo pro vynucený ruční výběr, použijte tlačítko Výběr na stránce Souhrn.",
+      "enabled": "$t(settings-account:autoWithdrawal.title) zapnuto",
+      "disabled": "$t(settings-account:autoWithdrawal.title) vypnuto"
+    }
+  },
+  "unStake": {
+    "title": "Zrušit staking wallet\n(Odregistrovat wallet)",
+    "caption": "Zruší delegování aktuálního účtu z jakéhokoli poolu a vytvoří transakci pro odregistrování.",
+    "setting": {
+      "caption": "Tato akce vytvoří transakci pro odregistrování účtu. Po dokončení bude účet oddelegován z jakéhokoli poolu a bude vrácen vklad klíče z doby, kdy byl účet poprvé delegován.",
+      "subCaption": "Upozorňujeme, že veškeré čekající odměny z delegování poolu, odměny catalyst atd. budou ztraceny, když bude účet odregistrován!",
+      "acknowledged": "Rozumím, že veškeré čekající odměny budou ztraceny.",
+      "noUtxo": "{{currency}} potřebné k zaplacení transakčního poplatku za odregistrování.",
+      "button": {
+        "deReg": {
+          "label": "Odregistrovat účet",
+          "tooltip": "Odregistrovat účet z delegování poolu"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "Zrušit registraci jako DRep",
+    "caption": "Vytvořte transakci pro zrušení registrace DRep. Hlasovací právo delegované na tohoto DRep bude ztraceno.",
+    "setting": {
+      "caption": "Tím se vytvoří transakce pro zrušení registrace DRep. Hlasovací právo delegované na tohoto DRep bude ztraceno.",
+      "subCaption": "Chcete-li znovu získat možnost vybírat odměny staking, budete muset delegovat svůj účet na jiného DRep.",
+      "acknowledged": "Rozumím, že veškeré delegované hlasovací právo bude ztraceno.",
+      "noUtxo": "{{currency}} potřebné k zaplacení transakčního poplatku za odregistrování.",
+      "button": {
+        "deReg": {
+          "label": "Odregistrovat účet",
+          "tooltip": "Odregistrovat účet z delegování poolu"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Hlášení",
+    "caption": "Nastavení exportu daňových hlášení."
+  }
+}

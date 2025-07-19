@@ -1,0 +1,68 @@
+{
+  "menuLabel": "Daftar UTxO",
+  "title": "Daftar UTxO Akun",
+  "caption": "Daftar semua UTxO yang dikelola oleh akun ini, termasuk jumlah dan daftar token.",
+  "subCaption": "Sebuah UTxO seperti selembar uang kertas dengan nilai arbitrer. Transaksi membelanjakannya dan mengembalikan 'kembalian' ke wallet Anda.",
+  "empty": "Akun ini tidak memiliki UTxO apa pun.",
+  "selectAll": "Pilih semua",
+  "filter": {
+    "headline": "Filter UTxO",
+    "caption": "Atur parameter atau masukkan string pencarian untuk memfilter daftar utxo.",
+    "search": "Cari berdasarkan alamat, path, atau ID tx...",
+    "more": "Lainnya",
+    "minada": "Jumlah {{adaCurrency}} minimum",
+    "maxada": "Jumlah {{adaCurrency}} maksimum",
+    "numAssets": "{{numAssets}} aset unik ditemukan."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO pada {{address_count}} alamat",
+    "pendingIn": {
+      "hint": "(input tertunda, utxo terpakai)"
+    },
+    "pendingOut": {
+      "hint": "(output tertunda, utxo dibuat)"
+    },
+    "opkosk": {
+      "label": "Mendapatkan Imbalan",
+      "hint": "(kunci pembayaran akun, kunci stake akun)"
+    },
+    "opk": {
+      "label": "Tidak distake",
+      "hint": "(kunci pembayaran akun, tanpa kunci stake)"
+    },
+    "opkesk": {
+      "label": "didelegasikan secara eksternal",
+      "hint": "(kunci pembayaran akun, kunci stake eksternal)"
+    },
+    "epkosk": {
+      "label": "Dana eksternal, tetapi mendapatkan imbalan",
+      "hint": "(kunci pembayaran eksternal, kunci stake akun)"
+    },
+    "collateral": {
+      "label": "Kolateral",
+      "hint": "(tidak semua ditetapkan sebagai kolateral)"
+    },
+    "locked": {
+      "label": "UTxO terkunci"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Rincian Stake",
+    "controlledStake": {
+      "label": "stake terkontrol",
+      "tooltip": "Jumlah total yang distake ke kunci stake akun ini (baik yang dimiliki, eksternal, atau dalam kontrak pintar)."
+    },
+    "ownedStake": {
+      "label": "Stake yang dimiliki",
+      "tooltip": "Jumlah stake di bawah kendali langsung akun ini."
+    },
+    "notStaked": {
+      "label": "Tidak distake",
+      "tooltip": "ADA tidak distake, dana di alamat enterprise."
+    },
+    "externallyStaked": {
+      "label": "Distake secara eksternal",
+      "tooltip": "ADA yang dikontrol oleh akun ini - digabungkan dengan kunci staking eksternal mana pun."
+    }
+  }
+}

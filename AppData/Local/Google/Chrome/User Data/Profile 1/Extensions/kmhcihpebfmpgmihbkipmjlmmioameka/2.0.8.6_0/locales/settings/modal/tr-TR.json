@@ -1,0 +1,25 @@
+{
+  "title": "$t(settings/page:title)",
+  "search": {
+    "placeholder": "Ayar ara..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "Hesap Ayarları",
+    "caption": "Şu anda aktif olan hesaba uygulanan ayarlar."
+  },
+  "wallet": {
+    "title": "Wallet Ayarları",
+    "caption": "Şu anda aktif olan __GT__cüzdanına__ uygulanan ayarlar."
+  },
+  "app": {
+    "title": "Uygulama Ayarları",
+    "caption": "Genel olarak __GT__Eternl'e__ uygulanan ayarlar."
+  },
+  "update": {
+    "success": "Ayar başarıyla kaydedildi.",
+    "error": "Ayar kaydedilirken hata oluştu."
+  }
+}

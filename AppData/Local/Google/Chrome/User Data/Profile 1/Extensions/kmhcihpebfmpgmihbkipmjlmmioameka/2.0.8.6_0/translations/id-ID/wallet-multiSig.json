@@ -1,0 +1,173 @@
+{
+  "step": {
+    "type": {
+      "headline": "Multi-Sig wallet",
+      "caption": "Jenis wallet khusus yang memerlukan beberapa pihak untuk menandatangani transaksi saat membelanjakan dana atau menarik hadiah.",
+      "create": {
+        "label": "Buat Multi-Sig baru",
+        "caption": "Untuk membuat wallet multi-signature baru dari wallet yang ada atau dengan menggunakan kunci multi-sig eksternal"
+      },
+      "join": {
+        "label": "Gabung Multi-Sig",
+        "caption": "Berpartisipasi dalam wallet multi-signature melalui penemuan atau dengan membagikan kunci publik multi-sig Anda kepada teman dari wallet yang sudah ditambahkan."
+      }
+    },
+    "join": {
+      "headline": "Gabung Multi-Sig",
+      "caption": "Pilih opsi untuk menampilkan Kunci Multi-Sig, Temukan, atau impor wallet Multi-Sig yang diekspor.",
+      "key": {
+        "label": "Kunci Multi-Sig",
+        "caption": "Tampilkan kunci Multi-Sig dari wallet yang dipilih untuk dibagikan kepada partisipan yang bertugas membuat wallet Multi-Sig"
+      },
+      "discover": {
+        "label": "Temukan",
+        "caption": "Memindai blockchain untuk wallet Multi-Sig terdaftar yang menyertakan kunci Multi-Sig wallet terpilih"
+      },
+      "import": {
+        "label": "Impor",
+        "caption": "Muat file JSON wallet Multi-Sig yang dibuat dan diekspor"
+      }
+    },
+    "pubkey": {
+      "headline": "Kunci Multi-Sig Wallet",
+      "caption": "Untuk dibagikan kepada pembuat wallet Multi-Sig.",
+      "nowallet": "Tidak ada wallet yang dipilih.",
+      "nopubkey": "Kunci Multi-Sig untuk wallet yang dipilih tidak ada."
+    },
+    "discover": {
+      "headline": "Wallet Multi-Sig yang ditemukan",
+      "caption": "Pilih wallet Multi-Sig yang ditemukan untuk ditambahkan.",
+      "reused": {
+        "toggle": "Tampilkan wallet MultiSig dengan kunci yang digunakan kembali",
+        "warning": "Kunci yang digunakan kembali mungkin rentan terhadap serangan replay, gunakan dengan hati-hati!"
+      },
+      "nowallet": "Tidak ada wallet yang dipilih.",
+      "empty": "Tidak ada wallet Multi-Sig yang ditemukan untuk wallet yang dipilih.",
+      "loading": "Mengambil dan memproses...",
+      "details": {
+        "headline": "Detail Penemuan MultiSig",
+        "data": {
+          "headline": {
+            "date": "Dibuat",
+            "name": "Nama",
+            "description": "Deskripsi",
+            "hash": "Tx Hash",
+            "address": "Alamat",
+            "payment": "Skrip Pembayaran",
+            "stake": "Skrip Stake",
+            "drep": "Skrip DRep",
+            "meta": "Metadata",
+            "balance": "Saldo"
+          },
+          "nostake": "wallet Multi-Sig tidak memiliki skrip stake yang terdaftar",
+          "nodrep": "wallet Multi-Sig tidak memiliki skrip DRep yang terdaftar",
+          "nometa": "Tidak ada metadata label 1854 yang terdaftar",
+          "button": {
+            "showScript": "Lihat Skrip",
+            "showMeta": "Lihat Metadata"
+          }
+        }
+      }
+    },
+    "import": {
+      "headline": "Impor wallet Multi-Sig",
+      "caption": "Muat file JSON wallet Multi-Sig yang dibuat dan diekspor.",
+      "success": "wallet Multi-Sig berhasil diimpor",
+      "error": {
+        "invalid": "Ekspor Multi-Sig tidak valid, harus mengikuti format CSL AuxiliaryDataJSON",
+        "noscript": "File yang diimpor tidak memiliki skrip",
+        "nometa": "File yang diimpor tidak memiliki metadata label 1854",
+        "invalidmeta": "Ekspor berisi metadata label 1854 yang tidak valid",
+        "duplicate": "wallet Multi-Sig dengan skrip yang sama sudah diimpor, mengabaikan file duplikat"
+      }
+    },
+    "create": {
+      "headline": "Tipe Multi-Sig",
+      "caption": "Apakah semua partisipan Anda setara atau merupakan bagian dari grup/entitas?",
+      "simple": {
+        "label": "Sederhana",
+        "caption": "Skenario di mana semua partisipan setara."
+      },
+      "advanced": {
+        "label": "Lanjutan (segera)",
+        "caption": "Partisipan adalah bagian dari grup individual, membentuk beberapa lapisan."
+      }
+    },
+    "simple": {
+      "headline": "Penyiapan Multi-Sig",
+      "caption": "Atur nama dan deskripsi opsional untuk wallet Multi-Sig Anda.",
+      "name": {
+        "label": "Nama Wallet",
+        "placeholder": "Silakan masukkan nama untuk wallet",
+        "error": "Nama wajib diisi"
+      },
+      "description": {
+        "label": "Deskripsi",
+        "placeholder": "Deskripsi opsional"
+      },
+      "error": {
+        "validation": "Kesalahan validasi",
+        "length": "Panjang maksimum 64 karakter terlampaui!"
+      }
+    },
+    "participants": {
+      "headline": "Tambah partisipan",
+      "caption": "Tentukan individu yang harus menjadi bagian dari multi-sig dari dompet yang dimuat atau dengan memasukkan kunci publik multi-sig.",
+      "new": "Tambah partisipan lain",
+      "participant": {
+        "label": "Partisipan",
+        "name": {
+          "label": "Nama",
+          "placeholder": "Nama partisipan opsional"
+        },
+        "pub": {
+          "label": "Kunci Multi-Sig",
+          "placeholder": "acct_shared_xvk1..."
+        }
+      },
+      "info": {
+        "minimum": "Minimal dua partisipan diperlukan untuk membentuk wallet multi-sig sederhana"
+      },
+      "error": {
+        "duplicate": "Partisipan dengan kunci multi-sig yang sama telah ditambahkan, silakan pilih yang lain."
+      }
+    },
+    "requiredSigners": {
+      "headline": "Penanda Tangan yang Diperlukan",
+      "caption": "Berapa banyak partisipan yang perlu mengonfirmasi saat menandatangani?"
+    },
+    "register": {
+      "headline": "Daftar",
+      "caption": "Pilih opsi untuk mendaftarkan atau mengunduh wallet Multi-Sig yang baru dibuat.",
+      "anonymous": "Anonymous (ignore metadata)",
+      "register": {
+        "label": "Register",
+        "caption": "Create a transaction to register the multi-signature wallet on-chain. This allows for automatic discovery by participants and is the recommended option.",
+        "feewallet": "Transaction fee wallet",
+        "success": "wallet Multi-Sig successfully registered"
+      },
+      "download": {
+        "label": "Unduh",
+        "caption": "Mengunduh file untuk dibagikan dengan partisipan untuk impor manual."
+      },
+      "error": {
+        "nofeewallet": "No ada wallet found to use as the fee wallet for the Multi-Sig registration transaction."
+      },
+      "success": "wallet Multi-Sig successfully created",
+      "exist": "Wallet already exists, redirecting to wallet"
+    }
+  },
+  "select": {
+    "placeholder": "Select Wallet",
+    "missing": {
+      "headline": "Create Multi-Sig Key",
+      "mnemonic": "This wallet does not have a multi-sig key, please enter your wallet password to create it.",
+      "hardware": "This wallet does not have a multi-sig key, please click sign and follow the hardware instructions to derive it."
+    },
+    "save": {
+      "ok": "Multi-Sig key successfully created and saved to wallet",
+      "error": "Failed to save multi-sig key to wallet, please try again!"
+    }
+  },
+  "last_signature_added": "Tanda tangan terakhir ditambahkan"
+}

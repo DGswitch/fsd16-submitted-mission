@@ -1,0 +1,31 @@
+{
+  "title": "Paramètres de swap",
+  "presets": "Préréglages",
+  "slippage": {
+    "title": "Slippage de swap",
+    "caption": "Le slippage sur les swaps est la différence entre le prix attendu et le prix exécuté de la transaction.",
+    "updated": "Slippage de swap mis à jour à {{percentage}}",
+    "banner": {
+      "warning": {
+        "title": "Slippage élevé",
+        "text": "Avoir un slippage élevé sur les swaps peut entraîner des rendements considérablement inférieurs. Veuillez vous renseigner sur le slippage pour les ordres AMM avant de continuer."
+      }
+    }
+  },
+  "blocklist": {
+    "title": "Protocoles activés",
+    "caption": "Un DEX désactivé ne sera pas utilisé pour les swaps",
+    "presets": "Préréglages",
+    "disableV1": "Désactiver Plutus v1",
+    "disableV2": "Désactiver Plutus v2"
+  },
+  "aggregators": {
+    "title": "Agrégateurs activés",
+    "caption": "Les agrégateurs désactivés ne seront pas utilisés pour les swaps"
+  },
+  "showMonsterSwap": {
+    "title": "Afficher MonsterSwap",
+    "home": "sur l'Accueil",
+    "navigation": "dans le menu principal"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Tambahkan aset",
+  "warning": {
+    "notAllAdded": "Menambahkan aset lebih banyak ke output ini tidak diizinkan. Tambahkan output lain untuk menyertakan lebih banyak aset. Hanya boleh ada maksimal tiga output yang terisi penuh dalam satu transaksi."
+  },
+  "button": {
+    "addAll": "Tambahkan Semua",
+    "addSearch": "Tambahkan Semua yang Difilter",
+    "addPage": "Tambahkan Semua di Halaman"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "利用可能な資金の内訳",
+  "toggleInfo": {
+    "active": "説明を表示",
+    "inactive": "Show breakdown"
+  },
+  "total": {
+    "label": "UTXO上の資金"
+  },
+  "selected": {
+    "label": "選択されたUTXO",
+    "info": "手動で選択されたすべてのUTXOの合計額。"
+  },
+  "rewards": {
+    "label": "報酬 (UTxOではありません)",
+    "info": "累積報酬。アカウントがDRepに委任されている場合、引き出すことができます。"
+  },
+  "lockedInPendingInputs": {
+    "label": "保留中のインプット",
+    "info": "これらの資金は保留中のトランザクションで使用されています。"
+  },
+  "lockedByCollateral": {
+    "label": "担保 (ロックされていません)",
+    "info": "$t(common:appName) によって担保として使用されるロックされた資金 - これらの資金を使用可能にするには、アカウント設定で担保を無効にしてください。"
+  },
+  "lockedUtxo": {
+    "label": "ロックされたUTXO",
+    "info": "$t(common:appName) または dapps によって使用されないロックされた資金 - アカウント > UTxO リスト ページでロック解除するUTXOを手動で選択してください。"
+  },
+  "lockedByTokens": {
+    "label": "トークンに紐付けられた資金",
+    "info": "Cardano 内では、すべてのトークン/NFTに一定量の ADA が紐付けられています。「トークンによりロックされた額」は、現在の wallet において、その額が（推定で）いくらになるかを示します。"
+  },
+  "lockedByTokensTF": {
+    "label": "トークンフラグメンテーション用",
+    "info": "トークンフラグメンテーションを使用してすべてのUTXOを整理すると、これだけの ADA が紐付けられます。"
+  },
+  "lockedAsRewards": {
+    "label": "ロックされた報酬",
+    "info": "報酬は dapps では使用できず、最初に引き出す必要があります。 $t(common:appName) はこれを自動的に行うことができます。「アカウント > Wallet 設定 > 自動引き出し」に移動して有効にしてください。そのためには、アカウントが DRep オプションに委任されている必要があります。"
+  },
+  "lockedFees": {
+    "label": "トランザクション手数料",
+    "info": "Cardano blockchain にトランザクションを送信するには、トランザクション手数料がかかります。"
+  },
+  "lockedTotal": {
+    "label": "Est. locked",
+    "info": "Calculated total locked amount."
+  },
+  "available": {
+    "label": "Est. available",
+    "info": "これらは、ロックされたすべての資金を差し引いた後、送信可能な資金です。"
+  }
+}

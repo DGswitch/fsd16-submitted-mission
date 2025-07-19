@@ -1,0 +1,24 @@
+{
+  "title": "__GT__Cüzdan__ türünü seçin",
+  "caption": "Yeni bir kullanıcıysanız, yeni bir __GT__cüzdan__ oluşturun.\nLedger cihazınızı bağlayın veya bir JSON yedeğini içe aktarın.",
+  "create": {
+    "label": "Yeni __GT__Cüzdan__",
+    "caption": "Yepyeni bir __GT__cüzdan__ oluşturun"
+  },
+  "hardware": {
+    "label": "Donanım Bağla",
+    "caption": "Ledger, Trezor veya Keystone cihazınızı Eternl ile kullanın"
+  },
+  "restore": {
+    "label": "Kurtarma İfadesi Girin",
+    "caption": "24, 15 veya 12 kelimelik kurtarma ifadesini kullanın"
+  },
+  "multiSig": {
+    "label": "Çoklu İmza __GT__Cüzdan__",
+    "caption": "Bir çoklu imza __GT__cüzdanı__ oluşturun veya katılın"
+  },
+  "more": {
+    "label": "Daha Fazla",
+    "caption": "Ek __GT__cüzdan__ içe aktarma seçeneklerini göster"
+  }
+}

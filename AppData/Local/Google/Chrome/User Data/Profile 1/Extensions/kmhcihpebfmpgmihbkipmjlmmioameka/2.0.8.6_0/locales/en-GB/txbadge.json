@@ -1,0 +1,204 @@
+{
+  "badge": {
+
+    "catalyst": {
+
+      "label":                  "catalyst",
+      "hover":                  "Transaction contains Catalyst voting registration"
+    },
+
+    "metadata": {
+
+      "label":                  "metadata",
+      "hover":                  "Transaction contains metadata"
+    },
+
+    "withdrawal": {
+
+      "label":                  "withdrawal",
+      "hover":                  "Transaction contains withdrawal of rewards"
+    },
+
+    "mint": {
+
+      "label":                  "mint",
+      "hover":                  "Transaction contains minted token(s)."
+    },
+
+    "reg": {
+
+      "label":                  "registration",
+      "hover":                  "Wallet / Stake key registration"
+    },
+
+    "gov": {
+
+      "label":                  "governance",
+      "hover":                  "Cardano governance"
+    },
+
+    "dereg": {
+
+      "label":                  "deregistration",
+      "hover":                  "Wallet deregistration"
+    },
+
+    "delegation": {
+
+      "label":                  "delegation",
+      "hover":                  "Stake pool delegation"
+    },
+
+    "poolreg": {
+
+      "label":                  "pool registration",
+      "hover":                  "Stake pool registration"
+    },
+
+    "poolupd": {
+
+      "label":                  "pool update",
+      "hover":                  "Stake pool update"
+    },
+
+    "poolret": {
+
+      "label":                  "pool retire",
+      "hover":                  "Stake pool retire"
+    },
+
+    "nativescript": {
+
+      "label":                  "script",
+      "hover":                  "Cardano native/multi-sig script"
+    },
+
+    "plutus": {
+
+      "label":                  "smart contract",
+      "hover":                  "Cardano Plutus contract"
+    },
+
+    "onchain": {
+
+      "label":                  "on-chain",
+      "hover":                  "Transaction was included in a block"
+    },
+
+    "invalid": {
+
+      "label":                  "invalid",
+      "hover":                  "An input of this transaction was spent in a different transaction."
+    },
+
+    "pending": {
+
+      "label":                  "pending",
+      "hover":                  "Transaction is still pending execution"
+    },
+
+    "staging": {
+
+      "label":                  "unsigned",
+      "hover":                  "This transaction was not signed yet."
+    },
+
+    "signed": {
+
+      "label":                  "signed",
+      "hover":                  "This transaction is signed but not submitted yet."
+    },
+
+    "validFor": {
+
+      "label":                  "Valid for",
+        "hover":                  "Transaction will be executed eventually or become invalid if an input utxo was consumed by a different transaction."
+    },
+
+    "unlockTimeStamp": {
+
+      "label":                  "Unlock at",
+      "hover":                  "These Staking Vault funds will unlock at that date."
+    },
+
+    "stakingvault": {
+
+      "label":                  "staking vault",
+      "hover":                  "This transaction locks funds in Staking Vault."
+    },
+
+    "unlimited": {
+
+      "label":                  "no time limit",
+      "hover":                  "Transaction will be executed eventually or become invalid if an input utxo was consumed by a different transaction."
+    },
+
+    "expired": {
+
+      "label":                  "expired",
+      "hover":                  "Transaction life time expired"
+    },
+
+    "setTTL": {
+
+      "label":                  "set TTL",
+      "hover":                  "Set transaction life time"
+    },
+
+    "remove": {
+
+      "label":                  "Remove",
+      "hover":                  "Click to remove an expired or invalid transaction.",
+      "hoverNote":              "Only remove, if you know that this transaction won\"t go through anymore."
+    },
+
+    "utxo": {
+
+      "own": {
+
+        "label":                "acc",
+        "hover":                "Own wallet address"
+      },
+
+      "ext": {
+
+        "label":                "ext",
+        "hover":                "External address"
+      },
+
+      "donation": {
+
+        "label":                "Donation",
+        "hover":                "$t('common:appName')donation address"
+      },
+
+      "swapfee": {
+
+        "label":                "Frontend Fee",
+        "hover":                "$t('common:appName')frontend fee address"
+      },
+
+      "eternl": {
+
+        "label":                "Frontend Fee",
+        "hover":                "$t('common:appName')fee address"
+      },
+
+      "sv": {
+
+        "label":                "Staking Vault",
+        "hover":                "Staking vault timelock address"
+      }
+    },
+
+    "script": {
+      "label":                "Script",
+      "hover":                "SmartContract address"
+    },
+
+    "milkomeda": {
+      "label":                "Milkomeda",
+      "hover":                "Bridged Cross Chain Transaction to Milkomeda"
+    }
+  }
+}

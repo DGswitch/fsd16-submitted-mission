@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "โครงการ Catalyst",
+    "caption": "อ่านข่าวทั้งหมดเกี่ยวกับรอบการระดมทุนปัจจุบัน",
+    "text": "โครงการ Catalyst มีรอบการระดมทุนทุกๆ สองสามเดือน โดยมีจำนวน ada ที่กำหนดไว้พร้อมที่จะจัดสรรให้กับแนวคิดต่างๆ\n\nค้นหาข้อมูลที่เกี่ยวข้องทั้งหมดของกองทุนก่อนหน้าและในอนาคตทั้งหมดได้บนเว็บไซต์ Project Catalyst",
+    "button": {
+      "label": "เยี่ยมชมหน้า",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "เรียกดูข้อเสนอทั้งหมด",
+    "text": "Catalyst ใช้ IdeaScale เป็นแพลตฟอร์มนวัตกรรมแบบร่วมมือ\n\nซึ่งทำได้โดยการลงคะแนนในข้อเสนอที่สร้างโดยชุมชนซึ่งมุ่งเน้นไปที่การแก้ปัญหาความท้าทายของกองทุนใดกองทุนหนึ่ง",
+    "button": {
+      "label": "เรียนรู้เพิ่มเติม",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "แพลตฟอร์มข้อมูล Catalyst แบบครบวงจร",
+    "text": "การศึกษา Blockchain การเข้าถึง และการสร้างชุมชนระดับโลก:\n\nเพราะอนาคตเป็นของทุกคน!",
+    "button": {
+      "label": "เยี่ยมชมหน้า",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "จดหมายข่าว",
+    "caption": "ติดตามข่าวสารล่าสุด",
+    "text": "สมัครรับจดหมายข่าว Project Catalyst เพื่อไม่พลาดข่าวสารและการอัปเดตล่าสุด",
+    "button": {
+      "label": "สมัครสมาชิก",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "มีส่วนร่วมกับชุมชน",
+    "text": "เข้าร่วมช่องสนทนาและประกาศของ Telegram เพื่อแบ่งปันความคิดของคุณเกี่ยวกับข้อเสนอการปรับปรุง Cardano ในอนาคต และเพลิดเพลินกับการสนทนาที่ดีและกระตุ้นความคิด",
+    "button1": {
+      "label": "ประกาศ",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "แชทชุมชน",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "Town Hall",
+    "caption": "พบกับผู้สร้าง",
+    "text": "มาพบกับผู้สร้างแห่งอนาคตของ Cardano ในการประชุม Town Hall ประจำสัปดาห์ ชมการนำเสนอสดของพวกเขาและมีส่วนร่วมในการสนทนาที่มีความหมาย",
+    "button": {
+      "label": "บันทึกการประชุม Town Hall ประจำสัปดาห์",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "แสดงความท้าทาย",
+      "hide": "ซ่อนความท้าทาย",
+      "link": "เว็บไซต์ความท้าทาย",
+      "allocation": "Fund Allocation"
+    },
+    "timeline": {
+      "caption": "ไทม์ไลน์ที่แสดงด้านล่างอาจมีการเปลี่ยนแปลง โปรดติดตามข้อมูลล่าสุดโดยกลับมาเยี่ยมชมหน้านี้อีกครั้งและเข้าร่วมการประชุม town hall ประจำสัปดาห์ของ Catalyst",
+      "snapshot": {
+        "label": "Voting Power Snapshot",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "เริ่มการลงคะแนน",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "สิ้นสุดการลงคะแนน",
+        "caption": ""
+      },
+      "result": {
+        "label": "ผลลัพธ์",
+        "caption": "± สองสามวัน"
+      }
+    }
+  }
+}

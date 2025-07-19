@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "No entries in the $t(common:addressBook) yet.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "নতুন ঠিকানা গ্রহণ করুন"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) entry: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "Import $t(common:addressBook) entries",
+    "caption": "Import $t(common:addressBook) entries from a backup file."
+  },
+  "overwrite": {
+    "title": "Overwrite $t(common:addressBook) entries",
+    "caption": "{{name}} নামের এন্ট্রিটির আপডেট নিশ্চিত করুন।"
+  },
+  "add": {
+    "title": "Add to $t(common:addressBook)",
+    "caption": {
+      "main": "Add an entry to the $t(common:addressBook).",
+      "prefilled": "সমস্ত মান আগে থেকে পূরণ করা হয়েছে এবং ইনপুটগুলি নিষ্ক্রিয় করা হয়েছে।"
+    },
+    "name": {
+      "label": "এন্ট্রির নাম",
+      "error": {
+        "length": "A $t(common:addressBook) entry name requires a minimum of 3 and a maximum of 40 characters.",
+        "duplicate": "A $t(common:addressBook) entry with the name `{{ name }}` already exists, please choose another one.",
+        "duplicateAddr": "A $t(common:addressBook) entry with the address {{ address }} already exists."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "এন্ট্রি মুছে ফেলা নিশ্চিত করুন।"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": {
+    "title": "Poveži hardverski wallet",
+    "caption": "Ako imaš hardverski wallet, ovo je pravo mjesto za tebe.",
+    "option": {
+      "ledger": {
+        "label": "Ledger",
+        "caption": "Ledger je hardverski wallet za kriptovalute, napravljen od strane tvrtke Ledger, sa sjedištem u Parizu, Francuska.",
+        "models": "Stax, Flex i Nano (X, S i S Plus)"
+      },
+      "trezor": {
+        "label": "Trezor",
+        "caption": "Trezor dolazi iz SatoshiLabs, sa sjedištem u Češkoj Republici.",
+        "models": "Model T i Safe 3/5"
+      },
+      "keystone": {
+        "label": "Keystone",
+        "caption": "Tvrtka iz Hong Konga koja nudi 100% Air-gapped open-source QR kod komunikacijski hardverski wallet sa 4-inčnim zaslonom osjetljivim na dodir i čitačem otiska prsta.",
+        "models": "Keystone 3 Pro"
+      },
+      "onekey": {
+        "label": "OneKey",
+        "caption": "TBD",
+        "models": "OneKey Pro verificiran"
+      },
+      "bitbox": {
+        "label": "BitBox",
+        "caption": "TBD",
+        "models": "BitBox02"
+      }
+    }
+  },
+  "ledger": {
+    "transport": "Poveži Ledger koristeći"
+  },
+  "keystone": {
+    "qrScan": "Skeniraj QR kod svojim Keystone uređajem",
+    "distance": "Podesi udaljenost i po želji dodirni Keystone QR kod da poboljšaš skeniranje"
+  },
+  "derivation": {
+    "label": "Način izvođenja (napredno)",
+    "icarus": "Cardano standard izvođenja definiran CIP03.",
+    "trezor": "Trezorova implementacija bazirana na Icarus standardu.",
+    "ledger": "Slijedi Bitcoin standard definiran BIP39.",
+    "default": "(zadano)"
+  },
+  "connect": {
+    "title": "Potvrdi izvoz javnog ključa",
+    "caption": "",
+    "info": {
+      "ledger": "Otključaj svoj Ledger uređaj i otvori Cardano aplikaciju prije nego što nastaviš. Zatim slijedi upute navedene u Cardano aplikaciji na svom Ledger uređaju da dovršiš proces uparivanja.",
+      "trezor": "Nakon potvrde, slijedi upute navedene u otvorenoj kartici preglednika Trezor Connect i na svom Trezor uređaju da dovršiš proces uparivanja.",
+      "keystone": "Nakon potvrde, skeniraj generirani QR kod svojim Keystone uređajem, a zatim nastavi sa skeniranjem Keystone QR koda odgovora putem Eternl.",
+      "onekey": "Provjeri je li most instaliran na tvom računalu. Poveži uređaj i pričekaj da se izvezu javni ključevi.",
+      "bitbox": "Nakon potvrde, provjeri kod za uparivanje ako je potrebno i potvrdi na uređaju."
+    }
+  }
+}

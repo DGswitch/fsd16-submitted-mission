@@ -1,0 +1,16 @@
+{
+  "catalyst":                 "Useful Catalyst links",
+  "ideascale":                "Ideascale",
+  "visit":                    "Visit",
+  "lidonation": {
+    "title": "Lidonation Catalyst",
+    "caption": "Blockchain education, outreach, and global community building:\nBecause the Future is for Everyone!"
+  },
+  "monsterswap": {
+    "show": "Show MonsterSwap on Home",
+    "showNav": "Show MonsterSwap in Navigation"
+  },
+  "enter": "Enter {{ currency }} amount",
+  "enterAmount": "Enter amount"
+
+}

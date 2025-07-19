@@ -1,0 +1,55 @@
+{
+  "spo": "ดำเนินการ stake pool เดียว",
+  "mpo": "ดำเนินการ {{count}} stake pools",
+  "retired": "หยุดดำเนินการใน epoch {{epoch}}",
+  "retiredIn": "หยุดดำเนินการใน epoch {{epoch}}",
+  "noRewards": "Pool นี้จะไม่ได้รับรางวัล {{adaSymbol}} ใดๆ",
+  "lessRewards": "Pool นี้จะได้รับรางวัลน้อยกว่าปกติ",
+  "history": "ประวัติรางวัล",
+  "fees": "ค่าธรรมเนียม",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "สีเขียว: อยู่ในช่วงที่เหมาะสม สีแดง: ได้รับรางวัลน้อยลง"
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "สีเขียว: อยู่ในช่วงปกติ สีแดง: ได้รับรางวัลน้อยลง"
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Return On Stake ประสิทธิภาพในช่วง 12 epochs ที่ผ่านมา สีเขียว: อยู่ในช่วงปกติ ROS จะผันผวนมากขึ้นสำหรับ pool ที่มี stake น้อย"
+  },
+  "withdrawal": {
+    "button": {
+      "label": "รับรางวัล",
+      "syncing": "Wallet กำลังซิงค์",
+      "norewards": "ไม่มีรางวัลที่สามารถรับได้"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "เดือนที่แล้ว",
+      "3months": "3 เดือนที่แล้ว",
+      "6months": "6 เดือนที่แล้ว",
+      "year": "ปีที่แล้ว"
+    },
+    "view-history": "ดูประวัติ",
+    "view-graph": {
+      "stake-key": "account stake key"
+    },
+    "approx-earning": "รางวัลโดยประมาณในปีหน้า",
+    "unclaimed-ada": "ADA ที่ยังไม่ได้เคลม",
+    "lifetime-earning": "โดยรวมคุณได้รับ",
+    "lifetime-apy": "Lifetime APY",
+    "lifetime-earned": "ตั้งแต่คุณเริ่ม staking",
+    "epoch-ends-in": "epoch นี้จะสิ้นสุดใน",
+    "search": "ป้อน ticket ชื่อ หรือรายละเอียด",
+    "delegate": "เลือก pool นี้",
+    "openPoolList": "เปิดรายการ pool"
+  }
+}

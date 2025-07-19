@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "アクティブなアカウント名",
+    "caption": "現在のアカウントのアカウント名を設定",
+    "setting": {
+      "caption": "(アクティブな)アカウント名を更新するか、Ada Handleを選択/選択解除します。",
+      "adaHandle": {
+        "select": "アカウント名の代わりに表示するAda Handleを選択します (選択解除すると名前が表示されます):"
+      },
+      "error": {
+        "empty": "アカウント名は空にできません。",
+        "duplicate": "このウォレットには既にその名前のアカウントが存在します。"
+      }
+    }
+  },
+  "export": {
+    "title": "アカウントキーをエクスポート",
+    "caption": "このアカウントの公開鍵をエクスポートします。",
+    "setting": {
+      "caption": "このアカウントの公開鍵をエクスポートします。公開鍵をインポートすると、署名が無効化された読み取り専用モードでアカウント履歴が復元されます。",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32拡張公開鍵",
+        "xpub": "Ed25519-bip32拡張公開鍵",
+        "acct_vk": "Ed25519公開鍵"
+      }
+    }
+  },
+  "samMode": {
+    "title": "シングルアドレスモード (SAM)",
+    "caption": "すべてのトランザクションに単一のアドレスのみを使用します。",
+    "setting": {
+      "caption": "有効にすると、デフォルトですべての資金が最初の受取アドレスに保持されます。",
+      "enabled": "$t(settings/account:samMode.title) 有効",
+      "disabled": "$t(settings/account:samMode.title) 無効",
+      "customAddress": "カスタム受取アドレス",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "重要！",
+          "text": "カスタム受取アドレスを設定すると、このアカウントが所有していない場合でも、すべてのおつり出力と受取アドレスがこのアドレスに切り替わります。正しいアドレスが設定されていることを必ず確認してください。"
+        }
+      },
+      "notification": {
+        "wrongInput": "有効なアドレスではありません。",
+        "wrongNetwork": "このアドレスは異なるネットワークのものです。",
+        "notOwned": "このアドレスはこのアカウントに属しておらず、カスタム受取アドレスとして使用できません。",
+        "nonStaking": "この受取アドレスの資金は外部のステークキーでステークされています。発生する報酬を管理することはできません。",
+        "success": "カスタム受取アドレスが設定されました。",
+        "error": "カスタム受取アドレスの保存に失敗しました！"
+      }
+    }
+  },
+  "collateral": {
+    "title": "コラテラル",
+    "caption": "Eternl提供のコラテラルを使用しますか？",
+    "setting": {
+      "caption": "有効にすると、Eternlがアカウントのコラテラルを提供します。",
+      "info": "スマートコントラクトとの対話では、トランザクションが失敗した場合にコラテラルが必要になることがあります。適格なUTxOが見つかった場合、これはEternlによって自動的に処理されます。",
+      "waiting": "コラテラルトランザクションを送信しました。まだ確認されていませんので、お待ちください。",
+      "foundCollateral": "このアカウントのコラテラルUTxOは既に存在します。スマートコントラクトと対話する際に使用されます。",
+      "eternl": {
+        "label": "Eternl提供のコラテラル",
+        "enabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "コラテラルUTxOが見つかりません。下のボタンを押して設定してください。",
+      "button": {
+        "setCollateral": {
+          "label": "コラテラルを設定",
+          "tooltip": "このアカウントのコラテラルUTxOを設定します。"
+        }
+      },
+      "error": {
+        "label": "エラー："
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "ご注意ください！",
+          "headline": "コラテラルはアカウントベースの設定です。"
+        },
+        "info": {
+          "text": "$t(common:appName)は、トークンがなく####minimumCollateral####から####maximumCollateral####の間の価値を持つ任意のUTxOをコラテラルとして使用できます。この設定を有効にすると、適切なUTxOが検索されます。利用可能なものがない場合は、設定用のボタンが表示されます。"
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "手動同期",
+    "caption": "手動同期を設定",
+    "setting": {
+      "caption": "ウォレットを手動で同期します。有効にすると、同期アイコンをクリックしてウォレットを手動で同期する必要があります。",
+      "enabled": "$t(settings/account:manualSync.title) 有効",
+      "disabled": "$t(settings/account:manualSync.title) 無効"
+    }
+  },
+  "historySync": {
+    "title": "履歴同期",
+    "caption": "履歴同期を設定",
+    "setting": {
+      "caption": "有効にすると、ウォレット はアカウントの完全な取引履歴を同期します。無効の場合、最新の1000件の取引のみが同期されます。同期はバッチで行われ、履歴の多いアカウントでは時間がかかる場合があります。",
+      "enabled": "$t(settings/account:historySync.title) が有効です",
+      "disabled": "$t(settings/account:historySync.title) が無効です",
+      "syncing": "履歴の同期はまだ実行中です。{{AMOUNT}} 件のエントリーの同期を待機しています。"
+    }
+  },
+  "tokenFragmentation": {
+    "title": "トークンフラグメンテーション (TF)",
+    "caption": "トークンをフラグメント化して取引手数料を削減します。",
+    "fragment": {
+      "label": "トークンバンドルサイズ",
+      "error": "トークンバンドルサイズの制限: 1-{{MAX_TOKEN_BUNDLE_SIZE}}。",
+      "info": "各 UTxO アウトプットに含めるトークン数を設定します。これは、低い取引手数料と ウォレット にロックされる資金量のトレードオフです。\n小さいバンドルサイズ -> 低い手数料、より多くの Ada がロックされます。\n大きいバンドルサイズ -> 高い手数料、より少ない Ada がロックされます。"
+    },
+    "setting": {
+      "caption": "送信時に、返却されるお釣りのトークン数が設定値よりも多い場合、トークンをバンドルに分割します。ウォレット の UTxO/トークン分布と望ましい結果に応じて、最適な結果を得るために値を調整する必要がある場合があります。",
+      "enabled": "$t(settings/account:tokenFragmentation.title) が有効です",
+      "disabled": "$t(settings/account:tokenFragmentation.title) が無効です"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "高度な UTxO 管理",
+    "caption": "取引で高度な UTxO 管理を使用します。",
+    "setting": {
+      "caption": "有効にすると、$t(common:appName) はあなたの取引で高度な UTxO 管理を使用します。",
+      "subCaption": "取引の並列実行のために 10 個の UTxO を保持します。また、スマートコントラクトの対話のために 5 ADA の担保 UTxO を保持しようとします。",
+      "enabled": "$t(settings/account:advancedUtxoManagement.title) が有効です",
+      "disabled": "$t(settings/account:advancedUtxoManagement.title) が無効です"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "自動引き出し",
+    "caption": "必要に応じて報酬を自動的に引き出します。",
+    "setting": {
+      "caption": "有効にすると、取引作成時に必要に応じて報酬が自動的に引き出されます。無効の場合、または強制的な手動引き出しを行う場合は、概要ページの引き出しボタンを使用してください。",
+      "enabled": "$t(settings/account:autoWithdrawal.title) が有効です",
+      "disabled": "$t(settings/account:autoWithdrawal.title) が無効です"
+    }
+  },
+  "unStake": {
+    "title": "ウォレット のステーク解除\n(ウォレット の登録解除)",
+    "caption": "現在のアカウントをどのプールからも委任解除し、登録解除トランザクションを作成します。",
+    "setting": {
+      "caption": "このアクションはアカウント登録解除トランザクションを作成します。完了すると、アカウントはどのプールからも委任解除され、アカウントが最初に委任された際のキーデポジットが返却されます。",
+      "subCaption": "プール委任からの未受領の報酬、catalyst 報酬などは、アカウントが登録解除されると失われることに注意してください！",
+      "acknowledged": "未受領の報酬が失われることを理解しています。",
+      "noUtxo": "登録解除トランザクションの手数料を支払うために {{currency}} が必要です。",
+      "button": {
+        "deReg": {
+          "label": "アカウント登録解除",
+          "tooltip": "プール委任からアカウントを登録解除する"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "DRep として登録解除",
+    "caption": "DRep 登録解除トランザクションを作成します。その DRep に委任された投票力は失われます。",
+    "setting": {
+      "caption": "これは DRep 登録解除トランザクションを作成します。その DRep に委任された投票力は失われます。",
+      "subCaption": "staking 報酬を引き出す能力を取り戻すには、アカウントを別の DRep に委任する必要があります。",
+      "acknowledged": "委任されたすべての投票力が失われることを理解しています。",
+      "noUtxo": "登録解除トランザクションの手数料を支払うために {{currency}} が必要です。",
+      "button": {
+        "deReg": {
+          "label": "アカウント登録解除",
+          "tooltip": "プール委任からアカウントを登録解除する"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "レポート作成",
+    "caption": "税務レポートのエクスポート設定。"
+  }
+}

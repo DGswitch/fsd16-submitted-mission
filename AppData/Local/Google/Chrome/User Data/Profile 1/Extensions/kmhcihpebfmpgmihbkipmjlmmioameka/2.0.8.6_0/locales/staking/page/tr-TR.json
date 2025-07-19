@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Staking Panosu",
+  "caption": "Burada ADA'nızı bir Stakepool'a devredebilir, yönetebilir ve pasif gelir elde edebilirsiniz.",
+  "subCaption": "Cardano'da staking için fonlarınız asla __GT__cüzdan__ınızdan ayrılmaz ve istediğiniz zaman harcanabilir.",
+  "staking-cta": {
+    "title": "staking ödülleri kazanın!",
+    "caption": "Bir stake havuzu seçmek için düğmeye tıklayın.",
+    "button": "Stake"
+  },
+  "poollist": {
+    "title": "Mevcut stake havuzları",
+    "caption": "Mevcut stake havuzlarının listesi. Listeyi filtrelemek için bir havuzun sembolünü veya adını girin. Sıralama, kullanıcı için en uygun ödülleri önceliklendirir.",
+    "filter": {
+      "search": "Bir havuz arayın..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "havuz verisi mevcut değil",
+      "undelegated": "devredilmedi",
+      "delegated": "devredildi",
+      "deregistered": "kaydı silindi",
+      "registered": "kayıtlı",
+      "pending": "beklemede",
+      "producing": "üretiliyor"
+    },
+    "history": {
+      "label": "Ödül Geçmişi",
+      "caption": "staking ve Catalyst oylaması için kazanılan ödüllerin epoch'a göre sıralanmış listesi.",
+      "epoch": "$t(common:epoch)",
+      "rewards": "Ödüller",
+      "refund": "Havuz Kayıt Silme İadesi",
+      "pool": "Havuz",
+      "treasury": "Catalyst Oylaması",
+      "leader": "Havuz Operatörü Ödülleri",
+      "reserves": "Anlık Ödüller"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "Lütfen yönetişim eylemleri için bir DRep'e delege etmeyi düşünün. Sonraki dönemde staking ödüllerini çekebilmek için bu gerekli olacaktır."
+      },
+      "inactive": "Hesap, etkin değil olarak işaretlenmiş bir yönetişim DRep'ine devredilmiş ve bu nedenle artık aktif oylama stake'ine dahil edilmiyor."
+    },
+    "warning": {
+      "high": {
+        "headline": "Yüksek Havuz Ücreti",
+        "caption": "Bu hesabın delege edildiği havuzun, staking ödüllerinizi azaltacak alışılmadık derecede yüksek bir ücreti var. Eğer bu bir tür ISPO ise sorun değil. Değilse, daha düşük ücretli başka bir havuz seçmelisiniz."
+      },
+      "complete": {
+        "headline": "%99+ Havuz Ücreti",
+        "caption": "Bu hesabın delege edildiği havuz en az %99 ücret alıyor ve ADA ödüllerinizi topluyor. Eğer bu bir tür ISPO ise sorun değil. Değilse, daha düşük ücretli başka bir havuz seçmelisiniz."
+      }
+    }
+  }
+}

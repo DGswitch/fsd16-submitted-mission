@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Klick, um das Kursdiagramm zu öffnen."
+  },
+  "notifications": {
+    "tooltip": "Klick, um deine Benachrichtigungen anzuzeigen."
+  },
+  "hideBalance": {
+    "tooltip": "Schalte die Sichtbarkeit der Guthaben um."
+  },
+  "logout": {
+    "tooltip": "Log dich aus der App aus. Brauchst deinen PIN, um dich wieder einzuloggen."
+  },
+  "darkMode": {
+    "tooltip": "Schalte den Dark/Light-Modus um."
+  },
+  "settings": {
+    "tooltip": "Öffne das Einstellungsmenü."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Verbleibende Zeit",
+    "tooltip": "Die aktuelle epoch-Nummer und die verbleibende Zeit bis zur nächsten."
+  }
+}

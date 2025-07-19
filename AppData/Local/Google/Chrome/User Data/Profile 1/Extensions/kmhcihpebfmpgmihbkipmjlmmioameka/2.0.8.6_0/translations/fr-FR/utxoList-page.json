@@ -1,0 +1,68 @@
+{
+  "menuLabel": "Liste des UTxO",
+  "title": "Liste des UTxO du compte",
+  "caption": "Une liste de tous les UTxOs gérés par ce compte, incluant le montant et les listes de tokens.",
+  "subCaption": "Un UTxO est comme un billet de banque de valeur arbitraire. Les transactions le dépensent et remettent des 'billets de monnaie' dans votre wallet.",
+  "empty": "Ce compte ne possède aucun UTxO.",
+  "selectAll": "Tout sélectionner",
+  "filter": {
+    "headline": "Filtre UTxO",
+    "caption": "Définissez des paramètres ou entrez une chaîne de recherche pour filtrer la liste des utxo.",
+    "search": "Rechercher par adresse, chemin ou tx id...",
+    "more": "Plus",
+    "minada": "Montant minimum en {{adaCurrency}}",
+    "maxada": "Montant maximum en {{adaCurrency}}",
+    "numAssets": "{{numAssets}} asset(s) unique(s) trouvé(s)."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO sur {{address_count}} adresses",
+    "pendingIn": {
+      "hint": "(entrées en attente, utxos dépensés)"
+    },
+    "pendingOut": {
+      "hint": "(sorties en attente, utxos créés)"
+    },
+    "opkosk": {
+      "label": "Gagner des récompenses",
+      "hint": "(clé de paiement du compte, clé de stake du compte)"
+    },
+    "opk": {
+      "label": "Non staké",
+      "hint": "(clé de paiement du compte, pas de clé de stake)"
+    },
+    "opkesk": {
+      "label": "Délégué externement",
+      "hint": "(clé de paiement du compte, clé de stake externe)"
+    },
+    "epkosk": {
+      "label": "Fonds externes, mais gagnant des récompenses",
+      "hint": "(clé de paiement externe, clé de stake du compte)"
+    },
+    "collateral": {
+      "label": "Collatéral",
+      "hint": "(tous ne sont pas définis comme collatéral)"
+    },
+    "locked": {
+      "label": "UTxOs verrouillés"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Répartition du Stake",
+    "controlledStake": {
+      "label": "Stake contrôlé",
+      "tooltip": "Montant total staké sur la clé de stake de ce compte (qu'il soit détenu, externe ou dans des smart contracts)."
+    },
+    "ownedStake": {
+      "label": "Stake détenu",
+      "tooltip": "Montant du stake sous le contrôle direct de ce compte."
+    },
+    "notStaked": {
+      "label": "Non staké",
+      "tooltip": "ADA non stakés, fonds sur des adresses enterprise."
+    },
+    "externallyStaked": {
+      "label": "Staké externement",
+      "tooltip": "ADA contrôlés par ce compte - combinés avec d'éventuelles clés de staking externes."
+    }
+  }
+}

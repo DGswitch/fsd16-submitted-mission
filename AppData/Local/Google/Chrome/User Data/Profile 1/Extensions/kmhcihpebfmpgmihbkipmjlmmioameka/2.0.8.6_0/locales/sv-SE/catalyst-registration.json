@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst-registrering",
+  "status": {
+    "wrongnetwork": {
+      "title": "Stöds inte",
+      "text": "Catalyst stöds inte på det valda nätverket."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Inte registrerad",
+        "text": "Kontot är inte registrerat för staking. Delegera till en stake pool först, registrera dig sedan för Catalyst-röstning."
+      },
+      "nocatalyst": {
+        "title": "Ingen Catalyst-registrering",
+        "text": "Eternl känner inte igen röstningsnyckeln. Kontot kanske aldrig har registrerats eller registrerades med en annan app."
+      },
+      "hascatalyst": {
+        "title": "Catalyst-registrering",
+        "text": "Kontot är registrerat för Catalyst-röstning. Catalyst-röstningsnyckeln är lagrad i Eternl.",
+        "scan": "Skanna QR-koden i Catalyst-röstningsappen och följ instruktionerna.",
+        "reveal": "Dela inte Catalyst-röstningsnyckeln och PIN-koden med någon. De används för att rösta i Catalyst funding rounds.",
+        "voteKey": "Catalyst-röstningsnyckel",
+        "banner": {
+          "title": "Ladda ner QR-koden",
+          "text": "En lokal säkerhetskopia av Catalyst-röstningsnyckeln lagras i Eternl för återställningsändamål. Denna säkerhetskopia är dock enhetsspecifik och kommer inte att vara tillgänglig när du återställer din wallet på en annan enhet med wallet-frasen. Endast en wallet JSON-säkerhetskopia skapad efter Catalyst-registreringen kan återställa den. Det rekommenderas starkt att ladda ner QR-kodbilden och förvara den säkert, till exempel i en lösenordshanterare."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Välj en stake pool"
+        },
+        "register": {
+          "label": "Registrera för Catalyst-röstning"
+        },
+        "reregister": {
+          "label": "Skapa ny registrering"
+        },
+        "download": {
+          "label": "Ladda ner Catalyst-nyckeln"
+        },
+        "reveal": {
+          "label": "Visa Catalyst-nyckel"
+        },
+        "hide": {
+          "label": "Dölj Catalyst-nyckel"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Röstningsapplikation",
+      "caption": "Ladda ner Catalyst-mobilappen till din telefon.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "App Store-länkar!",
+          "text": "INTE för användning i Catalyst-mobilappen!\n\nDessa QR-koder länkar till appbutikerna där du kan ladda ner och installera Catalyst-mobilappen."
+        }
+      }
+    },
+    "pin": {
+      "title": "Konfigurera PIN-kod",
+      "caption": {
+        "enter": "Ange en PIN-kod för att säkra din Catalyst-röstningsnyckel.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Skriv ner PIN-koden",
+        "text": "Se till att skriva ner PIN-koden!\nOm du förlorar PIN-koden krävs en ny registrering av röstningsnyckel."
+      }
+    },
+    "tx": {
+      "title": "Transaktion för röstningsregistrering",
+      "caption": "Registrera din Catalyst-röstningsnyckel.",
+      "note": {
+        "title": "Röststyrka",
+        "text": "Röststyrkan skalas med mängden tillgångar som innehas vid tidpunkten för snapshot. Ett högre saldo ökar ditt inflytande under snapshot."
+      },
+      "warning": {
+        "title": "Minsta belopp",
+        "text": "Ett minsta saldo på 25 ADA krävs för att din röstningsnyckel ska inkluderas i snapshot. Utan detta minimum kommer du inte att kunna rösta eller få belöningar i en funding round."
+      },
+      "success": "Catalyst-registrering lyckades.",
+      "saved": "Catalyst-röstningsnyckel sparades i Eternl.",
+      "error": {
+        "save": "Misslyckades med att spara Catalyst-röstningsnyckel i Eternl."
+      }
+    }
+  }
+}

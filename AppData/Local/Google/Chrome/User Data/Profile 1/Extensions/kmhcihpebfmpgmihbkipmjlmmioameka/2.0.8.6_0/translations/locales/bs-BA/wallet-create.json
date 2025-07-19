@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Zapiši sve riječi svoje fraze za oporavak wallet na papir tačno onako kako su prikazane ovdje.",
+    "notice": "Ne preskači ništa, ove riječi su ključne!",
+    "reveal": "Prikaži frazu za oporavak",
+    "hidden": "Pobrini se da niko ne vidi tvoj ekran"
+  },
+  "confirm": {
+    "title": "Potvrdi frazu",
+    "caption": "Provjeri jesi li ispravno zapisao/la sve riječi",
+    "instruction": "Izaberi ",
+    "key_one": "<b>{{count}}</b>. riječ",
+    "key_two": "<b>{{count}}</b>. riječ",
+    "key_few": "<b>{{count}}</b>. riječ",
+    "key_other": "<b>{{count}}</b>. riječ",
+    "incorrect": "Netačno, molimo te pokušaj ponovo!"
+  },
+  "password": {
+    "title": "Postavi lozinku za trošenje",
+    "caption": "Postavi lozinku za trošenje da zaštitiš svoj wallet. Sigurnost se povećava sa dužom lozinkom.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet uspješno kreiran."
+  },
+  "error": {
+    "failed": "Kreiranje wallet nije uspjelo, molimo te pokušaj ponovo.",
+    "mnemonic": "Greška: createWallet: mnemonic nije postavljen.",
+    "spendingPassword": "Greška: createWallet: lozinka za trošenje nije postavljena.",
+    "paymentScript": "Greška: createWallet: payment script nije postavljen.",
+    "address": "Greška: createWallet: adresa nije postavljena.",
+    "paymentPrvKey": "Greška: createWallet: payment key nije postavljen.",
+    "accountPubNotSet": "Greška: createWallet: account pub key lista ili adresa nije postavljena.",
+    "walletName": "Greška: createWallet: walletName nije postavljen.",
+    "account": "Ne mogu dohvatiti wallet račun, molimo te da ponovo učitaš stranicu ili kontaktiraj podršku ako se problem nastavi."
+  }
+}

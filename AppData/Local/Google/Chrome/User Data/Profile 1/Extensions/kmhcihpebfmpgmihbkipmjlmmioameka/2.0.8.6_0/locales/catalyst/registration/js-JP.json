@@ -1,0 +1,102 @@
+{
+  "title": "Catalyst 登録",
+  "status": {
+    "wrongnetwork": {
+      "title": "サポートされていません",
+      "text": "Catalyst は現在選択されているネットワークではサポートされていません。"
+    },
+    "registration": {
+      "nostake": {
+        "title": "未登録",
+        "text": "このアカウントは staking に登録されていません。まずステークプールに委任してから、Catalyst 投票に登録してください。"
+      },
+      "nocatalyst": {
+        "title": "Catalyst 登録なし",
+        "text": "Eternl は投票キーを認識できません。アカウントが一度も登録されていないか、別のアプリで登録された可能性があります。"
+      },
+      "hascatalyst": {
+        "title": "Catalyst 登録",
+        "text": "アカウントは Catalyst 投票に登録されています。Catalyst 投票キーは Eternl に保存されています。",
+        "scan": "Catalyst 投票アプリでQRコードをスキャンし、指示に従ってください。",
+        "reveal": "Catalyst 投票キーとPINは誰とも共有しないでください。これらは Catalyst の資金調達ラウンドでの投票に使用されます。",
+        "voteKey": "Catalyst 投票キー",
+        "banner": {
+          "title": "QRコードをダウンロード",
+          "text": "Catalyst 投票キーのローカルバックアップは、復元目的で Eternl に保存されます。ただし、このバックアップはデバイス固有であり、ウォレット フレーズを使用して別のデバイスで ウォレット を復元する際には利用できません。Catalyst 登録後に作成された ウォレット JSON バックアップのみが復元に使用できます。QRコード画像をダウンロードし、パスワードマネージャーなどに安全に保管することを強くお勧めします。"
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "ステークプールを選択"
+        },
+        "register": {
+          "label": "Catalyst 投票に登録"
+        },
+        "reregister": {
+          "label": "新規登録を作成"
+        },
+        "download": {
+          "label": "Catalyst キーをダウンロード"
+        },
+        "reveal": {
+          "label": "Catalyst キーを表示"
+        },
+        "hide": {
+          "label": "Catalyst キーを非表示"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "投票アプリケーション",
+      "caption": "Catalyst モバイルアプリをスマートフォンにダウンロードしてください。",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play ストア",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "アプリストアへのリンク！",
+          "text": "Catalyst モバイルアプリでの使用はできません！\n\nこれらのQRコードは、Catalyst モバイルアプリをダウンロードしてインストールできるアプリストアへのリンクです。"
+        }
+      }
+    },
+    "pin": {
+      "title": "PINコードを設定",
+      "caption": {
+        "enter": "Catalyst 投票キーを保護するためにPINを設定してください。",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "PINを書き留める",
+        "text": "必ずPINを書き留めてください！\nPINを紛失すると、新しい投票キーの登録が必要になります。"
+      }
+    },
+    "tx": {
+      "title": "投票登録トランザクション",
+      "caption": "Catalyst 投票キーを登録します。",
+      "note": {
+        "title": "投票力",
+        "text": "投票力はスナップショット時点での保有資金量に応じて変動します。残高が多いほど、スナップショット時の影響力が大きくなります。"
+      },
+      "warning": {
+        "title": "最小額",
+        "text": "投票キーがスナップショットに含まれるには、最低 25 ADA の残高が必要です。この最小額がない場合、資金調達ラウンドでの投票や報酬の受け取りはできません。"
+      },
+      "success": "Catalyst 登録が成功しました。",
+      "saved": "Catalyst 投票キーは Eternl に正常に保存されました。",
+      "error": {
+        "save": "Eternl への Catalyst 投票キーの保存に失敗しました。"
+      }
+    }
+  }
+}

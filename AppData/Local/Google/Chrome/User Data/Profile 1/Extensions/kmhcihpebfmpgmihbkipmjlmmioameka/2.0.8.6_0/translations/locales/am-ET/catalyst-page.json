@@ -1,0 +1,25 @@
+{
+  "menuLabel": "Catalyst",
+  "title": "Catalyst - የፕሮጀክት ፈንድ ድጋፍ",
+  "caption": "Catalyst በCardano blockchain ላይ የስልጣን አስተዳደርን ያመጣል።",
+  "subCaption": "ለገንዘብ ድጋፍ ጥያቄዎች ድምጽ በመስጠት የCardanoን የወደፊት ዕጣ ፈንታ ለመወሰን ይሳተፉ",
+  "information": "$t(common:information)",
+  "registration": "$t(common:registration)",
+  "nextfund": "የሚቀጥለው ፈንድ",
+  "error": {
+    "syncing": "$t(home-page:syncInfo.syncing)",
+    "account": "$t(wallet-create:error.account)",
+    "save": "የድምጽ መስጫ ቁልፉን በwallet ማከማቻ ላይ ማስቀመጥ አልተሳካም። እባክዎን ለተጨማሪ ድጋፍ የደንበኞች አገልግሎትን ያግኙ!",
+    "catalystkey": "Catalyst የድምጽ መስጫ ቁልፍ ጠፍቷል። ይህ ሊከሰት አይገባም፣ እባክዎን የደንበኞች አገልግሎትን ያግኙ!",
+    "api": "የድምጽ መስጫ ኤፒአይን መጠየቅ አልተቻለም፣ እባክዎን እንደገና ይጫኑ ወይም በተደጋጋሚ የሚከሰት ከሆነ የደንበኞች አገልግሎትን ያግኙ።",
+    "funds": "ቢያንስ ###min_ada_catalyst### wallet በድምጽ መስጫው ላይ ለመሳተፍ ብቁ ለመሆን ያስፈልጋል።",
+    "rewards": "###rewards_amount### ሽልማቶችዎን ወደ walletዎ ካላስወጡ በስተቀር በድምጽ መስጫው ላይ መጠቀም አይችሉም።",
+    "nometadata": "ያልታወቀ ስህተት፣ የምዝገባ metadata በትክክል አልተፈጠረም፣ እባክዎን እንደገና ይሞክሩ ወይም በተደጋጋሚ የሚከሰት ከሆነ የደንበኞች አገልግሎትን ያግኙ።"
+  },
+  "warning": {
+    "registerForNextFund": {
+      "label": "እባክዎን ያስተውሉ",
+      "caption": "በአሁኑ ጊዜ ምዝገባው ለCatalyst ፈንድ 10 ክፍት ነው። ከዚህ ክስተት በኋላ፣ ለወደፊት ፈንዶች ድምጽ መስጠት በተለየ መንገድ ይከናወናል። ተጨማሪ ለመረዳት የCatalyst ማህበረሰቦችን ይቀላቀሉ።"
+    }
+  }
+}

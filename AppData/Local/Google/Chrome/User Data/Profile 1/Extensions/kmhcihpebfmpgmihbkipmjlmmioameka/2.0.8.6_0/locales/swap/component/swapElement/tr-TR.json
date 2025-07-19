@@ -1,0 +1,40 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "Sizin için birden fazla aggregatordan en iyi fiyatı alır",
+  "select": "SEÇİN",
+  "sell": "Sattığınız",
+  "buy": "Aldığınız",
+  "balance": "Swap için uygun",
+  "aggAndDexs": "Agg ve DEX'ler:",
+  "provider": "Sağlayıcı",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Tüm girdileri temizler"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Swap işlemi oluştur"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Swap işlemi oluşturuluyor."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Batcher ve Havuz Hacmi ücreti (DEX'ler)",
+      "tooltip": "DEX'ler siparişinizi işlemek için bir ücret belirler. Bu ücret iade edilmez."
+    },
+    "aggregatorFee": {
+      "label": "Hizmet ücreti",
+      "tooltip": "Bu, kolaylık ücretidir. Aggregator ve Eternl'nin geliştirilmesini finanse etmeye yardımcı olur."
+    },
+    "deposit": {
+      "label": "İade edilebilir depozito",
+      "tooltip": "Siparişinizi işlemek için bir depozito gereklidir. Bu tutar, aldığınız tokenlarla birlikte __GT__cüzdanınıza__ iade edilir."
+    }
+  }
+}

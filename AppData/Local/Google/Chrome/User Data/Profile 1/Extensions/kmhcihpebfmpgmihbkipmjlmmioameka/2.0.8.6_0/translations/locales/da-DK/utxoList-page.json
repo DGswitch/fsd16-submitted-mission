@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO Liste",
+  "title": "Konto UTxO Liste",
+  "caption": "En liste over alle UTxO'er under administration af denne konto, inklusive beløb og tokenlister.",
+  "subCaption": "En UTxO er som en pengeseddel af vilkårlig værdi. Transaktioner bruger den og lægger 'byttepenge-sedler' tilbage i din wallet.",
+  "empty": "Denne konto har ingen UTxO'er.",
+  "selectAll": "Vælg alle",
+  "filter": {
+    "headline": "UTxO Filter",
+    "caption": "Indstil parametre eller indtast en søgestreng for at filtrere utxo listen.",
+    "search": "Søg efter adresse, sti eller tx id...",
+    "more": "Mere",
+    "minada": "Min. {{adaCurrency}} beløb",
+    "maxada": "Maks. {{adaCurrency}} beløb",
+    "numAssets": "{{numAssets}} unik(ke) aktiv(er) fundet."
+  },
+  "badge": {
+    "utxos": "{{utxo_count}} UTxO på {{address_count}} adresser",
+    "pendingIn": {
+      "hint": "(afventende inputs, brugte utxo'er)"
+    },
+    "pendingOut": {
+      "hint": "(afventende outputs, oprettede utxo'er)"
+    },
+    "opkosk": {
+      "label": "Optjener Belønninger",
+      "hint": "(konto betalingsnøgle, konto stake nøgle)"
+    },
+    "opk": {
+      "label": "Ikke staked",
+      "hint": "(konto betalingsnøgle, ingen stake nøgle)"
+    },
+    "opkesk": {
+      "label": "delegeret eksternt",
+      "hint": "(konto betalingsnøgle, ekstern stake nøgle)"
+    },
+    "epkosk": {
+      "label": "Eksterne midler, men optjener belønninger",
+      "hint": "(ekstern betalingsnøgle, konto stake nøgle)"
+    },
+    "collateral": {
+      "label": "Collateral",
+      "hint": "(ikke alle er sat som collateral)"
+    },
+    "locked": {
+      "label": "låste UTxO'er"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Stake Oversigt",
+    "controlledStake": {
+      "label": "kontrolleret stake",
+      "tooltip": "Samlet beløb staked til stake nøglen for denne konto (enten ejet, ekstern eller i smart contracts)."
+    },
+    "ownedStake": {
+      "label": "Ejet stake",
+      "tooltip": "Mængde af stake under direkte kontrol af denne konto."
+    },
+    "notStaked": {
+      "label": "Ikke staked",
+      "tooltip": "{{currency}} ikke staked, midler på enterprise adresser."
+    },
+    "externallyStaked": {
+      "label": "Eksternt staked",
+      "tooltip": "{{currency}} kontrolleret af denne konto - kombineret med eventuelle eksterne staking nøgler."
+    }
+  }
+}

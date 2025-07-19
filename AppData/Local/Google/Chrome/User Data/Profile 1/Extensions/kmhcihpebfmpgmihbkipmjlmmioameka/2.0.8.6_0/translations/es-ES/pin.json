@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "Crear código PIN",
+      "confirm": "Confirmar código PIN"
+    },
+    "captionShort": "Establece un código PIN para acceder a $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) Se requerirá cada vez que abras $t(common:appName).",
+      "confirm": "Para confirmar el código PIN, introduce el mismo PIN que acabas de introducir."
+    },
+    "hint": {
+      "enter": "Introduce el código PIN.",
+      "confirm": "Introduce el PIN por segunda vez para confirmar."
+    },
+    "confirmed": "Los códigos PIN introducidos coinciden.",
+    "button": {
+      "label": "Habilitar PIN"
+    },
+    "error": {
+      "confirm": "El código PIN no coincide, por favor inténtalo de nuevo."
+    }
+  },
+  "access": {
+    "title": "Código PIN de acceso",
+    "caption": "Introduce el código PIN de acceso.",
+    "checking": "Comprobando código PIN.",
+    "confirmed": "El PIN introducido es correcto.",
+    "error": {
+      "confirm": "El código PIN es incorrecto."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Introduce el código PIN para deshabilitarlo.",
+    "biometrics": "Cuando elimines el PIN, la función biométrica se deshabilitará automáticamente.",
+    "button": {
+      "label": "Deshabilitar PIN",
+      "tooltip": "Introduce el PIN actual para permitir la deshabilitación."
+    }
+  },
+  "biometrics": {
+    "login": "Iniciar sesión usando biometría",
+    "caption": "Por favor, autentícate usando FaceID u otra función biométrica.",
+    "fallback": "Iniciar sesión usando código PIN",
+    "use": {
+      "ios": "O usa FaceID o huella dactilar para acceder a wallet.",
+      "android": "O usa las funciones biométricas de tu teléfono para acceder a wallet."
+    }
+  },
+  "comment": "// Más textos de PIN: catalyst:step.pin"
+}

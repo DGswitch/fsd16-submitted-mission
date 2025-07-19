@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "Dirección de donación",
+    "hover": "¡Gracias por tu apoyo!"
+  },
+  "burn": {
+    "label": "Eternl Quemar Wallet",
+    "hover": "Dirección de quema"
+  },
+  "eternlFee": {
+    "label": "Tarifa del Navegador Dapp",
+    "hover": "Una tarifa que ayuda a mantener los servicios de Eternl."
+  },
+  "swapFee": {
+    "label": "Tarifa de servicio",
+    "hover": "Una tarifa que ayuda a mantener los servicios de Eternl."
+  },
+  "collateral": {
+    "label": "Dirección de Colateral Eternl"
+  },
+  "script": {
+    "label": "Script"
+  },
+  "noscript": {
+    "label": "No es una dirección de Script"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Etiqueta de reporte"
+  },
+  "ext": {
+    "label": "externa",
+    "hover": "Esta dirección es desconocida para Eternl."
+  },
+  "openWallet": {
+    "hover": "Haz clic para abrir wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Cambiar a cuenta: {{name}}"
+  },
+  "contract": {
+    "hover": "Contrato {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "La transacción contiene el registro de votación de Catalyst"
+  },
+  "multisig": {
+    "label": "Registro Multi-Sig",
+    "hover": "La transacción contiene el registro de wallet Multi-Sig"
+  },
+  "metadata": {
+    "label": "Metadatos",
+    "hover": "La transacción contiene Metadatos"
+  },
+  "withdrawal": {
+    "label": "Retiro",
+    "hover": "La transacción contiene retiro de recompensas"
+  },
+  "mint": {
+    "label": "Acuñación",
+    "hover": "La transacción contiene token(s) acuñados o quemados"
+  },
+  "reg": {
+    "label": "Registro",
+    "hover": "Registro de Wallet / Clave de Stake"
+  },
+  "gov": {
+    "label": "Gob",
+    "hover": "La transacción contiene un certificado de gobernanza"
+  },
+  "dereg": {
+    "label": "De-Registro",
+    "hover": "Anulación de registro de Wallet"
+  },
+  "delegation": {
+    "label": "Deleg",
+    "hover": "Delegación a stake pool"
+  },
+  "poolreg": {
+    "label": "Registro Pool",
+    "hover": "Registro de stake pool"
+  },
+  "poolupd": {
+    "label": "Actualización Pool",
+    "hover": "Actualización de stake pool"
+  },
+  "poolret": {
+    "label": "Retiro Pool",
+    "hover": "Retiro de stake pool"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Script nativo/multi-sig de Cardano"
+  },
+  "plutus": {
+    "label": "Contrato",
+    "hover": "Contrato Plutus de Cardano"
+  },
+  "onchain": {
+    "label": "En cadena",
+    "hover": "La transacción fue incluida en un bloque"
+  },
+  "confirmed": {
+    "label": "Confirmada",
+    "hover": "La transacción está firmada y lista para enviar"
+  },
+  "pendingapproval": {
+    "label": "Pendiente de aprobación",
+    "hover": "La transacción está esperando firmas adicionales de wallet(s) bajo tu control"
+  },
+  "awaitingothers": {
+    "label": "Esperando a otros",
+    "hover": "La transacción está esperando firmas adicionales de participantes externos"
+  },
+  "invalid": {
+    "label": "Inválida",
+    "hover": "Una entrada de esta transacción se gastó en otra transacción."
+  },
+  "pending": {
+    "label": "Pendiente",
+    "hover": "La transacción aún está pendiente de ejecución"
+  },
+  "staging": {
+    "label": "Sin firmar",
+    "hover": "Esta transacción aún no ha sido firmada."
+  },
+  "signed": {
+    "label": "Firmada",
+    "hover": "Esta transacción está firmada pero aún no ha sido enviada."
+  },
+  "inputSigned": {
+    "label": "Firmada",
+    "hover": "La firma para esta entrada ha sido proporcionada."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "El redentor para este contrato ha sido proporcionado."
+  },
+  "inputUnsigned": {
+    "label": "Sin firmar",
+    "hover": "Falta la firma para esta entrada."
+  },
+  "validFor": {
+    "label": "Válida durante",
+    "hover": "La transacción se ejecutará eventualmente o se volverá inválida si una entrada utxo fue consumida por otra transacción."
+  },
+  "unlockTimeStamp": {
+    "label": "Desbloquear en",
+    "hover": "Estos fondos de Staking Vault se desbloquearán en esa fecha."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Esta transacción bloquea fondos en Staking Vault."
+  },
+  "unlimited": {
+    "label": "Sin límite de tiempo",
+    "hover": "La transacción se ejecutará eventualmente o se volverá inválida si una entrada utxo fue consumida por otra transacción."
+  },
+  "expired": {
+    "label": "Expirada",
+    "hover": "El tiempo de vida de la transacción ha expirado"
+  },
+  "setTTL": {
+    "label": "Establecer TTL",
+    "hover": "Establecer tiempo de vida de la transacción"
+  },
+  "remove": {
+    "label": "Eliminar",
+    "hover": "Haz clic para eliminar una transacción expirada o inválida.",
+    "hoverNote": "Elimina solo si sabes que esta transacción ya no se procesará."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Dirección propia de wallet"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Dirección externa"
+  },
+  "donation_address": {
+    "label": "Donación",
+    "hover": "Dirección de donación de $t(common:appName)"
+  },
+  "swap_fee": {
+    "label": "Comisión de Frontend",
+    "hover": "Dirección de comisión de frontend de $t(common:appName)"
+  },
+  "eternl_fee": {
+    "label": "Comisión de Frontend",
+    "hover": "Dirección de comisión de $t(common:appName)"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Dirección de timelock de Staking vault"
+  },
+  "add_entity": {
+    "label": "+entidad",
+    "hover": "Establece un nombre de entidad para esta dirección."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Dirección de smart contract"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Transacción Cross Chain puenteada a Milkomeda"
+  },
+  "submit": {
+    "label": "enviar transacción",
+    "hover": "Transacción aún no enviada. Haz clic aquí para enviarla."
+  },
+  "nosubmitted": {
+    "label": "no enviada",
+    "hover": "La transacción fue firmada, pero no enviada."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Una dirección normal"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Dirección Ada Handle resuelta que comienza con $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Dirección Unstoppable Domains resuelta que termina en .clay"
+  },
+  "new": {
+    "label": "Nuevo",
+    "hover": "Notificación no leída"
+  },
+  "updated": {
+    "label": "Actualizado",
+    "hover": "Contenido de la notificación actualizado desde la última lectura"
+  },
+  "payment": {
+    "label": "Pago",
+    "hover": "Script de pago"
+  },
+  "stake": {
+    "label": "Stake",
+    "hover": "Script de stake"
+  }
+}

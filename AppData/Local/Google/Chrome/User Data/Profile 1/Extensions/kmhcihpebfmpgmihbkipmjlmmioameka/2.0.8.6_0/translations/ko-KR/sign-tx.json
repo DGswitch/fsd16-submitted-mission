@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "확인해야 할 거래가 {{tx_cnt}}건 있습니다",
+    "caption": "각 거래를 클릭하여 자세한 내용을 확인하세요",
+    "loading": "서명할 거래 처리 중",
+    "signing": "{{txtotal}} 중 <b>{{txindex}}</b>번째 거래 서명 중",
+    "submitting": "거래 제출 중",
+    "sharing": "Multi-Sig 거래 공유 중",
+    "hw": "{{device}} 기기에서 {{txtotal}} 중 <b>{{txindex}}</b>번째 거래를 확인하세요",
+    "keystonehash": "<b>크기로 인해 기기에는 거래 본문 해시만 표시될 수 있습니다 !!</b>",
+    "review": "확인하기 전에 거래를 검토하십시오"
+  },
+  "button": {
+    "debug": {
+      "label": "디버그 정보 다운로드"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "거래가 성공적으로 제출되었습니다",
+    "submitMultiple": "모든 거래가 성공적으로 제출되었습니다"
+  },
+  "account": {
+    "label": "서명 지갑",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "현재 서명 중",
+      "unsigned": "서명 필요",
+      "signed": "서명됨",
+      "connecting": "연결 중"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send-options:tf.label)",
+      "caption": "$t(send-options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send-options:cu.label)",
+      "caption": "이 계정의 UTXO를 더 적은 수로 병합하여 수집합니다."
+    },
+    "send-all": {
+      "headline": "모든 자금 보내기",
+      "caption": "이 거래는 계정의 모든 자금을 보냅니다. 대상 주소의 세부 정보를 확인하십시오."
+    },
+    "high-fee": {
+      "headline": "평소보다 높은 수수료",
+      "caption": "평소보다 높은 거래 수수료가 감지되었습니다. 이것이 원하는 결과인지 거래 세부 정보를 확인하십시오"
+    },
+    "withdraw": {
+      "headline": "보상 인출",
+      "caption": "보상은 자동으로 위임된 스테이크의 일부가 됩니다. 보상을 다른 곳으로 보내거나 catalyst 투표력에 포함시키는 경우 외에는 인출할 필요가 없습니다."
+    },
+    "pool-deleg": {
+      "headline": "풀 위임",
+      "caption": "스테이크 풀 위임 거래입니다. 자세한 내용은 거래를 확인하세요."
+    },
+    "vote-deleg": {
+      "headline": "투표 위임",
+      "caption": "거버넌스 투표 위임 거래입니다. 자세한 내용은 거래를 확인하세요."
+    },
+    "ms-reg": {
+      "headline": "Multi-Sig Wallet 등록",
+      "caption": "모든 참여자가 쉽게 찾을 수 있도록 blockchain에 Multi-Sig wallet을 등록합니다."
+    },
+    "cat-reg": {
+      "headline": "Catalyst 등록",
+      "caption": "이것은 Catalyst 투표 등록 거래를 생성합니다. 이 등록은 새로운 등록으로 대체되지 않는 한 다가오는 Catalyst 펀드 스냅샷에 유효합니다."
+    },
+    "collateral": {
+      "headline": "Collateral UTxO",
+      "caption": "DApp과 상호 작용할 때 때때로 필요한 Collateral UTxO를 생성합니다."
+    },
+    "stake-dereg": {
+      "headline": "스테이크 키 등록 해지",
+      "caption": "$t(settings-account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "DRep 등록 해지",
+      "caption": "$t(settings-account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "스캠 토큰 정리",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "스왑 주문",
+      "caption": "가장 최적의 경로를 제공하는 MonsterSwap 주문 거래입니다."
+    },
+    "swap-cancel": {
+      "headline": "스왑 주문 취소",
+      "caption": "이전에 게시된 스왑 주문에 대한 취소 거래입니다."
+    },
+    "donation": {
+      "headline": "기부",
+      "caption": "Eternl을(를) 지원해 주셔서 감사합니다."
+    }
+  },
+  "error": {
+    "expired": "제출할 수 없습니다! 트랜잭션 유효 기간이 만료되었습니다. 새로운 만료 날짜(TTL)로 트랜잭션을 다시 생성하십시오.",
+    "auxDataMismatch": "첨부된 메타데이터와 서명 요청된 해시 간에 불일치가 있습니다. 이 트랜잭션에 대해 표시되는 메타데이터는 서명하는 내용과 다릅니다!",
+    "auxDataMissing": "트랜잭션 메타데이터가 숨겨져 있습니다.",
+    "debug": "추가 지원이 필요하면 다운로드한 디버그 데이터와 함께 Discord 티켓을 열어주세요.",
+    "unknownInputs": "알 수 없는 입력으로 인해 정확한 트랜잭션 잔액을 계산할 수 없습니다.",
+    "doubleSpend": "잘못된 트랜잭션 목록, 입력 utxo가 '한 번' 이상 사용되었습니다:\n",
+    "missingKeys": "트랜잭션에 사용 가능한 계정의 증명(witness)이 필요하지 않습니다. 이미 확인되었다면 닫고 제출하십시오.",
+    "locked": "트랜잭션이 수동으로 잠근 UTXO 중 하나 이상을 사용하려고 시도합니다.",
+    "passwordMismatch": "입력한 비밀번호가 일치하지 않습니다. 다시 시도하십시오!",
+    "dappUnsupported": "{{device}} wallet에서는 DApp이(가) 지원되지 않습니다.",
+    "fixPermissionUSB": {
+      "text": "버튼을 클릭하고 지침에 따라 USB 연결을 허용하십시오.",
+      "button": "USB 권한 수정"
+    },
+    "fixPermissionBLE": {
+      "text": "버튼을 클릭하고 지침에 따라 Bluetooth 연결을 허용하십시오.",
+      "button": "Bluetooth 권한 수정"
+    },
+    "fixPermissionCamera": {
+      "text": "버튼을 클릭하고 지침에 따라 카메라 접근을 허용하십시오.",
+      "button": "카메라 권한 수정"
+    }
+  },
+  "info": {
+    "signDownload": "모든 사용 가능한 계정에서 트랜잭션이 확인되었습니다.",
+    "multiSigShare": "Multi-Sig wallet 참여자에게 알리려면 트랜잭션을 공유하거나, 또는 트랜잭션을 수동으로 다운로드하여 공유하십시오."
+  }
+}

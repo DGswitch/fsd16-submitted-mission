@@ -1,0 +1,18 @@
+{
+  "idle": "Bijgewerkt",
+  "initializing": "Initialiseren",
+  "queued": "In wachtrij",
+  "syncing": "Synchroniseren",
+  "preparingFor": "voorbereiden op",
+  "syncingFor": "Synchroniseren voor",
+  "notSyncedYet": "nog niet gesynchroniseerd",
+  "success": "Voltooid",
+  "skipped": "Voltooid",
+  "syncedPrefix": "(gesynchroniseerd",
+  "syncedSuffix": "geleden)",
+  "error": "Mislukt",
+  "manual": "Handmatig",
+  "update": {
+    "tooltip": "Forceer een update van het account."
+  }
+}

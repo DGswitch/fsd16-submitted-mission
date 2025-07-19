@@ -1,0 +1,53 @@
+{
+  "cardano": {
+    "label": "Cardano",
+    "caption": "一個普通嘅 Cardano 地址。",
+    "description": "Cardano 地址以 addr1 開頭，並且唔係一個腳本地址。",
+    "error": {
+      "invalid": "唔係有效嘅 Cardano 地址。"
+    }
+  },
+  "cardanoScript": {
+    "label": "Cardano 腳本",
+    "caption": "一個腳本地址。",
+    "description": "Cardano 腳本地址用於智能合約，以 addr1 開頭，後面跟住特定嘅模式。",
+    "error": {
+      "invalid": "唔係有效嘅 Cardano 腳本地址。"
+    }
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "caption": "一個人類可讀嘅 Cardano 地址。",
+    "description": "Ada Handle 係一個獨特嘅、基於 NFT 嘅標識符，可以用作簡化嘅 Cardano 地址，以 $ 開頭。",
+    "banner": {
+      "change": {
+        "title": "Ada Handle 地址已更改！",
+        "text": "地址簿中儲存嘅舊地址：\n####OLD####\n\n新地址：\n####NEW####\n\n由 Ada Handle ###HANDLE### 代表嘅地址自你將其加入地址簿後已更改。\n呢個意味住 Ada Handle 已被轉移到唔同嘅 wallet 或帳戶。\n\n如果你發送資金，資金將會去到一個同你地址簿中儲存嘅唔同地址。\n你可以選擇點擊下面嘅按鈕嚟覆蓋當前嘅地址簿條目。"
+      }
+    },
+    "error": {
+      "invalid": "唔係有效嘅 Ada Handle。",
+      "resolve": "呢個 Ada Handle 唔存在。",
+      "image": "無法載入 Ada Handle 圖像。",
+      "address": {
+        "invalid": "地址無效。（可能佢喺市場上掛牌出售緊？）"
+      }
+    }
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "caption": "一個 blockchain 域名。",
+    "description": "Unstoppable Domains 係去中心化嘅域名，可以連結到唔同嘅加密貨幣地址，包括 Cardano。",
+    "error": {
+      "invalid": "唔係有效嘅 Unstoppable Domain。",
+      "resolve": "呢個 Unstoppable Domain 唔存在。",
+      "domain": {
+        "resolve": "無法解析 Unstoppable Domain。"
+      },
+      "address": {
+        "invalid": "地址無效。（可能佢喺市場上掛牌出售緊？）",
+        "notSet": "呢個 Unstoppable Domain 未設定 Cardano 地址。"
+      }
+    }
+  }
+}

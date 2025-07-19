@@ -1,0 +1,68 @@
+{
+  "menuLabel": "UTxO 列表",
+  "title": "帳戶 UTxO 列表",
+  "caption": "此帳戶管理下所有 UTxO 嘅列表，包括金額同代幣列表。",
+  "subCaption": "一個 UTxO 就好似一張任意面值嘅銀紙。Transactions 會用咗佢，然後將「找續銀紙」放返入你嘅 wallet。",
+  "empty": "呢個帳戶冇任何 UTxOs。",
+  "selectAll": "全選",
+  "filter": {
+    "headline": "UTxO 篩選器",
+    "caption": "設定參數或輸入搜尋字串以篩選 utxo 列表。",
+    "search": "透過 address、path 或 tx id 搜尋... ",
+    "more": "更多",
+    "minada": "最少 {{adaCurrency}} 金額",
+    "maxada": "最多 {{adaCurrency}} 金額",
+    "numAssets": "搵到 {{numAssets}} 個獨特資產。"
+  },
+  "badge": {
+    "utxos": "喺 {{address_count}} 個 addresses 上有 {{utxo_count}} 個 UTxO",
+    "pendingIn": {
+      "hint": "(待處理 inputs，已使用 utxos)"
+    },
+    "pendingOut": {
+      "hint": "(待處理 outputs，已創建 utxos)"
+    },
+    "opkosk": {
+      "label": "賺取獎勵中",
+      "hint": "(帳戶 payment key，帳戶 stake key)"
+    },
+    "opk": {
+      "label": "未 staked",
+      "hint": "(帳戶 payment key，冇 stake key)"
+    },
+    "opkesk": {
+      "label": "外部委託",
+      "hint": "(帳戶 payment key，外部 stake key)"
+    },
+    "epkosk": {
+      "label": "外部資金，但賺取獎勵中",
+      "hint": "(外部 payment key，帳戶 stake key)"
+    },
+    "collateral": {
+      "label": "Collateral",
+      "hint": "(並非全部設定為 collateral)"
+    },
+    "locked": {
+      "label": "已鎖定 UTxOs"
+    }
+  },
+  "stakeBreakdown": {
+    "title": "Stake 細分",
+    "controlledStake": {
+      "label": "受控 stake",
+      "tooltip": "Staked 到此帳戶 stake key 嘅總金額（包括自有、外部或喺 smart contracts 入面）。"
+    },
+    "ownedStake": {
+      "label": "自有 stake",
+      "tooltip": "此帳戶直接控制下嘅 stake 金額。"
+    },
+    "notStaked": {
+      "label": "未 staked",
+      "tooltip": "ADA 未 staked，資金喺 enterprise addresses 上。"
+    },
+    "externallyStaked": {
+      "label": "外部 staked",
+      "tooltip": "由呢個帳戶控制嘅 ADA - 結合任何外部 staking keys。"
+    }
+  }
+}

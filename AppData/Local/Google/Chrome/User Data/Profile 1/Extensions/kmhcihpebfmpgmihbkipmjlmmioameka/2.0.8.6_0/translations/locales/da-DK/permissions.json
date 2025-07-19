@@ -1,0 +1,24 @@
+{
+  "headline": "Giv tilladelse",
+  "usb": {
+    "caption": "Tillad adgang til USB-enheder",
+    "text": "Hvis din Ledger-forbindelse er afbrudt, skal du klikke på knappen for at genoprette forbindelsen.",
+    "button": "Forbind Ledger USB",
+    "success": "USB-forbindelsen er blevet etableret. Du kan nu prøve at signere igen.",
+    "error": "USB-adgang er blevet nægtet. Tillad USB-adgang for at fortsætte."
+  },
+  "ble": {
+    "caption": "Tillad adgang til Bluetooth-enheder",
+    "text": "Hvis din Ledger-forbindelse er afbrudt, skal du klikke på knappen for at genoprette forbindelsen.",
+    "button": "Forbind Ledger Bluetooth",
+    "success": "Bluetooth-forbindelsen er blevet etableret. Du kan nu prøve at signere igen.",
+    "error": "Bluetooth-adgang er blevet nægtet. Tillad Bluetooth-adgang for at fortsætte."
+  },
+  "camera": {
+    "caption": "Tillad adgang til kamera",
+    "text": "Hvis din QR-kode scanning er i stykker, skal du klikke på knappen for at genoprette forbindelsen.",
+    "button": "Forbind kamera",
+    "success": "Kameraadgang er blevet etableret. Du kan nu prøve at signere igen.",
+    "error": "Kameraadgang er blevet nægtet. Tillad kameraadgang for at fortsætte."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp Navegador",
+  "title": "Dapp Navegador",
+  "caption": "Conéctate a dApps de Cardano.",
+  "subCaption": "",
+  "connect": "Conectar a {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Ingresa el dominio de la dapp"
+    }
+  }
+}

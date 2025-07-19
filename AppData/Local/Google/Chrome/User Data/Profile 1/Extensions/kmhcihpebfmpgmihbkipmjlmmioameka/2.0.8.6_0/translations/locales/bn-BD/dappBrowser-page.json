@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp ব্রাউজার",
+  "title": "Dapp ব্রাউজার",
+  "caption": "Cardano ডিঅ্যাপগুলির সাথে কানেক্ট করুন।",
+  "subCaption": "",
+  "connect": "{{dapp}}-এর সাথে কানেক্ট করুন",
+  "list": {
+    "input": {
+      "domain": "dapp ডোমেইন এন্টার করুন"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Scan QR Code",
+    "short": "QR"
+  },
+  "loading": "Initialising camera.",
+  "error": {
+    "notAllowed": "Please grant camera access permission.",
+    "notFound": "No camera detected on device.",
+    "notSupported": "Secure context required (HTTPS, localhost).",
+    "notReadable": "Is the camera already in use?",
+    "overconstrained": "Installed cameras are not suitable.",
+    "streamApiNotSupported": "Stream API is not supported in this browser.",
+    "insecureContext": "Camera access is only permitted in secure context. Use HTTPS or localhost rather than HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Open the extension in fullscreen mode to allow camera access. This only has to be done once.\\n Click on this text to go fullscreen."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "eternl": {
+    "label": "Eternl-tema",
+    "caption": "Vårt standard Eternl-utseende och känsla. Gjord för enkelhet."
+  },
+  "classic": {
+    "label": "Eternl Klassiskt tema",
+    "caption": "Vårt klassiska Eternl-tema som en hyllning till v1."
+  },
+  "monochrome": {
+    "label": "Monokromt tema",
+    "caption": "Stilrent monokromt utan distraktioner."
+  }
+}

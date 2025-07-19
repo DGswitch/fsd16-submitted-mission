@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "ยังไม่มีรายการใน $t(common:addressBook)",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "ยอมรับ address ใหม่"
+  },
+  "badge": {
+    "hover": "รายการ $t(common:addressBook): {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "นำเข้ารายการ $t(common:addressBook)",
+    "caption": "นำเข้ารายการ $t(common:addressBook) จากไฟล์สำรอง"
+  },
+  "overwrite": {
+    "title": "เขียนทับรายการ $t(common:addressBook)",
+    "caption": "ยืนยันการอัปเดตรายการชื่อ {{name}}"
+  },
+  "add": {
+    "title": "เพิ่มไปยัง $t(common:addressBook)",
+    "caption": {
+      "main": "เพิ่มรายการไปยัง $t(common:addressBook)",
+      "prefilled": "ค่าทั้งหมดถูกกรอกไว้ล่วงหน้าแล้วและช่องกรอกข้อมูลถูกปิดใช้งาน"
+    },
+    "name": {
+      "label": "ชื่อรายการ",
+      "error": {
+        "length": "ชื่อรายการ $t(common:addressBook) ต้องมีความยาวอย่างน้อย 3 ตัวอักษรและไม่เกิน 40 ตัวอักษร",
+        "duplicate": "มีรายการ $t(common:addressBook) ที่ใช้ชื่อ `{{ name }}` นี้อยู่แล้ว โปรดเลือกชื่ออื่น",
+        "duplicateAddr": "มีรายการ $t(common:addressBook) ที่ใช้ address นี้อยู่แล้ว ภายใต้ชื่อ {{ address }}"
+      }
+    }
+  },
+  "delete": {
+    "confirm": "ยืนยันการลบรายการ"
+  }
+}

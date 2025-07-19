@@ -1,0 +1,31 @@
+{
+  "title": "Anslut till ",
+  "caption": "Interagera endast med dApps som du litar på! Bekräfta att det är rätt URL och att den är säker (HTTPS).",
+  "label": {
+    "possibleScam": "möjlig bluff",
+    "notSecure": "inte säker",
+    "confirmRisk": "Jag förstår riskerna",
+    "grantAccess": "Bevilja åtkomst"
+  },
+  "noAccount": {
+    "title": "Inget dApp-konto inställt",
+    "caption": "Det finns inget dApp-konto inställt i $t(common:appName). Byt till den fullständiga $t(common:appName)-appen och skapa eller importera en wallet.",
+    "openUI": "Öppna app"
+  },
+  "access": {
+    "url": "URL",
+    "features": "Funktioner"
+  },
+  "cip30": {
+    "title": "DApp Connector (CIP30)",
+    "caption": "Tillåter läsning av ditt saldo och uppmanar till signering av transaktioner. Du kommer att kunna granska en transaktion innan du signerar."
+  },
+  "cip95": {
+    "title": "Cardano Governance (CIP95)",
+    "caption": "Tillåter läsning av dina röstningsuppgifter."
+  },
+  "cip104": {
+    "title": "Kontots publika nyckel (CIP104)",
+    "caption": "Tillåter export av kontots publika nyckel. Observera att detta tillåter DApp att härleda valfri adress för det anslutna kontot."
+  }
+}

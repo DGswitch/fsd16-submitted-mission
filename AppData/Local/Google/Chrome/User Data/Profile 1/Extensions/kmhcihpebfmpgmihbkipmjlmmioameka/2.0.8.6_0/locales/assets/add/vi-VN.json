@@ -1,0 +1,11 @@
+{
+  "title": "Thêm tài sản",
+  "warning": {
+    "notAllAdded": "Không được phép thêm tài sản vào đầu ra này. Thêm một đầu ra khác để bao gồm nhiều tài sản hơn. Chỉ có thể có tối đa ba đầu ra được điền đầy đủ trong một giao dịch."
+  },
+  "button": {
+    "addAll": "Thêm tất cả",
+    "addSearch": "Thêm tất cả đã lọc",
+    "addPage": "Thêm tất cả trên trang"
+  }
+}

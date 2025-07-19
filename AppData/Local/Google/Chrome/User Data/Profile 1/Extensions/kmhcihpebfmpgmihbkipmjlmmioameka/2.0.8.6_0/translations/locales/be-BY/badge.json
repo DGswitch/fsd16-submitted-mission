@@ -1,0 +1,255 @@
+{
+  "donation": {
+    "label": "Адрас для ахвяраванняў",
+    "hover": "Дзякуй за вашу падтрымку!"
+  },
+  "eternlburn": {
+    "label": "Спаліць Eternl Wallet",
+    "hover": "Адрас спальвання"
+  },
+  "eternlFee": {
+    "label": "Плата за браўзер Dapp",
+    "hover": "Плата, якая дапамагае падтрымліваць сэрвісы Eternl."
+  },
+  "swapFee": {
+    "label": "Плата за абслугоўванне",
+    "hover": "Плата, якая дапамагае падтрымліваць сэрвісы Eternl."
+  },
+  "collateral": {
+    "label": "Адрас забеспячэння Eternl"
+  },
+  "script": {
+    "label": "Скрыпт"
+  },
+  "noscript": {
+    "label": "Гэта не скрыптавы адрас"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Лейба справаздачы"
+  },
+  "ext": {
+    "label": "знешні",
+    "hover": "Гэты адрас невядомы для Eternl."
+  },
+  "openWallet": {
+    "hover": "Націсніце, каб адкрыць wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Пераключыцца на рахунак: {{name}}"
+  },
+  "contract": {
+    "hover": "Кантракт {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "Транзакцыя ўтрымлівае рэгістрацыю галасавання Catalyst"
+  },
+  "multisig": {
+    "label": "Multi-Sig Reg",
+    "hover": "Транзакцыя ўтрымлівае рэгістрацыю Multi-Sig wallet"
+  },
+  "metadata": {
+    "label": "Мета",
+    "hover": "Транзакцыя ўтрымлівае metadata"
+  },
+  "withdrawal": {
+    "label": "Вывад",
+    "hover": "Транзакцыя ўтрымлівае вывад узнагарод"
+  },
+  "mint": {
+    "label": "Мінцінг",
+    "hover": "Транзакцыя ўтрымлівае адчаканеныя токены"
+  },
+  "burn": {
+    "label": "Спаліць",
+    "hover": "Транзакцыя ўтрымлівае спаленыя токены"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Рэгістрацыя ключа Wallet / Stake"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "Транзакцыя ўтрымлівае сертыфікат кіравання"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "Дэрэгістрацыя Wallet"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "Дэлегіраванне пула стаўкі"
+  },
+  "poolreg": {
+    "label": "Pool reg",
+    "hover": "Рэгістрацыя пула стаўкі"
+  },
+  "poolupd": {
+    "label": "Pool update",
+    "hover": "Абнаўленне пула стаўкі"
+  },
+  "poolret": {
+    "label": "Pool retire",
+    "hover": "Вывад пула стаўкі з эксплуатацыі"
+  },
+  "nativescript": {
+    "label": "Скрыпт",
+    "hover": "Cardano native/multi-sig скрыпт"
+  },
+  "plutus": {
+    "label": "Кантракт",
+    "hover": "Cardano Plutus кантракт"
+  },
+  "onchain": {
+    "label": "У ланцугу",
+    "hover": "Транзакцыя была ўключана ў блок"
+  },
+  "confirmed": {
+    "label": "Пацверджана",
+    "hover": "Транзакцыя падпісана і гатова да адпраўкі"
+  },
+  "pendingapproval": {
+    "label": "Чакае зацвярджэння",
+    "hover": "Транзакцыя чакае дадатковых подпісаў ад wallet(s) пад вашым кантролем"
+  },
+  "awaitingothers": {
+    "label": "Чакаем іншых",
+    "hover": "Транзакцыя чакае дадатковых подпісаў ад знешніх удзельнікаў"
+  },
+  "invalid": {
+    "label": "Несапраўдны",
+    "hover": "Уваход гэтай транзакцыі быў выкарыстаны ў іншай транзакцыі."
+  },
+  "pending": {
+    "label": "У чаканні",
+    "hover": "Транзакцыя ўсё яшчэ чакае выканання"
+  },
+  "staging": {
+    "label": "Непадпісаны",
+    "hover": "Гэтая транзакцыя яшчэ не падпісана."
+  },
+  "signed": {
+    "label": "Падпісаны",
+    "hover": "Гэтая транзакцыя падпісана, але яшчэ не адпраўлена."
+  },
+  "inputSigned": {
+    "label": "Падпісаны",
+    "hover": "Подпіс для гэтага ўваходу прадастаўлены."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Адкупшчык для гэтага кантракту быў прадастаўлены."
+  },
+  "inputUnsigned": {
+    "label": "Непадпісаны",
+    "hover": "Подпіс для гэтага ўваходу адсутнічае."
+  },
+  "validFor": {
+    "label": "Сапраўдны да",
+    "hover": "Транзакцыя будзе выканана ў рэшце рэшт альбо стане несапраўднай, калі ўваход utxo будзе выкарыстаны іншай транзакцыяй."
+  },
+  "unlockTimeStamp": {
+    "label": "Разблакіроўка ў",
+    "hover": "Гэтыя сродкі Staking Vault будуць разблакіраваны ў гэтую дату."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Гэтая транзакцыя блакуе сродкі ў Staking Vault."
+  },
+  "unlimited": {
+    "label": "Без абмежавання па часе",
+    "hover": "Транзакцыя будзе выканана ў рэшце рэшт альбо стане несапраўднай, калі ўваход utxo будзе выкарыстаны іншай транзакцыяй."
+  },
+  "expired": {
+    "label": "Прамінула",
+    "hover": "Час жыцця транзакцыі скончыўся"
+  },
+  "setTTL": {
+    "label": "Усталяваць TTL",
+    "hover": "Усталяваць час жыцця транзакцыі"
+  },
+  "remove": {
+    "label": "Выдаліць",
+    "hover": "Націсніце, каб выдаліць пратэрмінаваную альбо несапраўдную транзакцыю.",
+    "hoverNote": "Выдаляйце толькі ў тым выпадку, калі вы ведаеце, што гэтая транзакцыя больш не пройдзе."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Уласны адрас wallet"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Знешні адрас"
+  },
+  "donation_address": {
+    "label": "Ахвяраванне",
+    "hover": "Адрас ахвяравання $t(common:appName)"
+  },
+  "swap_fee": {
+    "label": "Плата за Frontend",
+    "hover": "Адрас платы за Frontend $t(common:appName)"
+  },
+  "eternl_fee": {
+    "label": "Плата за Frontend",
+    "hover": "Адрас платы $t(common:appName)"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Адрас таймлока Staking vault"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "Усталюйце назву сутнасці для гэтага адрасу."
+  },
+  "script_address": {
+    "label": "Скрыпт",
+    "hover": "Адрас смарт-кантракту"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Кросс-ланцуговая транзакцыя з мастом у Milkomeda"
+  },
+  "submit": {
+    "label": "Адправіць транзакцыю",
+    "hover": "Транзакцыя яшчэ не адпраўлена. Націсніце тут, каб яе адправіць."
+  },
+  "nosubmitted": {
+    "label": "не адпраўлена",
+    "hover": "Транзакцыя была падпісана, але не адпраўлена."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Звычайны адрас"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Вырашаны адрас Ada Handle, які пачынаецца з $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Вырашаны адрас Unstoppable Domains, які заканчваецца на .clay"
+  },
+  "new": {
+    "label": "Новае",
+    "hover": "Непрачытанае апавяшчэнне"
+  },
+  "updated": {
+    "label": "Абноўлена",
+    "hover": "Змест апавяшчэння абноўлены з моманту апошняга прачытання"
+  },
+  "payment": {
+    "label": "Аплата",
+    "hover": "Скрыпт аплаты"
+  },
+  "stake": {
+    "label": "Стаўка",
+    "hover": "Скрыпт стаўкі"
+  }
+}

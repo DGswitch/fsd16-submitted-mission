@@ -1,0 +1,9 @@
+{
+  "title": "Notifieringscenter",
+  "empty": "Inga notifieringar.",
+  "copy": "Har kopierats till urklipp",
+  "type": {
+    "txMS": "Multisignaturtransaktion",
+    "unknown": "Okänd typ"
+  }
+}

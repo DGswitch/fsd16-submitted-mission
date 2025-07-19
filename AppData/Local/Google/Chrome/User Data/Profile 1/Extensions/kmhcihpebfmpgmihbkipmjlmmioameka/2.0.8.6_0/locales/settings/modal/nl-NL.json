@@ -1,0 +1,25 @@
+{
+  "title": "$t(settings/page:title)",
+  "search": {
+    "placeholder": "Instelling zoeken..."
+  },
+  "footer": {
+    "label": "©"
+  },
+  "account": {
+    "title": "Accountinstellingen",
+    "caption": "Instellingen die van toepassing zijn op het momenteel actieve account."
+  },
+  "wallet": {
+    "title": "Wallet Instellingen",
+    "caption": "Instellingen die van toepassing zijn op de momenteel actieve wallet."
+  },
+  "app": {
+    "title": "App-instellingen",
+    "caption": "Instellingen die van toepassing zijn op Eternl in het algemeen."
+  },
+  "update": {
+    "success": "Instelling succesvol opgeslagen.",
+    "error": "Fout bij opslaan instelling."
+  }
+}

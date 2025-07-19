@@ -1,0 +1,15 @@
+{
+  "title": "處理中 - 你嘅訂單",
+  "caption": "列出尚未處理嘅鏈上兌換訂單。",
+  "loading": "載入訂單中",
+  "noPending": "搵唔到待處理訂單",
+  "time": "時間",
+  "swap": "兌換",
+  "dexs": "Dexs",
+  "via": "經由",
+  "types": {
+    "buy": "買入",
+    "sell": "賣出",
+    "cancel": "取消"
+  }
+}

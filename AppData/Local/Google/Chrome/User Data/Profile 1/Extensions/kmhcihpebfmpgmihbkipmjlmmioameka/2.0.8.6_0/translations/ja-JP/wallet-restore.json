@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "12単語のフレーズ",
+      "caption": "12単語の Shelley wallet です。"
+    },
+    "15": {
+      "label": "15単語のフレーズ",
+      "caption": "例: Yoroi Shelley wallet"
+    },
+    "24": {
+      "label": "24単語のフレーズ",
+      "caption": "例: Eternl や Daedalus などで作成された Shelley wallet です。"
+    },
+    "title": "シードフレーズのタイプ",
+    "caption": "どの種類の wallet を復元しますか？"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "保存したシードフレーズを入力してください"
+  }
+}

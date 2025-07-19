@@ -1,0 +1,44 @@
+{
+  "title": "Eternl Monster Swap",
+  "caption": "Získává pro tebe nejlepší cenu od několika agregátorů",
+  "select": "VYBRAT",
+  "sell": "Prodáváš",
+  "buy": "Kupuješ",
+  "balance": "Dostupné pro výměnu",
+  "aggAndDexs": "Agregátoři & DEXy:",
+  "provider": "Poskytovatel",
+  "button": {
+    "reset": {
+      "label": "$t(common:reset)",
+      "tooltip": "Vymaže všechny vstupy"
+    },
+    "swap": {
+      "label": "$t(common:swap)",
+      "tooltip": "Vytvořit swap transakci"
+    },
+    "loading": {
+      "label": "$t(common:loading)",
+      "tooltip": "Vytváří se swap transakce."
+    }
+  },
+  "details": {
+    "show": "$t(common:button.showDetails)",
+    "hide": "$t(common:button.hideDetails)",
+    "dexFees": {
+      "label": "Poplatek za Batcher & objem poolu (DEXy)",
+      "tooltip": "DEXy si účtují poplatek za zpracování tvé objednávky. Tento poplatek je nevratný."
+    },
+    "aggregatorFee": {
+      "label": "Poplatek za službu",
+      "tooltip": "Toto je poplatek za pohodlí. Pomáhá financovat vývoj agregátoru a Eternl."
+    },
+    "deposit": {
+      "label": "Vratná záloha",
+      "tooltip": "Pro zpracování tvé objednávky je vyžadována záloha. Tato částka je ti vrácena do tvé wallet spolu s tokeny, které obdržíš."
+    }
+  },
+  "geo": {
+    "headline": "MonsterSwap není ve tvém regionu dostupný!",
+    "caption": "Kvůli regulacím a závazku Eternl dodržovat regionální pravidla a všechny platné zákony jsme museli ve tvém regionu MonsterSwap deaktivovat. Uvědomujeme si, že zákony jsou nejasné a neustále se mění, a omezení budeme průběžně upravovat."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Du har data att bekräfta",
+  "caption": "Bekräfta ägandeskap av begärd nyckel genom att signera angiven payload",
+  "loading": "Bearbetar data att signera",
+  "signing": "Signerar payload",
+  "hw": "Signerar payload på {{device}}-enheten",
+  "json": "JSON payload",
+  "hex": "Rå payload",
+  "text": "Text",
+  "blake2b224": "Blake2b224-hash av payload",
+  "reqSign": "Signatur begärd: {{keyType}}-nyckel"
+}

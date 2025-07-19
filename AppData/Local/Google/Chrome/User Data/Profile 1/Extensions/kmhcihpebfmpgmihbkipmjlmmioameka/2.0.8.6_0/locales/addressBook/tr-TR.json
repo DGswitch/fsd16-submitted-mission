@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "$t(common:addressBook)'nde henüz kayıt yok.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "Yeni adresi kabul et"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) kaydı: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "$t(common:addressBook) kayıtlarını içe aktar",
+    "caption": "$t(common:addressBook) kayıtlarını bir yedekleme dosyasından içe aktar."
+  },
+  "overwrite": {
+    "title": "$t(common:addressBook) kaydının üzerine yaz",
+    "caption": "{{name}} adlı kaydın güncellenmesini onayla."
+  },
+  "add": {
+    "title": "$t(common:addressBook)'ne ekle",
+    "caption": {
+      "main": "$t(common:addressBook)'ne bir kayıt ekleyin.",
+      "prefilled": "Tüm değerler önceden doldurulmuş ve girişler devre dışı bırakılmıştır."
+    },
+    "name": {
+      "label": "Kayıt adı",
+      "error": {
+        "length": "$t(common:addressBook) kayıt adı en az 3 ve en fazla 40 karakter gerektirir.",
+        "duplicate": "`{{ name }}` adlı bir $t(common:addressBook) kaydı zaten mevcut, lütfen başka bir tane seçin.",
+        "duplicateAddr": "Bu adrese sahip bir $t(common:addressBook) kaydı zaten {{ address }} adı altında mevcut."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "Kaydı silmeyi onayla."
+  }
+}

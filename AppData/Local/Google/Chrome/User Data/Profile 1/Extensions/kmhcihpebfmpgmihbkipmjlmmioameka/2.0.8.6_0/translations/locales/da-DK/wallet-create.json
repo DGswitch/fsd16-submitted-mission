@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Skriv alle ordene fra din wallet genoprettelsesfrase ned på et stykke papir i præcis den rækkefølge, der vises her",
+    "notice": "Tag ingen genveje, disse ord er afgørende!",
+    "reveal": "Vis genoprettelsesfrase",
+    "hidden": "Sørg for, at ingen kan se din skærm"
+  },
+  "confirm": {
+    "title": "Bekræft frase",
+    "caption": "Bekræft, at du har skrevet de korrekte ord ned",
+    "instruction": "Vælg det ",
+    "key_one": "<b>{{count}}</b>. ord",
+    "key_two": "<b>{{count}}</b>. ord",
+    "key_few": "<b>{{count}}</b>. ord",
+    "key_other": "<b>{{count}}</b>. ord",
+    "incorrect": "Forkert, prøv igen!"
+  },
+  "password": {
+    "title": "Indstil forbrugs-adgangskode",
+    "caption": "Indstil en forbrugs-adgangskode for at beskytte din wallet. Sikkerheden øges med en længere adgangskode.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet oprettet!"
+  },
+  "error": {
+    "failed": "Kunne ikke oprette wallet, prøv igen.",
+    "mnemonic": "Fejl: createWallet: mnemonic ikke indstillet.",
+    "spendingPassword": "Fejl: createWallet: forbrugs-adgangskode ikke indstillet.",
+    "paymentScript": "Fejl: createWallet: betalingsscript ikke indstillet.",
+    "address": "Fejl: createWallet: adresse ikke indstillet.",
+    "paymentPrvKey": "Fejl: createWallet: betalingsnøgle ikke indstillet.",
+    "accountPubNotSet": "Fejl: createWallet: account pub key list eller adresse ikke indstillet.",
+    "walletName": "Fejl: createWallet: walletName ikke indstillet.",
+    "account": "Kunne ikke hente wallet konto, genindlæs eller kontakt support, hvis det fortsætter."
+  }
+}

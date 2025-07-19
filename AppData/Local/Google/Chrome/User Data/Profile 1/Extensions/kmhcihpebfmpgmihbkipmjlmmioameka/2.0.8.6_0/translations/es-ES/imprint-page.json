@@ -1,0 +1,68 @@
+{
+  "title": "Impressum",
+  "imprint": "Impressum",
+  "contact": "Contacto",
+  "edc": "Comité DRep de Eternl",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "ID de DRep",
+    "text": "drep13d6sxkyz6st9h65qqrzd8ukpywhr8swe9f6357qntgjqye0gttd"
+  },
+  "discord": {
+    "label": "Discord",
+    "text": "Haz clic para unirte a nuestro servidor de Discord de $t(common:appName) (con sistema de tickets de soporte)"
+  },
+  "telegram": {
+    "label": "Telegram",
+    "text": "Haz clic para unirte a nuestro canal de Telegram de $t(common:appName)."
+  },
+  "github": {
+    "label": "GitHub",
+    "text": "Si tienes una solicitud de función, por favor utiliza el sistema de seguimiento de incidencias de GitHub. Haz clic para abrirlo en una nueva página."
+  },
+  "email": {
+    "label": "Correo electrónico",
+    "text": "Escríbenos un correo electrónico a team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "Correo electrónico",
+    "text": "Escríbenos un correo electrónico a drep@eternl.io"
+  },
+  "address": {
+    "label": "Sede social",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nAlemania"
+  },
+  "person": {
+    "label": "Personas autorizadas para representar",
+    "text": "Marcel Baumberg (Director Gerente)"
+  },
+  "company": {
+    "label": "Información sobre la empresa",
+    "text": "Número de identificación fiscal (USt-ID): DE264395179\nRegistro mercantil Juzgado de Primera Instancia de Leipzig: HRB 24784"
+  },
+  "legallabel": "Avisos de responsabilidad y derechos de propiedad",
+  "legal0": {
+    "label": "Exclusión de responsabilidad",
+    "text": "Los contenidos de esta oferta en línea han sido creados cuidadosamente y según nuestro conocimiento actual, pero solo sirven para fines informativos y no tienen efecto legalmente vinculante, a menos que se trate de información legalmente obligatoria (por ejemplo, el impressum, la política de privacidad, los términos y condiciones o la información obligatoria para los consumidores). Nos reservamos el derecho de modificar o eliminar los contenidos total o parcialmente, siempre que las obligaciones contractuales no se vean afectadas. Todas las ofertas son sin compromiso y no vinculantes."
+  },
+  "legal1": {
+    "label": "Enlaces a sitios web externos",
+    "text": "Los contenidos de los sitios web externos a los que remitimos directa o indirectamente están fuera de nuestro ámbito de responsabilidad y no los adoptamos como propios. No asumimos ninguna responsabilidad por todos los contenidos y desventajas que surjan del uso de la información accesible en los sitios web enlazados."
+  },
+  "legal2": {
+    "label": "Derechos de autor y derechos de marca",
+    "text": "Todos los contenidos presentados en este sitio web, como textos, fotografías, gráficos, marcas y marcas registradas, están protegidos por los respectivos derechos de propiedad (derechos de autor, derechos de marca). El uso, la reproducción, etc., están sujetos a nuestros derechos o a los derechos de los respectivos autores o administradores de derechos."
+  },
+  "legal3": {
+    "label": "Notificaciones sobre infracciones legales",
+    "text": "Si detecta alguna infracción legal en nuestro sitio web, le rogamos que nos lo comunique. Eliminaremos los contenidos y enlaces ilegales inmediatamente después de tener conocimiento de ellos."
+  },
+  "button": {
+    "home": "inicio"
+  }
+}

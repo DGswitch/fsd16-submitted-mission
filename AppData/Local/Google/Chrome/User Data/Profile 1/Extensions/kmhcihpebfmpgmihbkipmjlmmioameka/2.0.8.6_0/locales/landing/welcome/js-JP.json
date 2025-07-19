@@ -1,0 +1,12 @@
+{
+  "title": "$t(common:appName)へようこそ！",
+  "caption": "マルチプラットフォーム Cardano ウォレット",
+  "button": {
+    "next": {
+      "label": "セットアップを開始"
+    },
+    "watch-tutorial": {
+      "label": "チュートリアルを見る"
+    }
+  }
+}

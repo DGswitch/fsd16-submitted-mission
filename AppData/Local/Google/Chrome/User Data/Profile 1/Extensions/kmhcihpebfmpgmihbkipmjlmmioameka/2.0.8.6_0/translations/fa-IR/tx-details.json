@@ -1,0 +1,159 @@
+{
+  "txId": "شناسه تراکنش",
+  "block": "$t(common:block)",
+  "size": "$t(common:size)",
+  "txFee": "$t(common:txFee)",
+  "deposit": "$t(common:deposit)",
+  "txHash": "هش تراکنش",
+  "index": "شاخص",
+  "credential": {
+    "payment": "اعتبارنامه پرداخت",
+    "stake": "اعتبارنامه استیک"
+  },
+  "certificate": {
+    "label_one": "گواهی‌نامه",
+    "label_other": "گواهی‌نامه‌ها",
+    "type": {
+      "stakereg": "ثبت حساب",
+      "stakedereg": "لغو ثبت حساب",
+      "stakedel": "واگذاری به Stake Pool",
+      "stakeregdel": "ثبت حساب و واگذاری به Stake Pool",
+      "stakevotedel": "واگذاری به Stake Pool و DRep",
+      "stakevoteregdel": "ثبت حساب و واگذاری به Stake Pool / DRep",
+      "votedel": "واگذاری به DRep",
+      "voteregdel": "ثبت حساب و واگذاری به DRep",
+      "drepreg": "ثبت DRep",
+      "drepupd": "به‌روزرسانی DRep",
+      "drepdereg": "لغو ثبت DRep",
+      "poolreg": "ثبت / به‌روزرسانی Stake Pool",
+      "poolret": "بازنشستگی Stake Pool",
+      "genkeydel": "واگذاری کلید Genesis",
+      "mircert": "انتقال پاداش‌های آنی",
+      "comhot": "احراز هویت گرم کمیته",
+      "comcold": "استعفای سرد کمیته",
+      "script": "$t(tx-details:nativescript:label)",
+      "plutus": "قرارداد Plutus",
+      "unknown": "نوع ناشناخته"
+    },
+    "poolreg": {
+      "actepno": "فعال در Epoch",
+      "fixedcost": "هزینه ثابت",
+      "margin": "حاشیه سود",
+      "pledge": "Pledge",
+      "rewardaddr": "آدرس پاداش",
+      "owner": "مالک",
+      "relay": "رله",
+      "metaurl": "آدرس URL فراداده",
+      "metahash": "هش فراداده",
+      "metadata": "متادیتای Off-Chain"
+    },
+    "poolret": {
+      "retepno": "بازنشستگی Epoch"
+    },
+    "gov": {
+      "stakeCreds": "اعتبارنامه‌های استیک",
+      "drepCreds": "اعتبارنامه‌های DRep",
+      "votingCreds": "اعتبارنامه‌های رای‌گیری",
+      "poolCreds": "اعتبارنامه‌های استخر",
+      "poolParams": "پارامترهای استخر",
+      "poolId": "شناسه استخر",
+      "poolHash": "هش استخر",
+      "deposit": "سپرده",
+      "anchor": "لنگر",
+      "rawData": "داده خام",
+      "unknown": "گواهی ناشناخته",
+      "hash": "هش",
+      "isScript": "اسکریپت",
+      "credential": "اعتبارنامه",
+      "vote": "رأی",
+      "drep129": "DRep (CIP129)",
+      "drep105": "DRep (CIP105)"
+    }
+  },
+  "metadata": {
+    "label_one": "ورودی فراداده",
+    "label_other": "ورودی‌های فراداده",
+    "label": "$t(common:فراداده.label)",
+    "key": "برچسب",
+    "value": "مقدار",
+    "rawData": "داده خام",
+    "block": "شماره بلاک",
+    "confirmations": "تأییدیه‌ها",
+    "tx": {
+      "cbor": "Tx cbor",
+      "size": "حجم تراکنش"
+    },
+    "copied": {
+      "cbor": "cbor تراکنش کپی شد"
+    }
+  },
+  "withdrawal": {
+    "label_one": "برداشت",
+    "label_other": "برداشت‌ها",
+    "amount": "مقدار"
+  },
+  "utxo": {
+    "collateralInputs_one": "ورودی وثیقه (Collateral)",
+    "collateralInputs_other": "ورودی‌های وثیقه (Collateral)",
+    "referenceInputs_one": "ورودی مرجع",
+    "referenceInputs_other": "ورودی‌های مرجع",
+    "inputs_one": "ورودی",
+    "inputs_other": "ورودی‌ها",
+    "collateralOutput_one": "خروجی وثیقه (Collateral)",
+    "collateralOutput_other": "خروجی‌های وثیقه (Collateral)",
+    "outputs_one": "خروجی",
+    "outputs_other": "خروجی‌ها"
+  },
+  "nativescript": {
+    "label": "اسکریپت(های) Native / Multi-Sig",
+    "hash": "هش",
+    "type": "نوع",
+    "witness": "Witness",
+    "aux": "Aux Data",
+    "json": "JSON",
+    "bytecode": "داده"
+  },
+  "plutusscript": {
+    "label": "اسکریپت(های) Plutus",
+    "hash": "هش",
+    "type": "نوع",
+    "size": "حجم",
+    "bytes": "داده",
+    "value": "JSON"
+  },
+  "plutus": {
+    "datum": {
+      "hash": "هش datum Plutus",
+      "bytecode": "بایت‌های datum Plutus",
+      "json": "datum Plutus"
+    },
+    "redeemer": {
+      "utxo": "UTxO",
+      "purpose": "هدف",
+      "fee": "کارمزد قرارداد",
+      "usteps": "مراحل واحد",
+      "umem": "حافظه واحد",
+      "dhash": "هش Datum",
+      "dvalue": "بایت‌کد Datum",
+      "djson": "Datum JSON"
+    }
+  },
+  "plutuscontract": {
+    "label_one": "قرارداد Plutus",
+    "label_other": "قراردادهای Plutus",
+    "valid": "قرارداد معتبر",
+    "redeemer": "Redeemer",
+    "datum": "Datum",
+    "script": {
+      "label": "اسکریپت قرارداد",
+      "hash": "هش",
+      "size": "$t(common:size)",
+      "bytecode": "داده"
+    },
+    "reference": {
+      "native": "اسکریپت مرجع (بومی)",
+      "plutus": "اسکریپت مرجع (plutus)"
+    },
+    "outdatum": "Datum خروجی"
+  }
+}

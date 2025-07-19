@@ -1,0 +1,102 @@
+{
+  "title": "Đăng ký Catalyst",
+  "status": {
+    "wrongnetwork": {
+      "title": "Không được hỗ trợ",
+      "text": "Catalyst không được hỗ trợ trên mạng lưới hiện được chọn."
+    },
+    "registration": {
+      "nostake": {
+        "title": "Chưa đăng ký",
+        "text": "Tài khoản chưa đăng ký staking. Hãy ủy quyền cho một stake pool trước, sau đó đăng ký bỏ phiếu Catalyst."
+      },
+      "nocatalyst": {
+        "title": "Không có đăng ký Catalyst",
+        "text": "Eternl không nhận dạng được voting key. Tài khoản có thể chưa bao giờ được đăng ký hoặc đã được đăng ký bằng một ứng dụng khác."
+      },
+      "hascatalyst": {
+        "title": "Đăng ký Catalyst",
+        "text": "Tài khoản đã đăng ký bỏ phiếu Catalyst. Catalyst voting key được lưu trữ trong Eternl.",
+        "scan": "Quét mã QR trong ứng dụng bỏ phiếu Catalyst và làm theo hướng dẫn.",
+        "reveal": "Đừng chia sẻ Catalyst voting key và mã PIN với bất kỳ ai. Nó được sử dụng để bỏ phiếu trong các vòng tài trợ Catalyst.",
+        "voteKey": "Catalyst voting key",
+        "banner": {
+          "title": "Tải xuống mã QR",
+          "text": "Một bản sao lưu cục bộ của Catalyst voting key được lưu trữ trong Eternl cho mục đích khôi phục. Tuy nhiên, bản sao lưu này chỉ dành riêng cho thiết bị và sẽ không khả dụng khi khôi phục wallet trên thiết bị khác bằng cụm từ wallet. Chỉ bản sao lưu JSON của wallet được tạo sau khi đăng ký Catalyst mới có thể khôi phục nó. Rất khuyến khích tải xuống hình ảnh mã QR và lưu trữ an toàn, ví dụ như trong trình quản lý mật khẩu."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "Chọn một stake pool"
+        },
+        "register": {
+          "label": "Đăng ký bỏ phiếu Catalyst"
+        },
+        "reregister": {
+          "label": "Tạo đăng ký mới"
+        },
+        "download": {
+          "label": "Tải xuống Catalyst key"
+        },
+        "reveal": {
+          "label": "Hiển thị Catalyst key"
+        },
+        "hide": {
+          "label": "Ẩn Catalyst key"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "Ứng dụng Bỏ phiếu",
+      "caption": "Tải ứng dụng di động Catalyst về điện thoại của bạn.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "Liên kết cửa hàng ứng dụng!",
+          "text": "KHÔNG dùng trong ứng dụng di động Catalyst!\n\nCác mã QR này liên kết đến các cửa hàng ứng dụng nơi bạn có thể tải xuống và cài đặt ứng dụng di động Catalyst."
+        }
+      }
+    },
+    "pin": {
+      "title": "Cấu hình Mã PIN",
+      "caption": {
+        "enter": "Đặt mã PIN để bảo mật Catalyst voting key của bạn.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "Ghi lại mã PIN",
+        "text": "Hãy chắc chắn ghi lại mã PIN!\nMất mã PIN sẽ yêu cầu đăng ký voting key mới."
+      }
+    },
+    "tx": {
+      "title": "Giao dịch Đăng ký Bỏ phiếu",
+      "caption": "Đăng ký Catalyst voting key của bạn.",
+      "note": {
+        "title": "Sức mạnh bỏ phiếu",
+        "text": "Sức mạnh bỏ phiếu tỷ lệ thuận với số tiền nắm giữ tại thời điểm snapshot. Số dư cao hơn làm tăng ảnh hưởng của bạn trong snapshot."
+      },
+      "warning": {
+        "title": "Số tiền tối thiểu",
+        "text": "Cần có số dư tối thiểu 25 ADA để voting key của bạn được đưa vào snapshot. Nếu không có mức tối thiểu này, bạn sẽ không thể bỏ phiếu hoặc nhận phần thưởng trong một vòng tài trợ."
+      },
+      "success": "Đăng ký Catalyst thành công.",
+      "saved": "Catalyst voting key đã được lưu thành công trong Eternl.",
+      "error": {
+        "save": "Không thể lưu Catalyst voting key trong Eternl."
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Selamat datang di $t(common:appName)!",
+  "caption": "wallet Cardano lintas platform",
+  "button": {
+    "next": {
+      "label": "Mulai penyiapan"
+    },
+    "watch-tutorial": {
+      "label": "Tonton tutorial"
+    }
+  }
+}

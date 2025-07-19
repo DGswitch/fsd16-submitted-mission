@@ -1,0 +1,12 @@
+{
+  "title": "Bem-vindo(a) ao $t(common:appName)!",
+  "caption": "uma __GT__carteira__ Cardano multiplataforma",
+  "button": {
+    "next": {
+      "label": "Iniciar configuração"
+    },
+    "watch-tutorial": {
+      "label": "Ver tutorial"
+    }
+  }
+}

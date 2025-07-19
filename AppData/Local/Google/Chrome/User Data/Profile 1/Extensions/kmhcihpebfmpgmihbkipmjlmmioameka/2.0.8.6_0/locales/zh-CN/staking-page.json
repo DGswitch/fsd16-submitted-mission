@@ -1,0 +1,56 @@
+{
+  "menuLabel": "Staking",
+  "title": "Staking 儀表板",
+  "caption": "您可以在這裡管理並將您的 ADA 委託給權益池以賺取被動收入。",
+  "subCaption": "在 wallet 上進行 wallet 時，您的資金永遠不會離開您的 钱包，並且可以隨時使用。",
+  "staking-cta": {
+    "title": "賺取 staking 獎勵！",
+    "caption": "點擊按鈕以選擇一個權益池。",
+    "button": "質押"
+  },
+  "poollist": {
+    "title": "可用的權益池",
+    "caption": "可用權益池列表。輸入權益池的代號或名稱以篩選列表。排名會優先考慮使用者的最佳獎勵。",
+    "filter": {
+      "search": "搜尋權益池..."
+    }
+  },
+  "info": {
+    "delegation": {
+      "nodata": "無權益池資料可用",
+      "undelegated": "未委託",
+      "delegated": "已委託",
+      "deregistered": "已註銷",
+      "registered": "已註冊",
+      "pending": "待處理",
+      "producing": "生產中"
+    },
+    "history": {
+      "label": "獎勵歷史",
+      "caption": "依 epoch 排序的 staking 和 Catalyst 投票獎勵列表",
+      "epoch": "$t(common:epoch)",
+      "rewards": "獎勵",
+      "refund": "權益池註銷退款",
+      "pool": "權益池",
+      "treasury": "Catalyst 投票",
+      "leader": "權益池營運者獎勵",
+      "reserves": "即時獎勵"
+    },
+    "gov": {
+      "nodelegation": {
+        "info": "請考慮委託給 DRep 以進行治理行動。在下一個時期，需要委託才能提取 staking 獎勵"
+      },
+      "inactive": "帳戶已委託給一個被標記為非活躍的治理 DRep，因此不再計入有效投票權益"
+    },
+    "warning": {
+      "high": {
+        "headline": "高權益池費用",
+        "caption": "此帳戶委託的權益池收取異常高的費用，這將減少您的 staking 獎勵。如果這是某種 ISPO，那沒關係。如果不是，您應該選擇另一個費用較低的權益池"
+      },
+      "complete": {
+        "headline": "99+% 權益池費用",
+        "caption": "此帳戶委託的權益池收取至少 99% 的費用並收集您的 ADA 獎勵。如果這是某種 ISPO，那沒關係。如果不是，您應該選擇另一個費用較低的權益池"
+      }
+    }
+  }
+}

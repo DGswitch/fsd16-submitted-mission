@@ -1,0 +1,111 @@
+{
+
+  "tabs": {
+    "connect":                   "Connect with WalletConnect",
+    "manage":                    "Manage connections"
+  },
+
+  "connect": {
+
+    "current":                   "use current account",
+    "dapp":                      "use dApp account",
+
+    "identifier": {
+
+      "label":                  "Wallet connect identifier",
+      "hint":                   "Wallet connect string"
+
+    },
+
+    "status": {
+
+      "connected":              "Connected",
+      "disconnected":           "Not connected",
+      "error":                  "Connection error",
+      "unknownError":           "Unknown error occurred.",
+      "emptyAddress":           "Please enter the WalletConnect address.",
+      "invalidAddress":         "The input does not seem to be a valid wallet connect address.",
+      "noaccount":              "Please select an account to use."
+
+    },
+
+    "actions": {
+
+      "connect":                "Wallet is disconnected. To connect, go to the DApp and init the connection.",
+      "disconnect":             "Wallet is connected. Click to disconnect from the DApp.",
+      "delete":                 "Delete connection",
+      "edit":                   "Change account"
+    },
+
+    "label": {
+      "connect":                "Connect",
+      "disconnect":             "Disconnect",
+      "status":                 "Connection status:",
+      "error":                  "Connection error:"
+    },
+
+    "autoconnect":              "auto-connect",
+
+    "badge": {
+      "autoconnect":            "The wallet will try to auto connect to this DApp upon start.",
+      "connected":              "The DApp is currently connected to the wallet.",
+      "disconnected":           "The DApp is currently not connected to the wallet."
+    },
+
+    "to":                       "Connected to",
+    "from":                     "Connection ID",
+
+    "labels": {
+
+      "info":                    "Connection information:",
+      "connectedTo":             "Connected to:",
+      "name":                    "DApp name:",
+      "url":                     "DApp url:",
+      "address":                 "DApp connection id:",
+      "walletConnectionId":      "Wallet connection id:",
+      "walletId":                "Connected wallet",
+      "accountPubKey":           "Connected account",
+      "active":                  "Active connection",
+      "autoConnect":             "Auto-connect",
+      "created":                 "Created",
+      "lastActive":              "Last used",
+      "expire":                  "Expires at:"
+
+    },
+
+    "modal": {
+      "headline": "Approve session proposal",
+      "info": "A DApp is requesting access using the WalletConnect API.\nPlease check the requested session and confirm it.",
+      "name": "DApp Name",
+      "url": "DApp URL",
+      "request": "The DApp is requesting access to the following wallet API endpoints.",
+      "topic": "Pairing ID",
+      "namespace": "DApp Namespace",
+      "networkName": "Network",
+      "methods": "Methods",
+      "events": "Events",
+      "wallet": "Wallet",
+      "account": "Account",
+      "networkWarning": {
+        "label": "Wrong Network",
+        "info": "It looks like you are trying to connect to a DApp on a different network. Please change the network and try again."
+      }
+    },
+
+    "headline":                 "Connect dApp using WalletConnect",
+    "caption":                  "You can connect to any dApp that offers a WalletConnect feature on Cardano. \nTo do so please enter the address or scan the QR code that the dApp is showing.",
+
+    "select": {
+      "headline": "Select WalletConnect wallet"
+    },
+
+    "button": {
+      "enable": {
+        "label": "Use for WalletConnect account"
+      },
+      "disable": {
+        "label": "Selected WalletConnect account"
+      }
+    }
+  }
+}

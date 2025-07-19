@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet/add/common:phrase.title)",
+    "caption": "ウォレットのリカバリーフレーズのすべての単語を、ここに表示されている通りの順番で紙に書き留めてください",
+    "notice": "省略しないでください、これらの単語は非常に重要です！",
+    "reveal": "リカバリーフレーズを表示",
+    "hidden": "誰もあなたの画面を見ていないことを確認してください"
+  },
+  "confirm": {
+    "title": "フレーズを確認",
+    "caption": "正しい単語を書き留めたことを確認してください",
+    "instruction": "選択してください：",
+    "key_one": "<b>{{count}}</b>番目の単語",
+    "key_two": "<b>{{count}}</b>番目の単語",
+    "key_few": "<b>{{count}}</b>番目の単語",
+    "key_other": "<b>{{count}}</b>番目の単語",
+    "incorrect": "不正解です。もう一度お試しください！"
+  },
+  "password": {
+    "title": "送金パスワードを設定",
+    "caption": "ウォレットを保護するために送金パスワードを設定してください。パスワードが長いほどセキュリティが向上します。",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "ウォレットは正常に作成されました。"
+  },
+  "error": {
+    "failed": "ウォレットの作成に失敗しました。もう一度お試しください。",
+    "mnemonic": "エラー: createWallet: mnemonicが設定されていません。",
+    "spendingPassword": "エラー: createWallet: 送金パスワードが設定されていません。",
+    "paymentScript": "エラー: createWallet: payment scriptが設定されていません。",
+    "address": "エラー: createWallet: addressが設定されていません。",
+    "paymentPrvKey": "エラー: createWallet: payment keyが設定されていません。",
+    "accountPubNotSet": "エラー: createWallet: account pub key listまたはaddressが設定されていません。",
+    "walletName": "エラー: createWallet: walletNameが設定されていません。",
+    "account": "ウォレットアカウントを取得できません。問題が続く場合は、リロードするかサポートにお問い合わせください。"
+  }
+}

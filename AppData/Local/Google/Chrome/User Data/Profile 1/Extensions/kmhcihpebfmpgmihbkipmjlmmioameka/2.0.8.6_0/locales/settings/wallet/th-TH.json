@@ -1,0 +1,108 @@
+{
+  "walletName": {
+    "title": "ชื่อและกลุ่ม",
+    "caption": "อัปเดตชื่อ wallet หรือชื่อกลุ่มของคุณ",
+    "setting": {
+      "caption": "$t(settings/wallet:walletName.caption)",
+      "name": "ชื่อ Wallet",
+      "group": "กลุ่ม Wallet",
+      "error": {
+        "empty": {
+          "name": "ชื่อ Wallet ต้องไม่ว่างเปล่า",
+          "group": "กลุ่ม Wallet ต้องไม่ว่างเปล่า"
+        },
+        "duplicate": {
+          "name": "มี wallet ที่ใช้ชื่อนี้อยู่แล้ว"
+        }
+      }
+    }
+  },
+  "spendingPassword": {
+    "title": "รหัสผ่านการใช้จ่าย Wallet",
+    "caption": "อัปเดตรหัสผ่านการใช้จ่าย wallet ของคุณ",
+    "setting": {
+      "caption": "อัปเดตรหัสผ่านการใช้จ่าย wallet ของคุณ ป้อนรหัสเก่า จากนั้นป้อนรหัสผ่านการใช้จ่ายใหม่ที่ยาวขึ้น ยิ่งรหัสผ่านยาวเท่าไหร่ wallet ของคุณก็จะยิ่งปลอดภัยมากขึ้นเท่านั้น",
+      "updated": "อัปเดตรหัสผ่านการใช้จ่าย Wallet",
+      "error": "ไม่สามารถอัปเดตรหัสผ่าน Wallet ได้"
+    }
+  },
+  "biometrics": {
+    "title": "การใช้จ่ายด้วย Biometrics",
+    "caption": "ใช้คุณสมบัติ Biometrics แทนรหัสผ่าน",
+    "setting": {
+      "caption": "$t(settings/wallet:biometrics.caption)",
+      "activate": {
+        "label": "เปิดใช้งาน Biometrics",
+        "description": "ป้อนรหัสผ่านการใช้จ่ายปัจจุบันของคุณเพื่อเปิดใช้งานการใช้จ่ายด้วยคุณสมบัติ Biometrics ของโทรศัพท์ของคุณ"
+      },
+      "deactivate": {
+        "label": "ปิดใช้งาน Biometrics",
+        "description": "เมื่อลงนามในธุรกรรม เราจะใช้คุณสมบัติ Biometrics ของโทรศัพท์ของคุณแทนรหัสผ่านของคุณ"
+      }
+    }
+  },
+  "icon": {
+    "title": "ไอคอน Wallet",
+    "caption": "ตั้งค่าไอคอน wallet ที่กำหนดเอง หรือสร้างไอคอน wallet แบบสุ่ม",
+    "setting": {
+      "caption": "$t(settings/wallet:icon.caption)",
+      "select": "เลือกไอคอน",
+      "regenerateIcon": "สุ่ม",
+      "resetToDefault": "รีเซ็ตเป็นค่าเริ่มต้น"
+    }
+  },
+  "exportWallet": {
+    "title": "ส่งออก Wallet",
+    "caption": "การส่งออก wallet เป็นไฟล์ JSON ที่ปลอดภัย ซึ่งช่วยให้สามารถนำเข้าในเบราว์เซอร์/อุปกรณ์อื่นได้",
+    "setting": {
+      "caption": "ไฟล์สำรอง .json ของ $t(common:appName) ที่ส่งออก สามารถนำเข้าในแอป $t(common:appName) อื่นๆ ได้",
+      "subCaption": "ข้อมูลสำรอง .json รวมถึงบันทึกธุรกรรมและการตั้งค่า wallet/account",
+      "button": {
+        "label": "ส่งออก Wallet"
+      },
+      "banner": {
+        "title": "สำคัญ!",
+        "text": "สำหรับ hot wallets การส่งออกจะรวม private key ที่เข้ารหัสไว้ด้วย โปรดเก็บไฟล์ที่ส่งออกไว้อย่างปลอดภัยและอย่าแบ่งปันกับใคร"
+      }
+    }
+  },
+  "reSync": {
+    "title": "ซิงค์ wallet ใหม่",
+    "caption": "บังคับให้ wallet ทำการ re-synchronization ใหม่ทั้งหมด",
+    "setting": {
+      "caption": "$t(settings/wallet:reSync.caption)",
+      "subCaption": "การกดปุ่มนี้จะรีเซ็ตข้อมูล wallet ทั้งหมดและทำการ re-sync ใหม่ทั้งหมดจาก blockchain",
+      "button": {
+        "label": "ซิงค์ Wallet ใหม่"
+      }
+    }
+  },
+  "verification": {
+    "title": "การยืนยัน Recovery phrase",
+    "caption": "ยืนยันว่าคุณได้จัดเก็บ recovery phrase ที่ถูกต้องสำหรับ wallet แล้ว",
+    "setting": {
+      "caption": "$t(settings/wallet:verification.caption) เมื่อยืนยันแล้ว คุณยังสามารถเปลี่ยนรหัสผ่านการใช้จ่ายของคุณได้",
+      "start": "ยืนยัน phrase",
+      "match": {
+        "label": "recovery phrase ที่ป้อนถูกต้อง",
+        "spending": "เปลี่ยนรหัสผ่านการใช้จ่าย"
+      },
+      "invalid": "recovery phrase ที่ป้อนไม่ถูกต้องสำหรับ wallet นี้"
+    }
+  },
+  "deleteWallet": {
+    "title": "ลบ Wallet",
+    "caption": "ลบ wallet และ account ทั้งหมดของมัน",
+    "setting": {
+      "caption": "เมื่อคุณลบ wallet นี้ มันจะถูกลบออกจากแอป $t(common:appName) นี้ และคุณจะไม่สามารถเข้าถึงเงินทุนที่เหลืออยู่ใน wallet นี้ได้อีกต่อไป",
+      "subCaption": "วิธีเดียวที่จะเข้าถึงได้อีกครั้งหลังจากลบคือการกู้คืน wallet ด้วย recovery phrase ของคุณ หรือโดยการนำเข้าไฟล์สำรอง $t(common:appName).json ที่ส่งออกไว้ก่อนหน้านี้",
+      "subCaption2": "เพื่อให้การนำเข้าง่ายขึ้น ให้ส่งออกเป็นไฟล์สำรอง $t(common:appName).json ก่อนทำการลบ\n\nโปรดตรวจสอบให้แน่ใจว่า seed phrase ของ wallet นี้ถูกจัดเก็บไว้อย่างปลอดภัย!",
+      "acknowledged": "ฉันเข้าใจว่าวิธีเดียวที่จะเข้าถึง __GT__วอลเล็ท__ นี้ได้อีกครั้ง คือการกู้คืนโดยใช้ __GT__วลีกู้คืน__ ของวอลเล็ท",
+      "name": "ป้อนชื่อ __GT__วอลเล็ท__",
+      "error": {
+        "name": "ป้อนชื่อ __GT__วอลเล็ท__ ที่ถูกต้องเพื่อยืนยันการลบ",
+        "acknowledged": "โปรดอ่านและรับทราบข้อมูลข้างต้น"
+      }
+    }
+  }
+}

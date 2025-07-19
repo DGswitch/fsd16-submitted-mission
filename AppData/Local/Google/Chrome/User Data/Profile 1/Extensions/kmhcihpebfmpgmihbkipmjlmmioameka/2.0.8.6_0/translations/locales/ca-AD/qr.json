@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Escaneja el codi QR",
+    "short": "QR"
+  },
+  "loading": "S'està inicialitzant la càmera.",
+  "error": {
+    "notAllowed": "Si us plau, concedeix permís d'accés a la càmera.",
+    "notFound": "No s'ha detectat cap càmera al dispositiu.",
+    "notSupported": "Es requereix un context segur (HTTPS, localhost).",
+    "notReadable": "La càmera ja està en ús?",
+    "overconstrained": "Les càmeres instal·lades no són adequades.",
+    "streamApiNotSupported": "L'API Stream no és compatible amb aquest navegador.",
+    "insecureContext": "L'accés a la càmera només està permès en un context segur. Utilitza HTTPS o localhost en comptes de HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Obre l'extensió en mode de pantalla completa per permetre l'accés a la càmera. Només s'ha de fer una vegada.\n Fes clic en aquest text per posar-ho a pantalla completa."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp Prohlížeč",
+  "title": "Dapp Prohlížeč",
+  "caption": "Připoj se k Cardano dApps.",
+  "subCaption": "",
+  "connect": "Připoj se k {{dapp}}",
+  "list": {
+    "input": {
+      "domain": "Zadej doménu dapp"
+    }
+  }
+}

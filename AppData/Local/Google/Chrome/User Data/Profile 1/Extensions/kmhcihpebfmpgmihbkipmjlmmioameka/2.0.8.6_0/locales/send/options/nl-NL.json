@@ -1,0 +1,58 @@
+{
+  "is": {
+    "label": "Invoerselectie",
+    "caption": "Neem controle over invoerselectie door specifieke utxo's in uw account uit te geven.",
+    "reset": "Invoerselectie resetten"
+  },
+  "import": {
+    "label": "Transactie importeren",
+    "caption": "Importeer een niet-ondertekende of ondertekende transactie, geëxporteerd vanuit Eternl of andere bronnen.",
+    "upload": "Upload transactiebestand(en) of plak de ruwe transactie cbor."
+  },
+  "tf": {
+    "label": "Tokenfragmentatie",
+    "caption": "Verspreid uw activa over meerdere utxo's om de kosten voor toekomstige transacties te verlagen."
+  },
+  "cu": {
+    "label": "UTxO Verzameling",
+    "caption": "Verzamel UTxO's van dit account, en voeg ze samen tot minder UTxO's. Er worden maximaal 10 transacties tegelijk aangemaakt. Verwerking kan even duren."
+  },
+  "ms": {
+    "label": "Speciale Verzameling",
+    "label2": "Verzamel in Wallet",
+    "caption": "Verzamel UTxO's van deze ms fee wallet, en voeg ze samen tot minder UTxO's. Er worden maximaal 10 transacties tegelijk aangemaakt. Verwerking kan even duren."
+  },
+  "donation": {
+    "label": "Doneer 1 ADA om de ontwikkeling van $t(common:appName) te ondersteunen",
+    "caption": "We hopen dat u Eternl waardeert! Overweeg alstublieft om 1 ADA mee te sturen met deze transactie om de ontwikkeling van ons project te ondersteunen."
+  },
+  "customMetadata": {
+    "label": "Aangepaste Metadata",
+    "caption": "Voeg een aangepast metadata schema toe in JSON-formaat volgens de specificatie.",
+    "placeholder": "Plak / Voer JSON in",
+    "urllabel": "Documentatie over het metadata json-formaat op cardano.org",
+    "added": "Volgende metadata is toegevoegd aan de transactie:",
+    "schemainfo": {
+      "NoConversions": "Converteert getrouw tussen de minimale gedeelde functieset van JSON en Metadata.",
+      "BasicConversions": "Voegt extra ondersteuning toe voor byte (als hex strings) en integer sleutels (als strings).",
+      "DetailedSchema": "Uitgebreid JSON-schema maar met de meeste flexibiliteit voor metadata conversie."
+    },
+    "banner": {
+      "error": {
+        "title": "Geen geldig Cardano JSON algemeen metadata schema",
+        "json": "Ongeldige JSON.",
+        "label": "Ongeldig(e) label(s).\nTop-level sleutels moeten unieke integers zijn binnen het bereik -(2^64 - 1) tot (2^64 - 1)."
+      }
+    }
+  },
+  "metadata": {
+    "label": "Voeg on-chain $t(common:message.label) toe",
+    "caption": "Voeg een bericht/opmerking/memo toe aan de transactie.\nDruk op \"ENTER\" voor een bericht over meerdere regels.",
+    "enableEncryption": "Versleuteling inschakelen",
+    "placeholder": "Voer een transactiebericht in",
+    "error": {
+      "overflow": "Aantal tekens per regel is beperkt tot 64. Druk op Enter om een nieuwe regel toe te voegen",
+      "invalidJSON": "Geen geldig Cardano JSON algemeen metadata schema."
+    }
+  }
+}

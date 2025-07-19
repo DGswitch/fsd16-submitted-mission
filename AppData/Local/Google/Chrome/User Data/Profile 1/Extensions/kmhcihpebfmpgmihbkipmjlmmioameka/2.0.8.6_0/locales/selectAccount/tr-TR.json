@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Cüzdanlar arasında geçiş yapın.",
+    "accounts": {
+      "select": "hesaplar",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Hesaplar arasında geçiş yapmak için belirli bir __GT__cüzdan__ seçin.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Aktif $t(common:dApp) hesabını değiştirin."
+    },
+    "accounts": {
+      "select": "Listeden bir hesap seçin. Yıldız simgesine dokunarak bir hesabı favori olarak işaretleyin.",
+      "manage": "Hesap ekleyin veya kaldırın, belirli hesap indekslerini seçin veya hesap adları ayarlayın."
+    }
+  },
+  "groups": {
+    "placeholder": "Aktif __GT__cüzdan__ gruplarını seçin",
+    "favoriteAccounts": "#Favori hesaplar"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Hesap adı:",
+    "index": "İndeks:",
+    "limit": "Limit:",
+    "remove": {
+      "tooltip": "Hesabı kaldır"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Yeni Hesaplar Ekle"
+  }
+}

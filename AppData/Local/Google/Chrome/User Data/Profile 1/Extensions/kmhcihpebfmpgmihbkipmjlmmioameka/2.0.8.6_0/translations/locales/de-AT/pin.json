@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "PIN-Code erstellen",
+      "confirm": "PIN-Code bestätigen"
+    },
+    "captionShort": "Leg einen PIN-Code fest, um auf $t(common:appName) zuzugreifen.",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) Der wird jedes Mal benötigt, wennst $t(common:appName) öffnest.",
+      "confirm": "Gib zur Bestätigung den gleichen PIN-Code ein, denst grad eingegeben hast."
+    },
+    "hint": {
+      "enter": "PIN-Code eingeben.",
+      "confirm": "Gib den PIN-Code ein zweites Mal ein, um ihn zu bestätigen."
+    },
+    "confirmed": "Eingegebene PIN-Codes stimmen überein.",
+    "button": {
+      "label": "PIN aktivieren"
+    },
+    "error": {
+      "confirm": "PIN-Codes stimmen nicht überein, bitte versuchs nochmal."
+    }
+  },
+  "access": {
+    "title": "PIN-Code für den Zugriff",
+    "caption": "Gib den PIN-Code für den Zugriff ein.",
+    "checking": "PIN-Code wird überprüft.",
+    "confirmed": "Eingegebene PINs stimmen.",
+    "error": {
+      "confirm": "PIN-Code ist falsch."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Gib den PIN-Code ein, um ihn zu deaktivieren.",
+    "biometrics": "Wennst den PIN entfernst, wird die Biometrie-Funktion automatisch deaktiviert.",
+    "button": {
+      "label": "PIN deaktivieren",
+      "tooltip": "Gib den aktuellen PIN ein, um die Deaktivierung zu erlauben."
+    }
+  },
+  "biometrics": {
+    "login": "Mit Biometrie anmelden",
+    "caption": "Bitte authentifiziere dich mit FaceId oder einer anderen biometrischen Funktion.",
+    "fallback": "Mit PIN-Code anmelden",
+    "use": {
+      "ios": "Oder verwende FaceID oder Fingerabdruck, um auf die wallet zuzugreifen.",
+      "android": "Oder verwende die biometrischen Funktionen deines Handys, um auf die wallet zuzugreifen."
+    }
+  },
+  "comment": "// More pin texts: catalyst:step.pin"
+}

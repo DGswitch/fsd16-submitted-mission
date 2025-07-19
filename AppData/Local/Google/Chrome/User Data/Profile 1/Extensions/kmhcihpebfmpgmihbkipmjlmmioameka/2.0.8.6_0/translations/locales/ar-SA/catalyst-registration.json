@@ -1,0 +1,102 @@
+{
+  "title": "تسجيل Catalyst",
+  "status": {
+    "wrongnetwork": {
+      "title": "غير مدعوم",
+      "text": "‏Catalyst غير مدعوم على الشبكة المحددة حاليًا."
+    },
+    "registration": {
+      "nostake": {
+        "title": "غير مسجل",
+        "text": "الحساب غير مسجل في تخزين. قم بالتفويض إلى مجمع حصص أولاً، ثم سجل للتصويت في Catalyst."
+      },
+      "nocatalyst": {
+        "title": "لا يوجد تسجيل في Catalyst",
+        "text": "‏Eternl لا يتعرف على مفتاح التصويت. قد يكون الحساب لم يتم تسجيله أبدًا أو تم تسجيله بتطبيق آخر."
+      },
+      "hascatalyst": {
+        "title": "تسجيل Catalyst",
+        "text": "الحساب مسجل للتصويت في Catalyst. يتم تخزين مفتاح التصويت الخاص بـ Catalyst في Eternl.",
+        "scan": "امسح رمز الاستجابة السريعة في تطبيق التصويت Catalyst واتبع التعليمات.",
+        "reveal": "لا تشارك مفتاح التصويت ورمز PIN الخاص بـ Catalyst مع أي شخص. يتم استخدامه للتصويت في جولات تمويل Catalyst.",
+        "voteKey": "مفتاح التصويت الخاص بـ Catalyst",
+        "banner": {
+          "title": "تنزيل رمز الاستجابة السريعة",
+          "text": "يتم تخزين نسخة احتياطية محلية من مفتاح التصويت الخاص بـ Catalyst في Eternl لأغراض الاسترداد. ومع ذلك، فإن هذا النسخ الاحتياطي خاص بالجهاز ولن يكون متاحًا عند استعادة محفظة على جهاز آخر باستخدام عبارة محفظة. فقط نسخة احتياطية بتنسيق JSON لـ محفظة تم إنشاؤها بعد تسجيل Catalyst يمكنها استعادتها. يوصى بشدة بتنزيل صورة رمز الاستجابة السريعة وتخزينها بشكل آمن، على سبيل المثال في مدير كلمات المرور."
+        }
+      },
+      "button": {
+        "stake": {
+          "label": "اختر مجمع حصص"
+        },
+        "register": {
+          "label": "سجل للتصويت في Catalyst"
+        },
+        "reregister": {
+          "label": "إنشاء تسجيل جديد"
+        },
+        "download": {
+          "label": "تنزيل مفتاح Catalyst"
+        },
+        "reveal": {
+          "label": "كشف مفتاح Catalyst"
+        },
+        "hide": {
+          "label": "إخفاء مفتاح Catalyst"
+        }
+      }
+    }
+  },
+  "step": {
+    "app": {
+      "title": "تطبيق التصويت",
+      "caption": "قم بتنزيل تطبيق Catalyst للهاتف المحمول على هاتفك.",
+      "apple": {
+        "label": "Apple App Store",
+        "url": "https://apps.apple.com/in/app/catalyst-voting/id1517473397"
+      },
+      "android": {
+        "label": "Google Play Store",
+        "url": "https://play.google.com/store/apps/details?id=io.iohk.vitvoting"
+      },
+      "banner": {
+        "notice": {
+          "title": "روابط متجر التطبيقات!",
+          "text": "ليس للاستخدام في تطبيق Catalyst للهاتف المحمول!\n\nترتبط رموز QR هذه بمتاجر التطبيقات حيث يمكنك تنزيل وتثبيت تطبيق Catalyst للهاتف المحمول."
+        }
+      }
+    },
+    "pin": {
+      "title": "تكوين رمز PIN",
+      "caption": {
+        "enter": "عيّن رمز PIN لتأمين مفتاح التصويت الخاص بـ Catalyst.",
+        "confirm": "$t(pin:createAccess.caption.confirm)"
+      },
+      "confirmed": "$t(pin:createAccess.confirmed)",
+      "error": {
+        "confirm": "$t(pin:createAccess.error.confirm)"
+      },
+      "warning": {
+        "title": "اكتب رمز PIN",
+        "text": "تأكد من كتابة رمز PIN!\nسيؤدي فقدان رمز PIN إلى طلب تسجيل مفتاح تصويت جديد."
+      }
+    },
+    "tx": {
+      "title": "معاملة تسجيل التصويت",
+      "caption": "سجل مفتاح التصويت الخاص بك في Catalyst.",
+      "note": {
+        "title": "قوة التصويت",
+        "text": "تتغير قوة التصويت مع كمية الأموال الموجودة في وقت اللقطة. الرصيد الأعلى يزيد من تأثيرك خلال اللقطة."
+      },
+      "warning": {
+        "title": "الحد الأدنى للمبلغ",
+        "text": "يلزم وجود حد أدنى للرصيد قدره 25 {{currency}} لكي يتم تضمين مفتاح التصويت الخاص بك في اللقطة. بدون هذا الحد الأدنى، لن تتمكن من التصويت أو الحصول على مكافآت في جولة تمويل."
+      },
+      "success": "تم تسجيل Catalyst بنجاح.",
+      "saved": "تم حفظ مفتاح التصويت الخاص بـ Catalyst بنجاح في Eternl.",
+      "error": {
+        "save": "فشل حفظ مفتاح التصويت الخاص بـ Catalyst في Eternl."
+      }
+    }
+  }
+}

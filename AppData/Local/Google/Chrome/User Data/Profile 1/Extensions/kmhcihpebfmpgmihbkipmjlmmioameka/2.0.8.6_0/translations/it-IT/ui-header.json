@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Clicca per aprire il grafico dei prezzi."
+  },
+  "notifications": {
+    "tooltip": "Clicca per vedere le tue notifiche."
+  },
+  "hideBalance": {
+    "tooltip": "Attiva/disattiva la visibilità dei saldi."
+  },
+  "logout": {
+    "tooltip": "Esci dall'app. Richiede il tuo PIN per riaccedere."
+  },
+  "darkMode": {
+    "tooltip": "Attiva/disattiva modalità scura/chiara."
+  },
+  "settings": {
+    "tooltip": "Apri il menu delle impostazioni."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Tempo rimanente",
+    "tooltip": "Il numero dell'epoch attuale e il tempo rimanente fino alla prossima."
+  }
+}

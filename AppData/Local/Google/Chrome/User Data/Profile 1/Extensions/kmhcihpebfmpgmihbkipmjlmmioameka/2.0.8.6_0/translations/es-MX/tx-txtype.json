@@ -1,0 +1,26 @@
+{
+  "unknown": "Desconocido",
+  "sent": "Enviado",
+  "received": "Recibido",
+  "ada": "Fondos",
+  "and": "y",
+  "tokens": "Tokens",
+  "intraWallet": "Transferencia Interna",
+  "external": "Transacción Externa",
+  "withdrawal": "Retiro",
+  "deposit": "Depósito",
+  "type": {
+    "metadata_only": {
+      "label": "Esta es una consolidación en tu wallet con Metadatos adjuntos. Los fondos se movieron dentro de tu wallet y solo se pagó una tarifa de tx.",
+      "preview": "La transacción a crear será una consolidación dentro de tu wallet con Metadatos adjuntos. Los fondos se moverán dentro de tu wallet y solo se pagará una tarifa de tx."
+    },
+    "consolidation": {
+      "label": "Esta es una consolidación en tu wallet. Los fondos se movieron dentro de tu wallet y solo se pagó una tarifa de tx.",
+      "preview": "La transacción a crear será una consolidación dentro de tu wallet. Los fondos se moverán pero solo se pagará una tarifa de tx."
+    },
+    "simple_send": {
+      "label": "Fondos y/o tokens fueron enviados a una dirección externa.",
+      "preview": "Fondos y/o tokens serán enviados a una dirección externa."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Detail transaksi",
+  "inputsOutputs": "Masukan/Keluaran",
+  "mints": "Mint",
+  "withdrawals": "Penarikan",
+  "certificates": "Sertifikat",
+  "metadata": "Metadata",
+  "recipient": "Penerima",
+  "scripts": "Skrip",
+  "witnesses": "Saksi",
+  "validFor": {
+    "label": "Berlaku untuk",
+    "unlimited": "Tanpa batas waktu",
+    "expired": "Transaksi kedaluwarsa"
+  },
+  "search": {
+    "searchByTxHashOrCbor": "Muat berdasarkan Hash Tx atau Cbor Tx mentah",
+    "invalidTxHashOrCbor": "Hash Tx atau Cbor Tx mentah tidak valid",
+    "invalidTxCbor": "Cbor transaksi tidak valid!"
+  }
+}

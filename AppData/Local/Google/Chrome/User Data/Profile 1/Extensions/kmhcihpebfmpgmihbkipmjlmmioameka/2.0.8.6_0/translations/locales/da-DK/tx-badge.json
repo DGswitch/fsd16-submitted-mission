@@ -1,0 +1,18 @@
+{
+  "signed": {
+    "label": "Signeret",
+    "hover": "Denne transaktion er signeret, men ikke indsendt endnu."
+  },
+  "inputSigned": {
+    "label": "Signeret",
+    "hover": "Signaturen for denne input er blevet leveret."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "Indløseren for denne kontrakt er blevet leveret."
+  },
+  "inputUnsigned": {
+    "label": "Ikke signeret",
+    "hover": "Signaturen for denne input mangler."
+  }
+}

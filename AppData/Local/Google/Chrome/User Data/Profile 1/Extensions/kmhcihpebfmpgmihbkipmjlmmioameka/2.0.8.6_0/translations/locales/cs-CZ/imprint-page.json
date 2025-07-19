@@ -1,0 +1,68 @@
+{
+  "title": "imprint",
+  "imprint": "Impressum",
+  "contact": "Kontakt",
+  "edc": "Eternl DRep Committee",
+  "url": {
+    "project": "eternl.io",
+    "telegram": "https://t.me/eternlio",
+    "discord": "https://discord.gg/eternlwallet",
+    "x": "https://x.com/eternlwallet"
+  },
+  "drepid": {
+    "label": "DRep Id",
+    "text": "drep1y29h2q6cst2pvkl2sqqvf5ljcy36uv7pmy482xnczddzgqshus24w"
+  },
+  "discord": {
+    "label": "discord",
+    "text": "Kliknutím se připojíte k našemu discord serveru $t(common:appName) (se systémem podpory ticketů)"
+  },
+  "telegram": {
+    "label": "telegram",
+    "text": "Kliknutím se připojíte k našemu telegram kanálu $t(common:appName)."
+  },
+  "github": {
+    "label": "github",
+    "text": "Pokud máte požadavek na funkci, použijte prosím GitHub issue tracker. Kliknutím jej otevřete na nové stránce."
+  },
+  "email": {
+    "label": "email",
+    "text": "Napište nám e-mail na adresu team@eternl.io"
+  },
+  "emaildrep": {
+    "label": "email",
+    "text": "Napište nám e-mail na adresu drep@eternl.io"
+  },
+  "address": {
+    "label": "Sitz der Gesellschaft",
+    "text": "Tastenkunst GmbH\nGrassistrasse 12\n04107 Leipzig\nGermany"
+  },
+  "person": {
+    "label": "Vertretungsberechtigte Personen",
+    "text": "Marcel Baumberg (Geschäftsführer)"
+  },
+  "company": {
+    "label": "Angaben zum Unternehmen",
+    "text": "Umsatzsteuer Identifikationsnummer (USt-ID): DE264395179\nHandelsregister Amtsgericht Leipzig: HRB 24784"
+  },
+  "legallabel": "Haftungs- und Schutzrechtshinweise",
+  "legal0": {
+    "label": "Haftungsausschluss",
+    "text": "Obsah této online nabídky byl vytvořen pečlivě a podle našeho aktuálního stavu znalostí, slouží však pouze pro informaci a nemá žádný právně závazný účinek, pokud se nejedná o zákonem povinné informace (např. tiráž, zásady ochrany osobních údajů, VOP nebo povinné poučení spotřebitelů). Vyhrazujeme si právo změnit nebo smazat obsah zcela nebo částečně, pokud tím nejsou dotčeny smluvní závazky. Všechny nabídky jsou nezávazné."
+  },
+  "legal1": {
+    "label": "Links auf fremde Webseiten",
+    "text": "Obsah cizích webových stránek, na které přímo nebo nepřímo odkazujeme, je mimo naši odpovědnost a neztotožňujeme se s ním. Nepřebíráme žádnou odpovědnost za veškerý obsah a nevýhody, které vzniknou v důsledku používání informací dostupných na odkazovaných webových stránkách."
+  },
+  "legal2": {
+    "label": "Urheberrechte und Markenrechte",
+    "text": "Veškerý obsah zobrazený na této webové stránce, jako jsou texty, fotografie, grafiky, značky a ochranné známky, je chráněn příslušnými ochrannými právy (autorská práva, práva k ochranným známkám). Použití, kopírování atd. podléhají našim právům nebo právům příslušných autorů nebo správců práv."
+  },
+  "legal3": {
+    "label": "Hinweise auf Rechtsverstöße",
+    "text": "Pokud si všimnete porušení zákona v rámci naší internetové prezentace, žádáme vás, abyste nás na to upozornili. Nezákonný obsah a odkazy po obdržení bezodkladně odstraníme."
+  },
+  "button": {
+    "home": "home"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "spo": "یک استخر استیک را اداره می‌کند",
+  "mpo": "{{count}} استخر استیک را اداره می‌کند",
+  "retired": "بازنشسته شده در epoch {{epoch}}",
+  "retiredIn": "بازنشسته شده در epoch {{epoch}}",
+  "noRewards": "این استخر هیچ پاداش {{adaSymbol}} دریافت نخواهد کرد.",
+  "lessRewards": "این استخر پاداش کمتری نسبت به معمول دریافت خواهد کرد.",
+  "history": "تاریخچه پاداش",
+  "fees": "کارمزدها",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "سبز: در محدوده بهینه. قرمز: پاداش کمتری کسب می‌کند."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking-pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "سبز: در محدوده عادی. قرمز: پاداش کمتری کسب می‌کند."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "بازده استیک (Return On Stake). عملکرد ۱۲ دوره گذشته. سبز: در محدوده عادی. ROS برای استخرهایی با استیک کمتر، نوسان بیشتری خواهد داشت."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "دریافت پاداش‌ها",
+      "syncing": "Wallet در حال همگام‌سازی است",
+      "norewards": "هیچ پاداشی در دسترس نیست"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "ماه گذشته",
+      "3months": "۳ ماه گذشته",
+      "6months": "۶ ماه گذشته",
+      "year": "سال گذشته"
+    },
+    "view-history": "مشاهده تاریخچه",
+    "view-graph": {
+      "stake-key": "کلید استیک حساب"
+    },
+    "approx-earning": "پاداش‌های تخمینی طی سال آینده",
+    "unclaimed-ada": "ADA دریافت نشده",
+    "lifetime-earning": "در مجموع شما کسب کرده‌اید",
+    "lifetime-apy": "APY کل دوره",
+    "lifetime-earned": "از زمانی که staking را شروع کردید",
+    "epoch-ends-in": "این epoch به پایان می‌رسد در",
+    "search": "یک تیکر، نام یا جزئیات وارد کنید",
+    "delegate": "این استخر را انتخاب کنید",
+    "openPoolList": "باز کردن لیست استخر"
+  }
+}

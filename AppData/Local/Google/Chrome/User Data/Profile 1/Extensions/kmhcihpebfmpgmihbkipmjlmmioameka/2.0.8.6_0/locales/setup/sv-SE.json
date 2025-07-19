@@ -1,0 +1,8 @@
+{
+  "title": "Appkonfiguration",
+  "caption": "Uppdatera inställningarna enligt dina personliga preferenser \neller behåll standardinställningarna.",
+  "success": {
+    "title": "Appkonfigurationen lyckades",
+    "caption": "Allt är klart, fortsätt till appen."
+  }
+}

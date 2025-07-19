@@ -1,0 +1,87 @@
+{
+  "projectcatalyst": {
+    "header": "プロジェクト Catalyst",
+    "caption": "現在のファンディングラウンドに関するすべてのニュースを読む。",
+    "text": "プロジェクト Catalyst は数ヶ月ごとにファンディングラウンドを実施し、一定量の ada をアイデアに割り当てる準備をしています。\n\n過去および将来のすべてのファンドに関する関連情報は、プロジェクト Catalyst のウェブサイトで確認できます。",
+    "button": {
+      "label": "ページにアクセス",
+      "link": "https://cardano.ideascale.com/"
+    }
+  },
+  "ideascale": {
+    "header": "IdeaScale",
+    "caption": "すべての提案を閲覧",
+    "text": "Catalyst は IdeaScale を協調的なイノベーションプラットフォームとして使用しています。\n\nこれは、特定のファンドの課題解決に焦点を当てた、コミュニティによって生成された提案への投票を通じて行われます。",
+    "button": {
+      "label": "詳細はこちら",
+      "link": "https://cardano.ideascale.com/c/cardano/landing"
+    }
+  },
+  "lidonation": {
+    "header": "LIDO Nation",
+    "caption": "オールインワンの Catalyst データプラットフォーム",
+    "text": "Blockchain 教育、アウトリーチ、およびグローバルコミュニティ構築:\n\n未来はみんなのものだから！",
+    "button": {
+      "label": "ページにアクセス",
+      "link": "https://www.lidonation.com/en/catalyst-explorer"
+    }
+  },
+  "newsletter": {
+    "header": "ニュースレター",
+    "caption": "最新情報を入手",
+    "text": "プロジェクト Catalyst ニュースレターに登録して、最新のニュースや更新情報を見逃さないようにしましょう。",
+    "button": {
+      "label": "登録する",
+      "link": "https://mpc.projectcatalyst.io/newsletter-signup"
+    }
+  },
+  "engage": {
+    "header": "Telegram",
+    "caption": "コミュニティに参加する",
+    "text": "Telegram のディスカッションおよびアナウンスメントチャンネルに参加して、将来の Cardano 改善提案に関するアイデアを共有し、健全で刺激的な議論を楽しみましょう。",
+    "button1": {
+      "label": "アナウンスメント",
+      "link": "https://t.me/cardanocatalyst"
+    },
+    "button2": {
+      "label": "コミュニティチャット",
+      "link": "https://t.me/ProjectCatalystChat"
+    }
+  },
+  "townhall": {
+    "header": "タウンホール",
+    "caption": "開発者と会う",
+    "text": "毎週のタウンホールミーティングで、将来の Cardano の開発者たちに会いましょう。彼らのライブプレゼンテーションを視聴し、有意義な会話に参加してください。",
+    "button": {
+      "label": "週次タウンホール録画",
+      "link": "https://www.youtube.com/playlist?list=PLnPTB0CuBOByRhpTUdALq4J89m_h7QqLk"
+    }
+  },
+  "fund": {
+    "challenges": {
+      "show": "チャレンジを表示",
+      "hide": "チャレンジを非表示",
+      "link": "チャレンジウェブサイト",
+      "allocation": "ファンド配分"
+    },
+    "timeline": {
+      "caption": "以下に示すタイムラインは変更される可能性があります。このページを再訪し、Catalyst の週次タウンホールミーティングに参加して、最新情報を入手してください。",
+      "snapshot": {
+        "label": "投票力スナップショット",
+        "caption": ""
+      },
+      "votestart": {
+        "label": "投票開始",
+        "caption": ""
+      },
+      "voteend": {
+        "label": "投票終了",
+        "caption": ""
+      },
+      "result": {
+        "label": "結果",
+        "caption": "± 数日"
+      }
+    }
+  }
+}

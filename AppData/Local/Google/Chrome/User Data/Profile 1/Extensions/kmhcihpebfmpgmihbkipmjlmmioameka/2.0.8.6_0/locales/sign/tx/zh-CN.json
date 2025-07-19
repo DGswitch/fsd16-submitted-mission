@@ -1,0 +1,130 @@
+{
+  "tx": {
+    "label": "你有 {{tx_cnt}} 項交易需要確認",
+    "caption": "點擊展開每項交易以顯示更多詳細資料",
+    "loading": "正在處理要簽署嘅交易",
+    "signing": "正在簽署第 <b>{{txindex}}</b> 項交易，共 {{txtotal}} 項",
+    "submitting": "正在提交交易",
+    "sharing": "正在分享 Multi-Sig 交易",
+    "hw": "喺 {{device}} 裝置上確認第 <b>{{txindex}}</b> 項交易，共 {{txtotal}} 項",
+    "keystonehash": "<b>由於大小限制，裝置上只能顯示交易主體嘅 hash 值 !!</b>",
+    "review": "確認前請先檢閱交易"
+  },
+  "button": {
+    "debug": {
+      "label": "下載除錯資訊"
+    }
+  },
+  "status": {
+    "signed": "$t(common:status.signed)",
+    "unsigned": "$t(common:status.unsigned)"
+  },
+  "notification": {
+    "submitSingle": "交易已成功提交",
+    "submitMultiple": "所有交易已成功提交"
+  },
+  "account": {
+    "label": "簽署錢包",
+    "caption": " ",
+    "status": {
+      "unsignedActive": "目前簽署中",
+      "unsigned": "需要簽署",
+      "signed": "已簽署",
+      "connecting": "連接中"
+    }
+  },
+  "banner": {
+    "tf": {
+      "headline": "$t(send/options:tf.label)",
+      "caption": "$t(send/options:tf.caption)"
+    },
+    "cu": {
+      "headline": "$t(send/options:cu.label)",
+      "caption": "將此賬戶嘅 UTXO 合併，以減少數量。"
+    },
+    "send-all": {
+      "headline": "發送所有資金",
+      "caption": "此交易將發送賬戶中所有資金，請核對收款地址嘅詳細資料。"
+    },
+    "high-fee": {
+      "headline": "費用高於正常水平",
+      "caption": "偵測到高於正常水平嘅交易費用，請核對交易詳細資料，確保呢個係預期嘅結果"
+    },
+    "withdraw": {
+      "headline": "提取獎勵",
+      "caption": "你嘅獎勵會自動成為你委託權益嘅一部分。除咗將獎勵轉走或計入 catalyst 投票權之外，無需提取獎勵。"
+    },
+    "pool-deleg": {
+      "headline": "權益池委託",
+      "caption": "一項權益池委託交易。查看交易以獲取詳細資料。"
+    },
+    "vote-deleg": {
+      "headline": "投票委託",
+      "caption": "一項治理投票委託交易。查看交易以獲取詳細資料。"
+    },
+    "ms-reg": {
+      "headline": "Multi-Sig __GT__錢包__ 註冊",
+      "caption": "呢個操作會將 Multi-Sig __GT__錢包__ 註冊到 blockchain 上，方便所有參與者搵到。"
+    },
+    "cat-reg": {
+      "headline": "Catalyst 註冊",
+      "caption": "呢個操作會創建一個 Catalyst 投票註冊交易。除非俾新嘅註冊覆蓋，否則呢個註冊對未來嘅 Catalyst 資金快照有效。"
+    },
+    "collateral": {
+      "headline": "抵押品 UTxO",
+      "caption": "生成抵押品 UTxO，有時喺同 DApps 互動時需要用到。"
+    },
+    "stake-dereg": {
+      "headline": "Stake Key 取消註冊",
+      "caption": "$t(settings/account:unstake.caption)"
+    },
+    "drep-dereg": {
+      "headline": "DRep 取消註冊",
+      "caption": "$t(settings/account:deRegDRep.caption)"
+    },
+    "cleanup-scam": {
+      "headline": "清理詐騙代幣",
+      "caption": "$t(scam:cleanup.description)"
+    },
+    "swap-order": {
+      "headline": "Swap 訂單",
+      "caption": "一項 MonsterSwap 訂單交易，為你提供最佳可用路徑。"
+    },
+    "swap-cancel": {
+      "headline": "取消 Swap 訂單",
+      "caption": "一項取消先前提交嘅 swap 訂單嘅交易。"
+    },
+    "donation": {
+      "headline": "捐贈",
+      "caption": "感謝你支持 Eternl。"
+    }
+  },
+  "error": {
+    "expired": "無法提交！交易有效期已過期。請使用新的到期日（TTL）重新創建交易。",
+    "auxDataMismatch": "附加嘅 metadata 同要求簽署嘅 hash 唔匹配。你見到呢個交易嘅 metadata 並唔係你簽署嘅內容！",
+    "auxDataMissing": "交易 metadata 已隱藏。",
+    "debug": "如需進一步支援，請下載 debug data 並開設一個 Discord ticket。",
+    "unknownInputs": "由於存在未知嘅 inputs，無法計算準確嘅交易餘額。",
+    "doubleSpend": "無效嘅交易列表，input utxo 被使用超過一次：\n",
+    "missingKeys": "交易唔需要嚟自可用帳戶嘅任何 witnesses。如果已經確認，請關閉並提交。",
+    "locked": "交易嘗試使用你一個或多個手動鎖定嘅 UTxOs。",
+    "passwordMismatch": "輸入嘅密碼唔匹配，請重試！",
+    "dappUnsupported": "DApp 不支援 {{device}} wallet。",
+    "fixPermissionUSB": {
+      "text": "點擊按鈕並按照指示允許 USB 連接。",
+      "button": "修復 USB 權限"
+    },
+    "fixPermissionBLE": {
+      "text": "點擊按鈕並按照指示允許藍牙連接。",
+      "button": "修復藍牙權限"
+    },
+    "fixPermissionCamera": {
+      "text": "點擊按鈕並按照指示允許相機存取權限。",
+      "button": "修復相機權限"
+    }
+  },
+  "info": {
+    "signDownload": "交易已獲得所有可用帳戶嘅確認。",
+    "multiSigShare": "分享交易以通知 Multi-Sig wallet 參與者，或者手動下載並分享交易。"
+  }
+}

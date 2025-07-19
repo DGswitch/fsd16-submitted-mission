@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "انقر لفتح مخطط الأسعار."
+  },
+  "notifications": {
+    "tooltip": "انقر لرؤية إشعاراتك."
+  },
+  "hideBalance": {
+    "tooltip": "تبديل رؤية الأرصدة."
+  },
+  "logout": {
+    "tooltip": "تسجيل الخروج من التطبيق. يتطلب رمز PIN الخاص بك لتسجيل الدخول مرة أخرى."
+  },
+  "darkMode": {
+    "tooltip": "تبديل الوضع الداكن/الفاتح."
+  },
+  "settings": {
+    "tooltip": "فتح قائمة الإعدادات."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "الوقت المتبقي",
+    "tooltip": "رقم epoch الحالي والوقت المتبقي حتى التالي."
+  }
+}

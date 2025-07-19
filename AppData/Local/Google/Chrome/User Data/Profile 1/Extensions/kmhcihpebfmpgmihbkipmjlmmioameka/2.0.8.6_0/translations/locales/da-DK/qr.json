@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "Scan QR-kode",
+    "short": "QR"
+  },
+  "loading": "Initialiserer kamera.",
+  "error": {
+    "notAllowed": "Giv venligst tilladelse til kameraadgang.",
+    "notFound": "Intet kamera fundet på enheden.",
+    "notSupported": "Sikker kontekst kræves (HTTPS, localhost).",
+    "notReadable": "Er kameraet allerede i brug?",
+    "overconstrained": "Installerede kameraer er ikke egnede.",
+    "streamApiNotSupported": "Stream API understøttes ikke i denne browser.",
+    "insecureContext": "Kameraadgang er kun tilladt i en sikker kontekst. Brug HTTPS eller localhost i stedet for HTTP."
+  },
+  "bex": {
+    "fullscreenNotice": "Åbn udvidelsen i fuldskærmstilstand for at tillade kameraadgang. Dette skal kun gøres én gang.\nKlik på denne tekst for at gå i fuldskærm."
+  }
+}

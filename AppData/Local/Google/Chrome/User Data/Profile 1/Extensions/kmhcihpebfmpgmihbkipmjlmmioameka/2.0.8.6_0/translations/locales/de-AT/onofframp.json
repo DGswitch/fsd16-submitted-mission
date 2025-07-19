@@ -1,0 +1,6 @@
+{
+  "title": "{{currency}} kaufen / verkaufen",
+  "caption": "Wähle dein Gateway zwischen FIAT und Cardano.",
+  "noProvider": "Leider ist momentan kein Anbieter verfügbar.",
+  "loading": "FIAT On / Off Ramp Anbieter werden geladen"
+}

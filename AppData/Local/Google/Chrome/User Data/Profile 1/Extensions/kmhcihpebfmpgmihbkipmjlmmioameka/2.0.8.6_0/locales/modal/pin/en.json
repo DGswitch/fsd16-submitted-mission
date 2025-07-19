@@ -1,0 +1,56 @@
+{
+  "enter": {
+
+    "headline":               "Access PIN Code",
+    "caption":                "Set a PIN code to access $t(common:appName). It will be required everytime you open $t(common:appName).",
+    "extCaption": {
+      "ios":                  "Or use FaceID or Fingerprint to access the wallet.",
+      "android":              "Or use your phones biometric features to access the wallet."
+    },
+    "shortCaption":           "Set a PIN code to access $t(common:appName).",
+
+    "input": {
+
+      "enter":                "Enter PIN Code.",
+      "checking":             "Checking PIN Code.",
+      "error":                "Wrong PIN code entered.",
+      "confirm":              "Input PIN a second time to confirm.",
+      "confirmed":            "Entered PINs match.",
+      "confirmError":         "PIN code mismatch, please retry!",
+      "confirmWarningError":  "Please confirm that you have written down the PIN in a secure place.",
+      "save":                 "Enable PIN"
+    }
+  },
+  "login": {
+
+    "headline":             "Enter the PIN.",
+    "caption":              "Enter the PIN you selected when you set up the app."
+
+  },
+
+  "confirm": {
+
+    "headline":               "PIN Code Confirm",
+    "caption":                "To confirm the PIN code, enter the same PIN you just entered."
+  },
+
+  "biometrics": {
+
+    "login":                "Login using biometric",
+    "caption":              "Please auth using FaceId or other biometric feature.",
+    "fallback":             "Login using PIN Code"
+
+  },
+
+  "delete": {
+    "label":                  "Disable PIN",
+    "missingPin":             "Enter current PIN to allow disable.",
+    "biometrics":             "When you remove the PIN, the biometrics feature will be automatically disabled."
+  },
+
+  "change": {
+    "label":                  "Change PIN",
+    "missingPin":             "Enter current PIN to change PIN."
+  }
+
+}

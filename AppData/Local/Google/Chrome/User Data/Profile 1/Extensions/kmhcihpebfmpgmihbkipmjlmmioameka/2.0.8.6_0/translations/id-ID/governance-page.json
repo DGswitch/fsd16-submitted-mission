@@ -1,0 +1,9 @@
+{
+  "menuLabel": "Tata Kelola",
+  "title": "Blockchain Tata Kelola",
+  "caption": "Tata kelola on-chain terdesentralisasi di ujung jari Anda.",
+  "subCaption": "Daftar sebagai DRep atau jelajahi daftar DRep. Jelajahi proposal.",
+  "delegation": "Delegasi DRep",
+  "proposals": "Proposal tata kelola",
+  "information": "$t(common:information)"
+}

@@ -1,0 +1,25 @@
+{
+  "chart": {
+    "tooltip": "Haz clic para abrir el gráfico de precios."
+  },
+  "notifications": {
+    "tooltip": "Haz clic para ver tus notificaciones."
+  },
+  "hideBalance": {
+    "tooltip": "Alternar la visibilidad de los saldos."
+  },
+  "logout": {
+    "tooltip": "Cerrar sesión en la aplicación. Necesita tu PIN para volver a iniciar sesión."
+  },
+  "darkMode": {
+    "tooltip": "Alternar modo oscuro/claro."
+  },
+  "settings": {
+    "tooltip": "Abrir el menú de configuración."
+  },
+  "epochBlock": {
+    "epoch": "$t(common:epoch)",
+    "remaining": "Tiempo restante",
+    "tooltip": "El número de epoch actual y el tiempo restante para el siguiente."
+  }
+}

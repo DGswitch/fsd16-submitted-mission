@@ -1,0 +1,34 @@
+{
+  "name": {
+    "title": "Nom du Wallet",
+    "caption": "Donnez un nom reconnaissable à votre wallet."
+  },
+  "phrase": {
+    "title": "Phrase mnémonique"
+  },
+  "account": {
+    "title": "Nombre de comptes",
+    "caption": "Spécifiez le nombre de comptes à créer.",
+    "suffix": "compte(s)",
+    "description": "Un wallet dans $t(common:appName) peut avoir jusqu'à {{accountLimit}} comptes. Chaque compte peut être délégué à un pool de staking différent. Les clés de compte sont générées à partir de la clé racine du wallet.",
+    "tooltip": "Chaque compte ajouté augmente le temps de synchronisation, des comptes peuvent être ajoutés à tout moment."
+  },
+  "create": {
+    "title": "Création du wallet",
+    "caption": "Veuillez patienter pendant la génération du wallet",
+    "password": {
+      "title": "Définir le mot de passe de dépense",
+      "caption": "Choisissez un mot de passe long. Plus il est long, plus vos fonds sont en sécurité."
+    }
+  },
+  "status": {
+    "success": {
+      "added": "Wallet ajouté avec succès",
+      "created": "Wallet créé avec succès",
+      "restored": "Wallet restauré avec succès",
+      "imported": "Wallet importé avec succès"
+    },
+    "processing": "Création du wallet...",
+    "exists": "Le Wallet existe déjà, redirection vers le wallet."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Nhập khóa tài khoản công khai",
+  "caption": "Nhập khóa tài khoản công khai (thường bắt đầu bằng 'acct_xvk' hoặc 'xpub1') để tạo ví wallet 'chỉ đọc'.",
+  "placeholder": "acct_xvk...",
+  "error": "Khóa tài khoản công khai không hợp lệ, vui lòng xác minh và thử lại."
+}

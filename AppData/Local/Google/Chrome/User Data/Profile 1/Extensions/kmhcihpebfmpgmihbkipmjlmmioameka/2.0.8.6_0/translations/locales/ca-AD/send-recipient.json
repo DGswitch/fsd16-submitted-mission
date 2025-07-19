@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Adreça o $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "No es poden afegir més actius.",
+      "text": "Aquesta sortida de transacció no pot contenir més actius. Crea una nova sortida (pot tenir la mateixa adreça) per afegir-ne més."
+    }
+  },
+  "mode": {
+    "tooltip": "Selecciona manualment el tipus d'adreça."
+  },
+  "error": {
+    "addAddress": "Afegeix una adreça de destinatari a qui enviar."
+  }
+}

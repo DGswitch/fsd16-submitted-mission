@@ -1,0 +1,55 @@
+{
+  "spo": "tek bir stake havuzu işletiyor",
+  "mpo": "{{count}} adet stake havuzu işletiyor",
+  "retired": "epoch {{epoch}} döneminde emekli oldu",
+  "retiredIn": "epoch {{epoch}} döneminde emekli oldu",
+  "noRewards": "Bu havuz HİÇ {{adaSymbol}} ödülü kazandırmayacak.",
+  "lessRewards": "Bu havuz normalden daha az ödül kazandıracak.",
+  "history": "Ödül Geçmişi",
+  "fees": "Ücretler",
+  "saturation": {
+    "label": "$t(common:saturation)",
+    "tooltip": "Yeşil: optimum aralıkta. Kırmızı: daha az ödül kazandırır."
+  },
+  "pledge": {
+    "label": "$t(common:pledge)",
+    "tooltip": "$t(staking/pool:noRewards)"
+  },
+  "margin": {
+    "label": "$t(common:margin)",
+    "tooltip": "Yeşil: normal aralıkta. Kırmızı: daha az ödül kazandırır."
+  },
+  "ros": {
+    "label": "$t(common:ros)",
+    "tooltip": "Stake Getirisi (ROS). Son 12 epoch performansı. Yeşil: normal aralıkta. Daha az stake'e sahip havuzlarda ROS daha fazla dalgalanacaktır."
+  },
+  "withdrawal": {
+    "button": {
+      "label": "Ödülleri talep et",
+      "syncing": "__GT__Cüzdan__ senkronize ediliyor",
+      "norewards": "Kullanılabilir ödül yok"
+    }
+  },
+  "staking-card": {
+    "rewards": "$t(common:rewards)",
+    "times": {
+      "month": "Geçen ay",
+      "3months": "Son 3 ay",
+      "6months": "Son 6 ay",
+      "year": "Geçen yıl"
+    },
+    "view-history": "Geçmişi Görüntüle",
+    "view-graph": {
+      "stake-key": "hesap stake anahtarı"
+    },
+    "approx-earning": "Gelecek yıl için tahmini ödüller",
+    "unclaimed-ada": "Talep edilmemiş ADA",
+    "lifetime-earning": "Genel olarak kazandınız",
+    "lifetime-apy": "Yaşam Boyu APY",
+    "lifetime-earned": "staking yapmaya başladığınızdan beri",
+    "epoch-ends-in": "Bu epoch şu sürede sona erecek:",
+    "search": "Bir ticker, isim veya detay girin",
+    "delegate": "Bu havuzu seç",
+    "openPoolList": "Havuz listesini aç"
+  }
+}

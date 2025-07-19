@@ -1,0 +1,12 @@
+{
+  "menuLabel": "Dapp ブラウザ",
+  "title": "Dapp ブラウザ",
+  "caption": "Cardano dApps に接続",
+  "subCaption": "",
+  "connect": "{{dapp}} に接続",
+  "list": {
+    "input": {
+      "domain": "dapp ドメインを入力"
+    }
+  }
+}

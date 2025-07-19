@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Zapiš si všechna slova tvé obnovovací fráze wallet na papír přesně v pořadí, jak jsou zde uvedena.",
+    "notice": "Nehledej zkratky, tahle slova jsou zásadní!",
+    "reveal": "Zobrazit obnovovací frázi",
+    "hidden": "Ujisti se, že se nikdo nedívá na tvou obrazovku"
+  },
+  "confirm": {
+    "title": "Potvrdit frázi",
+    "caption": "Ověř, že sis správně zapsal/a všechna slova",
+    "instruction": "Vyber ",
+    "key_one": "<b>{{count}}</b>. slovo",
+    "key_two": "<b>{{count}}</b>. slovo",
+    "key_few": "<b>{{count}}</b>. slovo",
+    "key_other": "<b>{{count}}</b>. slovo",
+    "incorrect": "Špatně, zkus to znovu!"
+  },
+  "password": {
+    "title": "Nastavit heslo pro utrácení",
+    "caption": "Nastav si heslo pro utrácení, které ochrání tvou wallet. Čím delší heslo, tím větší bezpečnost.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "Wallet byla úspěšně vytvořena."
+  },
+  "error": {
+    "failed": "Nepodařilo se vytvořit wallet, zkus to znovu.",
+    "mnemonic": "Error: createWallet: mnemonic not set.",
+    "spendingPassword": "Error: createWallet: spending password not set.",
+    "paymentScript": "Error: createWallet: payment script not set.",
+    "address": "Error: createWallet: address not set.",
+    "paymentPrvKey": "Error: createWallet: payment key not set.",
+    "accountPubNotSet": "Error: createWallet: account pub key list or address not set.",
+    "walletName": "Error: createWallet: walletName not set.",
+    "account": "Nepodařilo se získat účet wallet, zkus znovu načíst stránku, nebo kontaktuj podporu, pokud problém přetrvává."
+  }
+}

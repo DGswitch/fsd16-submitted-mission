@@ -1,0 +1,54 @@
+{
+  "title": "تفاصيل الأموال المتاحة",
+  "toggleInfo": {
+    "active": "إظهار الوصف",
+    "inactive": "Show breakdown"
+  },
+  "total": {
+    "label": "الأموال على UTxOs"
+  },
+  "selected": {
+    "label": "UTxOs المحددة",
+    "info": "المبلغ الإجمالي لجميع UTxOs المحددة يدويًا."
+  },
+  "rewards": {
+    "label": "المكافآت (ليست UTxO)",
+    "info": "المكافآت المتراكمة، التي يمكن سحبها، إذا كان الحساب مفوضًا إلى DRep."
+  },
+  "lockedInPendingInputs": {
+    "label": "المدخلات المعلقة",
+    "info": "هذه الأموال قيد الاستخدام في معاملة معلقة."
+  },
+  "lockedByCollateral": {
+    "label": "الضمان (غير مقفل)",
+    "info": "الأموال المقفلة، لاستخدامها كضمان بواسطة $t(common:appName) - قم بتعطيل الضمان في إعدادات الحساب لتتمكن من إنفاق هذه الأموال."
+  },
+  "lockedUtxo": {
+    "label": "UTxOs المقفلة",
+    "info": "الأموال المقفلة، لا يجب إنفاقها بواسطة $t(common:appName) أو dapps - حدد يدويًا utxos لإلغاء قفلها في الصفحة: الحساب > قائمة UTxO."
+  },
+  "lockedByTokens": {
+    "label": "مرتبطة بالرموز",
+    "info": "ضمن Cardano، أي رمز/nft لديه بعض ADA مرفقة، يخبرك المبلغ المقفل بواسطة الرموز (تقديريًا) كم هو هذا لـ wallet الحالية الخاصة بك."
+  },
+  "lockedByTokensTF": {
+    "label": "لأجل Token Fragmentation",
+    "info": "تنظيم كل UTxOs الخاصة بك باستخدام Token Fragmentation سيربط هذا القدر من ADA."
+  },
+  "lockedAsRewards": {
+    "label": "المكافآت المقفلة",
+    "info": "المكافآت غير قابلة للإنفاق في dapps ويجب سحبها أولاً. يمكن لـ $t(common:appName) القيام بذلك تلقائيًا، اذهب إلى: الحساب > إعدادات Wallet > السحب التلقائي، وقم بتمكينه. لذلك يجب أن يكون الحساب مفوضًا إلى خيار DRep."
+  },
+  "lockedFees": {
+    "label": "رسوم المعاملات",
+    "info": "تقديم المعاملات إلى blockchain الخاص بـ Cardano يتطلب رسوم معاملات."
+  },
+  "lockedTotal": {
+    "label": "Est. locked",
+    "info": "Calculated total locked amount."
+  },
+  "available": {
+    "label": "Est. available",
+    "info": "هذه هي الأموال المتبقية بعد خصم جميع الأموال المقفلة، والتي يمكن إرسالها."
+  }
+}

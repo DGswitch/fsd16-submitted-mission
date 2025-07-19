@@ -1,0 +1,24 @@
+{
+  "title": "Sélectionner le type de wallet",
+  "caption": "Si vous êtes un nouvel utilisateur, créez un nouveau wallet.\nConnectez votre Ledger ou importez une sauvegarde JSON.",
+  "create": {
+    "label": "Nouveau Wallet",
+    "caption": "Générer un tout nouveau wallet"
+  },
+  "hardware": {
+    "label": "Connecter un portefeuille matériel",
+    "caption": "Utilisez votre appareil Ledger, Trezor ou Keystone avec Eternl"
+  },
+  "restore": {
+    "label": "Saisir une phrase de récupération",
+    "caption": "Utilisez votre phrase de récupération de 24, 15 ou 12 mots"
+  },
+  "multiSig": {
+    "label": "Wallet Multi-signatures",
+    "caption": "Créer ou rejoindre un wallet multi-signatures"
+  },
+  "more": {
+    "label": "Plus",
+    "caption": "Afficher des options d'importation de wallet supplémentaires"
+  }
+}

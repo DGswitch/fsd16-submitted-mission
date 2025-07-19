@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "Skapa PIN-kod",
+      "confirm": "Bekräfta PIN-kod"
+    },
+    "captionShort": "Ange en PIN-kod för att få åtkomst till $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) Den kommer att krävas varje gång du öppnar $t(common:appName).",
+      "confirm": "För att bekräfta PIN-koden, ange samma PIN som du precis angav."
+    },
+    "hint": {
+      "enter": "Ange PIN-kod.",
+      "confirm": "Ange PIN-koden en andra gång för att bekräfta."
+    },
+    "confirmed": "Angivna PIN-koder matchar.",
+    "button": {
+      "label": "Aktivera PIN"
+    },
+    "error": {
+      "confirm": "PIN-koderna matchar inte, försök igen."
+    }
+  },
+  "access": {
+    "title": "PIN-kod för åtkomst",
+    "caption": "Ange PIN-koden för åtkomst.",
+    "checking": "Kontrollerar PIN-kod.",
+    "confirmed": "Angiven PIN-kod är korrekt.",
+    "error": {
+      "confirm": "PIN-koden är felaktig."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Ange PIN-koden för att inaktivera den.",
+    "biometrics": "När du tar bort PIN-koden kommer biometrifunktionen automatiskt att inaktiveras.",
+    "button": {
+      "label": "Inaktivera PIN",
+      "tooltip": "Ange nuvarande PIN-kod för att tillåta inaktivering."
+    }
+  },
+  "biometrics": {
+    "login": "Logga in med biometri",
+    "caption": "Vänligen autentisera med FaceID eller annan biometrisk funktion.",
+    "fallback": "Logga in med PIN-kod",
+    "use": {
+      "ios": "Eller använd FaceID eller Fingerprint för att få åtkomst till wallet.",
+      "android": "Eller använd telefonens biometriska funktioner för att få åtkomst till wallet."
+    }
+  },
+  "comment": "// Fler PIN-texter: catalyst:step.pin"
+}

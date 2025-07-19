@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Basculer entre les portefeuilles.",
+    "accounts": {
+      "select": "comptes",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Sélectionnez un wallet spécifique pour basculer entre les comptes.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Changer le compte $t(common:dApp) actif."
+    },
+    "accounts": {
+      "select": "Sélectionnez un compte dans la liste. Marquez un compte comme favori en cliquant sur l'icône étoile.",
+      "manage": "Ajouter ou supprimer des comptes, sélectionner des index de compte spécifiques ou définir des noms de compte."
+    }
+  },
+  "groups": {
+    "placeholder": "Sélectionner les groupes de wallet actifs",
+    "favoriteAccounts": "#Comptes favoris"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Nom du compte :",
+    "index": "Indice :",
+    "limit": "Limite :",
+    "remove": {
+      "tooltip": "Supprimer le compte"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Ajouter de nouveaux comptes"
+  }
+}

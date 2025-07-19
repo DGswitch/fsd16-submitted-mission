@@ -1,0 +1,20 @@
+{
+  "title": "เลือก wallet ประเภท",
+  "caption": "การสร้าง wallet ขั้นสูง กลับไปสำหรับตัวเลือกทั่วไป",
+  "import-wallet": {
+    "title": "นำเข้าข้อมูลสำรอง",
+    "caption": "กู้คืนจากไฟล์สำรอง Eternl JSON"
+  },
+  "cli-skey-wallet": {
+    "title": "CLI Signing Keys",
+    "caption": "นำเข้า signing keys ที่สร้างโดย CLI (skey)"
+  },
+  "account-pub-wallet": {
+    "title": "Account Public Key (อ่านอย่างเดียว)",
+    "caption": "ป้อน account public key ที่ส่งออก"
+  },
+  "address-wallet": {
+    "title": "ที่อยู่ (อ่านอย่างเดียว)",
+    "caption": "สร้างจากที่อยู่ bech32"
+  }
+}

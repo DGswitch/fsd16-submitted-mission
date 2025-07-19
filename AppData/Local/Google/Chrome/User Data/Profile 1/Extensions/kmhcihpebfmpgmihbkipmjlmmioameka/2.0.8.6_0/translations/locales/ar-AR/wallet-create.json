@@ -1,0 +1,40 @@
+{
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "اكتب جميع كلمات عبارة استرداد wallet الخاصة بك على قطعة من الورق بالترتيب الدقيق الموضح هنا",
+    "notice": "لا تختصر الطريق، هذه الكلمات بالغة الأهمية!",
+    "reveal": "إظهار عبارة الاسترداد",
+    "hidden": "تأكد من عدم تمكن أي شخص من رؤية شاشتك"
+  },
+  "confirm": {
+    "title": "تأكيد العبارة",
+    "caption": "تحقق من أنك كتبت الكلمات الصحيحة",
+    "instruction": "اختر ",
+    "key_one": "الكلمة رقم <b>{{count}}</b>",
+    "key_two": "الكلمة رقم <b>{{count}}</b>",
+    "key_few": "الكلمة رقم <b>{{count}}</b>",
+    "key_other": "الكلمة رقم <b>{{count}}</b>",
+    "incorrect": "غير صحيح، يرجى المحاولة مرة أخرى!"
+  },
+  "password": {
+    "title": "تعيين كلمة مرور الإنفاق",
+    "caption": "قم بتعيين كلمة مرور إنفاق لحماية wallet الخاصة بك. يزداد الأمان كلما كانت كلمة المرور أطول.",
+    "button": {
+      "label": "$t(common:create)"
+    }
+  },
+  "success": {
+    "created": "تم إنشاء Wallet بنجاح."
+  },
+  "error": {
+    "failed": "فشل إنشاء wallet، يرجى المحاولة مرة أخرى.",
+    "mnemonic": "خطأ: createWallet: لم يتم تعيين mnemonic.",
+    "spendingPassword": "خطأ: createWallet: لم يتم تعيين كلمة مرور الإنفاق.",
+    "paymentScript": "خطأ: createWallet: لم يتم تعيين payment script.",
+    "address": "خطأ: createWallet: لم يتم تعيين address.",
+    "paymentPrvKey": "خطأ: createWallet: لم يتم تعيين payment key.",
+    "accountPubNotSet": "خطأ: createWallet: لم يتم تعيين account pub key list أو address.",
+    "walletName": "خطأ: createWallet: لم يتم تعيين walletName.",
+    "account": "تعذر الحصول على حساب wallet، يرجى إعادة التحميل أو الاتصال بالدعم إذا تكررت المشكلة."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "menuLabel": "Nhận",
+  "title": "Nhận Tiền",
+  "caption": "Chia sẻ địa chỉ này để nhận thanh toán.",
+  "search": {
+    "caption": "Tìm một phần của địa chỉ, hoặc một đường dẫn derivation như \"m/1852'/1815'/0'/1/32\", \"1815 0 1 32\" hoặc \"0 1 32\".",
+    "placeholder": "$t(common:search) một $t(common:address) hoặc một đường dẫn",
+    "noResults": "Không tìm thấy kết quả"
+  },
+  "current": {
+    "headline": "Các địa chỉ wallet khả dụng.",
+    "static": "Địa chỉ Nhận.",
+    "caption": "Chia sẻ địa chỉ wallet này để nhận thanh toán.",
+    "notice": {
+      "label": "$t(common:privacyNotice)",
+      "text": "Xin lưu ý rằng tất cả các địa chỉ nhận delegated của bạn đều bao gồm stake key của bạn. \nKhi bạn chia sẻ một địa chỉ nhận delegated, người nhận có thể tìm kiếm trên blockchain bằng stake key của bạn để xác định \ntất cả các địa chỉ liên kết với wallet của bạn và cũng có thể khám phá số dư wallet cũng như lịch sử giao dịch của bạn."
+    }
+  },
+  "external": {
+    "delegated": {
+      "headline": "Địa chỉ external (delegated)",
+      "caption": "Các địa chỉ này được delegated cho một stake pool (nếu bạn thực sự đã delegated tài khoản này)."
+    },
+    "enterprise": {
+      "headline": "Địa chỉ external (không delegated)",
+      "caption": "Các địa chỉ này không được delegated."
+    }
+  },
+  "internal": {
+    "delegated": {
+      "headline": "Địa chỉ internal change (delegated)",
+      "caption": "Các địa chỉ này được delegated cho một stake pool (nếu bạn thực sự đã delegated tài khoản này).\nKhông chia sẻ địa chỉ internal, luôn cung cấp địa chỉ external."
+    },
+    "enterprise": {
+      "headline": "Địa chỉ internal change (không delegated)",
+      "caption": "Các địa chỉ này không được delegated.\nKhông chia sẻ địa chỉ internal, luôn cung cấp địa chỉ external."
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "menuLabel": "交易",
+  "title": "交易",
+  "caption": "此 钱包 總共有 {{numTxTotal}} 筆交易。",
+  "subCaption": "點擊交易以查看更多詳細資訊，或設定篩選器以縮小列表範圍。",
+  "empty": "此帳戶沒有交易。",
+  "noMatch": "找不到符合該搜尋條件的交易。",
+  "updating": "正在更新交易",
+  "filter": {
+    "title": "交易篩選器",
+    "caption": "設定參數或輸入搜尋字串以篩選交易列表。",
+    "search": "搜尋訊息、交易 ID 或地址...",
+    "more": "更多",
+    "minada": "最低 {{adaCurrency}} 金額",
+    "maxada": "最高 {{adaCurrency}} 金額",
+    "date-range": {
+      "start": "開始日期",
+      "end": "結束日期"
+    }
+  },
+  "sync": {
+    "line1": "尚未載入所有交易詳情。",
+    "line2": "日期範圍和交易 ID 搜尋適用於所有已知交易。",
+    "loading": "每次帳戶同步過程都會載入大量詳細資訊。",
+    "awhile": "這可能需要一些時間。",
+    "autosync": "若要根據更多資料點（例如資產 metadata）進行篩選，請啟用帳戶歷史記錄同步。",
+    "progress": "正在同步中，請稍候。",
+    "history": "歷史記錄同步"
+  },
+  "button": {
+    "history": {
+      "label": "交易歷史記錄",
+      "tooltip": "切換至交易歷史記錄頁面。"
+    }
+  }
+}

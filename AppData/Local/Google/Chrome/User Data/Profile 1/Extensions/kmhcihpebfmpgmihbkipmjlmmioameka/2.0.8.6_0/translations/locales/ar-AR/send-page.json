@@ -1,0 +1,31 @@
+{
+  "menuLabel": "إرسال",
+  "title": "إرسال الأموال",
+  "caption": "هنا يمكنك تحويل الأموال وأي نوع من الرموز / nft المدعومة بواسطة Cardano.",
+  "subCaption": "يمكن أن تحتوي كل معاملة على عدة مستلمين، مما يجعل إرسال الأصول إلى كيانات مختلفة أمرًا سهلاً وميسور التكلفة.",
+  "info": {
+    "available": "$t(common:available)",
+    "txFee": "$t(common:txFee)",
+    "options": "$t(common:options)"
+  },
+  "button": {
+    "recipient": {
+      "label": "إضافة مستلم",
+      "tooltip": "إضافة مستلم/مخرج آخر للمعاملة."
+    },
+    "sign": {
+      "label": "توقيع المعاملة",
+      "tooltip": "وقّع المعاملة باستخدام مفاتيحك."
+    },
+    "check": {
+      "label": "التحقق من المعاملة",
+      "tooltip": "تحقق مما إذا كان بإمكان $t(common:appName) بناء معاملة."
+    }
+  },
+  "banner": {
+    "recipient": {
+      "title": "$t(send-page:button.recipient.label)",
+      "text": "معاملة أخرى تمسح قائمة المستلمين. انقر على الزر أدناه لإضافة مستلم جديد."
+    }
+  }
+}

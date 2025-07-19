@@ -1,0 +1,34 @@
+{
+  "placeholder": "Lägg till en anteckning här.",
+  "copy": "Transaktionsanteckning: {{note}}.",
+  "export": "Anteckningar kan importeras och exporteras.",
+  "add": {
+    "title": "Lägg till anteckning",
+    "caption": "Bifoga en anteckning till denna transaktion. $t(tx/component/note:export)"
+  },
+  "edit": {
+    "title": "Redigera anteckning",
+    "caption": "Redigera anteckningen som är bifogad till denna transaktion. $t(tx/component/note:export)"
+  },
+  "button": {
+    "addNote": {
+      "label": "$t(tx/component/note:add.title)",
+      "tooltip": "$t(tx/component/note:add.caption)"
+    },
+    "editNote": {
+      "label": "$t(tx/component/note:edit.title)",
+      "tooltip": "$t(tx/component/note:edit.caption)"
+    },
+    "deleteNote": {
+      "label": "Ta bort anteckning",
+      "tooltip": "Ta bort anteckningen som är bifogad till denna transaktion."
+    }
+  },
+  "popover": {
+    "delete": {
+      "title": "Ta bort anteckning",
+      "caption": "Bekräfta att du vill ta bort transaktionsanteckningen.",
+      "confirm": "$t(common:confirm)"
+    }
+  }
+}

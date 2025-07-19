@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "अभी $t(common:addressBook) में कोई एंट्री नहीं है।",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "नया पता स्वीकार करें"
+  },
+  "badge": {
+    "hover": "$t(common:addressBook) एंट्री: {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "$t(common:addressBook) एंट्रीज़ आयात करें",
+    "caption": "बैक-अप फ़ाइल से $t(common:addressBook) एंट्रीज़ आयात करें।"
+  },
+  "overwrite": {
+    "title": "$t(common:addressBook) एंट्री ओवरराइट करें",
+    "caption": "{{name}} नाम वाली एंट्री के अपडेट की पुष्टि करें।"
+  },
+  "add": {
+    "title": "$t(common:addressBook) में जोड़ें",
+    "caption": {
+      "main": "$t(common:addressBook) में एक एंट्री जोड़ें।",
+      "prefilled": "सभी मान पहले से भरे हुए हैं और इनपुट अक्षम हैं।"
+    },
+    "name": {
+      "label": "एंट्री का नाम",
+      "error": {
+        "length": "$t(common:addressBook) एंट्री नाम के लिए कम से कम 3 और ज़्यादा से ज़्यादा 40 कैरेक्टर की आवश्यकता होती है।",
+        "duplicate": "$t(common:addressBook) में इस नाम `{{ name }}` वाली एंट्री पहले से मौजूद है, कृपया कोई दूसरा नाम चुनें।",
+        "duplicateAddr": "$t(common:addressBook) में इस पते वाली एंट्री पहले से ही {{ address }} नाम के तहत मौजूद है।"
+      }
+    }
+  },
+  "delete": {
+    "confirm": "एंट्री हटाने की पुष्टि करें।"
+  }
+}

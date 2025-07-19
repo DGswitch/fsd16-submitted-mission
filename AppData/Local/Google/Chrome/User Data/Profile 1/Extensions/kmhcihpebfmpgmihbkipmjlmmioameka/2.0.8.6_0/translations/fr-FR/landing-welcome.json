@@ -1,0 +1,12 @@
+{
+  "title": "Bienvenue sur $t(common:appName) !",
+  "caption": "un wallet Cardano multiplateforme",
+  "button": {
+    "next": {
+      "label": "Commencer la configuration"
+    },
+    "watch-tutorial": {
+      "label": "Voir le tutoriel"
+    }
+  }
+}

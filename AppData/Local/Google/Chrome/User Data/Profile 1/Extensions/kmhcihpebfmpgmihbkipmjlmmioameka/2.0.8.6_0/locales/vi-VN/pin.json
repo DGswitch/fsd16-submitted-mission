@@ -1,0 +1,51 @@
+{
+  "createAccess": {
+    "title": {
+      "enter": "Tạo Mã PIN",
+      "confirm": "Xác nhận Mã PIN"
+    },
+    "captionShort": "Đặt mã PIN để truy cập $t(common:appName).",
+    "caption": {
+      "enter": "$t(pin:createAccess.captionShort) Mã này sẽ được yêu cầu mỗi khi bạn mở $t(common:appName).",
+      "confirm": "Để xác nhận mã PIN, hãy nhập lại mã PIN bạn vừa nhập."
+    },
+    "hint": {
+      "enter": "Nhập Mã PIN.",
+      "confirm": "Nhập PIN lần thứ hai để xác nhận."
+    },
+    "confirmed": "Mã PIN đã nhập khớp.",
+    "button": {
+      "label": "Bật PIN"
+    },
+    "error": {
+      "confirm": "Mã PIN không khớp, vui lòng thử lại."
+    }
+  },
+  "access": {
+    "title": "Mã PIN Truy cập",
+    "caption": "Nhập mã PIN truy cập.",
+    "checking": "Đang kiểm tra Mã PIN.",
+    "confirmed": "Mã PIN đã nhập chính xác.",
+    "error": {
+      "confirm": "Mã PIN không chính xác."
+    }
+  },
+  "deleteAccess": {
+    "caption": "Nhập Mã PIN để tắt tính năng này.",
+    "biometrics": "Khi bạn xóa PIN, tính năng sinh trắc học (biometrics) sẽ tự động bị vô hiệu hóa.",
+    "button": {
+      "label": "Tắt PIN",
+      "tooltip": "Nhập PIN hiện tại để cho phép tắt."
+    }
+  },
+  "biometrics": {
+    "login": "Đăng nhập bằng sinh trắc học",
+    "caption": "Vui lòng xác thực bằng FaceID hoặc tính năng sinh trắc học khác.",
+    "fallback": "Đăng nhập bằng Mã PIN",
+    "use": {
+      "ios": "Hoặc sử dụng FaceID hay Vân tay để truy cập wallet.",
+      "android": "Hoặc sử dụng các tính năng sinh trắc học trên điện thoại của bạn để truy cập wallet."
+    }
+  },
+  "comment": "// Các văn bản khác về pin: catalyst:step.pin"
+}

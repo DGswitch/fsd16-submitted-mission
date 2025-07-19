@@ -1,0 +1,251 @@
+{
+  "donation": {
+    "label": "Donatieadres",
+    "hover": "Bedankt voor uw steun!"
+  },
+  "burn": {
+    "label": "Eternl Burn Wallet",
+    "hover": "Burn-adres"
+  },
+  "eternlFee": {
+    "label": "Dapp Browser Fee",
+    "hover": "Een vergoeding die helpt bij het onderhouden van de Eternl-diensten."
+  },
+  "swapFee": {
+    "label": "Servicekosten",
+    "hover": "Een vergoeding die helpt bij het onderhouden van de Eternl-diensten."
+  },
+  "collateral": {
+    "label": "Eternl Collateral Address"
+  },
+  "script": {
+    "label": "Script"
+  },
+  "noscript": {
+    "label": "Geen Script-adres"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Rapportagelabel"
+  },
+  "ext": {
+    "label": "extern",
+    "hover": "Dit adres is onbekend bij Eternl."
+  },
+  "openWallet": {
+    "hover": "Klik om wallet te openen: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Wissel naar account: {{name}}"
+  },
+  "contract": {
+    "hover": "Contract {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "Transactie bevat Catalyst stemregistratie"
+  },
+  "multisig": {
+    "label": "Multi-Sig Reg",
+    "hover": "Transactie bevat Multi-Sig wallet registratie"
+  },
+  "metadata": {
+    "label": "Meta",
+    "hover": "Transactie bevat metadata"
+  },
+  "withdrawal": {
+    "label": "Opname",
+    "hover": "Transactie bevat opname van beloningen"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "Transactie bevat geminte of geburnde token(s)"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Wallet / Stake key registratie"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "Transactie bevat een governance certificaat"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "Wallet de-registratie"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "Stake pool delegatie"
+  },
+  "poolreg": {
+    "label": "Pool reg",
+    "hover": "Stake pool registratie"
+  },
+  "poolupd": {
+    "label": "Pool update",
+    "hover": "Stake pool update"
+  },
+  "poolret": {
+    "label": "Pool retire",
+    "hover": "Stake pool retire"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Cardano native/multi-sig script"
+  },
+  "plutus": {
+    "label": "Contract",
+    "hover": "Cardano Plutus contract"
+  },
+  "onchain": {
+    "label": "On-chain",
+    "hover": "Transactie is opgenomen in een block"
+  },
+  "confirmed": {
+    "label": "Bevestigd",
+    "hover": "Transactie is ondertekend en klaar om te verzenden"
+  },
+  "pendingapproval": {
+    "label": "Goedkeuring in behandeling",
+    "hover": "Transactie wacht op aanvullende handtekeningen van wallet(s) in uw beheer"
+  },
+  "awaitingothers": {
+    "label": "Wachten op anderen",
+    "hover": "Transactie wacht op aanvullende handtekeningen van externe deelnemers"
+  },
+  "invalid": {
+    "label": "Ongeldig",
+    "hover": "Een invoer van deze transactie is uitgegeven in een andere transactie."
+  },
+  "pending": {
+    "label": "In behandeling",
+    "hover": "Transactie wacht nog op uitvoering"
+  },
+  "staging": {
+    "label": "Niet ondertekend",
+    "hover": "Deze transactie is nog niet ondertekend."
+  },
+  "signed": {
+    "label": "Ondertekend",
+    "hover": "Deze transactie is ondertekend maar nog niet ingediend."
+  },
+  "inputSigned": {
+    "label": "Ondertekend",
+    "hover": "De handtekening voor deze invoer is verstrekt."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "De redeemer voor dit contract is verstrekt."
+  },
+  "inputUnsigned": {
+    "label": "Niet ondertekend",
+    "hover": "De handtekening voor deze invoer ontbreekt."
+  },
+  "validFor": {
+    "label": "Geldig voor",
+    "hover": "Transactie wordt uiteindelijk uitgevoerd of wordt ongeldig als een invoer utxo is verbruikt door een andere transactie."
+  },
+  "unlockTimeStamp": {
+    "label": "Ontgrendelen op",
+    "hover": "Deze Staking Vault-tegoeden worden op die datum ontgrendeld."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Deze transactie zet tegoeden vast in de Staking Vault."
+  },
+  "unlimited": {
+    "label": "Geen tijdslimiet",
+    "hover": "Transactie wordt uiteindelijk uitgevoerd of wordt ongeldig als een invoer utxo is verbruikt door een andere transactie."
+  },
+  "expired": {
+    "label": "Verlopen",
+    "hover": "Levensduur van transactie verlopen"
+  },
+  "setTTL": {
+    "label": "TTL instellen",
+    "hover": "Levensduur transactie instellen"
+  },
+  "remove": {
+    "label": "Verwijderen",
+    "hover": "Klik om een verlopen of ongeldige transactie te verwijderen.",
+    "hoverNote": "Verwijder alleen als u weet dat deze transactie niet meer zal worden uitgevoerd."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Eigen wallet-adres"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Extern adres"
+  },
+  "donation_address": {
+    "label": "Donatie",
+    "hover": "$t(common:appName) donatieadres"
+  },
+  "swap_fee": {
+    "label": "Frontend Fee",
+    "hover": "$t(common:appName) frontend fee adres"
+  },
+  "eternl_fee": {
+    "label": "Frontend Fee",
+    "hover": "$t(common:appName) fee adres"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Staking vault timelock adres"
+  },
+  "add_entity": {
+    "label": "+entiteit",
+    "hover": "Stel een entiteitsnaam in voor dit adres."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Smart contract-adres"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Overbrugde cross-chain transactie naar Milkomeda"
+  },
+  "submit": {
+    "label": "Verstuur transactie",
+    "hover": "Transactie is nog niet verzonden. Klik hier om deze te verzenden."
+  },
+  "nosubmitted": {
+    "label": "Niet verzonden",
+    "hover": "Transactie is ondertekend, maar niet verzonden."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Een normaal adres"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Herleid Ada Handle-adres beginnend met $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Herleid Unstoppable Domains-adres eindigend op .clay"
+  },
+  "new": {
+    "label": "Nieuw",
+    "hover": "Ongelezen notificatie"
+  },
+  "updated": {
+    "label": "Bijgewerkt",
+    "hover": "Notificatie-inhoud bijgewerkt sinds laatst gelezen"
+  },
+  "payment": {
+    "label": "Betaling",
+    "hover": "Betalingsscript"
+  },
+  "stake": {
+    "label": "Stake",
+    "hover": "Stake script"
+  }
+}

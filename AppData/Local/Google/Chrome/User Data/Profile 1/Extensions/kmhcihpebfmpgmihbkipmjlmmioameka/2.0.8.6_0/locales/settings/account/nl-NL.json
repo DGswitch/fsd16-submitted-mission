@@ -1,0 +1,175 @@
+{
+  "accountName": {
+    "title": "Actieve Accountnaam",
+    "caption": "Accountnaam instellen voor huidig account",
+    "setting": {
+      "caption": "Werk uw (actieve) accountnaam bij of selecteer/deselecteer een Ada Handle.",
+      "adaHandle": {
+        "select": "Selecteer welke Ada Handle moet worden weergegeven in plaats van de accountnaam (deselecteer om de naam weer te geven):"
+      },
+      "error": {
+        "empty": "Accountnaam mag niet leeg zijn.",
+        "duplicate": "Deze wallet heeft al een account met die naam."
+      }
+    }
+  },
+  "export": {
+    "title": "Accountsleutel Exporteren",
+    "caption": "Exporteer de publieke sleutel van dit account.",
+    "setting": {
+      "caption": "Exporteer de publieke sleutel van dit account. Het importeren van een publieke sleutel herstelt de accountgeschiedenis in een alleen-lezen modus waarbij ondertekenen is uitgeschakeld.",
+      "tooltip": {
+        "acct_xvk": "Ed25519-bip32 uitgebreide publieke sleutel",
+        "xpub": "Ed25519-bip32 uitgebreide publieke sleutel",
+        "acct_vk": "Ed25519 publieke sleutel"
+      }
+    }
+  },
+  "samMode": {
+    "title": "Single Address Mode (SAM)",
+    "caption": "Gebruik slechts één adres voor alle transacties.",
+    "setting": {
+      "caption": "Indien ingeschakeld, wordt al het saldo standaard op het eerste ontvangstadres aangehouden.",
+      "enabled": "$t(settings/account:samMode.title) ingeschakeld",
+      "disabled": "$t(settings/account:samMode.title) uitgeschakeld",
+      "customAddress": "Aangepast ontvangstadres",
+      "unset": "$t(common:unset)",
+      "banner": {
+        "customAddress": {
+          "title": "Belangrijk!",
+          "text": "Het instellen van een aangepast ontvangstadres zorgt ervoor dat al het wisselgeld en het ontvangstadres naar dit adres gaan, zelfs als het niet van dit account is. Controleer zorgvuldig of het juiste adres is ingesteld."
+        }
+      },
+      "notification": {
+        "wrongInput": "Dit is geen geldig adres.",
+        "wrongNetwork": "Dit adres is van een ander netwerk.",
+        "notOwned": "Dit adres behoort niet tot dit account en kan niet worden gebruikt als aangepast ontvangstadres.",
+        "nonStaking": "Het saldo op dit ontvangstadres is gestaked met een externe stake key. U heeft geen controle over de beloningen die het oplevert.",
+        "success": "Aangepast ontvangstadres ingesteld.",
+        "error": "Opslaan aangepast ontvangstadres mislukt!"
+      }
+    }
+  },
+  "collateral": {
+    "title": "Collateral",
+    "caption": "Door Eternl verstrekte collateral gebruiken?",
+    "setting": {
+      "caption": "Indien ingeschakeld, zal Eternl collateral verstrekken voor het account.",
+      "info": "Interactie met smart contracts kan collateral vereisen voor het geval een transactie mislukt. Dit wordt automatisch afgehandeld door Eternl als een geschikte UTxO is gevonden.",
+      "waiting": "U heeft een collateral transactie ingediend. Een ogenblik geduld, deze is nog niet bevestigd.",
+      "foundCollateral": "Er is al een collateral UTxO voor dit account aanwezig. Deze wordt gebruikt bij interactie met smart contracts.",
+      "eternl": {
+        "label": "Door Eternl verstrekte collateral",
+        "enabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:enabled)",
+        "disabled": "$t(settings/account:collateral.setting.eternl.label) $t(common:disabled)"
+      },
+      "noCollateral": "Geen collateral UTxO gevonden. Stel er een in door op de onderstaande knop te drukken.",
+      "button": {
+        "setCollateral": {
+          "label": "Collateral Instellen",
+          "tooltip": "Stel een collateral UTxO in voor dit account."
+        }
+      },
+      "error": {
+        "label": "Fout:"
+      },
+      "multiAccount": {
+        "warning": {
+          "note": "Let op!",
+          "headline": "Collateral is een instelling op accountniveau."
+        },
+        "info": {
+          "text": "$t(common:appName) kan elke UTxO zonder tokens en met een waarde tussen ####minimumCollateral#### en ####maximumCollateral#### als collateral gebruiken. Wanneer u deze instelling activeert, zoekt het naar een geschikte UTxO. Als er geen beschikbaar is, wordt een knop getoond om er een in te stellen."
+        }
+      }
+    }
+  },
+  "manualSync": {
+    "title": "Handmatige Sync",
+    "caption": "Handmatige sync instellen",
+    "setting": {
+      "caption": "Synchroniseer de wallet handmatig. Indien ingeschakeld, moet de wallet handmatig worden gesynchroniseerd door op het sync-pictogram te klikken.",
+      "enabled": "$t(settings/account:manualSync.title) ingeschakeld",
+      "disabled": "$t(settings/account:manualSync.title) uitgeschakeld"
+    }
+  },
+  "historySync": {
+    "title": "Geschiedenis Sync",
+    "caption": "Geschiedenis sync instellen",
+    "setting": {
+      "caption": "Indien ingeschakeld, synchroniseert de wallet de volledige transactiegeschiedenis van het account. Anders worden alleen de laatste 1000 transacties gesynchroniseerd. Synchroniseren gebeurt in batches en kan enige tijd duren voor accounts met een grote geschiedenis.",
+      "enabled": "$t(settings/account:historySync.title) ingeschakeld",
+      "disabled": "$t(settings/account:historySync.title) uitgeschakeld",
+      "syncing": "De geschiedenissynchronisatie is nog bezig. Wachten om {{AMOUNT}} items te synchroniseren."
+    }
+  },
+  "tokenFragmentation": {
+    "title": "Tokenfragmentatie (TF)",
+    "caption": "Verlaag transactiekosten door tokens te fragmenteren.",
+    "fragment": {
+      "label": "Tokenbundelgrootte",
+      "error": "Tokenbundelgrootte limiet: 1-{{MAX_TOKEN_BUNDLE_SIZE}}.",
+      "info": "Stelt het aantal tokens in dat elke UTxO output moet bevatten. Het is een afweging tussen lage transactiekosten en de hoeveelheid fondsen vastgezet in de wallet.\nkleine bundelgrootte -> lage kosten, meer Ada vastgezet.\ngrote bundelgrootte -> hogere kosten, minder Ada vastgezet."
+    },
+    "setting": {
+      "caption": "Splits tokens in bundels bij verzenden als er meer tokens in het wisselgeld zitten dan de ingestelde waarde. Afhankelijk van de wallet UTxO/Token-distributie en het gewenste resultaat, moeten de waarden mogelijk worden aangepast voor een optimaal resultaat.",
+      "enabled": "$t(settings/account:tokenFragmentation.title) ingeschakeld",
+      "disabled": "$t(settings/account:tokenFragmentation.title) uitgeschakeld"
+    }
+  },
+  "advancedUtxoManagement": {
+    "title": "Geavanceerd UTxO Beheer",
+    "caption": "Gebruik geavanceerd UTxO beheer voor uw transacties.",
+    "setting": {
+      "caption": "Indien ingeschakeld, gebruikt $t(common:appName) geavanceerd UTxO beheer voor uw transacties.",
+      "subCaption": "Het houdt 10 UTxOs beschikbaar voor parallelle uitvoering van transacties. Het probeert ook een 5 ADA collateral UTxO beschikbaar te houden voor smart contract interacties.",
+      "enabled": "$t(settings/account:advancedUtxoManagement.title) ingeschakeld",
+      "disabled": "$t(settings/account:advancedUtxoManagement.title) uitgeschakeld"
+    }
+  },
+  "autoWithdrawal": {
+    "title": "Automatisch Opnemen",
+    "caption": "Neem beloningen automatisch op indien nodig.",
+    "setting": {
+      "caption": "Indien ingeschakeld, worden beloningen automatisch opgenomen indien nodig bij het aanmaken van een transactie. Indien uitgeschakeld of voor geforceerd handmatig opnemen, gebruik de Opnameknop op de Overzichtspagina.",
+      "enabled": "$t(settings/account:autoWithdrawal.title) ingeschakeld",
+      "disabled": "$t(settings/account:autoWithdrawal.title) uitgeschakeld"
+    }
+  },
+  "unStake": {
+    "title": "wallet unstaken\n(wallet de-registreren)",
+    "caption": "Huidige account de-delegeren van elke pool en een de-registratie transactie aanmaken.",
+    "setting": {
+      "caption": "Deze actie maakt een account de-registratie transactie aan. Zodra voltooid, wordt het account gede-delegeerd van elke pool, en de key deposit van toen het account voor het eerst werd gedelegeerd, wordt terugbetaald.",
+      "subCaption": "Let op: alle openstaande beloningen van pool delegation, catalyst rewards, etc. gaan verloren wanneer het account wordt gede-registreerd!",
+      "acknowledged": "Ik begrijp dat alle openstaande beloningen verloren gaan.",
+      "noUtxo": "{{currency}} nodig om de de-registratie transactiekosten te betalen.",
+      "button": {
+        "deReg": {
+          "label": "Account De-registreren",
+          "tooltip": "Account de-registreren van pool delegation"
+        }
+      }
+    }
+  },
+  "deRegDRep": {
+    "title": "De-registreren als DRep",
+    "caption": "Maak een DRep de-registratie transactie aan. De voting power die aan die DRep is gedelegeerd, gaat verloren.",
+    "setting": {
+      "caption": "Dit maakt een DRep de-registratie transactie aan. De voting power die aan die DRep is gedelegeerd, gaat verloren.",
+      "subCaption": "Om de mogelijkheid terug te krijgen om staking rewards op te nemen, moet u uw account delegeren aan een andere DRep.",
+      "acknowledged": "Ik begrijp dat alle gedelegeerde voting power verloren gaat.",
+      "noUtxo": "{{currency}} nodig om de de-registratie transactiekosten te betalen.",
+      "button": {
+        "deReg": {
+          "label": "Account De-registreren",
+          "tooltip": "Account de-registreren van pool delegation"
+        }
+      }
+    }
+  },
+  "reporting": {
+    "title": "Rapportage",
+    "caption": "Instellingen voor export belastingrapportage."
+  }
+}

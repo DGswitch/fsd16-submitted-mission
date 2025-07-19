@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Adresse eller $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Kan ikke tilføje flere aktiver.",
+      "text": "Denne transaktionsoutput kan ikke indeholde flere aktiver. Opret en ny output (kan have den samme adresse) for at tilføje flere."
+    }
+  },
+  "mode": {
+    "tooltip": "Vælg manuelt adressetypen."
+  },
+  "error": {
+    "addAddress": "Tilføj en modtageradresse at sende til."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "title": {
+    "wallets": "Beralih antar dompet.",
+    "accounts": {
+      "select": "akun",
+      "manage": "$t(common:button.manageAccounts)"
+    }
+  },
+  "caption": {
+    "wallets": {
+      "select": "Pilih wallet spesifik untuk beralih antar akun.",
+      "ui": "$t(selectAccount:caption.wallets.select)",
+      "dapp": "Ganti akun $t(common:dApp) yang aktif."
+    },
+    "accounts": {
+      "select": "Pilih akun dari daftar. Tandai akun sebagai favorit dengan mengeklik ikon bintang.",
+      "manage": "Tambah atau hapus akun, pilih indeks akun spesifik atau atur nama akun."
+    }
+  },
+  "groups": {
+    "placeholder": "Pilih grup wallet yang aktif",
+    "favoriteAccounts": "#Akun favorit"
+  },
+  "button": {
+    "addWallet": "$t(common:button.addWallet)",
+    "addAccount": "$t(common:button.addAccount)",
+    "manageAccounts": "$t(common:button.manageAccounts)"
+  },
+  "manageAccounts": {
+    "name": "Nama akun:",
+    "index": "Indeks:",
+    "limit": "Batas:",
+    "remove": {
+      "tooltip": "Hapus akun"
+    }
+  },
+  "signAddAccounts": {
+    "title": "Tambah Akun Baru"
+  }
+}

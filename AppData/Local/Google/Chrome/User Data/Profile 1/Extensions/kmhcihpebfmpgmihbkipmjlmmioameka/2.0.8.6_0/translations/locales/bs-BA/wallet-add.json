@@ -1,0 +1,24 @@
+{
+  "title": "Odaberi tip wallet",
+  "caption": "Ako si novi korisnik, kreiraj novi wallet.\nPoveži svoj Ledger ili importuj JSON backup.",
+  "create": {
+    "label": "Novi Wallet",
+    "caption": "Generiši potpuno novi wallet"
+  },
+  "hardware": {
+    "label": "Poveži Hardware",
+    "caption": "Koristi svoj Ledger, Trezor ili Keystone uređaj sa Eternl"
+  },
+  "restore": {
+    "label": "Unesi Seed-phrase",
+    "caption": "Koristi svoju seed-phrase od 24, 15 ili 12 riječi"
+  },
+  "multiSig": {
+    "label": "Multi-Sig Wallet",
+    "caption": "Kreiraj ili se pridruži multi-signature wallet"
+  },
+  "more": {
+    "label": "Više",
+    "caption": "Prikaži dodatne opcije za import wallet"
+  }
+}

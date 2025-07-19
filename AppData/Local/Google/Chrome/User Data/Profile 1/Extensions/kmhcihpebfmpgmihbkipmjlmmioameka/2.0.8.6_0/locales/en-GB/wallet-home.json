@@ -1,0 +1,13 @@
+{
+  "header":                   "Home",
+  "send":                     "Send",
+  "receive":                  "Receive",
+  "swap":                     "Swap",
+  "recent-transactions":      "Recent transactions",
+  "see-all":                  "See All",
+  "address-book":             "Address book",
+  "price-chart-header":       "PRICE CHARD ADA/USD",
+  "chart-line":               "Line",
+  "chart-candle":             "Candlestick",
+  "buyADA":                   "Buy ADA"
+}

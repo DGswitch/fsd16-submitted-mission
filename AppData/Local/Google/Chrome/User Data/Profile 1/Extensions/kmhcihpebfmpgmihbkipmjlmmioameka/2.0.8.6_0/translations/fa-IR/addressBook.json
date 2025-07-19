@@ -1,0 +1,39 @@
+{
+  "title": "$t(common:addressBook)",
+  "noEntries": "هنوز هیچ ورودی در $t(common:addressBook) وجود ندارد.",
+  "button": {
+    "addEntry": "$t(common:button.addEntry)",
+    "export": "$t(common:export)",
+    "import": "$t(common:import)",
+    "acceptNewAddress": "پذیرش آدرس جدید"
+  },
+  "badge": {
+    "hover": "ورودی $t(common:addressBook): {{ name }} ({{ mode }})"
+  },
+  "import": {
+    "title": "وارد کردن ورودی‌های $t(common:addressBook)",
+    "caption": "وارد کردن ورودی‌های $t(common:addressBook) از یک فایل پشتیبان."
+  },
+  "overwrite": {
+    "title": "بازنویسی ورودی $t(common:addressBook)",
+    "caption": "تأیید به‌روزرسانی ورودی با نام {{name}}."
+  },
+  "add": {
+    "title": "افزودن به $t(common:addressBook)",
+    "caption": {
+      "main": "افزودن یک ورودی به $t(common:addressBook).",
+      "prefilled": "تمام مقادیر از پیش پر شده‌اند و ورودی‌ها غیرفعال هستند."
+    },
+    "name": {
+      "label": "نام ورودی",
+      "error": {
+        "length": "نام ورودی $t(common:addressBook) باید حداقل ۳ و حداکثر ۴۰ کاراکتر باشد.",
+        "duplicate": "یک ورودی $t(common:addressBook) با این نام `{{ name }}` از قبل وجود دارد، لطفاً نام دیگری انتخاب کنید.",
+        "duplicateAddr": "یک ورودی $t(common:addressBook) با این آدرس از قبل با نام {{ address }} وجود دارد."
+      }
+    }
+  },
+  "delete": {
+    "confirm": "تأیید حذف ورودی."
+  }
+}

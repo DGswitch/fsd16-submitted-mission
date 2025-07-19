@@ -1,0 +1,12 @@
+{
+  "title": "$t(common:appName)'e Hoş Geldiniz!",
+  "caption": "çok platformlu bir Cardano wallet",
+  "button": {
+    "next": {
+      "label": "Kurulumu başlat"
+    },
+    "watch-tutorial": {
+      "label": "Eğitimi izle"
+    }
+  }
+}

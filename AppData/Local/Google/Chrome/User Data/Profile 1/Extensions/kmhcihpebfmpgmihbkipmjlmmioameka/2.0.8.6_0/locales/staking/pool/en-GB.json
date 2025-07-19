@@ -1,0 +1,79 @@
+{
+  "spo":                      "operates a single stake pool",
+  "mpo":                      "operates {{count}} stake pools",
+
+  "retired":                  "Retired in epoch {{epoch}}",
+  "retiredIn":                "Retired in epoch {{epoch}}",
+
+  "noRewards":                "This pool will earn NO {{adaSymbol}} rewards.",
+  "lessRewards":              "This pool will earn less rewards than usual.",
+
+  "history":                  "Reward History",
+  "fees":                     "Fees",
+
+  "saturation": {
+
+    "label":                  "$t(common:saturation)",
+    "tooltip":                "Green: within optimal range. Red: earns less rewards."
+  },
+
+  "pledge": {
+
+    "label":                  "$t(common:pledge)",
+    "tooltip":                "$t(staking/pool:noRewards)"
+  },
+
+  "margin": {
+
+    "label":                  "$t(common:margin)",
+    "tooltip":                "Green: within normal range. Red: earns less rewards."
+  },
+
+  "ros": {
+
+    "label":                  "$t(common:ros)",
+    "tooltip":                "Return On Stake. Performance of past 12 epochs. Green: within normal range. ROS will fluctuate more for pools with less stake."
+  },
+
+  "withdrawal": {
+
+    "button": {
+
+      "label":                "Claim rewards",
+      "syncing":              "Wallet is syncing",
+      "norewards":            "No rewards available"
+    }
+  },
+
+  "staking-card": {
+
+    "rewards":                "$t(common:rewards)",
+
+    "times": {
+
+      "month":                "Last month",
+      "3months":              "Last 3 months",
+      "6months":              "Last 6 months",
+      "year":                 "Last year"
+    },
+
+    "view-history":           "View History",
+    "view-graph": {
+
+      "stake-key":            "account stake key"
+    },
+
+    "approx-earning":         "Estimated rewards over the next year",
+    "unclaimed-ada":          "Unclaimed ADA",
+
+    "lifetime-earning":       "Overall you made",
+    "lifetime-apy":           "Lifetime APY",
+    "lifetime-earned":        "since you started staking",
+
+    "epoch-ends-in":          "This epoch ends in",
+
+    "search":                 "Enter a ticket, name or details",
+    "delegate":               "Choose this pool",
+    "openPoolList":           "Open pool list"
+  }
+}

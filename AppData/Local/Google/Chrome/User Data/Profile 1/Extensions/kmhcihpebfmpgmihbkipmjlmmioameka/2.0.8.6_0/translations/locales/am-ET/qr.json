@@ -1,0 +1,19 @@
+{
+  "scan": {
+    "title": "QR ኮድ ስካን አድርግ",
+    "short": "QR"
+  },
+  "loading": "ካሜራ እየተጀመረ ነው።",
+  "error": {
+    "notAllowed": "እባክዎ የካሜራ መዳረሻ ፍቃድ ይስጡ።",
+    "notFound": "በመሳሪያው ላይ ምንም ካሜራ አልተገኘም።",
+    "notSupported": "ደህንነቱ የተጠበቀ አውድ ያስፈልጋል (HTTPS, localhost)።",
+    "notReadable": "ካሜራው አስቀድሞ ጥቅም ላይ ውሏል?",
+    "overconstrained": "የተጫኑ ካሜራዎች ተስማሚ አይደሉም።",
+    "streamApiNotSupported": "Stream API በዚህ አሳሽ አይደገፍም።",
+    "insecureContext": "የካሜራ መዳረሻ የሚፈቀደው ደህንነቱ በተጠበቀ አውድ ውስጥ ብቻ ነው። ከ HTTP ይልቅ HTTPS ወይም localhost ይጠቀሙ።"
+  },
+  "bex": {
+    "fullscreenNotice": "የካሜራ መዳረሻን ለመፍቀድ ቅጥያውን በሙሉ ስክሪን ሁነታ ይክፈቱት። ይህ አንድ ጊዜ ብቻ መደረግ አለበት።\nወደ ሙሉ ስክሪን ለመሄድ በዚህ ጽሑፍ ላይ ጠቅ ያድርጉ።"
+  }
+}

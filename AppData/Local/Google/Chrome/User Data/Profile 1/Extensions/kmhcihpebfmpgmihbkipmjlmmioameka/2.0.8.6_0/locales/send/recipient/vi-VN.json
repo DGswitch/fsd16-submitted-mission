@@ -1,0 +1,17 @@
+{
+  "address": {
+    "placeholder": "Địa chỉ hoặc $AdaHandle"
+  },
+  "banner": {
+    "outputFull": {
+      "title": "Không thể thêm tài sản khác.",
+      "text": "Đầu ra giao dịch này không thể chứa thêm tài sản. Tạo một đầu ra mới (có thể có cùng địa chỉ) để thêm."
+    }
+  },
+  "mode": {
+    "tooltip": "Chọn loại địa chỉ theo cách thủ công."
+  },
+  "error": {
+    "addAddress": "Thêm địa chỉ người nhận để gửi đến."
+  }
+}

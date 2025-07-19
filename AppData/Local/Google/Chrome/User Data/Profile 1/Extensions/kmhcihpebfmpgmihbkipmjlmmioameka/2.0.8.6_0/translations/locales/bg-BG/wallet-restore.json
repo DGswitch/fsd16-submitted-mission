@@ -1,0 +1,22 @@
+{
+  "phraseLength": {
+    "12": {
+      "label": "Фраза от 12 думи",
+      "caption": "Shelley wallet с 12 думи."
+    },
+    "15": {
+      "label": "Фраза от 15 думи",
+      "caption": "Например, Yoroi Shelley wallet."
+    },
+    "24": {
+      "label": "Фраза от 24 думи",
+      "caption": "Shelley wallet, създаден от, например, Eternl или Daedalus."
+    },
+    "title": "Тип сийд фраза",
+    "caption": "Какъв тип wallet искаш да възстановиш?"
+  },
+  "phrase": {
+    "title": "$t(wallet-add-common:phrase.title)",
+    "caption": "Въведи запазената си сийд фраза"
+  }
+}

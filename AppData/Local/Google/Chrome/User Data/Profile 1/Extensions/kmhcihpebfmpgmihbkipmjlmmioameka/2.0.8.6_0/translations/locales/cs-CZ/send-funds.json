@@ -1,0 +1,54 @@
+{
+  "title": "Rozpis dostupných prostředků",
+  "toggleInfo": {
+    "active": "Zobrazit popis",
+    "inactive": "Zobrazit rozpis"
+  },
+  "total": {
+    "label": "Prostředky na UTxO"
+  },
+  "selected": {
+    "label": "Vybrané UTxO",
+    "info": "Celková částka všech ručně vybraných UTxO."
+  },
+  "rewards": {
+    "label": "Odměny (ne UTxO)",
+    "info": "Nashromážděné odměny, které lze vybrat, pokud je účet delegován na DRep."
+  },
+  "lockedInPendingInputs": {
+    "label": "Čekající vstupy",
+    "info": "Tyto prostředky se používají v čekající transakci."
+  },
+  "lockedByCollateral": {
+    "label": "Kolaterál (není uzamčený)",
+    "info": "Uzamčené prostředky, které $t(common:appName) použije jako kolaterál - Pokud chceš tyto prostředky utratit, zruš kolaterál v nastavení účtu."
+  },
+  "lockedUtxo": {
+    "label": "Uzamčené UTxO",
+    "info": "Uzamčené prostředky, které $t(common:appName) nebo dapps nemohou utratit - Ručně vyber utxos, které chceš odemknout, na stránce: Účet > UTxO List."
+  },
+  "lockedbytokens": {
+    "label": "Vázáno na tokeny",
+    "info": "V rámci Cardano má každý token/NFT nějakou tu {{currency}} navíc. Zablokované množství tokenů ti (odhadem) říká, kolik to je pro tvoji současnou wallet."
+  },
+  "lockedByTokensTF": {
+    "label": "Pro fragmentaci tokenů",
+    "info": "Uspořádání všech tvých UTxO pomocí fragmentace tokenů by vázalo tolik {{currency}}."
+  },
+  "lockedAsRewards": {
+    "label": "Uzamčené odměny",
+    "info": "Odměny nelze utrácet v dapps a musí se nejprve vybrat. $t(common:appName) to může udělat automaticky, přejdi na: Účet > Wallet Settings > Automatické výběry a povol to. Účet pro to musí být delegován na možnost DRep."
+  },
+  "lockedFees": {
+    "label": "Transakční poplatky",
+    "info": "Odesílání transakcí do Cardano blockchain stojí transakční poplatky."
+  },
+  "lockedTotal": {
+    "label": "Odhadem uzamčeno",
+    "info": "Vypočítaná celková uzamčená částka."
+  },
+  "available": {
+    "label": "Odhadem k dispozici",
+    "info": "Toto jsou prostředky po odečtení všech uzamčených prostředků, které lze odeslat."
+  }
+}

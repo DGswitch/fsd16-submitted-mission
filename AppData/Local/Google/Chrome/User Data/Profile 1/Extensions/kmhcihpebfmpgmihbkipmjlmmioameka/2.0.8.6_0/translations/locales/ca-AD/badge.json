@@ -1,0 +1,255 @@
+{
+  "donation": {
+    "label": "Adreça de donació",
+    "hover": "Gràcies pel teu suport!"
+  },
+  "eternlburn": {
+    "label": "Eternl Crema Wallet",
+    "hover": "Adreça de crema"
+  },
+  "eternlFee": {
+    "label": "Comissió del navegador Dapp",
+    "hover": "Una comissió que ajuda a mantenir els serveis d'Eternl."
+  },
+  "swapFee": {
+    "label": "Comissió de servei",
+    "hover": "Una comissió que ajuda a mantenir els serveis d'Eternl."
+  },
+  "collateral": {
+    "label": "Adreça de col·lateral d'Eternl"
+  },
+  "script": {
+    "label": "Script"
+  },
+  "noscript": {
+    "label": "No és una adreça de Script"
+  },
+  "handle": {
+    "hover": "Ada Handle: {{name}}"
+  },
+  "reporting": {
+    "hover": "Etiqueta d'informe"
+  },
+  "ext": {
+    "label": "extern",
+    "hover": "Eternl no coneix aquesta adreça."
+  },
+  "openWallet": {
+    "hover": "Fes clic per obrir wallet: {{name}}"
+  },
+  "switchAccount": {
+    "hover": "Canvia al compte: {{name}}"
+  },
+  "contract": {
+    "hover": "Contracte {{label}}"
+  },
+  "catalyst": {
+    "label": "Catalyst",
+    "hover": "La transacció conté el registre de votació de Catalyst"
+  },
+  "multisig": {
+    "label": "Reg Multi-Sig",
+    "hover": "La transacció conté el registre Multi-Sig wallet"
+  },
+  "metadata": {
+    "label": "Meta",
+    "hover": "La transacció conté metadata"
+  },
+  "withdrawal": {
+    "label": "Retirada",
+    "hover": "La transacció conté la retirada de recompenses"
+  },
+  "mint": {
+    "label": "Mint",
+    "hover": "La transacció conté tokens encunyats"
+  },
+  "burn": {
+    "label": "Crema",
+    "hover": "La transacció conté tokens cremats"
+  },
+  "reg": {
+    "label": "Reg",
+    "hover": "Registre de clau Wallet / Stake"
+  },
+  "gov": {
+    "label": "Gov",
+    "hover": "La transacció conté un certificat de governança"
+  },
+  "dereg": {
+    "label": "De-reg",
+    "hover": "Anul·lació de registre de Wallet"
+  },
+  "delegation": {
+    "label": "Del",
+    "hover": "Delegació de pool de staking"
+  },
+  "poolreg": {
+    "label": "Pool reg",
+    "hover": "Registre del pool de staking"
+  },
+  "poolupd": {
+    "label": "Pool update",
+    "hover": "Actualització del pool de staking"
+  },
+  "poolret": {
+    "label": "Pool retire",
+    "hover": "Retirada del pool de staking"
+  },
+  "nativescript": {
+    "label": "Script",
+    "hover": "Script natiu/multi-sig de Cardano"
+  },
+  "plutus": {
+    "label": "Contracte",
+    "hover": "Contracte Plutus de Cardano"
+  },
+  "onchain": {
+    "label": "On-chain",
+    "hover": "La transacció es va incloure en un bloc"
+  },
+  "confirmed": {
+    "label": "Confirmat",
+    "hover": "La transacció està signada i a punt per enviar-se"
+  },
+  "pendingapproval": {
+    "label": "Pendent d'aprovació",
+    "hover": "La transacció està esperant signatures addicionals de wallet(s) sota el teu control"
+  },
+  "awaitingothers": {
+    "label": "Esperant als altres",
+    "hover": "La transacció està esperant signatures addicionals de participants externs"
+  },
+  "invalid": {
+    "label": "No vàlida",
+    "hover": "Una entrada d'aquesta transacció s'ha gastat en una transacció diferent."
+  },
+  "pending": {
+    "label": "Pendent",
+    "hover": "La transacció encara està pendent d'execució"
+  },
+  "staging": {
+    "label": "Sense signar",
+    "hover": "Aquesta transacció encara no s'ha signat."
+  },
+  "signed": {
+    "label": "Signada",
+    "hover": "Aquesta transacció està signada però encara no s'ha enviat."
+  },
+  "inputSigned": {
+    "label": "Signada",
+    "hover": "S'ha proporcionat la signatura per a aquesta entrada."
+  },
+  "inputSignedSC": {
+    "label": "SC",
+    "hover": "S'ha proporcionat el redemptor per a aquest contracte."
+  },
+  "inputUnsigned": {
+    "label": "Sense signar",
+    "hover": "Falta la signatura per a aquesta entrada."
+  },
+  "validFor": {
+    "label": "Vàlida per a",
+    "hover": "La transacció s'executarà eventualment o no serà vàlida si una entrada utxo ha estat consumida per una transacció diferent."
+  },
+  "unlockTimeStamp": {
+    "label": "Desbloquejar a",
+    "hover": "Aquests fons de Staking Vault es desbloquejaran en aquesta data."
+  },
+  "stakingvault": {
+    "label": "Staking Vault",
+    "hover": "Aquesta transacció bloqueja fons a Staking Vault."
+  },
+  "unlimited": {
+    "label": "Sense límit de temps",
+    "hover": "La transacció s'executarà eventualment o no serà vàlida si una entrada utxo ha estat consumida per una transacció diferent."
+  },
+  "expired": {
+    "label": "Caducada",
+    "hover": "El temps de vida de la transacció ha caducat"
+  },
+  "setTTL": {
+    "label": "Establir TTL",
+    "hover": "Estableix el temps de vida de la transacció"
+  },
+  "remove": {
+    "label": "Elimina",
+    "hover": "Fes clic per eliminar una transacció caducada o no vàlida.",
+    "hoverNote": "Només elimina-la si saps que aquesta transacció ja no s'executarà."
+  },
+  "own_address": {
+    "label": "acc",
+    "hover": "Adreça pròpia de wallet"
+  },
+  "ext_address": {
+    "label": "ext",
+    "hover": "Adreça externa"
+  },
+  "donation_address": {
+    "label": "Donació",
+    "hover": "Adreça de donació $t(common:appName)"
+  },
+  "swap_fee": {
+    "label": "Comissió de Frontend",
+    "hover": "Adreça de comissió de frontend $t(common:appName)"
+  },
+  "eternl_fee": {
+    "label": "Comissió de Frontend",
+    "hover": "Adreça de comissió $t(common:appName)"
+  },
+  "sv": {
+    "label": "Staking Vault",
+    "hover": "Adreça de bloqueig temporal de Staking vault"
+  },
+  "add_entity": {
+    "label": "+entity",
+    "hover": "Estableix un nom d'entitat per a aquesta adreça."
+  },
+  "script_address": {
+    "label": "Script",
+    "hover": "Adreça de contracte intel·ligent"
+  },
+  "milkomeda": {
+    "label": "Milkomeda",
+    "hover": "Transacció de pont entre cadenes a Milkomeda"
+  },
+  "submit": {
+    "label": "envia la transacció",
+    "hover": "La transacció encara no s'ha enviat. Fes clic aquí per enviar-la."
+  },
+  "nosubmitted": {
+    "label": "no enviada",
+    "hover": "La transacció s'ha signat, però no s'ha enviat."
+  },
+  "cardano": {
+    "label": "Cardano",
+    "hover": "Una adreça normal"
+  },
+  "cardanoScript": {
+    "label": "$t(badge:script_address.label)",
+    "hover": "$t(badge:script_address.hover)"
+  },
+  "adaHandle": {
+    "label": "Ada Handle",
+    "hover": "Adreça Ada Handle resolta que comença amb $"
+  },
+  "unstoppableDomains": {
+    "label": "Unstoppable Domains",
+    "hover": "Adreça Unstoppable Domains resolta que acaba en .clay"
+  },
+  "new": {
+    "label": "Nou",
+    "hover": "Notificació sense llegir"
+  },
+  "updated": {
+    "label": "Actualitzat",
+    "hover": "Contingut de la notificació actualitzat des de l'última lectura"
+  },
+  "payment": {
+    "label": "Pagament",
+    "hover": "Script de pagament"
+  },
+  "stake": {
+    "label": "Stake",
+    "hover": "Script de stake"
+  }
+}
