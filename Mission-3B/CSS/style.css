@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica',sans-serif;
+    letter-spacing: 0.5px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top right, #04000e, #2d0c58, #09001c, #04000e, #04000e);
+    background-size: cover;
+    background-position: center;
+}
+
+.signIn-form {
+    display: block;
+    width: 24em;
+    height: 100%;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+    color: #fff;
+    box-shadow: 0 0 65px rgba(0, 0, 0, 0.5);
+    padding: 1.2rem 50px;
+    border-radius: 15px;
+    margin: 0 auto;
+}
+
+.signIn-form svg {
+    width: 14rem;
+    max-width: 150%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    fill: white;
+}
+
+.signIn-form h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    color: white;
+    margin: 20px 0 0 0;
+    font-weight: 600;
+}
+
+.signIn-form h3 {
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    margin: 5px 0 20px 0;
+    font-weight: 400;
+}
+
+.signIn-form:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-color: #a564e2;
+    box-shadow: 0 0 95px #8a2be2;
+    block-size: 110%;
+    transition: all 1s ease-in-out;
+}
+
+.signIn-form h2 {
+    text-align: none;
+    color: white;
+    font-size: 1.4rem;
+    margin: 10px 0 -8px 10px;
+    font-weight: 400;
+}
+
+.register-link {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 15px 0 10px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.502);
+}
+
+.register-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.register-link a:hover {
+    color: #8a2be2;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+}
+
+.line-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.line-divider {
+    align-items: center;
+    margin-top: 12px;
+    margin: 12px 8px 0 8px;
+    width: 45%;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+}
+
+.register-link h4 {
+    font-size: 0.8rem;
+    text-align: center;
+    margin: 20px 0 10px 0;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* google button */
+.signIn-form .btn-google {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    background: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #8a2be2;
+    font-weight: 400;
+    margin-bottom: 30px;
+    gap: 0.4rem;
+}
+
+.signIn-form .btn-google:hover {
+    color: #a564e2;
+    box-shadow: 0 0 10px #a564e2;
+    transition: all 0.25s ease-in-out;
+}
+
+.signIn-form .btn-google img {
+    position: relative;
+    width: 1.6rem;
+}
+
+.signIn-form .btn-google a {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: #170535;
+    align-items: center;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    html {
+        font-size: 100%;
+    }
+}
+    
+/* Laptop */
+@media (max-width: 992px) {
+html {
+    font-size: 90%;
+}
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 85%;
+    }
+    .signIn-form .remember-forgot {
+        font-size: 0.6rem;
+    }
+}
+
+
+/* Mobile Phone */
+@media (max-width: 576px) {
+    html {
+        font-size: 75%;
+    }
+
+    .signIn-form .remember-forgot {
+        font-size: 0.5rem;
+    }
+}

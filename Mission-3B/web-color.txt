@@ -1,0 +1,19 @@
+//Light//
+#e6d7f3
+#c09ce2
+
+//Primary//
+#a564e2   <<
+#8a2be2
+
+//Dark//
+#2d0c58
+#170535   <<
+#09001c
+#04000e
+
+//Secondary//
+#fff83d
+#a29d06
+#3a7ef2
+#bc071c   <<<
